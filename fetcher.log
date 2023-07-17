@@ -1,0 +1,59 @@
+[2023-07-18 00:00:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18922891]
+[2023-07-18 00:00:47] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-18 00:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: looker-sdk
+[2023-07-18 00:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: khoj-assistant
+[2023-07-18 00:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Energon-Prometheus-exporter-test
+[2023-07-18 00:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lamini-configuration
+[2023-07-18 00:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-nightly-intel
+[2023-07-18 00:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tecton
+[2023-07-18 00:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coiled
+[2023-07-18 00:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: faasmctl
+[2023-07-18 00:00:47] INFO root fetch - processPackages [looker-sdk]: New version: [7.20.0] Old Version: [23.8.1]
+[2023-07-18 00:00:47] WARNING root fetch - processPackages [lamini-configuration]: Skipping, unable to determine old version
+[2023-07-18 00:00:47] INFO root fetch - main [MainThread]: End processing [lamini-configuration] error
+[2023-07-18 00:00:47] WARNING root fetch - processPackages [Energon-Prometheus-exporter-test]: Skipping, unable to determine old version
+[2023-07-18 00:00:47] INFO root fetch - main [MainThread]: End processing [Energon-Prometheus-exporter-test] error
+[2023-07-18 00:00:47] INFO root fetch - processPackages [faasmctl]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-07-18 00:00:47] INFO root fetch - processPackages [khoj-assistant]: New version: [0.8.3.dev8] Old Version: [0.8.3.dev4]
+[2023-07-18 00:00:47] INFO root fetch - processPackages [tecton]: New version: [0.7.0rc1] Old Version: [0.7.0rc0]
+[2023-07-18 00:00:47] INFO root fetch - processPackages [coiled]: New version: [0.8.9.dev9] Old Version: [0.8.9.dev6]
+[2023-07-18 00:00:47] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/58/ea/e56d8791cc5d02d07568a1340f731e21ff4be874091f08fe666e47b4060c/faasmctl-0.5.5.tar.gz
+[2023-07-18 00:00:47] INFO root fetch - processPackages [tecton]: Downloading https://files.pythonhosted.org/packages/63/93/9908614a7899c9021ea50b45cd6e51512c48f2809f662e91f9c6ed61e67c/tecton-0.7.0rc0.tar.gz
+[2023-07-18 00:00:48] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.14.0.dev20230717] Old Version: [2.14.0.dev20230715]
+[2023-07-18 00:00:48] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/01/4b/38ee625e022b9045458352636265942fc0dd2c5373d6b88ca4415a39b230/coiled-0.8.9.dev6.tar.gz
+[2023-07-18 00:00:48] INFO root fetch - processPackages [looker-sdk]: Downloading https://files.pythonhosted.org/packages/d1/eb/a306f4096205bb2d147c903daf09a53977a2f9031cb8b59b92beae22ec96/looker_sdk-23.8.1.tar.gz
+[2023-07-18 00:00:48] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/27/d9/0e04d1c58d552b38506a0afabee4554d5f4f14aa2fd99db8adfa49a9e080/khoj_assistant-0.8.3.dev4.tar.gz
+[2023-07-18 00:00:48] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/41/2d/63ef253e7df120db7683ba8c553066fcc0f3e13afd631706d8efd44d9144/tf_nightly_intel-2.14.0.dev20230715-cp39-cp39-win_amd64.whl
+[2023-07-18 00:00:48] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/26/80/9e4bfeccf312016e825026ef4ffbc2321b3117d2572b720eaa72b12d9673/coiled-0.8.9.dev9.tar.gz
+[2023-07-18 00:00:48] INFO root fetch - processPackages [tecton]: Downloading https://files.pythonhosted.org/packages/aa/31/ea01b01b5c44a6d185340d396e20eba7b40c952096be5c3a09ec74dea81e/tecton-0.7.0rc1.tar.gz
+[2023-07-18 00:00:48] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/8e/10/d63cc319da3743ac87fedc597c3b6fb6154cdb9025115ed6a87176e633fa/faasmctl-0.5.6.tar.gz
+[2023-07-18 00:00:48] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-18 00:00:48] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.9.dev6.tar.gz tmp/coiled-0.8.9.dev9.tar.gz --markdown 20230718/c/coiled/0.8.9.dev6-0.8.9.dev9/diff.md --exclude *.pyd
+[2023-07-18 00:00:48] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 182390477>=10485760
+[2023-07-18 00:00:48] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-07-18 00:00:48] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/b8/60/b33e303aad0d4d2b6c445eedd3c8f71117cf0cf14fed573f154571bb71e5/khoj_assistant-0.8.3.dev8.tar.gz
+[2023-07-18 00:00:48] INFO root fetch - processPackages [looker-sdk]: Downloading https://files.pythonhosted.org/packages/6f/7b/238e67b445e366c606f1ae4bd628b427293ee69e827cbfbb4c92acd59dff/looker_sdk-7.20.0.tar.gz
+[2023-07-18 00:00:48] INFO root fetch - processPackages [faasmctl]: executing diffoscope
+[2023-07-18 00:00:48] INFO root fetch - processPackages [faasmctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faasmctl-0.5.5.tar.gz tmp/faasmctl-0.5.6.tar.gz --markdown 20230718/f/faasmctl/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-07-18 00:00:48] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-18 00:00:48] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.8.3.dev4.tar.gz tmp/khoj_assistant-0.8.3.dev8.tar.gz --markdown 20230718/k/khoj-assistant/0.8.3.dev4-0.8.3.dev8/diff.md --exclude *.pyd
+[2023-07-18 00:00:48] INFO root fetch - processPackages [looker-sdk]: executing diffoscope
+[2023-07-18 00:00:48] INFO root fetch - processPackages [looker-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/looker_sdk-23.8.1.tar.gz tmp/looker_sdk-7.20.0.tar.gz --markdown 20230718/l/looker-sdk/23.8.1-7.20.0/diff.md --exclude *.pyd
+[2023-07-18 00:00:48] INFO root fetch - processPackages [tecton]: executing diffoscope
+[2023-07-18 00:00:48] INFO root fetch - processPackages [tecton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tecton-0.7.0rc0.tar.gz tmp/tecton-0.7.0rc1.tar.gz --markdown 20230718/t/tecton/0.7.0rc0-0.7.0rc1/diff.md --exclude *.pyd
+[2023-07-18 00:00:50] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.5.5.tar.gz]
+[2023-07-18 00:00:50] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.5.6.tar.gz]
+[2023-07-18 00:00:50] INFO root fetch - main [MainThread]: End processing [faasmctl]: success
+[2023-07-18 00:00:50] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev6.tar.gz]
+[2023-07-18 00:00:50] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev9.tar.gz]
+[2023-07-18 00:00:50] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-18 00:00:50] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.8.3.dev4.tar.gz]
+[2023-07-18 00:00:50] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.8.3.dev8.tar.gz]
+[2023-07-18 00:00:50] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-18 00:00:51] INFO root fetch - processPackages [looker-sdk]: Remove: archive file [/home/abi/fetcher/tmp/looker_sdk-23.8.1.tar.gz]
+[2023-07-18 00:00:51] INFO root fetch - processPackages [looker-sdk]: Remove: archive file [/home/abi/fetcher/tmp/looker_sdk-7.20.0.tar.gz]
+[2023-07-18 00:00:51] INFO root fetch - main [MainThread]: End processing [looker-sdk]: success
+[2023-07-18 00:00:53] INFO root fetch - processPackages [tecton]: Remove: archive file [/home/abi/fetcher/tmp/tecton-0.7.0rc0.tar.gz]
+[2023-07-18 00:00:53] INFO root fetch - processPackages [tecton]: Remove: archive file [/home/abi/fetcher/tmp/tecton-0.7.0rc1.tar.gz]
+[2023-07-18 00:00:53] INFO root fetch - main [MainThread]: End processing [tecton]: success
+[2023-07-18 00:00:53] INFO root fetch - main [MainThread]: Store serial: [18922919]
