@@ -575,3 +575,110 @@
 [2023-07-18 00:27:40] INFO root fetch - processPackages [deprl]: Remove: archive file [/home/abi/fetcher/tmp/deprl-0.1.8.tar.gz]
 [2023-07-18 00:27:40] INFO root fetch - main [MainThread]: End processing [deprl]: success
 [2023-07-18 00:27:40] INFO root fetch - main [MainThread]: Store serial: [18923132]
+[2023-07-18 00:32:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18923132]
+[2023-07-18 00:32:50] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-18 00:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rubi
+[2023-07-18 00:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zhmcclient
+[2023-07-18 00:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdbplus
+[2023-07-18 00:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jj-wingman
+[2023-07-18 00:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cm-cluster-on-demand
+[2023-07-18 00:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cm-cluster-on-demand-config
+[2023-07-18 00:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cm-cluster-on-demand-aws
+[2023-07-18 00:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cm-cluster-on-demand-azure
+[2023-07-18 00:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-07-18 00:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: modelbit
+[2023-07-18 00:32:50] INFO root fetch - processPackages [zhmcclient]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-18 00:32:50] INFO root fetch - processPackages [cm-cluster-on-demand]: New version: [9.2.9] Old Version: [9.2.8]
+[2023-07-18 00:32:50] INFO root fetch - processPackages [pdbplus]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-07-18 00:32:50] INFO root fetch - processPackages [cm-cluster-on-demand-config]: New version: [9.2.9] Old Version: [9.2.8]
+[2023-07-18 00:32:50] INFO root fetch - processPackages [cm-cluster-on-demand-aws]: New version: [9.2.9] Old Version: [9.2.8]
+[2023-07-18 00:32:50] INFO root fetch - processPackages [rubi]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-07-18 00:32:50] INFO root fetch - processPackages [jj-wingman]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-07-18 00:32:50] INFO root fetch - processPackages [cm-cluster-on-demand-azure]: New version: [9.2.9] Old Version: [9.2.8]
+[2023-07-18 00:32:50] INFO root fetch - processPackages [modelbit]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-07-18 00:32:50] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.398] Old Version: [0.3.397]
+[2023-07-18 00:32:50] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/b6/e6/406b6ed68ed27202aebc67fcb79517455cdfa18d15bdf0004c40b1b09772/pepperize.cdk-ses-smtp-credentials-0.3.397.tar.gz
+[2023-07-18 00:32:50] INFO root fetch - processPackages [cm-cluster-on-demand-aws]: Downloading https://files.pythonhosted.org/packages/17/6c/31ce5783ba67822aa77eb7456e1d1ebe20900a61252e031771cf1f3f5132/cm-cluster-on-demand-aws-9.2.8.tar.gz
+[2023-07-18 00:32:50] INFO root fetch - processPackages [cm-cluster-on-demand-config]: Downloading https://files.pythonhosted.org/packages/69/55/a18d59b3fc21ad1cdf88b54ff4e266c48ed88316a73cdc5d51f9bfc70ad7/cm-cluster-on-demand-config-9.2.8.tar.gz
+[2023-07-18 00:32:50] INFO root fetch - processPackages [cm-cluster-on-demand-azure]: Downloading https://files.pythonhosted.org/packages/05/2b/eebd532b0e26ad91a47d1f8a1b8acac9b75e31a0a6352c0c68ae41191031/cm-cluster-on-demand-azure-9.2.8.tar.gz
+[2023-07-18 00:32:50] INFO root fetch - processPackages [rubi]: Downloading https://files.pythonhosted.org/packages/47/ef/47340a72c5614a6b34f41eca6d25da8a457096ad91ddc3c3244bf5abe29c/rubi-2.1.3.tar.gz
+[2023-07-18 00:32:51] INFO root fetch - processPackages [pdbplus]: Downloading https://files.pythonhosted.org/packages/ab/19/15057b2a6651a21ade55ea9261d5073d6b8319c40a6e168d19a99fbcfa76/pdbplus-1.4.2.tar.gz
+[2023-07-18 00:32:51] INFO root fetch - processPackages [zhmcclient]: Downloading https://files.pythonhosted.org/packages/0e/0c/964970a0c6e1bbc3ab9c05b2d48d132b17e4df96f13e8a91fd396bd09d3a/zhmcclient-1.9.0.tar.gz
+[2023-07-18 00:32:51] INFO root fetch - processPackages [jj-wingman]: Downloading https://files.pythonhosted.org/packages/9e/13/42f9071aca9dd19ff87c5dceacb466c51d0e429647c3109b00824ccab5be/jj_wingman-0.3.6.tar.gz
+[2023-07-18 00:32:51] INFO root fetch - processPackages [modelbit]: Downloading https://files.pythonhosted.org/packages/c9/f0/ed4cc6d7e8a055435d41e58b6ff37b6189ac3cb52e6383b72c12aa4e605f/modelbit-0.9.6.tar.gz
+[2023-07-18 00:32:51] INFO root fetch - processPackages [cm-cluster-on-demand]: Downloading https://files.pythonhosted.org/packages/d7/53/3e8082a8efb1c383e7ecdd07ce8ac5c93297743bce69c2c4de9f0de2fec5/cm-cluster-on-demand-9.2.8.tar.gz
+[2023-07-18 00:32:51] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/92/ff/fe808439293795ba5dbe7104460484e20cd3be8cc94688b8f9cbf5a230b2/pepperize.cdk-ses-smtp-credentials-0.3.398.tar.gz
+[2023-07-18 00:32:51] INFO root fetch - processPackages [cm-cluster-on-demand-config]: Downloading https://files.pythonhosted.org/packages/9f/5d/4d5c771c27848e9cf52134ab764238671b46a02ba10cbeccf2643c86a452/cm-cluster-on-demand-config-9.2.9.tar.gz
+[2023-07-18 00:32:51] INFO root fetch - processPackages [pdbplus]: Downloading https://files.pythonhosted.org/packages/52/de/e0cb8515e8e2b7a14f63a0d9d08e752ece4c9018f012c09b24b4dd944165/pdbplus-1.4.3.tar.gz
+[2023-07-18 00:32:51] INFO root fetch - processPackages [cm-cluster-on-demand-aws]: Downloading https://files.pythonhosted.org/packages/0d/c1/69ddfcf06fd9e0cb5e998bf0b1cf14f3465202c6cc9a37c3749211fe11f3/cm-cluster-on-demand-aws-9.2.9.tar.gz
+[2023-07-18 00:32:51] INFO root fetch - processPackages [rubi]: Downloading https://files.pythonhosted.org/packages/9e/38/e6e6b34eb5f074111311920461298322d2802f47d48c5a97f38670f74623/rubi-2.1.4.tar.gz
+[2023-07-18 00:32:51] INFO root fetch - processPackages [zhmcclient]: Downloading https://files.pythonhosted.org/packages/ed/29/10ff2889bfdaf787fbe20b876c4f385ead83ab8bf1db279f7647d6613e38/zhmcclient-1.9.1.tar.gz
+[2023-07-18 00:32:51] INFO root fetch - processPackages [modelbit]: Downloading https://files.pythonhosted.org/packages/55/0f/8d19e66368fbaa57d08deb9b9d12c445c2e2451e77490d39dfff1e70698a/modelbit-0.9.7.tar.gz
+[2023-07-18 00:32:51] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-07-18 00:32:51] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.397.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.398.tar.gz --markdown 20230718/p/pepperize.cdk-ses-smtp-credentials/0.3.397-0.3.398/diff.md --exclude *.pyd
+[2023-07-18 00:32:51] INFO root fetch - processPackages [pdbplus]: executing diffoscope
+[2023-07-18 00:32:51] INFO root fetch - processPackages [pdbplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdbplus-1.4.2.tar.gz tmp/pdbplus-1.4.3.tar.gz --markdown 20230718/p/pdbplus/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-07-18 00:32:51] INFO root fetch - processPackages [jj-wingman]: Downloading https://files.pythonhosted.org/packages/5e/dc/fbfe1bf25d0ec465bc1b6e59048db3d3927509d8da2fe3407f1047895486/jj_wingman-0.3.7.tar.gz
+[2023-07-18 00:32:51] INFO root fetch - processPackages [cm-cluster-on-demand-config]: executing diffoscope
+[2023-07-18 00:32:51] INFO root fetch - processPackages [cm-cluster-on-demand-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm-cluster-on-demand-config-9.2.8.tar.gz tmp/cm-cluster-on-demand-config-9.2.9.tar.gz --markdown 20230718/c/cm-cluster-on-demand-config/9.2.8-9.2.9/diff.md --exclude *.pyd
+[2023-07-18 00:32:51] INFO root fetch - processPackages [cm-cluster-on-demand-azure]: Downloading https://files.pythonhosted.org/packages/1c/99/bce167b99faee6d898c5b58aa88c0588e06cae17c514facd9a2d6510e818/cm-cluster-on-demand-azure-9.2.9.tar.gz
+[2023-07-18 00:32:51] INFO root fetch - processPackages [cm-cluster-on-demand]: Downloading https://files.pythonhosted.org/packages/72/39/29c3f6aca8b912bf15430a9c90602b751302bd054f26a00ec44276c47b1f/cm-cluster-on-demand-9.2.9.tar.gz
+[2023-07-18 00:32:51] INFO root fetch - processPackages [cm-cluster-on-demand-aws]: executing diffoscope
+[2023-07-18 00:32:51] INFO root fetch - processPackages [cm-cluster-on-demand-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm-cluster-on-demand-aws-9.2.8.tar.gz tmp/cm-cluster-on-demand-aws-9.2.9.tar.gz --markdown 20230718/c/cm-cluster-on-demand-aws/9.2.8-9.2.9/diff.md --exclude *.pyd
+[2023-07-18 00:32:51] INFO root fetch - processPackages [jj-wingman]: executing diffoscope
+[2023-07-18 00:32:51] INFO root fetch - processPackages [jj-wingman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jj_wingman-0.3.6.tar.gz tmp/jj_wingman-0.3.7.tar.gz --markdown 20230718/j/jj-wingman/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-07-18 00:32:51] INFO root fetch - processPackages [rubi]: executing diffoscope
+[2023-07-18 00:32:51] INFO root fetch - processPackages [rubi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubi-2.1.3.tar.gz tmp/rubi-2.1.4.tar.gz --markdown 20230718/r/rubi/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-07-18 00:32:51] INFO root fetch - processPackages [zhmcclient]: executing diffoscope
+[2023-07-18 00:32:51] INFO root fetch - processPackages [zhmcclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhmcclient-1.9.0.tar.gz tmp/zhmcclient-1.9.1.tar.gz --markdown 20230718/z/zhmcclient/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-18 00:32:51] INFO root fetch - processPackages [modelbit]: executing diffoscope
+[2023-07-18 00:32:51] INFO root fetch - processPackages [modelbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbit-0.9.6.tar.gz tmp/modelbit-0.9.7.tar.gz --markdown 20230718/m/modelbit/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-07-18 00:32:51] INFO root fetch - processPackages [cm-cluster-on-demand-azure]: executing diffoscope
+[2023-07-18 00:32:52] INFO root fetch - processPackages [cm-cluster-on-demand-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm-cluster-on-demand-azure-9.2.8.tar.gz tmp/cm-cluster-on-demand-azure-9.2.9.tar.gz --markdown 20230718/c/cm-cluster-on-demand-azure/9.2.8-9.2.9/diff.md --exclude *.pyd
+[2023-07-18 00:32:52] INFO root fetch - processPackages [cm-cluster-on-demand]: executing diffoscope
+[2023-07-18 00:32:52] INFO root fetch - processPackages [cm-cluster-on-demand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm-cluster-on-demand-9.2.8.tar.gz tmp/cm-cluster-on-demand-9.2.9.tar.gz --markdown 20230718/c/cm-cluster-on-demand/9.2.8-9.2.9/diff.md --exclude *.pyd
+[2023-07-18 00:32:53] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.397.tar.gz]
+[2023-07-18 00:32:53] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.398.tar.gz]
+[2023-07-18 00:32:53] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Start processing: apalib
+[2023-07-18 00:32:53] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-07-18 00:32:53] INFO root fetch - processPackages [pdbplus]: Remove: archive file [/home/abi/fetcher/tmp/pdbplus-1.4.2.tar.gz]
+[2023-07-18 00:32:53] INFO root fetch - processPackages [pdbplus]: Remove: archive file [/home/abi/fetcher/tmp/pdbplus-1.4.3.tar.gz]
+[2023-07-18 00:32:53] INFO root fetch - processPackages [pdbplus]: Start processing: acore-paths
+[2023-07-18 00:32:53] INFO root fetch - main [MainThread]: End processing [pdbplus]: success
+[2023-07-18 00:32:53] INFO root fetch - processPackages [apalib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 00:32:53] INFO root fetch - processPackages [acore-paths]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-18 00:32:53] INFO root fetch - processPackages [apalib]: Downloading https://files.pythonhosted.org/packages/ad/51/72e2e781b4f5d64e98678113762b087b7fe1e08ae0316dd8ae9eed6e0353/apalib-0.0.8.tar.gz
+[2023-07-18 00:32:53] INFO root fetch - processPackages [jj-wingman]: Remove: archive file [/home/abi/fetcher/tmp/jj_wingman-0.3.6.tar.gz]
+[2023-07-18 00:32:53] INFO root fetch - processPackages [jj-wingman]: Remove: archive file [/home/abi/fetcher/tmp/jj_wingman-0.3.7.tar.gz]
+[2023-07-18 00:32:53] INFO root fetch - main [MainThread]: End processing [jj-wingman]: success
+[2023-07-18 00:32:53] WARNING root fetch - processPackages [apalib]: Skipping package: exceeds size limit 10910417>=10485760
+[2023-07-18 00:32:53] INFO root fetch - main [MainThread]: End processing [apalib] error
+[2023-07-18 00:32:53] INFO root fetch - processPackages [modelbit]: Remove: archive file [/home/abi/fetcher/tmp/modelbit-0.9.6.tar.gz]
+[2023-07-18 00:32:53] INFO root fetch - processPackages [modelbit]: Remove: archive file [/home/abi/fetcher/tmp/modelbit-0.9.7.tar.gz]
+[2023-07-18 00:32:53] INFO root fetch - main [MainThread]: End processing [modelbit]: success
+[2023-07-18 00:32:53] INFO root fetch - processPackages [acore-paths]: Downloading https://files.pythonhosted.org/packages/e5/54/218ac1b17fbce82f80f8104ade0eee876f3fcb64d0bf8b95e9d5aee21adc/acore_paths-0.3.1.tar.gz
+[2023-07-18 00:32:53] INFO root fetch - processPackages [rubi]: Remove: archive file [/home/abi/fetcher/tmp/rubi-2.1.3.tar.gz]
+[2023-07-18 00:32:53] INFO root fetch - processPackages [rubi]: Remove: archive file [/home/abi/fetcher/tmp/rubi-2.1.4.tar.gz]
+[2023-07-18 00:32:53] INFO root fetch - main [MainThread]: End processing [rubi]: success
+[2023-07-18 00:32:53] INFO root fetch - processPackages [cm-cluster-on-demand-aws]: Remove: archive file [/home/abi/fetcher/tmp/cm-cluster-on-demand-aws-9.2.8.tar.gz]
+[2023-07-18 00:32:53] INFO root fetch - processPackages [cm-cluster-on-demand-aws]: Remove: archive file [/home/abi/fetcher/tmp/cm-cluster-on-demand-aws-9.2.9.tar.gz]
+[2023-07-18 00:32:53] INFO root fetch - main [MainThread]: End processing [cm-cluster-on-demand-aws]: success
+[2023-07-18 00:32:54] INFO root fetch - processPackages [zhmcclient]: Remove: archive file [/home/abi/fetcher/tmp/zhmcclient-1.9.0.tar.gz]
+[2023-07-18 00:32:54] INFO root fetch - processPackages [zhmcclient]: Remove: archive file [/home/abi/fetcher/tmp/zhmcclient-1.9.1.tar.gz]
+[2023-07-18 00:32:54] INFO root fetch - main [MainThread]: End processing [zhmcclient]: success
+[2023-07-18 00:32:54] INFO root fetch - processPackages [cm-cluster-on-demand-azure]: Remove: archive file [/home/abi/fetcher/tmp/cm-cluster-on-demand-azure-9.2.8.tar.gz]
+[2023-07-18 00:32:54] INFO root fetch - processPackages [cm-cluster-on-demand-azure]: Remove: archive file [/home/abi/fetcher/tmp/cm-cluster-on-demand-azure-9.2.9.tar.gz]
+[2023-07-18 00:32:54] INFO root fetch - main [MainThread]: End processing [cm-cluster-on-demand-azure]: success
+[2023-07-18 00:32:54] INFO root fetch - processPackages [acore-paths]: Downloading https://files.pythonhosted.org/packages/93/a7/1d9ccba460f1d1a04756147a8b1ae29b320f83824920b8c26c46ff195a5f/acore_paths-0.3.2.tar.gz
+[2023-07-18 00:32:54] INFO root fetch - processPackages [cm-cluster-on-demand-config]: Remove: archive file [/home/abi/fetcher/tmp/cm-cluster-on-demand-config-9.2.8.tar.gz]
+[2023-07-18 00:32:54] INFO root fetch - processPackages [cm-cluster-on-demand-config]: Remove: archive file [/home/abi/fetcher/tmp/cm-cluster-on-demand-config-9.2.9.tar.gz]
+[2023-07-18 00:32:54] INFO root fetch - main [MainThread]: End processing [cm-cluster-on-demand-config]: success
+[2023-07-18 00:32:54] INFO root fetch - processPackages [acore-paths]: executing diffoscope
+[2023-07-18 00:32:54] INFO root fetch - processPackages [acore-paths]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acore_paths-0.3.1.tar.gz tmp/acore_paths-0.3.2.tar.gz --markdown 20230718/a/acore-paths/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-18 00:32:54] INFO root fetch - processPackages [cm-cluster-on-demand]: Remove: archive file [/home/abi/fetcher/tmp/cm-cluster-on-demand-9.2.8.tar.gz]
+[2023-07-18 00:32:54] INFO root fetch - processPackages [cm-cluster-on-demand]: Remove: archive file [/home/abi/fetcher/tmp/cm-cluster-on-demand-9.2.9.tar.gz]
+[2023-07-18 00:32:54] INFO root fetch - main [MainThread]: End processing [cm-cluster-on-demand]: success
+[2023-07-18 00:32:54] INFO root fetch - processPackages [acore-paths]: Remove: archive file [/home/abi/fetcher/tmp/acore_paths-0.3.1.tar.gz]
+[2023-07-18 00:32:54] INFO root fetch - processPackages [acore-paths]: Remove: archive file [/home/abi/fetcher/tmp/acore_paths-0.3.2.tar.gz]
+[2023-07-18 00:32:54] INFO root fetch - main [MainThread]: End processing [acore-paths]: success
+[2023-07-18 00:32:54] INFO root fetch - main [MainThread]: Store serial: [18923165]
