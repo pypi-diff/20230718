@@ -1295,3 +1295,131 @@
 [2023-07-18 01:09:32] INFO root fetch - processPackages [imitation]: Remove: archive file [/home/abi/fetcher/tmp/imitation-0.4.0.tar.gz]
 [2023-07-18 01:09:32] INFO root fetch - main [MainThread]: End processing [imitation]: success
 [2023-07-18 01:09:32] INFO root fetch - main [MainThread]: Store serial: [18923385]
+[2023-07-18 01:14:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18923385]
+[2023-07-18 01:14:42] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-18 01:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: always-updates
+[2023-07-18 01:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: always-updates
+[2023-07-18 01:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: subtoaudio
+[2023-07-18 01:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scrall
+[2023-07-18 01:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cyberdrop-dl
+[2023-07-18 01:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: always-updates
+[2023-07-18 01:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dbt-metricflow
+[2023-07-18 01:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: discovery-core
+[2023-07-18 01:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: remotior-sensus
+[2023-07-18 01:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pathgenmap
+[2023-07-18 01:14:42] INFO root fetch - processPackages [subtoaudio]: New version: [0.1.1] Old Version: [0.1]
+[2023-07-18 01:14:42] INFO root fetch - processPackages [pathgenmap]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 01:14:42] INFO root fetch - processPackages [discovery-core]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-18 01:14:42] INFO root fetch - processPackages [scrall]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-18 01:14:42] INFO root fetch - processPackages [dbt-metricflow]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-18 01:14:42] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-07-18 01:14:42] INFO root fetch - processPackages [remotior-sensus]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 01:14:42] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-07-18 01:14:42] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.99] Old Version: [4.2.98]
+[2023-07-18 01:14:42] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/82/fa/d177c4c9c686fdb8d227f6ddfafaf2ea43674491d50ee4c44b5f2b53f6da/pathgenmap-0.0.8.tar.gz
+[2023-07-18 01:14:42] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-07-18 01:14:42] INFO root fetch - processPackages [subtoaudio]: Downloading https://files.pythonhosted.org/packages/bd/c0/c88f8f75b1287385510088fb8a3ebaee5b2181f91ee269dfa581c865c5d9/subtoaudio-0.1.tar.gz
+[2023-07-18 01:14:42] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/1b/f8/0bf0ba2d44c54577234ba97b219752bdc63f63c54eddb613647161b06c5e/cyberdrop-dl-4.2.98.tar.gz
+[2023-07-18 01:14:42] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-07-18 01:14:43] INFO root fetch - processPackages [scrall]: Downloading https://files.pythonhosted.org/packages/de/00/9be7725773d762b1329f041571b6d1925040ba279ca0d8793d9bb0f39264/scrall-0.2.8.tar.gz
+[2023-07-18 01:14:43] INFO root fetch - processPackages [dbt-metricflow]: Downloading https://files.pythonhosted.org/packages/4a/6c/86445cf42ad96dceaf3e3bf1093697e6e25e77746e2817f25eeb818cb965/dbt_metricflow-0.0.2.tar.gz
+[2023-07-18 01:14:43] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-07-18 01:14:43] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-07-18 01:14:43] INFO root fetch - processPackages [discovery-core]: Downloading https://files.pythonhosted.org/packages/bd/81/c706d7a2a4cbf76d5f418906b3709c7a1739a66b636f07a7444790e474ed/discovery-core-0.2.8.tar.gz
+[2023-07-18 01:14:43] INFO root fetch - processPackages [remotior-sensus]: Downloading https://files.pythonhosted.org/packages/2d/82/4f0f8be3b8f3c4f00b90027ff3c32958918221be17a5ad7c3cf298d4af04/remotior_sensus-0.0.8.tar.gz
+[2023-07-18 01:14:43] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/7e/52/a62425dafaf0638317648f0fc989a63f5a255e033e7d6d3ee27a1f944a2f/pathgenmap-0.0.9.tar.gz
+[2023-07-18 01:14:43] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-07-18 01:14:43] INFO root fetch - processPackages [subtoaudio]: Downloading https://files.pythonhosted.org/packages/8a/f5/a8e87a4578a90b854ddc1235264ad4050959ba572f5abd7f1058af352bd2/subtoaudio-0.1.1.tar.gz
+[2023-07-18 01:14:43] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/cb/85/1082dbce7699795fa0752358803e2c52dedd79d14d96d728d35eae76c69a/cyberdrop-dl-4.2.99.tar.gz
+[2023-07-18 01:14:43] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-07-18 01:14:43] INFO root fetch - processPackages [pathgenmap]: executing diffoscope
+[2023-07-18 01:14:43] INFO root fetch - processPackages [pathgenmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathgenmap-0.0.8.tar.gz tmp/pathgenmap-0.0.9.tar.gz --markdown 20230718/p/pathgenmap/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 01:14:43] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-07-18 01:14:43] INFO root fetch - processPackages [dbt-metricflow]: Downloading https://files.pythonhosted.org/packages/e8/2d/0e7c6d156b68299e14d2af284af2fd1795318250a05f40a33ee1852e11a2/dbt_metricflow-0.0.3.tar.gz
+[2023-07-18 01:14:43] INFO root fetch - processPackages [discovery-core]: Downloading https://files.pythonhosted.org/packages/45/88/f4d669c0a62d57bcc0678a9c41c8db1adfbb026cdc2047e64e45c7134fdf/discovery-core-0.2.9.tar.gz
+[2023-07-18 01:14:43] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-07-18 01:14:43] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230718/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-07-18 01:14:43] INFO root fetch - processPackages [subtoaudio]: executing diffoscope
+[2023-07-18 01:14:43] INFO root fetch - processPackages [subtoaudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subtoaudio-0.1.tar.gz tmp/subtoaudio-0.1.1.tar.gz --markdown 20230718/s/subtoaudio/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-18 01:14:43] INFO root fetch - processPackages [scrall]: Downloading https://files.pythonhosted.org/packages/9a/df/ccceb037295ae0343198d907678498d8862f523ce37edf85f3e7717dd05f/scrall-0.2.9.tar.gz
+[2023-07-18 01:14:43] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-07-18 01:14:43] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.98.tar.gz tmp/cyberdrop-dl-4.2.99.tar.gz --markdown 20230718/c/cyberdrop-dl/4.2.98-4.2.99/diff.md --exclude *.pyd
+[2023-07-18 01:14:43] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-07-18 01:14:43] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230718/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-07-18 01:14:43] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-07-18 01:14:43] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230718/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-07-18 01:14:43] INFO root fetch - processPackages [remotior-sensus]: Downloading https://files.pythonhosted.org/packages/e4/c8/0c6054910848b2651da24ecb17a3d9ab9a62b4c844a98797ec686eaac17b/remotior_sensus-0.0.9.tar.gz
+[2023-07-18 01:14:43] INFO root fetch - processPackages [discovery-core]: executing diffoscope
+[2023-07-18 01:14:43] INFO root fetch - processPackages [discovery-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-core-0.2.8.tar.gz tmp/discovery-core-0.2.9.tar.gz --markdown 20230718/d/discovery-core/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-18 01:14:43] INFO root fetch - processPackages [dbt-metricflow]: executing diffoscope
+[2023-07-18 01:14:43] INFO root fetch - processPackages [dbt-metricflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_metricflow-0.0.2.tar.gz tmp/dbt_metricflow-0.0.3.tar.gz --markdown 20230718/d/dbt-metricflow/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-18 01:14:43] INFO root fetch - processPackages [scrall]: executing diffoscope
+[2023-07-18 01:14:43] INFO root fetch - processPackages [scrall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrall-0.2.8.tar.gz tmp/scrall-0.2.9.tar.gz --markdown 20230718/s/scrall/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-18 01:14:44] INFO root fetch - processPackages [remotior-sensus]: executing diffoscope
+[2023-07-18 01:14:44] INFO root fetch - processPackages [remotior-sensus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotior_sensus-0.0.8.tar.gz tmp/remotior_sensus-0.0.9.tar.gz --markdown 20230718/r/remotior-sensus/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 01:14:45] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.8.tar.gz]
+[2023-07-18 01:14:45] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.9.tar.gz]
+[2023-07-18 01:14:45] INFO root fetch - processPackages [pathgenmap]: Start processing: hyperliquid-python-sdk
+[2023-07-18 01:14:45] INFO root fetch - main [MainThread]: End processing [pathgenmap]: success
+[2023-07-18 01:14:45] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-07-18 01:14:45] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-07-18 01:14:45] INFO root fetch - processPackages [always-updates]: Start processing: policyengine-us
+[2023-07-18 01:14:45] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-07-18 01:14:45] INFO root fetch - processPackages [hyperliquid-python-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-18 01:14:45] INFO root fetch - processPackages [policyengine-us]: New version: [0.368.1] Old Version: [0.368.0]
+[2023-07-18 01:14:45] INFO root fetch - processPackages [always-updates]: Start processing: sciencebasepy
+[2023-07-18 01:14:45] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-07-18 01:14:45] INFO root fetch - processPackages [subtoaudio]: Remove: archive file [/home/abi/fetcher/tmp/subtoaudio-0.1.tar.gz]
+[2023-07-18 01:14:45] INFO root fetch - processPackages [subtoaudio]: Remove: archive file [/home/abi/fetcher/tmp/subtoaudio-0.1.1.tar.gz]
+[2023-07-18 01:14:45] INFO root fetch - processPackages [subtoaudio]: Start processing: genomap
+[2023-07-18 01:14:45] INFO root fetch - main [MainThread]: End processing [subtoaudio]: success
+[2023-07-18 01:14:45] INFO root fetch - processPackages [sciencebasepy]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-18 01:14:45] INFO root fetch - processPackages [genomap]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-07-18 01:14:45] INFO root fetch - processPackages [always-updates]: Start processing: torchserve-client
+[2023-07-18 01:14:45] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-07-18 01:14:45] INFO root fetch - processPackages [dbt-metricflow]: Remove: archive file [/home/abi/fetcher/tmp/dbt_metricflow-0.0.2.tar.gz]
+[2023-07-18 01:14:45] INFO root fetch - processPackages [dbt-metricflow]: Remove: archive file [/home/abi/fetcher/tmp/dbt_metricflow-0.0.3.tar.gz]
+[2023-07-18 01:14:45] INFO root fetch - main [MainThread]: End processing [dbt-metricflow]: success
+[2023-07-18 01:14:45] INFO root fetch - processPackages [hyperliquid-python-sdk]: Downloading https://files.pythonhosted.org/packages/cd/91/c6491d8c2c1cf0d759caf8d184ca9fe3e80e28d4c6f027c98aaed5fe4f19/hyperliquid_python_sdk-0.1.8.tar.gz
+[2023-07-18 01:14:45] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/ce/8b/aebe480f8cfd8c2095ab3b6a54055a98b3c92263397d6566ef57321bd448/policyengine-us-0.368.0.tar.gz
+[2023-07-18 01:14:45] INFO root fetch - processPackages [genomap]: Downloading https://files.pythonhosted.org/packages/01/73/55ff003fd15686cacf3fa930708d21607425f0e2174ebc05856e2a446373/genomap-1.2.3.tar.gz
+[2023-07-18 01:14:45] INFO root fetch - processPackages [scrall]: Remove: archive file [/home/abi/fetcher/tmp/scrall-0.2.8.tar.gz]
+[2023-07-18 01:14:45] INFO root fetch - processPackages [scrall]: Remove: archive file [/home/abi/fetcher/tmp/scrall-0.2.9.tar.gz]
+[2023-07-18 01:14:45] INFO root fetch - main [MainThread]: End processing [scrall]: success
+[2023-07-18 01:14:45] INFO root fetch - processPackages [discovery-core]: Remove: archive file [/home/abi/fetcher/tmp/discovery-core-0.2.8.tar.gz]
+[2023-07-18 01:14:45] INFO root fetch - processPackages [discovery-core]: Remove: archive file [/home/abi/fetcher/tmp/discovery-core-0.2.9.tar.gz]
+[2023-07-18 01:14:45] INFO root fetch - main [MainThread]: End processing [discovery-core]: success
+[2023-07-18 01:14:45] WARNING root fetch - processPackages [torchserve-client]: Skipping, unable to determine old version
+[2023-07-18 01:14:45] INFO root fetch - main [MainThread]: End processing [torchserve-client] error
+[2023-07-18 01:14:45] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.98.tar.gz]
+[2023-07-18 01:14:45] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.99.tar.gz]
+[2023-07-18 01:14:45] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-07-18 01:14:45] INFO root fetch - processPackages [sciencebasepy]: Downloading https://files.pythonhosted.org/packages/4e/23/67220533ad78c2257796633607a77597bc2dd00875da7e89e25f6192e5ee/sciencebasepy-2.0.8.tar.gz
+[2023-07-18 01:14:45] INFO root fetch - processPackages [hyperliquid-python-sdk]: Downloading https://files.pythonhosted.org/packages/9c/49/fa1503d98c853477291ba88e727e2bd743323c446022d174b114da55fbde/hyperliquid_python_sdk-0.1.9.tar.gz
+[2023-07-18 01:14:45] INFO root fetch - processPackages [genomap]: Downloading https://files.pythonhosted.org/packages/46/91/937d9efa4dd2949e60297ae7f149b3e515f9b33a0a3cb7d3bbc127a81b50/genomap-1.2.4.tar.gz
+[2023-07-18 01:14:45] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/44/58/30074a02e5439df3ebaa0303e96f84eea4eeb232c4796e51b215f254ae78/policyengine-us-0.368.1.tar.gz
+[2023-07-18 01:14:46] INFO root fetch - processPackages [remotior-sensus]: Remove: archive file [/home/abi/fetcher/tmp/remotior_sensus-0.0.8.tar.gz]
+[2023-07-18 01:14:46] INFO root fetch - processPackages [remotior-sensus]: Remove: archive file [/home/abi/fetcher/tmp/remotior_sensus-0.0.9.tar.gz]
+[2023-07-18 01:14:46] INFO root fetch - main [MainThread]: End processing [remotior-sensus]: success
+[2023-07-18 01:14:46] INFO root fetch - processPackages [hyperliquid-python-sdk]: executing diffoscope
+[2023-07-18 01:14:46] INFO root fetch - processPackages [hyperliquid-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperliquid_python_sdk-0.1.8.tar.gz tmp/hyperliquid_python_sdk-0.1.9.tar.gz --markdown 20230718/h/hyperliquid-python-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-18 01:14:46] INFO root fetch - processPackages [genomap]: executing diffoscope
+[2023-07-18 01:14:46] INFO root fetch - processPackages [genomap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genomap-1.2.3.tar.gz tmp/genomap-1.2.4.tar.gz --markdown 20230718/g/genomap/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-07-18 01:14:46] INFO root fetch - processPackages [sciencebasepy]: Downloading https://files.pythonhosted.org/packages/56/0c/84c84f6b39b6df27441201218d44027729469f570f635c9c6b51f25b760a/sciencebasepy-2.0.9.tar.gz
+[2023-07-18 01:14:46] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-07-18 01:14:46] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.368.0.tar.gz tmp/policyengine-us-0.368.1.tar.gz --markdown 20230718/p/policyengine-us/0.368.0-0.368.1/diff.md --exclude *.pyd
+[2023-07-18 01:14:46] INFO root fetch - processPackages [sciencebasepy]: executing diffoscope
+[2023-07-18 01:14:46] INFO root fetch - processPackages [sciencebasepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciencebasepy-2.0.8.tar.gz tmp/sciencebasepy-2.0.9.tar.gz --markdown 20230718/s/sciencebasepy/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-18 01:14:47] INFO root fetch - processPackages [genomap]: Remove: archive file [/home/abi/fetcher/tmp/genomap-1.2.3.tar.gz]
+[2023-07-18 01:14:47] INFO root fetch - processPackages [genomap]: Remove: archive file [/home/abi/fetcher/tmp/genomap-1.2.4.tar.gz]
+[2023-07-18 01:14:47] INFO root fetch - main [MainThread]: End processing [genomap]: success
+[2023-07-18 01:14:47] INFO root fetch - processPackages [hyperliquid-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyperliquid_python_sdk-0.1.8.tar.gz]
+[2023-07-18 01:14:47] INFO root fetch - processPackages [hyperliquid-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyperliquid_python_sdk-0.1.9.tar.gz]
+[2023-07-18 01:14:47] INFO root fetch - main [MainThread]: End processing [hyperliquid-python-sdk]: success
+[2023-07-18 01:14:47] INFO root fetch - processPackages [sciencebasepy]: Remove: archive file [/home/abi/fetcher/tmp/sciencebasepy-2.0.8.tar.gz]
+[2023-07-18 01:14:47] INFO root fetch - processPackages [sciencebasepy]: Remove: archive file [/home/abi/fetcher/tmp/sciencebasepy-2.0.9.tar.gz]
+[2023-07-18 01:14:47] INFO root fetch - main [MainThread]: End processing [sciencebasepy]: success
+[2023-07-18 01:15:11] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.368.0.tar.gz]
+[2023-07-18 01:15:11] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.368.1.tar.gz]
+[2023-07-18 01:15:11] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-07-18 01:15:11] INFO root fetch - main [MainThread]: Store serial: [18923432]
