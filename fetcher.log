@@ -1205,3 +1205,93 @@
 [2023-07-18 01:04:19] INFO root fetch - processPackages [cerc-hub]: Remove: archive file [/home/abi/fetcher/tmp/cerc-hub-0.1.7.9.tar.gz]
 [2023-07-18 01:04:19] INFO root fetch - main [MainThread]: End processing [cerc-hub]: success
 [2023-07-18 01:04:19] INFO root fetch - main [MainThread]: Store serial: [18923350]
+[2023-07-18 01:09:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18923350]
+[2023-07-18 01:09:28] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-18 01:09:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easy-boto3
+[2023-07-18 01:09:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metar2bufr
+[2023-07-18 01:09:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-url-tokenizer
+[2023-07-18 01:09:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chimerapy-engine
+[2023-07-18 01:09:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ltempy
+[2023-07-18 01:09:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: imitation
+[2023-07-18 01:09:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PHX
+[2023-07-18 01:09:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oobabot
+[2023-07-18 01:09:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: multimcts
+[2023-07-18 01:09:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ntscli-client
+[2023-07-18 01:09:28] WARNING root fetch - processPackages [easy-boto3]: Skipping, unable to determine old version
+[2023-07-18 01:09:28] INFO root fetch - processPackages [easy-boto3]: Start processing: langroid
+[2023-07-18 01:09:28] INFO root fetch - main [MainThread]: End processing [easy-boto3] error
+[2023-07-18 01:09:28] INFO root fetch - processPackages [django-url-tokenizer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 01:09:28] INFO root fetch - processPackages [imitation]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-07-18 01:09:28] INFO root fetch - processPackages [ltempy]: New version: [1.5.1] Old Version: [1.4.2]
+[2023-07-18 01:09:28] INFO root fetch - processPackages [ntscli-client]: New version: [2.1.9.dev3] Old Version: [2.1.9.dev2]
+[2023-07-18 01:09:28] INFO root fetch - processPackages [oobabot]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-18 01:09:28] WARNING root fetch - processPackages [chimerapy-engine]: Skipping, unable to determine old version
+[2023-07-18 01:09:28] INFO root fetch - main [MainThread]: End processing [chimerapy-engine] error
+[2023-07-18 01:09:28] INFO root fetch - processPackages [multimcts]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-18 01:09:28] INFO root fetch - processPackages [metar2bufr]: New version: [0.0.2.22] Old Version: [0.0.2.21]
+[2023-07-18 01:09:28] INFO root fetch - processPackages [PHX]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-18 01:09:28] INFO root fetch - processPackages [langroid]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-18 01:09:28] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/58/fc/c297e12ea86d40bc35c3034412e468c38bef18667e6adfe0b24802b0e417/django-url-tokenizer-0.0.8.tar.gz
+[2023-07-18 01:09:28] INFO root fetch - processPackages [PHX]: Downloading https://files.pythonhosted.org/packages/ad/48/a9b966f484d5fbfbde35e2c15c1211cc18359a09978bfbaafcd30f095d50/PHX-1.8.1.tar.gz
+[2023-07-18 01:09:28] INFO root fetch - processPackages [multimcts]: Downloading https://files.pythonhosted.org/packages/25/c7/bb7b7c9e56cdea04a819895e466cbaaf8e89ba11e0f38d41d232af8198a1/multimcts-0.1.3.tar.gz
+[2023-07-18 01:09:28] INFO root fetch - processPackages [ntscli-client]: Downloading https://files.pythonhosted.org/packages/ca/63/545c9c0ca72159c02441dd8412a01a581a13fcd0dba5152a644107b8139d/ntscli_client-2.1.9.dev2-py3-none-any.whl
+[2023-07-18 01:09:28] INFO root fetch - processPackages [imitation]: Downloading https://files.pythonhosted.org/packages/be/b9/12d1e19cadbbfdb91db0a0da26a0af776ee0b92c4a2cae96da7cd992ae3e/imitation-0.3.2.tar.gz
+[2023-07-18 01:09:28] INFO root fetch - processPackages [ltempy]: Downloading https://files.pythonhosted.org/packages/13/d7/3215e8f38f67d87663e5e40de4d8eb118589d75a9612cca82ffb11ab0beb/ltempy-1.4.2.tar.gz
+[2023-07-18 01:09:28] INFO root fetch - processPackages [oobabot]: Downloading https://files.pythonhosted.org/packages/84/84/cb5f71a80d630835166622138ca167c1dcc3e7ec551f229a7dbe2ff391c0/oobabot-0.2.0.tar.gz
+[2023-07-18 01:09:28] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/50/7f/7a84baab944d9efa300ce573a47110938978a4d7b72cbb13d3a7cf13ee14/langroid-0.1.8.tar.gz
+[2023-07-18 01:09:29] INFO root fetch - processPackages [metar2bufr]: Downloading https://files.pythonhosted.org/packages/34/2e/bb472ef40b09d4161429fbb936c0fa9cfe0c066a8f561bc271bc73857dde/metar2bufr-0.0.2.21.tar.gz
+[2023-07-18 01:09:29] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/c5/13/df27d1141ec44b1c35f247440fc5cb506efe40a15cbed84328a82cab2d67/django-url-tokenizer-0.0.9.tar.gz
+[2023-07-18 01:09:29] INFO root fetch - processPackages [PHX]: Downloading https://files.pythonhosted.org/packages/d5/cf/427f0ced8ef3cc98e22c877b4eb980575483e2cf3ac2387f5e901120b744/PHX-1.9.0.tar.gz
+[2023-07-18 01:09:29] INFO root fetch - processPackages [multimcts]: Downloading https://files.pythonhosted.org/packages/77/c0/2f117ff5ee5ff6fce6c17b35ebf461d42d88dc5451c52ac236c67b8cdea0/multimcts-0.1.4.tar.gz
+[2023-07-18 01:09:29] INFO root fetch - processPackages [django-url-tokenizer]: executing diffoscope
+[2023-07-18 01:09:29] INFO root fetch - processPackages [django-url-tokenizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-url-tokenizer-0.0.8.tar.gz tmp/django-url-tokenizer-0.0.9.tar.gz --markdown 20230718/d/django-url-tokenizer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 01:09:29] INFO root fetch - processPackages [ltempy]: Downloading https://files.pythonhosted.org/packages/7e/7b/b784df06f042874a39a9e6b8664a46eabf923e1c65db44f219203be6aeb3/ltempy-1.5.1.tar.gz
+[2023-07-18 01:09:29] INFO root fetch - processPackages [multimcts]: executing diffoscope
+[2023-07-18 01:09:29] INFO root fetch - processPackages [multimcts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multimcts-0.1.3.tar.gz tmp/multimcts-0.1.4.tar.gz --markdown 20230718/m/multimcts/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-18 01:09:29] INFO root fetch - processPackages [ntscli-client]: Downloading https://files.pythonhosted.org/packages/c5/5e/ff4247cc701b2805c6293914af71e6026850982dacbc76907b9a472618d3/ntscli_client-2.1.9.dev3-py3-none-any.whl
+[2023-07-18 01:09:29] INFO root fetch - processPackages [metar2bufr]: Downloading https://files.pythonhosted.org/packages/53/b6/c51cf00c185bf643a1c0b6409023eb52802850b59dbffecea973b4695e47/metar2bufr-0.0.2.22.tar.gz
+[2023-07-18 01:09:29] INFO root fetch - processPackages [imitation]: Downloading https://files.pythonhosted.org/packages/56/1c/75366aa279c34eb6e04661f83175ab9571663f13987b8d1c92d7eee4e198/imitation-0.4.0.tar.gz
+[2023-07-18 01:09:29] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/b2/48/00e2d6a1639042a486544d5f5f9200c7e72369b7fcde95da7bc64dd92b55/langroid-0.1.9.tar.gz
+[2023-07-18 01:09:29] INFO root fetch - processPackages [ltempy]: executing diffoscope
+[2023-07-18 01:09:29] INFO root fetch - processPackages [ltempy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ltempy-1.4.2.tar.gz tmp/ltempy-1.5.1.tar.gz --markdown 20230718/l/ltempy/1.4.2-1.5.1/diff.md --exclude *.pyd
+[2023-07-18 01:09:29] INFO root fetch - processPackages [oobabot]: Downloading https://files.pythonhosted.org/packages/c7/24/8f662df7e7f046418157d0ad9415f5eed044f7b7a41b21e7368fb70d510f/oobabot-0.2.1.tar.gz
+[2023-07-18 01:09:29] INFO root fetch - processPackages [PHX]: executing diffoscope
+[2023-07-18 01:09:29] INFO root fetch - processPackages [PHX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PHX-1.8.1.tar.gz tmp/PHX-1.9.0.tar.gz --markdown 20230718/P/PHX/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-18 01:09:29] INFO root fetch - processPackages [ntscli-client]: executing diffoscope
+[2023-07-18 01:09:29] INFO root fetch - processPackages [ntscli-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntscli_client-2.1.9.dev2-py3-none-any.whl.zip tmp/ntscli_client-2.1.9.dev3-py3-none-any.whl.zip --markdown 20230718/n/ntscli-client/2.1.9.dev2-2.1.9.dev3/diff.md --exclude *.pyd
+[2023-07-18 01:09:29] INFO root fetch - processPackages [metar2bufr]: executing diffoscope
+[2023-07-18 01:09:29] INFO root fetch - processPackages [metar2bufr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metar2bufr-0.0.2.21.tar.gz tmp/metar2bufr-0.0.2.22.tar.gz --markdown 20230718/m/metar2bufr/0.0.2.21-0.0.2.22/diff.md --exclude *.pyd
+[2023-07-18 01:09:29] INFO root fetch - processPackages [langroid]: executing diffoscope
+[2023-07-18 01:09:29] INFO root fetch - processPackages [langroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langroid-0.1.8.tar.gz tmp/langroid-0.1.9.tar.gz --markdown 20230718/l/langroid/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-18 01:09:29] INFO root fetch - processPackages [oobabot]: executing diffoscope
+[2023-07-18 01:09:29] INFO root fetch - processPackages [oobabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oobabot-0.2.0.tar.gz tmp/oobabot-0.2.1.tar.gz --markdown 20230718/o/oobabot/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-18 01:09:29] INFO root fetch - processPackages [imitation]: executing diffoscope
+[2023-07-18 01:09:29] INFO root fetch - processPackages [imitation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imitation-0.3.2.tar.gz tmp/imitation-0.4.0.tar.gz --markdown 20230718/i/imitation/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-07-18 01:09:30] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.8.tar.gz]
+[2023-07-18 01:09:30] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.9.tar.gz]
+[2023-07-18 01:09:30] INFO root fetch - main [MainThread]: End processing [django-url-tokenizer]: success
+[2023-07-18 01:09:30] INFO root fetch - processPackages [multimcts]: Remove: archive file [/home/abi/fetcher/tmp/multimcts-0.1.3.tar.gz]
+[2023-07-18 01:09:30] INFO root fetch - processPackages [multimcts]: Remove: archive file [/home/abi/fetcher/tmp/multimcts-0.1.4.tar.gz]
+[2023-07-18 01:09:30] INFO root fetch - main [MainThread]: End processing [multimcts]: success
+[2023-07-18 01:09:30] INFO root fetch - processPackages [ltempy]: Remove: archive file [/home/abi/fetcher/tmp/ltempy-1.4.2.tar.gz]
+[2023-07-18 01:09:30] INFO root fetch - processPackages [ltempy]: Remove: archive file [/home/abi/fetcher/tmp/ltempy-1.5.1.tar.gz]
+[2023-07-18 01:09:30] INFO root fetch - main [MainThread]: End processing [ltempy]: success
+[2023-07-18 01:09:31] INFO root fetch - processPackages [ntscli-client]: Remove: archive file [/home/abi/fetcher/tmp/ntscli_client-2.1.9.dev2-py3-none-any.whl.zip]
+[2023-07-18 01:09:31] INFO root fetch - processPackages [ntscli-client]: Remove: archive file [/home/abi/fetcher/tmp/ntscli_client-2.1.9.dev3-py3-none-any.whl.zip]
+[2023-07-18 01:09:31] INFO root fetch - main [MainThread]: End processing [ntscli-client]: success
+[2023-07-18 01:09:31] INFO root fetch - processPackages [metar2bufr]: Remove: archive file [/home/abi/fetcher/tmp/metar2bufr-0.0.2.21.tar.gz]
+[2023-07-18 01:09:31] INFO root fetch - processPackages [metar2bufr]: Remove: archive file [/home/abi/fetcher/tmp/metar2bufr-0.0.2.22.tar.gz]
+[2023-07-18 01:09:31] INFO root fetch - main [MainThread]: End processing [metar2bufr]: success
+[2023-07-18 01:09:31] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.8.tar.gz]
+[2023-07-18 01:09:31] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.9.tar.gz]
+[2023-07-18 01:09:31] INFO root fetch - main [MainThread]: End processing [langroid]: success
+[2023-07-18 01:09:31] INFO root fetch - processPackages [oobabot]: Remove: archive file [/home/abi/fetcher/tmp/oobabot-0.2.0.tar.gz]
+[2023-07-18 01:09:31] INFO root fetch - processPackages [oobabot]: Remove: archive file [/home/abi/fetcher/tmp/oobabot-0.2.1.tar.gz]
+[2023-07-18 01:09:31] INFO root fetch - main [MainThread]: End processing [oobabot]: success
+[2023-07-18 01:09:31] INFO root fetch - processPackages [PHX]: Remove: archive file [/home/abi/fetcher/tmp/PHX-1.8.1.tar.gz]
+[2023-07-18 01:09:31] INFO root fetch - processPackages [PHX]: Remove: archive file [/home/abi/fetcher/tmp/PHX-1.9.0.tar.gz]
+[2023-07-18 01:09:31] INFO root fetch - main [MainThread]: End processing [PHX]: success
+[2023-07-18 01:09:32] INFO root fetch - processPackages [imitation]: Remove: archive file [/home/abi/fetcher/tmp/imitation-0.3.2.tar.gz]
+[2023-07-18 01:09:32] INFO root fetch - processPackages [imitation]: Remove: archive file [/home/abi/fetcher/tmp/imitation-0.4.0.tar.gz]
+[2023-07-18 01:09:32] INFO root fetch - main [MainThread]: End processing [imitation]: success
+[2023-07-18 01:09:32] INFO root fetch - main [MainThread]: Store serial: [18923385]
