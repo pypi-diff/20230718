@@ -335,3 +335,96 @@
 [2023-07-18 00:17:11] INFO root fetch - processPackages [kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/kubernetes-9.0.1.tar.gz]
 [2023-07-18 00:17:11] INFO root fetch - main [MainThread]: End processing [kubernetes]: success
 [2023-07-18 00:17:11] INFO root fetch - main [MainThread]: Store serial: [18923053]
+[2023-07-18 00:22:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18923053]
+[2023-07-18 00:22:20] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-18 00:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pylib-essentials
+[2023-07-18 00:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scale-llm-engine
+[2023-07-18 00:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: genomap
+[2023-07-18 00:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Colectica-API
+[2023-07-18 00:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plantstar-shared
+[2023-07-18 00:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cybrid-api-id-python
+[2023-07-18 00:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-url-tokenizer
+[2023-07-18 00:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cybrid-api-bank-python
+[2023-07-18 00:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cybrid-api-organization-python
+[2023-07-18 00:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: BroadSword
+[2023-07-18 00:22:21] INFO root fetch - processPackages [BroadSword]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-18 00:22:21] INFO root fetch - processPackages [pylib-essentials]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-18 00:22:21] INFO root fetch - processPackages [scale-llm-engine]: New version: [0.0.0b2] Old Version: [0.0.0b1]
+[2023-07-18 00:22:21] INFO root fetch - processPackages [plantstar-shared]: New version: [2.0.3.0.2] Old Version: [2.0.3.0.1]
+[2023-07-18 00:22:21] INFO root fetch - processPackages [genomap]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-18 00:22:21] INFO root fetch - processPackages [django-url-tokenizer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 00:22:21] INFO root fetch - processPackages [Colectica-API]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-18 00:22:21] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-18 00:22:21] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-18 00:22:21] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-18 00:22:21] INFO root fetch - processPackages [BroadSword]: Downloading https://files.pythonhosted.org/packages/4f/3d/cc543666f29e1c31f6d9680e371f544b3faf74ff70d870b6d49283ba8242/BroadSword-0.1.3.tar.gz
+[2023-07-18 00:22:21] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/58/fc/c297e12ea86d40bc35c3034412e468c38bef18667e6adfe0b24802b0e417/django-url-tokenizer-0.0.8.tar.gz
+[2023-07-18 00:22:21] INFO root fetch - processPackages [genomap]: Downloading https://files.pythonhosted.org/packages/b6/e1/f6de0d89f39790b04249f7731b5dd4c28edcd1841295e51aa7fd32cd3096/genomap-1.2.2.tar.gz
+[2023-07-18 00:22:21] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/8c/f9/11b3397de980d7217c6b56728b693a302080844e78e135a12319c23d1e09/cybrid-api-organization-python-0.9.8.tar.gz
+[2023-07-18 00:22:21] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/50/b7/b977148f4fc829a75a0b07e5a1a330568bf4060c71cf5e0e0a6449ffed87/cybrid-api-id-python-0.9.8.tar.gz
+[2023-07-18 00:22:21] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/20/58/83595c25956605935aa08227f1f01b1c02743825aca19e267bc95d1b4928/cybrid-api-bank-python-0.9.8.tar.gz
+[2023-07-18 00:22:21] INFO root fetch - processPackages [pylib-essentials]: Downloading https://files.pythonhosted.org/packages/14/d7/e617dc8b2cdb8faac38239f2176bcc971a616a88e6be150f3292edc9453e/pylib_essentials-0.0.4.tar.gz
+[2023-07-18 00:22:21] INFO root fetch - processPackages [scale-llm-engine]: Downloading https://files.pythonhosted.org/packages/98/53/5257bc7527595f2c88b143413d57dea50d04c0646c4b65020e265dcd4644/scale_llm_engine-0.0.0b1.tar.gz
+[2023-07-18 00:22:21] INFO root fetch - processPackages [plantstar-shared]: Downloading https://files.pythonhosted.org/packages/e5/bf/83793d10d9fcae83224e79f1c950c0ca273835a6ae7547345af7d3a3de22/plantstar-shared-2.0.3.0.1.tar.gz
+[2023-07-18 00:22:21] INFO root fetch - processPackages [Colectica-API]: Downloading https://files.pythonhosted.org/packages/3e/ee/68c5d2ff23a93689f4cf1b846f0c1dfb6d741fcb4e7c6cb1b137dbf8b7d2/Colectica_API-0.0.2.tar.gz
+[2023-07-18 00:22:21] INFO root fetch - processPackages [BroadSword]: Downloading https://files.pythonhosted.org/packages/93/3e/f943f0802add5196990d171afe22f2864e22f231b8c314a53ee41aa3e657/BroadSword-0.1.4.tar.gz
+[2023-07-18 00:22:21] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/6e/9a/cba8516138af9b31af978d1cb5ac08501052b56ac24c59f876cc7432e4cd/cybrid-api-organization-python-0.9.9.tar.gz
+[2023-07-18 00:22:21] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/c5/13/df27d1141ec44b1c35f247440fc5cb506efe40a15cbed84328a82cab2d67/django-url-tokenizer-0.0.9.tar.gz
+[2023-07-18 00:22:21] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/89/0b/5831e52f1895b5ffe4c5b8862788216f9cf6c8554dfffa92e8805799baaf/cybrid-api-bank-python-0.9.9.tar.gz
+[2023-07-18 00:22:21] INFO root fetch - processPackages [genomap]: Downloading https://files.pythonhosted.org/packages/01/73/55ff003fd15686cacf3fa930708d21607425f0e2174ebc05856e2a446373/genomap-1.2.3.tar.gz
+[2023-07-18 00:22:21] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/df/0b/f41ef37cacb50f16ff72d759b9fe9a5fd7fe8bde214833a5c722ba07e136/cybrid-api-id-python-0.9.9.tar.gz
+[2023-07-18 00:22:21] INFO root fetch - processPackages [scale-llm-engine]: Downloading https://files.pythonhosted.org/packages/3a/70/4c03132112f85d5e76fac9d6bccb0cc74afb14e14b0b9ebc1736d939b9c7/scale_llm_engine-0.0.0b2.tar.gz
+[2023-07-18 00:22:22] INFO root fetch - processPackages [pylib-essentials]: Downloading https://files.pythonhosted.org/packages/5a/cd/80de1e9632c263b14d0c4d26a792a68479c20c785559f875a1ab95cf5208/pylib_essentials-0.0.5.tar.gz
+[2023-07-18 00:22:22] INFO root fetch - processPackages [BroadSword]: executing diffoscope
+[2023-07-18 00:22:22] INFO root fetch - processPackages [BroadSword]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BroadSword-0.1.3.tar.gz tmp/BroadSword-0.1.4.tar.gz --markdown 20230718/B/BroadSword/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-18 00:22:22] INFO root fetch - processPackages [django-url-tokenizer]: executing diffoscope
+[2023-07-18 00:22:22] INFO root fetch - processPackages [django-url-tokenizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-url-tokenizer-0.0.8.tar.gz tmp/django-url-tokenizer-0.0.9.tar.gz --markdown 20230718/d/django-url-tokenizer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 00:22:22] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-07-18 00:22:22] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230718/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-18 00:22:22] INFO root fetch - processPackages [plantstar-shared]: Downloading https://files.pythonhosted.org/packages/c4/9f/f45674e6d661af40b4863e26ce41ea1c5493c50157b3ab1298969261bc1b/plantstar-shared-2.0.3.0.2.tar.gz
+[2023-07-18 00:22:22] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-07-18 00:22:22] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230718/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-18 00:22:22] INFO root fetch - processPackages [genomap]: executing diffoscope
+[2023-07-18 00:22:22] INFO root fetch - processPackages [genomap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genomap-1.2.2.tar.gz tmp/genomap-1.2.3.tar.gz --markdown 20230718/g/genomap/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-18 00:22:22] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-07-18 00:22:22] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230718/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-18 00:22:22] INFO root fetch - processPackages [pylib-essentials]: executing diffoscope
+[2023-07-18 00:22:22] INFO root fetch - processPackages [pylib-essentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylib_essentials-0.0.4.tar.gz tmp/pylib_essentials-0.0.5.tar.gz --markdown 20230718/p/pylib-essentials/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-18 00:22:22] INFO root fetch - processPackages [scale-llm-engine]: executing diffoscope
+[2023-07-18 00:22:22] INFO root fetch - processPackages [scale-llm-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scale_llm_engine-0.0.0b1.tar.gz tmp/scale_llm_engine-0.0.0b2.tar.gz --markdown 20230718/s/scale-llm-engine/0.0.0b1-0.0.0b2/diff.md --exclude *.pyd
+[2023-07-18 00:22:22] INFO root fetch - processPackages [plantstar-shared]: executing diffoscope
+[2023-07-18 00:22:22] INFO root fetch - processPackages [plantstar-shared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plantstar-shared-2.0.3.0.1.tar.gz tmp/plantstar-shared-2.0.3.0.2.tar.gz --markdown 20230718/p/plantstar-shared/2.0.3.0.1-2.0.3.0.2/diff.md --exclude *.pyd
+[2023-07-18 00:22:22] INFO root fetch - processPackages [Colectica-API]: Downloading https://files.pythonhosted.org/packages/2c/d2/d758ac492ccabecd576a98cac62bac0aeb39a0f951820727525f31c145a0/Colectica_API-0.0.3.tar.gz
+[2023-07-18 00:22:22] INFO root fetch - processPackages [Colectica-API]: executing diffoscope
+[2023-07-18 00:22:22] INFO root fetch - processPackages [Colectica-API]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Colectica_API-0.0.2.tar.gz tmp/Colectica_API-0.0.3.tar.gz --markdown 20230718/C/Colectica-API/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-18 00:22:23] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.8.tar.gz]
+[2023-07-18 00:22:23] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.9.tar.gz]
+[2023-07-18 00:22:23] INFO root fetch - main [MainThread]: End processing [django-url-tokenizer]: success
+[2023-07-18 00:22:23] INFO root fetch - processPackages [BroadSword]: Remove: archive file [/home/abi/fetcher/tmp/BroadSword-0.1.3.tar.gz]
+[2023-07-18 00:22:23] INFO root fetch - processPackages [BroadSword]: Remove: archive file [/home/abi/fetcher/tmp/BroadSword-0.1.4.tar.gz]
+[2023-07-18 00:22:23] INFO root fetch - main [MainThread]: End processing [BroadSword]: success
+[2023-07-18 00:22:23] INFO root fetch - processPackages [scale-llm-engine]: Remove: archive file [/home/abi/fetcher/tmp/scale_llm_engine-0.0.0b1.tar.gz]
+[2023-07-18 00:22:23] INFO root fetch - processPackages [scale-llm-engine]: Remove: archive file [/home/abi/fetcher/tmp/scale_llm_engine-0.0.0b2.tar.gz]
+[2023-07-18 00:22:23] INFO root fetch - main [MainThread]: End processing [scale-llm-engine]: success
+[2023-07-18 00:22:24] INFO root fetch - processPackages [plantstar-shared]: Remove: archive file [/home/abi/fetcher/tmp/plantstar-shared-2.0.3.0.1.tar.gz]
+[2023-07-18 00:22:24] INFO root fetch - processPackages [plantstar-shared]: Remove: archive file [/home/abi/fetcher/tmp/plantstar-shared-2.0.3.0.2.tar.gz]
+[2023-07-18 00:22:24] INFO root fetch - main [MainThread]: End processing [plantstar-shared]: success
+[2023-07-18 00:22:24] INFO root fetch - processPackages [pylib-essentials]: Remove: archive file [/home/abi/fetcher/tmp/pylib_essentials-0.0.4.tar.gz]
+[2023-07-18 00:22:24] INFO root fetch - processPackages [pylib-essentials]: Remove: archive file [/home/abi/fetcher/tmp/pylib_essentials-0.0.5.tar.gz]
+[2023-07-18 00:22:24] INFO root fetch - main [MainThread]: End processing [pylib-essentials]: success
+[2023-07-18 00:22:24] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.8.tar.gz]
+[2023-07-18 00:22:24] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.9.tar.gz]
+[2023-07-18 00:22:24] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-07-18 00:22:24] INFO root fetch - processPackages [Colectica-API]: Remove: archive file [/home/abi/fetcher/tmp/Colectica_API-0.0.2.tar.gz]
+[2023-07-18 00:22:24] INFO root fetch - processPackages [Colectica-API]: Remove: archive file [/home/abi/fetcher/tmp/Colectica_API-0.0.3.tar.gz]
+[2023-07-18 00:22:24] INFO root fetch - main [MainThread]: End processing [Colectica-API]: success
+[2023-07-18 00:22:24] INFO root fetch - processPackages [genomap]: Remove: archive file [/home/abi/fetcher/tmp/genomap-1.2.2.tar.gz]
+[2023-07-18 00:22:24] INFO root fetch - processPackages [genomap]: Remove: archive file [/home/abi/fetcher/tmp/genomap-1.2.3.tar.gz]
+[2023-07-18 00:22:24] INFO root fetch - main [MainThread]: End processing [genomap]: success
+[2023-07-18 00:22:24] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.8.tar.gz]
+[2023-07-18 00:22:24] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.9.tar.gz]
+[2023-07-18 00:22:24] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-07-18 00:22:24] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.8.tar.gz]
+[2023-07-18 00:22:24] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
+[2023-07-18 00:22:24] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-07-18 00:22:24] INFO root fetch - main [MainThread]: Store serial: [18923091]
