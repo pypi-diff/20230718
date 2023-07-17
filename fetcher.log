@@ -144,3 +144,110 @@
 [2023-07-18 00:06:29] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.3.1.tar.gz]
 [2023-07-18 00:06:29] INFO root fetch - main [MainThread]: End processing [langflow]: success
 [2023-07-18 00:06:29] INFO root fetch - main [MainThread]: Store serial: [18922972]
+[2023-07-18 00:11:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18922972]
+[2023-07-18 00:11:42] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-18 00:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: textframe
+[2023-07-18 00:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fabric-credmgr-client
+[2023-07-18 00:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mujoco-dev
+[2023-07-18 00:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Newgram
+[2023-07-18 00:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fabrictestbed
+[2023-07-18 00:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-master
+[2023-07-18 00:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: roblox-pyc
+[2023-07-18 00:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: metaphor-connectors
+[2023-07-18 00:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: BroadSword
+[2023-07-18 00:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: climatePy
+[2023-07-18 00:11:42] INFO root fetch - processPackages [textframe]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 00:11:43] INFO root fetch - processPackages [mujoco-dev]: New version: [2.3.6.dev548805912] Old Version: [2.3.6.dev548742883]
+[2023-07-18 00:11:43] INFO root fetch - processPackages [fabric-credmgr-client]: New version: [1.6.0b4] Old Version: [1.6.0b3]
+[2023-07-18 00:11:43] INFO root fetch - processPackages [BroadSword]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-18 00:11:43] INFO root fetch - processPackages [Newgram]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-18 00:11:43] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230717.22.7.563808] Old Version: [20230717.21.42.615656]
+[2023-07-18 00:11:43] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-18 00:11:43] INFO root fetch - processPackages [climatePy]: New version: [0.4.33] Old Version: [0.4.32]
+[2023-07-18 00:11:43] INFO root fetch - processPackages [fabrictestbed]: New version: [1.6.0b4] Old Version: [1.6.0b3]
+[2023-07-18 00:11:43] INFO root fetch - processPackages [metaphor-connectors]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-18 00:11:43] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-18 00:11:43] INFO root fetch - processPackages [fabrictestbed]: Downloading https://files.pythonhosted.org/packages/86/f0/f7b868929608a77c73ede7861678a8c11282414aafe3e093c6bab926cb56/fabrictestbed-1.6.0b3.tar.gz
+[2023-07-18 00:11:43] INFO root fetch - processPackages [textframe]: Downloading https://files.pythonhosted.org/packages/f8/4c/e7b3fe1a6dbebe2712a6047f8bfa93cf2338751e5b2038a324984bdaf318/textframe-0.0.8.tar.gz
+[2023-07-18 00:11:43] INFO root fetch - processPackages [BroadSword]: Downloading https://files.pythonhosted.org/packages/71/a3/f8a5bcca9caa79373277c502d66d701ee577b9be9787275dc4b20bd60383/BroadSword-0.1.2.tar.gz
+[2023-07-18 00:11:43] INFO root fetch - processPackages [fabric-credmgr-client]: Downloading https://files.pythonhosted.org/packages/d9/51/4340ee55a191c35ed5566fa0cf183a9253224e85746b9bd35f1ca752c6e5/fabric-credmgr-client-1.6.0b3.tar.gz
+[2023-07-18 00:11:43] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/c7/8d/de7800e17f9c2a7275c79b28a8fa2946d6f97b61b408f66b50b10f3e2b2f/certora-cli-alpha-master-20230717.21.42.615656.tar.gz
+[2023-07-18 00:11:43] INFO root fetch - processPackages [mujoco-dev]: Downloading https://files.pythonhosted.org/packages/40/4c/2b8decf8e0659181ce665b6787eaf4b9318bf17e4e7f848a691c1c826f3a/mujoco_dev-2.3.6.dev548742883-cp39-cp39-win_amd64.whl
+[2023-07-18 00:11:43] INFO root fetch - processPackages [climatePy]: Downloading https://files.pythonhosted.org/packages/53/51/f1a4c1f338ccdddbd3b825be87e77495c1f78e45e4f4823c272667e786d9/climatePy-0.4.32.tar.gz
+[2023-07-18 00:11:43] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/92/c2/f775488949e85740917971e97fbd1e7187de61421ac7fbbc9d5485275473/metaphor-connectors-0.9.3.tar.gz
+[2023-07-18 00:11:43] INFO root fetch - processPackages [Newgram]: Downloading https://files.pythonhosted.org/packages/3b/47/45ad7f0e4e59c765f04c1926d10b4ef25628a88c550a5a89f76e5a2fd2c9/Newgram-0.0.1.tar.gz
+[2023-07-18 00:11:43] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37506705>=10485760
+[2023-07-18 00:11:43] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: socscikit
+[2023-07-18 00:11:43] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-18 00:11:43] INFO root fetch - processPackages [socscikit]: New version: [0.0.5.7] Old Version: [0.0.5.6]
+[2023-07-18 00:11:43] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-18 00:11:43] INFO root fetch - processPackages [fabrictestbed]: Downloading https://files.pythonhosted.org/packages/9d/37/85d377656aabc92bb2c8384d5a5daa62d832ef4b3952f96503cd14b004b5/fabrictestbed-1.6.0b4.tar.gz
+[2023-07-18 00:11:43] INFO root fetch - processPackages [textframe]: Downloading https://files.pythonhosted.org/packages/a1/5d/dfb6b5e0846545b4cdc898232d0a97157cba45efef8e64082908a4f406a9/textframe-0.0.9.tar.gz
+[2023-07-18 00:11:43] INFO root fetch - processPackages [BroadSword]: Downloading https://files.pythonhosted.org/packages/4f/3d/cc543666f29e1c31f6d9680e371f544b3faf74ff70d870b6d49283ba8242/BroadSword-0.1.3.tar.gz
+[2023-07-18 00:11:43] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-18 00:11:43] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230718/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-18 00:11:43] INFO root fetch - processPackages [fabric-credmgr-client]: Downloading https://files.pythonhosted.org/packages/d4/18/e8e7129e5ea30014831cd1864ed4b65d2b1ee8c6db1382a687293edade1e/fabric-credmgr-client-1.6.0b4.tar.gz
+[2023-07-18 00:11:43] INFO root fetch - processPackages [fabrictestbed]: executing diffoscope
+[2023-07-18 00:11:43] INFO root fetch - processPackages [fabrictestbed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabrictestbed-1.6.0b3.tar.gz tmp/fabrictestbed-1.6.0b4.tar.gz --markdown 20230718/f/fabrictestbed/1.6.0b3-1.6.0b4/diff.md --exclude *.pyd
+[2023-07-18 00:11:43] INFO root fetch - processPackages [socscikit]: Downloading https://files.pythonhosted.org/packages/c7/21/bc6889136dcd748b6ab6991ec95c0348344c0ae8a28ff4e666f45165a0d8/socscikit-0.0.5.6.tar.gz
+[2023-07-18 00:11:43] INFO root fetch - processPackages [textframe]: executing diffoscope
+[2023-07-18 00:11:43] INFO root fetch - processPackages [textframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textframe-0.0.8.tar.gz tmp/textframe-0.0.9.tar.gz --markdown 20230718/t/textframe/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 00:11:44] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/7e/f3/fd51e0c2498f7340487d8eba1ee24a716e8056cce2a496a20f5da0cc11de/metaphor-connectors-0.9.4.tar.gz
+[2023-07-18 00:11:44] INFO root fetch - processPackages [Newgram]: Downloading https://files.pythonhosted.org/packages/a1/a4/ab095fe88e8dbd4f8c9c630fd68a1fb068e1dad4cf5990f8cc0c016fe056/Newgram-0.0.2.tar.gz
+[2023-07-18 00:11:44] INFO root fetch - processPackages [climatePy]: Downloading https://files.pythonhosted.org/packages/96/bb/8e3d20a5dad6ab848b7048ce5fcfb6d10bf41aafaed95b516064f702bff4/climatePy-0.4.33.tar.gz
+[2023-07-18 00:11:44] INFO root fetch - processPackages [BroadSword]: executing diffoscope
+[2023-07-18 00:11:44] INFO root fetch - processPackages [BroadSword]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BroadSword-0.1.2.tar.gz tmp/BroadSword-0.1.3.tar.gz --markdown 20230718/B/BroadSword/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-18 00:11:44] INFO root fetch - processPackages [fabric-credmgr-client]: executing diffoscope
+[2023-07-18 00:11:44] INFO root fetch - processPackages [fabric-credmgr-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric-credmgr-client-1.6.0b3.tar.gz tmp/fabric-credmgr-client-1.6.0b4.tar.gz --markdown 20230718/f/fabric-credmgr-client/1.6.0b3-1.6.0b4/diff.md --exclude *.pyd
+[2023-07-18 00:11:44] INFO root fetch - processPackages [metaphor-connectors]: executing diffoscope
+[2023-07-18 00:11:44] INFO root fetch - processPackages [metaphor-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-connectors-0.9.3.tar.gz tmp/metaphor-connectors-0.9.4.tar.gz --markdown 20230718/m/metaphor-connectors/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-18 00:11:44] INFO root fetch - processPackages [Newgram]: executing diffoscope
+[2023-07-18 00:11:44] INFO root fetch - processPackages [Newgram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Newgram-0.0.1.tar.gz tmp/Newgram-0.0.2.tar.gz --markdown 20230718/N/Newgram/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-18 00:11:44] INFO root fetch - processPackages [climatePy]: executing diffoscope
+[2023-07-18 00:11:44] INFO root fetch - processPackages [climatePy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climatePy-0.4.32.tar.gz tmp/climatePy-0.4.33.tar.gz --markdown 20230718/c/climatePy/0.4.32-0.4.33/diff.md --exclude *.pyd
+[2023-07-18 00:11:44] INFO root fetch - processPackages [socscikit]: Downloading https://files.pythonhosted.org/packages/36/b6/70076160f4033809c627b24270aa7b31f5866db80ec996cea10a8eef78ee/socscikit-0.0.5.7.tar.gz
+[2023-07-18 00:11:44] INFO root fetch - processPackages [mujoco-dev]: Downloading https://files.pythonhosted.org/packages/00/66/d2a4804b87f89de2006af744701ec4ee83409223e2c22a3b5a78c08d3584/mujoco_dev-2.3.6.dev548805912-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-18 00:11:44] INFO root fetch - processPackages [socscikit]: executing diffoscope
+[2023-07-18 00:11:44] INFO root fetch - processPackages [socscikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socscikit-0.0.5.6.tar.gz tmp/socscikit-0.0.5.7.tar.gz --markdown 20230718/s/socscikit/0.0.5.6-0.0.5.7/diff.md --exclude *.pyd
+[2023-07-18 00:11:45] INFO root fetch - processPackages [fabrictestbed]: Remove: archive file [/home/abi/fetcher/tmp/fabrictestbed-1.6.0b3.tar.gz]
+[2023-07-18 00:11:45] INFO root fetch - processPackages [fabrictestbed]: Remove: archive file [/home/abi/fetcher/tmp/fabrictestbed-1.6.0b4.tar.gz]
+[2023-07-18 00:11:45] INFO root fetch - processPackages [fabrictestbed]: Start processing: bs-python-utils
+[2023-07-18 00:11:45] INFO root fetch - main [MainThread]: End processing [fabrictestbed]: success
+[2023-07-18 00:11:45] INFO root fetch - processPackages [mujoco-dev]: executing diffoscope
+[2023-07-18 00:11:45] INFO root fetch - processPackages [mujoco-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mujoco_dev-2.3.6.dev548742883-cp39-cp39-win_amd64.whl.zip tmp/mujoco_dev-2.3.6.dev548805912-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230718/m/mujoco-dev/2.3.6.dev548742883-2.3.6.dev548805912/diff.md --exclude *.pyd
+[2023-07-18 00:11:45] INFO root fetch - processPackages [bs-python-utils]: New version: [0.2] Old Version: [0.1]
+[2023-07-18 00:11:45] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-18 00:11:45] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-18 00:11:45] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-18 00:11:45] INFO root fetch - processPackages [textframe]: Remove: archive file [/home/abi/fetcher/tmp/textframe-0.0.8.tar.gz]
+[2023-07-18 00:11:45] INFO root fetch - processPackages [textframe]: Remove: archive file [/home/abi/fetcher/tmp/textframe-0.0.9.tar.gz]
+[2023-07-18 00:11:45] INFO root fetch - main [MainThread]: End processing [textframe]: success
+[2023-07-18 00:11:45] INFO root fetch - processPackages [BroadSword]: Remove: archive file [/home/abi/fetcher/tmp/BroadSword-0.1.2.tar.gz]
+[2023-07-18 00:11:45] INFO root fetch - processPackages [BroadSword]: Remove: archive file [/home/abi/fetcher/tmp/BroadSword-0.1.3.tar.gz]
+[2023-07-18 00:11:45] INFO root fetch - main [MainThread]: End processing [BroadSword]: success
+[2023-07-18 00:11:45] INFO root fetch - processPackages [bs-python-utils]: Downloading https://files.pythonhosted.org/packages/c0/1d/797eaa2134c2e72297ed92e17f31f23ad9dba02ea60a7080e1075c11c202/bs_python_utils-0.1.tar.gz
+[2023-07-18 00:11:46] INFO root fetch - processPackages [fabric-credmgr-client]: Remove: archive file [/home/abi/fetcher/tmp/fabric-credmgr-client-1.6.0b3.tar.gz]
+[2023-07-18 00:11:46] INFO root fetch - processPackages [fabric-credmgr-client]: Remove: archive file [/home/abi/fetcher/tmp/fabric-credmgr-client-1.6.0b4.tar.gz]
+[2023-07-18 00:11:46] INFO root fetch - main [MainThread]: End processing [fabric-credmgr-client]: success
+[2023-07-18 00:11:46] INFO root fetch - processPackages [bs-python-utils]: Downloading https://files.pythonhosted.org/packages/cb/bd/a94d55e10bcedb54fc1c7e564ef29c05c979131bec9041b0a70374f3a77c/bs_python_utils-0.2.tar.gz
+[2023-07-18 00:11:46] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.3.tar.gz]
+[2023-07-18 00:11:46] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.4.tar.gz]
+[2023-07-18 00:11:46] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
+[2023-07-18 00:11:46] INFO root fetch - processPackages [bs-python-utils]: executing diffoscope
+[2023-07-18 00:11:46] INFO root fetch - processPackages [bs-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bs_python_utils-0.1.tar.gz tmp/bs_python_utils-0.2.tar.gz --markdown 20230718/b/bs-python-utils/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-18 00:11:46] INFO root fetch - processPackages [socscikit]: Remove: archive file [/home/abi/fetcher/tmp/socscikit-0.0.5.6.tar.gz]
+[2023-07-18 00:11:46] INFO root fetch - processPackages [socscikit]: Remove: archive file [/home/abi/fetcher/tmp/socscikit-0.0.5.7.tar.gz]
+[2023-07-18 00:11:46] INFO root fetch - main [MainThread]: End processing [socscikit]: success
+[2023-07-18 00:11:47] INFO root fetch - processPackages [bs-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/bs_python_utils-0.1.tar.gz]
+[2023-07-18 00:11:47] INFO root fetch - processPackages [bs-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/bs_python_utils-0.2.tar.gz]
+[2023-07-18 00:11:47] INFO root fetch - main [MainThread]: End processing [bs-python-utils]: success
+[2023-07-18 00:11:47] INFO root fetch - processPackages [Newgram]: Remove: archive file [/home/abi/fetcher/tmp/Newgram-0.0.1.tar.gz]
+[2023-07-18 00:11:47] INFO root fetch - processPackages [Newgram]: Remove: archive file [/home/abi/fetcher/tmp/Newgram-0.0.2.tar.gz]
+[2023-07-18 00:11:47] INFO root fetch - main [MainThread]: End processing [Newgram]: success
+[2023-07-18 00:11:48] INFO root fetch - processPackages [climatePy]: Remove: archive file [/home/abi/fetcher/tmp/climatePy-0.4.32.tar.gz]
+[2023-07-18 00:11:48] INFO root fetch - processPackages [climatePy]: Remove: archive file [/home/abi/fetcher/tmp/climatePy-0.4.33.tar.gz]
+[2023-07-18 00:11:48] INFO root fetch - main [MainThread]: End processing [climatePy]: success
+[2023-07-18 00:11:48] INFO root fetch - processPackages [mujoco-dev]: Remove: archive file [/home/abi/fetcher/tmp/mujoco_dev-2.3.6.dev548742883-cp39-cp39-win_amd64.whl.zip]
+[2023-07-18 00:11:48] INFO root fetch - processPackages [mujoco-dev]: Remove: archive file [/home/abi/fetcher/tmp/mujoco_dev-2.3.6.dev548805912-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-18 00:11:48] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
+[2023-07-18 00:11:48] INFO root fetch - main [MainThread]: Store serial: [18923018]
