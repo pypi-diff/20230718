@@ -1911,3 +1911,27 @@
 [2023-07-18 01:39:10] INFO root fetch - processPackages [pymatgen]: Remove: archive file [/home/abi/fetcher/tmp/pymatgen-4.7.7.tar.gz]
 [2023-07-18 01:39:10] INFO root fetch - main [MainThread]: End processing [pymatgen]: success
 [2023-07-18 01:39:10] INFO root fetch - main [MainThread]: Store serial: [18923590]
+[2023-07-18 01:44:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18923590]
+[2023-07-18 01:44:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-18 01:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iceberg-tools
+[2023-07-18 01:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyanalyticsgit
+[2023-07-18 01:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llmetrics
+[2023-07-18 01:44:19] INFO root fetch - processPackages [pyanalyticsgit]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-18 01:44:19] INFO root fetch - processPackages [iceberg-tools]: New version: [0.0.4rc1] Old Version: [0.0.3]
+[2023-07-18 01:44:19] WARNING root fetch - processPackages [llmetrics]: Skipping, unable to determine old version
+[2023-07-18 01:44:19] INFO root fetch - main [MainThread]: End processing [llmetrics] error
+[2023-07-18 01:44:20] INFO root fetch - processPackages [iceberg-tools]: Downloading https://files.pythonhosted.org/packages/eb/9c/92ee41032ae6b216e41661b2e2767ed9ac8452f175d4f0258303120c437e/iceberg_tools-0.0.3.tar.gz
+[2023-07-18 01:44:20] INFO root fetch - processPackages [pyanalyticsgit]: Downloading https://files.pythonhosted.org/packages/bb/52/4c7d4c7af315221a083281be23b26652b1b9d403cbde89707d28bedef9b0/pyanalyticsgit-0.0.5.tar.gz
+[2023-07-18 01:44:20] INFO root fetch - processPackages [iceberg-tools]: Downloading https://files.pythonhosted.org/packages/92/5e/1bade5c843a453f6507dc0c05ab52d94b511a8cbb64bc18e0a8337e89743/iceberg_tools-0.0.4rc1.tar.gz
+[2023-07-18 01:44:20] INFO root fetch - processPackages [pyanalyticsgit]: Downloading https://files.pythonhosted.org/packages/3c/d3/7951120b7258e6793e0b60930bb12e36f6e129c48071dc56d95fa3d601ba/pyanalyticsgit-0.0.6.tar.gz
+[2023-07-18 01:44:20] INFO root fetch - processPackages [pyanalyticsgit]: executing diffoscope
+[2023-07-18 01:44:20] INFO root fetch - processPackages [pyanalyticsgit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyanalyticsgit-0.0.5.tar.gz tmp/pyanalyticsgit-0.0.6.tar.gz --markdown 20230718/p/pyanalyticsgit/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-18 01:44:20] INFO root fetch - processPackages [iceberg-tools]: executing diffoscope
+[2023-07-18 01:44:20] INFO root fetch - processPackages [iceberg-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iceberg_tools-0.0.3.tar.gz tmp/iceberg_tools-0.0.4rc1.tar.gz --markdown 20230718/i/iceberg-tools/0.0.3-0.0.4rc1/diff.md --exclude *.pyd
+[2023-07-18 01:44:21] INFO root fetch - processPackages [pyanalyticsgit]: Remove: archive file [/home/abi/fetcher/tmp/pyanalyticsgit-0.0.5.tar.gz]
+[2023-07-18 01:44:21] INFO root fetch - processPackages [pyanalyticsgit]: Remove: archive file [/home/abi/fetcher/tmp/pyanalyticsgit-0.0.6.tar.gz]
+[2023-07-18 01:44:21] INFO root fetch - main [MainThread]: End processing [pyanalyticsgit]: success
+[2023-07-18 01:44:21] INFO root fetch - processPackages [iceberg-tools]: Remove: archive file [/home/abi/fetcher/tmp/iceberg_tools-0.0.3.tar.gz]
+[2023-07-18 01:44:21] INFO root fetch - processPackages [iceberg-tools]: Remove: archive file [/home/abi/fetcher/tmp/iceberg_tools-0.0.4rc1.tar.gz]
+[2023-07-18 01:44:21] INFO root fetch - main [MainThread]: End processing [iceberg-tools]: success
+[2023-07-18 01:44:21] INFO root fetch - main [MainThread]: Store serial: [18923601]
