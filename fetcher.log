@@ -943,3 +943,92 @@
 [2023-07-18 00:53:44] INFO root fetch - processPackages [dbt-spark]: Remove: archive file [/home/abi/fetcher/tmp/dbt-spark-1.6.0rc1.tar.gz]
 [2023-07-18 00:53:44] INFO root fetch - main [MainThread]: End processing [dbt-spark]: success
 [2023-07-18 00:53:44] INFO root fetch - main [MainThread]: Store serial: [18923272]
+[2023-07-18 00:58:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18923272]
+[2023-07-18 00:58:53] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-18 00:58:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asyncdb
+[2023-07-18 00:58:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hpsspy
+[2023-07-18 00:58:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: score-models
+[2023-07-18 00:58:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: metricflow
+[2023-07-18 00:58:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ewms-pilot
+[2023-07-18 00:58:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: escnn
+[2023-07-18 00:58:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fern-merge
+[2023-07-18 00:58:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tensorflow-serving-api
+[2023-07-18 00:58:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tensorflow-serving-api-gpu
+[2023-07-18 00:58:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sentry
+[2023-07-18 00:58:54] INFO root fetch - processPackages [ewms-pilot]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-18 00:58:54] INFO root fetch - processPackages [tensorflow-serving-api-gpu]: New version: [2.9.3] Old Version: [2.9.2]
+[2023-07-18 00:58:54] INFO root fetch - processPackages [hpsspy]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-07-18 00:58:54] INFO root fetch - processPackages [fern-merge]: New version: [0.0.34] Old Version: [0.0.33]
+[2023-07-18 00:58:54] INFO root fetch - processPackages [asyncdb]: New version: [2.4.0] Old Version: [2.3.2]
+[2023-07-18 00:58:54] INFO root fetch - processPackages [score-models]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-07-18 00:58:54] INFO root fetch - processPackages [tensorflow-serving-api]: New version: [2.9.3] Old Version: [2.9.2]
+[2023-07-18 00:58:54] INFO root fetch - processPackages [metricflow]: New version: [0.93.0] Old Version: [0.92.1]
+[2023-07-18 00:58:54] INFO root fetch - processPackages [escnn]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-18 00:58:54] INFO root fetch - processPackages [fern-merge]: Downloading https://files.pythonhosted.org/packages/cc/21/1566afed6d2b8fb41eb43b748be6cc1bc9d89ddf81c796c79130fecb6bb9/fern_merge-0.0.33.tar.gz
+[2023-07-18 00:58:54] INFO root fetch - processPackages [score-models]: Downloading https://files.pythonhosted.org/packages/f3/20/6b85b783b1deb057aa24252ac82efd2c1f2f6f9253792be3ca9fd694c332/score_models-0.4.4.tar.gz
+[2023-07-18 00:58:54] INFO root fetch - processPackages [escnn]: Downloading https://files.pythonhosted.org/packages/83/92/4b68706909e99ca84cc02b23875376ff5db5e6531af2dd81f54e7b103ff7/escnn-1.0.7.tar.gz
+[2023-07-18 00:58:54] INFO root fetch - processPackages [sentry]: New version: [9.1.2] Old Version: [9.1.1]
+[2023-07-18 00:58:54] INFO root fetch - processPackages [tensorflow-serving-api-gpu]: Downloading https://files.pythonhosted.org/packages/a5/30/c16fbe62d84fb57f812c99ff027cd7e184d9f4c7a3c5635f4f867975f357/tensorflow_serving_api_gpu-2.9.2-py2.py3-none-any.whl
+[2023-07-18 00:58:54] INFO root fetch - processPackages [ewms-pilot]: Downloading https://files.pythonhosted.org/packages/43/95/b05a87092ecdc0e1832fc3275ab296f596412029cb985059d2a2878c1fcd/ewms-pilot-0.9.0.tar.gz
+[2023-07-18 00:58:54] INFO root fetch - processPackages [tensorflow-serving-api]: Downloading https://files.pythonhosted.org/packages/dd/4f/419cb1e87abd0220c270fee4c493dd910acdb511ecb3533e0c280c8d36c1/tensorflow_serving_api-2.9.2-py2.py3-none-any.whl
+[2023-07-18 00:58:54] INFO root fetch - processPackages [hpsspy]: Downloading https://files.pythonhosted.org/packages/a6/4e/255a32c052e76084c93a328ce538d47f5114bdd2bb1b475657a05ac7f35d/hpsspy-0.6.1.tar.gz
+[2023-07-18 00:58:54] INFO root fetch - processPackages [metricflow]: Downloading https://files.pythonhosted.org/packages/48/c0/df3a23893e69af35d2b44f7a54b4a898409d3b807860016dcad92e38c96e/metricflow-0.92.1.tar.gz
+[2023-07-18 00:58:54] INFO root fetch - processPackages [asyncdb]: Downloading https://files.pythonhosted.org/packages/4c/c0/7d58696e9d66d2ba43e22fc4ed696b9e6693cb8b3549d98037941332aa0b/asyncdb-2.3.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-18 00:58:54] INFO root fetch - processPackages [escnn]: Downloading https://files.pythonhosted.org/packages/a1/07/989ab82e24b2b1ae57826197a61ca7ebd3ad2ecfaa6251225bd630920cdd/escnn-1.0.8.tar.gz
+[2023-07-18 00:58:54] INFO root fetch - processPackages [sentry]: Downloading https://files.pythonhosted.org/packages/21/4d/5da43a7276652141ddd62b94c722e359bdae2b7a22878a87cbd2e19b97c0/sentry-9.1.1.tar.gz
+[2023-07-18 00:58:55] INFO root fetch - processPackages [fern-merge]: Downloading https://files.pythonhosted.org/packages/7e/7a/942e3855011d422d7176fbe2fed306451408924cae228efc9e04c4ddd648/fern_merge-0.0.34.tar.gz
+[2023-07-18 00:58:55] INFO root fetch - processPackages [score-models]: Downloading https://files.pythonhosted.org/packages/b5/c5/3bf564b97699acade7acac37fc9bb0f0066114619d9504d08c16f8277610/score_models-0.4.5.tar.gz
+[2023-07-18 00:58:55] INFO root fetch - processPackages [escnn]: executing diffoscope
+[2023-07-18 00:58:55] INFO root fetch - processPackages [escnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/escnn-1.0.7.tar.gz tmp/escnn-1.0.8.tar.gz --markdown 20230718/e/escnn/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-18 00:58:55] INFO root fetch - processPackages [tensorflow-serving-api-gpu]: Downloading https://files.pythonhosted.org/packages/72/a1/1d985b70c9460b850e2b20b7f9c7400e932a127ef16173c63971c3f4736a/tensorflow_serving_api_gpu-2.9.3-py2.py3-none-any.whl
+[2023-07-18 00:58:55] INFO root fetch - processPackages [tensorflow-serving-api]: Downloading https://files.pythonhosted.org/packages/e2/3d/f692757268766c25b643541fa0991d646c3660c5b55d17054d9bfd390bf4/tensorflow_serving_api-2.9.3-py2.py3-none-any.whl
+[2023-07-18 00:58:55] INFO root fetch - processPackages [score-models]: executing diffoscope
+[2023-07-18 00:58:55] INFO root fetch - processPackages [score-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/score_models-0.4.4.tar.gz tmp/score_models-0.4.5.tar.gz --markdown 20230718/s/score-models/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-07-18 00:58:55] INFO root fetch - processPackages [ewms-pilot]: Downloading https://files.pythonhosted.org/packages/31/5e/f3199ae6f49710308113c59388ea3659104f15bb19828479d90db8d40a7b/ewms-pilot-0.9.1.tar.gz
+[2023-07-18 00:58:55] INFO root fetch - processPackages [tensorflow-serving-api-gpu]: executing diffoscope
+[2023-07-18 00:58:55] INFO root fetch - processPackages [tensorflow-serving-api-gpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_serving_api_gpu-2.9.2-py2.py3-none-any.whl.zip tmp/tensorflow_serving_api_gpu-2.9.3-py2.py3-none-any.whl.zip --markdown 20230718/t/tensorflow-serving-api-gpu/2.9.2-2.9.3/diff.md --exclude *.pyd
+[2023-07-18 00:58:55] INFO root fetch - processPackages [hpsspy]: Downloading https://files.pythonhosted.org/packages/64/f0/4ff497817f3c3a1feb7b92a9541bcf6c8ee83af4fd9180b875ea1ef91e28/hpsspy-0.7.0.tar.gz
+[2023-07-18 00:58:55] INFO root fetch - processPackages [asyncdb]: Downloading https://files.pythonhosted.org/packages/5c/dd/97524c66faf3ca8ef47e20272d155b15af518bde92983e5ec27cf58e65d2/asyncdb-2.4.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-18 00:58:55] INFO root fetch - processPackages [tensorflow-serving-api]: executing diffoscope
+[2023-07-18 00:58:55] INFO root fetch - processPackages [tensorflow-serving-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_serving_api-2.9.2-py2.py3-none-any.whl.zip tmp/tensorflow_serving_api-2.9.3-py2.py3-none-any.whl.zip --markdown 20230718/t/tensorflow-serving-api/2.9.2-2.9.3/diff.md --exclude *.pyd
+[2023-07-18 00:58:55] INFO root fetch - processPackages [fern-merge]: executing diffoscope
+[2023-07-18 00:58:55] INFO root fetch - processPackages [fern-merge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fern_merge-0.0.33.tar.gz tmp/fern_merge-0.0.34.tar.gz --markdown 20230718/f/fern-merge/0.0.33-0.0.34/diff.md --exclude *.pyd
+[2023-07-18 00:58:55] INFO root fetch - processPackages [metricflow]: Downloading https://files.pythonhosted.org/packages/03/68/180ac09742d18eded44eac796173d6979f94ea672b47f02ceae672167dfa/metricflow-0.93.0.tar.gz
+[2023-07-18 00:58:55] INFO root fetch - processPackages [ewms-pilot]: executing diffoscope
+[2023-07-18 00:58:55] INFO root fetch - processPackages [ewms-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewms-pilot-0.9.0.tar.gz tmp/ewms-pilot-0.9.1.tar.gz --markdown 20230718/e/ewms-pilot/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-18 00:58:55] INFO root fetch - processPackages [hpsspy]: executing diffoscope
+[2023-07-18 00:58:55] INFO root fetch - processPackages [hpsspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpsspy-0.6.1.tar.gz tmp/hpsspy-0.7.0.tar.gz --markdown 20230718/h/hpsspy/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-07-18 00:58:55] INFO root fetch - processPackages [asyncdb]: executing diffoscope
+[2023-07-18 00:58:55] INFO root fetch - processPackages [asyncdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncdb-2.3.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/asyncdb-2.4.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230718/a/asyncdb/2.3.2-2.4.0/diff.md --exclude *.pyd
+[2023-07-18 00:58:55] INFO root fetch - processPackages [metricflow]: executing diffoscope
+[2023-07-18 00:58:55] INFO root fetch - processPackages [metricflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metricflow-0.92.1.tar.gz tmp/metricflow-0.93.0.tar.gz --markdown 20230718/m/metricflow/0.92.1-0.93.0/diff.md --exclude *.pyd
+[2023-07-18 00:58:55] WARNING root fetch - processPackages [sentry]: Skipping package: exceeds size limit 25304555>=10485760
+[2023-07-18 00:58:55] INFO root fetch - main [MainThread]: End processing [sentry] error
+[2023-07-18 00:58:56] INFO root fetch - processPackages [score-models]: Remove: archive file [/home/abi/fetcher/tmp/score_models-0.4.4.tar.gz]
+[2023-07-18 00:58:56] INFO root fetch - processPackages [score-models]: Remove: archive file [/home/abi/fetcher/tmp/score_models-0.4.5.tar.gz]
+[2023-07-18 00:58:56] INFO root fetch - main [MainThread]: End processing [score-models]: success
+[2023-07-18 00:58:56] INFO root fetch - processPackages [tensorflow-serving-api-gpu]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_serving_api_gpu-2.9.2-py2.py3-none-any.whl.zip]
+[2023-07-18 00:58:56] INFO root fetch - processPackages [tensorflow-serving-api-gpu]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_serving_api_gpu-2.9.3-py2.py3-none-any.whl.zip]
+[2023-07-18 00:58:56] INFO root fetch - main [MainThread]: End processing [tensorflow-serving-api-gpu]: success
+[2023-07-18 00:58:56] INFO root fetch - processPackages [tensorflow-serving-api]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_serving_api-2.9.2-py2.py3-none-any.whl.zip]
+[2023-07-18 00:58:56] INFO root fetch - processPackages [tensorflow-serving-api]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_serving_api-2.9.3-py2.py3-none-any.whl.zip]
+[2023-07-18 00:58:56] INFO root fetch - main [MainThread]: End processing [tensorflow-serving-api]: success
+[2023-07-18 00:58:56] INFO root fetch - processPackages [ewms-pilot]: Remove: archive file [/home/abi/fetcher/tmp/ewms-pilot-0.9.0.tar.gz]
+[2023-07-18 00:58:56] INFO root fetch - processPackages [ewms-pilot]: Remove: archive file [/home/abi/fetcher/tmp/ewms-pilot-0.9.1.tar.gz]
+[2023-07-18 00:58:56] INFO root fetch - main [MainThread]: End processing [ewms-pilot]: success
+[2023-07-18 00:58:57] INFO root fetch - processPackages [hpsspy]: Remove: archive file [/home/abi/fetcher/tmp/hpsspy-0.6.1.tar.gz]
+[2023-07-18 00:58:57] INFO root fetch - processPackages [hpsspy]: Remove: archive file [/home/abi/fetcher/tmp/hpsspy-0.7.0.tar.gz]
+[2023-07-18 00:58:57] INFO root fetch - main [MainThread]: End processing [hpsspy]: success
+[2023-07-18 00:58:57] INFO root fetch - processPackages [escnn]: Remove: archive file [/home/abi/fetcher/tmp/escnn-1.0.7.tar.gz]
+[2023-07-18 00:58:57] INFO root fetch - processPackages [escnn]: Remove: archive file [/home/abi/fetcher/tmp/escnn-1.0.8.tar.gz]
+[2023-07-18 00:58:57] INFO root fetch - main [MainThread]: End processing [escnn]: success
+[2023-07-18 00:58:57] INFO root fetch - processPackages [asyncdb]: Remove: archive file [/home/abi/fetcher/tmp/asyncdb-2.3.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-18 00:58:57] INFO root fetch - processPackages [asyncdb]: Remove: archive file [/home/abi/fetcher/tmp/asyncdb-2.4.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-18 00:58:57] INFO root fetch - main [MainThread]: End processing [asyncdb]: success
+[2023-07-18 00:58:58] INFO root fetch - processPackages [fern-merge]: Remove: archive file [/home/abi/fetcher/tmp/fern_merge-0.0.33.tar.gz]
+[2023-07-18 00:58:58] INFO root fetch - processPackages [fern-merge]: Remove: archive file [/home/abi/fetcher/tmp/fern_merge-0.0.34.tar.gz]
+[2023-07-18 00:58:58] INFO root fetch - main [MainThread]: End processing [fern-merge]: success
+[2023-07-18 00:59:00] INFO root fetch - processPackages [metricflow]: Remove: archive file [/home/abi/fetcher/tmp/metricflow-0.92.1.tar.gz]
+[2023-07-18 00:59:00] INFO root fetch - processPackages [metricflow]: Remove: archive file [/home/abi/fetcher/tmp/metricflow-0.93.0.tar.gz]
+[2023-07-18 00:59:00] INFO root fetch - main [MainThread]: End processing [metricflow]: success
+[2023-07-18 00:59:00] INFO root fetch - main [MainThread]: Store serial: [18923298]
