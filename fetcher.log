@@ -1773,3 +1773,63 @@
 [2023-07-18 01:28:43] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.2.0.dev20230717232332-py3-none-any.whl.zip]
 [2023-07-18 01:28:43] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2023-07-18 01:28:43] INFO root fetch - main [MainThread]: Store serial: [18923540]
+[2023-07-18 01:33:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18923540]
+[2023-07-18 01:33:52] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-18 01:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: always-updates
+[2023-07-18 01:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: green-tsetlin
+[2023-07-18 01:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coiled
+[2023-07-18 01:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skypilot
+[2023-07-18 01:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dbt-bigquery
+[2023-07-18 01:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TheSilent
+[2023-07-18 01:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: irisml-tasks-azure-computervision
+[2023-07-18 01:33:52] INFO root fetch - processPackages [skypilot]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-18 01:33:53] WARNING root fetch - processPackages [green-tsetlin]: Skipping, unable to determine old version
+[2023-07-18 01:33:53] INFO root fetch - main [MainThread]: End processing [green-tsetlin] error
+[2023-07-18 01:33:53] INFO root fetch - processPackages [dbt-bigquery]: New version: [1.6.0rc1] Old Version: [1.6.0b4]
+[2023-07-18 01:33:53] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-18 01:33:53] INFO root fetch - processPackages [coiled]: New version: [0.8.9.dev9] Old Version: [0.8.9.dev6]
+[2023-07-18 01:33:53] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-07-18 01:33:53] INFO root fetch - processPackages [irisml-tasks-azure-computervision]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-18 01:33:53] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-18 01:33:53] INFO root fetch - processPackages [skypilot]: Downloading https://files.pythonhosted.org/packages/c5/63/e9f1a7be25aa636b982ca85d65d10f1b5bcd6fb070bd7ace9b95d9a2fe9d/skypilot-0.3.2.tar.gz
+[2023-07-18 01:33:53] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/01/4b/38ee625e022b9045458352636265942fc0dd2c5373d6b88ca4415a39b230/coiled-0.8.9.dev6.tar.gz
+[2023-07-18 01:33:53] INFO root fetch - processPackages [dbt-bigquery]: Downloading https://files.pythonhosted.org/packages/e9/64/f2a207c28dd83d23ad178413c912d46c2749ebd9989d74e36c7a9f93fc36/dbt-bigquery-1.6.0b4.tar.gz
+[2023-07-18 01:33:53] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-07-18 01:33:53] INFO root fetch - processPackages [irisml-tasks-azure-computervision]: Downloading https://files.pythonhosted.org/packages/67/52/a216829d30e544e885ddeb9dc618a96c9143482e7bf40acfa7a2392270d9/irisml-tasks-azure-computervision-0.0.3.tar.gz
+[2023-07-18 01:33:53] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-18 01:33:53] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/26/80/9e4bfeccf312016e825026ef4ffbc2321b3117d2572b720eaa72b12d9673/coiled-0.8.9.dev9.tar.gz
+[2023-07-18 01:33:53] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-18 01:33:53] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230718/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-18 01:33:53] INFO root fetch - processPackages [skypilot]: Downloading https://files.pythonhosted.org/packages/b0/36/d31c9d74fa5caea6f9f2bad1bdc02d15db92ec18163543f67a6705ff3753/skypilot-0.3.3.tar.gz
+[2023-07-18 01:33:53] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-18 01:33:53] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.9.dev6.tar.gz tmp/coiled-0.8.9.dev9.tar.gz --markdown 20230718/c/coiled/0.8.9.dev6-0.8.9.dev9/diff.md --exclude *.pyd
+[2023-07-18 01:33:53] INFO root fetch - processPackages [irisml-tasks-azure-computervision]: Downloading https://files.pythonhosted.org/packages/8c/cf/4051c7817d0db362942ed4dc0f228d708d1782116f9784c616bba056aaa7/irisml-tasks-azure-computervision-0.0.4.tar.gz
+[2023-07-18 01:33:53] INFO root fetch - processPackages [dbt-bigquery]: Downloading https://files.pythonhosted.org/packages/d6/f1/626bc74c62378d5e6994916ffa7c61afa95445d3c3f97ce7e9a7d200bf86/dbt-bigquery-1.6.0rc1.tar.gz
+[2023-07-18 01:33:53] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-07-18 01:33:54] INFO root fetch - processPackages [dbt-bigquery]: executing diffoscope
+[2023-07-18 01:33:54] INFO root fetch - processPackages [dbt-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-bigquery-1.6.0b4.tar.gz tmp/dbt-bigquery-1.6.0rc1.tar.gz --markdown 20230718/d/dbt-bigquery/1.6.0b4-1.6.0rc1/diff.md --exclude *.pyd
+[2023-07-18 01:33:54] INFO root fetch - processPackages [skypilot]: executing diffoscope
+[2023-07-18 01:33:54] INFO root fetch - processPackages [skypilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot-0.3.2.tar.gz tmp/skypilot-0.3.3.tar.gz --markdown 20230718/s/skypilot/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-18 01:33:54] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-07-18 01:33:54] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230718/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-07-18 01:33:54] INFO root fetch - processPackages [irisml-tasks-azure-computervision]: executing diffoscope
+[2023-07-18 01:33:54] INFO root fetch - processPackages [irisml-tasks-azure-computervision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irisml-tasks-azure-computervision-0.0.3.tar.gz tmp/irisml-tasks-azure-computervision-0.0.4.tar.gz --markdown 20230718/i/irisml-tasks-azure-computervision/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-18 01:33:54] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-18 01:33:54] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-18 01:33:54] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-18 01:33:54] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev6.tar.gz]
+[2023-07-18 01:33:54] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev9.tar.gz]
+[2023-07-18 01:33:54] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-18 01:33:55] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-07-18 01:33:55] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-07-18 01:33:55] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-07-18 01:33:55] INFO root fetch - processPackages [dbt-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/dbt-bigquery-1.6.0b4.tar.gz]
+[2023-07-18 01:33:55] INFO root fetch - processPackages [dbt-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/dbt-bigquery-1.6.0rc1.tar.gz]
+[2023-07-18 01:33:55] INFO root fetch - main [MainThread]: End processing [dbt-bigquery]: success
+[2023-07-18 01:33:55] INFO root fetch - processPackages [irisml-tasks-azure-computervision]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-azure-computervision-0.0.3.tar.gz]
+[2023-07-18 01:33:55] INFO root fetch - processPackages [irisml-tasks-azure-computervision]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-azure-computervision-0.0.4.tar.gz]
+[2023-07-18 01:33:55] INFO root fetch - main [MainThread]: End processing [irisml-tasks-azure-computervision]: success
+[2023-07-18 01:33:56] INFO root fetch - processPackages [skypilot]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-0.3.2.tar.gz]
+[2023-07-18 01:33:56] INFO root fetch - processPackages [skypilot]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-0.3.3.tar.gz]
+[2023-07-18 01:33:56] INFO root fetch - main [MainThread]: End processing [skypilot]: success
+[2023-07-18 01:33:56] INFO root fetch - main [MainThread]: Store serial: [18923562]
