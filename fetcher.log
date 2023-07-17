@@ -682,3 +682,57 @@
 [2023-07-18 00:32:54] INFO root fetch - processPackages [acore-paths]: Remove: archive file [/home/abi/fetcher/tmp/acore_paths-0.3.2.tar.gz]
 [2023-07-18 00:32:54] INFO root fetch - main [MainThread]: End processing [acore-paths]: success
 [2023-07-18 00:32:54] INFO root fetch - main [MainThread]: Store serial: [18923165]
+[2023-07-18 00:37:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18923165]
+[2023-07-18 00:38:03] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-18 00:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jj-wingman
+[2023-07-18 00:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbt-fal
+[2023-07-18 00:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slack-logger-python
+[2023-07-18 00:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-07-18 00:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gen3-util
+[2023-07-18 00:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apalib
+[2023-07-18 00:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jj-wingman
+[2023-07-18 00:38:03] INFO root fetch - processPackages [gen3-util]: New version: [0.0.3rc2] Old Version: [0.0.3rc1]
+[2023-07-18 00:38:03] INFO root fetch - processPackages [apalib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 00:38:03] INFO root fetch - processPackages [dbt-fal]: New version: [1.5.5] Old Version: [1.5.4]
+[2023-07-18 00:38:03] INFO root fetch - processPackages [jj-wingman]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-07-18 00:38:03] INFO root fetch - processPackages [jj-wingman]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-07-18 00:38:03] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.398] Old Version: [0.3.397]
+[2023-07-18 00:38:03] WARNING root fetch - processPackages [slack-logger-python]: Skipping, unable to determine old version
+[2023-07-18 00:38:03] INFO root fetch - main [MainThread]: End processing [slack-logger-python] error
+[2023-07-18 00:38:04] INFO root fetch - processPackages [apalib]: Downloading https://files.pythonhosted.org/packages/ad/51/72e2e781b4f5d64e98678113762b087b7fe1e08ae0316dd8ae9eed6e0353/apalib-0.0.8.tar.gz
+[2023-07-18 00:38:04] INFO root fetch - processPackages [dbt-fal]: Downloading https://files.pythonhosted.org/packages/d7/b3/8bacf6d04c871e5cfd7c8240e793126980fc4eddbb3753bd1ab225a86dec/dbt_fal-1.5.4.tar.gz
+[2023-07-18 00:38:04] INFO root fetch - processPackages [jj-wingman]: Downloading https://files.pythonhosted.org/packages/5e/dc/fbfe1bf25d0ec465bc1b6e59048db3d3927509d8da2fe3407f1047895486/jj_wingman-0.3.7.tar.gz
+[2023-07-18 00:38:04] INFO root fetch - processPackages [jj-wingman]: Downloading https://files.pythonhosted.org/packages/5e/dc/fbfe1bf25d0ec465bc1b6e59048db3d3927509d8da2fe3407f1047895486/jj_wingman-0.3.7.tar.gz
+[2023-07-18 00:38:04] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/b6/e6/406b6ed68ed27202aebc67fcb79517455cdfa18d15bdf0004c40b1b09772/pepperize.cdk-ses-smtp-credentials-0.3.397.tar.gz
+[2023-07-18 00:38:04] INFO root fetch - processPackages [gen3-util]: Downloading https://files.pythonhosted.org/packages/48/40/fbdb40285eaf1e34789ed9c4e8ee3b92634f623598acda3aaca8180c102c/gen3_util-0.0.3rc1.tar.gz
+[2023-07-18 00:38:04] WARNING root fetch - processPackages [apalib]: Skipping package: exceeds size limit 10910417>=10485760
+[2023-07-18 00:38:04] INFO root fetch - main [MainThread]: End processing [apalib] error
+[2023-07-18 00:38:04] INFO root fetch - processPackages [dbt-fal]: Downloading https://files.pythonhosted.org/packages/ca/b4/c6f2f00e623545d390ec8bf6e2f6ba994f91c824c502fa7857719c87443b/dbt_fal-1.5.5.tar.gz
+[2023-07-18 00:38:04] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/92/ff/fe808439293795ba5dbe7104460484e20cd3be8cc94688b8f9cbf5a230b2/pepperize.cdk-ses-smtp-credentials-0.3.398.tar.gz
+[2023-07-18 00:38:04] INFO root fetch - processPackages [dbt-fal]: executing diffoscope
+[2023-07-18 00:38:04] INFO root fetch - processPackages [dbt-fal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_fal-1.5.4.tar.gz tmp/dbt_fal-1.5.5.tar.gz --markdown 20230718/d/dbt-fal/1.5.4-1.5.5/diff.md --exclude *.pyd
+[2023-07-18 00:38:04] INFO root fetch - processPackages [gen3-util]: Downloading https://files.pythonhosted.org/packages/5a/ec/a93e54b58320a2bd000f30160b103741eb221bbea236384e06a5959c145b/gen3_util-0.0.3rc2.tar.gz
+[2023-07-18 00:38:04] INFO root fetch - processPackages [jj-wingman]: Downloading https://files.pythonhosted.org/packages/22/3f/722a2cc7e358388c29bb452d3a76408a2dd5365f431ccf0a3923262fec3f/jj_wingman-0.3.8.tar.gz
+[2023-07-18 00:38:04] INFO root fetch - processPackages [jj-wingman]: Downloading https://files.pythonhosted.org/packages/22/3f/722a2cc7e358388c29bb452d3a76408a2dd5365f431ccf0a3923262fec3f/jj_wingman-0.3.8.tar.gz
+[2023-07-18 00:38:04] INFO root fetch - processPackages [gen3-util]: executing diffoscope
+[2023-07-18 00:38:04] INFO root fetch - processPackages [gen3-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gen3_util-0.0.3rc1.tar.gz tmp/gen3_util-0.0.3rc2.tar.gz --markdown 20230718/g/gen3-util/0.0.3rc1-0.0.3rc2/diff.md --exclude *.pyd
+[2023-07-18 00:38:04] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-07-18 00:38:04] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.397.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.398.tar.gz --markdown 20230718/p/pepperize.cdk-ses-smtp-credentials/0.3.397-0.3.398/diff.md --exclude *.pyd
+[2023-07-18 00:38:04] INFO root fetch - processPackages [jj-wingman]: executing diffoscope
+[2023-07-18 00:38:04] INFO root fetch - processPackages [jj-wingman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jj_wingman-0.3.7.tar.gz tmp/jj_wingman-0.3.8.tar.gz --markdown 20230718/j/jj-wingman/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-07-18 00:38:04] INFO root fetch - processPackages [jj-wingman]: executing diffoscope
+[2023-07-18 00:38:04] INFO root fetch - processPackages [jj-wingman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jj_wingman-0.3.7.tar.gz tmp/jj_wingman-0.3.8.tar.gz --markdown 20230718/j/jj-wingman/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-07-18 00:38:05] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.397.tar.gz]
+[2023-07-18 00:38:05] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.398.tar.gz]
+[2023-07-18 00:38:05] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-07-18 00:38:05] INFO root fetch - processPackages [dbt-fal]: Remove: archive file [/home/abi/fetcher/tmp/dbt_fal-1.5.4.tar.gz]
+[2023-07-18 00:38:05] INFO root fetch - processPackages [dbt-fal]: Remove: archive file [/home/abi/fetcher/tmp/dbt_fal-1.5.5.tar.gz]
+[2023-07-18 00:38:05] INFO root fetch - main [MainThread]: End processing [dbt-fal]: success
+[2023-07-18 00:38:05] INFO root fetch - processPackages [jj-wingman]: Remove: archive file [/home/abi/fetcher/tmp/jj_wingman-0.3.7.tar.gz]
+[2023-07-18 00:38:05] INFO root fetch - processPackages [jj-wingman]: Remove: archive file [/home/abi/fetcher/tmp/jj_wingman-0.3.8.tar.gz]
+[2023-07-18 00:38:05] INFO root fetch - main [MainThread]: End processing [jj-wingman]: success
+[2023-07-18 00:38:05] INFO root fetch - processPackages [gen3-util]: Remove: archive file [/home/abi/fetcher/tmp/gen3_util-0.0.3rc1.tar.gz]
+[2023-07-18 00:38:05] INFO root fetch - processPackages [gen3-util]: Remove: archive file [/home/abi/fetcher/tmp/gen3_util-0.0.3rc2.tar.gz]
+[2023-07-18 00:38:05] INFO root fetch - main [MainThread]: End processing [gen3-util]: success
+[2023-07-18 00:38:06] INFO root fetch - main [MainThread]: End processing [jj-wingman]: success
+[2023-07-18 00:38:06] INFO root fetch - main [MainThread]: Store serial: [18923199]
