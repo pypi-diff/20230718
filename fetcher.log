@@ -736,3 +736,104 @@
 [2023-07-18 00:38:05] INFO root fetch - main [MainThread]: End processing [gen3-util]: success
 [2023-07-18 00:38:06] INFO root fetch - main [MainThread]: End processing [jj-wingman]: success
 [2023-07-18 00:38:06] INFO root fetch - main [MainThread]: Store serial: [18923199]
+[2023-07-18 00:43:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18923199]
+[2023-07-18 00:43:15] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-18 00:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: c3-data-transfer-tool-jackdedobb
+[2023-07-18 00:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ofcli
+[2023-07-18 00:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codem
+[2023-07-18 00:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mysql-mimic
+[2023-07-18 00:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: climatePy
+[2023-07-18 00:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fal
+[2023-07-18 00:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mastodon-2-album
+[2023-07-18 00:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: antidb
+[2023-07-18 00:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-07-18 00:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: parsl
+[2023-07-18 00:43:15] INFO root fetch - processPackages [ofcli]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-18 00:43:15] INFO root fetch - processPackages [mysql-mimic]: New version: [2.3.0] Old Version: [2.2.7]
+[2023-07-18 00:43:15] INFO root fetch - processPackages [antidb]: New version: [2023.7.18] Old Version: [2023.7.11]
+[2023-07-18 00:43:15] INFO root fetch - processPackages [fal]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-18 00:43:15] INFO root fetch - processPackages [codem]: New version: [0.25.3] Old Version: [0.25.2]
+[2023-07-18 00:43:15] INFO root fetch - processPackages [climatePy]: New version: [0.4.34] Old Version: [0.4.33]
+[2023-07-18 00:43:15] INFO root fetch - processPackages [mastodon-2-album]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-07-18 00:43:15] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.399] Old Version: [0.3.398]
+[2023-07-18 00:43:15] ERROR root fetch - processPackages [c3-data-transfer-tool-jackdedobb]: Unable to get metadata: No such project 'c3-data-transfer-tool-jackdedobb'
+[2023-07-18 00:43:15] INFO root fetch - processPackages [c3-data-transfer-tool-jackdedobb]: Start processing: seamful
+[2023-07-18 00:43:15] INFO root fetch - main [MainThread]: End processing [c3-data-transfer-tool-jackdedobb] error
+[2023-07-18 00:43:15] INFO root fetch - processPackages [parsl]: New version: [2023.7.3] Old Version: [2023.7.17]
+[2023-07-18 00:43:15] INFO root fetch - processPackages [fal]: Downloading https://files.pythonhosted.org/packages/67/26/155aa5956ce2c1eea1c0995490536112db6e73978f2288466d448c018928/fal-0.9.3.tar.gz
+[2023-07-18 00:43:15] INFO root fetch - processPackages [mysql-mimic]: Downloading https://files.pythonhosted.org/packages/b0/c3/52fd3f9f7e127f155bd2384abd54fe2c273aaa233b0dcd6d3c62d5a855a1/mysql-mimic-2.2.7.tar.gz
+[2023-07-18 00:43:15] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/92/ff/fe808439293795ba5dbe7104460484e20cd3be8cc94688b8f9cbf5a230b2/pepperize.cdk-ses-smtp-credentials-0.3.398.tar.gz
+[2023-07-18 00:43:15] INFO root fetch - processPackages [ofcli]: Downloading https://files.pythonhosted.org/packages/f9/46/472f3c014a87c54f4b3b63bf1c6405b0b00d75f24108a74c1c64b391f313/ofcli-0.0.3.tar.gz
+[2023-07-18 00:43:15] INFO root fetch - processPackages [seamful]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-18 00:43:15] INFO root fetch - processPackages [climatePy]: Downloading https://files.pythonhosted.org/packages/96/bb/8e3d20a5dad6ab848b7048ce5fcfb6d10bf41aafaed95b516064f702bff4/climatePy-0.4.33.tar.gz
+[2023-07-18 00:43:15] INFO root fetch - processPackages [antidb]: Downloading https://files.pythonhosted.org/packages/ad/b0/eb32ebea24f47cec3f547d0d86db7b80c9dbd5f3d9e10b18a455399af5c0/antidb-2023.7.11.tar.gz
+[2023-07-18 00:43:15] INFO root fetch - processPackages [codem]: Downloading https://files.pythonhosted.org/packages/72/04/572531c5531482c7aed415558e3e45de96793dc1a7dc2a94927d767ba09c/codem-0.25.2.tar.gz
+[2023-07-18 00:43:15] INFO root fetch - processPackages [mastodon-2-album]: Downloading https://files.pythonhosted.org/packages/3f/94/189ae670be7feeaff60659adda560b73936afc502590f1bdd83824682999/mastodon_2_album-0.0.7.tar.gz
+[2023-07-18 00:43:15] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/10/7e/c7b5ba8bb0a90fe54158ec41de8a71f6b87d2250deca545c6c9d63260f4c/parsl-2023.7.17.tar.gz
+[2023-07-18 00:43:15] INFO root fetch - processPackages [seamful]: Downloading https://files.pythonhosted.org/packages/76/02/a053b4b68431d519601ba18270d562f624aa011ceb212aaf58c00d704253/seamful-0.1.0.tar.gz
+[2023-07-18 00:43:15] INFO root fetch - processPackages [fal]: Downloading https://files.pythonhosted.org/packages/d8/d4/036bc89e31dfecb1eaaadd83e96b76d14fbb1fae25ff74d8b408236b3547/fal-0.9.4.tar.gz
+[2023-07-18 00:43:16] INFO root fetch - processPackages [ofcli]: Downloading https://files.pythonhosted.org/packages/0c/7b/4ef086177c8f5082eec421d8107c86a809e2ab160e446f4b5162f6089aaf/ofcli-0.0.4.tar.gz
+[2023-07-18 00:43:16] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/ac/73/4a23f0dc5676aeb149fd1d92fd0c25e80502db0c0e13007413b87aa7c78a/pepperize.cdk-ses-smtp-credentials-0.3.399.tar.gz
+[2023-07-18 00:43:16] INFO root fetch - processPackages [mysql-mimic]: Downloading https://files.pythonhosted.org/packages/ae/7c/0c2333df7aa48b61133a4c581f7368dcd60a92577d963e1dfe0af9a86706/mysql-mimic-2.3.0.tar.gz
+[2023-07-18 00:43:16] INFO root fetch - processPackages [antidb]: Downloading https://files.pythonhosted.org/packages/bd/5a/777792880efadea41605e698bae22134d3d963c47dcfd99cde85914f8cde/antidb-2023.7.18.tar.gz
+[2023-07-18 00:43:16] INFO root fetch - processPackages [mastodon-2-album]: Downloading https://files.pythonhosted.org/packages/81/35/cda2db4539e0d00cd668ff1fdcb9609acca3e52464a6c85739fa5c684c1e/mastodon_2_album-0.0.9.tar.gz
+[2023-07-18 00:43:16] INFO root fetch - processPackages [codem]: Downloading https://files.pythonhosted.org/packages/63/57/45403c6cdff38dd0f12790e3758ea0300e445980551e339005388b4b4f83/codem-0.25.3.tar.gz
+[2023-07-18 00:43:16] INFO root fetch - processPackages [climatePy]: Downloading https://files.pythonhosted.org/packages/c5/eb/ee5722acac379ea0412b26e392846fbaa48e4fd74ea4ca0040a79fa68823/climatePy-0.4.34.tar.gz
+[2023-07-18 00:43:16] INFO root fetch - processPackages [fal]: executing diffoscope
+[2023-07-18 00:43:16] INFO root fetch - processPackages [fal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fal-0.9.3.tar.gz tmp/fal-0.9.4.tar.gz --markdown 20230718/f/fal/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-18 00:43:16] INFO root fetch - processPackages [ofcli]: executing diffoscope
+[2023-07-18 00:43:16] INFO root fetch - processPackages [ofcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofcli-0.0.3.tar.gz tmp/ofcli-0.0.4.tar.gz --markdown 20230718/o/ofcli/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-18 00:43:16] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-07-18 00:43:16] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.398.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.399.tar.gz --markdown 20230718/p/pepperize.cdk-ses-smtp-credentials/0.3.398-0.3.399/diff.md --exclude *.pyd
+[2023-07-18 00:43:16] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/79/26/09e9b5612f75ad60b2daad9b8b512ece02113a169a8e4cbbd4a346c02af2/parsl-2023.7.3.tar.gz
+[2023-07-18 00:43:16] INFO root fetch - processPackages [mysql-mimic]: executing diffoscope
+[2023-07-18 00:43:16] INFO root fetch - processPackages [mysql-mimic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysql-mimic-2.2.7.tar.gz tmp/mysql-mimic-2.3.0.tar.gz --markdown 20230718/m/mysql-mimic/2.2.7-2.3.0/diff.md --exclude *.pyd
+[2023-07-18 00:43:16] INFO root fetch - processPackages [mastodon-2-album]: executing diffoscope
+[2023-07-18 00:43:16] INFO root fetch - processPackages [mastodon-2-album]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mastodon_2_album-0.0.7.tar.gz tmp/mastodon_2_album-0.0.9.tar.gz --markdown 20230718/m/mastodon-2-album/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 00:43:16] INFO root fetch - processPackages [antidb]: executing diffoscope
+[2023-07-18 00:43:16] INFO root fetch - processPackages [antidb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antidb-2023.7.11.tar.gz tmp/antidb-2023.7.18.tar.gz --markdown 20230718/a/antidb/2023.7.11-2023.7.18/diff.md --exclude *.pyd
+[2023-07-18 00:43:16] INFO root fetch - processPackages [seamful]: Downloading https://files.pythonhosted.org/packages/0a/b5/99a9430fe57b7e983ef745d516ce98f4e6c5c314938608b30d4e6a2ec67f/seamful-0.2.0.tar.gz
+[2023-07-18 00:43:16] INFO root fetch - processPackages [climatePy]: executing diffoscope
+[2023-07-18 00:43:16] INFO root fetch - processPackages [climatePy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climatePy-0.4.33.tar.gz tmp/climatePy-0.4.34.tar.gz --markdown 20230718/c/climatePy/0.4.33-0.4.34/diff.md --exclude *.pyd
+[2023-07-18 00:43:16] INFO root fetch - processPackages [codem]: executing diffoscope
+[2023-07-18 00:43:16] INFO root fetch - processPackages [codem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codem-0.25.2.tar.gz tmp/codem-0.25.3.tar.gz --markdown 20230718/c/codem/0.25.2-0.25.3/diff.md --exclude *.pyd
+[2023-07-18 00:43:16] INFO root fetch - processPackages [parsl]: executing diffoscope
+[2023-07-18 00:43:16] INFO root fetch - processPackages [parsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsl-2023.7.17.tar.gz tmp/parsl-2023.7.3.tar.gz --markdown 20230718/p/parsl/2023.7.17-2023.7.3/diff.md --exclude *.pyd
+[2023-07-18 00:43:16] INFO root fetch - processPackages [seamful]: executing diffoscope
+[2023-07-18 00:43:16] INFO root fetch - processPackages [seamful]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seamful-0.1.0.tar.gz tmp/seamful-0.2.0.tar.gz --markdown 20230718/s/seamful/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-18 00:43:17] INFO root fetch - processPackages [ofcli]: Remove: archive file [/home/abi/fetcher/tmp/ofcli-0.0.3.tar.gz]
+[2023-07-18 00:43:17] INFO root fetch - processPackages [ofcli]: Remove: archive file [/home/abi/fetcher/tmp/ofcli-0.0.4.tar.gz]
+[2023-07-18 00:43:17] INFO root fetch - processPackages [ofcli]: Start processing: spam-analyzer
+[2023-07-18 00:43:17] INFO root fetch - main [MainThread]: End processing [ofcli]: success
+[2023-07-18 00:43:17] INFO root fetch - processPackages [spam-analyzer]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-18 00:43:17] INFO root fetch - processPackages [mastodon-2-album]: Remove: archive file [/home/abi/fetcher/tmp/mastodon_2_album-0.0.7.tar.gz]
+[2023-07-18 00:43:17] INFO root fetch - processPackages [mastodon-2-album]: Remove: archive file [/home/abi/fetcher/tmp/mastodon_2_album-0.0.9.tar.gz]
+[2023-07-18 00:43:17] INFO root fetch - main [MainThread]: End processing [mastodon-2-album]: success
+[2023-07-18 00:43:18] INFO root fetch - processPackages [antidb]: Remove: archive file [/home/abi/fetcher/tmp/antidb-2023.7.11.tar.gz]
+[2023-07-18 00:43:18] INFO root fetch - processPackages [antidb]: Remove: archive file [/home/abi/fetcher/tmp/antidb-2023.7.18.tar.gz]
+[2023-07-18 00:43:18] INFO root fetch - main [MainThread]: End processing [antidb]: success
+[2023-07-18 00:43:18] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.398.tar.gz]
+[2023-07-18 00:43:18] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.399.tar.gz]
+[2023-07-18 00:43:18] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-07-18 00:43:18] INFO root fetch - processPackages [spam-analyzer]: Downloading https://files.pythonhosted.org/packages/7b/dd/cbe1f0ea0f4b3a7d29255483fad48a7d3429ec0e20c41c8a072333329af4/spam-analyzer-0.1.2.tar.gz
+[2023-07-18 00:43:18] INFO root fetch - processPackages [mysql-mimic]: Remove: archive file [/home/abi/fetcher/tmp/mysql-mimic-2.2.7.tar.gz]
+[2023-07-18 00:43:18] INFO root fetch - processPackages [mysql-mimic]: Remove: archive file [/home/abi/fetcher/tmp/mysql-mimic-2.3.0.tar.gz]
+[2023-07-18 00:43:18] INFO root fetch - main [MainThread]: End processing [mysql-mimic]: success
+[2023-07-18 00:43:18] WARNING root fetch - processPackages [spam-analyzer]: Skipping package: exceeds size limit 11365477>=10485760
+[2023-07-18 00:43:18] INFO root fetch - main [MainThread]: End processing [spam-analyzer] error
+[2023-07-18 00:43:18] INFO root fetch - processPackages [fal]: Remove: archive file [/home/abi/fetcher/tmp/fal-0.9.3.tar.gz]
+[2023-07-18 00:43:18] INFO root fetch - processPackages [fal]: Remove: archive file [/home/abi/fetcher/tmp/fal-0.9.4.tar.gz]
+[2023-07-18 00:43:18] INFO root fetch - main [MainThread]: End processing [fal]: success
+[2023-07-18 00:43:18] INFO root fetch - processPackages [codem]: Remove: archive file [/home/abi/fetcher/tmp/codem-0.25.2.tar.gz]
+[2023-07-18 00:43:18] INFO root fetch - processPackages [codem]: Remove: archive file [/home/abi/fetcher/tmp/codem-0.25.3.tar.gz]
+[2023-07-18 00:43:18] INFO root fetch - main [MainThread]: End processing [codem]: success
+[2023-07-18 00:43:18] INFO root fetch - processPackages [seamful]: Remove: archive file [/home/abi/fetcher/tmp/seamful-0.1.0.tar.gz]
+[2023-07-18 00:43:18] INFO root fetch - processPackages [seamful]: Remove: archive file [/home/abi/fetcher/tmp/seamful-0.2.0.tar.gz]
+[2023-07-18 00:43:18] INFO root fetch - main [MainThread]: End processing [seamful]: success
+[2023-07-18 00:43:19] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2023.7.17.tar.gz]
+[2023-07-18 00:43:19] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2023.7.3.tar.gz]
+[2023-07-18 00:43:19] INFO root fetch - main [MainThread]: End processing [parsl]: success
+[2023-07-18 00:43:20] INFO root fetch - processPackages [climatePy]: Remove: archive file [/home/abi/fetcher/tmp/climatePy-0.4.33.tar.gz]
+[2023-07-18 00:43:20] INFO root fetch - processPackages [climatePy]: Remove: archive file [/home/abi/fetcher/tmp/climatePy-0.4.34.tar.gz]
+[2023-07-18 00:43:20] INFO root fetch - main [MainThread]: End processing [climatePy]: success
+[2023-07-18 00:43:20] INFO root fetch - main [MainThread]: Store serial: [18923232]
