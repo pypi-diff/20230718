@@ -1614,3 +1614,162 @@
 [2023-07-18 01:23:25] ERROR root fetch - processPackages [oci]: Timeout during execution of pkgdiff
 [2023-07-18 01:23:25] INFO root fetch - main [MainThread]: End processing [oci] error
 [2023-07-18 01:23:25] INFO root fetch - main [MainThread]: Store serial: [18923495]
+[2023-07-18 01:28:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18923495]
+[2023-07-18 01:28:33] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-18 01:28:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: damo
+[2023-07-18 01:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chromadb
+[2023-07-18 01:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cirq-aqt
+[2023-07-18 01:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cirq
+[2023-07-18 01:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cirq-core
+[2023-07-18 01:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cirq-ft
+[2023-07-18 01:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cirq-rigetti
+[2023-07-18 01:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cirq-google
+[2023-07-18 01:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cirq-pasqal
+[2023-07-18 01:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cirq-web
+[2023-07-18 01:28:34] INFO root fetch - processPackages [damo]: New version: [1.9.0] Old Version: [1.8.9]
+[2023-07-18 01:28:34] INFO root fetch - processPackages [cirq]: New version: [1.2.0.dev20230717232332] Old Version: [1.2.0.dev20230717225858]
+[2023-07-18 01:28:34] INFO root fetch - processPackages [cirq-ft]: New version: [1.2.0.dev20230717232332] Old Version: [1.2.0.dev20230717225858]
+[2023-07-18 01:28:34] INFO root fetch - processPackages [chromadb]: New version: [0.4.0] Old Version: [0.3.8]
+[2023-07-18 01:28:34] INFO root fetch - processPackages [cirq-pasqal]: New version: [1.2.0.dev20230717232332] Old Version: [1.2.0.dev20230717225858]
+[2023-07-18 01:28:34] INFO root fetch - processPackages [cirq-aqt]: New version: [1.2.0.dev20230717232332] Old Version: [1.2.0.dev20230717225858]
+[2023-07-18 01:28:34] INFO root fetch - processPackages [cirq-google]: New version: [1.2.0.dev20230717232332] Old Version: [1.2.0.dev20230717225858]
+[2023-07-18 01:28:34] INFO root fetch - processPackages [cirq-web]: New version: [1.2.0.dev20230717232332] Old Version: [1.2.0.dev20230717225858]
+[2023-07-18 01:28:34] INFO root fetch - processPackages [cirq-core]: New version: [1.2.0.dev20230717232332] Old Version: [1.2.0.dev20230717225858]
+[2023-07-18 01:28:34] INFO root fetch - processPackages [cirq-rigetti]: New version: [1.2.0.dev20230717232332] Old Version: [1.2.0.dev20230717225858]
+[2023-07-18 01:28:34] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/79/ac/230f66424eac773a79145e8c5c8e5ee1a3cccd981e6ce391ab4dff642303/cirq-1.2.0.dev20230717225858-py3-none-any.whl
+[2023-07-18 01:28:34] INFO root fetch - processPackages [cirq-ft]: Downloading https://files.pythonhosted.org/packages/42/59/dfe919f7e3fa8bc428919f34e46d756e381d89794a3a5f64b60d1fff09d6/cirq_ft-1.2.0.dev20230717225858-py3-none-any.whl
+[2023-07-18 01:28:34] INFO root fetch - processPackages [damo]: Downloading https://files.pythonhosted.org/packages/6b/94/9fd3b1e0818d329b61e0b5c066e15927e967fc3456a222df0e0273c331f9/damo-1.8.9.tar.gz
+[2023-07-18 01:28:34] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/99/49/eec9d58bba06a16fcbbe2cdbb683b049f034f8ebec8f9db19a6ac49a8308/cirq_rigetti-1.2.0.dev20230717225858-py3-none-any.whl
+[2023-07-18 01:28:34] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/02/e2/0ff11109c93584f6bc087c56fbcedd2b21e40f2edf2975186a70c01edfcf/cirq_aqt-1.2.0.dev20230717225858-py3-none-any.whl
+[2023-07-18 01:28:34] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/1a/a9/6fac8b018bc1695527b8ce6cf12a4b6617c7b9a6c618ee4cb7e5a7d2c0d1/cirq_pasqal-1.2.0.dev20230717225858-py3-none-any.whl
+[2023-07-18 01:28:34] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/fa/aa/9a1b2aa171c75c05dd57e0cff73d17e118fb4d2ca545ecffd82a1da1d81d/cirq_core-1.2.0.dev20230717225858-py3-none-any.whl
+[2023-07-18 01:28:34] INFO root fetch - processPackages [chromadb]: Downloading https://files.pythonhosted.org/packages/f7/18/d8e27cccc90edd5a15525a33800c89c70a96662187510b6ec833428d7c64/chromadb-0.3.8.tar.gz
+[2023-07-18 01:28:34] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/a5/a5/33b8c37a582dcf0604b49f3c75c7abd7d6ba416a147e3714d0ed942edfe4/cirq_google-1.2.0.dev20230717225858-py3-none-any.whl
+[2023-07-18 01:28:34] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/95/df/a22b7ac1da085543dbb65c3dc16a764b34e0ca9bc47e5b154f3282f3b813/cirq_web-1.2.0.dev20230717225858-py3-none-any.whl
+[2023-07-18 01:28:35] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/6f/8e/1c760cd8184872ea63462e1ba5c1655765271fc68386855b978eea2db7c1/cirq-1.2.0.dev20230717232332-py3-none-any.whl
+[2023-07-18 01:28:35] INFO root fetch - processPackages [cirq-ft]: Downloading https://files.pythonhosted.org/packages/e4/2a/6efe3e1d44691fc90d6d3a230d884a381e9fa69c0f2d298f6a988f2d2983/cirq_ft-1.2.0.dev20230717232332-py3-none-any.whl
+[2023-07-18 01:28:35] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/08/49/9f4bd165adac977d5797514cf1836d5ed9fb376925debcd1af8842e400aa/cirq_aqt-1.2.0.dev20230717232332-py3-none-any.whl
+[2023-07-18 01:28:35] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/e6/cc/6f6196f966e3666d93c499cbdee6f4b5322df5a443ecd16a63966f7212d3/cirq_pasqal-1.2.0.dev20230717232332-py3-none-any.whl
+[2023-07-18 01:28:35] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/39/37/3135d92d41412e4e07b185447aca711134af759b14aba03824a48eacc4e4/cirq_rigetti-1.2.0.dev20230717232332-py3-none-any.whl
+[2023-07-18 01:28:35] INFO root fetch - processPackages [damo]: Downloading https://files.pythonhosted.org/packages/61/01/ef2265379259ab75ada92daa60cac73c475621e563c360fe31031315a5f8/damo-1.9.0.tar.gz
+[2023-07-18 01:28:35] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/12/51/d14ea42a18447b23fb766dff0ed11dec0881480aa735754663fa0dbe52ad/cirq_google-1.2.0.dev20230717232332-py3-none-any.whl
+[2023-07-18 01:28:35] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/08/7d/a9e8113494be39aca4e3692a0e02b71b139b61d35017980b6499d6f20056/cirq_web-1.2.0.dev20230717232332-py3-none-any.whl
+[2023-07-18 01:28:35] INFO root fetch - processPackages [cirq]: executing diffoscope
+[2023-07-18 01:28:35] INFO root fetch - processPackages [cirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq-1.2.0.dev20230717225858-py3-none-any.whl.zip tmp/cirq-1.2.0.dev20230717232332-py3-none-any.whl.zip --markdown 20230718/c/cirq/1.2.0.dev20230717225858-1.2.0.dev20230717232332/diff.md --exclude *.pyd
+[2023-07-18 01:28:35] INFO root fetch - processPackages [cirq-ft]: executing diffoscope
+[2023-07-18 01:28:35] INFO root fetch - processPackages [cirq-ft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ft-1.2.0.dev20230717225858-py3-none-any.whl.zip tmp/cirq_ft-1.2.0.dev20230717232332-py3-none-any.whl.zip --markdown 20230718/c/cirq-ft/1.2.0.dev20230717225858-1.2.0.dev20230717232332/diff.md --exclude *.pyd
+[2023-07-18 01:28:35] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/b8/f4/a06f81991b3322a25581a5500c8524b4e8e2f29a743bd67f2fd19f3c2571/cirq_core-1.2.0.dev20230717232332-py3-none-any.whl
+[2023-07-18 01:28:35] INFO root fetch - processPackages [cirq-pasqal]: executing diffoscope
+[2023-07-18 01:28:35] INFO root fetch - processPackages [cirq-pasqal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_pasqal-1.2.0.dev20230717225858-py3-none-any.whl.zip tmp/cirq_pasqal-1.2.0.dev20230717232332-py3-none-any.whl.zip --markdown 20230718/c/cirq-pasqal/1.2.0.dev20230717225858-1.2.0.dev20230717232332/diff.md --exclude *.pyd
+[2023-07-18 01:28:35] INFO root fetch - processPackages [cirq-rigetti]: executing diffoscope
+[2023-07-18 01:28:35] INFO root fetch - processPackages [cirq-rigetti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_rigetti-1.2.0.dev20230717225858-py3-none-any.whl.zip tmp/cirq_rigetti-1.2.0.dev20230717232332-py3-none-any.whl.zip --markdown 20230718/c/cirq-rigetti/1.2.0.dev20230717225858-1.2.0.dev20230717232332/diff.md --exclude *.pyd
+[2023-07-18 01:28:35] INFO root fetch - processPackages [chromadb]: Downloading https://files.pythonhosted.org/packages/2e/13/df8b113752fc3509647c34b7815fe84bdd849e336a41547d223004477918/chromadb-0.4.0.tar.gz
+[2023-07-18 01:28:35] INFO root fetch - processPackages [cirq-aqt]: executing diffoscope
+[2023-07-18 01:28:35] INFO root fetch - processPackages [cirq-aqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_aqt-1.2.0.dev20230717225858-py3-none-any.whl.zip tmp/cirq_aqt-1.2.0.dev20230717232332-py3-none-any.whl.zip --markdown 20230718/c/cirq-aqt/1.2.0.dev20230717225858-1.2.0.dev20230717232332/diff.md --exclude *.pyd
+[2023-07-18 01:28:35] INFO root fetch - processPackages [damo]: executing diffoscope
+[2023-07-18 01:28:35] INFO root fetch - processPackages [damo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/damo-1.8.9.tar.gz tmp/damo-1.9.0.tar.gz --markdown 20230718/d/damo/1.8.9-1.9.0/diff.md --exclude *.pyd
+[2023-07-18 01:28:35] INFO root fetch - processPackages [cirq-google]: executing diffoscope
+[2023-07-18 01:28:35] INFO root fetch - processPackages [cirq-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_google-1.2.0.dev20230717225858-py3-none-any.whl.zip tmp/cirq_google-1.2.0.dev20230717232332-py3-none-any.whl.zip --markdown 20230718/c/cirq-google/1.2.0.dev20230717225858-1.2.0.dev20230717232332/diff.md --exclude *.pyd
+[2023-07-18 01:28:35] INFO root fetch - processPackages [cirq-web]: executing diffoscope
+[2023-07-18 01:28:35] INFO root fetch - processPackages [cirq-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_web-1.2.0.dev20230717225858-py3-none-any.whl.zip tmp/cirq_web-1.2.0.dev20230717232332-py3-none-any.whl.zip --markdown 20230718/c/cirq-web/1.2.0.dev20230717225858-1.2.0.dev20230717232332/diff.md --exclude *.pyd
+[2023-07-18 01:28:35] INFO root fetch - processPackages [cirq-core]: executing diffoscope
+[2023-07-18 01:28:35] INFO root fetch - processPackages [cirq-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_core-1.2.0.dev20230717225858-py3-none-any.whl.zip tmp/cirq_core-1.2.0.dev20230717232332-py3-none-any.whl.zip --markdown 20230718/c/cirq-core/1.2.0.dev20230717225858-1.2.0.dev20230717232332/diff.md --exclude *.pyd
+[2023-07-18 01:28:35] INFO root fetch - processPackages [chromadb]: executing diffoscope
+[2023-07-18 01:28:35] INFO root fetch - processPackages [chromadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromadb-0.3.8.tar.gz tmp/chromadb-0.4.0.tar.gz --markdown 20230718/c/chromadb/0.3.8-0.4.0/diff.md --exclude *.pyd
+[2023-07-18 01:28:36] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.2.0.dev20230717225858-py3-none-any.whl.zip]
+[2023-07-18 01:28:36] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.2.0.dev20230717232332-py3-none-any.whl.zip]
+[2023-07-18 01:28:36] INFO root fetch - processPackages [cirq]: Start processing: cirq-ionq
+[2023-07-18 01:28:36] INFO root fetch - main [MainThread]: End processing [cirq]: success
+[2023-07-18 01:28:36] INFO root fetch - processPackages [cirq-ionq]: New version: [1.2.0.dev20230717232332] Old Version: [1.2.0.dev20230717225858]
+[2023-07-18 01:28:37] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/53/4d/7dc80933f5b3d72d1382c98f98824ce9f0e0e95a69e700b47c8262da4649/cirq_ionq-1.2.0.dev20230717225858-py3-none-any.whl
+[2023-07-18 01:28:37] INFO root fetch - processPackages [cirq-aqt]: Remove: archive file [/home/abi/fetcher/tmp/cirq_aqt-1.2.0.dev20230717225858-py3-none-any.whl.zip]
+[2023-07-18 01:28:37] INFO root fetch - processPackages [cirq-aqt]: Remove: archive file [/home/abi/fetcher/tmp/cirq_aqt-1.2.0.dev20230717232332-py3-none-any.whl.zip]
+[2023-07-18 01:28:37] INFO root fetch - processPackages [cirq-aqt]: Start processing: qsharp_jupyterlab
+[2023-07-18 01:28:37] INFO root fetch - main [MainThread]: End processing [cirq-aqt]: success
+[2023-07-18 01:28:37] INFO root fetch - processPackages [qsharp_jupyterlab]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-18 01:28:37] INFO root fetch - processPackages [cirq-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/cirq_pasqal-1.2.0.dev20230717225858-py3-none-any.whl.zip]
+[2023-07-18 01:28:37] INFO root fetch - processPackages [cirq-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/cirq_pasqal-1.2.0.dev20230717232332-py3-none-any.whl.zip]
+[2023-07-18 01:28:37] INFO root fetch - processPackages [cirq-pasqal]: Start processing: qsharp_python
+[2023-07-18 01:28:37] INFO root fetch - main [MainThread]: End processing [cirq-pasqal]: success
+[2023-07-18 01:28:37] INFO root fetch - processPackages [qsharp_python]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-18 01:28:37] INFO root fetch - processPackages [qsharp_python]: Downloading https://files.pythonhosted.org/packages/2f/b2/ed9707930aecc76d640cbe6b06478a77c0dbfbfa11e96e224079ce59752d/qsharp_python-0.0.3-cp37-abi3-win_amd64.whl
+[2023-07-18 01:28:37] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.2.0.dev20230717225858-py3-none-any.whl.zip]
+[2023-07-18 01:28:37] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.2.0.dev20230717232332-py3-none-any.whl.zip]
+[2023-07-18 01:28:37] INFO root fetch - processPackages [cirq-web]: Start processing: pathgenmap
+[2023-07-18 01:28:37] INFO root fetch - main [MainThread]: End processing [cirq-web]: success
+[2023-07-18 01:28:37] INFO root fetch - processPackages [cirq-ft]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ft-1.2.0.dev20230717225858-py3-none-any.whl.zip]
+[2023-07-18 01:28:37] INFO root fetch - processPackages [cirq-ft]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ft-1.2.0.dev20230717232332-py3-none-any.whl.zip]
+[2023-07-18 01:28:37] INFO root fetch - processPackages [cirq-ft]: Start processing: Py-SPW
+[2023-07-18 01:28:37] INFO root fetch - main [MainThread]: End processing [cirq-ft]: success
+[2023-07-18 01:28:37] INFO root fetch - processPackages [qsharp_jupyterlab]: Downloading https://files.pythonhosted.org/packages/11/e8/58eb23bf752bc3ebdf987c0c4924a414cf39fbaca4c9bc23b2c5ae0d35aa/qsharp_jupyterlab-0.0.3-py3-none-any.whl
+[2023-07-18 01:28:37] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/b6/2f/0ca97e5051b17352d7cf737cfe328d2f89ac11e5ae33b605ed85882aa8df/cirq_ionq-1.2.0.dev20230717232332-py3-none-any.whl
+[2023-07-18 01:28:37] INFO root fetch - processPackages [pathgenmap]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 01:28:37] INFO root fetch - processPackages [Py-SPW]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-07-18 01:28:37] INFO root fetch - processPackages [cirq-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/cirq_rigetti-1.2.0.dev20230717225858-py3-none-any.whl.zip]
+[2023-07-18 01:28:37] INFO root fetch - processPackages [cirq-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/cirq_rigetti-1.2.0.dev20230717232332-py3-none-any.whl.zip]
+[2023-07-18 01:28:37] INFO root fetch - processPackages [cirq-rigetti]: Start processing: rubi
+[2023-07-18 01:28:37] INFO root fetch - main [MainThread]: End processing [cirq-rigetti]: success
+[2023-07-18 01:28:37] INFO root fetch - processPackages [damo]: Remove: archive file [/home/abi/fetcher/tmp/damo-1.8.9.tar.gz]
+[2023-07-18 01:28:37] INFO root fetch - processPackages [damo]: Remove: archive file [/home/abi/fetcher/tmp/damo-1.9.0.tar.gz]
+[2023-07-18 01:28:37] INFO root fetch - processPackages [damo]: Start processing: fern-vocode
+[2023-07-18 01:28:37] INFO root fetch - main [MainThread]: End processing [damo]: success
+[2023-07-18 01:28:37] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/82/fa/d177c4c9c686fdb8d227f6ddfafaf2ea43674491d50ee4c44b5f2b53f6da/pathgenmap-0.0.8.tar.gz
+[2023-07-18 01:28:37] WARNING root fetch - processPackages [fern-vocode]: Skipping, unable to determine old version
+[2023-07-18 01:28:37] INFO root fetch - processPackages [fern-vocode]: Start processing: TheSilent
+[2023-07-18 01:28:37] INFO root fetch - main [MainThread]: End processing [fern-vocode] error
+[2023-07-18 01:28:37] INFO root fetch - processPackages [cirq-ionq]: executing diffoscope
+[2023-07-18 01:28:37] INFO root fetch - processPackages [cirq-ionq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ionq-1.2.0.dev20230717225858-py3-none-any.whl.zip tmp/cirq_ionq-1.2.0.dev20230717232332-py3-none-any.whl.zip --markdown 20230718/c/cirq-ionq/1.2.0.dev20230717225858-1.2.0.dev20230717232332/diff.md --exclude *.pyd
+[2023-07-18 01:28:37] INFO root fetch - processPackages [rubi]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-07-18 01:28:37] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-18 01:28:37] INFO root fetch - processPackages [rubi]: Downloading https://files.pythonhosted.org/packages/9e/38/e6e6b34eb5f074111311920461298322d2802f47d48c5a97f38670f74623/rubi-2.1.4.tar.gz
+[2023-07-18 01:28:37] INFO root fetch - processPackages [qsharp_jupyterlab]: Downloading https://files.pythonhosted.org/packages/fe/80/5be728835715a9e57eed29e7caf440cbcef562b60d317bfe90783e9aa763/qsharp_jupyterlab-0.0.4-py3-none-any.whl
+[2023-07-18 01:28:37] INFO root fetch - processPackages [qsharp_python]: Downloading https://files.pythonhosted.org/packages/22/31/1c459efccadc505c8c041d47b5f8c6d7e6f3e3a3de8e375047b85fc58a8b/qsharp_python-0.0.4-cp37-abi3-win_amd64.whl
+[2023-07-18 01:28:37] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/7e/52/a62425dafaf0638317648f0fc989a63f5a255e033e7d6d3ee27a1f944a2f/pathgenmap-0.0.9.tar.gz
+[2023-07-18 01:28:37] INFO root fetch - processPackages [Py-SPW]: Downloading https://files.pythonhosted.org/packages/58/3e/d174be78e9ad8b1a19f3f02f48b0470b17c07bd7638af8f949d04e95f2ca/Py-SPW-1.5.1.tar.gz
+[2023-07-18 01:28:37] INFO root fetch - processPackages [qsharp_jupyterlab]: executing diffoscope
+[2023-07-18 01:28:37] INFO root fetch - processPackages [qsharp_jupyterlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsharp_jupyterlab-0.0.3-py3-none-any.whl.zip tmp/qsharp_jupyterlab-0.0.4-py3-none-any.whl.zip --markdown 20230718/q/qsharp_jupyterlab/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-18 01:28:37] INFO root fetch - processPackages [pathgenmap]: executing diffoscope
+[2023-07-18 01:28:37] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-18 01:28:37] INFO root fetch - processPackages [pathgenmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathgenmap-0.0.8.tar.gz tmp/pathgenmap-0.0.9.tar.gz --markdown 20230718/p/pathgenmap/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 01:28:38] INFO root fetch - processPackages [qsharp_python]: executing diffoscope
+[2023-07-18 01:28:38] INFO root fetch - processPackages [qsharp_python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsharp_python-0.0.3-cp37-abi3-win_amd64.whl.zip tmp/qsharp_python-0.0.4-cp37-abi3-win_amd64.whl.zip --markdown 20230718/q/qsharp_python/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-18 01:28:38] INFO root fetch - processPackages [rubi]: Downloading https://files.pythonhosted.org/packages/7e/3e/40e09a858f2c3a21a46776108938dcb471a0f0d4478bf41983a1aecfec53/rubi-2.1.5.tar.gz
+[2023-07-18 01:28:38] INFO root fetch - processPackages [Py-SPW]: Downloading https://files.pythonhosted.org/packages/a9/fc/a2a87f912ae94cfd4d7d4240a022584b0a0494a4093215a8b99475931dff/Py-SPW-1.5.2.tar.gz
+[2023-07-18 01:28:38] INFO root fetch - processPackages [rubi]: executing diffoscope
+[2023-07-18 01:28:38] INFO root fetch - processPackages [rubi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubi-2.1.4.tar.gz tmp/rubi-2.1.5.tar.gz --markdown 20230718/r/rubi/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2023-07-18 01:28:38] INFO root fetch - processPackages [Py-SPW]: executing diffoscope
+[2023-07-18 01:28:38] INFO root fetch - processPackages [Py-SPW]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Py-SPW-1.5.1.tar.gz tmp/Py-SPW-1.5.2.tar.gz --markdown 20230718/P/Py-SPW/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-07-18 01:28:38] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-18 01:28:38] INFO root fetch - processPackages [chromadb]: Remove: archive file [/home/abi/fetcher/tmp/chromadb-0.3.8.tar.gz]
+[2023-07-18 01:28:38] INFO root fetch - processPackages [chromadb]: Remove: archive file [/home/abi/fetcher/tmp/chromadb-0.4.0.tar.gz]
+[2023-07-18 01:28:38] INFO root fetch - main [MainThread]: End processing [chromadb]: success
+[2023-07-18 01:28:38] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-18 01:28:38] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230718/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-18 01:28:39] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.2.0.dev20230717225858-py3-none-any.whl.zip]
+[2023-07-18 01:28:39] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.2.0.dev20230717232332-py3-none-any.whl.zip]
+[2023-07-18 01:28:39] INFO root fetch - main [MainThread]: End processing [cirq-ionq]: success
+[2023-07-18 01:28:39] INFO root fetch - processPackages [qsharp_python]: Remove: archive file [/home/abi/fetcher/tmp/qsharp_python-0.0.3-cp37-abi3-win_amd64.whl.zip]
+[2023-07-18 01:28:39] INFO root fetch - processPackages [qsharp_python]: Remove: archive file [/home/abi/fetcher/tmp/qsharp_python-0.0.4-cp37-abi3-win_amd64.whl.zip]
+[2023-07-18 01:28:39] INFO root fetch - main [MainThread]: End processing [qsharp_python]: success
+[2023-07-18 01:28:39] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.8.tar.gz]
+[2023-07-18 01:28:39] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.9.tar.gz]
+[2023-07-18 01:28:39] INFO root fetch - main [MainThread]: End processing [pathgenmap]: success
+[2023-07-18 01:28:39] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.2.0.dev20230717225858-py3-none-any.whl.zip]
+[2023-07-18 01:28:39] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.2.0.dev20230717232332-py3-none-any.whl.zip]
+[2023-07-18 01:28:39] INFO root fetch - main [MainThread]: End processing [cirq-google]: success
+[2023-07-18 01:28:39] INFO root fetch - processPackages [qsharp_jupyterlab]: Remove: archive file [/home/abi/fetcher/tmp/qsharp_jupyterlab-0.0.3-py3-none-any.whl.zip]
+[2023-07-18 01:28:39] INFO root fetch - processPackages [qsharp_jupyterlab]: Remove: archive file [/home/abi/fetcher/tmp/qsharp_jupyterlab-0.0.4-py3-none-any.whl.zip]
+[2023-07-18 01:28:39] INFO root fetch - main [MainThread]: End processing [qsharp_jupyterlab]: success
+[2023-07-18 01:28:39] INFO root fetch - processPackages [Py-SPW]: Remove: archive file [/home/abi/fetcher/tmp/Py-SPW-1.5.1.tar.gz]
+[2023-07-18 01:28:39] INFO root fetch - processPackages [Py-SPW]: Remove: archive file [/home/abi/fetcher/tmp/Py-SPW-1.5.2.tar.gz]
+[2023-07-18 01:28:39] INFO root fetch - main [MainThread]: End processing [Py-SPW]: success
+[2023-07-18 01:28:39] INFO root fetch - processPackages [rubi]: Remove: archive file [/home/abi/fetcher/tmp/rubi-2.1.4.tar.gz]
+[2023-07-18 01:28:39] INFO root fetch - processPackages [rubi]: Remove: archive file [/home/abi/fetcher/tmp/rubi-2.1.5.tar.gz]
+[2023-07-18 01:28:39] INFO root fetch - main [MainThread]: End processing [rubi]: success
+[2023-07-18 01:28:39] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-18 01:28:39] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-18 01:28:39] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-18 01:28:43] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.2.0.dev20230717225858-py3-none-any.whl.zip]
+[2023-07-18 01:28:43] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.2.0.dev20230717232332-py3-none-any.whl.zip]
+[2023-07-18 01:28:43] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
+[2023-07-18 01:28:43] INFO root fetch - main [MainThread]: Store serial: [18923540]
