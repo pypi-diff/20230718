@@ -2012,3 +2012,36 @@
 [2023-07-18 01:50:01] INFO root fetch - processPackages [ddtrace]: Remove: archive file [/home/abi/fetcher/tmp/ddtrace-1.9.7.tar.gz]
 [2023-07-18 01:50:01] INFO root fetch - main [MainThread]: End processing [ddtrace]: success
 [2023-07-18 01:50:01] INFO root fetch - main [MainThread]: Store serial: [18923662]
+[2023-07-18 01:55:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18923662]
+[2023-07-18 01:55:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-18 01:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pathgenmap
+[2023-07-18 01:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alphatools-jv
+[2023-07-18 01:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flask-protobuf
+[2023-07-18 01:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shrike
+[2023-07-18 01:55:10] WARNING root fetch - processPackages [flask-protobuf]: Skipping, unable to determine old version
+[2023-07-18 01:55:10] INFO root fetch - main [MainThread]: End processing [flask-protobuf] error
+[2023-07-18 01:55:10] INFO root fetch - processPackages [alphatools-jv]: New version: [3.4.1] Old Version: [3.4.0]
+[2023-07-18 01:55:10] INFO root fetch - processPackages [pathgenmap]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 01:55:10] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/82/fa/d177c4c9c686fdb8d227f6ddfafaf2ea43674491d50ee4c44b5f2b53f6da/pathgenmap-0.0.8.tar.gz
+[2023-07-18 01:55:10] INFO root fetch - processPackages [shrike]: New version: [2.0.0.dev3] Old Version: [2.0.0.dev2]
+[2023-07-18 01:55:10] INFO root fetch - processPackages [alphatools-jv]: Downloading https://files.pythonhosted.org/packages/d7/48/7bc68f8bf79ea2ea8b228bee2506398a90edee13aa99df75768be582c885/alphatools_jv-3.4.0.tar.gz
+[2023-07-18 01:55:10] INFO root fetch - processPackages [shrike]: Downloading https://files.pythonhosted.org/packages/d1/66/5640192466e4a38a23575b88c066b6d5fd9403b17f79153d9f50751cd9b5/shrike-2.0.0.dev2.tar.gz
+[2023-07-18 01:55:10] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/7e/52/a62425dafaf0638317648f0fc989a63f5a255e033e7d6d3ee27a1f944a2f/pathgenmap-0.0.9.tar.gz
+[2023-07-18 01:55:11] INFO root fetch - processPackages [alphatools-jv]: Downloading https://files.pythonhosted.org/packages/ee/3c/d52ba8e78352533f64d560231b33c5a82dd4829ad1175ffc7c152dc6ec51/alphatools_jv-3.4.1.tar.gz
+[2023-07-18 01:55:11] INFO root fetch - processPackages [pathgenmap]: executing diffoscope
+[2023-07-18 01:55:11] INFO root fetch - processPackages [pathgenmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathgenmap-0.0.8.tar.gz tmp/pathgenmap-0.0.9.tar.gz --markdown 20230718/p/pathgenmap/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 01:55:11] INFO root fetch - processPackages [alphatools-jv]: executing diffoscope
+[2023-07-18 01:55:11] INFO root fetch - processPackages [alphatools-jv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphatools_jv-3.4.0.tar.gz tmp/alphatools_jv-3.4.1.tar.gz --markdown 20230718/a/alphatools-jv/3.4.0-3.4.1/diff.md --exclude *.pyd
+[2023-07-18 01:55:11] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.8.tar.gz]
+[2023-07-18 01:55:11] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.9.tar.gz]
+[2023-07-18 01:55:11] INFO root fetch - main [MainThread]: End processing [pathgenmap]: success
+[2023-07-18 01:55:11] INFO root fetch - processPackages [alphatools-jv]: Remove: archive file [/home/abi/fetcher/tmp/alphatools_jv-3.4.0.tar.gz]
+[2023-07-18 01:55:11] INFO root fetch - processPackages [alphatools-jv]: Remove: archive file [/home/abi/fetcher/tmp/alphatools_jv-3.4.1.tar.gz]
+[2023-07-18 01:55:11] INFO root fetch - main [MainThread]: End processing [alphatools-jv]: success
+[2023-07-18 01:55:12] INFO root fetch - processPackages [shrike]: Downloading https://files.pythonhosted.org/packages/a2/08/f923d6e74514a2819beee72bee0aca8ca1957044ca1a57667d748e18acea/shrike-2.0.0.dev3.tar.gz
+[2023-07-18 01:55:12] INFO root fetch - processPackages [shrike]: executing diffoscope
+[2023-07-18 01:55:12] INFO root fetch - processPackages [shrike]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shrike-2.0.0.dev2.tar.gz tmp/shrike-2.0.0.dev3.tar.gz --markdown 20230718/s/shrike/2.0.0.dev2-2.0.0.dev3/diff.md --exclude *.pyd
+[2023-07-18 01:55:13] INFO root fetch - processPackages [shrike]: Remove: archive file [/home/abi/fetcher/tmp/shrike-2.0.0.dev2.tar.gz]
+[2023-07-18 01:55:13] INFO root fetch - processPackages [shrike]: Remove: archive file [/home/abi/fetcher/tmp/shrike-2.0.0.dev3.tar.gz]
+[2023-07-18 01:55:13] INFO root fetch - main [MainThread]: End processing [shrike]: success
+[2023-07-18 01:55:13] INFO root fetch - main [MainThread]: Store serial: [18923716]
