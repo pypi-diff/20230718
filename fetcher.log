@@ -837,3 +837,47 @@
 [2023-07-18 00:43:20] INFO root fetch - processPackages [climatePy]: Remove: archive file [/home/abi/fetcher/tmp/climatePy-0.4.34.tar.gz]
 [2023-07-18 00:43:20] INFO root fetch - main [MainThread]: End processing [climatePy]: success
 [2023-07-18 00:43:20] INFO root fetch - main [MainThread]: Store serial: [18923232]
+[2023-07-18 00:48:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18923232]
+[2023-07-18 00:48:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-18 00:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spam-analyzer
+[2023-07-18 00:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pathgenmap
+[2023-07-18 00:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xGPR
+[2023-07-18 00:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sapphire-config
+[2023-07-18 00:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shil
+[2023-07-18 00:48:31] INFO root fetch - processPackages [xGPR]: New version: [0.1.2.4] Old Version: [0.1.2.3]
+[2023-07-18 00:48:31] INFO root fetch - processPackages [spam-analyzer]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-18 00:48:31] INFO root fetch - processPackages [pathgenmap]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 00:48:31] INFO root fetch - processPackages [sapphire-config]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-18 00:48:31] INFO root fetch - processPackages [shil]: New version: [2023.7.17.7.1] Old Version: [2023.7.15.12.33]
+[2023-07-18 00:48:31] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/82/fa/d177c4c9c686fdb8d227f6ddfafaf2ea43674491d50ee4c44b5f2b53f6da/pathgenmap-0.0.8.tar.gz
+[2023-07-18 00:48:31] INFO root fetch - processPackages [xGPR]: Downloading https://files.pythonhosted.org/packages/73/89/c4db820ec3ce7653cd7b8961e4d6360fae25eb003094daf58d978e5c3c6e/xGPR-0.1.2.3.tar.gz
+[2023-07-18 00:48:31] INFO root fetch - processPackages [spam-analyzer]: Downloading https://files.pythonhosted.org/packages/7b/dd/cbe1f0ea0f4b3a7d29255483fad48a7d3429ec0e20c41c8a072333329af4/spam-analyzer-0.1.2.tar.gz
+[2023-07-18 00:48:31] INFO root fetch - processPackages [shil]: Downloading https://files.pythonhosted.org/packages/78/55/a2b27f7a5a717c79498bce13a8b0cfa60e1d1feb4122da4552d1b4e83e2a/shil-2023.7.15.12.33.tar.gz
+[2023-07-18 00:48:31] INFO root fetch - processPackages [sapphire-config]: Downloading https://files.pythonhosted.org/packages/62/60/cb9fd653da4d8cb28c28f2880d6cbacfa0ccaf71ef4f7e959b02c75a6501/sapphire_config-1.0.1.tar.gz
+[2023-07-18 00:48:31] WARNING root fetch - processPackages [spam-analyzer]: Skipping package: exceeds size limit 11365477>=10485760
+[2023-07-18 00:48:31] INFO root fetch - main [MainThread]: End processing [spam-analyzer] error
+[2023-07-18 00:48:31] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/7e/52/a62425dafaf0638317648f0fc989a63f5a255e033e7d6d3ee27a1f944a2f/pathgenmap-0.0.9.tar.gz
+[2023-07-18 00:48:31] INFO root fetch - processPackages [pathgenmap]: executing diffoscope
+[2023-07-18 00:48:31] INFO root fetch - processPackages [pathgenmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathgenmap-0.0.8.tar.gz tmp/pathgenmap-0.0.9.tar.gz --markdown 20230718/p/pathgenmap/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 00:48:31] INFO root fetch - processPackages [shil]: Downloading https://files.pythonhosted.org/packages/2f/fa/ea06894e02a517908711a411c2126025bd2553ca503ee5eef6a464b821eb/shil-2023.7.17.7.1.tar.gz
+[2023-07-18 00:48:31] INFO root fetch - processPackages [shil]: executing diffoscope
+[2023-07-18 00:48:31] INFO root fetch - processPackages [shil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shil-2023.7.15.12.33.tar.gz tmp/shil-2023.7.17.7.1.tar.gz --markdown 20230718/s/shil/2023.7.15.12.33-2023.7.17.7.1/diff.md --exclude *.pyd
+[2023-07-18 00:48:31] INFO root fetch - processPackages [xGPR]: Downloading https://files.pythonhosted.org/packages/3d/37/e804b12ea3d5e1db0e2f61360b9cdff015aafe96abc2feb1d5d42b8ef695/xGPR-0.1.2.4.tar.gz
+[2023-07-18 00:48:31] INFO root fetch - processPackages [sapphire-config]: Downloading https://files.pythonhosted.org/packages/42/e3/068cb5c868d9f3b7e28d33b68d3d246e0be765a7f99382f1d51ee8da1a83/sapphire_config-1.0.2.tar.gz
+[2023-07-18 00:48:32] INFO root fetch - processPackages [sapphire-config]: executing diffoscope
+[2023-07-18 00:48:32] INFO root fetch - processPackages [sapphire-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapphire_config-1.0.1.tar.gz tmp/sapphire_config-1.0.2.tar.gz --markdown 20230718/s/sapphire-config/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-18 00:48:32] INFO root fetch - processPackages [xGPR]: executing diffoscope
+[2023-07-18 00:48:32] INFO root fetch - processPackages [xGPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xGPR-0.1.2.3.tar.gz tmp/xGPR-0.1.2.4.tar.gz --markdown 20230718/x/xGPR/0.1.2.3-0.1.2.4/diff.md --exclude *.pyd
+[2023-07-18 00:48:32] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.8.tar.gz]
+[2023-07-18 00:48:32] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.9.tar.gz]
+[2023-07-18 00:48:32] INFO root fetch - main [MainThread]: End processing [pathgenmap]: success
+[2023-07-18 00:48:32] INFO root fetch - processPackages [shil]: Remove: archive file [/home/abi/fetcher/tmp/shil-2023.7.15.12.33.tar.gz]
+[2023-07-18 00:48:32] INFO root fetch - processPackages [shil]: Remove: archive file [/home/abi/fetcher/tmp/shil-2023.7.17.7.1.tar.gz]
+[2023-07-18 00:48:32] INFO root fetch - main [MainThread]: End processing [shil]: success
+[2023-07-18 00:48:32] INFO root fetch - processPackages [sapphire-config]: Remove: archive file [/home/abi/fetcher/tmp/sapphire_config-1.0.1.tar.gz]
+[2023-07-18 00:48:32] INFO root fetch - processPackages [sapphire-config]: Remove: archive file [/home/abi/fetcher/tmp/sapphire_config-1.0.2.tar.gz]
+[2023-07-18 00:48:32] INFO root fetch - main [MainThread]: End processing [sapphire-config]: success
+[2023-07-18 00:48:33] INFO root fetch - processPackages [xGPR]: Remove: archive file [/home/abi/fetcher/tmp/xGPR-0.1.2.3.tar.gz]
+[2023-07-18 00:48:33] INFO root fetch - processPackages [xGPR]: Remove: archive file [/home/abi/fetcher/tmp/xGPR-0.1.2.4.tar.gz]
+[2023-07-18 00:48:33] INFO root fetch - main [MainThread]: End processing [xGPR]: success
+[2023-07-18 00:48:33] INFO root fetch - main [MainThread]: Store serial: [18923249]
