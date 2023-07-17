@@ -251,3 +251,87 @@
 [2023-07-18 00:11:48] INFO root fetch - processPackages [mujoco-dev]: Remove: archive file [/home/abi/fetcher/tmp/mujoco_dev-2.3.6.dev548805912-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-18 00:11:48] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
 [2023-07-18 00:11:48] INFO root fetch - main [MainThread]: Store serial: [18923018]
+[2023-07-18 00:16:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18923018]
+[2023-07-18 00:17:01] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-18 00:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: textframe
+[2023-07-18 00:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kubernetes
+[2023-07-18 00:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fal
+[2023-07-18 00:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kolena
+[2023-07-18 00:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jupysql-plugin
+[2023-07-18 00:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vera-core
+[2023-07-18 00:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wdmtoolbox
+[2023-07-18 00:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kolena-client
+[2023-07-18 00:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: solvis
+[2023-07-18 00:17:01] INFO root fetch - processPackages [jupysql-plugin]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-18 00:17:01] INFO root fetch - processPackages [textframe]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 00:17:01] INFO root fetch - processPackages [kolena-client]: New version: [0.78.0] Old Version: [0.77.1]
+[2023-07-18 00:17:01] INFO root fetch - processPackages [fal]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-18 00:17:01] INFO root fetch - processPackages [vera-core]: New version: [1.3.0] Old Version: [1.2.6]
+[2023-07-18 00:17:01] INFO root fetch - processPackages [kubernetes]: New version: [9.0.1] Old Version: [9.0.0b1]
+[2023-07-18 00:17:01] INFO root fetch - processPackages [kolena]: New version: [0.78.0] Old Version: [0.77.1]
+[2023-07-18 00:17:01] INFO root fetch - processPackages [wdmtoolbox]: New version: [8.9.7.5] Old Version: [7.9.7.5]
+[2023-07-18 00:17:01] INFO root fetch - processPackages [solvis]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-18 00:17:01] INFO root fetch - processPackages [textframe]: Downloading https://files.pythonhosted.org/packages/f8/4c/e7b3fe1a6dbebe2712a6047f8bfa93cf2338751e5b2038a324984bdaf318/textframe-0.0.8.tar.gz
+[2023-07-18 00:17:01] INFO root fetch - processPackages [fal]: Downloading https://files.pythonhosted.org/packages/cc/0f/020423c5a428cbdcdf150e924dbf016c1457da77524dbdbf80043e3e9fe5/fal-0.9.2.tar.gz
+[2023-07-18 00:17:01] INFO root fetch - processPackages [kolena]: Downloading https://files.pythonhosted.org/packages/4b/fb/bccdefb4d4d8ea5dd9efefa23da8aed226cec64451d11d656338cc6e5b67/kolena-0.77.1.tar.gz
+[2023-07-18 00:17:01] INFO root fetch - processPackages [kolena-client]: Downloading https://files.pythonhosted.org/packages/51/2d/1a951398f60d494614994aaf11e1e65c2e046b903bd846f07902c165f5a8/kolena_client-0.77.1.tar.gz
+[2023-07-18 00:17:01] INFO root fetch - processPackages [kubernetes]: Downloading https://files.pythonhosted.org/packages/d1/f4/b57dff8d83d4b7cdc34797c203c65ea0a8869c11187b65ac128eada0d79b/kubernetes-9.0.0b1.tar.gz
+[2023-07-18 00:17:01] INFO root fetch - processPackages [jupysql-plugin]: Downloading https://files.pythonhosted.org/packages/0e/1d/d00ef8b9f4aa83ea97a00a1e00bf4468023611c612a4e24d845b49432ac0/jupysql_plugin-0.1.6.tar.gz
+[2023-07-18 00:17:01] INFO root fetch - processPackages [solvis]: Downloading https://files.pythonhosted.org/packages/e4/a4/c2de5028d4d9494bab99087dbb3b75358021dde9dc72a2fac8812a45d2f6/solvis-0.7.0.tar.gz
+[2023-07-18 00:17:01] INFO root fetch - processPackages [wdmtoolbox]: Downloading https://files.pythonhosted.org/packages/ec/9a/3bc801645af851093802a64c43c71137b82cab1db34a7279d8f696cf0b19/wdmtoolbox-7.9.7.5.tar.gz
+[2023-07-18 00:17:01] INFO root fetch - processPackages [vera-core]: Downloading https://files.pythonhosted.org/packages/52/3e/7dfb450dc1cbffd94757240d990d7a5556c38ef0767ebcce3bf6f7a0ae31/vera-core-1.2.6.tar.gz
+[2023-07-18 00:17:01] INFO root fetch - processPackages [textframe]: Downloading https://files.pythonhosted.org/packages/a1/5d/dfb6b5e0846545b4cdc898232d0a97157cba45efef8e64082908a4f406a9/textframe-0.0.9.tar.gz
+[2023-07-18 00:17:02] INFO root fetch - processPackages [fal]: Downloading https://files.pythonhosted.org/packages/67/26/155aa5956ce2c1eea1c0995490536112db6e73978f2288466d448c018928/fal-0.9.3.tar.gz
+[2023-07-18 00:17:02] INFO root fetch - processPackages [textframe]: executing diffoscope
+[2023-07-18 00:17:02] INFO root fetch - processPackages [textframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textframe-0.0.8.tar.gz tmp/textframe-0.0.9.tar.gz --markdown 20230718/t/textframe/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 00:17:02] INFO root fetch - processPackages [kolena]: Downloading https://files.pythonhosted.org/packages/dd/d3/d056b169d2a71199696fb1b9cab97a976a2d05e2ff3351a6d902ce0e6b63/kolena-0.78.0.tar.gz
+[2023-07-18 00:17:02] INFO root fetch - processPackages [kolena-client]: Downloading https://files.pythonhosted.org/packages/7c/33/e18078394bc23814590707d509ce2239bbc0b8c18e6b8c2e6521511b6ab0/kolena_client-0.78.0.tar.gz
+[2023-07-18 00:17:02] INFO root fetch - processPackages [kubernetes]: Downloading https://files.pythonhosted.org/packages/92/11/25f8b90cded6debf9e5130b14047733a4805ec17765dec887066cbbb2a74/kubernetes-9.0.1.tar.gz
+[2023-07-18 00:17:02] INFO root fetch - processPackages [vera-core]: Downloading https://files.pythonhosted.org/packages/b4/63/7932727355a363f9487dcd11f263d8db6cf486f1e3bb78196a186866fd6a/vera-core-1.3.0.tar.gz
+[2023-07-18 00:17:02] INFO root fetch - processPackages [kubernetes]: executing diffoscope
+[2023-07-18 00:17:02] INFO root fetch - processPackages [kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubernetes-9.0.0b1.tar.gz tmp/kubernetes-9.0.1.tar.gz --markdown 20230718/k/kubernetes/9.0.0b1-9.0.1/diff.md --exclude *.pyd
+[2023-07-18 00:17:02] INFO root fetch - processPackages [jupysql-plugin]: Downloading https://files.pythonhosted.org/packages/35/8b/2e6d9450db91bef4710d749ec5f7dd6e268c46aa9cb32d5427c8ddddb2b1/jupysql_plugin-0.1.7.tar.gz
+[2023-07-18 00:17:02] INFO root fetch - processPackages [kolena]: executing diffoscope
+[2023-07-18 00:17:02] INFO root fetch - processPackages [kolena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolena-0.77.1.tar.gz tmp/kolena-0.78.0.tar.gz --markdown 20230718/k/kolena/0.77.1-0.78.0/diff.md --exclude *.pyd
+[2023-07-18 00:17:02] INFO root fetch - processPackages [kolena-client]: executing diffoscope
+[2023-07-18 00:17:02] INFO root fetch - processPackages [kolena-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolena_client-0.77.1.tar.gz tmp/kolena_client-0.78.0.tar.gz --markdown 20230718/k/kolena-client/0.77.1-0.78.0/diff.md --exclude *.pyd
+[2023-07-18 00:17:02] INFO root fetch - processPackages [fal]: executing diffoscope
+[2023-07-18 00:17:02] INFO root fetch - processPackages [fal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fal-0.9.2.tar.gz tmp/fal-0.9.3.tar.gz --markdown 20230718/f/fal/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-18 00:17:02] INFO root fetch - processPackages [vera-core]: executing diffoscope
+[2023-07-18 00:17:02] INFO root fetch - processPackages [vera-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vera-core-1.2.6.tar.gz tmp/vera-core-1.3.0.tar.gz --markdown 20230718/v/vera-core/1.2.6-1.3.0/diff.md --exclude *.pyd
+[2023-07-18 00:17:02] INFO root fetch - processPackages [wdmtoolbox]: Downloading https://files.pythonhosted.org/packages/70/67/62d4bfd6f784827489a14b4c543d4ca60b65a5484ef88e082f73ff0a2de0/wdmtoolbox-8.9.7.5.tar.gz
+[2023-07-18 00:17:02] INFO root fetch - processPackages [jupysql-plugin]: executing diffoscope
+[2023-07-18 00:17:02] INFO root fetch - processPackages [jupysql-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupysql_plugin-0.1.6.tar.gz tmp/jupysql_plugin-0.1.7.tar.gz --markdown 20230718/j/jupysql-plugin/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-18 00:17:02] INFO root fetch - processPackages [wdmtoolbox]: executing diffoscope
+[2023-07-18 00:17:02] INFO root fetch - processPackages [wdmtoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wdmtoolbox-7.9.7.5.tar.gz tmp/wdmtoolbox-8.9.7.5.tar.gz --markdown 20230718/w/wdmtoolbox/7.9.7.5-8.9.7.5/diff.md --exclude *.pyd
+[2023-07-18 00:17:02] INFO root fetch - processPackages [solvis]: Downloading https://files.pythonhosted.org/packages/1e/58/3d73d017cf1b41955fcdee1399517caae7ae9de994bbd35640e3a4d2cf21/solvis-0.8.0.tar.gz
+[2023-07-18 00:17:03] INFO root fetch - processPackages [textframe]: Remove: archive file [/home/abi/fetcher/tmp/textframe-0.0.8.tar.gz]
+[2023-07-18 00:17:03] INFO root fetch - processPackages [textframe]: Remove: archive file [/home/abi/fetcher/tmp/textframe-0.0.9.tar.gz]
+[2023-07-18 00:17:03] INFO root fetch - main [MainThread]: End processing [textframe]: success
+[2023-07-18 00:17:03] INFO root fetch - processPackages [vera-core]: Remove: archive file [/home/abi/fetcher/tmp/vera-core-1.2.6.tar.gz]
+[2023-07-18 00:17:03] INFO root fetch - processPackages [vera-core]: Remove: archive file [/home/abi/fetcher/tmp/vera-core-1.3.0.tar.gz]
+[2023-07-18 00:17:04] INFO root fetch - main [MainThread]: End processing [vera-core]: success
+[2023-07-18 00:17:04] INFO root fetch - processPackages [fal]: Remove: archive file [/home/abi/fetcher/tmp/fal-0.9.2.tar.gz]
+[2023-07-18 00:17:04] INFO root fetch - processPackages [fal]: Remove: archive file [/home/abi/fetcher/tmp/fal-0.9.3.tar.gz]
+[2023-07-18 00:17:04] INFO root fetch - main [MainThread]: End processing [fal]: success
+[2023-07-18 00:17:04] INFO root fetch - processPackages [jupysql-plugin]: Remove: archive file [/home/abi/fetcher/tmp/jupysql_plugin-0.1.6.tar.gz]
+[2023-07-18 00:17:04] INFO root fetch - processPackages [jupysql-plugin]: Remove: archive file [/home/abi/fetcher/tmp/jupysql_plugin-0.1.7.tar.gz]
+[2023-07-18 00:17:04] INFO root fetch - main [MainThread]: End processing [jupysql-plugin]: success
+[2023-07-18 00:17:04] INFO root fetch - processPackages [kolena-client]: Remove: archive file [/home/abi/fetcher/tmp/kolena_client-0.77.1.tar.gz]
+[2023-07-18 00:17:04] INFO root fetch - processPackages [kolena-client]: Remove: archive file [/home/abi/fetcher/tmp/kolena_client-0.78.0.tar.gz]
+[2023-07-18 00:17:04] INFO root fetch - main [MainThread]: End processing [kolena-client]: success
+[2023-07-18 00:17:04] INFO root fetch - processPackages [kolena]: Remove: archive file [/home/abi/fetcher/tmp/kolena-0.77.1.tar.gz]
+[2023-07-18 00:17:04] INFO root fetch - processPackages [kolena]: Remove: archive file [/home/abi/fetcher/tmp/kolena-0.78.0.tar.gz]
+[2023-07-18 00:17:04] INFO root fetch - main [MainThread]: End processing [kolena]: success
+[2023-07-18 00:17:04] INFO root fetch - processPackages [wdmtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/wdmtoolbox-7.9.7.5.tar.gz]
+[2023-07-18 00:17:04] INFO root fetch - processPackages [wdmtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/wdmtoolbox-8.9.7.5.tar.gz]
+[2023-07-18 00:17:04] INFO root fetch - main [MainThread]: End processing [wdmtoolbox]: success
+[2023-07-18 00:17:04] INFO root fetch - processPackages [solvis]: executing diffoscope
+[2023-07-18 00:17:04] INFO root fetch - processPackages [solvis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solvis-0.7.0.tar.gz tmp/solvis-0.8.0.tar.gz --markdown 20230718/s/solvis/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-18 00:17:06] INFO root fetch - processPackages [solvis]: Remove: archive file [/home/abi/fetcher/tmp/solvis-0.7.0.tar.gz]
+[2023-07-18 00:17:06] INFO root fetch - processPackages [solvis]: Remove: archive file [/home/abi/fetcher/tmp/solvis-0.8.0.tar.gz]
+[2023-07-18 00:17:06] INFO root fetch - main [MainThread]: End processing [solvis]: success
+[2023-07-18 00:17:11] INFO root fetch - processPackages [kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/kubernetes-9.0.0b1.tar.gz]
+[2023-07-18 00:17:11] INFO root fetch - processPackages [kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/kubernetes-9.0.1.tar.gz]
+[2023-07-18 00:17:11] INFO root fetch - main [MainThread]: End processing [kubernetes]: success
+[2023-07-18 00:17:11] INFO root fetch - main [MainThread]: Store serial: [18923053]
