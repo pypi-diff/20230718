@@ -1423,3 +1423,194 @@
 [2023-07-18 01:15:11] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.368.1.tar.gz]
 [2023-07-18 01:15:11] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-07-18 01:15:11] INFO root fetch - main [MainThread]: Store serial: [18923432]
+[2023-07-18 01:20:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18923432]
+[2023-07-18 01:20:21] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-18 01:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: g4f
+[2023-07-18 01:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: recursive-validator
+[2023-07-18 01:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iwx-manifest-builder
+[2023-07-18 01:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cvat-manifest-builder
+[2023-07-18 01:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: geopix
+[2023-07-18 01:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fsai-grpc-api
+[2023-07-18 01:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tfads-o-builder
+[2023-07-18 01:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dbt-snowflake
+[2023-07-18 01:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oci
+[2023-07-18 01:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fsai-shared-funcs
+[2023-07-18 01:20:21] INFO root fetch - processPackages [g4f]: New version: [0.0.1.2] Old Version: [0.0.1]
+[2023-07-18 01:20:21] INFO root fetch - processPackages [tfads-o-builder]: New version: [0.0.165] Old Version: [0.0.164]
+[2023-07-18 01:20:21] INFO root fetch - processPackages [iwx-manifest-builder]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-18 01:20:21] INFO root fetch - processPackages [fsai-shared-funcs]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-18 01:20:21] INFO root fetch - processPackages [recursive-validator]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-18 01:20:21] INFO root fetch - processPackages [dbt-snowflake]: New version: [1.6.0rc1] Old Version: [1.6.0b3]
+[2023-07-18 01:20:21] INFO root fetch - processPackages [fsai-grpc-api]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-18 01:20:21] INFO root fetch - processPackages [oci]: New version: [2.99.1] Old Version: [2.99.0]
+[2023-07-18 01:20:21] INFO root fetch - processPackages [geopix]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-18 01:20:21] INFO root fetch - processPackages [cvat-manifest-builder]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-18 01:20:21] INFO root fetch - processPackages [g4f]: Downloading https://files.pythonhosted.org/packages/79/2c/de05fdc405c2d87bbbb9631300386aee22aa4dcf8391a292ca6ae51ce9f8/g4f-0.0.1.tar.gz
+[2023-07-18 01:20:21] INFO root fetch - processPackages [iwx-manifest-builder]: Downloading https://files.pythonhosted.org/packages/33/bf/02ba356059e9069f6db9f027bf1bd97a4c1de39fe82e72814ed2f73f3c39/iwx_manifest_builder-0.0.98.tar.gz
+[2023-07-18 01:20:21] INFO root fetch - processPackages [oci]: Downloading https://files.pythonhosted.org/packages/b7/50/166794801e82f1f65176a501f1451e6c542bd24f1b9bc4cae6e79a4bcd64/oci-2.99.0.tar.gz
+[2023-07-18 01:20:21] INFO root fetch - processPackages [tfads-o-builder]: Downloading https://files.pythonhosted.org/packages/83/d2/caf8409fa07e6ecef749642ff1fc538583d37753025247c28330f0196be6/tfads_o_builder-0.0.164.tar.gz
+[2023-07-18 01:20:21] INFO root fetch - processPackages [recursive-validator]: Downloading https://files.pythonhosted.org/packages/44/24/6e3f27033069680d4ad07aee3e1d535e1b3444f1ce72e8df548e8a16dc8e/recursive_validator-0.0.98.tar.gz
+[2023-07-18 01:20:21] INFO root fetch - processPackages [fsai-shared-funcs]: Downloading https://files.pythonhosted.org/packages/61/bc/39412ebc8deaeb66f457caebc15c02bc1fe07bc33108672e4bf143d64e3b/fsai_shared_funcs-0.0.98.tar.gz
+[2023-07-18 01:20:21] INFO root fetch - processPackages [dbt-snowflake]: Downloading https://files.pythonhosted.org/packages/f6/99/5780f27430718a4fc67da1932fa9a41253cae3cbec7ac6680ef1ac9c5903/dbt-snowflake-1.6.0b3.tar.gz
+[2023-07-18 01:20:21] INFO root fetch - processPackages [fsai-grpc-api]: Downloading https://files.pythonhosted.org/packages/08/a7/9a7ebe38ab432231655f1bfd81e702be8be178baa4b6a212002bdcf3cd96/fsai_grpc_api-0.0.98.tar.gz
+[2023-07-18 01:20:21] INFO root fetch - processPackages [geopix]: Downloading https://files.pythonhosted.org/packages/b6/a3/41b4f581e7463e3bce55e79579de9bf1f2c828011573c06bf7ab33a974bd/geopix-0.0.98.tar.gz
+[2023-07-18 01:20:21] INFO root fetch - processPackages [cvat-manifest-builder]: Downloading https://files.pythonhosted.org/packages/4d/53/ceeb4be50300cbb9ab2e0de8699ddef9fb20be70ac60f72cac3097f0efc9/cvat_manifest_builder-0.0.98.tar.gz
+[2023-07-18 01:20:22] INFO root fetch - processPackages [g4f]: Downloading https://files.pythonhosted.org/packages/fe/ad/a034d20866d5a14c35f70d84dfcde7c8d86d1e2d16d9f223dcf05dabf9ce/g4f-0.0.1.2.tar.gz
+[2023-07-18 01:20:22] INFO root fetch - processPackages [tfads-o-builder]: Downloading https://files.pythonhosted.org/packages/b0/43/97d264dcaf0e5dd4f67426ebc9263f0490604989d3d57f3d91ece42d0cd4/tfads_o_builder-0.0.165.tar.gz
+[2023-07-18 01:20:22] INFO root fetch - processPackages [fsai-shared-funcs]: Downloading https://files.pythonhosted.org/packages/3d/ad/0128c444d5b95fa3b9882d63404069f05fbee06ab63f54a541348c51a445/fsai_shared_funcs-0.0.99.tar.gz
+[2023-07-18 01:20:22] INFO root fetch - processPackages [iwx-manifest-builder]: Downloading https://files.pythonhosted.org/packages/d7/d6/4db840a6915c649204176fabdc1a7d70a4fdf7a1d3bd33ddd8cd11c02111/iwx_manifest_builder-0.0.99.tar.gz
+[2023-07-18 01:20:22] INFO root fetch - processPackages [recursive-validator]: Downloading https://files.pythonhosted.org/packages/3a/cc/f8feacbe20ac476d11c94a3c866b32fb9b4dde5694a5194843b6b0dde0eb/recursive_validator-0.0.99.tar.gz
+[2023-07-18 01:20:22] INFO root fetch - processPackages [tfads-o-builder]: executing diffoscope
+[2023-07-18 01:20:22] INFO root fetch - processPackages [tfads-o-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfads_o_builder-0.0.164.tar.gz tmp/tfads_o_builder-0.0.165.tar.gz --markdown 20230718/t/tfads-o-builder/0.0.164-0.0.165/diff.md --exclude *.pyd
+[2023-07-18 01:20:22] INFO root fetch - processPackages [geopix]: Downloading https://files.pythonhosted.org/packages/6a/35/1c90409a83c347836b8e4e5b2ad3d6ad6534718a8977dd9b3a646edd5e26/geopix-0.0.99.tar.gz
+[2023-07-18 01:20:22] INFO root fetch - processPackages [dbt-snowflake]: Downloading https://files.pythonhosted.org/packages/a1/bb/26a3b7bd037cbf73e0ecc2574c5c663b33cfaaf26bba4fcbd1132830a2f2/dbt-snowflake-1.6.0rc1.tar.gz
+[2023-07-18 01:20:22] INFO root fetch - processPackages [g4f]: executing diffoscope
+[2023-07-18 01:20:22] INFO root fetch - processPackages [g4f]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g4f-0.0.1.tar.gz tmp/g4f-0.0.1.2.tar.gz --markdown 20230718/g/g4f/0.0.1-0.0.1.2/diff.md --exclude *.pyd
+[2023-07-18 01:20:22] INFO root fetch - processPackages [cvat-manifest-builder]: Downloading https://files.pythonhosted.org/packages/2d/fd/8ffcf4ea6e13da75ab842cd4fdacad9222d483a9b210dbc27e9c251f6a20/cvat_manifest_builder-0.0.99.tar.gz
+[2023-07-18 01:20:22] INFO root fetch - processPackages [fsai-grpc-api]: Downloading https://files.pythonhosted.org/packages/9b/76/8a69144e2e7db3d7b70f7a9a6458e71d63b921d67ca39c9f646ee438e103/fsai_grpc_api-0.0.99.tar.gz
+[2023-07-18 01:20:22] INFO root fetch - processPackages [geopix]: executing diffoscope
+[2023-07-18 01:20:22] INFO root fetch - processPackages [geopix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geopix-0.0.98.tar.gz tmp/geopix-0.0.99.tar.gz --markdown 20230718/g/geopix/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-18 01:20:22] INFO root fetch - processPackages [fsai-shared-funcs]: executing diffoscope
+[2023-07-18 01:20:22] INFO root fetch - processPackages [fsai-shared-funcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsai_shared_funcs-0.0.98.tar.gz tmp/fsai_shared_funcs-0.0.99.tar.gz --markdown 20230718/f/fsai-shared-funcs/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-18 01:20:22] INFO root fetch - processPackages [iwx-manifest-builder]: executing diffoscope
+[2023-07-18 01:20:22] INFO root fetch - processPackages [iwx-manifest-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iwx_manifest_builder-0.0.98.tar.gz tmp/iwx_manifest_builder-0.0.99.tar.gz --markdown 20230718/i/iwx-manifest-builder/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-18 01:20:22] INFO root fetch - processPackages [dbt-snowflake]: executing diffoscope
+[2023-07-18 01:20:22] INFO root fetch - processPackages [dbt-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-snowflake-1.6.0b3.tar.gz tmp/dbt-snowflake-1.6.0rc1.tar.gz --markdown 20230718/d/dbt-snowflake/1.6.0b3-1.6.0rc1/diff.md --exclude *.pyd
+[2023-07-18 01:20:22] INFO root fetch - processPackages [cvat-manifest-builder]: executing diffoscope
+[2023-07-18 01:20:22] INFO root fetch - processPackages [cvat-manifest-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvat_manifest_builder-0.0.98.tar.gz tmp/cvat_manifest_builder-0.0.99.tar.gz --markdown 20230718/c/cvat-manifest-builder/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-18 01:20:22] INFO root fetch - processPackages [fsai-grpc-api]: executing diffoscope
+[2023-07-18 01:20:22] INFO root fetch - processPackages [fsai-grpc-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsai_grpc_api-0.0.98.tar.gz tmp/fsai_grpc_api-0.0.99.tar.gz --markdown 20230718/f/fsai-grpc-api/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-18 01:20:23] INFO root fetch - processPackages [recursive-validator]: executing diffoscope
+[2023-07-18 01:20:23] INFO root fetch - processPackages [recursive-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recursive_validator-0.0.98.tar.gz tmp/recursive_validator-0.0.99.tar.gz --markdown 20230718/r/recursive-validator/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-18 01:20:23] INFO root fetch - processPackages [oci]: Downloading https://files.pythonhosted.org/packages/8f/3f/4d237aeedaa8d6cb488beefd362f4e0024342ac507be45fc223132c6f3a6/oci-2.99.1.tar.gz
+[2023-07-18 01:20:23] INFO root fetch - processPackages [tfads-o-builder]: Remove: archive file [/home/abi/fetcher/tmp/tfads_o_builder-0.0.164.tar.gz]
+[2023-07-18 01:20:23] INFO root fetch - processPackages [tfads-o-builder]: Remove: archive file [/home/abi/fetcher/tmp/tfads_o_builder-0.0.165.tar.gz]
+[2023-07-18 01:20:23] INFO root fetch - processPackages [tfads-o-builder]: Start processing: awpr
+[2023-07-18 01:20:23] INFO root fetch - main [MainThread]: End processing [tfads-o-builder]: success
+[2023-07-18 01:20:23] INFO root fetch - processPackages [awpr]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-18 01:20:23] INFO root fetch - processPackages [g4f]: Remove: archive file [/home/abi/fetcher/tmp/g4f-0.0.1.tar.gz]
+[2023-07-18 01:20:23] INFO root fetch - processPackages [g4f]: Remove: archive file [/home/abi/fetcher/tmp/g4f-0.0.1.2.tar.gz]
+[2023-07-18 01:20:23] INFO root fetch - processPackages [g4f]: Start processing: json-file-split
+[2023-07-18 01:20:23] INFO root fetch - main [MainThread]: End processing [g4f]: success
+[2023-07-18 01:20:23] INFO root fetch - processPackages [geopix]: Remove: archive file [/home/abi/fetcher/tmp/geopix-0.0.98.tar.gz]
+[2023-07-18 01:20:23] INFO root fetch - processPackages [geopix]: Remove: archive file [/home/abi/fetcher/tmp/geopix-0.0.99.tar.gz]
+[2023-07-18 01:20:24] INFO root fetch - processPackages [geopix]: Start processing: oobabot-plugin
+[2023-07-18 01:20:24] INFO root fetch - main [MainThread]: End processing [geopix]: success
+[2023-07-18 01:20:24] INFO root fetch - processPackages [json-file-split]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-18 01:20:24] INFO root fetch - processPackages [iwx-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/iwx_manifest_builder-0.0.98.tar.gz]
+[2023-07-18 01:20:24] INFO root fetch - processPackages [iwx-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/iwx_manifest_builder-0.0.99.tar.gz]
+[2023-07-18 01:20:24] INFO root fetch - processPackages [iwx-manifest-builder]: Start processing: easy-boto3
+[2023-07-18 01:20:24] INFO root fetch - main [MainThread]: End processing [iwx-manifest-builder]: success
+[2023-07-18 01:20:24] INFO root fetch - processPackages [oobabot-plugin]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-18 01:20:24] INFO root fetch - processPackages [fsai-shared-funcs]: Remove: archive file [/home/abi/fetcher/tmp/fsai_shared_funcs-0.0.98.tar.gz]
+[2023-07-18 01:20:24] INFO root fetch - processPackages [fsai-shared-funcs]: Remove: archive file [/home/abi/fetcher/tmp/fsai_shared_funcs-0.0.99.tar.gz]
+[2023-07-18 01:20:24] INFO root fetch - processPackages [fsai-shared-funcs]: Start processing: cofi
+[2023-07-18 01:20:24] INFO root fetch - main [MainThread]: End processing [fsai-shared-funcs]: success
+[2023-07-18 01:20:24] INFO root fetch - processPackages [easy-boto3]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-18 01:20:24] INFO root fetch - processPackages [cvat-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/cvat_manifest_builder-0.0.98.tar.gz]
+[2023-07-18 01:20:24] INFO root fetch - processPackages [cvat-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/cvat_manifest_builder-0.0.99.tar.gz]
+[2023-07-18 01:20:24] INFO root fetch - processPackages [cvat-manifest-builder]: Start processing: express-py
+[2023-07-18 01:20:24] INFO root fetch - main [MainThread]: End processing [cvat-manifest-builder]: success
+[2023-07-18 01:20:24] INFO root fetch - processPackages [cofi]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-18 01:20:24] INFO root fetch - processPackages [awpr]: Downloading https://files.pythonhosted.org/packages/20/69/15c65a62a3a988a3178f156c6296d17502891a9da8e386979e511c8bd639/awpr-0.0.98.tar.gz
+[2023-07-18 01:20:24] INFO root fetch - processPackages [express-py]: New version: [2023.7.7.post0] Old Version: [2023.7.17.post1]
+[2023-07-18 01:20:24] INFO root fetch - processPackages [json-file-split]: Downloading https://files.pythonhosted.org/packages/99/d8/622632db80b721cb33feb5bafb9759e9b295589e09234724044a35a985ba/json_file_split-0.0.98.tar.gz
+[2023-07-18 01:20:24] INFO root fetch - processPackages [fsai-grpc-api]: Remove: archive file [/home/abi/fetcher/tmp/fsai_grpc_api-0.0.98.tar.gz]
+[2023-07-18 01:20:24] INFO root fetch - processPackages [fsai-grpc-api]: Remove: archive file [/home/abi/fetcher/tmp/fsai_grpc_api-0.0.99.tar.gz]
+[2023-07-18 01:20:24] INFO root fetch - processPackages [fsai-grpc-api]: Start processing: kubernetes-stubs-elephant-fork
+[2023-07-18 01:20:24] INFO root fetch - main [MainThread]: End processing [fsai-grpc-api]: success
+[2023-07-18 01:20:24] INFO root fetch - processPackages [dbt-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/dbt-snowflake-1.6.0b3.tar.gz]
+[2023-07-18 01:20:24] INFO root fetch - processPackages [dbt-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/dbt-snowflake-1.6.0rc1.tar.gz]
+[2023-07-18 01:20:24] INFO root fetch - processPackages [dbt-snowflake]: Start processing: chromadb-client
+[2023-07-18 01:20:24] INFO root fetch - main [MainThread]: End processing [dbt-snowflake]: success
+[2023-07-18 01:20:24] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-07-18 01:20:24] INFO root fetch - processPackages [easy-boto3]: Downloading https://files.pythonhosted.org/packages/e3/2d/213d91a6f9518c678e1cb9523d5f340922810d0cc4830d5996cc8b6df4ef/easy_boto3-0.1.0.tar.gz
+[2023-07-18 01:20:24] INFO root fetch - processPackages [oobabot-plugin]: Downloading https://files.pythonhosted.org/packages/ba/bf/854d246e54e23134453bbea92443624184f2f3848cf931f9bf321a77caeb/oobabot_plugin-0.2.0.tar.gz
+[2023-07-18 01:20:24] INFO root fetch - processPackages [recursive-validator]: Remove: archive file [/home/abi/fetcher/tmp/recursive_validator-0.0.98.tar.gz]
+[2023-07-18 01:20:24] INFO root fetch - processPackages [recursive-validator]: Remove: archive file [/home/abi/fetcher/tmp/recursive_validator-0.0.99.tar.gz]
+[2023-07-18 01:20:24] INFO root fetch - processPackages [recursive-validator]: Start processing: dj-beatcloud
+[2023-07-18 01:20:24] INFO root fetch - main [MainThread]: End processing [recursive-validator]: success
+[2023-07-18 01:20:24] INFO root fetch - processPackages [chromadb-client]: New version: [0.4.1.dev0] Old Version: [0.3.30.dev0]
+[2023-07-18 01:20:24] INFO root fetch - processPackages [cofi]: Downloading https://files.pythonhosted.org/packages/d1/98/a219ebf527be24795f12e9298e70da989e12f624b0520085250aac305a15/cofi-0.2.1.tar.gz
+[2023-07-18 01:20:24] INFO root fetch - processPackages [express-py]: Downloading https://files.pythonhosted.org/packages/53/7d/31213de66129eafc1d4f46e4a2c823bc260f9cf277d4b40a579ec657d842/express-py-2023.7.17.post1.tar.gz
+[2023-07-18 01:20:24] INFO root fetch - processPackages [dj-beatcloud]: New version: [2.6.0b1] Old Version: [2.6.0b0]
+[2023-07-18 01:20:24] INFO root fetch - processPackages [awpr]: Downloading https://files.pythonhosted.org/packages/43/6a/a5e099ae1a88431e28ea793094495025f2a78ac4d52ea49d8aad0e55cf8c/awpr-0.0.99.tar.gz
+[2023-07-18 01:20:24] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: Downloading https://files.pythonhosted.org/packages/c9/ed/fdd2b74255794abadde373183b25cf072451eae38bb00cc15cad67d74773/kubernetes-stubs-elephant-fork-9.0.0.tar.gz
+[2023-07-18 01:20:24] INFO root fetch - processPackages [chromadb-client]: Downloading https://files.pythonhosted.org/packages/49/f8/ca3e537207aab6ae57102ef77037632f3527b057f4bb1629f6cc6d575b9f/chromadb-client-0.3.30.dev0.tar.gz
+[2023-07-18 01:20:24] INFO root fetch - processPackages [json-file-split]: Downloading https://files.pythonhosted.org/packages/a0/bb/0991effbd14e0114fac9146f11da815fc866dc9e12a179cdfc204af7bd99/json_file_split-0.0.99.tar.gz
+[2023-07-18 01:20:24] INFO root fetch - processPackages [easy-boto3]: Downloading https://files.pythonhosted.org/packages/d0/b6/4f5a4ab81bbf280c5ec150811b6f7f41da956e7090d38ae1fb8d5fbe10ff/easy_boto3-0.1.1.tar.gz
+[2023-07-18 01:20:24] INFO root fetch - processPackages [oobabot-plugin]: Downloading https://files.pythonhosted.org/packages/2c/74/351449723b0381fbaa1cd27f4e20a69b8734f6a748fa9e3b4ec3d1396375/oobabot_plugin-0.2.1.tar.gz
+[2023-07-18 01:20:24] INFO root fetch - processPackages [dj-beatcloud]: Downloading https://files.pythonhosted.org/packages/2c/68/802a0d1708f0aab27573712567863f8d4a7f14f972a6cde52068cc8f7ca4/dj_beatcloud-2.6.0b0.tar.gz
+[2023-07-18 01:20:25] INFO root fetch - processPackages [awpr]: executing diffoscope
+[2023-07-18 01:20:25] INFO root fetch - processPackages [awpr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awpr-0.0.98.tar.gz tmp/awpr-0.0.99.tar.gz --markdown 20230718/a/awpr/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-18 01:20:25] INFO root fetch - processPackages [cofi]: Downloading https://files.pythonhosted.org/packages/f2/fe/4f143e61adaae1ebcc3de32e3777a1a1c4e760104517d6a2d9e8638c6c50/cofi-0.2.2.tar.gz
+[2023-07-18 01:20:25] INFO root fetch - processPackages [easy-boto3]: executing diffoscope
+[2023-07-18 01:20:25] INFO root fetch - processPackages [easy-boto3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_boto3-0.1.0.tar.gz tmp/easy_boto3-0.1.1.tar.gz --markdown 20230718/e/easy-boto3/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-18 01:20:25] INFO root fetch - processPackages [oobabot-plugin]: executing diffoscope
+[2023-07-18 01:20:25] INFO root fetch - processPackages [oobabot-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oobabot_plugin-0.2.0.tar.gz tmp/oobabot_plugin-0.2.1.tar.gz --markdown 20230718/o/oobabot-plugin/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-18 01:20:25] INFO root fetch - processPackages [oci]: executing diffoscope
+[2023-07-18 01:20:25] INFO root fetch - processPackages [oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oci-2.99.0.tar.gz tmp/oci-2.99.1.tar.gz --markdown 20230718/o/oci/2.99.0-2.99.1/diff.md --exclude *.pyd
+[2023-07-18 01:20:25] INFO root fetch - processPackages [express-py]: Downloading https://files.pythonhosted.org/packages/5e/7a/976c7f0a9e1e7ce0aed9f96b90caf0d97d455f02a80928171193bf974673/express-py-2023.7.7.post0.tar.gz
+[2023-07-18 01:20:25] INFO root fetch - processPackages [json-file-split]: executing diffoscope
+[2023-07-18 01:20:25] INFO root fetch - processPackages [json-file-split]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_file_split-0.0.98.tar.gz tmp/json_file_split-0.0.99.tar.gz --markdown 20230718/j/json-file-split/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-18 01:20:25] INFO root fetch - processPackages [cofi]: executing diffoscope
+[2023-07-18 01:20:25] INFO root fetch - processPackages [cofi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cofi-0.2.1.tar.gz tmp/cofi-0.2.2.tar.gz --markdown 20230718/c/cofi/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-18 01:20:25] INFO root fetch - processPackages [chromadb-client]: Downloading https://files.pythonhosted.org/packages/65/0a/2e0afff989dd10ad67899e1cda9e0826dd2e559b7ce107674ac14e72071c/chromadb-client-0.4.1.dev0.tar.gz
+[2023-07-18 01:20:25] INFO root fetch - processPackages [dj-beatcloud]: Downloading https://files.pythonhosted.org/packages/05/64/2c94f2722b02f4524af76317d965e6325883a7d9e675f23f9303c5d31cc5/dj_beatcloud-2.6.0b1.tar.gz
+[2023-07-18 01:20:25] INFO root fetch - processPackages [express-py]: executing diffoscope
+[2023-07-18 01:20:25] INFO root fetch - processPackages [express-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/express-py-2023.7.17.post1.tar.gz tmp/express-py-2023.7.7.post0.tar.gz --markdown 20230718/e/express-py/2023.7.17.post1-2023.7.7.post0/diff.md --exclude *.pyd
+[2023-07-18 01:20:25] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: Downloading https://files.pythonhosted.org/packages/2e/d9/386b3b464cc30efb02b70020f066e50c70a783fb030e84116c74108a00f0/kubernetes-stubs-elephant-fork-9.0.1.tar.gz
+[2023-07-18 01:20:25] INFO root fetch - processPackages [dj-beatcloud]: executing diffoscope
+[2023-07-18 01:20:25] INFO root fetch - processPackages [dj-beatcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj_beatcloud-2.6.0b0.tar.gz tmp/dj_beatcloud-2.6.0b1.tar.gz --markdown 20230718/d/dj-beatcloud/2.6.0b0-2.6.0b1/diff.md --exclude *.pyd
+[2023-07-18 01:20:25] INFO root fetch - processPackages [chromadb-client]: executing diffoscope
+[2023-07-18 01:20:25] INFO root fetch - processPackages [chromadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromadb-client-0.3.30.dev0.tar.gz tmp/chromadb-client-0.4.1.dev0.tar.gz --markdown 20230718/c/chromadb-client/0.3.30.dev0-0.4.1.dev0/diff.md --exclude *.pyd
+[2023-07-18 01:20:25] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: executing diffoscope
+[2023-07-18 01:20:25] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubernetes-stubs-elephant-fork-9.0.0.tar.gz tmp/kubernetes-stubs-elephant-fork-9.0.1.tar.gz --markdown 20230718/k/kubernetes-stubs-elephant-fork/9.0.0-9.0.1/diff.md --exclude *.pyd
+[2023-07-18 01:20:26] INFO root fetch - processPackages [awpr]: Remove: archive file [/home/abi/fetcher/tmp/awpr-0.0.98.tar.gz]
+[2023-07-18 01:20:26] INFO root fetch - processPackages [awpr]: Remove: archive file [/home/abi/fetcher/tmp/awpr-0.0.99.tar.gz]
+[2023-07-18 01:20:26] INFO root fetch - processPackages [awpr]: Start processing: physicX
+[2023-07-18 01:20:26] INFO root fetch - main [MainThread]: End processing [awpr]: success
+[2023-07-18 01:20:26] INFO root fetch - processPackages [physicX]: New version: [0.0.117] Old Version: [0.0.116]
+[2023-07-18 01:20:26] INFO root fetch - processPackages [oobabot-plugin]: Remove: archive file [/home/abi/fetcher/tmp/oobabot_plugin-0.2.0.tar.gz]
+[2023-07-18 01:20:26] INFO root fetch - processPackages [oobabot-plugin]: Remove: archive file [/home/abi/fetcher/tmp/oobabot_plugin-0.2.1.tar.gz]
+[2023-07-18 01:20:26] INFO root fetch - processPackages [oobabot-plugin]: Start processing: pathgenmap
+[2023-07-18 01:20:26] INFO root fetch - main [MainThread]: End processing [oobabot-plugin]: success
+[2023-07-18 01:20:26] INFO root fetch - processPackages [physicX]: Downloading https://files.pythonhosted.org/packages/19/dd/7247678c75ef4cba683e0c7fe7e3d5edbb45ca65892ec047b5b7623bc783/physicX-0.0.116.tar.gz
+[2023-07-18 01:20:26] INFO root fetch - processPackages [pathgenmap]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 01:20:26] INFO root fetch - processPackages [json-file-split]: Remove: archive file [/home/abi/fetcher/tmp/json_file_split-0.0.98.tar.gz]
+[2023-07-18 01:20:26] INFO root fetch - processPackages [json-file-split]: Remove: archive file [/home/abi/fetcher/tmp/json_file_split-0.0.99.tar.gz]
+[2023-07-18 01:20:26] INFO root fetch - main [MainThread]: End processing [json-file-split]: success
+[2023-07-18 01:20:26] INFO root fetch - processPackages [easy-boto3]: Remove: archive file [/home/abi/fetcher/tmp/easy_boto3-0.1.0.tar.gz]
+[2023-07-18 01:20:26] INFO root fetch - processPackages [easy-boto3]: Remove: archive file [/home/abi/fetcher/tmp/easy_boto3-0.1.1.tar.gz]
+[2023-07-18 01:20:26] INFO root fetch - main [MainThread]: End processing [easy-boto3]: success
+[2023-07-18 01:20:26] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/82/fa/d177c4c9c686fdb8d227f6ddfafaf2ea43674491d50ee4c44b5f2b53f6da/pathgenmap-0.0.8.tar.gz
+[2023-07-18 01:20:26] INFO root fetch - processPackages [cofi]: Remove: archive file [/home/abi/fetcher/tmp/cofi-0.2.1.tar.gz]
+[2023-07-18 01:20:26] INFO root fetch - processPackages [cofi]: Remove: archive file [/home/abi/fetcher/tmp/cofi-0.2.2.tar.gz]
+[2023-07-18 01:20:26] INFO root fetch - main [MainThread]: End processing [cofi]: success
+[2023-07-18 01:20:27] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/7e/52/a62425dafaf0638317648f0fc989a63f5a255e033e7d6d3ee27a1f944a2f/pathgenmap-0.0.9.tar.gz
+[2023-07-18 01:20:27] INFO root fetch - processPackages [physicX]: Downloading https://files.pythonhosted.org/packages/d6/29/4d7264979c727adea2092acb09fc138fa2ab786ebe984a5b537c9b3ca601/physicX-0.0.117.tar.gz
+[2023-07-18 01:20:27] INFO root fetch - processPackages [pathgenmap]: executing diffoscope
+[2023-07-18 01:20:27] INFO root fetch - processPackages [pathgenmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathgenmap-0.0.8.tar.gz tmp/pathgenmap-0.0.9.tar.gz --markdown 20230718/p/pathgenmap/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 01:20:27] INFO root fetch - processPackages [physicX]: executing diffoscope
+[2023-07-18 01:20:27] INFO root fetch - processPackages [physicX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/physicX-0.0.116.tar.gz tmp/physicX-0.0.117.tar.gz --markdown 20230718/p/physicX/0.0.116-0.0.117/diff.md --exclude *.pyd
+[2023-07-18 01:20:27] INFO root fetch - processPackages [dj-beatcloud]: Remove: archive file [/home/abi/fetcher/tmp/dj_beatcloud-2.6.0b0.tar.gz]
+[2023-07-18 01:20:27] INFO root fetch - processPackages [dj-beatcloud]: Remove: archive file [/home/abi/fetcher/tmp/dj_beatcloud-2.6.0b1.tar.gz]
+[2023-07-18 01:20:27] INFO root fetch - main [MainThread]: End processing [dj-beatcloud]: success
+[2023-07-18 01:20:28] INFO root fetch - processPackages [chromadb-client]: Remove: archive file [/home/abi/fetcher/tmp/chromadb-client-0.3.30.dev0.tar.gz]
+[2023-07-18 01:20:28] INFO root fetch - processPackages [chromadb-client]: Remove: archive file [/home/abi/fetcher/tmp/chromadb-client-0.4.1.dev0.tar.gz]
+[2023-07-18 01:20:28] INFO root fetch - main [MainThread]: End processing [chromadb-client]: success
+[2023-07-18 01:20:28] INFO root fetch - processPackages [physicX]: Remove: archive file [/home/abi/fetcher/tmp/physicX-0.0.116.tar.gz]
+[2023-07-18 01:20:28] INFO root fetch - processPackages [physicX]: Remove: archive file [/home/abi/fetcher/tmp/physicX-0.0.117.tar.gz]
+[2023-07-18 01:20:28] INFO root fetch - main [MainThread]: End processing [physicX]: success
+[2023-07-18 01:20:28] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.8.tar.gz]
+[2023-07-18 01:20:28] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.9.tar.gz]
+[2023-07-18 01:20:28] INFO root fetch - main [MainThread]: End processing [pathgenmap]: success
+[2023-07-18 01:20:29] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: Remove: archive file [/home/abi/fetcher/tmp/kubernetes-stubs-elephant-fork-9.0.0.tar.gz]
+[2023-07-18 01:20:29] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: Remove: archive file [/home/abi/fetcher/tmp/kubernetes-stubs-elephant-fork-9.0.1.tar.gz]
+[2023-07-18 01:20:29] INFO root fetch - main [MainThread]: End processing [kubernetes-stubs-elephant-fork]: success
+[2023-07-18 01:20:29] INFO root fetch - processPackages [express-py]: Remove: archive file [/home/abi/fetcher/tmp/express-py-2023.7.17.post1.tar.gz]
+[2023-07-18 01:20:29] INFO root fetch - processPackages [express-py]: Remove: archive file [/home/abi/fetcher/tmp/express-py-2023.7.7.post0.tar.gz]
+[2023-07-18 01:20:29] INFO root fetch - main [MainThread]: End processing [express-py]: success
+[2023-07-18 01:23:25] ERROR root fetch - processPackages [oci]: Timeout during execution of pkgdiff
+[2023-07-18 01:23:25] INFO root fetch - main [MainThread]: End processing [oci] error
+[2023-07-18 01:23:25] INFO root fetch - main [MainThread]: Store serial: [18923495]
