@@ -11300,3 +11300,106 @@
 [2023-07-18 05:03:15] INFO root fetch - processPackages [Nuitka-winsvc]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-winsvc-1.7.5.tar.gz]
 [2023-07-18 05:03:15] INFO root fetch - main [MainThread]: End processing [Nuitka-winsvc]: success
 [2023-07-18 05:03:15] INFO root fetch - main [MainThread]: Store serial: [18927285]
+[2023-07-18 05:08:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18927285]
+[2023-07-18 05:08:24] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-18 05:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llama-hub
+[2023-07-18 05:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sdock
+[2023-07-18 05:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dlg-paletteGen
+[2023-07-18 05:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pocket-dimension
+[2023-07-18 05:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wow-ai-sdk
+[2023-07-18 05:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: podcast-summarizer
+[2023-07-18 05:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sdock
+[2023-07-18 05:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: m-abac-test
+[2023-07-18 05:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-account-credit-control-dunning-fees
+[2023-07-18 05:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addons-oca-credit-control
+[2023-07-18 05:08:25] INFO root fetch - processPackages [llama-hub]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 05:08:25] INFO root fetch - processPackages [sdock]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-18 05:08:25] INFO root fetch - processPackages [sdock]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-18 05:08:25] INFO root fetch - processPackages [pocket-dimension]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-18 05:08:25] INFO root fetch - processPackages [dlg-paletteGen]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-18 05:08:25] INFO root fetch - processPackages [podcast-summarizer]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-18 05:08:25] INFO root fetch - processPackages [odoo-addons-oca-credit-control]: New version: [16.0.20230717.0] Old Version: [16.0.20230707.0]
+[2023-07-18 05:08:25] INFO root fetch - processPackages [odoo-addon-account-credit-control-dunning-fees]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2023-07-18 05:08:25] INFO root fetch - processPackages [m-abac-test]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-18 05:08:25] INFO root fetch - processPackages [wow-ai-sdk]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-18 05:08:25] INFO root fetch - processPackages [sdock]: Downloading https://files.pythonhosted.org/packages/47/33/8933e3eb36cc5bc45636d00607af665c9964fad709006679e31c63989c7a/sdock-0.1.7.tar.gz
+[2023-07-18 05:08:25] INFO root fetch - processPackages [sdock]: Downloading https://files.pythonhosted.org/packages/47/33/8933e3eb36cc5bc45636d00607af665c9964fad709006679e31c63989c7a/sdock-0.1.7.tar.gz
+[2023-07-18 05:08:25] INFO root fetch - processPackages [odoo-addons-oca-credit-control]: Downloading https://files.pythonhosted.org/packages/e4/df/876ebbacbb7fa3d4a9c45bdbf524c16ba2e14b501f465d14a1d4f59db210/odoo_addons_oca_credit_control-16.0.20230707.0-py3-none-any.whl
+[2023-07-18 05:08:25] INFO root fetch - processPackages [podcast-summarizer]: Downloading https://files.pythonhosted.org/packages/ec/08/3a4e55ef39181e2139c3110efacde9cb8e7710c6aabb3841c3812182523b/podcast_summarizer-0.3.0.tar.gz
+[2023-07-18 05:08:25] INFO root fetch - processPackages [wow-ai-sdk]: Downloading https://files.pythonhosted.org/packages/71/08/5040c387c0dce5e21e6079320bab3d2d0c60694b705a28bdfc8fd942ba73/wow_ai_sdk-0.1.3.tar.gz
+[2023-07-18 05:08:25] INFO root fetch - processPackages [llama-hub]: Downloading https://files.pythonhosted.org/packages/f1/8b/b9694e693e40532b5b2701f63af194df1337a5a7c1cf375a2dee8a79d0be/llama_hub-0.0.8.tar.gz
+[2023-07-18 05:08:25] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/09/9a/5bf7c99a4b14d4ee9166517fc845f8ac1538097fb087c74e2055722d9a66/m-abac-test-1.0.8.tar.gz
+[2023-07-18 05:08:25] INFO root fetch - processPackages [odoo-addon-account-credit-control-dunning-fees]: Downloading https://files.pythonhosted.org/packages/52/f9/1c03bd9d54dd5f54366a4069aeb3b24ac344cb7a4c2f1890fba722ddae99/odoo_addon_account_credit_control_dunning_fees-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-18 05:08:25] INFO root fetch - processPackages [pocket-dimension]: Downloading https://files.pythonhosted.org/packages/23/a3/0b43979e4bd35816657cd778309a039fad321c636dd73b59e50a0764fa4b/pocket_dimension-0.1.2.tar.gz
+[2023-07-18 05:08:25] INFO root fetch - processPackages [dlg-paletteGen]: Downloading https://files.pythonhosted.org/packages/25/12/bee66af4a7e61a8579993c7eab5691e8ec404147777e1341ee557cb24f20/dlg_paletteGen-0.1.8.tar.gz
+[2023-07-18 05:08:25] INFO root fetch - processPackages [odoo-addons-oca-credit-control]: Downloading https://files.pythonhosted.org/packages/e6/34/71cbcc3ca09c6997ee55b84b87aec17227af9fc35d2a037725ab6c8d20ce/odoo_addons_oca_credit_control-16.0.20230717.0-py3-none-any.whl
+[2023-07-18 05:08:25] INFO root fetch - processPackages [wow-ai-sdk]: Downloading https://files.pythonhosted.org/packages/8f/14/6f32f30c162c9a00cfafb164d2b51bd01cbe52f4b64b45e9a5ec8718322a/wow_ai_sdk-0.1.4.tar.gz
+[2023-07-18 05:08:25] INFO root fetch - processPackages [podcast-summarizer]: Downloading https://files.pythonhosted.org/packages/4a/a3/1a77637262f1af53eba2d8c40841d692f23d975d98e22f7f4108d58d90b2/podcast_summarizer-0.3.1.tar.gz
+[2023-07-18 05:08:26] INFO root fetch - processPackages [sdock]: Downloading https://files.pythonhosted.org/packages/41/ee/21a196c7677db2662eda40c9eec68cc25f925d35f8961226cfbf3ee9a7cb/sdock-0.1.8.tar.gz
+[2023-07-18 05:08:26] INFO root fetch - processPackages [sdock]: Downloading https://files.pythonhosted.org/packages/41/ee/21a196c7677db2662eda40c9eec68cc25f925d35f8961226cfbf3ee9a7cb/sdock-0.1.8.tar.gz
+[2023-07-18 05:08:26] INFO root fetch - processPackages [odoo-addons-oca-credit-control]: executing diffoscope
+[2023-07-18 05:08:26] INFO root fetch - processPackages [odoo-addons-oca-credit-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_credit_control-16.0.20230707.0-py3-none-any.whl.zip tmp/odoo_addons_oca_credit_control-16.0.20230717.0-py3-none-any.whl.zip --markdown 20230718/o/odoo-addons-oca-credit-control/16.0.20230707.0-16.0.20230717.0/diff.md --exclude *.pyd
+[2023-07-18 05:08:26] INFO root fetch - processPackages [llama-hub]: Downloading https://files.pythonhosted.org/packages/e1/40/ea69e1f5816723a46e1c4f454de34f5530b6d47f17842977405864762893/llama_hub-0.0.9.tar.gz
+[2023-07-18 05:08:26] INFO root fetch - processPackages [odoo-addon-account-credit-control-dunning-fees]: Downloading https://files.pythonhosted.org/packages/a3/d7/220e398577c400a7be49c7952895e7322d08023dbda6d3b6bbc8a04f6a03/odoo_addon_account_credit_control_dunning_fees-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-18 05:08:26] INFO root fetch - processPackages [pocket-dimension]: Downloading https://files.pythonhosted.org/packages/f0/b9/2cdb1a576421e457fd958ec42cd04a63435054b22885a7e7d71a0480cfe7/pocket_dimension-0.1.3.tar.gz
+[2023-07-18 05:08:26] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/a9/d3/8329e6fc7756f703d2c923a04aa565e40a644e0fc7782f2737812aa123a6/m-abac-test-1.0.9.tar.gz
+[2023-07-18 05:08:26] INFO root fetch - processPackages [dlg-paletteGen]: Downloading https://files.pythonhosted.org/packages/f4/af/1168c22bc592bf352e8c0c01adc8339076e21c405cfcedcb07291b53688f/dlg_paletteGen-0.1.9.tar.gz
+[2023-07-18 05:08:26] INFO root fetch - processPackages [wow-ai-sdk]: executing diffoscope
+[2023-07-18 05:08:26] INFO root fetch - processPackages [wow-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wow_ai_sdk-0.1.3.tar.gz tmp/wow_ai_sdk-0.1.4.tar.gz --markdown 20230718/w/wow-ai-sdk/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-18 05:08:26] INFO root fetch - processPackages [podcast-summarizer]: executing diffoscope
+[2023-07-18 05:08:26] INFO root fetch - processPackages [podcast-summarizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podcast_summarizer-0.3.0.tar.gz tmp/podcast_summarizer-0.3.1.tar.gz --markdown 20230718/p/podcast-summarizer/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-18 05:08:26] INFO root fetch - processPackages [pocket-dimension]: executing diffoscope
+[2023-07-18 05:08:26] INFO root fetch - processPackages [pocket-dimension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pocket_dimension-0.1.2.tar.gz tmp/pocket_dimension-0.1.3.tar.gz --markdown 20230718/p/pocket-dimension/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-18 05:08:26] INFO root fetch - processPackages [sdock]: executing diffoscope
+[2023-07-18 05:08:26] INFO root fetch - processPackages [sdock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdock-0.1.7.tar.gz tmp/sdock-0.1.8.tar.gz --markdown 20230718/s/sdock/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-18 05:08:26] INFO root fetch - processPackages [m-abac-test]: executing diffoscope
+[2023-07-18 05:08:26] INFO root fetch - processPackages [m-abac-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m-abac-test-1.0.8.tar.gz tmp/m-abac-test-1.0.9.tar.gz --markdown 20230718/m/m-abac-test/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-18 05:08:26] INFO root fetch - processPackages [sdock]: executing diffoscope
+[2023-07-18 05:08:26] INFO root fetch - processPackages [sdock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdock-0.1.7.tar.gz tmp/sdock-0.1.8.tar.gz --markdown 20230718/s/sdock/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-18 05:08:26] INFO root fetch - processPackages [dlg-paletteGen]: executing diffoscope
+[2023-07-18 05:08:26] INFO root fetch - processPackages [dlg-paletteGen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlg_paletteGen-0.1.8.tar.gz tmp/dlg_paletteGen-0.1.9.tar.gz --markdown 20230718/d/dlg-paletteGen/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-18 05:08:26] INFO root fetch - processPackages [odoo-addon-account-credit-control-dunning-fees]: executing diffoscope
+[2023-07-18 05:08:26] INFO root fetch - processPackages [odoo-addon-account-credit-control-dunning-fees]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_credit_control_dunning_fees-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_credit_control_dunning_fees-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230718/o/odoo-addon-account-credit-control-dunning-fees/16.0.1.0.0.2-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-07-18 05:08:26] INFO root fetch - processPackages [llama-hub]: executing diffoscope
+[2023-07-18 05:08:26] INFO root fetch - processPackages [llama-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_hub-0.0.8.tar.gz tmp/llama_hub-0.0.9.tar.gz --markdown 20230718/l/llama-hub/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 05:08:27] INFO root fetch - processPackages [odoo-addons-oca-credit-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_credit_control-16.0.20230707.0-py3-none-any.whl.zip]
+[2023-07-18 05:08:27] INFO root fetch - processPackages [odoo-addons-oca-credit-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_credit_control-16.0.20230717.0-py3-none-any.whl.zip]
+[2023-07-18 05:08:27] INFO root fetch - processPackages [odoo-addons-oca-credit-control]: Start processing: podcast-summarizer
+[2023-07-18 05:08:27] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-credit-control]: success
+[2023-07-18 05:08:27] INFO root fetch - processPackages [podcast-summarizer]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-18 05:08:27] INFO root fetch - processPackages [podcast-summarizer]: Remove: archive file [/home/abi/fetcher/tmp/podcast_summarizer-0.3.0.tar.gz]
+[2023-07-18 05:08:27] INFO root fetch - processPackages [podcast-summarizer]: Remove: archive file [/home/abi/fetcher/tmp/podcast_summarizer-0.3.1.tar.gz]
+[2023-07-18 05:08:27] INFO root fetch - processPackages [podcast-summarizer]: Start processing: ExperimentsPyDesign
+[2023-07-18 05:08:27] INFO root fetch - main [MainThread]: End processing [podcast-summarizer]: success
+[2023-07-18 05:08:27] INFO root fetch - processPackages [podcast-summarizer]: Downloading https://files.pythonhosted.org/packages/4a/a3/1a77637262f1af53eba2d8c40841d692f23d975d98e22f7f4108d58d90b2/podcast_summarizer-0.3.1.tar.gz
+[2023-07-18 05:08:27] WARNING root fetch - processPackages [ExperimentsPyDesign]: Skipping, unable to determine old version
+[2023-07-18 05:08:27] INFO root fetch - main [MainThread]: End processing [ExperimentsPyDesign] error
+[2023-07-18 05:08:27] INFO root fetch - processPackages [wow-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_sdk-0.1.3.tar.gz]
+[2023-07-18 05:08:27] INFO root fetch - processPackages [wow-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_sdk-0.1.4.tar.gz]
+[2023-07-18 05:08:27] INFO root fetch - main [MainThread]: End processing [wow-ai-sdk]: success
+[2023-07-18 05:08:27] INFO root fetch - processPackages [podcast-summarizer]: executing diffoscope
+[2023-07-18 05:08:27] INFO root fetch - processPackages [podcast-summarizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podcast_summarizer-0.3.0.tar.gz tmp/podcast_summarizer-0.3.1.tar.gz --markdown 20230718/p/podcast-summarizer/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-18 05:08:27] INFO root fetch - processPackages [sdock]: Remove: archive file [/home/abi/fetcher/tmp/sdock-0.1.7.tar.gz]
+[2023-07-18 05:08:27] INFO root fetch - processPackages [sdock]: Remove: archive file [/home/abi/fetcher/tmp/sdock-0.1.8.tar.gz]
+[2023-07-18 05:08:27] INFO root fetch - main [MainThread]: End processing [sdock]: success
+[2023-07-18 05:08:28] INFO root fetch - processPackages [pocket-dimension]: Remove: archive file [/home/abi/fetcher/tmp/pocket_dimension-0.1.2.tar.gz]
+[2023-07-18 05:08:28] INFO root fetch - processPackages [pocket-dimension]: Remove: archive file [/home/abi/fetcher/tmp/pocket_dimension-0.1.3.tar.gz]
+[2023-07-18 05:08:28] INFO root fetch - main [MainThread]: End processing [pocket-dimension]: success
+[2023-07-18 05:08:28] INFO root fetch - main [MainThread]: End processing [sdock]: success
+[2023-07-18 05:08:28] INFO root fetch - processPackages [dlg-paletteGen]: Remove: archive file [/home/abi/fetcher/tmp/dlg_paletteGen-0.1.8.tar.gz]
+[2023-07-18 05:08:28] INFO root fetch - processPackages [dlg-paletteGen]: Remove: archive file [/home/abi/fetcher/tmp/dlg_paletteGen-0.1.9.tar.gz]
+[2023-07-18 05:08:28] INFO root fetch - main [MainThread]: End processing [dlg-paletteGen]: success
+[2023-07-18 05:08:28] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.8.tar.gz]
+[2023-07-18 05:08:28] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.9.tar.gz]
+[2023-07-18 05:08:28] INFO root fetch - main [MainThread]: End processing [m-abac-test]: success
+[2023-07-18 05:08:28] ERROR root fetch - processPackages [podcast-summarizer]: Diffoscope failed: time="2023-07-18T05:08:27+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/podcast_summarizer-0.3.0.tar.gz: No such file or directory
+
+[2023-07-18 05:08:28] INFO root fetch - main [MainThread]: End processing [podcast-summarizer] error
+[2023-07-18 05:08:28] INFO root fetch - processPackages [odoo-addon-account-credit-control-dunning-fees]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_credit_control_dunning_fees-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-18 05:08:28] INFO root fetch - processPackages [odoo-addon-account-credit-control-dunning-fees]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_credit_control_dunning_fees-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-18 05:08:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-credit-control-dunning-fees]: success
+[2023-07-18 05:08:29] INFO root fetch - processPackages [llama-hub]: Remove: archive file [/home/abi/fetcher/tmp/llama_hub-0.0.8.tar.gz]
+[2023-07-18 05:08:29] INFO root fetch - processPackages [llama-hub]: Remove: archive file [/home/abi/fetcher/tmp/llama_hub-0.0.9.tar.gz]
+[2023-07-18 05:08:29] INFO root fetch - main [MainThread]: End processing [llama-hub]: success
+[2023-07-18 05:08:29] INFO root fetch - main [MainThread]: Store serial: [18927318]
