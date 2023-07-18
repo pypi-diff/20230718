@@ -10234,3 +10234,96 @@
 [2023-07-18 04:14:29] INFO root fetch - processPackages [emmet-core]: Remove: archive file [/home/abi/fetcher/tmp/emmet-core-0.9.3.tar.gz]
 [2023-07-18 04:14:29] INFO root fetch - main [MainThread]: End processing [emmet-core]: success
 [2023-07-18 04:14:29] INFO root fetch - main [MainThread]: Store serial: [18926913]
+[2023-07-18 04:19:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18926913]
+[2023-07-18 04:19:39] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-18 04:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: je-load-density-dev
+[2023-07-18 04:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: emmet-builders
+[2023-07-18 04:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: intecomm-form-validators
+[2023-07-18 04:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: emmet-api
+[2023-07-18 04:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FiberFusing
+[2023-07-18 04:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tigersyn
+[2023-07-18 04:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: py3seed
+[2023-07-18 04:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tools-wzy
+[2023-07-18 04:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: langroid
+[2023-07-18 04:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aql-builder
+[2023-07-18 04:19:39] INFO root fetch - processPackages [intecomm-form-validators]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-18 04:19:39] INFO root fetch - processPackages [FiberFusing]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-07-18 04:19:39] INFO root fetch - processPackages [py3seed]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-18 04:19:39] INFO root fetch - processPackages [tigersyn]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-18 04:19:39] INFO root fetch - processPackages [langroid]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-18 04:19:39] INFO root fetch - processPackages [tools-wzy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-18 04:19:39] INFO root fetch - processPackages [emmet-builders]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-18 04:19:39] INFO root fetch - processPackages [je-load-density-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 04:19:39] INFO root fetch - processPackages [emmet-api]: New version: [0.60.2] Old Version: [0.60.1]
+[2023-07-18 04:19:39] INFO root fetch - processPackages [aql-builder]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 04:19:39] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/13/3e/484b3401240b103f6961ba779abbc734e645d6825943f1863c9e7ca8fec7/py3seed-0.1.4.tar.gz
+[2023-07-18 04:19:39] INFO root fetch - processPackages [je-load-density-dev]: Downloading https://files.pythonhosted.org/packages/08/9b/276d10cd2af97e0ba353bbce459ef1dce5ce5648ae6fdb78fd6862f6d685/je_load_density_dev-0.0.8.tar.gz
+[2023-07-18 04:19:39] INFO root fetch - processPackages [intecomm-form-validators]: Downloading https://files.pythonhosted.org/packages/19/e9/26d572e63c08a9513b13571870a97c28d2bf542993480376e37c828c564b/intecomm-form-validators-0.1.8.tar.gz
+[2023-07-18 04:19:39] INFO root fetch - processPackages [FiberFusing]: Downloading https://files.pythonhosted.org/packages/72/80/7d1caca3afbe04d10a242223ccdf1594d4b034e1a08d4b9ca956a57ee52d/FiberFusing-0.4.7-py3-none-any.whl
+[2023-07-18 04:19:39] INFO root fetch - processPackages [tigersyn]: Downloading https://files.pythonhosted.org/packages/c3/71/1b2a1a3726401e6612e7affcb344f518268090ee295f7d6cde2e63b54ebb/tigersyn-0.0.3.tar.gz
+[2023-07-18 04:19:39] INFO root fetch - processPackages [tools-wzy]: Downloading https://files.pythonhosted.org/packages/50/9d/8f2b4aed820fe20827c17cb7383d0bbbddf5b47d6261309831271143669e/tools_wzy-0.0.1.tar.gz
+[2023-07-18 04:19:39] INFO root fetch - processPackages [emmet-api]: Downloading https://files.pythonhosted.org/packages/02/ee/7f6a674432d98535c221c20a020393cff65a709e55396927ef83caf9d8f0/emmet-api-0.60.1.tar.gz
+[2023-07-18 04:19:39] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/50/7f/7a84baab944d9efa300ce573a47110938978a4d7b72cbb13d3a7cf13ee14/langroid-0.1.8.tar.gz
+[2023-07-18 04:19:39] INFO root fetch - processPackages [emmet-builders]: Downloading https://files.pythonhosted.org/packages/b3/9f/ec08c5daefc1dab5587b18b933f8845a69362d5e4f4cd605e3028250efa8/emmet-builders-0.9.2.tar.gz
+[2023-07-18 04:19:40] INFO root fetch - processPackages [aql-builder]: Downloading https://files.pythonhosted.org/packages/f4/1c/17f6c65b174f19a17ba3d2918b1abd292e57c219a813acc264de89bea564/aql-builder-0.0.8.tar.gz
+[2023-07-18 04:19:40] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/5e/97/0b0eae5fa209065936cb5bc25a75028453270546a8755adf789d4c01d8c3/py3seed-0.1.5.tar.gz
+[2023-07-18 04:19:40] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/b2/48/00e2d6a1639042a486544d5f5f9200c7e72369b7fcde95da7bc64dd92b55/langroid-0.1.9.tar.gz
+[2023-07-18 04:19:40] INFO root fetch - processPackages [je-load-density-dev]: Downloading https://files.pythonhosted.org/packages/df/2d/a480de55778bfb00b70ded4769d73832026bfcb50fcc2ad9500f506c347f/je_load_density_dev-0.0.9.tar.gz
+[2023-07-18 04:19:40] INFO root fetch - processPackages [emmet-api]: Downloading https://files.pythonhosted.org/packages/16/97/1a49028f671679d73d139417e131df0654e2d16f0bf9e36e8a91d6f2fcd4/emmet-api-0.60.2.tar.gz
+[2023-07-18 04:19:40] INFO root fetch - processPackages [tigersyn]: Downloading https://files.pythonhosted.org/packages/d3/6d/320c5cf02465c21a21f292cfd4d6951ec71db9fe26d36f72eed73203192e/tigersyn-0.0.4.tar.gz
+[2023-07-18 04:19:40] INFO root fetch - processPackages [intecomm-form-validators]: Downloading https://files.pythonhosted.org/packages/8d/9a/ba39b1b74dd7d50770da9d0b45563e555a5e19ba671fa21a047da9450cf3/intecomm-form-validators-0.1.9.tar.gz
+[2023-07-18 04:19:40] INFO root fetch - processPackages [tools-wzy]: Downloading https://files.pythonhosted.org/packages/42/b5/6042fd4b6ef07755def6b9a64d8cc62801e0a796072e29e632ad3d6b4c57/tools_wzy-0.0.2.tar.gz
+[2023-07-18 04:19:40] INFO root fetch - processPackages [emmet-builders]: Downloading https://files.pythonhosted.org/packages/d3/8a/c73672eb055bc5323b006090ad1112b6027d2d5cbbe46b35eaa33b3924be/emmet-builders-0.9.3.tar.gz
+[2023-07-18 04:19:40] INFO root fetch - processPackages [FiberFusing]: Downloading https://files.pythonhosted.org/packages/a3/42/464cc63af47f679d81c16ba0166d673b8e76e94eaacf3c2a52a9b2f90efe/FiberFusing-0.4.8-py3-none-any.whl
+[2023-07-18 04:19:40] INFO root fetch - processPackages [py3seed]: executing diffoscope
+[2023-07-18 04:19:40] INFO root fetch - processPackages [py3seed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3seed-0.1.4.tar.gz tmp/py3seed-0.1.5.tar.gz --markdown 20230718/p/py3seed/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-18 04:19:40] INFO root fetch - processPackages [langroid]: executing diffoscope
+[2023-07-18 04:19:40] INFO root fetch - processPackages [langroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langroid-0.1.8.tar.gz tmp/langroid-0.1.9.tar.gz --markdown 20230718/l/langroid/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-18 04:19:40] INFO root fetch - processPackages [je-load-density-dev]: executing diffoscope
+[2023-07-18 04:19:40] INFO root fetch - processPackages [je-load-density-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_load_density_dev-0.0.8.tar.gz tmp/je_load_density_dev-0.0.9.tar.gz --markdown 20230718/j/je-load-density-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 04:19:40] INFO root fetch - processPackages [tigersyn]: executing diffoscope
+[2023-07-18 04:19:40] INFO root fetch - processPackages [tigersyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tigersyn-0.0.3.tar.gz tmp/tigersyn-0.0.4.tar.gz --markdown 20230718/t/tigersyn/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-18 04:19:40] INFO root fetch - processPackages [aql-builder]: Downloading https://files.pythonhosted.org/packages/64/82/e39633f1fbc7714acdb84ea0e4f08ea0d358d789bb268131d3f40f2acf65/aql-builder-0.0.9.tar.gz
+[2023-07-18 04:19:40] INFO root fetch - processPackages [tools-wzy]: executing diffoscope
+[2023-07-18 04:19:40] INFO root fetch - processPackages [tools-wzy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tools_wzy-0.0.1.tar.gz tmp/tools_wzy-0.0.2.tar.gz --markdown 20230718/t/tools-wzy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-18 04:19:40] INFO root fetch - processPackages [emmet-api]: executing diffoscope
+[2023-07-18 04:19:40] INFO root fetch - processPackages [emmet-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmet-api-0.60.1.tar.gz tmp/emmet-api-0.60.2.tar.gz --markdown 20230718/e/emmet-api/0.60.1-0.60.2/diff.md --exclude *.pyd
+[2023-07-18 04:19:40] INFO root fetch - processPackages [intecomm-form-validators]: executing diffoscope
+[2023-07-18 04:19:40] INFO root fetch - processPackages [intecomm-form-validators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-form-validators-0.1.8.tar.gz tmp/intecomm-form-validators-0.1.9.tar.gz --markdown 20230718/i/intecomm-form-validators/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-18 04:19:40] INFO root fetch - processPackages [FiberFusing]: executing diffoscope
+[2023-07-18 04:19:40] INFO root fetch - processPackages [FiberFusing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FiberFusing-0.4.7-py3-none-any.whl.zip tmp/FiberFusing-0.4.8-py3-none-any.whl.zip --markdown 20230718/F/FiberFusing/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-07-18 04:19:40] INFO root fetch - processPackages [emmet-builders]: executing diffoscope
+[2023-07-18 04:19:40] INFO root fetch - processPackages [emmet-builders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmet-builders-0.9.2.tar.gz tmp/emmet-builders-0.9.3.tar.gz --markdown 20230718/e/emmet-builders/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-18 04:19:40] INFO root fetch - processPackages [aql-builder]: executing diffoscope
+[2023-07-18 04:19:40] INFO root fetch - processPackages [aql-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aql-builder-0.0.8.tar.gz tmp/aql-builder-0.0.9.tar.gz --markdown 20230718/a/aql-builder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 04:19:42] INFO root fetch - processPackages [tools-wzy]: Remove: archive file [/home/abi/fetcher/tmp/tools_wzy-0.0.1.tar.gz]
+[2023-07-18 04:19:42] INFO root fetch - processPackages [tools-wzy]: Remove: archive file [/home/abi/fetcher/tmp/tools_wzy-0.0.2.tar.gz]
+[2023-07-18 04:19:42] INFO root fetch - main [MainThread]: End processing [tools-wzy]: success
+[2023-07-18 04:19:42] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.1.4.tar.gz]
+[2023-07-18 04:19:42] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.1.5.tar.gz]
+[2023-07-18 04:19:42] INFO root fetch - main [MainThread]: End processing [py3seed]: success
+[2023-07-18 04:19:42] INFO root fetch - processPackages [je-load-density-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_load_density_dev-0.0.8.tar.gz]
+[2023-07-18 04:19:42] INFO root fetch - processPackages [je-load-density-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_load_density_dev-0.0.9.tar.gz]
+[2023-07-18 04:19:42] INFO root fetch - main [MainThread]: End processing [je-load-density-dev]: success
+[2023-07-18 04:19:42] INFO root fetch - processPackages [tigersyn]: Remove: archive file [/home/abi/fetcher/tmp/tigersyn-0.0.3.tar.gz]
+[2023-07-18 04:19:42] INFO root fetch - processPackages [tigersyn]: Remove: archive file [/home/abi/fetcher/tmp/tigersyn-0.0.4.tar.gz]
+[2023-07-18 04:19:42] INFO root fetch - main [MainThread]: End processing [tigersyn]: success
+[2023-07-18 04:19:42] INFO root fetch - processPackages [emmet-builders]: Remove: archive file [/home/abi/fetcher/tmp/emmet-builders-0.9.2.tar.gz]
+[2023-07-18 04:19:42] INFO root fetch - processPackages [emmet-builders]: Remove: archive file [/home/abi/fetcher/tmp/emmet-builders-0.9.3.tar.gz]
+[2023-07-18 04:19:42] INFO root fetch - main [MainThread]: End processing [emmet-builders]: success
+[2023-07-18 04:19:42] INFO root fetch - processPackages [aql-builder]: Remove: archive file [/home/abi/fetcher/tmp/aql-builder-0.0.8.tar.gz]
+[2023-07-18 04:19:42] INFO root fetch - processPackages [aql-builder]: Remove: archive file [/home/abi/fetcher/tmp/aql-builder-0.0.9.tar.gz]
+[2023-07-18 04:19:42] INFO root fetch - main [MainThread]: End processing [aql-builder]: success
+[2023-07-18 04:19:42] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.8.tar.gz]
+[2023-07-18 04:19:42] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.9.tar.gz]
+[2023-07-18 04:19:42] INFO root fetch - main [MainThread]: End processing [langroid]: success
+[2023-07-18 04:19:42] INFO root fetch - processPackages [intecomm-form-validators]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-form-validators-0.1.8.tar.gz]
+[2023-07-18 04:19:42] INFO root fetch - processPackages [intecomm-form-validators]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-form-validators-0.1.9.tar.gz]
+[2023-07-18 04:19:42] INFO root fetch - main [MainThread]: End processing [intecomm-form-validators]: success
+[2023-07-18 04:19:42] INFO root fetch - processPackages [FiberFusing]: Remove: archive file [/home/abi/fetcher/tmp/FiberFusing-0.4.7-py3-none-any.whl.zip]
+[2023-07-18 04:19:42] INFO root fetch - processPackages [FiberFusing]: Remove: archive file [/home/abi/fetcher/tmp/FiberFusing-0.4.8-py3-none-any.whl.zip]
+[2023-07-18 04:19:42] INFO root fetch - main [MainThread]: End processing [FiberFusing]: success
+[2023-07-18 04:19:43] INFO root fetch - processPackages [emmet-api]: Remove: archive file [/home/abi/fetcher/tmp/emmet-api-0.60.1.tar.gz]
+[2023-07-18 04:19:43] INFO root fetch - processPackages [emmet-api]: Remove: archive file [/home/abi/fetcher/tmp/emmet-api-0.60.2.tar.gz]
+[2023-07-18 04:19:43] INFO root fetch - main [MainThread]: End processing [emmet-api]: success
+[2023-07-18 04:19:43] INFO root fetch - main [MainThread]: Store serial: [18926946]
