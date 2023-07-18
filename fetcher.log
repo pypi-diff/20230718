@@ -20584,3 +20584,150 @@ AssertionError: tmp/cellmap-1.0.1.dev202307180907-py3-none-any.whl.zip does not 
 [2023-07-18 11:35:36] INFO root fetch - processPackages [polarismesh-specification]: Remove: archive file [/home/abi/fetcher/tmp/polarismesh_specification-1.4.0a0.tar.gz]
 [2023-07-18 11:35:36] INFO root fetch - main [MainThread]: End processing [polarismesh-specification]: success
 [2023-07-18 11:35:36] INFO root fetch - main [MainThread]: Store serial: [18931011]
+[2023-07-18 11:40:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18931011]
+[2023-07-18 11:40:45] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-18 11:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: superspreader
+[2023-07-18 11:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oblate
+[2023-07-18 11:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zhousf-lib
+[2023-07-18 11:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: systembridgeconnector
+[2023-07-18 11:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydatawork
+[2023-07-18 11:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qwak-core
+[2023-07-18 11:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: systembridgeshared
+[2023-07-18 11:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: optim-esm-tools
+[2023-07-18 11:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: creatFiles
+[2023-07-18 11:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: streamlitopencvplayer
+[2023-07-18 11:40:46] INFO root fetch - processPackages [streamlitopencvplayer]: New version: [1.4.0] Old Version: [1.3.7]
+[2023-07-18 11:40:46] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-18 11:40:46] INFO root fetch - processPackages [superspreader]: New version: [0.2.7.2] Old Version: [0.2.7.1]
+[2023-07-18 11:40:46] INFO root fetch - processPackages [zhousf-lib]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-07-18 11:40:46] INFO root fetch - processPackages [pydatawork]: New version: [0.17.5.5] Old Version: [0.17.5.4]
+[2023-07-18 11:40:46] INFO root fetch - processPackages [creatFiles]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-18 11:40:46] INFO root fetch - processPackages [systembridgeconnector]: New version: [3.8.0.dev2] Old Version: [3.8.0.dev1]
+[2023-07-18 11:40:46] INFO root fetch - processPackages [systembridgeshared]: New version: [3.8.0.dev2] Old Version: [3.8.0.dev1]
+[2023-07-18 11:40:46] INFO root fetch - processPackages [oblate]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-18 11:40:46] INFO root fetch - processPackages [optim-esm-tools]: New version: [1.0.0] Old Version: [0.5.0]
+[2023-07-18 11:40:46] INFO root fetch - processPackages [creatFiles]: Downloading https://files.pythonhosted.org/packages/06/35/230aaddfc718cd33c998ee690845863ea38d120728f1c5bbbe087003beca/creatFiles-0.1.3.tar.gz
+[2023-07-18 11:40:46] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-07-18 11:40:46] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/1c/c3/986dcc04576db2c39dcc3704f5f971883c55cdeb8abfef99bba2d963eabf/zhousf-lib-0.8.5.tar.gz
+[2023-07-18 11:40:46] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/73/ae/b1563c7e31358e0ece735210b8ead23393b3ef5f778852cb819a00cd7f5d/pydatawork-0.17.5.4.tar.gz
+[2023-07-18 11:40:46] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/37/71/5cdf83637bd1d46e740934ac6223393c936abbc36e5a67c6bd1a0054413a/systembridgeconnector-3.8.0.dev1.tar.gz
+[2023-07-18 11:40:46] INFO root fetch - processPackages [systembridgeshared]: Downloading https://files.pythonhosted.org/packages/cc/38/458ea68ffb7c48287e3d61f72e8696b85a77646c973ec00e9d182c429c49/systembridgeshared-3.8.0.dev1.tar.gz
+[2023-07-18 11:40:46] INFO root fetch - processPackages [streamlitopencvplayer]: Downloading https://files.pythonhosted.org/packages/d6/c8/ea6142fa3a821ddeb3c3ad150e7e6aacd9cb07c226b47f8a12396c789d3d/streamlitopencvplayer-1.3.7.tar.gz
+[2023-07-18 11:40:46] INFO root fetch - processPackages [superspreader]: Downloading https://files.pythonhosted.org/packages/09/8d/e18df3d6d3d2f64f47cef553c3b71ed0efbc9ce8b266237901fe58f3a0af/superspreader-0.2.7.1.tar.gz
+[2023-07-18 11:40:46] INFO root fetch - processPackages [oblate]: Downloading https://files.pythonhosted.org/packages/d7/0b/40ab24f3f2e7af89200f4864f3f79e742d51638aa4bdd694d89babcae6a6/oblate-0.1.0-py3-none-any.whl
+[2023-07-18 11:40:46] INFO root fetch - processPackages [optim-esm-tools]: Downloading https://files.pythonhosted.org/packages/fe/3e/00ea71e4363e1722ba75a34bc7201bda01844def57fc8643e78a8953d291/optim_esm_tools-0.5.0.tar.gz
+[2023-07-18 11:40:46] INFO root fetch - processPackages [creatFiles]: Downloading https://files.pythonhosted.org/packages/2d/1e/575fd6002e9c536f7e959ac5c4b456f128a98b0c93887576256970c136be/creatFiles-0.1.4.tar.gz
+[2023-07-18 11:40:46] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/6b/fc/7f86fd7f7d02465f430751132ffc881db2d5f500ed547a641e831be2e602/pydatawork-0.17.5.5.tar.gz
+[2023-07-18 11:40:46] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/4b/0d/0a3ec7e8429017f14efea9c792c9947175649ccc562eb3c844146afb5a4c/systembridgeconnector-3.8.0.dev2.tar.gz
+[2023-07-18 11:40:46] INFO root fetch - processPackages [systembridgeshared]: Downloading https://files.pythonhosted.org/packages/b3/21/07ffbb8899bfb8b70021915e61c80d8e5abeff577dcfb492e73b7ad8cc86/systembridgeshared-3.8.0.dev2.tar.gz
+[2023-07-18 11:40:46] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-07-18 11:40:46] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-07-18 11:40:46] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.17.5.4.tar.gz tmp/pydatawork-0.17.5.5.tar.gz --markdown 20230718/p/pydatawork/0.17.5.4-0.17.5.5/diff.md --exclude *.pyd
+[2023-07-18 11:40:46] INFO root fetch - processPackages [superspreader]: Downloading https://files.pythonhosted.org/packages/69/92/384a09d237f40f024a9de0df3ee7eb024f2f8ee4ed7a8d8dc4d13d004f2c/superspreader-0.2.7.2.tar.gz
+[2023-07-18 11:40:46] INFO root fetch - processPackages [creatFiles]: executing diffoscope
+[2023-07-18 11:40:46] INFO root fetch - processPackages [creatFiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/creatFiles-0.1.3.tar.gz tmp/creatFiles-0.1.4.tar.gz --markdown 20230718/c/creatFiles/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-18 11:40:46] INFO root fetch - processPackages [oblate]: Downloading https://files.pythonhosted.org/packages/01/98/5bf73e8e9649ff0a885372aeb58c478e39c56e3cd82c8635ea21b31ff43b/oblate-0.2.0-py3-none-any.whl
+[2023-07-18 11:40:46] INFO root fetch - processPackages [streamlitopencvplayer]: Downloading https://files.pythonhosted.org/packages/90/77/a955c70ac84f11fa4c8ad782fef907be6255f31e11b494be6413f1612276/streamlitopencvplayer-1.4.0.tar.gz
+[2023-07-18 11:40:46] INFO root fetch - processPackages [systembridgeshared]: executing diffoscope
+[2023-07-18 11:40:46] INFO root fetch - processPackages [systembridgeshared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeshared-3.8.0.dev1.tar.gz tmp/systembridgeshared-3.8.0.dev2.tar.gz --markdown 20230718/s/systembridgeshared/3.8.0.dev1-3.8.0.dev2/diff.md --exclude *.pyd
+[2023-07-18 11:40:47] INFO root fetch - processPackages [systembridgeconnector]: executing diffoscope
+[2023-07-18 11:40:47] INFO root fetch - processPackages [systembridgeconnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeconnector-3.8.0.dev1.tar.gz tmp/systembridgeconnector-3.8.0.dev2.tar.gz --markdown 20230718/s/systembridgeconnector/3.8.0.dev1-3.8.0.dev2/diff.md --exclude *.pyd
+[2023-07-18 11:40:47] INFO root fetch - processPackages [oblate]: executing diffoscope
+[2023-07-18 11:40:47] INFO root fetch - processPackages [oblate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oblate-0.1.0-py3-none-any.whl.zip tmp/oblate-0.2.0-py3-none-any.whl.zip --markdown 20230718/o/oblate/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-18 11:40:47] INFO root fetch - processPackages [streamlitopencvplayer]: executing diffoscope
+[2023-07-18 11:40:47] INFO root fetch - processPackages [streamlitopencvplayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlitopencvplayer-1.3.7.tar.gz tmp/streamlitopencvplayer-1.4.0.tar.gz --markdown 20230718/s/streamlitopencvplayer/1.3.7-1.4.0/diff.md --exclude *.pyd
+[2023-07-18 11:40:47] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-07-18 11:40:47] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230718/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-18 11:40:47] INFO root fetch - processPackages [superspreader]: executing diffoscope
+[2023-07-18 11:40:47] INFO root fetch - processPackages [superspreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superspreader-0.2.7.1.tar.gz tmp/superspreader-0.2.7.2.tar.gz --markdown 20230718/s/superspreader/0.2.7.1-0.2.7.2/diff.md --exclude *.pyd
+[2023-07-18 11:40:47] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/c1/5e/6250db2e30061578f191664b52364502c8fc665e635589e8013505a94730/zhousf-lib-0.8.6.tar.gz
+[2023-07-18 11:40:47] INFO root fetch - processPackages [optim-esm-tools]: Downloading https://files.pythonhosted.org/packages/2a/f2/feb1e0215c1df35f5a81704209cce387290c595c63f2a065acb3a88ca07b/optim_esm_tools-1.0.0.tar.gz
+[2023-07-18 11:40:47] INFO root fetch - processPackages [optim-esm-tools]: executing diffoscope
+[2023-07-18 11:40:47] INFO root fetch - processPackages [optim-esm-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optim_esm_tools-0.5.0.tar.gz tmp/optim_esm_tools-1.0.0.tar.gz --markdown 20230718/o/optim-esm-tools/0.5.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-18 11:40:47] INFO root fetch - processPackages [zhousf-lib]: executing diffoscope
+[2023-07-18 11:40:47] INFO root fetch - processPackages [zhousf-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhousf-lib-0.8.5.tar.gz tmp/zhousf-lib-0.8.6.tar.gz --markdown 20230718/z/zhousf-lib/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-07-18 11:40:48] INFO root fetch - processPackages [creatFiles]: Remove: archive file [/home/abi/fetcher/tmp/creatFiles-0.1.3.tar.gz]
+[2023-07-18 11:40:48] INFO root fetch - processPackages [creatFiles]: Remove: archive file [/home/abi/fetcher/tmp/creatFiles-0.1.4.tar.gz]
+[2023-07-18 11:40:48] INFO root fetch - processPackages [creatFiles]: Start processing: exchangecurrency
+[2023-07-18 11:40:48] INFO root fetch - main [MainThread]: End processing [creatFiles]: success
+[2023-07-18 11:40:48] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.17.5.4.tar.gz]
+[2023-07-18 11:40:48] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.17.5.5.tar.gz]
+[2023-07-18 11:40:48] INFO root fetch - processPackages [pydatawork]: Start processing: gramps-webapi
+[2023-07-18 11:40:48] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-07-18 11:40:48] WARNING root fetch - processPackages [exchangecurrency]: Skipping, unable to determine old version
+[2023-07-18 11:40:48] INFO root fetch - processPackages [exchangecurrency]: Start processing: collie-lm
+[2023-07-18 11:40:48] INFO root fetch - main [MainThread]: End processing [exchangecurrency] error
+[2023-07-18 11:40:48] INFO root fetch - processPackages [gramps-webapi]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-18 11:40:48] WARNING root fetch - processPackages [collie-lm]: Skipping, unable to determine old version
+[2023-07-18 11:40:48] INFO root fetch - processPackages [collie-lm]: Start processing: shapelets-native
+[2023-07-18 11:40:48] INFO root fetch - main [MainThread]: End processing [collie-lm] error
+[2023-07-18 11:40:48] INFO root fetch - processPackages [systembridgeshared]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeshared-3.8.0.dev1.tar.gz]
+[2023-07-18 11:40:48] INFO root fetch - processPackages [systembridgeshared]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeshared-3.8.0.dev2.tar.gz]
+[2023-07-18 11:40:48] INFO root fetch - processPackages [systembridgeshared]: Start processing: changedetection.io
+[2023-07-18 11:40:48] INFO root fetch - main [MainThread]: End processing [systembridgeshared]: success
+[2023-07-18 11:40:48] INFO root fetch - processPackages [shapelets-native]: New version: [2.0.90] Old Version: [2.0.89]
+[2023-07-18 11:40:48] INFO root fetch - processPackages [streamlitopencvplayer]: Remove: archive file [/home/abi/fetcher/tmp/streamlitopencvplayer-1.3.7.tar.gz]
+[2023-07-18 11:40:48] INFO root fetch - processPackages [streamlitopencvplayer]: Remove: archive file [/home/abi/fetcher/tmp/streamlitopencvplayer-1.4.0.tar.gz]
+[2023-07-18 11:40:48] INFO root fetch - processPackages [streamlitopencvplayer]: Start processing: gammarer.aws-ec2-instance-connect-custom-resource
+[2023-07-18 11:40:48] INFO root fetch - main [MainThread]: End processing [streamlitopencvplayer]: success
+[2023-07-18 11:40:48] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-3.8.0.dev1.tar.gz]
+[2023-07-18 11:40:48] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-3.8.0.dev2.tar.gz]
+[2023-07-18 11:40:48] INFO root fetch - processPackages [systembridgeconnector]: Start processing: sam-ml-py
+[2023-07-18 11:40:48] INFO root fetch - main [MainThread]: End processing [systembridgeconnector]: success
+[2023-07-18 11:40:48] INFO root fetch - processPackages [gramps-webapi]: Downloading https://files.pythonhosted.org/packages/84/30/fdcd793e05ac97d1e157916955b185c62d13c46c1dd62bd68b06feeea169/gramps-webapi-1.1.2.tar.gz
+[2023-07-18 11:40:48] INFO root fetch - processPackages [changedetection.io]: New version: [0.44] Old Version: [0.43.2]
+[2023-07-18 11:40:48] INFO root fetch - processPackages [sam-ml-py]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-07-18 11:40:48] INFO root fetch - processPackages [superspreader]: Remove: archive file [/home/abi/fetcher/tmp/superspreader-0.2.7.1.tar.gz]
+[2023-07-18 11:40:48] INFO root fetch - processPackages [superspreader]: Remove: archive file [/home/abi/fetcher/tmp/superspreader-0.2.7.2.tar.gz]
+[2023-07-18 11:40:48] INFO root fetch - processPackages [superspreader]: Start processing: zhousf-lib
+[2023-07-18 11:40:48] INFO root fetch - main [MainThread]: End processing [superspreader]: success
+[2023-07-18 11:40:48] WARNING root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: Skipping, unable to determine old version
+[2023-07-18 11:40:48] INFO root fetch - main [MainThread]: End processing [gammarer.aws-ec2-instance-connect-custom-resource] error
+[2023-07-18 11:40:48] INFO root fetch - processPackages [zhousf-lib]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-07-18 11:40:49] INFO root fetch - processPackages [oblate]: Remove: archive file [/home/abi/fetcher/tmp/oblate-0.1.0-py3-none-any.whl.zip]
+[2023-07-18 11:40:49] INFO root fetch - processPackages [oblate]: Remove: archive file [/home/abi/fetcher/tmp/oblate-0.2.0-py3-none-any.whl.zip]
+[2023-07-18 11:40:49] INFO root fetch - main [MainThread]: End processing [oblate]: success
+[2023-07-18 11:40:49] INFO root fetch - processPackages [sam-ml-py]: Downloading https://files.pythonhosted.org/packages/fc/7c/6908c6a3ae727e076167d08073461c9a30f2e4c01b6d1f3db78759dfc9ed/sam_ml-py-0.9.0.tar.gz
+[2023-07-18 11:40:49] INFO root fetch - processPackages [optim-esm-tools]: Remove: archive file [/home/abi/fetcher/tmp/optim_esm_tools-0.5.0.tar.gz]
+[2023-07-18 11:40:49] INFO root fetch - processPackages [optim-esm-tools]: Remove: archive file [/home/abi/fetcher/tmp/optim_esm_tools-1.0.0.tar.gz]
+[2023-07-18 11:40:49] INFO root fetch - main [MainThread]: End processing [optim-esm-tools]: success
+[2023-07-18 11:40:49] INFO root fetch - processPackages [shapelets-native]: Downloading https://files.pythonhosted.org/packages/6e/f2/8cce50085cf55361ce9fdc6c24b156d066f54a66b882a00a9d9ddc5a3f44/shapelets_native-2.0.89-cp38-cp38-win_amd64.whl
+[2023-07-18 11:40:49] INFO root fetch - processPackages [changedetection.io]: Downloading https://files.pythonhosted.org/packages/0a/74/15f4a2cab6758aebad0942fd371f62c75f298bd9e4d3430fa351d6b767ab/changedetection.io-0.43.2-py3-none-any.whl
+[2023-07-18 11:40:49] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/00/ea/93254d77024521194bb31361648ca093e067f2861922d6f8ccc3ef6b2283/zhousf-lib-0.8.7.tar.gz
+[2023-07-18 11:40:49] INFO root fetch - processPackages [sam-ml-py]: Downloading https://files.pythonhosted.org/packages/f4/f8/0aac2de659e4c5c99aad68feefdcc828e72f5c03ad8479b05f47c0ca01ad/sam_ml-py-0.9.0rc1.tar.gz
+[2023-07-18 11:40:49] INFO root fetch - processPackages [gramps-webapi]: Downloading https://files.pythonhosted.org/packages/44/55/7a69398be11c8cd71d0d5723e00f39b1556af98d3956b88561a8644afadf/gramps-webapi-1.1.3.tar.gz
+[2023-07-18 11:40:49] INFO root fetch - processPackages [sam-ml-py]: executing diffoscope
+[2023-07-18 11:40:49] INFO root fetch - processPackages [sam-ml-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sam_ml-py-0.9.0.tar.gz tmp/sam_ml-py-0.9.0rc1.tar.gz --markdown 20230718/s/sam-ml-py/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-07-18 11:40:49] INFO root fetch - processPackages [gramps-webapi]: executing diffoscope
+[2023-07-18 11:40:49] INFO root fetch - processPackages [gramps-webapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gramps-webapi-1.1.2.tar.gz tmp/gramps-webapi-1.1.3.tar.gz --markdown 20230718/g/gramps-webapi/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-18 11:40:49] INFO root fetch - processPackages [changedetection.io]: Downloading https://files.pythonhosted.org/packages/1d/c4/a0fcab9ee5ab2d335d632a1f184ed21c7548cf5e4ec60e48bfd1e14e519c/changedetection.io-0.44-py3-none-any.whl
+[2023-07-18 11:40:49] INFO root fetch - processPackages [changedetection.io]: executing diffoscope
+[2023-07-18 11:40:49] INFO root fetch - processPackages [changedetection.io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/changedetection.io-0.43.2-py3-none-any.whl.zip tmp/changedetection.io-0.44-py3-none-any.whl.zip --markdown 20230718/c/changedetection.io/0.43.2-0.44/diff.md --exclude *.pyd
+[2023-07-18 11:40:50] INFO root fetch - processPackages [sam-ml-py]: Remove: archive file [/home/abi/fetcher/tmp/sam_ml-py-0.9.0.tar.gz]
+[2023-07-18 11:40:50] INFO root fetch - processPackages [sam-ml-py]: Remove: archive file [/home/abi/fetcher/tmp/sam_ml-py-0.9.0rc1.tar.gz]
+[2023-07-18 11:40:50] INFO root fetch - main [MainThread]: End processing [sam-ml-py]: success
+[2023-07-18 11:40:50] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.8.5.tar.gz]
+[2023-07-18 11:40:50] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.8.6.tar.gz]
+[2023-07-18 11:40:50] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
+[2023-07-18 11:40:50] INFO root fetch - processPackages [shapelets-native]: Downloading https://files.pythonhosted.org/packages/3a/8e/3c09b5590b36b567f6ff37e8546a01659c8375b00989752611ea42e3bea7/shapelets_native-2.0.90-cp38-cp38-win_amd64.whl
+[2023-07-18 11:40:50] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/8c/10/f2e41da1240d36a250de7f8e447ebe71cc206b0deca1e4a01e92fdb69e26/zhousf-lib-0.8.8.tar.gz
+[2023-07-18 11:40:51] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-07-18 11:40:51] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-07-18 11:40:51] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-07-18 11:40:51] INFO root fetch - processPackages [changedetection.io]: Remove: archive file [/home/abi/fetcher/tmp/changedetection.io-0.43.2-py3-none-any.whl.zip]
+[2023-07-18 11:40:51] INFO root fetch - processPackages [changedetection.io]: Remove: archive file [/home/abi/fetcher/tmp/changedetection.io-0.44-py3-none-any.whl.zip]
+[2023-07-18 11:40:51] INFO root fetch - main [MainThread]: End processing [changedetection.io]: success
+[2023-07-18 11:40:51] INFO root fetch - processPackages [gramps-webapi]: Remove: archive file [/home/abi/fetcher/tmp/gramps-webapi-1.1.2.tar.gz]
+[2023-07-18 11:40:51] INFO root fetch - processPackages [gramps-webapi]: Remove: archive file [/home/abi/fetcher/tmp/gramps-webapi-1.1.3.tar.gz]
+[2023-07-18 11:40:51] INFO root fetch - main [MainThread]: End processing [gramps-webapi]: success
+[2023-07-18 11:40:51] INFO root fetch - processPackages [shapelets-native]: executing diffoscope
+[2023-07-18 11:40:51] INFO root fetch - processPackages [shapelets-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapelets_native-2.0.89-cp38-cp38-win_amd64.whl.zip tmp/shapelets_native-2.0.90-cp38-cp38-win_amd64.whl.zip --markdown 20230718/s/shapelets-native/2.0.89-2.0.90/diff.md --exclude *.pyd
+[2023-07-18 11:40:52] INFO root fetch - processPackages [zhousf-lib]: executing diffoscope
+[2023-07-18 11:40:52] INFO root fetch - processPackages [zhousf-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhousf-lib-0.8.7.tar.gz tmp/zhousf-lib-0.8.8.tar.gz --markdown 20230718/z/zhousf-lib/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-07-18 11:40:52] INFO root fetch - processPackages [shapelets-native]: Remove: archive file [/home/abi/fetcher/tmp/shapelets_native-2.0.89-cp38-cp38-win_amd64.whl.zip]
+[2023-07-18 11:40:52] INFO root fetch - processPackages [shapelets-native]: Remove: archive file [/home/abi/fetcher/tmp/shapelets_native-2.0.90-cp38-cp38-win_amd64.whl.zip]
+[2023-07-18 11:40:52] INFO root fetch - main [MainThread]: End processing [shapelets-native]: success
+[2023-07-18 11:40:54] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.8.7.tar.gz]
+[2023-07-18 11:40:54] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.8.8.tar.gz]
+[2023-07-18 11:40:54] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
+[2023-07-18 11:40:54] INFO root fetch - main [MainThread]: Store serial: [18931070]
