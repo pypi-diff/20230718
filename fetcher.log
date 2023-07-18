@@ -13038,3 +13038,115 @@
 [2023-07-18 06:27:31] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2023.7.8.tar.gz]
 [2023-07-18 06:27:31] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
 [2023-07-18 06:27:31] INFO root fetch - main [MainThread]: Store serial: [18927955]
+[2023-07-18 06:32:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18927955]
+[2023-07-18 06:32:40] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-18 06:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: admobilizeapis
+[2023-07-18 06:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fc-client
+[2023-07-18 06:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fc-client-docker
+[2023-07-18 06:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fc-guarder
+[2023-07-18 06:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fc-server
+[2023-07-18 06:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: usfm-grammar
+[2023-07-18 06:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sandi-connect
+[2023-07-18 06:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: opvious
+[2023-07-18 06:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: evo-prot-grad
+[2023-07-18 06:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dicomset
+[2023-07-18 06:32:40] INFO root fetch - processPackages [usfm-grammar]: New version: [3.0.0b1] Old Version: [3.0.0a7]
+[2023-07-18 06:32:40] INFO root fetch - processPackages [fc-server]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-18 06:32:40] INFO root fetch - processPackages [fc-client]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-18 06:32:40] INFO root fetch - processPackages [evo-prot-grad]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-18 06:32:40] INFO root fetch - processPackages [fc-client-docker]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-18 06:32:40] INFO root fetch - processPackages [fc-guarder]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-18 06:32:40] WARNING root fetch - processPackages [sandi-connect]: Skipping, unable to determine old version
+[2023-07-18 06:32:40] INFO root fetch - processPackages [sandi-connect]: Start processing: opvious
+[2023-07-18 06:32:40] INFO root fetch - main [MainThread]: End processing [sandi-connect] error
+[2023-07-18 06:32:40] INFO root fetch - processPackages [admobilizeapis]: New version: [2023.7.18.post2] Old Version: [2023.7.18.post1]
+[2023-07-18 06:32:40] INFO root fetch - processPackages [dicomset]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-18 06:32:40] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-18 06:32:40] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-18 06:32:41] INFO root fetch - processPackages [dicomset]: Downloading https://files.pythonhosted.org/packages/8d/e0/f35d4800142f9088c2e7df07a9e3cc0562c5ed634ce33e3fb805b8565080/dicomset-0.0.5.tar.gz
+[2023-07-18 06:32:41] INFO root fetch - processPackages [usfm-grammar]: Downloading https://files.pythonhosted.org/packages/5f/29/bb08b5de18b5f71f7d48433c433d9bc540976b4ad1686df4677192640f5b/usfm_grammar-3.0.0a7-cp311-cp311-win_amd64.whl
+[2023-07-18 06:32:41] INFO root fetch - processPackages [opvious]: Downloading https://files.pythonhosted.org/packages/d1/8f/b7e05d9b24e4dd1af2b9eab96fa7d1f97af088ed0836d9d8cfdb60c51360/opvious-0.9.5.tar.gz
+[2023-07-18 06:32:41] INFO root fetch - processPackages [evo-prot-grad]: Downloading https://files.pythonhosted.org/packages/c7/0f/993620e3ab34200685ff5b77e28dcb0d237598af2dcf117d6f8bcb2e41a9/evo_prot_grad-0.1.1.tar.gz
+[2023-07-18 06:32:41] INFO root fetch - processPackages [fc-client]: Downloading https://files.pythonhosted.org/packages/90/d7/ccdb337442a6f96644e2041311171e804a2ffb08bf487b8d03a0d00d9592/fc-client-0.6.2.tar.gz
+[2023-07-18 06:32:41] INFO root fetch - processPackages [fc-server]: Downloading https://files.pythonhosted.org/packages/29/3e/a365b207ad75a14dd93a516638f8578e1bbb10ccee8f8a4a68aeb8567689/fc-server-0.6.2.tar.gz
+[2023-07-18 06:32:41] INFO root fetch - processPackages [opvious]: Downloading https://files.pythonhosted.org/packages/d1/8f/b7e05d9b24e4dd1af2b9eab96fa7d1f97af088ed0836d9d8cfdb60c51360/opvious-0.9.5.tar.gz
+[2023-07-18 06:32:41] INFO root fetch - processPackages [fc-guarder]: Downloading https://files.pythonhosted.org/packages/fa/77/ed91a753076394fc2afdd3ac4bb790855cf06544e4e49252bd7d5c607b07/fc-guarder-0.6.2.tar.gz
+[2023-07-18 06:32:41] INFO root fetch - processPackages [fc-client-docker]: Downloading https://files.pythonhosted.org/packages/3d/38/19903ba0b0d365eeb28e7f26b02a99014ea99df9f947e3155f2b7a1de727/fc-client-docker-0.6.2.tar.gz
+[2023-07-18 06:32:41] INFO root fetch - processPackages [admobilizeapis]: Downloading https://files.pythonhosted.org/packages/b1/21/a5ba1ac539634a4a4247f98a9c2cac656e80580fdb0f64857b1aea831b5a/admobilizeapis-2023.7.18.post1.tar.gz
+[2023-07-18 06:32:41] INFO root fetch - processPackages [opvious]: Downloading https://files.pythonhosted.org/packages/c2/c3/e2b95ca71e91eb624497389cb2391d3310907b4f9f25dee1a75b99798c14/opvious-0.9.6.tar.gz
+[2023-07-18 06:32:41] INFO root fetch - processPackages [dicomset]: Downloading https://files.pythonhosted.org/packages/31/7d/24f85017b797fee7fab18a13c4a53ef44cd8f2a3c0bef53e084709ea734f/dicomset-0.0.6.tar.gz
+[2023-07-18 06:32:41] INFO root fetch - processPackages [evo-prot-grad]: Downloading https://files.pythonhosted.org/packages/45/df/1609e10198505c7e574acd22686b827114843eeba99002f6f9d90a358cc8/evo_prot_grad-0.1.2.tar.gz
+[2023-07-18 06:32:41] INFO root fetch - processPackages [fc-server]: Downloading https://files.pythonhosted.org/packages/07/7e/0f9ab9c00168f7109f7a94df356be644f5b8bdcefe2bf0f1e15027a72e7a/fc-server-0.6.3.tar.gz
+[2023-07-18 06:32:41] INFO root fetch - processPackages [opvious]: Downloading https://files.pythonhosted.org/packages/c2/c3/e2b95ca71e91eb624497389cb2391d3310907b4f9f25dee1a75b99798c14/opvious-0.9.6.tar.gz
+[2023-07-18 06:32:41] INFO root fetch - processPackages [fc-client]: Downloading https://files.pythonhosted.org/packages/e7/fe/32188be02765d400424bd4f4619f5cce9d1f63b950e6f8f2e8bac21226b3/fc-client-0.6.3.tar.gz
+[2023-07-18 06:32:41] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2023-07-18 06:32:41] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20230718/o/opvious/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-18 06:32:41] INFO root fetch - processPackages [usfm-grammar]: Downloading https://files.pythonhosted.org/packages/7d/c7/39a6fcac273602993cd7a9107f0f3d8e558a9a42c9e82f52c4e6b9d9050e/usfm_grammar-3.0.0b1-cp311-cp311-win_amd64.whl
+[2023-07-18 06:32:41] INFO root fetch - processPackages [admobilizeapis]: Downloading https://files.pythonhosted.org/packages/f8/ec/795436e55d1f6fb7c18e25d8f049b28c84e5ad2315981586d7d2eb191287/admobilizeapis-2023.7.18.post2.tar.gz
+[2023-07-18 06:32:41] INFO root fetch - processPackages [fc-guarder]: Downloading https://files.pythonhosted.org/packages/ec/5a/4d6281047ea173569d77672927b0b72e57cb5dd799b9927a6c2db6d7b3a4/fc-guarder-0.6.3.tar.gz
+[2023-07-18 06:32:41] INFO root fetch - processPackages [fc-client-docker]: Downloading https://files.pythonhosted.org/packages/43/f2/838cb3a031d973e10bbd7f85e5d041a7cb22c1062edfeae5a24bbac4fe51/fc-client-docker-0.6.3.tar.gz
+[2023-07-18 06:32:41] INFO root fetch - processPackages [dicomset]: executing diffoscope
+[2023-07-18 06:32:41] INFO root fetch - processPackages [dicomset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicomset-0.0.5.tar.gz tmp/dicomset-0.0.6.tar.gz --markdown 20230718/d/dicomset/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-18 06:32:41] INFO root fetch - processPackages [fc-client]: executing diffoscope
+[2023-07-18 06:32:41] INFO root fetch - processPackages [fc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fc-client-0.6.2.tar.gz tmp/fc-client-0.6.3.tar.gz --markdown 20230718/f/fc-client/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-18 06:32:41] INFO root fetch - processPackages [fc-server]: executing diffoscope
+[2023-07-18 06:32:41] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2023-07-18 06:32:41] INFO root fetch - processPackages [fc-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fc-server-0.6.2.tar.gz tmp/fc-server-0.6.3.tar.gz --markdown 20230718/f/fc-server/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-18 06:32:41] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20230718/o/opvious/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-18 06:32:41] INFO root fetch - processPackages [evo-prot-grad]: executing diffoscope
+[2023-07-18 06:32:41] INFO root fetch - processPackages [evo-prot-grad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evo_prot_grad-0.1.1.tar.gz tmp/evo_prot_grad-0.1.2.tar.gz --markdown 20230718/e/evo-prot-grad/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-18 06:32:41] INFO root fetch - processPackages [fc-guarder]: executing diffoscope
+[2023-07-18 06:32:41] INFO root fetch - processPackages [fc-guarder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fc-guarder-0.6.2.tar.gz tmp/fc-guarder-0.6.3.tar.gz --markdown 20230718/f/fc-guarder/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-18 06:32:42] INFO root fetch - processPackages [fc-client-docker]: executing diffoscope
+[2023-07-18 06:32:42] INFO root fetch - processPackages [fc-client-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fc-client-docker-0.6.2.tar.gz tmp/fc-client-docker-0.6.3.tar.gz --markdown 20230718/f/fc-client-docker/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-18 06:32:42] INFO root fetch - processPackages [usfm-grammar]: executing diffoscope
+[2023-07-18 06:32:42] INFO root fetch - processPackages [usfm-grammar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usfm_grammar-3.0.0a7-cp311-cp311-win_amd64.whl.zip tmp/usfm_grammar-3.0.0b1-cp311-cp311-win_amd64.whl.zip --markdown 20230718/u/usfm-grammar/3.0.0a7-3.0.0b1/diff.md --exclude *.pyd
+[2023-07-18 06:32:42] INFO root fetch - processPackages [admobilizeapis]: executing diffoscope
+[2023-07-18 06:32:42] INFO root fetch - processPackages [admobilizeapis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/admobilizeapis-2023.7.18.post1.tar.gz tmp/admobilizeapis-2023.7.18.post2.tar.gz --markdown 20230718/a/admobilizeapis/2023.7.18.post1-2023.7.18.post2/diff.md --exclude *.pyd
+[2023-07-18 06:32:43] INFO root fetch - processPackages [opvious]: Remove: archive file [/home/abi/fetcher/tmp/opvious-0.9.5.tar.gz]
+[2023-07-18 06:32:43] INFO root fetch - processPackages [opvious]: Remove: archive file [/home/abi/fetcher/tmp/opvious-0.9.6.tar.gz]
+[2023-07-18 06:32:43] INFO root fetch - processPackages [opvious]: Start processing: recipe-scrapers
+[2023-07-18 06:32:43] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2023-07-18 06:32:43] INFO root fetch - processPackages [recipe-scrapers]: New version: [9.2.6] Old Version: [9.2.5]
+[2023-07-18 06:32:43] INFO root fetch - processPackages [fc-client]: Remove: archive file [/home/abi/fetcher/tmp/fc-client-0.6.2.tar.gz]
+[2023-07-18 06:32:43] INFO root fetch - processPackages [fc-client]: Remove: archive file [/home/abi/fetcher/tmp/fc-client-0.6.3.tar.gz]
+[2023-07-18 06:32:43] INFO root fetch - processPackages [fc-client]: Start processing: django-url-tokenizer
+[2023-07-18 06:32:43] INFO root fetch - main [MainThread]: End processing [fc-client]: success
+[2023-07-18 06:32:43] INFO root fetch - processPackages [fc-client-docker]: Remove: archive file [/home/abi/fetcher/tmp/fc-client-docker-0.6.2.tar.gz]
+[2023-07-18 06:32:43] INFO root fetch - processPackages [fc-client-docker]: Remove: archive file [/home/abi/fetcher/tmp/fc-client-docker-0.6.3.tar.gz]
+[2023-07-18 06:32:43] INFO root fetch - main [MainThread]: End processing [fc-client-docker]: success
+[2023-07-18 06:32:43] INFO root fetch - processPackages [django-url-tokenizer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 06:32:43] INFO root fetch - processPackages [recipe-scrapers]: Downloading https://files.pythonhosted.org/packages/d5/32/798f352029a9eb96fba9618fce5cd481dd19d4a66f562825dc7281c0f853/recipe_scrapers-9.2.5.tar.gz
+[2023-07-18 06:32:43] INFO root fetch - processPackages [fc-guarder]: Remove: archive file [/home/abi/fetcher/tmp/fc-guarder-0.6.2.tar.gz]
+[2023-07-18 06:32:43] INFO root fetch - processPackages [fc-guarder]: Remove: archive file [/home/abi/fetcher/tmp/fc-guarder-0.6.3.tar.gz]
+[2023-07-18 06:32:43] INFO root fetch - main [MainThread]: End processing [fc-guarder]: success
+[2023-07-18 06:32:43] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/58/fc/c297e12ea86d40bc35c3034412e468c38bef18667e6adfe0b24802b0e417/django-url-tokenizer-0.0.8.tar.gz
+[2023-07-18 06:32:43] INFO root fetch - processPackages [evo-prot-grad]: Remove: archive file [/home/abi/fetcher/tmp/evo_prot_grad-0.1.1.tar.gz]
+[2023-07-18 06:32:43] INFO root fetch - processPackages [evo-prot-grad]: Remove: archive file [/home/abi/fetcher/tmp/evo_prot_grad-0.1.2.tar.gz]
+[2023-07-18 06:32:43] INFO root fetch - main [MainThread]: End processing [evo-prot-grad]: success
+[2023-07-18 06:32:43] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2023-07-18 06:32:43] INFO root fetch - processPackages [fc-server]: Remove: archive file [/home/abi/fetcher/tmp/fc-server-0.6.2.tar.gz]
+[2023-07-18 06:32:43] INFO root fetch - processPackages [fc-server]: Remove: archive file [/home/abi/fetcher/tmp/fc-server-0.6.3.tar.gz]
+[2023-07-18 06:32:43] INFO root fetch - main [MainThread]: End processing [fc-server]: success
+[2023-07-18 06:32:43] INFO root fetch - processPackages [dicomset]: Remove: archive file [/home/abi/fetcher/tmp/dicomset-0.0.5.tar.gz]
+[2023-07-18 06:32:43] INFO root fetch - processPackages [dicomset]: Remove: archive file [/home/abi/fetcher/tmp/dicomset-0.0.6.tar.gz]
+[2023-07-18 06:32:43] INFO root fetch - main [MainThread]: End processing [dicomset]: success
+[2023-07-18 06:32:43] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/c5/13/df27d1141ec44b1c35f247440fc5cb506efe40a15cbed84328a82cab2d67/django-url-tokenizer-0.0.9.tar.gz
+[2023-07-18 06:32:44] INFO root fetch - processPackages [django-url-tokenizer]: executing diffoscope
+[2023-07-18 06:32:44] INFO root fetch - processPackages [django-url-tokenizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-url-tokenizer-0.0.8.tar.gz tmp/django-url-tokenizer-0.0.9.tar.gz --markdown 20230718/d/django-url-tokenizer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 06:32:44] INFO root fetch - processPackages [recipe-scrapers]: Downloading https://files.pythonhosted.org/packages/6b/5c/232be4938285e5a5392e78867e82229cbcfc9854f0e5a6dadf8e8730e53b/recipe_scrapers-9.2.6.tar.gz
+[2023-07-18 06:32:44] INFO root fetch - processPackages [admobilizeapis]: Remove: archive file [/home/abi/fetcher/tmp/admobilizeapis-2023.7.18.post1.tar.gz]
+[2023-07-18 06:32:44] INFO root fetch - processPackages [admobilizeapis]: Remove: archive file [/home/abi/fetcher/tmp/admobilizeapis-2023.7.18.post2.tar.gz]
+[2023-07-18 06:32:44] INFO root fetch - main [MainThread]: End processing [admobilizeapis]: success
+[2023-07-18 06:32:44] INFO root fetch - processPackages [recipe-scrapers]: executing diffoscope
+[2023-07-18 06:32:44] INFO root fetch - processPackages [recipe-scrapers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recipe_scrapers-9.2.5.tar.gz tmp/recipe_scrapers-9.2.6.tar.gz --markdown 20230718/r/recipe-scrapers/9.2.5-9.2.6/diff.md --exclude *.pyd
+[2023-07-18 06:32:44] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.8.tar.gz]
+[2023-07-18 06:32:44] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.9.tar.gz]
+[2023-07-18 06:32:44] INFO root fetch - main [MainThread]: End processing [django-url-tokenizer]: success
+[2023-07-18 06:32:45] INFO root fetch - processPackages [recipe-scrapers]: Remove: archive file [/home/abi/fetcher/tmp/recipe_scrapers-9.2.5.tar.gz]
+[2023-07-18 06:32:45] INFO root fetch - processPackages [recipe-scrapers]: Remove: archive file [/home/abi/fetcher/tmp/recipe_scrapers-9.2.6.tar.gz]
+[2023-07-18 06:32:45] INFO root fetch - main [MainThread]: End processing [recipe-scrapers]: success
+[2023-07-18 06:32:45] INFO root fetch - processPackages [usfm-grammar]: Remove: archive file [/home/abi/fetcher/tmp/usfm_grammar-3.0.0a7-cp311-cp311-win_amd64.whl.zip]
+[2023-07-18 06:32:45] INFO root fetch - processPackages [usfm-grammar]: Remove: archive file [/home/abi/fetcher/tmp/usfm_grammar-3.0.0b1-cp311-cp311-win_amd64.whl.zip]
+[2023-07-18 06:32:45] INFO root fetch - main [MainThread]: End processing [usfm-grammar]: success
+[2023-07-18 06:32:45] INFO root fetch - main [MainThread]: Store serial: [18928003]
