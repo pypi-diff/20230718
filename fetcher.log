@@ -19282,3 +19282,129 @@
 [2023-07-18 10:53:21] INFO root fetch - processPackages [EModelRunner]: Remove: archive file [/home/abi/fetcher/tmp/EModelRunner-1.1.9.tar.gz]
 [2023-07-18 10:53:21] INFO root fetch - main [MainThread]: End processing [EModelRunner]: success
 [2023-07-18 10:53:21] INFO root fetch - main [MainThread]: Store serial: [18930510]
+[2023-07-18 10:58:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18930510]
+[2023-07-18 10:58:30] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-18 10:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alcoholic-tfe22540
+[2023-07-18 10:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: referencing
+[2023-07-18 10:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: couchcopy
+[2023-07-18 10:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ckanext-ckanpackager
+[2023-07-18 10:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airflowconversion
+[2023-07-18 10:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gammarer.aws-rds-database-running-scheduler
+[2023-07-18 10:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pynmeagps
+[2023-07-18 10:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: badi-users
+[2023-07-18 10:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: reuse
+[2023-07-18 10:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bionty
+[2023-07-18 10:58:30] WARNING root fetch - processPackages [airflowconversion]: Skipping, unable to determine old version
+[2023-07-18 10:58:30] INFO root fetch - processPackages [airflowconversion]: Start processing: graph-cordinates
+[2023-07-18 10:58:30] INFO root fetch - main [MainThread]: End processing [airflowconversion] error
+[2023-07-18 10:58:30] INFO root fetch - processPackages [bionty]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-07-18 10:58:30] INFO root fetch - processPackages [referencing]: New version: [0.9.2] Old Version: [0.8.9]
+[2023-07-18 10:58:30] INFO root fetch - processPackages [ckanext-ckanpackager]: New version: [3.0.0] Old Version: [2.2.9]
+[2023-07-18 10:58:30] WARNING root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: Skipping, unable to determine old version
+[2023-07-18 10:58:30] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: Start processing: pyrtcm
+[2023-07-18 10:58:30] INFO root fetch - main [MainThread]: End processing [gammarer.aws-rds-database-running-scheduler] error
+[2023-07-18 10:58:30] INFO root fetch - processPackages [alcoholic-tfe22540]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-18 10:58:30] INFO root fetch - processPackages [couchcopy]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-18 10:58:30] INFO root fetch - processPackages [pynmeagps]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-18 10:58:30] INFO root fetch - processPackages [badi-users]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-18 10:58:30] INFO root fetch - processPackages [reuse]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-07-18 10:58:30] INFO root fetch - processPackages [graph-cordinates]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-18 10:58:30] INFO root fetch - processPackages [pyrtcm]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-18 10:58:30] INFO root fetch - processPackages [referencing]: Downloading https://files.pythonhosted.org/packages/2b/ed/f98bc7032a95aa20012ccefb729c1908f6acc9c6c6f88e038ac0a93750cb/referencing-0.8.9.tar.gz
+[2023-07-18 10:58:30] INFO root fetch - processPackages [bionty]: Downloading https://files.pythonhosted.org/packages/99/96/56b5f6e7d406917b173d9b761f4b2ff41b68d375105fe40b9b23131b295d/bionty-0.9.0.tar.gz
+[2023-07-18 10:58:30] INFO root fetch - processPackages [couchcopy]: Downloading https://files.pythonhosted.org/packages/e3/4d/69d627419989d90f3807e3fcb7ad9f08bfd93fc231d1c17b55ce5d756597/couchcopy-0.2.0.tar.gz
+[2023-07-18 10:58:30] INFO root fetch - processPackages [ckanext-ckanpackager]: Downloading https://files.pythonhosted.org/packages/16/eb/fee799d371126ab436f5da90f83b68de654c498a6194289902022677f8e0/ckanext-ckanpackager-2.2.9.tar.gz
+[2023-07-18 10:58:30] INFO root fetch - processPackages [alcoholic-tfe22540]: Downloading https://files.pythonhosted.org/packages/1d/88/7877937c988c261ae044723e432898cb09c59d864e39f929e2995e6cfb38/alcoholic_tfe22540-0.1.8.tar.gz
+[2023-07-18 10:58:30] INFO root fetch - processPackages [pynmeagps]: Downloading https://files.pythonhosted.org/packages/86/11/d07532664983049560a2cc15cca1f126305db42affbcde1fa9a25fbb608e/pynmeagps-1.0.8.tar.gz
+[2023-07-18 10:58:30] INFO root fetch - processPackages [badi-users]: Downloading https://files.pythonhosted.org/packages/ac/41/da412e8769a7dd6189bce6eb2c92ad82efd50c623fbab6e36d97b0b063cd/badi_users-1.1.1.tar.gz
+[2023-07-18 10:58:30] INFO root fetch - processPackages [graph-cordinates]: Downloading https://files.pythonhosted.org/packages/82/4d/b41f63e65d720132da33b050b5ca19259802d997dfd554d066c7dd266fbe/graph_cordinates-0.0.3.tar.gz
+[2023-07-18 10:58:30] INFO root fetch - processPackages [reuse]: Downloading https://files.pythonhosted.org/packages/b9/28/c6d1b521b4c886e2ca9abd8b90afd5b79c14754d4a8e85243f1852e0880f/reuse-2.0.0.tar.gz
+[2023-07-18 10:58:31] INFO root fetch - processPackages [pyrtcm]: Downloading https://files.pythonhosted.org/packages/31/99/5670aa585fc8494bd7872b8886fcbc3efcc4facb36a7669d07029ee3068f/pyrtcm-1.0.8-py3-none-any.whl
+[2023-07-18 10:58:31] INFO root fetch - processPackages [ckanext-ckanpackager]: Downloading https://files.pythonhosted.org/packages/a8/46/a598fb52d367b3a0a75a24ee2471338be0220c6d17ae35b9531fb5ffc153/ckanext-ckanpackager-3.0.0.tar.gz
+[2023-07-18 10:58:31] INFO root fetch - processPackages [bionty]: Downloading https://files.pythonhosted.org/packages/f4/01/3a99104d9a37cf7fbdae5c733cec97f252f8eb35f5553cd253a05edf8420/bionty-0.9.0rc1.tar.gz
+[2023-07-18 10:58:31] INFO root fetch - processPackages [couchcopy]: Downloading https://files.pythonhosted.org/packages/17/d0/04be882b1113ceb70e6e0fdba0d1407025ae242d0a0abc9aca2064b059a2/couchcopy-0.2.1.tar.gz
+[2023-07-18 10:58:31] INFO root fetch - processPackages [pynmeagps]: Downloading https://files.pythonhosted.org/packages/f2/7c/538ebb6a9317ab0dad32cb32f0ed63512b095231228692c599a5989c34cf/pynmeagps-1.0.9.tar.gz
+[2023-07-18 10:58:31] INFO root fetch - processPackages [reuse]: Downloading https://files.pythonhosted.org/packages/a3/9c/885196f035be9fe464daf159816f7c2d4415b57308f60e8e673dbe64141c/reuse-2.1.0.tar.gz
+[2023-07-18 10:58:31] INFO root fetch - processPackages [ckanext-ckanpackager]: executing diffoscope
+[2023-07-18 10:58:31] INFO root fetch - processPackages [ckanext-ckanpackager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-ckanpackager-2.2.9.tar.gz tmp/ckanext-ckanpackager-3.0.0.tar.gz --markdown 20230718/c/ckanext-ckanpackager/2.2.9-3.0.0/diff.md --exclude *.pyd
+[2023-07-18 10:58:31] INFO root fetch - processPackages [alcoholic-tfe22540]: Downloading https://files.pythonhosted.org/packages/51/30/cd5a760daf01034d582fb636a415af0b3b1a0b6cdb0f6a63a9f89875787a/alcoholic_tfe22540-0.1.9.tar.gz
+[2023-07-18 10:58:31] INFO root fetch - processPackages [graph-cordinates]: Downloading https://files.pythonhosted.org/packages/d4/fd/4aa494998146abce42596e24cf3e8920f91cfeaa29387c7a348e52c71929/graph_cordinates-0.0.4.tar.gz
+[2023-07-18 10:58:31] INFO root fetch - processPackages [couchcopy]: executing diffoscope
+[2023-07-18 10:58:31] INFO root fetch - processPackages [couchcopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/couchcopy-0.2.0.tar.gz tmp/couchcopy-0.2.1.tar.gz --markdown 20230718/c/couchcopy/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-18 10:58:31] INFO root fetch - processPackages [pyrtcm]: Downloading https://files.pythonhosted.org/packages/75/a3/d3d2fccb0b3397f1b27d3035ccbde12211afd92137575a7ef063b6651593/pyrtcm-1.0.9.tar.gz
+[2023-07-18 10:58:31] INFO root fetch - processPackages [pynmeagps]: executing diffoscope
+[2023-07-18 10:58:31] INFO root fetch - processPackages [pynmeagps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynmeagps-1.0.8.tar.gz tmp/pynmeagps-1.0.9.tar.gz --markdown 20230718/p/pynmeagps/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-18 10:58:31] INFO root fetch - processPackages [reuse]: executing diffoscope
+[2023-07-18 10:58:31] INFO root fetch - processPackages [reuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reuse-2.0.0.tar.gz tmp/reuse-2.1.0.tar.gz --markdown 20230718/r/reuse/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-07-18 10:58:31] INFO root fetch - processPackages [alcoholic-tfe22540]: executing diffoscope
+[2023-07-18 10:58:31] INFO root fetch - processPackages [alcoholic-tfe22540]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alcoholic_tfe22540-0.1.8.tar.gz tmp/alcoholic_tfe22540-0.1.9.tar.gz --markdown 20230718/a/alcoholic-tfe22540/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-18 10:58:31] INFO root fetch - processPackages [graph-cordinates]: executing diffoscope
+[2023-07-18 10:58:31] INFO root fetch - processPackages [graph-cordinates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph_cordinates-0.0.3.tar.gz tmp/graph_cordinates-0.0.4.tar.gz --markdown 20230718/g/graph-cordinates/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-18 10:58:31] INFO root fetch - processPackages [badi-users]: Downloading https://files.pythonhosted.org/packages/fb/ab/b003ef5fd85b8e20a36127a1f8bf9778c70f5e78f5e6a20dc1263340d94d/badi_users-1.1.2.tar.gz
+[2023-07-18 10:58:31] INFO root fetch - processPackages [referencing]: Downloading https://files.pythonhosted.org/packages/3a/2c/6c5c6451d2818adfd99b87a8aa1c5147f6d9097d31cfee6a020418f9b02c/referencing-0.9.2.tar.gz
+[2023-07-18 10:58:32] INFO root fetch - processPackages [bionty]: executing diffoscope
+[2023-07-18 10:58:32] INFO root fetch - processPackages [bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bionty-0.9.0.tar.gz tmp/bionty-0.9.0rc1.tar.gz --markdown 20230718/b/bionty/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-07-18 10:58:32] INFO root fetch - processPackages [pyrtcm]: executing diffoscope
+[2023-07-18 10:58:32] INFO root fetch - processPackages [pyrtcm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrtcm-1.0.8-py3-none-any.whl.zip tmp/pyrtcm-1.0.9.tar.gz --markdown 20230718/p/pyrtcm/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-18 10:58:32] INFO root fetch - processPackages [badi-users]: executing diffoscope
+[2023-07-18 10:58:32] INFO root fetch - processPackages [badi-users]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/badi_users-1.1.1.tar.gz tmp/badi_users-1.1.2.tar.gz --markdown 20230718/b/badi-users/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-18 10:58:32] INFO root fetch - processPackages [referencing]: executing diffoscope
+[2023-07-18 10:58:32] INFO root fetch - processPackages [referencing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/referencing-0.8.9.tar.gz tmp/referencing-0.9.2.tar.gz --markdown 20230718/r/referencing/0.8.9-0.9.2/diff.md --exclude *.pyd
+[2023-07-18 10:58:32] INFO root fetch - processPackages [ckanext-ckanpackager]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-ckanpackager-2.2.9.tar.gz]
+[2023-07-18 10:58:32] INFO root fetch - processPackages [ckanext-ckanpackager]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-ckanpackager-3.0.0.tar.gz]
+[2023-07-18 10:58:32] INFO root fetch - processPackages [ckanext-ckanpackager]: Start processing: odd-models
+[2023-07-18 10:58:32] INFO root fetch - main [MainThread]: End processing [ckanext-ckanpackager]: success
+[2023-07-18 10:58:32] INFO root fetch - processPackages [couchcopy]: Remove: archive file [/home/abi/fetcher/tmp/couchcopy-0.2.0.tar.gz]
+[2023-07-18 10:58:32] INFO root fetch - processPackages [couchcopy]: Remove: archive file [/home/abi/fetcher/tmp/couchcopy-0.2.1.tar.gz]
+[2023-07-18 10:58:32] INFO root fetch - processPackages [couchcopy]: Start processing: mccalcy
+[2023-07-18 10:58:32] INFO root fetch - main [MainThread]: End processing [couchcopy]: success
+[2023-07-18 10:58:32] INFO root fetch - processPackages [mccalcy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 10:58:32] INFO root fetch - processPackages [odd-models]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-18 10:58:33] INFO root fetch - processPackages [mccalcy]: Downloading https://files.pythonhosted.org/packages/96/2b/85bc383914c57f638f7157482202009b17632a1eedb2a2db40aab9dce2fe/mccalcy-0.0.8.tar.gz
+[2023-07-18 10:58:33] INFO root fetch - processPackages [graph-cordinates]: Remove: archive file [/home/abi/fetcher/tmp/graph_cordinates-0.0.3.tar.gz]
+[2023-07-18 10:58:33] INFO root fetch - processPackages [graph-cordinates]: Remove: archive file [/home/abi/fetcher/tmp/graph_cordinates-0.0.4.tar.gz]
+[2023-07-18 10:58:33] INFO root fetch - processPackages [graph-cordinates]: Start processing: heps-ds-utils
+[2023-07-18 10:58:33] INFO root fetch - main [MainThread]: End processing [graph-cordinates]: success
+[2023-07-18 10:58:33] INFO root fetch - processPackages [odd-models]: Downloading https://files.pythonhosted.org/packages/c6/a9/ea844b2380e839191844f968e2cd60c397259d1bf1a77e20ea65ee20a643/odd-models-2.0.8.tar.gz
+[2023-07-18 10:58:33] INFO root fetch - processPackages [heps-ds-utils]: New version: [0.4.7a8] Old Version: [0.4.7a7]
+[2023-07-18 10:58:33] INFO root fetch - processPackages [alcoholic-tfe22540]: Remove: archive file [/home/abi/fetcher/tmp/alcoholic_tfe22540-0.1.8.tar.gz]
+[2023-07-18 10:58:33] INFO root fetch - processPackages [alcoholic-tfe22540]: Remove: archive file [/home/abi/fetcher/tmp/alcoholic_tfe22540-0.1.9.tar.gz]
+[2023-07-18 10:58:33] INFO root fetch - main [MainThread]: End processing [alcoholic-tfe22540]: success
+[2023-07-18 10:58:33] INFO root fetch - processPackages [mccalcy]: Downloading https://files.pythonhosted.org/packages/f6/2b/198b5203c8df1e3ccc38c240e96228be5cba931ce71e06726e441d2046dd/mccalcy-0.0.9.tar.gz
+[2023-07-18 10:58:33] INFO root fetch - processPackages [mccalcy]: executing diffoscope
+[2023-07-18 10:58:33] INFO root fetch - processPackages [mccalcy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mccalcy-0.0.8.tar.gz tmp/mccalcy-0.0.9.tar.gz --markdown 20230718/m/mccalcy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 10:58:33] INFO root fetch - processPackages [pynmeagps]: Remove: archive file [/home/abi/fetcher/tmp/pynmeagps-1.0.8.tar.gz]
+[2023-07-18 10:58:33] INFO root fetch - processPackages [pynmeagps]: Remove: archive file [/home/abi/fetcher/tmp/pynmeagps-1.0.9.tar.gz]
+[2023-07-18 10:58:33] INFO root fetch - main [MainThread]: End processing [pynmeagps]: success
+[2023-07-18 10:58:33] INFO root fetch - processPackages [pyrtcm]: Remove: archive file [/home/abi/fetcher/tmp/pyrtcm-1.0.8-py3-none-any.whl.zip]
+[2023-07-18 10:58:33] INFO root fetch - processPackages [pyrtcm]: Remove: archive file [/home/abi/fetcher/tmp/pyrtcm-1.0.9.tar.gz]
+[2023-07-18 10:58:33] INFO root fetch - main [MainThread]: End processing [pyrtcm]: success
+[2023-07-18 10:58:33] INFO root fetch - processPackages [heps-ds-utils]: Downloading https://files.pythonhosted.org/packages/08/9e/808355296796bf62f70131205c55d7f368b8d67583089befc11a12b8d670/heps_ds_utils-0.4.7a7.tar.gz
+[2023-07-18 10:58:33] INFO root fetch - processPackages [odd-models]: Downloading https://files.pythonhosted.org/packages/f2/c3/f537f567b455ac50cfc1496bce73f6fa04b8533fd53509157d65d6867ef1/odd-models-2.0.9.tar.gz
+[2023-07-18 10:58:33] INFO root fetch - processPackages [referencing]: Remove: archive file [/home/abi/fetcher/tmp/referencing-0.8.9.tar.gz]
+[2023-07-18 10:58:33] INFO root fetch - processPackages [referencing]: Remove: archive file [/home/abi/fetcher/tmp/referencing-0.9.2.tar.gz]
+[2023-07-18 10:58:33] INFO root fetch - main [MainThread]: End processing [referencing]: success
+[2023-07-18 10:58:33] INFO root fetch - processPackages [odd-models]: executing diffoscope
+[2023-07-18 10:58:33] INFO root fetch - processPackages [odd-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odd-models-2.0.8.tar.gz tmp/odd-models-2.0.9.tar.gz --markdown 20230718/o/odd-models/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-18 10:58:33] INFO root fetch - processPackages [reuse]: Remove: archive file [/home/abi/fetcher/tmp/reuse-2.0.0.tar.gz]
+[2023-07-18 10:58:33] INFO root fetch - processPackages [bionty]: Remove: archive file [/home/abi/fetcher/tmp/bionty-0.9.0.tar.gz]
+[2023-07-18 10:58:33] INFO root fetch - processPackages [reuse]: Remove: archive file [/home/abi/fetcher/tmp/reuse-2.1.0.tar.gz]
+[2023-07-18 10:58:33] INFO root fetch - processPackages [bionty]: Remove: archive file [/home/abi/fetcher/tmp/bionty-0.9.0rc1.tar.gz]
+[2023-07-18 10:58:33] INFO root fetch - main [MainThread]: End processing [reuse]: success
+[2023-07-18 10:58:33] INFO root fetch - main [MainThread]: End processing [bionty]: success
+[2023-07-18 10:58:33] INFO root fetch - processPackages [heps-ds-utils]: Downloading https://files.pythonhosted.org/packages/7e/c2/e286b7662362770e1b6f3a3408b7c9df588d22bb3de5052da759bd565202/heps_ds_utils-0.4.7a8.tar.gz
+[2023-07-18 10:58:34] INFO root fetch - processPackages [heps-ds-utils]: executing diffoscope
+[2023-07-18 10:58:34] INFO root fetch - processPackages [heps-ds-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heps_ds_utils-0.4.7a7.tar.gz tmp/heps_ds_utils-0.4.7a8.tar.gz --markdown 20230718/h/heps-ds-utils/0.4.7a7-0.4.7a8/diff.md --exclude *.pyd
+[2023-07-18 10:58:34] INFO root fetch - processPackages [mccalcy]: Remove: archive file [/home/abi/fetcher/tmp/mccalcy-0.0.8.tar.gz]
+[2023-07-18 10:58:34] INFO root fetch - processPackages [mccalcy]: Remove: archive file [/home/abi/fetcher/tmp/mccalcy-0.0.9.tar.gz]
+[2023-07-18 10:58:34] INFO root fetch - main [MainThread]: End processing [mccalcy]: success
+[2023-07-18 10:58:34] INFO root fetch - processPackages [odd-models]: Remove: archive file [/home/abi/fetcher/tmp/odd-models-2.0.8.tar.gz]
+[2023-07-18 10:58:34] INFO root fetch - processPackages [odd-models]: Remove: archive file [/home/abi/fetcher/tmp/odd-models-2.0.9.tar.gz]
+[2023-07-18 10:58:34] INFO root fetch - main [MainThread]: End processing [odd-models]: success
+[2023-07-18 10:58:34] INFO root fetch - processPackages [badi-users]: Remove: archive file [/home/abi/fetcher/tmp/badi_users-1.1.1.tar.gz]
+[2023-07-18 10:58:34] INFO root fetch - processPackages [badi-users]: Remove: archive file [/home/abi/fetcher/tmp/badi_users-1.1.2.tar.gz]
+[2023-07-18 10:58:34] INFO root fetch - main [MainThread]: End processing [badi-users]: success
+[2023-07-18 10:58:35] INFO root fetch - processPackages [heps-ds-utils]: Remove: archive file [/home/abi/fetcher/tmp/heps_ds_utils-0.4.7a7.tar.gz]
+[2023-07-18 10:58:35] INFO root fetch - processPackages [heps-ds-utils]: Remove: archive file [/home/abi/fetcher/tmp/heps_ds_utils-0.4.7a8.tar.gz]
+[2023-07-18 10:58:35] INFO root fetch - main [MainThread]: End processing [heps-ds-utils]: success
+[2023-07-18 10:58:35] INFO root fetch - main [MainThread]: Store serial: [18930558]
