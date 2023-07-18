@@ -20422,3 +20422,165 @@ AssertionError: tmp/cellmap-1.0.1.dev202307180907-py3-none-any.whl.zip does not 
 [2023-07-18 11:30:22] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-6.2.25576633875.tar.gz]
 [2023-07-18 11:30:22] INFO root fetch - main [MainThread]: End processing [kodexa-cli]: success
 [2023-07-18 11:30:22] INFO root fetch - main [MainThread]: Store serial: [18930945]
+[2023-07-18 11:35:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18930945]
+[2023-07-18 11:35:31] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-18 11:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qrlew-datasets
+[2023-07-18 11:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smartdash
+[2023-07-18 11:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sj-tool
+[2023-07-18 11:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hyko-sdk
+[2023-07-18 11:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sj-tool
+[2023-07-18 11:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: systembridgeconnector
+[2023-07-18 11:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: edu-rdm-integration
+[2023-07-18 11:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: systembridgeshared
+[2023-07-18 11:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ckanext-versioned-datastore
+[2023-07-18 11:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fossbill
+[2023-07-18 11:35:31] INFO root fetch - processPackages [smartdash]: New version: [0.0.1.dev7] Old Version: [0.0.1.dev6]
+[2023-07-18 11:35:31] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.87]
+[2023-07-18 11:35:31] INFO root fetch - processPackages [hyko-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-18 11:35:31] INFO root fetch - processPackages [ckanext-versioned-datastore]: New version: [5.0.0] Old Version: [4.2.2]
+[2023-07-18 11:35:31] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.87]
+[2023-07-18 11:35:31] INFO root fetch - processPackages [systembridgeconnector]: New version: [3.8.0.dev1] Old Version: [3.7.0.dev1]
+[2023-07-18 11:35:31] INFO root fetch - processPackages [qrlew-datasets]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-18 11:35:31] INFO root fetch - processPackages [smartdash]: Downloading https://files.pythonhosted.org/packages/2d/47/1de7ce26984fb34ab4b98505e62ea547ccf1a719cc111412a2c212950f82/smartdash-0.0.1.dev6.tar.gz
+[2023-07-18 11:35:31] INFO root fetch - processPackages [systembridgeshared]: New version: [3.8.0.dev1] Old Version: [3.7.0.dev1]
+[2023-07-18 11:35:31] INFO root fetch - processPackages [ckanext-versioned-datastore]: Downloading https://files.pythonhosted.org/packages/8c/27/349a53383767d60d451194cc3e44f5b219f70f3fffb594e163d86c7590c2/ckanext-versioned-datastore-4.2.2.tar.gz
+[2023-07-18 11:35:31] INFO root fetch - processPackages [edu-rdm-integration]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-18 11:35:31] INFO root fetch - processPackages [fossbill]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-18 11:35:31] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/05/ef/d688a0d3d1ebbe290d856c8ce4a7474201b4a592c837fdaca5ab1dfb2b19/sj_tool-1.0.87-py3-none-any.whl
+[2023-07-18 11:35:31] INFO root fetch - processPackages [systembridgeshared]: Downloading https://files.pythonhosted.org/packages/ce/cd/fe65200c4bbc88ed1d3315888d9001460bee16ed37c1b62ba4c405846b30/systembridgeshared-3.7.0.dev1.tar.gz
+[2023-07-18 11:35:31] INFO root fetch - processPackages [qrlew-datasets]: Downloading https://files.pythonhosted.org/packages/2e/c9/16b6e88f0586ae29a40907462b56177f649fa678e5f48be894b06ed41f18/qrlew_datasets-0.2.3.tar.gz
+[2023-07-18 11:35:31] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/05/ef/d688a0d3d1ebbe290d856c8ce4a7474201b4a592c837fdaca5ab1dfb2b19/sj_tool-1.0.87-py3-none-any.whl
+[2023-07-18 11:35:31] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/a6/3d/f0ec38cf3a763fce1e964ae250e8288892f46c7d094cf724532e02401b52/systembridgeconnector-3.7.0.dev1.tar.gz
+[2023-07-18 11:35:31] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/f8/1b/02137db3d93571c0867cacae818eb8136e59f81d7b8eeee650eb74521728/hyko_sdk-0.1.8.tar.gz
+[2023-07-18 11:35:31] WARNING root fetch - processPackages [qrlew-datasets]: Skipping package: exceeds size limit 60538756>=10485760
+[2023-07-18 11:35:31] INFO root fetch - processPackages [qrlew-datasets]: Start processing: medcase
+[2023-07-18 11:35:31] INFO root fetch - main [MainThread]: End processing [qrlew-datasets] error
+[2023-07-18 11:35:31] INFO root fetch - processPackages [edu-rdm-integration]: Downloading https://files.pythonhosted.org/packages/5b/6b/31003532b6a831ebe92cf0f82e1bf8695fc201653083d34aa17d71201a33/edu_rdm_integration-0.0.1.tar.gz
+[2023-07-18 11:35:32] INFO root fetch - processPackages [fossbill]: Downloading https://files.pythonhosted.org/packages/7e/17/460e73e159609ef975db6c34688cccc3d0d933cfaecc11c699d48cb82b7f/fossbill-1.0.0-py3-none-any.whl
+[2023-07-18 11:35:32] INFO root fetch - processPackages [smartdash]: Downloading https://files.pythonhosted.org/packages/a2/ed/4e3e46fc03d50591ec4fe69a3d77b3845df5ab7964671a750c3bda45c124/smartdash-0.0.1.dev7.tar.gz
+[2023-07-18 11:35:32] WARNING root fetch - processPackages [medcase]: Skipping, unable to determine old version
+[2023-07-18 11:35:32] INFO root fetch - processPackages [medcase]: Start processing: sqlmuggle
+[2023-07-18 11:35:32] INFO root fetch - main [MainThread]: End processing [medcase] error
+[2023-07-18 11:35:32] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-07-18 11:35:32] INFO root fetch - processPackages [systembridgeshared]: Downloading https://files.pythonhosted.org/packages/cc/38/458ea68ffb7c48287e3d61f72e8696b85a77646c973ec00e9d182c429c49/systembridgeshared-3.8.0.dev1.tar.gz
+[2023-07-18 11:35:32] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-07-18 11:35:32] INFO root fetch - processPackages [ckanext-versioned-datastore]: Downloading https://files.pythonhosted.org/packages/a2/2c/e3adc7d896783b308dd51612b06c31f5aa270a52980083f62c21edb0da80/ckanext-versioned-datastore-5.0.0.tar.gz
+[2023-07-18 11:35:32] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/37/71/5cdf83637bd1d46e740934ac6223393c936abbc36e5a67c6bd1a0054413a/systembridgeconnector-3.8.0.dev1.tar.gz
+[2023-07-18 11:35:32] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/18/dd/0fc13fe8ada91f69ab17997d640fbdeff420217e7e2dc38f5e85178a4187/hyko_sdk-0.1.9.tar.gz
+[2023-07-18 11:35:32] WARNING root fetch - processPackages [sqlmuggle]: Skipping, unable to determine old version
+[2023-07-18 11:35:32] INFO root fetch - processPackages [sqlmuggle]: Start processing: digimat.bac0
+[2023-07-18 11:35:32] INFO root fetch - main [MainThread]: End processing [sqlmuggle] error
+[2023-07-18 11:35:32] INFO root fetch - processPackages [smartdash]: executing diffoscope
+[2023-07-18 11:35:32] INFO root fetch - processPackages [smartdash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartdash-0.0.1.dev6.tar.gz tmp/smartdash-0.0.1.dev7.tar.gz --markdown 20230718/s/smartdash/0.0.1.dev6-0.0.1.dev7/diff.md --exclude *.pyd
+[2023-07-18 11:35:32] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-07-18 11:35:32] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.87-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230718/s/sj-tool/1.0.87-1.0.9/diff.md --exclude *.pyd
+[2023-07-18 11:35:32] INFO root fetch - processPackages [digimat.bac0]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-18 11:35:32] INFO root fetch - processPackages [systembridgeshared]: executing diffoscope
+[2023-07-18 11:35:32] INFO root fetch - processPackages [systembridgeshared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeshared-3.7.0.dev1.tar.gz tmp/systembridgeshared-3.8.0.dev1.tar.gz --markdown 20230718/s/systembridgeshared/3.7.0.dev1-3.8.0.dev1/diff.md --exclude *.pyd
+[2023-07-18 11:35:32] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-07-18 11:35:32] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.87-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230718/s/sj-tool/1.0.87-1.0.9/diff.md --exclude *.pyd
+[2023-07-18 11:35:32] INFO root fetch - processPackages [systembridgeconnector]: executing diffoscope
+[2023-07-18 11:35:32] INFO root fetch - processPackages [systembridgeconnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeconnector-3.7.0.dev1.tar.gz tmp/systembridgeconnector-3.8.0.dev1.tar.gz --markdown 20230718/s/systembridgeconnector/3.7.0.dev1-3.8.0.dev1/diff.md --exclude *.pyd
+[2023-07-18 11:35:32] INFO root fetch - processPackages [hyko-sdk]: executing diffoscope
+[2023-07-18 11:35:32] INFO root fetch - processPackages [hyko-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyko_sdk-0.1.8.tar.gz tmp/hyko_sdk-0.1.9.tar.gz --markdown 20230718/h/hyko-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-18 11:35:32] INFO root fetch - processPackages [edu-rdm-integration]: Downloading https://files.pythonhosted.org/packages/6c/6f/a5e62c5d064772f227b4db62ede59ef4ba4f809c13a4e4bf0472b72a5140/edu_rdm_integration-0.1.0.tar.gz
+[2023-07-18 11:35:32] INFO root fetch - processPackages [fossbill]: Downloading https://files.pythonhosted.org/packages/1c/e0/3246aaba192149ab8d292bfb44cde4aa77219b8dfe2274a2ae77a756958d/fossbill-1.1.0-py3-none-any.whl
+[2023-07-18 11:35:32] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/93/69/86e0838e726c0937c564256e80ef37aa475670fd71b17c0760827302f8e2/digimat.bac0-0.0.7.tar.gz
+[2023-07-18 11:35:32] INFO root fetch - processPackages [edu-rdm-integration]: executing diffoscope
+[2023-07-18 11:35:32] INFO root fetch - processPackages [edu-rdm-integration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edu_rdm_integration-0.0.1.tar.gz tmp/edu_rdm_integration-0.1.0.tar.gz --markdown 20230718/e/edu-rdm-integration/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-18 11:35:32] INFO root fetch - processPackages [ckanext-versioned-datastore]: executing diffoscope
+[2023-07-18 11:35:32] INFO root fetch - processPackages [ckanext-versioned-datastore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-versioned-datastore-4.2.2.tar.gz tmp/ckanext-versioned-datastore-5.0.0.tar.gz --markdown 20230718/c/ckanext-versioned-datastore/4.2.2-5.0.0/diff.md --exclude *.pyd
+[2023-07-18 11:35:32] INFO root fetch - processPackages [fossbill]: executing diffoscope
+[2023-07-18 11:35:32] INFO root fetch - processPackages [fossbill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fossbill-1.0.0-py3-none-any.whl.zip tmp/fossbill-1.1.0-py3-none-any.whl.zip --markdown 20230718/f/fossbill/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-18 11:35:32] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/78/69/c221dd8f83b0cf18b4d8071cc4f3e464fd1a4a46aedfcc6da331732122ce/digimat.bac0-0.0.8.tar.gz
+[2023-07-18 11:35:33] INFO root fetch - processPackages [digimat.bac0]: executing diffoscope
+[2023-07-18 11:35:33] INFO root fetch - processPackages [digimat.bac0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.bac0-0.0.7.tar.gz tmp/digimat.bac0-0.0.8.tar.gz --markdown 20230718/d/digimat.bac0/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-18 11:35:33] INFO root fetch - processPackages [smartdash]: Remove: archive file [/home/abi/fetcher/tmp/smartdash-0.0.1.dev6.tar.gz]
+[2023-07-18 11:35:33] INFO root fetch - processPackages [smartdash]: Remove: archive file [/home/abi/fetcher/tmp/smartdash-0.0.1.dev7.tar.gz]
+[2023-07-18 11:35:33] INFO root fetch - processPackages [smartdash]: Start processing: transitle
+[2023-07-18 11:35:33] INFO root fetch - main [MainThread]: End processing [smartdash]: success
+[2023-07-18 11:35:34] WARNING root fetch - processPackages [transitle]: Skipping, unable to determine old version
+[2023-07-18 11:35:34] INFO root fetch - processPackages [transitle]: Start processing: mccalcy
+[2023-07-18 11:35:34] INFO root fetch - main [MainThread]: End processing [transitle] error
+[2023-07-18 11:35:34] INFO root fetch - processPackages [mccalcy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 11:35:34] INFO root fetch - processPackages [mccalcy]: Downloading https://files.pythonhosted.org/packages/96/2b/85bc383914c57f638f7157482202009b17632a1eedb2a2db40aab9dce2fe/mccalcy-0.0.8.tar.gz
+[2023-07-18 11:35:34] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.8.tar.gz]
+[2023-07-18 11:35:34] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.9.tar.gz]
+[2023-07-18 11:35:34] INFO root fetch - processPackages [hyko-sdk]: Start processing: NodeGraphQt
+[2023-07-18 11:35:34] INFO root fetch - main [MainThread]: End processing [hyko-sdk]: success
+[2023-07-18 11:35:34] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.87-py3-none-any.whl.zip]
+[2023-07-18 11:35:34] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-07-18 11:35:34] INFO root fetch - processPackages [sj-tool]: Start processing: odd-collector-sdk
+[2023-07-18 11:35:34] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-07-18 11:35:34] INFO root fetch - processPackages [systembridgeshared]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeshared-3.7.0.dev1.tar.gz]
+[2023-07-18 11:35:34] INFO root fetch - processPackages [systembridgeshared]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeshared-3.8.0.dev1.tar.gz]
+[2023-07-18 11:35:34] INFO root fetch - processPackages [systembridgeshared]: Start processing: rebotics-sdk
+[2023-07-18 11:35:34] INFO root fetch - main [MainThread]: End processing [systembridgeshared]: success
+[2023-07-18 11:35:34] INFO root fetch - processPackages [odd-collector-sdk]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-18 11:35:34] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-3.7.0.dev1.tar.gz]
+[2023-07-18 11:35:34] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-3.8.0.dev1.tar.gz]
+[2023-07-18 11:35:34] INFO root fetch - processPackages [systembridgeconnector]: Start processing: hyko-sdk
+[2023-07-18 11:35:34] INFO root fetch - main [MainThread]: End processing [systembridgeconnector]: success
+[2023-07-18 11:35:34] INFO root fetch - processPackages [NodeGraphQt]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-18 11:35:34] INFO root fetch - processPackages [sj-tool]: Start processing: polarismesh-specification
+[2023-07-18 11:35:34] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-07-18 11:35:34] INFO root fetch - processPackages [hyko-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-18 11:35:34] INFO root fetch - processPackages [mccalcy]: Downloading https://files.pythonhosted.org/packages/f6/2b/198b5203c8df1e3ccc38c240e96228be5cba931ce71e06726e441d2046dd/mccalcy-0.0.9.tar.gz
+[2023-07-18 11:35:34] INFO root fetch - processPackages [rebotics-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-18 11:35:34] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.7.tar.gz]
+[2023-07-18 11:35:34] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.8.tar.gz]
+[2023-07-18 11:35:34] INFO root fetch - processPackages [digimat.bac0]: Start processing: reaxpro-wrappers
+[2023-07-18 11:35:34] INFO root fetch - main [MainThread]: End processing [digimat.bac0]: success
+[2023-07-18 11:35:34] INFO root fetch - processPackages [polarismesh-specification]: New version: [1.4.0a0] Old Version: [1.3.2a5]
+[2023-07-18 11:35:34] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/f8/1b/02137db3d93571c0867cacae818eb8136e59f81d7b8eeee650eb74521728/hyko_sdk-0.1.8.tar.gz
+[2023-07-18 11:35:34] INFO root fetch - processPackages [edu-rdm-integration]: Remove: archive file [/home/abi/fetcher/tmp/edu_rdm_integration-0.0.1.tar.gz]
+[2023-07-18 11:35:34] INFO root fetch - processPackages [edu-rdm-integration]: Remove: archive file [/home/abi/fetcher/tmp/edu_rdm_integration-0.1.0.tar.gz]
+[2023-07-18 11:35:34] INFO root fetch - main [MainThread]: End processing [edu-rdm-integration]: success
+[2023-07-18 11:35:34] INFO root fetch - processPackages [mccalcy]: executing diffoscope
+[2023-07-18 11:35:34] INFO root fetch - processPackages [mccalcy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mccalcy-0.0.8.tar.gz tmp/mccalcy-0.0.9.tar.gz --markdown 20230718/m/mccalcy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 11:35:34] INFO root fetch - processPackages [odd-collector-sdk]: Downloading https://files.pythonhosted.org/packages/cf/ba/ce865f52258c39c0b1d62ee3998decaf12b77f41fc74cc29f739aef2418a/odd-collector-sdk-0.3.8.tar.gz
+[2023-07-18 11:35:34] INFO root fetch - processPackages [NodeGraphQt]: Downloading https://files.pythonhosted.org/packages/d3/ec/fb950534937f6aaf4efb573d8340c8ffbe55117125821bf6e5348a6ea157/NodeGraphQt-0.6.8.tar.gz
+[2023-07-18 11:35:34] WARNING root fetch - processPackages [reaxpro-wrappers]: Skipping, unable to determine old version
+[2023-07-18 11:35:34] INFO root fetch - main [MainThread]: End processing [reaxpro-wrappers] error
+[2023-07-18 11:35:34] INFO root fetch - processPackages [rebotics-sdk]: Downloading https://files.pythonhosted.org/packages/51/65/08d641bf16e8c340b76e15f57bf4c36d7254f98e49c96a1ac85a040f86b0/rebotics_sdk-0.9.0.tar.gz
+[2023-07-18 11:35:34] INFO root fetch - processPackages [fossbill]: Remove: archive file [/home/abi/fetcher/tmp/fossbill-1.0.0-py3-none-any.whl.zip]
+[2023-07-18 11:35:34] INFO root fetch - processPackages [fossbill]: Remove: archive file [/home/abi/fetcher/tmp/fossbill-1.1.0-py3-none-any.whl.zip]
+[2023-07-18 11:35:34] INFO root fetch - main [MainThread]: End processing [fossbill]: success
+[2023-07-18 11:35:34] INFO root fetch - processPackages [polarismesh-specification]: Downloading https://files.pythonhosted.org/packages/de/28/8d6874a5d8dc5b29acd054788b5b0b369e7dbd486665d0d6cc52827a3119/polarismesh_specification-1.3.2a5.tar.gz
+[2023-07-18 11:35:34] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/18/dd/0fc13fe8ada91f69ab17997d640fbdeff420217e7e2dc38f5e85178a4187/hyko_sdk-0.1.9.tar.gz
+[2023-07-18 11:35:35] INFO root fetch - processPackages [hyko-sdk]: executing diffoscope
+[2023-07-18 11:35:35] INFO root fetch - processPackages [hyko-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyko_sdk-0.1.8.tar.gz tmp/hyko_sdk-0.1.9.tar.gz --markdown 20230718/h/hyko-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-18 11:35:35] INFO root fetch - processPackages [odd-collector-sdk]: Downloading https://files.pythonhosted.org/packages/b7/09/a072e072a86ba00164c8e4095f66211981ce5e1276abb17076ff23854b5d/odd_collector_sdk-0.3.9.tar.gz
+[2023-07-18 11:35:35] INFO root fetch - processPackages [rebotics-sdk]: Downloading https://files.pythonhosted.org/packages/3a/af/a2aa77307cf3fac9701095f738d855d74af3c987de0ec7d7a1d8b75aee7f/rebotics_sdk-0.9.1.tar.gz
+[2023-07-18 11:35:35] INFO root fetch - processPackages [NodeGraphQt]: Downloading https://files.pythonhosted.org/packages/a3/f2/b8c7d17e13327bb0d735dbec6846a6b32ccbd207306ff420c7c93c99d52e/NodeGraphQt-0.6.9.tar.gz
+[2023-07-18 11:35:35] INFO root fetch - processPackages [odd-collector-sdk]: executing diffoscope
+[2023-07-18 11:35:35] INFO root fetch - processPackages [odd-collector-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odd-collector-sdk-0.3.8.tar.gz tmp/odd_collector_sdk-0.3.9.tar.gz --markdown 20230718/o/odd-collector-sdk/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-18 11:35:35] INFO root fetch - processPackages [polarismesh-specification]: Downloading https://files.pythonhosted.org/packages/aa/bd/e9b7a9995f57a33a3942d9517d1d904d61c08f1f51e0235088a7720dba9a/polarismesh_specification-1.4.0a0.tar.gz
+[2023-07-18 11:35:35] INFO root fetch - processPackages [NodeGraphQt]: executing diffoscope
+[2023-07-18 11:35:35] INFO root fetch - processPackages [NodeGraphQt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NodeGraphQt-0.6.8.tar.gz tmp/NodeGraphQt-0.6.9.tar.gz --markdown 20230718/N/NodeGraphQt/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-18 11:35:35] INFO root fetch - processPackages [polarismesh-specification]: executing diffoscope
+[2023-07-18 11:35:35] INFO root fetch - processPackages [polarismesh-specification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polarismesh_specification-1.3.2a5.tar.gz tmp/polarismesh_specification-1.4.0a0.tar.gz --markdown 20230718/p/polarismesh-specification/1.3.2a5-1.4.0a0/diff.md --exclude *.pyd
+[2023-07-18 11:35:35] INFO root fetch - processPackages [mccalcy]: Remove: archive file [/home/abi/fetcher/tmp/mccalcy-0.0.8.tar.gz]
+[2023-07-18 11:35:35] INFO root fetch - processPackages [mccalcy]: Remove: archive file [/home/abi/fetcher/tmp/mccalcy-0.0.9.tar.gz]
+[2023-07-18 11:35:35] INFO root fetch - main [MainThread]: End processing [mccalcy]: success
+[2023-07-18 11:35:35] INFO root fetch - processPackages [rebotics-sdk]: executing diffoscope
+[2023-07-18 11:35:35] INFO root fetch - processPackages [rebotics-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebotics_sdk-0.9.0.tar.gz tmp/rebotics_sdk-0.9.1.tar.gz --markdown 20230718/r/rebotics-sdk/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-18 11:35:35] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.8.tar.gz]
+[2023-07-18 11:35:35] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.9.tar.gz]
+[2023-07-18 11:35:35] INFO root fetch - main [MainThread]: End processing [hyko-sdk]: success
+[2023-07-18 11:35:36] INFO root fetch - processPackages [odd-collector-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odd-collector-sdk-0.3.8.tar.gz]
+[2023-07-18 11:35:36] INFO root fetch - processPackages [odd-collector-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odd_collector_sdk-0.3.9.tar.gz]
+[2023-07-18 11:35:36] INFO root fetch - main [MainThread]: End processing [odd-collector-sdk]: success
+[2023-07-18 11:35:36] INFO root fetch - processPackages [ckanext-versioned-datastore]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-versioned-datastore-4.2.2.tar.gz]
+[2023-07-18 11:35:36] INFO root fetch - processPackages [ckanext-versioned-datastore]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-versioned-datastore-5.0.0.tar.gz]
+[2023-07-18 11:35:36] INFO root fetch - main [MainThread]: End processing [ckanext-versioned-datastore]: success
+[2023-07-18 11:35:36] INFO root fetch - processPackages [NodeGraphQt]: Remove: archive file [/home/abi/fetcher/tmp/NodeGraphQt-0.6.8.tar.gz]
+[2023-07-18 11:35:36] INFO root fetch - processPackages [NodeGraphQt]: Remove: archive file [/home/abi/fetcher/tmp/NodeGraphQt-0.6.9.tar.gz]
+[2023-07-18 11:35:36] INFO root fetch - main [MainThread]: End processing [NodeGraphQt]: success
+[2023-07-18 11:35:36] INFO root fetch - processPackages [rebotics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rebotics_sdk-0.9.0.tar.gz]
+[2023-07-18 11:35:36] INFO root fetch - processPackages [rebotics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rebotics_sdk-0.9.1.tar.gz]
+[2023-07-18 11:35:36] INFO root fetch - main [MainThread]: End processing [rebotics-sdk]: success
+[2023-07-18 11:35:36] INFO root fetch - processPackages [polarismesh-specification]: Remove: archive file [/home/abi/fetcher/tmp/polarismesh_specification-1.3.2a5.tar.gz]
+[2023-07-18 11:35:36] INFO root fetch - processPackages [polarismesh-specification]: Remove: archive file [/home/abi/fetcher/tmp/polarismesh_specification-1.4.0a0.tar.gz]
+[2023-07-18 11:35:36] INFO root fetch - main [MainThread]: End processing [polarismesh-specification]: success
+[2023-07-18 11:35:36] INFO root fetch - main [MainThread]: Store serial: [18931011]
