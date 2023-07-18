@@ -17866,3 +17866,75 @@
 [2023-07-18 09:49:32] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
 [2023-07-18 09:49:32] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-07-18 09:49:32] INFO root fetch - main [MainThread]: Store serial: [18929869]
+[2023-07-18 09:54:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18929869]
+[2023-07-18 09:54:40] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-18 09:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gfx-perp-python-sdk
+[2023-07-18 09:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-nightly-cpu
+[2023-07-18 09:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: task-multiprocess
+[2023-07-18 09:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: whoisdomain
+[2023-07-18 09:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lite-fastapi-local
+[2023-07-18 09:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: playwrightcapture
+[2023-07-18 09:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: threetotheonehalfpy
+[2023-07-18 09:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cenas
+[2023-07-18 09:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ravityemaillib
+[2023-07-18 09:54:41] INFO root fetch - processPackages [gfx-perp-python-sdk]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-18 09:54:41] INFO root fetch - processPackages [cenas]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-18 09:54:41] INFO root fetch - processPackages [lite-fastapi-local]: New version: [0.0.33] Old Version: [0.0.32]
+[2023-07-18 09:54:41] INFO root fetch - processPackages [whoisdomain]: New version: [1.20230717.2] Old Version: [1.20230717.1]
+[2023-07-18 09:54:41] INFO root fetch - processPackages [task-multiprocess]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-18 09:54:41] WARNING root fetch - processPackages [threetotheonehalfpy]: Skipping, unable to determine old version
+[2023-07-18 09:54:41] INFO root fetch - main [MainThread]: End processing [threetotheonehalfpy] error
+[2023-07-18 09:54:41] ERROR root fetch - processPackages [ravityemaillib]: Unable to get metadata: No such project 'ravityemaillib'
+[2023-07-18 09:54:41] INFO root fetch - main [MainThread]: End processing [ravityemaillib] error
+[2023-07-18 09:54:41] INFO root fetch - processPackages [playwrightcapture]: New version: [1.21.2] Old Version: [1.21.1]
+[2023-07-18 09:54:41] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230718] Old Version: [2.14.0.dev20230717]
+[2023-07-18 09:54:41] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/ad/ad/8e6ac29153c6369e5cbdf21108e60070080d9d4978e3a1a5f20be7b9492b/cenas-1.1.8.tar.gz
+[2023-07-18 09:54:41] INFO root fetch - processPackages [lite-fastapi-local]: Downloading https://files.pythonhosted.org/packages/d3/a8/51adabab709a8e8402ab533ec98e31bc05d24e943d79f2a5649e61fc3a19/lite_fastapi_local-0.0.32.tar.gz
+[2023-07-18 09:54:41] INFO root fetch - processPackages [gfx-perp-python-sdk]: Downloading https://files.pythonhosted.org/packages/bd/fb/d4ce01d1b7193ea233928f4cf0098aa97f77c14605c1d83467ae144b671f/gfx_perp_python_sdk-0.0.6.tar.gz
+[2023-07-18 09:54:41] INFO root fetch - processPackages [whoisdomain]: Downloading https://files.pythonhosted.org/packages/52/69/66df3889754b04c1cb25ee38cf25257811f2f54bfe062359d91e9bc2d695/whoisdomain-1.20230717.1.tar.gz
+[2023-07-18 09:54:41] INFO root fetch - processPackages [task-multiprocess]: Downloading https://files.pythonhosted.org/packages/74/ee/a29bbd8155ae737e58c8887c8efc40a9d0e3524d1c3f7ba1dc1f002109fa/task_multiprocess-0.0.5.tar.gz
+[2023-07-18 09:54:41] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/4b/e5/5266bce23a266e5298739648484ea6be29b31ced2fdd2e84d6f7e74db217/tf_nightly_cpu-2.14.0.dev20230717-cp39-cp39-win_amd64.whl
+[2023-07-18 09:54:41] INFO root fetch - processPackages [playwrightcapture]: Downloading https://files.pythonhosted.org/packages/fc/13/0ebea81b9ff0c295771789fa950db842ce59f0a05ec94fdd74e4133071eb/playwrightcapture-1.21.1.tar.gz
+[2023-07-18 09:54:41] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/37/ba/9662c92e6a20bfb5bcfc4f81bef895566ee63c5d4018c2cae825c1c94e21/cenas-1.1.9.tar.gz
+[2023-07-18 09:54:41] INFO root fetch - processPackages [lite-fastapi-local]: Downloading https://files.pythonhosted.org/packages/a7/ca/9417578fe933c44179ff92395c9ea73889f001c9e41299e477983ed06776/lite_fastapi_local-0.0.33.tar.gz
+[2023-07-18 09:54:41] INFO root fetch - processPackages [whoisdomain]: Downloading https://files.pythonhosted.org/packages/db/9c/d456c063d63af904e9efc32d0f9e057890602922b4b602e3b3c3caddbfc6/whoisdomain-1.20230717.2.tar.gz
+[2023-07-18 09:54:41] INFO root fetch - processPackages [gfx-perp-python-sdk]: Downloading https://files.pythonhosted.org/packages/c5/83/76783a8a4a34c21e064105ee35a12a7490982f9f9ccb4374456fe8bb5cc9/gfx_perp_python_sdk-0.0.7.tar.gz
+[2023-07-18 09:54:41] INFO root fetch - processPackages [cenas]: executing diffoscope
+[2023-07-18 09:54:41] INFO root fetch - processPackages [cenas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cenas-1.1.8.tar.gz tmp/cenas-1.1.9.tar.gz --markdown 20230718/c/cenas/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-18 09:54:42] INFO root fetch - processPackages [lite-fastapi-local]: executing diffoscope
+[2023-07-18 09:54:42] INFO root fetch - processPackages [lite-fastapi-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lite_fastapi_local-0.0.32.tar.gz tmp/lite_fastapi_local-0.0.33.tar.gz --markdown 20230718/l/lite-fastapi-local/0.0.32-0.0.33/diff.md --exclude *.pyd
+[2023-07-18 09:54:42] INFO root fetch - processPackages [whoisdomain]: executing diffoscope
+[2023-07-18 09:54:42] INFO root fetch - processPackages [whoisdomain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whoisdomain-1.20230717.1.tar.gz tmp/whoisdomain-1.20230717.2.tar.gz --markdown 20230718/w/whoisdomain/1.20230717.1-1.20230717.2/diff.md --exclude *.pyd
+[2023-07-18 09:54:42] INFO root fetch - processPackages [task-multiprocess]: Downloading https://files.pythonhosted.org/packages/7b/5a/de186afdb53736bf81882223f39f706af680f25bd5f1aa8e0f9d3a0d48dc/task_multiprocess-0.0.6.tar.gz
+[2023-07-18 09:54:42] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/f5/2e/35af52fd6b3bb20ef24ab22dacefafce256fdb3e3fe5370904f5fb965854/tf_nightly_cpu-2.14.0.dev20230718-cp39-cp39-win_amd64.whl
+[2023-07-18 09:54:42] INFO root fetch - processPackages [gfx-perp-python-sdk]: executing diffoscope
+[2023-07-18 09:54:42] INFO root fetch - processPackages [gfx-perp-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gfx_perp_python_sdk-0.0.6.tar.gz tmp/gfx_perp_python_sdk-0.0.7.tar.gz --markdown 20230718/g/gfx-perp-python-sdk/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-18 09:54:42] INFO root fetch - processPackages [playwrightcapture]: Downloading https://files.pythonhosted.org/packages/de/88/444fa8f23661256c00014087a3c912a1c3c78a2e4669f330ac1dfa39c985/playwrightcapture-1.21.2.tar.gz
+[2023-07-18 09:54:42] INFO root fetch - processPackages [task-multiprocess]: executing diffoscope
+[2023-07-18 09:54:42] INFO root fetch - processPackages [task-multiprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/task_multiprocess-0.0.5.tar.gz tmp/task_multiprocess-0.0.6.tar.gz --markdown 20230718/t/task-multiprocess/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-18 09:54:42] INFO root fetch - processPackages [playwrightcapture]: executing diffoscope
+[2023-07-18 09:54:42] INFO root fetch - processPackages [playwrightcapture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playwrightcapture-1.21.1.tar.gz tmp/playwrightcapture-1.21.2.tar.gz --markdown 20230718/p/playwrightcapture/1.21.1-1.21.2/diff.md --exclude *.pyd
+[2023-07-18 09:54:42] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-07-18 09:54:42] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230717-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230718-cp39-cp39-win_amd64.whl.zip --markdown 20230718/t/tf-nightly-cpu/2.14.0.dev20230717-2.14.0.dev20230718/diff.md --exclude *.pyd
+[2023-07-18 09:54:43] INFO root fetch - processPackages [lite-fastapi-local]: Remove: archive file [/home/abi/fetcher/tmp/lite_fastapi_local-0.0.32.tar.gz]
+[2023-07-18 09:54:43] INFO root fetch - processPackages [lite-fastapi-local]: Remove: archive file [/home/abi/fetcher/tmp/lite_fastapi_local-0.0.33.tar.gz]
+[2023-07-18 09:54:43] INFO root fetch - main [MainThread]: End processing [lite-fastapi-local]: success
+[2023-07-18 09:54:43] INFO root fetch - processPackages [whoisdomain]: Remove: archive file [/home/abi/fetcher/tmp/whoisdomain-1.20230717.1.tar.gz]
+[2023-07-18 09:54:43] INFO root fetch - processPackages [whoisdomain]: Remove: archive file [/home/abi/fetcher/tmp/whoisdomain-1.20230717.2.tar.gz]
+[2023-07-18 09:54:43] INFO root fetch - main [MainThread]: End processing [whoisdomain]: success
+[2023-07-18 09:54:43] INFO root fetch - processPackages [gfx-perp-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/gfx_perp_python_sdk-0.0.6.tar.gz]
+[2023-07-18 09:54:43] INFO root fetch - processPackages [gfx-perp-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/gfx_perp_python_sdk-0.0.7.tar.gz]
+[2023-07-18 09:54:43] INFO root fetch - main [MainThread]: End processing [gfx-perp-python-sdk]: success
+[2023-07-18 09:54:43] INFO root fetch - processPackages [task-multiprocess]: Remove: archive file [/home/abi/fetcher/tmp/task_multiprocess-0.0.5.tar.gz]
+[2023-07-18 09:54:43] INFO root fetch - processPackages [task-multiprocess]: Remove: archive file [/home/abi/fetcher/tmp/task_multiprocess-0.0.6.tar.gz]
+[2023-07-18 09:54:43] INFO root fetch - main [MainThread]: End processing [task-multiprocess]: success
+[2023-07-18 09:54:43] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.8.tar.gz]
+[2023-07-18 09:54:43] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.9.tar.gz]
+[2023-07-18 09:54:43] INFO root fetch - main [MainThread]: End processing [cenas]: success
+[2023-07-18 09:54:43] INFO root fetch - processPackages [playwrightcapture]: Remove: archive file [/home/abi/fetcher/tmp/playwrightcapture-1.21.1.tar.gz]
+[2023-07-18 09:54:43] INFO root fetch - processPackages [playwrightcapture]: Remove: archive file [/home/abi/fetcher/tmp/playwrightcapture-1.21.2.tar.gz]
+[2023-07-18 09:54:43] INFO root fetch - main [MainThread]: End processing [playwrightcapture]: success
+[2023-07-18 09:54:43] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230717-cp39-cp39-win_amd64.whl.zip]
+[2023-07-18 09:54:43] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230718-cp39-cp39-win_amd64.whl.zip]
+[2023-07-18 09:54:43] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-07-18 09:54:43] INFO root fetch - main [MainThread]: Store serial: [18929900]
