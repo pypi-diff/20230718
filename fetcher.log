@@ -5289,3 +5289,106 @@
 [2023-07-18 02:40:09] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.6.0a1.tar.gz]
 [2023-07-18 02:40:09] INFO root fetch - main [MainThread]: End processing [vstutils]: success
 [2023-07-18 02:40:09] INFO root fetch - main [MainThread]: Store serial: [18925083]
+[2023-07-18 02:45:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18925083]
+[2023-07-18 02:45:19] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-18 02:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: botocore
+[2023-07-18 02:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: roblox-pyc
+[2023-07-18 02:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-certbot-dns-route53
+[2023-07-18 02:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: boto3
+[2023-07-18 02:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: awscli
+[2023-07-18 02:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: socscikit
+[2023-07-18 02:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: prompttools
+[2023-07-18 02:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk8s-redis
+[2023-07-18 02:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-organizations
+[2023-07-18 02:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ignition-jupyter-kernel
+[2023-07-18 02:45:19] WARNING root fetch - processPackages [ignition-jupyter-kernel]: Skipping, unable to determine old version
+[2023-07-18 02:45:19] INFO root fetch - processPackages [ignition-jupyter-kernel]: Start processing: cdk-certbot-dns-route53
+[2023-07-18 02:45:19] INFO root fetch - main [MainThread]: End processing [ignition-jupyter-kernel] error
+[2023-07-18 02:45:19] INFO root fetch - processPackages [prompttools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 02:45:19] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-18 02:45:19] INFO root fetch - processPackages [socscikit]: New version: [0.0.5.9] Old Version: [0.0.5.8]
+[2023-07-18 02:45:19] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-07-18 02:45:19] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-18 02:45:19] INFO root fetch - processPackages [cdk8s-redis]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-18 02:45:19] INFO root fetch - processPackages [boto3]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-07-18 02:45:19] INFO root fetch - processPackages [awscli]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-18 02:45:19] INFO root fetch - processPackages [botocore]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-18 02:45:19] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-07-18 02:45:19] INFO root fetch - processPackages [socscikit]: Downloading https://files.pythonhosted.org/packages/ce/22/d9d3b284b4ad480f46b1e54951abb4933e7ef57c4e9894e120fdd760cd34/socscikit-0.0.5.8.tar.gz
+[2023-07-18 02:45:19] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-07-18 02:45:19] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-18 02:45:19] INFO root fetch - processPackages [prompttools]: Downloading https://files.pythonhosted.org/packages/26/c3/a2d7c4e949b8684bc25b5d37c302593da2b28e0b3079d38826cc813f781e/prompttools-0.0.8.tar.gz
+[2023-07-18 02:45:19] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/3a/17/b6246ecdc02e08f5a2a265eb410094bc1978a1c23a9ff1ef9625deee1c7c/cdk-certbot-dns-route53-2.1.98.tar.gz
+[2023-07-18 02:45:19] INFO root fetch - processPackages [awscli]: Downloading https://files.pythonhosted.org/packages/84/06/782193c5b3720ef9eff21fa2d4c6b7cab72ac635f9865449796fa78e9551/awscli-1.9.8.tar.gz
+[2023-07-18 02:45:19] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/5a/8c/825ae4195bc273e13b4fb93e9ef112419d75fcd2c5194121692b5cd9fd19/cdk8s-redis-0.1.98.tar.gz
+[2023-07-18 02:45:19] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/3a/17/b6246ecdc02e08f5a2a265eb410094bc1978a1c23a9ff1ef9625deee1c7c/cdk-certbot-dns-route53-2.1.98.tar.gz
+[2023-07-18 02:45:19] INFO root fetch - processPackages [botocore]: Downloading https://files.pythonhosted.org/packages/cd/01/3bd0656f80c5afb2f0e09f09215178a501191aef9fff0a43b156cf1c9665/botocore-1.9.8.tar.gz
+[2023-07-18 02:45:19] INFO root fetch - processPackages [boto3]: Downloading https://files.pythonhosted.org/packages/95/51/f6788115251e93bb35a56196036aa225060105616d369a2b1a712f537e1e/boto3-1.9.98.tar.gz
+[2023-07-18 02:45:20] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-07-18 02:45:20] INFO root fetch - processPackages [prompttools]: Downloading https://files.pythonhosted.org/packages/58/ef/26a50efed9a40388c91cfa74d13b4df8e479fcff0a1c73af8e542f1ddf85/prompttools-0.0.9.tar.gz
+[2023-07-18 02:45:20] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-18 02:45:20] INFO root fetch - processPackages [socscikit]: Downloading https://files.pythonhosted.org/packages/7b/65/17f252baeca097adab2b3610351057a1e9ca0e768aa80e2d4636eccc1f18/socscikit-0.0.5.9.tar.gz
+[2023-07-18 02:45:20] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/cc/b6/654c84ec7d8620b5f17a064219a77d716eea46f886b19741e6e9cf3eff24/cdk-certbot-dns-route53-2.1.99.tar.gz
+[2023-07-18 02:45:20] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/cc/b6/654c84ec7d8620b5f17a064219a77d716eea46f886b19741e6e9cf3eff24/cdk-certbot-dns-route53-2.1.99.tar.gz
+[2023-07-18 02:45:20] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-07-18 02:45:20] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230718/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-18 02:45:20] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/f2/71/df3da901bc2e5bd800b595302ae54fadb2f66a5789cfb0dd7e7d34eb2d91/cdk8s-redis-0.1.99.tar.gz
+[2023-07-18 02:45:20] INFO root fetch - processPackages [prompttools]: executing diffoscope
+[2023-07-18 02:45:20] INFO root fetch - processPackages [prompttools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompttools-0.0.8.tar.gz tmp/prompttools-0.0.9.tar.gz --markdown 20230718/p/prompttools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 02:45:20] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-18 02:45:20] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230718/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-18 02:45:20] INFO root fetch - processPackages [awscli]: Downloading https://files.pythonhosted.org/packages/03/ae/0ab53e9f7ac1eff217ca8355af05fe5fbdd9fd087e75a7abcda0c9179848/awscli-1.9.9.tar.gz
+[2023-07-18 02:45:20] INFO root fetch - processPackages [boto3]: Downloading https://files.pythonhosted.org/packages/a4/40/6b6504d54ab9fbb16030052d363568399b7678ac18dc233de23fe7ed1922/boto3-1.9.99.tar.gz
+[2023-07-18 02:45:20] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2023-07-18 02:45:20] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.1.98.tar.gz tmp/cdk-certbot-dns-route53-2.1.99.tar.gz --markdown 20230718/c/cdk-certbot-dns-route53/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-07-18 02:45:20] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2023-07-18 02:45:20] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.1.98.tar.gz tmp/cdk-certbot-dns-route53-2.1.99.tar.gz --markdown 20230718/c/cdk-certbot-dns-route53/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-07-18 02:45:20] INFO root fetch - processPackages [cdk8s-redis]: executing diffoscope
+[2023-07-18 02:45:20] INFO root fetch - processPackages [cdk8s-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-redis-0.1.98.tar.gz tmp/cdk8s-redis-0.1.99.tar.gz --markdown 20230718/c/cdk8s-redis/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-18 02:45:20] INFO root fetch - processPackages [socscikit]: executing diffoscope
+[2023-07-18 02:45:20] INFO root fetch - processPackages [socscikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socscikit-0.0.5.8.tar.gz tmp/socscikit-0.0.5.9.tar.gz --markdown 20230718/s/socscikit/0.0.5.8-0.0.5.9/diff.md --exclude *.pyd
+[2023-07-18 02:45:20] INFO root fetch - processPackages [boto3]: executing diffoscope
+[2023-07-18 02:45:20] INFO root fetch - processPackages [boto3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-1.9.98.tar.gz tmp/boto3-1.9.99.tar.gz --markdown 20230718/b/boto3/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-07-18 02:45:20] INFO root fetch - processPackages [awscli]: executing diffoscope
+[2023-07-18 02:45:20] INFO root fetch - processPackages [awscli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awscli-1.9.8.tar.gz tmp/awscli-1.9.9.tar.gz --markdown 20230718/a/awscli/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-18 02:45:21] INFO root fetch - processPackages [botocore]: Downloading https://files.pythonhosted.org/packages/58/63/da4e26f62f9cf5702bb82462ca688961afdf72123f071831ed927b19c7a0/botocore-1.9.9.tar.gz
+[2023-07-18 02:45:21] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-07-18 02:45:21] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-07-18 02:45:21] INFO root fetch - processPackages [pepperize.cdk-organizations]: Start processing: cdktf-proxmox
+[2023-07-18 02:45:21] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-07-18 02:45:21] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-18 02:45:21] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-18 02:45:21] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-18 02:45:21] INFO root fetch - processPackages [cdktf-proxmox]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-18 02:45:21] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.1.98.tar.gz]
+[2023-07-18 02:45:21] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.1.99.tar.gz]
+[2023-07-18 02:45:21] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2023-07-18 02:45:21] INFO root fetch - processPackages [cdktf-proxmox]: Downloading https://files.pythonhosted.org/packages/d9/ee/7220413f67291e445284d014e3e51e97a33ce5125383f30b4756c598d8d8/cdktf-proxmox-0.0.98.tar.gz
+[2023-07-18 02:45:21] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2023-07-18 02:45:21] INFO root fetch - processPackages [prompttools]: Remove: archive file [/home/abi/fetcher/tmp/prompttools-0.0.8.tar.gz]
+[2023-07-18 02:45:21] INFO root fetch - processPackages [prompttools]: Remove: archive file [/home/abi/fetcher/tmp/prompttools-0.0.9.tar.gz]
+[2023-07-18 02:45:21] INFO root fetch - main [MainThread]: End processing [prompttools]: success
+[2023-07-18 02:45:22] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.98.tar.gz]
+[2023-07-18 02:45:22] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.99.tar.gz]
+[2023-07-18 02:45:22] INFO root fetch - main [MainThread]: End processing [cdk8s-redis]: success
+[2023-07-18 02:45:22] INFO root fetch - processPackages [botocore]: executing diffoscope
+[2023-07-18 02:45:22] INFO root fetch - processPackages [botocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-1.9.8.tar.gz tmp/botocore-1.9.9.tar.gz --markdown 20230718/b/botocore/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-18 02:45:22] INFO root fetch - processPackages [cdktf-proxmox]: Downloading https://files.pythonhosted.org/packages/ae/43/6d62460a5f0e800acb4dffd0cf8c675fbd2916d3287669415148cb96adfe/cdktf-proxmox-0.0.99.tar.gz
+[2023-07-18 02:45:22] INFO root fetch - processPackages [boto3]: Remove: archive file [/home/abi/fetcher/tmp/boto3-1.9.98.tar.gz]
+[2023-07-18 02:45:22] INFO root fetch - processPackages [boto3]: Remove: archive file [/home/abi/fetcher/tmp/boto3-1.9.99.tar.gz]
+[2023-07-18 02:45:22] INFO root fetch - main [MainThread]: End processing [boto3]: success
+[2023-07-18 02:45:22] INFO root fetch - processPackages [cdktf-proxmox]: executing diffoscope
+[2023-07-18 02:45:22] INFO root fetch - processPackages [cdktf-proxmox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-proxmox-0.0.98.tar.gz tmp/cdktf-proxmox-0.0.99.tar.gz --markdown 20230718/c/cdktf-proxmox/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-18 02:45:22] INFO root fetch - processPackages [socscikit]: Remove: archive file [/home/abi/fetcher/tmp/socscikit-0.0.5.8.tar.gz]
+[2023-07-18 02:45:22] INFO root fetch - processPackages [socscikit]: Remove: archive file [/home/abi/fetcher/tmp/socscikit-0.0.5.9.tar.gz]
+[2023-07-18 02:45:22] INFO root fetch - main [MainThread]: End processing [socscikit]: success
+[2023-07-18 02:45:23] INFO root fetch - processPackages [cdktf-proxmox]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-proxmox-0.0.98.tar.gz]
+[2023-07-18 02:45:23] INFO root fetch - processPackages [cdktf-proxmox]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-proxmox-0.0.99.tar.gz]
+[2023-07-18 02:45:23] INFO root fetch - main [MainThread]: End processing [cdktf-proxmox]: success
+[2023-07-18 02:45:26] INFO root fetch - processPackages [awscli]: Remove: archive file [/home/abi/fetcher/tmp/awscli-1.9.8.tar.gz]
+[2023-07-18 02:45:26] INFO root fetch - processPackages [awscli]: Remove: archive file [/home/abi/fetcher/tmp/awscli-1.9.9.tar.gz]
+[2023-07-18 02:45:26] INFO root fetch - main [MainThread]: End processing [awscli]: success
+[2023-07-18 02:45:31] INFO root fetch - processPackages [botocore]: Remove: archive file [/home/abi/fetcher/tmp/botocore-1.9.8.tar.gz]
+[2023-07-18 02:45:31] INFO root fetch - processPackages [botocore]: Remove: archive file [/home/abi/fetcher/tmp/botocore-1.9.9.tar.gz]
+[2023-07-18 02:45:31] INFO root fetch - main [MainThread]: End processing [botocore]: success
+[2023-07-18 02:45:31] INFO root fetch - main [MainThread]: Store serial: [18925120]
