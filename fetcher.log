@@ -12672,3 +12672,63 @@
 [2023-07-18 06:11:48] INFO root fetch - processPackages [quickfix-ch]: Remove: archive file [/home/abi/fetcher/tmp/quickfix-ch-0.0.9.tar.gz]
 [2023-07-18 06:11:48] INFO root fetch - main [MainThread]: End processing [quickfix-ch]: success
 [2023-07-18 06:11:48] INFO root fetch - main [MainThread]: Store serial: [18927827]
+[2023-07-18 06:16:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18927827]
+[2023-07-18 06:16:57] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-18 06:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-banking-ach-direct-debit
+[2023-07-18 06:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-account-banking-ach-direct-debit
+[2023-07-18 06:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-l10n-usa
+[2023-07-18 06:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chainedci
+[2023-07-18 06:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easyFlyTracker
+[2023-07-18 06:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addons-oca-maintenance
+[2023-07-18 06:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ykenan-util
+[2023-07-18 06:16:57] INFO root fetch - processPackages [easyFlyTracker]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-18 06:16:57] INFO root fetch - processPackages [odoo-addons-oca-l10n-usa]: New version: [16.0.20230712.0] Old Version: [16.0.20230316.0]
+[2023-07-18 06:16:57] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: New version: [16.0.20230717.0] Old Version: [16.0.20230706.1]
+[2023-07-18 06:16:57] INFO root fetch - processPackages [odoo14-addon-account-banking-ach-direct-debit]: New version: [14.0.1.0.1.dev5] Old Version: [14.0.1.0.1.dev4]
+[2023-07-18 06:16:57] WARNING root fetch - processPackages [odoo-addon-account-banking-ach-direct-debit]: Skipping, unable to determine old version
+[2023-07-18 06:16:57] INFO root fetch - processPackages [ykenan-util]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-18 06:16:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-ach-direct-debit] error
+[2023-07-18 06:16:57] INFO root fetch - processPackages [chainedci]: New version: [1.5.39] Old Version: [1.5.38]
+[2023-07-18 06:16:57] INFO root fetch - processPackages [ykenan-util]: Downloading https://files.pythonhosted.org/packages/79/88/c4573f06fee9cf05f64cd88987358519695f0c204ef0d8bb88685d8c1146/ykenan_util-0.0.2.tar.gz
+[2023-07-18 06:16:57] INFO root fetch - processPackages [easyFlyTracker]: Downloading https://files.pythonhosted.org/packages/8f/9d/332f755c47d9311015a46e603c8bda73c9ebf413c06e872fb5acd56c6b70/easyFlyTracker-0.9.2.tar.gz
+[2023-07-18 06:16:57] INFO root fetch - processPackages [chainedci]: Downloading https://files.pythonhosted.org/packages/b2/5b/93b230885480650db6f80c77e51771e16837cf960d04d1f0c009d4f72163/chainedci-1.5.38.tar.gz
+[2023-07-18 06:16:57] INFO root fetch - processPackages [odoo-addons-oca-l10n-usa]: Downloading https://files.pythonhosted.org/packages/f3/17/ec4eceb689ec3dfd1265239361985de990a4070e177e3e7cd5595e865a9d/odoo_addons_oca_l10n_usa-16.0.20230316.0-py3-none-any.whl
+[2023-07-18 06:16:57] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: Downloading https://files.pythonhosted.org/packages/1d/bc/a362fd259321ee12b6e1b5e92ba2188827a0b385ba89e6293dfd7a1f6926/odoo_addons_oca_maintenance-16.0.20230706.1-py3-none-any.whl
+[2023-07-18 06:16:57] INFO root fetch - processPackages [odoo14-addon-account-banking-ach-direct-debit]: Downloading https://files.pythonhosted.org/packages/d3/8f/caf7f5255245970937be372ff9a314f74652b76a0c4b2c809571a0517f50/odoo14_addon_account_banking_ach_direct_debit-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-07-18 06:16:58] INFO root fetch - processPackages [ykenan-util]: Downloading https://files.pythonhosted.org/packages/8f/88/c9dd67f2ade6c837c439eb531e0a98e20dcc2e9db75e7fae432265172ab3/ykenan_util-0.0.3.tar.gz
+[2023-07-18 06:16:58] INFO root fetch - processPackages [ykenan-util]: executing diffoscope
+[2023-07-18 06:16:58] INFO root fetch - processPackages [ykenan-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ykenan_util-0.0.2.tar.gz tmp/ykenan_util-0.0.3.tar.gz --markdown 20230718/y/ykenan-util/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-18 06:16:58] INFO root fetch - processPackages [chainedci]: Downloading https://files.pythonhosted.org/packages/63/54/f22e08c88e155249ad52c6acec4f44b326ae939f2dcf8b0dfdb33149c9ec/chainedci-1.5.39.tar.gz
+[2023-07-18 06:16:58] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: Downloading https://files.pythonhosted.org/packages/2f/1a/4bd26dcfec13af864d34883f9dd575c437256263c562977f46819d84a75b/odoo_addons_oca_maintenance-16.0.20230717.0-py3-none-any.whl
+[2023-07-18 06:16:58] INFO root fetch - processPackages [odoo14-addon-account-banking-ach-direct-debit]: Downloading https://files.pythonhosted.org/packages/d6/ed/8a01662fadb6314d156e64249f7baea1bbb06e8e3a6c07ebf5f0174d8ab4/odoo14_addon_account_banking_ach_direct_debit-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-07-18 06:16:58] INFO root fetch - processPackages [odoo-addons-oca-l10n-usa]: Downloading https://files.pythonhosted.org/packages/a2/f6/c4480a16f8a4efa38a636e17b463e8adb75cb8a12554adff5924c74a904e/odoo_addons_oca_l10n_usa-16.0.20230712.0-py3-none-any.whl
+[2023-07-18 06:16:58] INFO root fetch - processPackages [chainedci]: executing diffoscope
+[2023-07-18 06:16:58] INFO root fetch - processPackages [chainedci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainedci-1.5.38.tar.gz tmp/chainedci-1.5.39.tar.gz --markdown 20230718/c/chainedci/1.5.38-1.5.39/diff.md --exclude *.pyd
+[2023-07-18 06:16:58] INFO root fetch - processPackages [odoo14-addon-account-banking-ach-direct-debit]: executing diffoscope
+[2023-07-18 06:16:58] INFO root fetch - processPackages [odoo14-addon-account-banking-ach-direct-debit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_banking_ach_direct_debit-14.0.1.0.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_account_banking_ach_direct_debit-14.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20230718/o/odoo14-addon-account-banking-ach-direct-debit/14.0.1.0.1.dev4-14.0.1.0.1.dev5/diff.md --exclude *.pyd
+[2023-07-18 06:16:58] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: executing diffoscope
+[2023-07-18 06:16:58] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_maintenance-16.0.20230706.1-py3-none-any.whl.zip tmp/odoo_addons_oca_maintenance-16.0.20230717.0-py3-none-any.whl.zip --markdown 20230718/o/odoo-addons-oca-maintenance/16.0.20230706.1-16.0.20230717.0/diff.md --exclude *.pyd
+[2023-07-18 06:16:58] INFO root fetch - processPackages [odoo-addons-oca-l10n-usa]: executing diffoscope
+[2023-07-18 06:16:58] INFO root fetch - processPackages [odoo-addons-oca-l10n-usa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_usa-16.0.20230316.0-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_usa-16.0.20230712.0-py3-none-any.whl.zip --markdown 20230718/o/odoo-addons-oca-l10n-usa/16.0.20230316.0-16.0.20230712.0/diff.md --exclude *.pyd
+[2023-07-18 06:16:59] INFO root fetch - processPackages [easyFlyTracker]: Downloading https://files.pythonhosted.org/packages/50/6c/7e7ecfd546944c56c0a0e1928cc71bccc5ddc216f0f646b8000edc02aa85/easyFlyTracker-0.9.3.tar.gz
+[2023-07-18 06:16:59] INFO root fetch - processPackages [ykenan-util]: Remove: archive file [/home/abi/fetcher/tmp/ykenan_util-0.0.2.tar.gz]
+[2023-07-18 06:16:59] INFO root fetch - processPackages [ykenan-util]: Remove: archive file [/home/abi/fetcher/tmp/ykenan_util-0.0.3.tar.gz]
+[2023-07-18 06:16:59] INFO root fetch - main [MainThread]: End processing [ykenan-util]: success
+[2023-07-18 06:16:59] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_maintenance-16.0.20230706.1-py3-none-any.whl.zip]
+[2023-07-18 06:16:59] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_maintenance-16.0.20230717.0-py3-none-any.whl.zip]
+[2023-07-18 06:16:59] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-maintenance]: success
+[2023-07-18 06:16:59] INFO root fetch - processPackages [chainedci]: Remove: archive file [/home/abi/fetcher/tmp/chainedci-1.5.38.tar.gz]
+[2023-07-18 06:16:59] INFO root fetch - processPackages [chainedci]: Remove: archive file [/home/abi/fetcher/tmp/chainedci-1.5.39.tar.gz]
+[2023-07-18 06:16:59] INFO root fetch - main [MainThread]: End processing [chainedci]: success
+[2023-07-18 06:16:59] INFO root fetch - processPackages [odoo14-addon-account-banking-ach-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_banking_ach_direct_debit-14.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2023-07-18 06:16:59] INFO root fetch - processPackages [odoo14-addon-account-banking-ach-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_banking_ach_direct_debit-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2023-07-18 06:16:59] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-banking-ach-direct-debit]: success
+[2023-07-18 06:16:59] INFO root fetch - processPackages [odoo-addons-oca-l10n-usa]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_usa-16.0.20230316.0-py3-none-any.whl.zip]
+[2023-07-18 06:16:59] INFO root fetch - processPackages [odoo-addons-oca-l10n-usa]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_usa-16.0.20230712.0-py3-none-any.whl.zip]
+[2023-07-18 06:16:59] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-usa]: success
+[2023-07-18 06:17:00] INFO root fetch - processPackages [easyFlyTracker]: executing diffoscope
+[2023-07-18 06:17:00] INFO root fetch - processPackages [easyFlyTracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyFlyTracker-0.9.2.tar.gz tmp/easyFlyTracker-0.9.3.tar.gz --markdown 20230718/e/easyFlyTracker/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-18 06:17:01] INFO root fetch - processPackages [easyFlyTracker]: Remove: archive file [/home/abi/fetcher/tmp/easyFlyTracker-0.9.2.tar.gz]
+[2023-07-18 06:17:01] INFO root fetch - processPackages [easyFlyTracker]: Remove: archive file [/home/abi/fetcher/tmp/easyFlyTracker-0.9.3.tar.gz]
+[2023-07-18 06:17:01] INFO root fetch - main [MainThread]: End processing [easyFlyTracker]: success
+[2023-07-18 06:17:01] INFO root fetch - main [MainThread]: Store serial: [18927848]
