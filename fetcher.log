@@ -6494,3 +6494,105 @@
 [2023-07-18 03:43:48] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
 [2023-07-18 03:43:48] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
 [2023-07-18 03:43:48] INFO root fetch - main [MainThread]: Store serial: [18925599]
+[2023-07-18 03:48:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18925599]
+[2023-07-18 03:48:57] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-18 03:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proactive-jupyter-kernel
+[2023-07-18 03:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TheSilent
+[2023-07-18 03:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ftdz-vip
+[2023-07-18 03:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vango
+[2023-07-18 03:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-django
+[2023-07-18 03:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yasim
+[2023-07-18 03:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-hugo-deploy
+[2023-07-18 03:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-apl
+[2023-07-18 03:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: experiment-config
+[2023-07-18 03:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: omnata-plugin-runtime
+[2023-07-18 03:48:57] WARNING root fetch - processPackages [yasim]: Skipping, unable to determine old version
+[2023-07-18 03:48:57] INFO root fetch - processPackages [yasim]: Start processing: mango-framework
+[2023-07-18 03:48:57] INFO root fetch - main [MainThread]: End processing [yasim] error
+[2023-07-18 03:48:57] INFO root fetch - processPackages [vango]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-07-18 03:48:57] WARNING root fetch - processPackages [ftdz-vip]: Skipping, unable to determine old version
+[2023-07-18 03:48:57] INFO root fetch - processPackages [ftdz-vip]: Start processing: opvious
+[2023-07-18 03:48:57] INFO root fetch - main [MainThread]: End processing [ftdz-vip] error
+[2023-07-18 03:48:57] INFO root fetch - processPackages [experiment-config]: New version: [0.22] Old Version: [0.21]
+[2023-07-18 03:48:57] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.901] Old Version: [0.0.900]
+[2023-07-18 03:48:57] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-18 03:48:57] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-18 03:48:57] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-07-18 03:48:57] INFO root fetch - processPackages [mango-framework]: New version: [0.7.0] Old Version: [0.6.7]
+[2023-07-18 03:48:57] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-18 03:48:57] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-18 03:48:57] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-18 03:48:58] INFO root fetch - processPackages [experiment-config]: Downloading https://files.pythonhosted.org/packages/1f/b6/845c3710822ac1d8d29c6599b4325d3c5d33278bb38984ab372d32173bf3/experiment-config-0.21.tar.gz
+[2023-07-18 03:48:58] INFO root fetch - processPackages [mango-framework]: Downloading https://files.pythonhosted.org/packages/33/57/10a4dd2c05bffe60ed39cb71caec1b6eed13edc5e43a6d60a76cc68c6ca7/mango-framework-0.6.7.tar.gz
+[2023-07-18 03:48:58] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/62/c9/9757f979cb53967223bacfbe1f9a1723e26806f1da80899fa5569a4b8486/nbdev-apl-0.0.900.tar.gz
+[2023-07-18 03:48:58] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-07-18 03:48:58] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/53/a1/adf4ca1ed5ea551e6c30a8edb566fbce83dbedc1f72d8e262ff85d80881e/omnata_plugin_runtime-0.1.8.tar.gz
+[2023-07-18 03:48:58] INFO root fetch - processPackages [vango]: Downloading https://files.pythonhosted.org/packages/1b/15/877879d787668e50b66f3ced759575609c30951fe620c38cf382320ee938/vango-1.0.3.tar.gz
+[2023-07-18 03:48:58] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-18 03:48:58] INFO root fetch - processPackages [opvious]: Downloading https://files.pythonhosted.org/packages/d1/8f/b7e05d9b24e4dd1af2b9eab96fa7d1f97af088ed0836d9d8cfdb60c51360/opvious-0.9.5.tar.gz
+[2023-07-18 03:48:58] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-07-18 03:48:58] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-07-18 03:48:58] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-18 03:48:58] INFO root fetch - processPackages [experiment-config]: Downloading https://files.pythonhosted.org/packages/5a/a9/53dd981bafb991a9fe5cd63f60b18811981b98e3940411d7238e67a5332f/experiment-config-0.22.tar.gz
+[2023-07-18 03:48:58] INFO root fetch - processPackages [mango-framework]: Downloading https://files.pythonhosted.org/packages/a7/eb/7c64d3907811c990028e5422dc9bacc1ee437e876b502a23430215063bb3/mango-framework-0.7.0.tar.gz
+[2023-07-18 03:48:58] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/55/fe/13756fb4ac50cf0e1215707dc1c39da2cd84be132948143f0ec436c1cc3f/nbdev-apl-0.0.901.tar.gz
+[2023-07-18 03:48:58] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-07-18 03:48:58] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/cf/ef/88a357f5f8f3b7c775ede6822e6617364cfdcf04a79bca1e74d50ae0aae1/omnata_plugin_runtime-0.1.9.tar.gz
+[2023-07-18 03:48:58] INFO root fetch - processPackages [opvious]: Downloading https://files.pythonhosted.org/packages/c2/c3/e2b95ca71e91eb624497389cb2391d3310907b4f9f25dee1a75b99798c14/opvious-0.9.6.tar.gz
+[2023-07-18 03:48:58] INFO root fetch - processPackages [vango]: Downloading https://files.pythonhosted.org/packages/d6/7b/7272164032e88134b5d434e395ec04b0b7f43f53176ecbe04013b3b1ee48/vango-1.1.0.tar.gz
+[2023-07-18 03:48:58] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-18 03:48:58] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-07-18 03:48:58] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230718/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-18 03:48:58] INFO root fetch - processPackages [experiment-config]: executing diffoscope
+[2023-07-18 03:48:58] INFO root fetch - processPackages [experiment-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experiment-config-0.21.tar.gz tmp/experiment-config-0.22.tar.gz --markdown 20230718/e/experiment-config/0.21-0.22/diff.md --exclude *.pyd
+[2023-07-18 03:48:58] INFO root fetch - processPackages [mango-framework]: executing diffoscope
+[2023-07-18 03:48:58] INFO root fetch - processPackages [mango-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango-framework-0.6.7.tar.gz tmp/mango-framework-0.7.0.tar.gz --markdown 20230718/m/mango-framework/0.6.7-0.7.0/diff.md --exclude *.pyd
+[2023-07-18 03:48:58] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2023-07-18 03:48:58] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20230718/o/opvious/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-18 03:48:58] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-07-18 03:48:58] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.900.tar.gz tmp/nbdev-apl-0.0.901.tar.gz --markdown 20230718/n/nbdev-apl/0.0.900-0.0.901/diff.md --exclude *.pyd
+[2023-07-18 03:48:58] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-07-18 03:48:58] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-07-18 03:48:58] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230718/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-07-18 03:48:58] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-07-18 03:48:58] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.8.tar.gz tmp/omnata_plugin_runtime-0.1.9.tar.gz --markdown 20230718/o/omnata-plugin-runtime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-18 03:48:58] INFO root fetch - processPackages [vango]: executing diffoscope
+[2023-07-18 03:48:58] INFO root fetch - processPackages [vango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vango-1.0.3.tar.gz tmp/vango-1.1.0.tar.gz --markdown 20230718/v/vango/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-07-18 03:48:59] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-07-18 03:48:59] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230718/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-18 03:48:59] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-07-18 03:48:59] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230718/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-18 03:49:00] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-18 03:49:00] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-18 03:49:00] INFO root fetch - processPackages [TheSilent]: Start processing: syssqllib
+[2023-07-18 03:49:00] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-18 03:49:00] INFO root fetch - processPackages [mango-framework]: Remove: archive file [/home/abi/fetcher/tmp/mango-framework-0.6.7.tar.gz]
+[2023-07-18 03:49:00] INFO root fetch - processPackages [mango-framework]: Remove: archive file [/home/abi/fetcher/tmp/mango-framework-0.7.0.tar.gz]
+[2023-07-18 03:49:00] INFO root fetch - main [MainThread]: End processing [mango-framework]: success
+[2023-07-18 03:49:00] INFO root fetch - processPackages [experiment-config]: Remove: archive file [/home/abi/fetcher/tmp/experiment-config-0.21.tar.gz]
+[2023-07-18 03:49:00] INFO root fetch - processPackages [experiment-config]: Remove: archive file [/home/abi/fetcher/tmp/experiment-config-0.22.tar.gz]
+[2023-07-18 03:49:00] INFO root fetch - main [MainThread]: End processing [experiment-config]: success
+[2023-07-18 03:49:00] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-07-18 03:49:00] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-07-18 03:49:00] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-07-18 03:49:00] ERROR root fetch - processPackages [syssqllib]: Unable to get metadata: No such project 'syssqllib'
+[2023-07-18 03:49:00] INFO root fetch - main [MainThread]: End processing [syssqllib] error
+[2023-07-18 03:49:00] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-07-18 03:49:00] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-07-18 03:49:00] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-07-18 03:49:00] INFO root fetch - processPackages [opvious]: Remove: archive file [/home/abi/fetcher/tmp/opvious-0.9.5.tar.gz]
+[2023-07-18 03:49:00] INFO root fetch - processPackages [opvious]: Remove: archive file [/home/abi/fetcher/tmp/opvious-0.9.6.tar.gz]
+[2023-07-18 03:49:00] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2023-07-18 03:49:00] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.8.tar.gz]
+[2023-07-18 03:49:00] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.9.tar.gz]
+[2023-07-18 03:49:00] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-07-18 03:49:00] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-07-18 03:49:00] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-07-18 03:49:00] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-07-18 03:49:00] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.900.tar.gz]
+[2023-07-18 03:49:00] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.901.tar.gz]
+[2023-07-18 03:49:00] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-07-18 03:49:01] INFO root fetch - processPackages [vango]: Remove: archive file [/home/abi/fetcher/tmp/vango-1.0.3.tar.gz]
+[2023-07-18 03:49:01] INFO root fetch - processPackages [vango]: Remove: archive file [/home/abi/fetcher/tmp/vango-1.1.0.tar.gz]
+[2023-07-18 03:49:01] INFO root fetch - main [MainThread]: End processing [vango]: success
+[2023-07-18 03:49:01] INFO root fetch - main [MainThread]: Store serial: [18925641]
