@@ -19763,3 +19763,162 @@ AssertionError: tmp/cellmap-1.0.1.dev202307180907-py3-none-any.whl.zip does not 
 [2023-07-18 11:09:08] INFO root fetch - processPackages [spikeinterface]: Remove: archive file [/home/abi/fetcher/tmp/spikeinterface-0.98.1.tar.gz]
 [2023-07-18 11:09:08] INFO root fetch - main [MainThread]: End processing [spikeinterface]: success
 [2023-07-18 11:09:08] INFO root fetch - main [MainThread]: Store serial: [18930674]
+[2023-07-18 11:14:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18930674]
+[2023-07-18 11:14:17] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-18 11:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ckanext-versioned-datastore
+[2023-07-18 11:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kshell-utilities
+[2023-07-18 11:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anon-sdk
+[2023-07-18 11:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: feffery-utils-components
+[2023-07-18 11:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyramm
+[2023-07-18 11:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sa-app
+[2023-07-18 11:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymahjong
+[2023-07-18 11:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: asp-chef-cli
+[2023-07-18 11:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quantizeml
+[2023-07-18 11:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hyfi-template
+[2023-07-18 11:14:17] INFO root fetch - processPackages [asp-chef-cli]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-07-18 11:14:17] INFO root fetch - processPackages [kshell-utilities]: New version: [1.5.0.0] Old Version: [1.4.0.0]
+[2023-07-18 11:14:17] INFO root fetch - processPackages [pyramm]: New version: [1.9] Old Version: [1.8]
+[2023-07-18 11:14:17] INFO root fetch - processPackages [sa-app]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-18 11:14:17] INFO root fetch - processPackages [hyfi-template]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-07-18 11:14:17] WARNING root fetch - processPackages [anon-sdk]: Skipping, unable to determine old version
+[2023-07-18 11:14:17] INFO root fetch - processPackages [anon-sdk]: Start processing: genai-test-lib
+[2023-07-18 11:14:17] INFO root fetch - main [MainThread]: End processing [anon-sdk] error
+[2023-07-18 11:14:17] INFO root fetch - processPackages [ckanext-versioned-datastore]: New version: [5.0.0] Old Version: [4.2.2]
+[2023-07-18 11:14:17] INFO root fetch - processPackages [pymahjong]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-18 11:14:18] INFO root fetch - processPackages [feffery-utils-components]: New version: [0.2.0a6] Old Version: [0.2.0a5]
+[2023-07-18 11:14:18] INFO root fetch - processPackages [quantizeml]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-18 11:14:18] INFO root fetch - processPackages [genai-test-lib]: New version: [1.0.0] Old Version: [0.0.4]
+[2023-07-18 11:14:18] INFO root fetch - processPackages [asp-chef-cli]: Downloading https://files.pythonhosted.org/packages/55/88/78fe6f8f00accee6b1e5f31fff4042845bbed1d50c17df75d7cb44ea5e50/asp_chef_cli-0.1.7.tar.gz
+[2023-07-18 11:14:18] INFO root fetch - processPackages [kshell-utilities]: Downloading https://files.pythonhosted.org/packages/ac/53/ddc237b6b2794c8689b2619d3ddc05c400fca4b6ab7a6af511d4d957915a/kshell-utilities-1.4.0.0.tar.gz
+[2023-07-18 11:14:18] INFO root fetch - processPackages [ckanext-versioned-datastore]: Downloading https://files.pythonhosted.org/packages/8c/27/349a53383767d60d451194cc3e44f5b219f70f3fffb594e163d86c7590c2/ckanext-versioned-datastore-4.2.2.tar.gz
+[2023-07-18 11:14:18] INFO root fetch - processPackages [pyramm]: Downloading https://files.pythonhosted.org/packages/82/cd/1d0c354eb8064c45f667bd48772162211e74c58e262a17c03835deeea0e1/pyramm-1.8.tar.gz
+[2023-07-18 11:14:18] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/bc/14/8f586d0f7f3d2347febe81013e24a80239c9b3d58d875b3803de57833f63/hyfi_template-0.4.6.tar.gz
+[2023-07-18 11:14:18] INFO root fetch - processPackages [quantizeml]: Downloading https://files.pythonhosted.org/packages/2d/46/befd79ddd5fbe71253b84c3182b9a034174429f2c43f905fce67b47ea2fa/quantizeml-0.5.1.tar.gz
+[2023-07-18 11:14:18] INFO root fetch - processPackages [pymahjong]: Downloading https://files.pythonhosted.org/packages/b1/c3/1f39adbb5b5f66e9d14c774cd7546424ccd0284c1ce6420d6e8322b6f63c/pymahjong-1.0.2-cp39-cp39-win_amd64.whl
+[2023-07-18 11:14:18] INFO root fetch - processPackages [sa-app]: Downloading https://files.pythonhosted.org/packages/0e/ee/dac0122b551a6025335fcf00bdf4f16a3be52effe23b97f3795cc573b914/sa_app-0.0.1.tar.gz
+[2023-07-18 11:14:18] INFO root fetch - processPackages [feffery-utils-components]: Downloading https://files.pythonhosted.org/packages/dd/8a/3b1d6122bac3f9fcf487f3227b1c7a7dd24b54d22e9bd9add247b873168a/feffery_utils_components-0.2.0a5.tar.gz
+[2023-07-18 11:14:18] INFO root fetch - processPackages [genai-test-lib]: Downloading https://files.pythonhosted.org/packages/b1/a5/fec690c727dec15d1f6beaf8c8378fe5edb9dff04967b9e45a2e0ed97ff2/genai_test_lib-0.0.4.tar.gz
+[2023-07-18 11:14:18] INFO root fetch - processPackages [asp-chef-cli]: Downloading https://files.pythonhosted.org/packages/67/f8/d575ef426bab4de9978ab30de42c61ea58d5fb424d9c9f395a5fd2d2b8bd/asp_chef_cli-0.1.9.tar.gz
+[2023-07-18 11:14:18] INFO root fetch - processPackages [kshell-utilities]: Downloading https://files.pythonhosted.org/packages/15/66/45f9c2b3c8a45d8bee79b661fb25e1ad990f20d49e2a2d9d1e8664decbe9/kshell-utilities-1.5.0.0.tar.gz
+[2023-07-18 11:14:18] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/29/57/01c5e5e85bbdb9e31a5419a6c2604f41767ec6feba3c024a6f2bd58a585f/hyfi_template-0.4.7.tar.gz
+[2023-07-18 11:14:18] INFO root fetch - processPackages [sa-app]: Downloading https://files.pythonhosted.org/packages/02/b7/aca9d986d4bae19149237b24ff133f2812356184775df9d4ffa6a59902fd/sa_app-0.0.2.tar.gz
+[2023-07-18 11:14:18] INFO root fetch - processPackages [pyramm]: Downloading https://files.pythonhosted.org/packages/48/d2/4a266da41f00068ddb8d5ab01903309a2d8653ce863390db6972605a93c6/pyramm-1.9.tar.gz
+[2023-07-18 11:14:18] INFO root fetch - processPackages [quantizeml]: Downloading https://files.pythonhosted.org/packages/13/9a/d5348a2225ff4afff45ea8954cfdebc1fb57b712497269452ecc67483368/quantizeml-0.5.2.tar.gz
+[2023-07-18 11:14:18] INFO root fetch - processPackages [genai-test-lib]: Downloading https://files.pythonhosted.org/packages/08/9a/c4bba78ae157506e680b5416bc7852f486e116adc57063da1c85c299e73e/genai_test_lib-1.0.0.tar.gz
+[2023-07-18 11:14:19] INFO root fetch - processPackages [pymahjong]: Downloading https://files.pythonhosted.org/packages/ea/62/73dd90f0740a5b8088f021c597142b298d5c313134377cbf6e73d2f14568/pymahjong-1.0.3-cp39-cp39-manylinux_2_34_x86_64.whl
+[2023-07-18 11:14:19] INFO root fetch - processPackages [asp-chef-cli]: executing diffoscope
+[2023-07-18 11:14:19] INFO root fetch - processPackages [asp-chef-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asp_chef_cli-0.1.7.tar.gz tmp/asp_chef_cli-0.1.9.tar.gz --markdown 20230718/a/asp-chef-cli/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-07-18 11:14:19] INFO root fetch - processPackages [hyfi-template]: executing diffoscope
+[2023-07-18 11:14:19] INFO root fetch - processPackages [hyfi-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi_template-0.4.6.tar.gz tmp/hyfi_template-0.4.7.tar.gz --markdown 20230718/h/hyfi-template/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-07-18 11:14:19] INFO root fetch - processPackages [feffery-utils-components]: Downloading https://files.pythonhosted.org/packages/64/1f/2e8c1f8a6f6c34ffe249269cdae12b666dd48601133acdac07937d4fd8d7/feffery_utils_components-0.2.0a6.tar.gz
+[2023-07-18 11:14:19] INFO root fetch - processPackages [kshell-utilities]: executing diffoscope
+[2023-07-18 11:14:19] INFO root fetch - processPackages [kshell-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kshell-utilities-1.4.0.0.tar.gz tmp/kshell-utilities-1.5.0.0.tar.gz --markdown 20230718/k/kshell-utilities/1.4.0.0-1.5.0.0/diff.md --exclude *.pyd
+[2023-07-18 11:14:19] INFO root fetch - processPackages [ckanext-versioned-datastore]: Downloading https://files.pythonhosted.org/packages/a2/2c/e3adc7d896783b308dd51612b06c31f5aa270a52980083f62c21edb0da80/ckanext-versioned-datastore-5.0.0.tar.gz
+[2023-07-18 11:14:19] INFO root fetch - processPackages [sa-app]: executing diffoscope
+[2023-07-18 11:14:19] INFO root fetch - processPackages [sa-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sa_app-0.0.1.tar.gz tmp/sa_app-0.0.2.tar.gz --markdown 20230718/s/sa-app/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-18 11:14:19] INFO root fetch - processPackages [quantizeml]: executing diffoscope
+[2023-07-18 11:14:19] INFO root fetch - processPackages [quantizeml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantizeml-0.5.1.tar.gz tmp/quantizeml-0.5.2.tar.gz --markdown 20230718/q/quantizeml/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-18 11:14:19] INFO root fetch - processPackages [genai-test-lib]: executing diffoscope
+[2023-07-18 11:14:19] INFO root fetch - processPackages [genai-test-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genai_test_lib-0.0.4.tar.gz tmp/genai_test_lib-1.0.0.tar.gz --markdown 20230718/g/genai-test-lib/0.0.4-1.0.0/diff.md --exclude *.pyd
+[2023-07-18 11:14:19] INFO root fetch - processPackages [pyramm]: executing diffoscope
+[2023-07-18 11:14:19] INFO root fetch - processPackages [pyramm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyramm-1.8.tar.gz tmp/pyramm-1.9.tar.gz --markdown 20230718/p/pyramm/1.8-1.9/diff.md --exclude *.pyd
+[2023-07-18 11:14:19] INFO root fetch - processPackages [feffery-utils-components]: executing diffoscope
+[2023-07-18 11:14:19] INFO root fetch - processPackages [feffery-utils-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feffery_utils_components-0.2.0a5.tar.gz tmp/feffery_utils_components-0.2.0a6.tar.gz --markdown 20230718/f/feffery-utils-components/0.2.0a5-0.2.0a6/diff.md --exclude *.pyd
+[2023-07-18 11:14:19] INFO root fetch - processPackages [pymahjong]: executing diffoscope
+[2023-07-18 11:14:19] INFO root fetch - processPackages [pymahjong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymahjong-1.0.2-cp39-cp39-win_amd64.whl.zip tmp/pymahjong-1.0.3-cp39-cp39-manylinux_2_34_x86_64.whl.zip --markdown 20230718/p/pymahjong/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-18 11:14:19] INFO root fetch - processPackages [ckanext-versioned-datastore]: executing diffoscope
+[2023-07-18 11:14:19] INFO root fetch - processPackages [ckanext-versioned-datastore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-versioned-datastore-4.2.2.tar.gz tmp/ckanext-versioned-datastore-5.0.0.tar.gz --markdown 20230718/c/ckanext-versioned-datastore/4.2.2-5.0.0/diff.md --exclude *.pyd
+[2023-07-18 11:14:21] INFO root fetch - processPackages [hyfi-template]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_template-0.4.6.tar.gz]
+[2023-07-18 11:14:21] INFO root fetch - processPackages [hyfi-template]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_template-0.4.7.tar.gz]
+[2023-07-18 11:14:21] INFO root fetch - processPackages [hyfi-template]: Start processing: sqlalchemy-exasol
+[2023-07-18 11:14:21] INFO root fetch - main [MainThread]: End processing [hyfi-template]: success
+[2023-07-18 11:14:21] INFO root fetch - processPackages [asp-chef-cli]: Remove: archive file [/home/abi/fetcher/tmp/asp_chef_cli-0.1.7.tar.gz]
+[2023-07-18 11:14:21] INFO root fetch - processPackages [asp-chef-cli]: Remove: archive file [/home/abi/fetcher/tmp/asp_chef_cli-0.1.9.tar.gz]
+[2023-07-18 11:14:21] INFO root fetch - processPackages [asp-chef-cli]: Start processing: taichu-serve
+[2023-07-18 11:14:21] INFO root fetch - main [MainThread]: End processing [asp-chef-cli]: success
+[2023-07-18 11:14:21] INFO root fetch - processPackages [taichu-serve]: New version: [2.0.9] Old Version: [2.0.31]
+[2023-07-18 11:14:21] INFO root fetch - processPackages [genai-test-lib]: Remove: archive file [/home/abi/fetcher/tmp/genai_test_lib-0.0.4.tar.gz]
+[2023-07-18 11:14:21] INFO root fetch - processPackages [genai-test-lib]: Remove: archive file [/home/abi/fetcher/tmp/genai_test_lib-1.0.0.tar.gz]
+[2023-07-18 11:14:21] INFO root fetch - processPackages [genai-test-lib]: Start processing: dexie-rewards
+[2023-07-18 11:14:21] INFO root fetch - main [MainThread]: End processing [genai-test-lib]: success
+[2023-07-18 11:14:21] INFO root fetch - processPackages [sa-app]: Remove: archive file [/home/abi/fetcher/tmp/sa_app-0.0.1.tar.gz]
+[2023-07-18 11:14:21] INFO root fetch - processPackages [sa-app]: Remove: archive file [/home/abi/fetcher/tmp/sa_app-0.0.2.tar.gz]
+[2023-07-18 11:14:21] INFO root fetch - processPackages [sa-app]: Start processing: nodered.py
+[2023-07-18 11:14:21] INFO root fetch - main [MainThread]: End processing [sa-app]: success
+[2023-07-18 11:14:21] INFO root fetch - processPackages [pyramm]: Remove: archive file [/home/abi/fetcher/tmp/pyramm-1.8.tar.gz]
+[2023-07-18 11:14:21] INFO root fetch - processPackages [pyramm]: Remove: archive file [/home/abi/fetcher/tmp/pyramm-1.9.tar.gz]
+[2023-07-18 11:14:21] INFO root fetch - processPackages [pyramm]: Start processing: genai-test-lib
+[2023-07-18 11:14:21] INFO root fetch - main [MainThread]: End processing [pyramm]: success
+[2023-07-18 11:14:21] INFO root fetch - processPackages [sqlalchemy-exasol]: New version: [4.6.0] Old Version: [4.5.1]
+[2023-07-18 11:14:21] INFO root fetch - processPackages [dexie-rewards]: New version: [1.8.2b5] Old Version: [1.8.2b4]
+[2023-07-18 11:14:21] INFO root fetch - processPackages [nodered.py]: New version: [0.2.7] Old Version: [0.2.6.post4]
+[2023-07-18 11:14:21] INFO root fetch - processPackages [taichu-serve]: Downloading https://files.pythonhosted.org/packages/ed/a2/d41ec4c755e08d41ea799258fb0136fc0fdedf1cac270ee568d8fbe0c1d0/taichu-serve-2.0.31.tar.gz
+[2023-07-18 11:14:21] INFO root fetch - processPackages [genai-test-lib]: New version: [1.0.0] Old Version: [0.0.4]
+[2023-07-18 11:14:21] INFO root fetch - processPackages [kshell-utilities]: Remove: archive file [/home/abi/fetcher/tmp/kshell-utilities-1.4.0.0.tar.gz]
+[2023-07-18 11:14:21] INFO root fetch - processPackages [kshell-utilities]: Remove: archive file [/home/abi/fetcher/tmp/kshell-utilities-1.5.0.0.tar.gz]
+[2023-07-18 11:14:21] INFO root fetch - processPackages [kshell-utilities]: Start processing: cenas
+[2023-07-18 11:14:21] INFO root fetch - main [MainThread]: End processing [kshell-utilities]: success
+[2023-07-18 11:14:21] INFO root fetch - processPackages [quantizeml]: Remove: archive file [/home/abi/fetcher/tmp/quantizeml-0.5.1.tar.gz]
+[2023-07-18 11:14:21] INFO root fetch - processPackages [quantizeml]: Remove: archive file [/home/abi/fetcher/tmp/quantizeml-0.5.2.tar.gz]
+[2023-07-18 11:14:21] INFO root fetch - processPackages [quantizeml]: Start processing: sam-ml-py
+[2023-07-18 11:14:21] INFO root fetch - main [MainThread]: End processing [quantizeml]: success
+[2023-07-18 11:14:21] INFO root fetch - processPackages [cenas]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-18 11:14:21] INFO root fetch - processPackages [pymahjong]: Remove: archive file [/home/abi/fetcher/tmp/pymahjong-1.0.2-cp39-cp39-win_amd64.whl.zip]
+[2023-07-18 11:14:21] INFO root fetch - processPackages [pymahjong]: Remove: archive file [/home/abi/fetcher/tmp/pymahjong-1.0.3-cp39-cp39-manylinux_2_34_x86_64.whl.zip]
+[2023-07-18 11:14:21] INFO root fetch - main [MainThread]: End processing [pymahjong]: success
+[2023-07-18 11:14:21] INFO root fetch - processPackages [sam-ml-py]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-07-18 11:14:21] INFO root fetch - processPackages [genai-test-lib]: Downloading https://files.pythonhosted.org/packages/b1/a5/fec690c727dec15d1f6beaf8c8378fe5edb9dff04967b9e45a2e0ed97ff2/genai_test_lib-0.0.4.tar.gz
+[2023-07-18 11:14:21] INFO root fetch - processPackages [sqlalchemy-exasol]: Downloading https://files.pythonhosted.org/packages/95/02/fcdbd5736db1095fa7e2bc9ee1547c1f0b3ffbec9276f4d9127927b01ef4/sqlalchemy_exasol-4.5.1.tar.gz
+[2023-07-18 11:14:21] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/ad/ad/8e6ac29153c6369e5cbdf21108e60070080d9d4978e3a1a5f20be7b9492b/cenas-1.1.8.tar.gz
+[2023-07-18 11:14:21] INFO root fetch - processPackages [nodered.py]: Downloading https://files.pythonhosted.org/packages/c0/66/39e47133495a7209fa14e241639ff048986cc3c6a40be39d35d198efb1b3/nodered.py-0.2.6.post4.tar.gz
+[2023-07-18 11:14:21] INFO root fetch - processPackages [dexie-rewards]: Downloading https://files.pythonhosted.org/packages/dc/90/cb93f7423aad6714a748c02a2d317b453d5d95850bef4b968c4da2e5a04c/dexie_rewards-1.8.2b4.tar.gz
+[2023-07-18 11:14:21] INFO root fetch - processPackages [sam-ml-py]: Downloading https://files.pythonhosted.org/packages/fc/7c/6908c6a3ae727e076167d08073461c9a30f2e4c01b6d1f3db78759dfc9ed/sam_ml-py-0.9.0.tar.gz
+[2023-07-18 11:14:22] INFO root fetch - processPackages [taichu-serve]: Downloading https://files.pythonhosted.org/packages/87/5b/11b39ee031331a7156c71f80c42076cdf8bfd7790559669b2153af680f16/taichu-serve-2.0.9.tar.gz
+[2023-07-18 11:14:22] INFO root fetch - processPackages [genai-test-lib]: Downloading https://files.pythonhosted.org/packages/08/9a/c4bba78ae157506e680b5416bc7852f486e116adc57063da1c85c299e73e/genai_test_lib-1.0.0.tar.gz
+[2023-07-18 11:14:22] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/37/ba/9662c92e6a20bfb5bcfc4f81bef895566ee63c5d4018c2cae825c1c94e21/cenas-1.1.9.tar.gz
+[2023-07-18 11:14:22] INFO root fetch - processPackages [genai-test-lib]: executing diffoscope
+[2023-07-18 11:14:22] INFO root fetch - processPackages [genai-test-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genai_test_lib-0.0.4.tar.gz tmp/genai_test_lib-1.0.0.tar.gz --markdown 20230718/g/genai-test-lib/0.0.4-1.0.0/diff.md --exclude *.pyd
+[2023-07-18 11:14:22] INFO root fetch - processPackages [cenas]: executing diffoscope
+[2023-07-18 11:14:22] INFO root fetch - processPackages [cenas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cenas-1.1.8.tar.gz tmp/cenas-1.1.9.tar.gz --markdown 20230718/c/cenas/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-18 11:14:22] INFO root fetch - processPackages [sqlalchemy-exasol]: Downloading https://files.pythonhosted.org/packages/bf/d2/68833bf5dd05205b1e6b04524a04c653ce2c54a0561065112a37465ed854/sqlalchemy_exasol-4.6.0.tar.gz
+[2023-07-18 11:14:22] INFO root fetch - processPackages [sam-ml-py]: Downloading https://files.pythonhosted.org/packages/f4/f8/0aac2de659e4c5c99aad68feefdcc828e72f5c03ad8479b05f47c0ca01ad/sam_ml-py-0.9.0rc1.tar.gz
+[2023-07-18 11:14:22] INFO root fetch - processPackages [dexie-rewards]: Downloading https://files.pythonhosted.org/packages/2c/9c/7877d9f0ce5722d179be9fe8356b3fe2cb94ea82fe948e19147f0e77e9c4/dexie_rewards-1.8.2b5.tar.gz
+[2023-07-18 11:14:22] INFO root fetch - processPackages [nodered.py]: Downloading https://files.pythonhosted.org/packages/d4/c6/230249440946e70897de60abee9700d437043484f3d6f89cf7b1763bd695/nodered.py-0.2.7.tar.gz
+[2023-07-18 11:14:22] INFO root fetch - processPackages [sqlalchemy-exasol]: executing diffoscope
+[2023-07-18 11:14:22] INFO root fetch - processPackages [sqlalchemy-exasol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_exasol-4.5.1.tar.gz tmp/sqlalchemy_exasol-4.6.0.tar.gz --markdown 20230718/s/sqlalchemy-exasol/4.5.1-4.6.0/diff.md --exclude *.pyd
+[2023-07-18 11:14:22] INFO root fetch - processPackages [sam-ml-py]: executing diffoscope
+[2023-07-18 11:14:22] INFO root fetch - processPackages [sam-ml-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sam_ml-py-0.9.0.tar.gz tmp/sam_ml-py-0.9.0rc1.tar.gz --markdown 20230718/s/sam-ml-py/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-07-18 11:14:22] INFO root fetch - processPackages [dexie-rewards]: executing diffoscope
+[2023-07-18 11:14:22] INFO root fetch - processPackages [dexie-rewards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dexie_rewards-1.8.2b4.tar.gz tmp/dexie_rewards-1.8.2b5.tar.gz --markdown 20230718/d/dexie-rewards/1.8.2b4-1.8.2b5/diff.md --exclude *.pyd
+[2023-07-18 11:14:22] INFO root fetch - processPackages [nodered.py]: executing diffoscope
+[2023-07-18 11:14:22] INFO root fetch - processPackages [nodered.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodered.py-0.2.6.post4.tar.gz tmp/nodered.py-0.2.7.tar.gz --markdown 20230718/n/nodered.py/0.2.6.post4-0.2.7/diff.md --exclude *.pyd
+[2023-07-18 11:14:22] INFO root fetch - processPackages [taichu-serve]: executing diffoscope
+[2023-07-18 11:14:22] INFO root fetch - processPackages [taichu-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-serve-2.0.31.tar.gz tmp/taichu-serve-2.0.9.tar.gz --markdown 20230718/t/taichu-serve/2.0.31-2.0.9/diff.md --exclude *.pyd
+[2023-07-18 11:14:23] INFO root fetch - processPackages [genai-test-lib]: Remove: archive file [/home/abi/fetcher/tmp/genai_test_lib-0.0.4.tar.gz]
+[2023-07-18 11:14:23] INFO root fetch - processPackages [genai-test-lib]: Remove: archive file [/home/abi/fetcher/tmp/genai_test_lib-1.0.0.tar.gz]
+[2023-07-18 11:14:23] INFO root fetch - main [MainThread]: End processing [genai-test-lib]: success
+[2023-07-18 11:14:23] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.8.tar.gz]
+[2023-07-18 11:14:23] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.9.tar.gz]
+[2023-07-18 11:14:23] INFO root fetch - main [MainThread]: End processing [cenas]: success
+[2023-07-18 11:14:24] INFO root fetch - processPackages [sqlalchemy-exasol]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_exasol-4.5.1.tar.gz]
+[2023-07-18 11:14:24] INFO root fetch - processPackages [sqlalchemy-exasol]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_exasol-4.6.0.tar.gz]
+[2023-07-18 11:14:24] INFO root fetch - main [MainThread]: End processing [sqlalchemy-exasol]: success
+[2023-07-18 11:14:24] INFO root fetch - processPackages [sam-ml-py]: Remove: archive file [/home/abi/fetcher/tmp/sam_ml-py-0.9.0.tar.gz]
+[2023-07-18 11:14:24] INFO root fetch - processPackages [sam-ml-py]: Remove: archive file [/home/abi/fetcher/tmp/sam_ml-py-0.9.0rc1.tar.gz]
+[2023-07-18 11:14:24] INFO root fetch - main [MainThread]: End processing [sam-ml-py]: success
+[2023-07-18 11:14:24] INFO root fetch - processPackages [dexie-rewards]: Remove: archive file [/home/abi/fetcher/tmp/dexie_rewards-1.8.2b4.tar.gz]
+[2023-07-18 11:14:24] INFO root fetch - processPackages [dexie-rewards]: Remove: archive file [/home/abi/fetcher/tmp/dexie_rewards-1.8.2b5.tar.gz]
+[2023-07-18 11:14:24] INFO root fetch - main [MainThread]: End processing [dexie-rewards]: success
+[2023-07-18 11:14:24] INFO root fetch - processPackages [taichu-serve]: Remove: archive file [/home/abi/fetcher/tmp/taichu-serve-2.0.31.tar.gz]
+[2023-07-18 11:14:24] INFO root fetch - processPackages [taichu-serve]: Remove: archive file [/home/abi/fetcher/tmp/taichu-serve-2.0.9.tar.gz]
+[2023-07-18 11:14:24] INFO root fetch - main [MainThread]: End processing [taichu-serve]: success
+[2023-07-18 11:14:24] INFO root fetch - processPackages [ckanext-versioned-datastore]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-versioned-datastore-4.2.2.tar.gz]
+[2023-07-18 11:14:24] INFO root fetch - processPackages [ckanext-versioned-datastore]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-versioned-datastore-5.0.0.tar.gz]
+[2023-07-18 11:14:24] INFO root fetch - main [MainThread]: End processing [ckanext-versioned-datastore]: success
+[2023-07-18 11:14:25] INFO root fetch - processPackages [nodered.py]: Remove: archive file [/home/abi/fetcher/tmp/nodered.py-0.2.6.post4.tar.gz]
+[2023-07-18 11:14:25] INFO root fetch - processPackages [nodered.py]: Remove: archive file [/home/abi/fetcher/tmp/nodered.py-0.2.7.tar.gz]
+[2023-07-18 11:14:25] INFO root fetch - main [MainThread]: End processing [nodered.py]: success
+[2023-07-18 11:14:34] INFO root fetch - processPackages [feffery-utils-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_utils_components-0.2.0a5.tar.gz]
+[2023-07-18 11:14:34] INFO root fetch - processPackages [feffery-utils-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_utils_components-0.2.0a6.tar.gz]
+[2023-07-18 11:14:34] INFO root fetch - main [MainThread]: End processing [feffery-utils-components]: success
+[2023-07-18 11:14:34] INFO root fetch - main [MainThread]: Store serial: [18930743]
