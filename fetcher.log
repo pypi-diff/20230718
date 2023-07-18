@@ -5834,3 +5834,62 @@
 [2023-07-18 03:06:36] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
 [2023-07-18 03:06:36] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2023-07-18 03:06:36] INFO root fetch - main [MainThread]: Store serial: [18925310]
+[2023-07-18 03:11:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18925310]
+[2023-07-18 03:11:46] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-18 03:11:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rice-manager
+[2023-07-18 03:11:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yhgit
+[2023-07-18 03:11:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sp-api-lib
+[2023-07-18 03:11:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: talc
+[2023-07-18 03:11:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-comprehend-s3olap
+[2023-07-18 03:11:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qcio
+[2023-07-18 03:11:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: whatsappy-py
+[2023-07-18 03:11:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lesscode-py
+[2023-07-18 03:11:46] WARNING root fetch - processPackages [sp-api-lib]: Skipping, unable to determine old version
+[2023-07-18 03:11:46] INFO root fetch - main [MainThread]: End processing [sp-api-lib] error
+[2023-07-18 03:11:46] INFO root fetch - processPackages [yhgit]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-07-18 03:11:46] INFO root fetch - processPackages [whatsappy-py]: New version: [4.1.0] Old Version: [4.0.0]
+[2023-07-18 03:11:46] INFO root fetch - processPackages [talc]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-18 03:11:46] WARNING root fetch - processPackages [rice-manager]: Skipping, unable to determine old version
+[2023-07-18 03:11:46] INFO root fetch - main [MainThread]: End processing [rice-manager] error
+[2023-07-18 03:11:46] INFO root fetch - processPackages [qcio]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-18 03:11:46] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-18 03:11:46] INFO root fetch - processPackages [whatsappy-py]: Downloading https://files.pythonhosted.org/packages/40/f0/66ce6aed4c34deedc451b4bf4286eb4135d8808122be8c344bbe6a43a1f6/whatsappy-py-4.0.0.tar.gz
+[2023-07-18 03:11:46] INFO root fetch - processPackages [qcio]: Downloading https://files.pythonhosted.org/packages/a1/aa/e8fdbedc1ebc0bdf8a0267624cee588e62999a7438632b1693abd5f836c5/qcio-0.3.0.tar.gz
+[2023-07-18 03:11:46] INFO root fetch - processPackages [yhgit]: Downloading https://files.pythonhosted.org/packages/6e/a6/b3888d432491850ed8a6f75820fc5a74f940ed2ef1592e9b63a29982ee0f/yhgit-2.9.0.tar.gz
+[2023-07-18 03:11:46] INFO root fetch - processPackages [talc]: Downloading https://files.pythonhosted.org/packages/b8/e7/2cd63e6e127849ca5d7b87e1680c26dc02cbd0262572d4c2068c95ce9ad7/talc-0.0.1.tar.gz
+[2023-07-18 03:11:47] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-07-18 03:11:47] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-07-18 03:11:47] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-07-18 03:11:47] INFO root fetch - processPackages [qcio]: Downloading https://files.pythonhosted.org/packages/8b/9b/278c58bd499d262e39ea69202f975bce58eb422792452faa2cd58c1b846b/qcio-0.3.1.tar.gz
+[2023-07-18 03:11:47] INFO root fetch - processPackages [lesscode-py]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-18 03:11:47] INFO root fetch - processPackages [whatsappy-py]: Downloading https://files.pythonhosted.org/packages/f7/ff/9dfdc60d76146cefaca873bfc9ed1a3d914abeb182c67592a7c4fdf25e67/whatsappy-py-4.1.0.tar.gz
+[2023-07-18 03:11:47] INFO root fetch - processPackages [yhgit]: Downloading https://files.pythonhosted.org/packages/3b/67/926eb2d4da20f6d7589e8f6004a835eaba775a2fd0e932caabc953b8ea46/yhgit-2.9.1.tar.gz
+[2023-07-18 03:11:47] INFO root fetch - processPackages [qcio]: executing diffoscope
+[2023-07-18 03:11:47] INFO root fetch - processPackages [qcio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcio-0.3.0.tar.gz tmp/qcio-0.3.1.tar.gz --markdown 20230718/q/qcio/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-18 03:11:47] INFO root fetch - processPackages [talc]: Downloading https://files.pythonhosted.org/packages/c2/83/be080bf4fdfd4781fa9ccf21c6b7645e6a2064fc492df9f17868bc60b3d7/talc-0.0.2.tar.gz
+[2023-07-18 03:11:47] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/93/59/9c87e90597a4fc3c2567abe4a0ff19fd2b89df126eacc6b3d22b92ec47b4/lesscode-py-0.3.8.tar.gz
+[2023-07-18 03:11:47] INFO root fetch - processPackages [yhgit]: executing diffoscope
+[2023-07-18 03:11:47] INFO root fetch - processPackages [yhgit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yhgit-2.9.0.tar.gz tmp/yhgit-2.9.1.tar.gz --markdown 20230718/y/yhgit/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-07-18 03:11:47] INFO root fetch - processPackages [talc]: executing diffoscope
+[2023-07-18 03:11:47] INFO root fetch - processPackages [talc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talc-0.0.1.tar.gz tmp/talc-0.0.2.tar.gz --markdown 20230718/t/talc/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-18 03:11:47] INFO root fetch - processPackages [whatsappy-py]: executing diffoscope
+[2023-07-18 03:11:47] INFO root fetch - processPackages [whatsappy-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whatsappy-py-4.0.0.tar.gz tmp/whatsappy-py-4.1.0.tar.gz --markdown 20230718/w/whatsappy-py/4.0.0-4.1.0/diff.md --exclude *.pyd
+[2023-07-18 03:11:47] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/64/97/cec698b665aba9a27d2cddb9f7528a8982bbaa3379372774ff671e45fb3e/lesscode-py-0.3.9.tar.gz
+[2023-07-18 03:11:48] INFO root fetch - processPackages [lesscode-py]: executing diffoscope
+[2023-07-18 03:11:48] INFO root fetch - processPackages [lesscode-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode-py-0.3.8.tar.gz tmp/lesscode-py-0.3.9.tar.gz --markdown 20230718/l/lesscode-py/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-18 03:11:48] INFO root fetch - processPackages [yhgit]: Remove: archive file [/home/abi/fetcher/tmp/yhgit-2.9.0.tar.gz]
+[2023-07-18 03:11:48] INFO root fetch - processPackages [yhgit]: Remove: archive file [/home/abi/fetcher/tmp/yhgit-2.9.1.tar.gz]
+[2023-07-18 03:11:48] INFO root fetch - main [MainThread]: End processing [yhgit]: success
+[2023-07-18 03:11:48] INFO root fetch - processPackages [qcio]: Remove: archive file [/home/abi/fetcher/tmp/qcio-0.3.0.tar.gz]
+[2023-07-18 03:11:48] INFO root fetch - processPackages [qcio]: Remove: archive file [/home/abi/fetcher/tmp/qcio-0.3.1.tar.gz]
+[2023-07-18 03:11:48] INFO root fetch - main [MainThread]: End processing [qcio]: success
+[2023-07-18 03:11:48] INFO root fetch - processPackages [talc]: Remove: archive file [/home/abi/fetcher/tmp/talc-0.0.1.tar.gz]
+[2023-07-18 03:11:48] INFO root fetch - processPackages [talc]: Remove: archive file [/home/abi/fetcher/tmp/talc-0.0.2.tar.gz]
+[2023-07-18 03:11:48] INFO root fetch - main [MainThread]: End processing [talc]: success
+[2023-07-18 03:11:49] INFO root fetch - processPackages [lesscode-py]: Remove: archive file [/home/abi/fetcher/tmp/lesscode-py-0.3.8.tar.gz]
+[2023-07-18 03:11:49] INFO root fetch - processPackages [lesscode-py]: Remove: archive file [/home/abi/fetcher/tmp/lesscode-py-0.3.9.tar.gz]
+[2023-07-18 03:11:49] INFO root fetch - main [MainThread]: End processing [lesscode-py]: success
+[2023-07-18 03:12:07] INFO root fetch - processPackages [whatsappy-py]: Remove: archive file [/home/abi/fetcher/tmp/whatsappy-py-4.0.0.tar.gz]
+[2023-07-18 03:12:07] INFO root fetch - processPackages [whatsappy-py]: Remove: archive file [/home/abi/fetcher/tmp/whatsappy-py-4.1.0.tar.gz]
+[2023-07-18 03:12:07] INFO root fetch - main [MainThread]: End processing [whatsappy-py]: success
+[2023-07-18 03:12:07] INFO root fetch - main [MainThread]: Store serial: [18925339]
