@@ -18648,3 +18648,134 @@
 [2023-07-18 10:26:48] INFO root fetch - processPackages [nope-py]: Remove: archive file [/home/abi/fetcher/tmp/nope_py-1.7.9.tar.gz]
 [2023-07-18 10:26:48] INFO root fetch - main [MainThread]: End processing [nope-py]: success
 [2023-07-18 10:26:48] INFO root fetch - main [MainThread]: Store serial: [18930272]
+[2023-07-18 10:31:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18930272]
+[2023-07-18 10:31:57] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-18 10:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-purchase-stock-secondary-unit
+[2023-07-18 10:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: labml
+[2023-07-18 10:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-stock-picking-operation-quick-change
+[2023-07-18 10:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ethrpc-accounts
+[2023-07-18 10:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ADattribution
+[2023-07-18 10:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quarchpy
+[2023-07-18 10:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: readyocr
+[2023-07-18 10:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dicekey
+[2023-07-18 10:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quantum-kite
+[2023-07-18 10:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: systembridgeconnector
+[2023-07-18 10:31:57] INFO root fetch - processPackages [readyocr]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-18 10:31:57] WARNING root fetch - processPackages [dicekey]: Skipping, unable to determine old version
+[2023-07-18 10:31:57] INFO root fetch - processPackages [dicekey]: Start processing: gammarer.aws-ec2-instance-running-scheduler
+[2023-07-18 10:31:57] INFO root fetch - main [MainThread]: End processing [dicekey] error
+[2023-07-18 10:31:57] WARNING root fetch - processPackages [gammarer.aws-ec2-instance-running-scheduler]: Skipping, unable to determine old version
+[2023-07-18 10:31:57] INFO root fetch - processPackages [gammarer.aws-ec2-instance-running-scheduler]: Start processing: creatFiles
+[2023-07-18 10:31:57] INFO root fetch - main [MainThread]: End processing [gammarer.aws-ec2-instance-running-scheduler] error
+[2023-07-18 10:31:57] INFO root fetch - processPackages [quarchpy]: New version: [2.1.9.dev3] Old Version: [2.1.9.dev2]
+[2023-07-18 10:31:57] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/c1/18/94c9465ca32057fe84e4b45aa48180ec2997ab40266f1cdafdb5e2dac998/readyocr-0.0.7.tar.gz
+[2023-07-18 10:31:57] INFO root fetch - processPackages [odoo-addon-purchase-stock-secondary-unit]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.3]
+[2023-07-18 10:31:57] WARNING root fetch - processPackages [ethrpc-accounts]: Skipping, unable to determine old version
+[2023-07-18 10:31:57] INFO root fetch - processPackages [ethrpc-accounts]: Start processing: cartagen4py
+[2023-07-18 10:31:57] INFO root fetch - main [MainThread]: End processing [ethrpc-accounts] error
+[2023-07-18 10:31:57] INFO root fetch - processPackages [ADattribution]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-18 10:31:57] INFO root fetch - processPackages [quantum-kite]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-18 10:31:57] INFO root fetch - processPackages [odoo-addon-stock-picking-operation-quick-change]: New version: [15.0.1.1.1] Old Version: [15.0.1.1.0.3]
+[2023-07-18 10:31:57] INFO root fetch - processPackages [systembridgeconnector]: New version: [3.8.0.dev1] Old Version: [3.7.0.dev1]
+[2023-07-18 10:31:57] INFO root fetch - processPackages [labml]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-07-18 10:31:57] INFO root fetch - processPackages [creatFiles]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-18 10:31:57] INFO root fetch - processPackages [quarchpy]: Downloading https://files.pythonhosted.org/packages/4c/58/57c71932b71449bc466e74bd8478a30bedf723227a6aa33c2934896c2345/quarchpy-2.1.9.dev2-py2.py3-none-any.whl
+[2023-07-18 10:31:57] INFO root fetch - processPackages [cartagen4py]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-18 10:31:58] INFO root fetch - processPackages [ADattribution]: Downloading https://files.pythonhosted.org/packages/f0/1b/803df7eee3307936d77ef5d66cd272e613b1329152f80cc7647f7dbafa33/ADattribution-0.0.3.tar.gz
+[2023-07-18 10:31:58] INFO root fetch - processPackages [odoo-addon-purchase-stock-secondary-unit]: Downloading https://files.pythonhosted.org/packages/08/5d/600082bedb0eefafca78d604e86037a1798bca2fd751391d3255e048e61f/odoo_addon_purchase_stock_secondary_unit-15.0.1.0.0.3-py3-none-any.whl
+[2023-07-18 10:31:58] INFO root fetch - processPackages [creatFiles]: Downloading https://files.pythonhosted.org/packages/06/35/230aaddfc718cd33c998ee690845863ea38d120728f1c5bbbe087003beca/creatFiles-0.1.3.tar.gz
+[2023-07-18 10:31:58] INFO root fetch - processPackages [odoo-addon-stock-picking-operation-quick-change]: Downloading https://files.pythonhosted.org/packages/9c/ac/f9ad0f508c6f4c154b4fb9804b44fba08d9ba28bf631d8b503fec1d4e54a/odoo_addon_stock_picking_operation_quick_change-15.0.1.1.0.3-py3-none-any.whl
+[2023-07-18 10:31:58] INFO root fetch - processPackages [quantum-kite]: Downloading https://files.pythonhosted.org/packages/5f/bb/1c8c03976b031d665a4565a9a93430acc1964a5795d24db8f8c305080093/quantum-kite-0.0.2.tar.gz
+[2023-07-18 10:31:58] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/a6/3d/f0ec38cf3a763fce1e964ae250e8288892f46c7d094cf724532e02401b52/systembridgeconnector-3.7.0.dev1.tar.gz
+[2023-07-18 10:31:58] INFO root fetch - processPackages [labml]: Downloading https://files.pythonhosted.org/packages/ad/b0/2f629ab724eac107b099768a07fd8edd4da03b2de41b4f637073886003bc/labml-0.4.98.tar.gz
+[2023-07-18 10:31:58] INFO root fetch - processPackages [cartagen4py]: Downloading https://files.pythonhosted.org/packages/ab/83/e0ded6d3798553a447b69c9900094aef0318ab0dba74265b4e19bd374db0/cartagen4py-0.2.0-py3-none-any.whl
+[2023-07-18 10:31:58] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/c0/29/14e71ef7cbc2bb63eb3a7dde19b1d0261a548da80fc6f233f4cdf0b5ee8c/readyocr-0.0.8.tar.gz
+[2023-07-18 10:31:58] INFO root fetch - processPackages [readyocr]: executing diffoscope
+[2023-07-18 10:31:58] INFO root fetch - processPackages [readyocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readyocr-0.0.7.tar.gz tmp/readyocr-0.0.8.tar.gz --markdown 20230718/r/readyocr/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-18 10:31:58] WARNING root fetch - processPackages [quarchpy]: Skipping package: exceeds size limit 34469980>=10485760
+[2023-07-18 10:31:58] INFO root fetch - processPackages [quarchpy]: Start processing: odoo-addon-vault
+[2023-07-18 10:31:58] INFO root fetch - main [MainThread]: End processing [quarchpy] error
+[2023-07-18 10:31:58] INFO root fetch - processPackages [odoo-addon-purchase-stock-secondary-unit]: Downloading https://files.pythonhosted.org/packages/ae/cf/53b744023e220e2f38a5500b6d03c474f7971311b44e86b0f4996a691e22/odoo_addon_purchase_stock_secondary_unit-15.0.1.0.1-py3-none-any.whl
+[2023-07-18 10:31:58] INFO root fetch - processPackages [ADattribution]: Downloading https://files.pythonhosted.org/packages/90/75/357b65d2311e16869bd08ca380ad615acd2bc9492e7f878474e867d1dd4d/ADattribution-0.0.4.tar.gz
+[2023-07-18 10:31:58] INFO root fetch - processPackages [creatFiles]: Downloading https://files.pythonhosted.org/packages/2d/1e/575fd6002e9c536f7e959ac5c4b456f128a98b0c93887576256970c136be/creatFiles-0.1.4.tar.gz
+[2023-07-18 10:31:58] INFO root fetch - processPackages [odoo-addon-vault]: New version: [15.0.2.0.0] Old Version: [15.0.1.6.4]
+[2023-07-18 10:31:58] INFO root fetch - processPackages [odoo-addon-stock-picking-operation-quick-change]: Downloading https://files.pythonhosted.org/packages/7d/77/f8b0c0bf917ba96f5838b32e36080e9aab801c27d366de46356f88b661eb/odoo_addon_stock_picking_operation_quick_change-15.0.1.1.1-py3-none-any.whl
+[2023-07-18 10:31:58] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/37/71/5cdf83637bd1d46e740934ac6223393c936abbc36e5a67c6bd1a0054413a/systembridgeconnector-3.8.0.dev1.tar.gz
+[2023-07-18 10:31:58] INFO root fetch - processPackages [quantum-kite]: Downloading https://files.pythonhosted.org/packages/a8/f0/8612fd3aaa275df1f9c28eb806454d9ec22e09dd9ea53746e9727980993f/quantum-kite-0.0.3.tar.gz
+[2023-07-18 10:31:58] INFO root fetch - processPackages [cartagen4py]: Downloading https://files.pythonhosted.org/packages/1e/32/a781cec2d4874dcead526a046b95581a64bf34812597db17ea93f5bc9994/cartagen4py-0.2.1-py3-none-any.whl
+[2023-07-18 10:31:58] INFO root fetch - processPackages [labml]: Downloading https://files.pythonhosted.org/packages/3e/a4/7ab7ac87bc2b361ae6b357a7f09b0ab612c1b3d7475eca5f8db578d3af7b/labml-0.4.99.tar.gz
+[2023-07-18 10:31:58] INFO root fetch - processPackages [ADattribution]: executing diffoscope
+[2023-07-18 10:31:58] INFO root fetch - processPackages [ADattribution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ADattribution-0.0.3.tar.gz tmp/ADattribution-0.0.4.tar.gz --markdown 20230718/A/ADattribution/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-18 10:31:58] INFO root fetch - processPackages [odoo-addon-purchase-stock-secondary-unit]: executing diffoscope
+[2023-07-18 10:31:58] INFO root fetch - processPackages [odoo-addon-purchase-stock-secondary-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_stock_secondary_unit-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_purchase_stock_secondary_unit-15.0.1.0.1-py3-none-any.whl.zip --markdown 20230718/o/odoo-addon-purchase-stock-secondary-unit/15.0.1.0.0.3-15.0.1.0.1/diff.md --exclude *.pyd
+[2023-07-18 10:31:58] INFO root fetch - processPackages [creatFiles]: executing diffoscope
+[2023-07-18 10:31:58] INFO root fetch - processPackages [creatFiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/creatFiles-0.1.3.tar.gz tmp/creatFiles-0.1.4.tar.gz --markdown 20230718/c/creatFiles/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-18 10:31:58] WARNING root fetch - processPackages [quantum-kite]: Skipping package: exceeds size limit 22640478>=10485760
+[2023-07-18 10:31:58] INFO root fetch - processPackages [quantum-kite]: Start processing: systembridgeshared
+[2023-07-18 10:31:58] INFO root fetch - main [MainThread]: End processing [quantum-kite] error
+[2023-07-18 10:31:58] INFO root fetch - processPackages [systembridgeconnector]: executing diffoscope
+[2023-07-18 10:31:58] INFO root fetch - processPackages [systembridgeconnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeconnector-3.7.0.dev1.tar.gz tmp/systembridgeconnector-3.8.0.dev1.tar.gz --markdown 20230718/s/systembridgeconnector/3.7.0.dev1-3.8.0.dev1/diff.md --exclude *.pyd
+[2023-07-18 10:31:58] INFO root fetch - processPackages [odoo-addon-stock-picking-operation-quick-change]: executing diffoscope
+[2023-07-18 10:31:58] INFO root fetch - processPackages [odoo-addon-stock-picking-operation-quick-change]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_operation_quick_change-15.0.1.1.0.3-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_operation_quick_change-15.0.1.1.1-py3-none-any.whl.zip --markdown 20230718/o/odoo-addon-stock-picking-operation-quick-change/15.0.1.1.0.3-15.0.1.1.1/diff.md --exclude *.pyd
+[2023-07-18 10:31:58] INFO root fetch - processPackages [odoo-addon-vault]: Downloading https://files.pythonhosted.org/packages/18/a1/3125a5ea8ec73e43572625dabfd55c13ca1a04e2484493c7736312fc588a/odoo_addon_vault-15.0.1.6.4-py3-none-any.whl
+[2023-07-18 10:31:59] INFO root fetch - processPackages [cartagen4py]: executing diffoscope
+[2023-07-18 10:31:59] INFO root fetch - processPackages [cartagen4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cartagen4py-0.2.0-py3-none-any.whl.zip tmp/cartagen4py-0.2.1-py3-none-any.whl.zip --markdown 20230718/c/cartagen4py/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-18 10:31:59] INFO root fetch - processPackages [labml]: executing diffoscope
+[2023-07-18 10:31:59] INFO root fetch - processPackages [labml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labml-0.4.98.tar.gz tmp/labml-0.4.99.tar.gz --markdown 20230718/l/labml/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-07-18 10:31:59] INFO root fetch - processPackages [systembridgeshared]: New version: [3.8.0.dev1] Old Version: [3.7.0.dev1]
+[2023-07-18 10:31:59] INFO root fetch - processPackages [systembridgeshared]: Downloading https://files.pythonhosted.org/packages/ce/cd/fe65200c4bbc88ed1d3315888d9001460bee16ed37c1b62ba4c405846b30/systembridgeshared-3.7.0.dev1.tar.gz
+[2023-07-18 10:31:59] INFO root fetch - processPackages [odoo-addon-vault]: Downloading https://files.pythonhosted.org/packages/03/a8/c95a5871aa579f1e57cb13b0521c49a5de2987c43126133b5f4cdc0f8367/odoo_addon_vault-15.0.2.0.0-py3-none-any.whl
+[2023-07-18 10:31:59] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.7.tar.gz]
+[2023-07-18 10:31:59] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.8.tar.gz]
+[2023-07-18 10:31:59] INFO root fetch - processPackages [readyocr]: Start processing: tainstcalorimetry
+[2023-07-18 10:31:59] INFO root fetch - main [MainThread]: End processing [readyocr]: success
+[2023-07-18 10:31:59] INFO root fetch - processPackages [odoo-addon-vault]: executing diffoscope
+[2023-07-18 10:31:59] INFO root fetch - processPackages [odoo-addon-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_vault-15.0.1.6.4-py3-none-any.whl.zip tmp/odoo_addon_vault-15.0.2.0.0-py3-none-any.whl.zip --markdown 20230718/o/odoo-addon-vault/15.0.1.6.4-15.0.2.0.0/diff.md --exclude *.pyd
+[2023-07-18 10:31:59] INFO root fetch - processPackages [systembridgeshared]: Downloading https://files.pythonhosted.org/packages/cc/38/458ea68ffb7c48287e3d61f72e8696b85a77646c973ec00e9d182c429c49/systembridgeshared-3.8.0.dev1.tar.gz
+[2023-07-18 10:31:59] INFO root fetch - processPackages [tainstcalorimetry]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-18 10:31:59] INFO root fetch - processPackages [systembridgeshared]: executing diffoscope
+[2023-07-18 10:31:59] INFO root fetch - processPackages [systembridgeshared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeshared-3.7.0.dev1.tar.gz tmp/systembridgeshared-3.8.0.dev1.tar.gz --markdown 20230718/s/systembridgeshared/3.7.0.dev1-3.8.0.dev1/diff.md --exclude *.pyd
+[2023-07-18 10:32:00] INFO root fetch - processPackages [tainstcalorimetry]: Downloading https://files.pythonhosted.org/packages/a8/3d/dab20ac8ff65733c0c436a7bf2ef61de68680cb36336da210561d49b3e77/tainstcalorimetry-0.1.8.tar.gz
+[2023-07-18 10:32:00] INFO root fetch - processPackages [creatFiles]: Remove: archive file [/home/abi/fetcher/tmp/creatFiles-0.1.3.tar.gz]
+[2023-07-18 10:32:00] INFO root fetch - processPackages [creatFiles]: Remove: archive file [/home/abi/fetcher/tmp/creatFiles-0.1.4.tar.gz]
+[2023-07-18 10:32:00] INFO root fetch - processPackages [creatFiles]: Start processing: ellipsis
+[2023-07-18 10:32:00] INFO root fetch - main [MainThread]: End processing [creatFiles]: success
+[2023-07-18 10:32:00] INFO root fetch - processPackages [ADattribution]: Remove: archive file [/home/abi/fetcher/tmp/ADattribution-0.0.3.tar.gz]
+[2023-07-18 10:32:00] INFO root fetch - processPackages [ADattribution]: Remove: archive file [/home/abi/fetcher/tmp/ADattribution-0.0.4.tar.gz]
+[2023-07-18 10:32:00] INFO root fetch - main [MainThread]: End processing [ADattribution]: success
+[2023-07-18 10:32:00] INFO root fetch - processPackages [odoo-addon-purchase-stock-secondary-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_stock_secondary_unit-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-18 10:32:00] INFO root fetch - processPackages [odoo-addon-purchase-stock-secondary-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_stock_secondary_unit-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-18 10:32:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-stock-secondary-unit]: success
+[2023-07-18 10:32:00] INFO root fetch - processPackages [ellipsis]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-07-18 10:32:00] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-3.7.0.dev1.tar.gz]
+[2023-07-18 10:32:00] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-3.8.0.dev1.tar.gz]
+[2023-07-18 10:32:00] INFO root fetch - processPackages [odoo-addon-stock-picking-operation-quick-change]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_operation_quick_change-15.0.1.1.0.3-py3-none-any.whl.zip]
+[2023-07-18 10:32:00] INFO root fetch - processPackages [odoo-addon-stock-picking-operation-quick-change]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_operation_quick_change-15.0.1.1.1-py3-none-any.whl.zip]
+[2023-07-18 10:32:00] INFO root fetch - main [MainThread]: End processing [systembridgeconnector]: success
+[2023-07-18 10:32:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-operation-quick-change]: success
+[2023-07-18 10:32:00] INFO root fetch - processPackages [cartagen4py]: Remove: archive file [/home/abi/fetcher/tmp/cartagen4py-0.2.0-py3-none-any.whl.zip]
+[2023-07-18 10:32:00] INFO root fetch - processPackages [cartagen4py]: Remove: archive file [/home/abi/fetcher/tmp/cartagen4py-0.2.1-py3-none-any.whl.zip]
+[2023-07-18 10:32:00] INFO root fetch - main [MainThread]: End processing [cartagen4py]: success
+[2023-07-18 10:32:00] INFO root fetch - processPackages [ellipsis]: Downloading https://files.pythonhosted.org/packages/a2/22/bb4da3d801a1b7d0092b0ea94f3c3fee54c3a69263ee8cfc2894c5b54281/ellipsis-3.1.8.tar.gz
+[2023-07-18 10:32:00] INFO root fetch - processPackages [labml]: Remove: archive file [/home/abi/fetcher/tmp/labml-0.4.98.tar.gz]
+[2023-07-18 10:32:00] INFO root fetch - processPackages [labml]: Remove: archive file [/home/abi/fetcher/tmp/labml-0.4.99.tar.gz]
+[2023-07-18 10:32:00] INFO root fetch - main [MainThread]: End processing [labml]: success
+[2023-07-18 10:32:01] INFO root fetch - processPackages [systembridgeshared]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeshared-3.7.0.dev1.tar.gz]
+[2023-07-18 10:32:01] INFO root fetch - processPackages [systembridgeshared]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeshared-3.8.0.dev1.tar.gz]
+[2023-07-18 10:32:01] INFO root fetch - main [MainThread]: End processing [systembridgeshared]: success
+[2023-07-18 10:32:01] INFO root fetch - processPackages [ellipsis]: Downloading https://files.pythonhosted.org/packages/c8/9a/b783c46d8c7eba6c0acf3b9459c85984a1458ebf682cf37522bd573c7363/ellipsis-3.1.9.tar.gz
+[2023-07-18 10:32:01] INFO root fetch - processPackages [ellipsis]: executing diffoscope
+[2023-07-18 10:32:01] INFO root fetch - processPackages [ellipsis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ellipsis-3.1.8.tar.gz tmp/ellipsis-3.1.9.tar.gz --markdown 20230718/e/ellipsis/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-07-18 10:32:01] INFO root fetch - processPackages [odoo-addon-vault]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_vault-15.0.1.6.4-py3-none-any.whl.zip]
+[2023-07-18 10:32:01] INFO root fetch - processPackages [odoo-addon-vault]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_vault-15.0.2.0.0-py3-none-any.whl.zip]
+[2023-07-18 10:32:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-vault]: success
+[2023-07-18 10:32:01] INFO root fetch - processPackages [tainstcalorimetry]: Downloading https://files.pythonhosted.org/packages/19/26/7c8c2a5ecf988f4cbf9f1019f018b947021949a15fa2e22c5b258c35ae8d/tainstcalorimetry-0.1.9.tar.gz
+[2023-07-18 10:32:02] INFO root fetch - processPackages [ellipsis]: Remove: archive file [/home/abi/fetcher/tmp/ellipsis-3.1.8.tar.gz]
+[2023-07-18 10:32:02] INFO root fetch - processPackages [ellipsis]: Remove: archive file [/home/abi/fetcher/tmp/ellipsis-3.1.9.tar.gz]
+[2023-07-18 10:32:02] INFO root fetch - main [MainThread]: End processing [ellipsis]: success
+[2023-07-18 10:32:02] INFO root fetch - processPackages [tainstcalorimetry]: executing diffoscope
+[2023-07-18 10:32:02] INFO root fetch - processPackages [tainstcalorimetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tainstcalorimetry-0.1.8.tar.gz tmp/tainstcalorimetry-0.1.9.tar.gz --markdown 20230718/t/tainstcalorimetry/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-18 10:32:04] INFO root fetch - processPackages [tainstcalorimetry]: Remove: archive file [/home/abi/fetcher/tmp/tainstcalorimetry-0.1.8.tar.gz]
+[2023-07-18 10:32:04] INFO root fetch - processPackages [tainstcalorimetry]: Remove: archive file [/home/abi/fetcher/tmp/tainstcalorimetry-0.1.9.tar.gz]
+[2023-07-18 10:32:04] INFO root fetch - main [MainThread]: End processing [tainstcalorimetry]: success
+[2023-07-18 10:32:04] INFO root fetch - main [MainThread]: Store serial: [18930327]
