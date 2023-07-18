@@ -16984,3 +16984,114 @@
 [2023-07-18 09:02:17] INFO root fetch - processPackages [d3rlpy]: Remove: archive file [/home/abi/fetcher/tmp/d3rlpy-2.0.0.tar.gz]
 [2023-07-18 09:02:17] INFO root fetch - main [MainThread]: End processing [d3rlpy]: success
 [2023-07-18 09:02:17] INFO root fetch - main [MainThread]: Store serial: [18929460]
+[2023-07-18 09:07:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18929460]
+[2023-07-18 09:07:26] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-18 09:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seqio-nightly
+[2023-07-18 09:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eventix
+[2023-07-18 09:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vgis-utils
+[2023-07-18 09:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: d3rlpy
+[2023-07-18 09:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yz-core2
+[2023-07-18 09:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pquisby
+[2023-07-18 09:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: TextClassification
+[2023-07-18 09:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ndp-app-migration
+[2023-07-18 09:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: djangoldp-account
+[2023-07-18 09:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dbmate
+[2023-07-18 09:07:26] INFO root fetch - processPackages [d3rlpy]: New version: [2.0.2] Old Version: [1.1.1]
+[2023-07-18 09:07:26] INFO root fetch - processPackages [pquisby]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 09:07:26] INFO root fetch - processPackages [yz-core2]: New version: [1.0.61b2] Old Version: [1.0.61b1]
+[2023-07-18 09:07:26] INFO root fetch - processPackages [ndp-app-migration]: New version: [0.5] Old Version: [0.4]
+[2023-07-18 09:07:26] INFO root fetch - processPackages [TextClassification]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-18 09:07:26] INFO root fetch - processPackages [vgis-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-18 09:07:26] WARNING root fetch - processPackages [dbmate]: Skipping, unable to determine old version
+[2023-07-18 09:07:26] INFO root fetch - processPackages [dbmate]: Start processing: d3rlpy
+[2023-07-18 09:07:26] INFO root fetch - main [MainThread]: End processing [dbmate] error
+[2023-07-18 09:07:26] INFO root fetch - processPackages [eventix]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-18 09:07:27] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-07-18 09:07:27] INFO root fetch - processPackages [djangoldp-account]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-07-18 09:07:27] INFO root fetch - processPackages [d3rlpy]: Downloading https://files.pythonhosted.org/packages/3b/0c/bba8b546426819a2c297ddd9f2268b5f156180057e8db4a6b66eafa78e9b/d3rlpy-1.1.1.tar.gz
+[2023-07-18 09:07:27] INFO root fetch - processPackages [pquisby]: Downloading https://files.pythonhosted.org/packages/d6/f1/7aed93fd661f571cdbbe3669f13929d38cd97f0fadd0dbb35fe072e546f0/pquisby-0.0.8.tar.gz
+[2023-07-18 09:07:27] INFO root fetch - processPackages [d3rlpy]: New version: [2.0.2] Old Version: [1.1.1]
+[2023-07-18 09:07:27] INFO root fetch - processPackages [TextClassification]: Downloading https://files.pythonhosted.org/packages/ed/97/e0903113c80fcf71d178042ecd1b84b45429bceda8bc22553728d030a540/TextClassification-0.1.9-py2.py3-none-any.whl
+[2023-07-18 09:07:27] INFO root fetch - processPackages [ndp-app-migration]: Downloading https://files.pythonhosted.org/packages/46/34/2c67b8477b1db13fffc127398c1b9d0bff0b36d4f5d9deb09c85ccd467e7/ndp-app-migration-0.4.tar.gz
+[2023-07-18 09:07:27] INFO root fetch - processPackages [d3rlpy]: Downloading https://files.pythonhosted.org/packages/3b/0c/bba8b546426819a2c297ddd9f2268b5f156180057e8db4a6b66eafa78e9b/d3rlpy-1.1.1.tar.gz
+[2023-07-18 09:07:27] INFO root fetch - processPackages [eventix]: Downloading https://files.pythonhosted.org/packages/b3/da/dfcc8dd867cc70d9f073a23b865723ee887ced1ee36ebc1c034e65a65322/eventix-0.8.0.tar.gz
+[2023-07-18 09:07:27] INFO root fetch - processPackages [vgis-utils]: Downloading https://files.pythonhosted.org/packages/7e/ab/7b590b6e8e54481b12b7557ec84965bf866bd0236fa571282f5af02b6b24/vgis_utils-1.0.8.tar.gz
+[2023-07-18 09:07:27] INFO root fetch - processPackages [djangoldp-account]: Downloading https://files.pythonhosted.org/packages/20/b3/1b39a3ee4b65d06ddf81e974e70904bdc79ea8b1238470c288fb5f0cc5fd/djangoldp_account-2.3.8.tar.gz
+[2023-07-18 09:07:27] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-07-18 09:07:27] INFO root fetch - processPackages [pquisby]: Downloading https://files.pythonhosted.org/packages/d4/91/3e9961a55c54049d417b63c641b25bb1b00bc7235a425b5a0115b8e32455/pquisby-0.0.9.tar.gz
+[2023-07-18 09:07:27] INFO root fetch - processPackages [yz-core2]: Downloading https://files.pythonhosted.org/packages/59/a4/e37c7ad9f621efc4fe5f6d8573f3fce36a9ceb787ca6c6334d71892d789a/yz-core2-1.0.61b2.tar.gz
+[2023-07-18 09:07:27] INFO root fetch - processPackages [TextClassification]: Downloading https://files.pythonhosted.org/packages/49/e5/acfd73c6b3fe014dc34311ae43d03be5421db73ba28a65ba9f8acb351692/TextClassification-0.2.0-py2.py3-none-any.whl
+[2023-07-18 09:07:27] INFO root fetch - processPackages [d3rlpy]: Downloading https://files.pythonhosted.org/packages/8c/99/ac44b127c5e50c347df153bccb6f37aa746bb6abc448d65488a58beef5c3/d3rlpy-2.0.2.tar.gz
+[2023-07-18 09:07:27] INFO root fetch - processPackages [pquisby]: executing diffoscope
+[2023-07-18 09:07:27] INFO root fetch - processPackages [pquisby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pquisby-0.0.8.tar.gz tmp/pquisby-0.0.9.tar.gz --markdown 20230718/p/pquisby/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 09:07:27] INFO root fetch - processPackages [d3rlpy]: Downloading https://files.pythonhosted.org/packages/8c/99/ac44b127c5e50c347df153bccb6f37aa746bb6abc448d65488a58beef5c3/d3rlpy-2.0.2.tar.gz
+[2023-07-18 09:07:27] INFO root fetch - processPackages [TextClassification]: executing diffoscope
+[2023-07-18 09:07:27] INFO root fetch - processPackages [TextClassification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TextClassification-0.1.9-py2.py3-none-any.whl.zip tmp/TextClassification-0.2.0-py2.py3-none-any.whl.zip --markdown 20230718/T/TextClassification/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-18 09:07:27] INFO root fetch - processPackages [yz-core2]: executing diffoscope
+[2023-07-18 09:07:27] INFO root fetch - processPackages [yz-core2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yz-core2-1.0.61b1.tar.gz tmp/yz-core2-1.0.61b2.tar.gz --markdown 20230718/y/yz-core2/1.0.61b1-1.0.61b2/diff.md --exclude *.pyd
+[2023-07-18 09:07:27] INFO root fetch - processPackages [ndp-app-migration]: Downloading https://files.pythonhosted.org/packages/4d/0b/823a5b76296359fe0060c806d954aaa8f6ad01146fd83bb97d80632f1290/ndp-app-migration-0.5.tar.gz
+[2023-07-18 09:07:27] INFO root fetch - processPackages [d3rlpy]: executing diffoscope
+[2023-07-18 09:07:27] INFO root fetch - processPackages [d3rlpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d3rlpy-1.1.1.tar.gz tmp/d3rlpy-2.0.2.tar.gz --markdown 20230718/d/d3rlpy/1.1.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-18 09:07:28] INFO root fetch - processPackages [d3rlpy]: executing diffoscope
+[2023-07-18 09:07:28] INFO root fetch - processPackages [d3rlpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d3rlpy-1.1.1.tar.gz tmp/d3rlpy-2.0.2.tar.gz --markdown 20230718/d/d3rlpy/1.1.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-18 09:07:28] INFO root fetch - processPackages [eventix]: Downloading https://files.pythonhosted.org/packages/a5/9d/599088ab74046a024773754b6f76c69373b56a26404a7cec27eed6c51eb8/eventix-0.8.1.tar.gz
+[2023-07-18 09:07:28] INFO root fetch - processPackages [ndp-app-migration]: executing diffoscope
+[2023-07-18 09:07:28] INFO root fetch - processPackages [ndp-app-migration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ndp-app-migration-0.4.tar.gz tmp/ndp-app-migration-0.5.tar.gz --markdown 20230718/n/ndp-app-migration/0.4-0.5/diff.md --exclude *.pyd
+[2023-07-18 09:07:28] INFO root fetch - processPackages [djangoldp-account]: Downloading https://files.pythonhosted.org/packages/d5/87/34693bfbc6e8ccd78afe92d7ffe7b8a383795c86482fc60f17d2a6487c49/djangoldp_account-2.3.9.tar.gz
+[2023-07-18 09:07:28] INFO root fetch - processPackages [vgis-utils]: Downloading https://files.pythonhosted.org/packages/30/4a/c32ee6c902c5fa54f5151865992048a00bc6e0b85f30fe5f01034bb92caf/vgis_utils-1.0.9.tar.gz
+[2023-07-18 09:07:28] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-07-18 09:07:28] INFO root fetch - processPackages [eventix]: executing diffoscope
+[2023-07-18 09:07:28] INFO root fetch - processPackages [eventix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventix-0.8.0.tar.gz tmp/eventix-0.8.1.tar.gz --markdown 20230718/e/eventix/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-18 09:07:28] INFO root fetch - processPackages [djangoldp-account]: executing diffoscope
+[2023-07-18 09:07:28] INFO root fetch - processPackages [djangoldp-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_account-2.3.8.tar.gz tmp/djangoldp_account-2.3.9.tar.gz --markdown 20230718/d/djangoldp-account/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-07-18 09:07:28] INFO root fetch - processPackages [vgis-utils]: executing diffoscope
+[2023-07-18 09:07:28] INFO root fetch - processPackages [vgis-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgis_utils-1.0.8.tar.gz tmp/vgis_utils-1.0.9.tar.gz --markdown 20230718/v/vgis-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-18 09:07:28] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-07-18 09:07:28] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230718/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-07-18 09:07:29] INFO root fetch - processPackages [TextClassification]: Remove: archive file [/home/abi/fetcher/tmp/TextClassification-0.1.9-py2.py3-none-any.whl.zip]
+[2023-07-18 09:07:29] INFO root fetch - processPackages [TextClassification]: Remove: archive file [/home/abi/fetcher/tmp/TextClassification-0.2.0-py2.py3-none-any.whl.zip]
+[2023-07-18 09:07:29] INFO root fetch - processPackages [TextClassification]: Start processing: ndp-app-versioncontrol
+[2023-07-18 09:07:29] INFO root fetch - main [MainThread]: End processing [TextClassification]: success
+[2023-07-18 09:07:29] INFO root fetch - processPackages [ndp-app-versioncontrol]: New version: [1.7] Old Version: [1.6]
+[2023-07-18 09:07:29] INFO root fetch - processPackages [pquisby]: Remove: archive file [/home/abi/fetcher/tmp/pquisby-0.0.8.tar.gz]
+[2023-07-18 09:07:29] INFO root fetch - processPackages [pquisby]: Remove: archive file [/home/abi/fetcher/tmp/pquisby-0.0.9.tar.gz]
+[2023-07-18 09:07:29] INFO root fetch - processPackages [pquisby]: Start processing: tf-hub-nightly
+[2023-07-18 09:07:29] INFO root fetch - main [MainThread]: End processing [pquisby]: success
+[2023-07-18 09:07:29] INFO root fetch - processPackages [ndp-app-versioncontrol]: Downloading https://files.pythonhosted.org/packages/53/dd/698e13aebccb18d8c39d5317dff70b1ff1e0072cfaa192af3fb0ddf01e58/ndp-app-versioncontrol-1.6.tar.gz
+[2023-07-18 09:07:29] INFO root fetch - processPackages [ndp-app-migration]: Remove: archive file [/home/abi/fetcher/tmp/ndp-app-migration-0.4.tar.gz]
+[2023-07-18 09:07:29] INFO root fetch - processPackages [ndp-app-migration]: Remove: archive file [/home/abi/fetcher/tmp/ndp-app-migration-0.5.tar.gz]
+[2023-07-18 09:07:29] INFO root fetch - main [MainThread]: End processing [ndp-app-migration]: success
+[2023-07-18 09:07:29] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-07-18 09:07:30] INFO root fetch - processPackages [eventix]: Remove: archive file [/home/abi/fetcher/tmp/eventix-0.8.0.tar.gz]
+[2023-07-18 09:07:30] INFO root fetch - processPackages [eventix]: Remove: archive file [/home/abi/fetcher/tmp/eventix-0.8.1.tar.gz]
+[2023-07-18 09:07:30] INFO root fetch - main [MainThread]: End processing [eventix]: success
+[2023-07-18 09:07:30] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-07-18 09:07:30] INFO root fetch - processPackages [ndp-app-versioncontrol]: Downloading https://files.pythonhosted.org/packages/54/2b/16de393b233db417eeae4cca5c9a638177b17c6f045be3325f4372e3f531/ndp-app-versioncontrol-1.7.tar.gz
+[2023-07-18 09:07:30] INFO root fetch - processPackages [vgis-utils]: Remove: archive file [/home/abi/fetcher/tmp/vgis_utils-1.0.8.tar.gz]
+[2023-07-18 09:07:30] INFO root fetch - processPackages [vgis-utils]: Remove: archive file [/home/abi/fetcher/tmp/vgis_utils-1.0.9.tar.gz]
+[2023-07-18 09:07:30] INFO root fetch - main [MainThread]: End processing [vgis-utils]: success
+[2023-07-18 09:07:30] INFO root fetch - processPackages [yz-core2]: Remove: archive file [/home/abi/fetcher/tmp/yz-core2-1.0.61b1.tar.gz]
+[2023-07-18 09:07:30] INFO root fetch - processPackages [yz-core2]: Remove: archive file [/home/abi/fetcher/tmp/yz-core2-1.0.61b2.tar.gz]
+[2023-07-18 09:07:30] INFO root fetch - processPackages [ndp-app-versioncontrol]: executing diffoscope
+[2023-07-18 09:07:30] INFO root fetch - processPackages [ndp-app-versioncontrol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ndp-app-versioncontrol-1.6.tar.gz tmp/ndp-app-versioncontrol-1.7.tar.gz --markdown 20230718/n/ndp-app-versioncontrol/1.6-1.7/diff.md --exclude *.pyd
+[2023-07-18 09:07:30] INFO root fetch - main [MainThread]: End processing [yz-core2]: success
+[2023-07-18 09:07:30] INFO root fetch - processPackages [djangoldp-account]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_account-2.3.8.tar.gz]
+[2023-07-18 09:07:30] INFO root fetch - processPackages [djangoldp-account]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_account-2.3.9.tar.gz]
+[2023-07-18 09:07:30] INFO root fetch - main [MainThread]: End processing [djangoldp-account]: success
+[2023-07-18 09:07:30] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-07-18 09:07:30] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-07-18 09:07:30] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-07-18 09:07:30] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-07-18 09:07:30] INFO root fetch - processPackages [d3rlpy]: Remove: archive file [/home/abi/fetcher/tmp/d3rlpy-1.1.1.tar.gz]
+[2023-07-18 09:07:30] INFO root fetch - processPackages [d3rlpy]: Remove: archive file [/home/abi/fetcher/tmp/d3rlpy-2.0.2.tar.gz]
+[2023-07-18 09:07:30] INFO root fetch - main [MainThread]: End processing [d3rlpy]: success
+[2023-07-18 09:07:30] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-07-18 09:07:30] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230718/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-07-18 09:07:30] INFO root fetch - main [MainThread]: End processing [d3rlpy]: success
+[2023-07-18 09:07:31] INFO root fetch - processPackages [ndp-app-versioncontrol]: Remove: archive file [/home/abi/fetcher/tmp/ndp-app-versioncontrol-1.6.tar.gz]
+[2023-07-18 09:07:31] INFO root fetch - processPackages [ndp-app-versioncontrol]: Remove: archive file [/home/abi/fetcher/tmp/ndp-app-versioncontrol-1.7.tar.gz]
+[2023-07-18 09:07:31] INFO root fetch - main [MainThread]: End processing [ndp-app-versioncontrol]: success
+[2023-07-18 09:07:31] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-07-18 09:07:31] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-07-18 09:07:31] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-07-18 09:07:31] INFO root fetch - main [MainThread]: Store serial: [18929502]
