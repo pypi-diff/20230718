@@ -14574,3 +14574,112 @@
 [2023-07-18 07:26:32] INFO root fetch - processPackages [o2sclpy]: Remove: archive file [/home/abi/fetcher/tmp/o2sclpy-0.928.tar.gz]
 [2023-07-18 07:26:32] INFO root fetch - main [MainThread]: End processing [o2sclpy]: success
 [2023-07-18 07:26:32] INFO root fetch - main [MainThread]: Store serial: [18928482]
+[2023-07-18 07:31:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18928482]
+[2023-07-18 07:31:41] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-18 07:31:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dicomset
+[2023-07-18 07:31:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reliableGPT
+[2023-07-18 07:31:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-serve
+[2023-07-18 07:31:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addons-oca-social
+[2023-07-18 07:31:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spotPython
+[2023-07-18 07:31:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-stock-barcodes
+[2023-07-18 07:31:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crazy-thursday
+[2023-07-18 07:31:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dicomset
+[2023-07-18 07:31:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-stock-barcodes
+[2023-07-18 07:31:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-stock-barcodes
+[2023-07-18 07:31:41] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: New version: [14.0.2.2.2.dev9] Old Version: [14.0.2.2.2.dev8]
+[2023-07-18 07:31:41] INFO root fetch - processPackages [reliableGPT]: New version: [0.3.0] Old Version: [0.2.999]
+[2023-07-18 07:31:41] INFO root fetch - processPackages [odoo-addons-oca-social]: New version: [16.0.20230717.0] Old Version: [16.0.20230614.0]
+[2023-07-18 07:31:41] INFO root fetch - processPackages [dicomset]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 07:31:41] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: New version: [15.0.1.2.2.9] Old Version: [15.0.1.2.2.8]
+[2023-07-18 07:31:41] INFO root fetch - processPackages [odoo12-addon-stock-barcodes]: New version: [12.0.2.3.0.99.dev9] Old Version: [12.0.2.3.0.99.dev8]
+[2023-07-18 07:31:41] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.3.dev8] Old Version: [0.0.3.dev7]
+[2023-07-18 07:31:41] INFO root fetch - processPackages [dicomset]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 07:31:42] INFO root fetch - processPackages [spotPython]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-07-18 07:31:42] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.7.9.1] Old Version: [2023.7.9.0]
+[2023-07-18 07:31:42] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/b6/5e/9a1d13b9886ec822c9be13e25d5387840bbf916d1595f049fdd26fb23802/reliableGPT-0.2.999.tar.gz
+[2023-07-18 07:31:42] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/af/f9/acb65f0ed4731d3e39035779b4e3bd98699783fd1f0eb0ea4100007e38b5/fastapi-serve-0.0.3.dev7.tar.gz
+[2023-07-18 07:31:42] INFO root fetch - processPackages [odoo-addons-oca-social]: Downloading https://files.pythonhosted.org/packages/b1/dd/9b4bdc117f952fc1c5e09549c8246461d980367c4a15221cdb4f3b5f1f1b/odoo_addons_oca_social-16.0.20230614.0-py3-none-any.whl
+[2023-07-18 07:31:42] INFO root fetch - processPackages [dicomset]: Downloading https://files.pythonhosted.org/packages/e8/0c/d10fafa1eccd5aa8808ae940c53b5d83146d8e376697006256a9f8ff6e95/dicomset-0.0.8.tar.gz
+[2023-07-18 07:31:42] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/a4/69/be6ca7d5def6f417195ee00738af39fa02d91f26d88f7cadd7ce5b0e3bf4/spotPython-0.6.3.tar.gz
+[2023-07-18 07:31:42] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/f1/a9/843e0ed992ce2f46616f9ee781677bb32d4ab1d118bdbe0179a74b8ce4e8/odoo14_addon_stock_barcodes-14.0.2.2.2.dev8-py3-none-any.whl
+[2023-07-18 07:31:42] INFO root fetch - processPackages [odoo12-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/ea/60/dd787ab5fb856b209354a29fa7a8ca8e690de5def43a9727f349a53e2ce4/odoo12_addon_stock_barcodes-12.0.2.3.0.99.dev8-py3-none-any.whl
+[2023-07-18 07:31:42] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/6a/c9/15f9add630932cf1d361c73bada17a4fe2e962fe6ae5ac9e61297aedec22/crazy-thursday-2023.7.9.0.tar.gz
+[2023-07-18 07:31:42] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/7b/ae/0b18f8699b19301fc395d48fd04e04259e4f0ee1c649ae8bc243912b6480/odoo_addon_stock_barcodes-15.0.1.2.2.8-py3-none-any.whl
+[2023-07-18 07:31:42] INFO root fetch - processPackages [dicomset]: Downloading https://files.pythonhosted.org/packages/e8/0c/d10fafa1eccd5aa8808ae940c53b5d83146d8e376697006256a9f8ff6e95/dicomset-0.0.8.tar.gz
+[2023-07-18 07:31:42] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/c6/f6/a87a5c99305b5bcf8997ec1cf419d0ac556901ee63c99482e6efde6794e2/reliableGPT-0.3.0.tar.gz
+[2023-07-18 07:31:42] INFO root fetch - processPackages [dicomset]: Downloading https://files.pythonhosted.org/packages/f8/c4/8250d56633c9c4a47109798696806a3a063bfaf96d729e58ad6f834ee7aa/dicomset-0.0.9.tar.gz
+[2023-07-18 07:31:42] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/8d/ea/65adb6d9f2ff058a84add9a25d8423ef870914ed904a071fcd26e8e9ba74/crazy-thursday-2023.7.9.1.tar.gz
+[2023-07-18 07:31:42] INFO root fetch - processPackages [odoo-addons-oca-social]: Downloading https://files.pythonhosted.org/packages/5a/08/ccd385557c701a973345c113c1a24d4c500e02f852694b8f278f9c58df01/odoo_addons_oca_social-16.0.20230717.0-py3-none-any.whl
+[2023-07-18 07:31:42] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/8a/8a/b8e6820ac6cee06ebc92e932ca78756f069543c1680f946de827edfd6c54/spotPython-0.6.4.tar.gz
+[2023-07-18 07:31:42] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/48/14/b481649ead7842688b0b47b186531887a6b05ce42c5d3690a77b2492cfe6/fastapi-serve-0.0.3.dev8.tar.gz
+[2023-07-18 07:31:42] INFO root fetch - processPackages [dicomset]: Downloading https://files.pythonhosted.org/packages/f8/c4/8250d56633c9c4a47109798696806a3a063bfaf96d729e58ad6f834ee7aa/dicomset-0.0.9.tar.gz
+[2023-07-18 07:31:42] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-07-18 07:31:42] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.2.999.tar.gz tmp/reliableGPT-0.3.0.tar.gz --markdown 20230718/r/reliableGPT/0.2.999-0.3.0/diff.md --exclude *.pyd
+[2023-07-18 07:31:42] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/81/09/40588fd0485e2fe0fa8d00730cf8d4eefea890f28a3cd287b2ed57a2687f/odoo14_addon_stock_barcodes-14.0.2.2.2.dev9-py3-none-any.whl
+[2023-07-18 07:31:42] INFO root fetch - processPackages [odoo-addons-oca-social]: executing diffoscope
+[2023-07-18 07:31:42] INFO root fetch - processPackages [odoo-addons-oca-social]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_social-16.0.20230614.0-py3-none-any.whl.zip tmp/odoo_addons_oca_social-16.0.20230717.0-py3-none-any.whl.zip --markdown 20230718/o/odoo-addons-oca-social/16.0.20230614.0-16.0.20230717.0/diff.md --exclude *.pyd
+[2023-07-18 07:31:42] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-07-18 07:31:42] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.7.9.0.tar.gz tmp/crazy-thursday-2023.7.9.1.tar.gz --markdown 20230718/c/crazy-thursday/2023.7.9.0-2023.7.9.1/diff.md --exclude *.pyd
+[2023-07-18 07:31:42] INFO root fetch - processPackages [odoo12-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/5d/29/2114485f917b8818641d0bb3c43d05af3d40e3d8185e97844b621f02b2b4/odoo12_addon_stock_barcodes-12.0.2.3.0.99.dev9-py3-none-any.whl
+[2023-07-18 07:31:43] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/1a/e3/04c2fd819928bf41869e3a25fd6f8420d24f8b3c4193d518b04580d83d10/odoo_addon_stock_barcodes-15.0.1.2.2.9-py3-none-any.whl
+[2023-07-18 07:31:43] INFO root fetch - processPackages [dicomset]: executing diffoscope
+[2023-07-18 07:31:43] INFO root fetch - processPackages [dicomset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicomset-0.0.8.tar.gz tmp/dicomset-0.0.9.tar.gz --markdown 20230718/d/dicomset/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 07:31:43] INFO root fetch - processPackages [dicomset]: executing diffoscope
+[2023-07-18 07:31:43] INFO root fetch - processPackages [dicomset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicomset-0.0.8.tar.gz tmp/dicomset-0.0.9.tar.gz --markdown 20230718/d/dicomset/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 07:31:43] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-18 07:31:43] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.3.dev7.tar.gz tmp/fastapi-serve-0.0.3.dev8.tar.gz --markdown 20230718/f/fastapi-serve/0.0.3.dev7-0.0.3.dev8/diff.md --exclude *.pyd
+[2023-07-18 07:31:43] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: executing diffoscope
+[2023-07-18 07:31:43] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_barcodes-14.0.2.2.2.dev8-py3-none-any.whl.zip tmp/odoo14_addon_stock_barcodes-14.0.2.2.2.dev9-py3-none-any.whl.zip --markdown 20230718/o/odoo14-addon-stock-barcodes/14.0.2.2.2.dev8-14.0.2.2.2.dev9/diff.md --exclude *.pyd
+[2023-07-18 07:31:43] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-07-18 07:31:43] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.6.3.tar.gz tmp/spotPython-0.6.4.tar.gz --markdown 20230718/s/spotPython/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-07-18 07:31:43] INFO root fetch - processPackages [odoo12-addon-stock-barcodes]: executing diffoscope
+[2023-07-18 07:31:43] INFO root fetch - processPackages [odoo12-addon-stock-barcodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_stock_barcodes-12.0.2.3.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_stock_barcodes-12.0.2.3.0.99.dev9-py3-none-any.whl.zip --markdown 20230718/o/odoo12-addon-stock-barcodes/12.0.2.3.0.99.dev8-12.0.2.3.0.99.dev9/diff.md --exclude *.pyd
+[2023-07-18 07:31:43] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: executing diffoscope
+[2023-07-18 07:31:43] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_barcodes-15.0.1.2.2.8-py3-none-any.whl.zip tmp/odoo_addon_stock_barcodes-15.0.1.2.2.9-py3-none-any.whl.zip --markdown 20230718/o/odoo-addon-stock-barcodes/15.0.1.2.2.8-15.0.1.2.2.9/diff.md --exclude *.pyd
+[2023-07-18 07:31:44] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.999.tar.gz]
+[2023-07-18 07:31:44] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.3.0.tar.gz]
+[2023-07-18 07:31:44] INFO root fetch - processPackages [reliableGPT]: Start processing: cadence-detector
+[2023-07-18 07:31:44] INFO root fetch - main [MainThread]: End processing [reliableGPT]: success
+[2023-07-18 07:31:44] INFO root fetch - processPackages [cadence-detector]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-18 07:31:44] INFO root fetch - processPackages [odoo-addons-oca-social]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_social-16.0.20230614.0-py3-none-any.whl.zip]
+[2023-07-18 07:31:44] INFO root fetch - processPackages [odoo-addons-oca-social]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_social-16.0.20230717.0-py3-none-any.whl.zip]
+[2023-07-18 07:31:44] INFO root fetch - processPackages [odoo-addons-oca-social]: Start processing: wsrouter
+[2023-07-18 07:31:44] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-social]: success
+[2023-07-18 07:31:44] INFO root fetch - processPackages [wsrouter]: New version: [0.8.3] Old Version: [0.8.1]
+[2023-07-18 07:31:44] INFO root fetch - processPackages [cadence-detector]: Downloading https://files.pythonhosted.org/packages/58/de/db449d62a36d30ca0b1e47a3c28499194a40862bc1af7a62ea4e7316f4fd/cadence_detector-0.2.1.tar.gz
+[2023-07-18 07:31:44] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.0.tar.gz]
+[2023-07-18 07:31:44] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.1.tar.gz]
+[2023-07-18 07:31:44] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-07-18 07:31:44] INFO root fetch - processPackages [wsrouter]: Downloading https://files.pythonhosted.org/packages/b3/ea/fd85c22b1aca92417bfe3127284eb72f185b93cf3b8c21a1673e123a28f8/wsrouter-0.8.1.tar.gz
+[2023-07-18 07:31:44] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.3.dev7.tar.gz]
+[2023-07-18 07:31:44] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.3.dev8.tar.gz]
+[2023-07-18 07:31:44] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-18 07:31:45] INFO root fetch - processPackages [cadence-detector]: Downloading https://files.pythonhosted.org/packages/ba/6e/1329a7b4853b5594ccfed586e72cc96edd370d9c5e11ed1c920268f09579/cadence_detector-0.2.2.tar.gz
+[2023-07-18 07:31:45] INFO root fetch - processPackages [odoo12-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_stock_barcodes-12.0.2.3.0.99.dev8-py3-none-any.whl.zip]
+[2023-07-18 07:31:45] INFO root fetch - processPackages [odoo12-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_stock_barcodes-12.0.2.3.0.99.dev9-py3-none-any.whl.zip]
+[2023-07-18 07:31:45] INFO root fetch - main [MainThread]: End processing [odoo12-addon-stock-barcodes]: success
+[2023-07-18 07:31:45] INFO root fetch - processPackages [wsrouter]: Downloading https://files.pythonhosted.org/packages/f8/d2/048a266f0ed337105775a635cbfd86b09a42726865231d1b395d62cbac61/wsrouter-0.8.3.tar.gz
+[2023-07-18 07:31:45] INFO root fetch - processPackages [cadence-detector]: executing diffoscope
+[2023-07-18 07:31:45] INFO root fetch - processPackages [cadence-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadence_detector-0.2.1.tar.gz tmp/cadence_detector-0.2.2.tar.gz --markdown 20230718/c/cadence-detector/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-18 07:31:45] INFO root fetch - processPackages [wsrouter]: executing diffoscope
+[2023-07-18 07:31:45] INFO root fetch - processPackages [wsrouter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wsrouter-0.8.1.tar.gz tmp/wsrouter-0.8.3.tar.gz --markdown 20230718/w/wsrouter/0.8.1-0.8.3/diff.md --exclude *.pyd
+[2023-07-18 07:31:45] INFO root fetch - processPackages [dicomset]: Remove: archive file [/home/abi/fetcher/tmp/dicomset-0.0.8.tar.gz]
+[2023-07-18 07:31:45] INFO root fetch - processPackages [dicomset]: Remove: archive file [/home/abi/fetcher/tmp/dicomset-0.0.9.tar.gz]
+[2023-07-18 07:31:45] INFO root fetch - main [MainThread]: End processing [dicomset]: success
+[2023-07-18 07:31:45] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_barcodes-14.0.2.2.2.dev8-py3-none-any.whl.zip]
+[2023-07-18 07:31:45] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_barcodes-14.0.2.2.2.dev9-py3-none-any.whl.zip]
+[2023-07-18 07:31:45] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-barcodes]: success
+[2023-07-18 07:31:45] INFO root fetch - main [MainThread]: End processing [dicomset]: success
+[2023-07-18 07:31:45] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_barcodes-15.0.1.2.2.8-py3-none-any.whl.zip]
+[2023-07-18 07:31:45] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_barcodes-15.0.1.2.2.9-py3-none-any.whl.zip]
+[2023-07-18 07:31:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-barcodes]: success
+[2023-07-18 07:31:46] INFO root fetch - processPackages [cadence-detector]: Remove: archive file [/home/abi/fetcher/tmp/cadence_detector-0.2.1.tar.gz]
+[2023-07-18 07:31:46] INFO root fetch - processPackages [cadence-detector]: Remove: archive file [/home/abi/fetcher/tmp/cadence_detector-0.2.2.tar.gz]
+[2023-07-18 07:31:46] INFO root fetch - main [MainThread]: End processing [cadence-detector]: success
+[2023-07-18 07:31:46] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.6.3.tar.gz]
+[2023-07-18 07:31:46] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.6.4.tar.gz]
+[2023-07-18 07:31:46] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-07-18 07:31:46] INFO root fetch - processPackages [wsrouter]: Remove: archive file [/home/abi/fetcher/tmp/wsrouter-0.8.1.tar.gz]
+[2023-07-18 07:31:46] INFO root fetch - processPackages [wsrouter]: Remove: archive file [/home/abi/fetcher/tmp/wsrouter-0.8.3.tar.gz]
+[2023-07-18 07:31:46] INFO root fetch - main [MainThread]: End processing [wsrouter]: success
+[2023-07-18 07:31:46] INFO root fetch - main [MainThread]: Store serial: [18928514]
