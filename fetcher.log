@@ -18779,3 +18779,99 @@
 [2023-07-18 10:32:04] INFO root fetch - processPackages [tainstcalorimetry]: Remove: archive file [/home/abi/fetcher/tmp/tainstcalorimetry-0.1.9.tar.gz]
 [2023-07-18 10:32:04] INFO root fetch - main [MainThread]: End processing [tainstcalorimetry]: success
 [2023-07-18 10:32:04] INFO root fetch - main [MainThread]: Store serial: [18930327]
+[2023-07-18 10:37:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18930327]
+[2023-07-18 10:37:12] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-18 10:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: suanpan-sprt
+[2023-07-18 10:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-fortuna
+[2023-07-18 10:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bitmovin-api-sdk
+[2023-07-18 10:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tokenmonster
+[2023-07-18 10:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sluurp
+[2023-07-18 10:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: puma-hep
+[2023-07-18 10:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lacuscore
+[2023-07-18 10:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: djangocms-aldryn-common
+[2023-07-18 10:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: log10-io
+[2023-07-18 10:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: QuNet
+[2023-07-18 10:37:13] INFO root fetch - processPackages [suanpan-sprt]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-18 10:37:13] WARNING root fetch - processPackages [djangocms-aldryn-common]: Skipping, unable to determine old version
+[2023-07-18 10:37:13] INFO root fetch - processPackages [djangocms-aldryn-common]: Start processing: lite-fastapi-local
+[2023-07-18 10:37:13] INFO root fetch - main [MainThread]: End processing [djangocms-aldryn-common] error
+[2023-07-18 10:37:13] INFO root fetch - processPackages [lite-fastapi-local]: New version: [0.0.35] Old Version: [0.0.34]
+[2023-07-18 10:37:13] INFO root fetch - processPackages [aws-fortuna]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-18 10:37:13] INFO root fetch - processPackages [suanpan-sprt]: Downloading https://files.pythonhosted.org/packages/26/ac/246a953a8b803d11fb6c6420a3678dd54ec8ccbda556d45722a333d14870/suanpan-sprt-0.6.2.tar.gz
+[2023-07-18 10:37:13] INFO root fetch - processPackages [lacuscore]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-07-18 10:37:13] INFO root fetch - processPackages [QuNet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-18 10:37:13] INFO root fetch - processPackages [puma-hep]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-18 10:37:13] INFO root fetch - processPackages [log10-io]: New version: [0.2.1] Old Version: [0.1.0]
+[2023-07-18 10:37:13] INFO root fetch - processPackages [sluurp]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-18 10:37:13] INFO root fetch - processPackages [bitmovin-api-sdk]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-07-18 10:37:13] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/d5/ed/08e3812ae99f48d271d226b77d4a7da9cf1105ce195a4687389eb1e2d646/QuNet-0.0.98-py3-none-any.whl
+[2023-07-18 10:37:13] INFO root fetch - processPackages [lite-fastapi-local]: Downloading https://files.pythonhosted.org/packages/01/5e/1dba0fdd8954269a638a82c48c77f42bb0ba91d24e83a77fcf81ace21f2d/lite_fastapi_local-0.0.34.tar.gz
+[2023-07-18 10:37:13] INFO root fetch - processPackages [tokenmonster]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-07-18 10:37:13] INFO root fetch - processPackages [aws-fortuna]: Downloading https://files.pythonhosted.org/packages/da/7b/9a2fb8233a87284d594ab622b3fb8371d7d7663930a2281fc313bb55a622/aws_fortuna-0.1.8.tar.gz
+[2023-07-18 10:37:13] INFO root fetch - processPackages [lacuscore]: Downloading https://files.pythonhosted.org/packages/b3/63/02c9da9a6b54b54cccd3f75eb08089bf9358ea1afd64bb984933a78ef9f1/lacuscore-1.6.1.tar.gz
+[2023-07-18 10:37:13] INFO root fetch - processPackages [suanpan-sprt]: Downloading https://files.pythonhosted.org/packages/06/49/13b7d928c8cc9c189d481cb1433ec69156a2ddea63596316030a0006c8cc/suanpan-sprt-0.6.3.tar.gz
+[2023-07-18 10:37:13] INFO root fetch - processPackages [puma-hep]: Downloading https://files.pythonhosted.org/packages/3d/d9/719fd247000a712a9bb156f255b0ee07688e1a2526a178c56341ff8abb4d/puma-hep-0.2.6.tar.gz
+[2023-07-18 10:37:13] INFO root fetch - processPackages [bitmovin-api-sdk]: Downloading https://files.pythonhosted.org/packages/99/5f/f312c7ae4e19c02c92be74787a5b90e06fd5c451af1d3ae05598ba30e3b1/bitmovin-api-sdk-1.98.0.tar.gz
+[2023-07-18 10:37:13] INFO root fetch - processPackages [log10-io]: Downloading https://files.pythonhosted.org/packages/f6/a1/a3abe0dfd426a41a14b23acbaeb924ab61aa792819a617ae64700050db37/log10_io-0.1.0.tar.gz
+[2023-07-18 10:37:13] INFO root fetch - processPackages [sluurp]: Downloading https://files.pythonhosted.org/packages/ce/a5/363bcfe2432e8c8e417e601610558b3d425b2fc83111d5c5316df8609ac7/sluurp-0.2.3.tar.gz
+[2023-07-18 10:37:13] INFO root fetch - processPackages [tokenmonster]: Downloading https://files.pythonhosted.org/packages/90/5e/712190af9be4ee37932de26a7b0c4ad28b2d5ed3a412399cfa92aeaba853/tokenmonster-1.1.6.tar.gz
+[2023-07-18 10:37:13] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/e0/80/c34810051dcacd44f750dc59c5f982f9a679cbb6caaccd0aad3288430f3e/QuNet-0.0.99-py3-none-any.whl
+[2023-07-18 10:37:13] INFO root fetch - processPackages [suanpan-sprt]: executing diffoscope
+[2023-07-18 10:37:13] INFO root fetch - processPackages [suanpan-sprt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suanpan-sprt-0.6.2.tar.gz tmp/suanpan-sprt-0.6.3.tar.gz --markdown 20230718/s/suanpan-sprt/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-18 10:37:13] INFO root fetch - processPackages [lite-fastapi-local]: Downloading https://files.pythonhosted.org/packages/21/97/c4a3e497809a44318884da77a3d93640376e18ad924957570b697ba5a2bb/lite_fastapi_local-0.0.35.tar.gz
+[2023-07-18 10:37:14] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-07-18 10:37:14] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.98-py3-none-any.whl.zip tmp/QuNet-0.0.99-py3-none-any.whl.zip --markdown 20230718/Q/QuNet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-18 10:37:14] INFO root fetch - processPackages [lacuscore]: Downloading https://files.pythonhosted.org/packages/f0/b4/317820a190ce77b424cc6562ac2476c93a14f1af7e14bcec80a0fa9f2061/lacuscore-1.6.2.tar.gz
+[2023-07-18 10:37:14] INFO root fetch - processPackages [puma-hep]: Downloading https://files.pythonhosted.org/packages/83/be/50c59395f5b2eec2ede55722471ffae3901fbb2bb41cbb9cd9b5eaa6ca63/puma-hep-0.2.7.tar.gz
+[2023-07-18 10:37:14] INFO root fetch - processPackages [aws-fortuna]: Downloading https://files.pythonhosted.org/packages/6f/b6/d1180b6d5028216edeed20bb4ed02e103eaf19befc1d200a31f685a074d9/aws_fortuna-0.1.9.tar.gz
+[2023-07-18 10:37:14] INFO root fetch - processPackages [lite-fastapi-local]: executing diffoscope
+[2023-07-18 10:37:14] INFO root fetch - processPackages [lite-fastapi-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lite_fastapi_local-0.0.34.tar.gz tmp/lite_fastapi_local-0.0.35.tar.gz --markdown 20230718/l/lite-fastapi-local/0.0.34-0.0.35/diff.md --exclude *.pyd
+[2023-07-18 10:37:14] INFO root fetch - processPackages [sluurp]: Downloading https://files.pythonhosted.org/packages/c3/d5/98aba18b3ec2f64ea5812ff03d0c6282cb372d79d4c954ad69d9e3725f5d/sluurp-0.2.4.tar.gz
+[2023-07-18 10:37:14] INFO root fetch - processPackages [puma-hep]: executing diffoscope
+[2023-07-18 10:37:14] INFO root fetch - processPackages [puma-hep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/puma-hep-0.2.6.tar.gz tmp/puma-hep-0.2.7.tar.gz --markdown 20230718/p/puma-hep/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-18 10:37:14] INFO root fetch - processPackages [tokenmonster]: Downloading https://files.pythonhosted.org/packages/20/ea/04c29a313ded2db30eca54598380d63e839ede149f831ef93be162ceb5f5/tokenmonster-1.1.7.tar.gz
+[2023-07-18 10:37:14] INFO root fetch - processPackages [log10-io]: Downloading https://files.pythonhosted.org/packages/34/04/4ca88b5239b41e9814f4448010890550bf68a34b254dab9ab643ea26bd52/log10_io-0.2.1.tar.gz
+[2023-07-18 10:37:14] INFO root fetch - processPackages [bitmovin-api-sdk]: Downloading https://files.pythonhosted.org/packages/34/91/b3a6a32567ee1b2b10fdb861f77466abd3a7b2db538088f87351199da0bc/bitmovin-api-sdk-1.99.0.tar.gz
+[2023-07-18 10:37:14] INFO root fetch - processPackages [aws-fortuna]: executing diffoscope
+[2023-07-18 10:37:14] INFO root fetch - processPackages [aws-fortuna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_fortuna-0.1.8.tar.gz tmp/aws_fortuna-0.1.9.tar.gz --markdown 20230718/a/aws-fortuna/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-18 10:37:14] INFO root fetch - processPackages [lacuscore]: executing diffoscope
+[2023-07-18 10:37:14] INFO root fetch - processPackages [lacuscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lacuscore-1.6.1.tar.gz tmp/lacuscore-1.6.2.tar.gz --markdown 20230718/l/lacuscore/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-07-18 10:37:14] INFO root fetch - processPackages [sluurp]: executing diffoscope
+[2023-07-18 10:37:14] INFO root fetch - processPackages [sluurp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sluurp-0.2.3.tar.gz tmp/sluurp-0.2.4.tar.gz --markdown 20230718/s/sluurp/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-18 10:37:14] INFO root fetch - processPackages [tokenmonster]: executing diffoscope
+[2023-07-18 10:37:14] INFO root fetch - processPackages [tokenmonster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tokenmonster-1.1.6.tar.gz tmp/tokenmonster-1.1.7.tar.gz --markdown 20230718/t/tokenmonster/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-07-18 10:37:14] INFO root fetch - processPackages [log10-io]: executing diffoscope
+[2023-07-18 10:37:14] INFO root fetch - processPackages [log10-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/log10_io-0.1.0.tar.gz tmp/log10_io-0.2.1.tar.gz --markdown 20230718/l/log10-io/0.1.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-18 10:37:14] INFO root fetch - processPackages [bitmovin-api-sdk]: executing diffoscope
+[2023-07-18 10:37:14] INFO root fetch - processPackages [bitmovin-api-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitmovin-api-sdk-1.98.0.tar.gz tmp/bitmovin-api-sdk-1.99.0.tar.gz --markdown 20230718/b/bitmovin-api-sdk/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-07-18 10:37:15] INFO root fetch - processPackages [suanpan-sprt]: Remove: archive file [/home/abi/fetcher/tmp/suanpan-sprt-0.6.2.tar.gz]
+[2023-07-18 10:37:15] INFO root fetch - processPackages [suanpan-sprt]: Remove: archive file [/home/abi/fetcher/tmp/suanpan-sprt-0.6.3.tar.gz]
+[2023-07-18 10:37:15] INFO root fetch - main [MainThread]: End processing [suanpan-sprt]: success
+[2023-07-18 10:37:15] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.98-py3-none-any.whl.zip]
+[2023-07-18 10:37:15] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.99-py3-none-any.whl.zip]
+[2023-07-18 10:37:15] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-07-18 10:37:15] INFO root fetch - processPackages [lite-fastapi-local]: Remove: archive file [/home/abi/fetcher/tmp/lite_fastapi_local-0.0.34.tar.gz]
+[2023-07-18 10:37:15] INFO root fetch - processPackages [lite-fastapi-local]: Remove: archive file [/home/abi/fetcher/tmp/lite_fastapi_local-0.0.35.tar.gz]
+[2023-07-18 10:37:15] INFO root fetch - main [MainThread]: End processing [lite-fastapi-local]: success
+[2023-07-18 10:37:16] INFO root fetch - processPackages [lacuscore]: Remove: archive file [/home/abi/fetcher/tmp/lacuscore-1.6.1.tar.gz]
+[2023-07-18 10:37:16] INFO root fetch - processPackages [lacuscore]: Remove: archive file [/home/abi/fetcher/tmp/lacuscore-1.6.2.tar.gz]
+[2023-07-18 10:37:16] INFO root fetch - main [MainThread]: End processing [lacuscore]: success
+[2023-07-18 10:37:16] INFO root fetch - processPackages [puma-hep]: Remove: archive file [/home/abi/fetcher/tmp/puma-hep-0.2.6.tar.gz]
+[2023-07-18 10:37:16] INFO root fetch - processPackages [puma-hep]: Remove: archive file [/home/abi/fetcher/tmp/puma-hep-0.2.7.tar.gz]
+[2023-07-18 10:37:16] INFO root fetch - main [MainThread]: End processing [puma-hep]: success
+[2023-07-18 10:37:16] INFO root fetch - processPackages [sluurp]: Remove: archive file [/home/abi/fetcher/tmp/sluurp-0.2.3.tar.gz]
+[2023-07-18 10:37:16] INFO root fetch - processPackages [sluurp]: Remove: archive file [/home/abi/fetcher/tmp/sluurp-0.2.4.tar.gz]
+[2023-07-18 10:37:16] INFO root fetch - main [MainThread]: End processing [sluurp]: success
+[2023-07-18 10:37:16] INFO root fetch - processPackages [log10-io]: Remove: archive file [/home/abi/fetcher/tmp/log10_io-0.1.0.tar.gz]
+[2023-07-18 10:37:16] INFO root fetch - processPackages [log10-io]: Remove: archive file [/home/abi/fetcher/tmp/log10_io-0.2.1.tar.gz]
+[2023-07-18 10:37:16] INFO root fetch - main [MainThread]: End processing [log10-io]: success
+[2023-07-18 10:37:16] INFO root fetch - processPackages [tokenmonster]: Remove: archive file [/home/abi/fetcher/tmp/tokenmonster-1.1.6.tar.gz]
+[2023-07-18 10:37:16] INFO root fetch - processPackages [tokenmonster]: Remove: archive file [/home/abi/fetcher/tmp/tokenmonster-1.1.7.tar.gz]
+[2023-07-18 10:37:16] INFO root fetch - main [MainThread]: End processing [tokenmonster]: success
+[2023-07-18 10:37:17] INFO root fetch - processPackages [aws-fortuna]: Remove: archive file [/home/abi/fetcher/tmp/aws_fortuna-0.1.8.tar.gz]
+[2023-07-18 10:37:17] INFO root fetch - processPackages [aws-fortuna]: Remove: archive file [/home/abi/fetcher/tmp/aws_fortuna-0.1.9.tar.gz]
+[2023-07-18 10:37:17] INFO root fetch - main [MainThread]: End processing [aws-fortuna]: success
+[2023-07-18 10:37:27] INFO root fetch - processPackages [bitmovin-api-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bitmovin-api-sdk-1.98.0.tar.gz]
+[2023-07-18 10:37:27] INFO root fetch - processPackages [bitmovin-api-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bitmovin-api-sdk-1.99.0.tar.gz]
+[2023-07-18 10:37:27] INFO root fetch - main [MainThread]: End processing [bitmovin-api-sdk]: success
+[2023-07-18 10:37:27] INFO root fetch - main [MainThread]: Store serial: [18930361]
