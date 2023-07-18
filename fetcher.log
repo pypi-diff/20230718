@@ -13866,3 +13866,121 @@
 [2023-07-18 06:59:00] INFO root fetch - processPackages [data-check]: Remove: archive file [/home/abi/fetcher/tmp/data_check-0.9.0.tar.gz]
 [2023-07-18 06:59:00] INFO root fetch - main [MainThread]: End processing [data-check]: success
 [2023-07-18 06:59:00] INFO root fetch - main [MainThread]: Store serial: [18928207]
+[2023-07-18 07:04:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18928207]
+[2023-07-18 07:04:09] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-18 07:04:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mathjson-solver
+[2023-07-18 07:04:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyDeepLX
+[2023-07-18 07:04:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: accelbyte-py-sdk
+[2023-07-18 07:04:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llama-index
+[2023-07-18 07:04:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: covert-ots
+[2023-07-18 07:04:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mysqlbuilder
+[2023-07-18 07:04:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: webuiapi
+[2023-07-18 07:04:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo8-addon-crm-rma-stock-location
+[2023-07-18 07:04:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: covert-ots
+[2023-07-18 07:04:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-product-warranty
+[2023-07-18 07:04:09] INFO root fetch - processPackages [mysqlbuilder]: New version: [1.1.0] Old Version: [1.0.19]
+[2023-07-18 07:04:09] INFO root fetch - processPackages [covert-ots]: New version: [1.0.1] Old Version: [1.0]
+[2023-07-18 07:04:09] INFO root fetch - processPackages [accelbyte-py-sdk]: New version: [0.45.0] Old Version: [0.44.0]
+[2023-07-18 07:04:09] INFO root fetch - processPackages [covert-ots]: New version: [1.0.1] Old Version: [1.0]
+[2023-07-18 07:04:09] INFO root fetch - processPackages [odoo8-addon-crm-rma-stock-location]: New version: [8.0.1.1.0.99.dev2] Old Version: [8.0.1.1.0.99.dev1]
+[2023-07-18 07:04:09] INFO root fetch - processPackages [mathjson-solver]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-07-18 07:04:09] INFO root fetch - processPackages [odoo-addon-product-warranty]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-07-18 07:04:09] INFO root fetch - processPackages [webuiapi]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-18 07:04:09] INFO root fetch - processPackages [llama-index]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-18 07:04:09] INFO root fetch - processPackages [PyDeepLX]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-18 07:04:10] INFO root fetch - processPackages [mysqlbuilder]: Downloading https://files.pythonhosted.org/packages/9f/02/626d9d7a552ea947ea0875ceb7493269390e4956624a3fa399d5da41eb40/mysqlbuilder-1.0.19.tar.gz
+[2023-07-18 07:04:10] INFO root fetch - processPackages [odoo-addon-product-warranty]: Downloading https://files.pythonhosted.org/packages/2d/f3/41e2878313c578404f894aea7991becaf39a601545bb62b62386aa538736/odoo_addon_product_warranty-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-18 07:04:10] INFO root fetch - processPackages [covert-ots]: Downloading https://files.pythonhosted.org/packages/39/f9/516af0ffcc7eb0942b8a9febb7b444fe2c77726f59b803e0adee9c811e2b/covert-ots-1.0.tar.gz
+[2023-07-18 07:04:10] INFO root fetch - processPackages [accelbyte-py-sdk]: Downloading https://files.pythonhosted.org/packages/9f/5b/52ab0f725584344c0d38fe74bdeb152cc3c47d772efe91c0c6494e0d305f/accelbyte_py_sdk-0.44.0.tar.gz
+[2023-07-18 07:04:10] INFO root fetch - processPackages [covert-ots]: Downloading https://files.pythonhosted.org/packages/39/f9/516af0ffcc7eb0942b8a9febb7b444fe2c77726f59b803e0adee9c811e2b/covert-ots-1.0.tar.gz
+[2023-07-18 07:04:10] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/2f/e7/26c0a77d20d762a2e856738f0f1e38342069be88566479653d9d9118e33a/llama_index-0.7.8.tar.gz
+[2023-07-18 07:04:10] INFO root fetch - processPackages [mathjson-solver]: Downloading https://files.pythonhosted.org/packages/ec/88/3a7211c134997b1424baaca44c2bca568750ba7c2301aed9ab45dafa1e44/mathjson-solver-1.6.0.tar.gz
+[2023-07-18 07:04:10] INFO root fetch - processPackages [webuiapi]: Downloading https://files.pythonhosted.org/packages/c2/2e/a286d7414f286d79696775bc420a408b2de9feab574dee1f5f07e48f2e0d/webuiapi-0.9.4-py3-none-any.whl
+[2023-07-18 07:04:10] INFO root fetch - processPackages [odoo8-addon-crm-rma-stock-location]: Downloading https://files.pythonhosted.org/packages/88/f5/d2f65258a5b5a28537e7aa1997d5af48ebda856ed5c23487a739408647ba/odoo8_addon_crm_rma_stock_location-8.0.1.1.0.99.dev1-py2-none-any.whl
+[2023-07-18 07:04:10] INFO root fetch - processPackages [PyDeepLX]: Downloading https://files.pythonhosted.org/packages/b5/79/cb31871b415031b3e4de845de8db24444a5d958f6d7ba7a2cde1541c18b9/PyDeepLX-1.0.3.tar.gz
+[2023-07-18 07:04:10] INFO root fetch - processPackages [mysqlbuilder]: Downloading https://files.pythonhosted.org/packages/78/b6/0ae47cc82e16ef5fb16d00933d63e13b45450a0ab1515015ee18f7b942b3/mysqlbuilder-1.1.0.tar.gz
+[2023-07-18 07:04:10] INFO root fetch - processPackages [odoo-addon-product-warranty]: Downloading https://files.pythonhosted.org/packages/a0/e6/3a2e6d9941f01adb3dfcf46ac9ddf47c05368e7a87c79e1474dbff924bfa/odoo_addon_product_warranty-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-18 07:04:10] INFO root fetch - processPackages [mysqlbuilder]: executing diffoscope
+[2023-07-18 07:04:10] INFO root fetch - processPackages [mysqlbuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlbuilder-1.0.19.tar.gz tmp/mysqlbuilder-1.1.0.tar.gz --markdown 20230718/m/mysqlbuilder/1.0.19-1.1.0/diff.md --exclude *.pyd
+[2023-07-18 07:04:10] INFO root fetch - processPackages [covert-ots]: Downloading https://files.pythonhosted.org/packages/3c/cf/d96fec0c8c6a3abf0e1f65dd54d68af1f32d559740883f563ce16e5e20eb/covert-ots-1.0.1.tar.gz
+[2023-07-18 07:04:10] INFO root fetch - processPackages [covert-ots]: Downloading https://files.pythonhosted.org/packages/3c/cf/d96fec0c8c6a3abf0e1f65dd54d68af1f32d559740883f563ce16e5e20eb/covert-ots-1.0.1.tar.gz
+[2023-07-18 07:04:10] INFO root fetch - processPackages [odoo-addon-product-warranty]: executing diffoscope
+[2023-07-18 07:04:10] INFO root fetch - processPackages [odoo-addon-product-warranty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_warranty-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_product_warranty-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230718/o/odoo-addon-product-warranty/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-07-18 07:04:10] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/1a/7c/9e8aceb37943ab1d15e27d69ed3e650c7692b3669e2d293bd325e988437f/llama_index-0.7.9.tar.gz
+[2023-07-18 07:04:10] INFO root fetch - processPackages [covert-ots]: executing diffoscope
+[2023-07-18 07:04:10] INFO root fetch - processPackages [covert-ots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covert-ots-1.0.tar.gz tmp/covert-ots-1.0.1.tar.gz --markdown 20230718/c/covert-ots/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-18 07:04:10] INFO root fetch - processPackages [mathjson-solver]: Downloading https://files.pythonhosted.org/packages/19/bc/ba1e07811d1ba767bbf943b0fbf3c7260cff9fd09032981328132808ea23/mathjson-solver-1.6.1.tar.gz
+[2023-07-18 07:04:10] INFO root fetch - processPackages [webuiapi]: Downloading https://files.pythonhosted.org/packages/52/3d/7d40e49acdd538ccae2a4b2de46b30ee99ce50e391544b6f043f074ff274/webuiapi-0.9.5-py3-none-any.whl
+[2023-07-18 07:04:10] INFO root fetch - processPackages [covert-ots]: executing diffoscope
+[2023-07-18 07:04:10] INFO root fetch - processPackages [covert-ots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covert-ots-1.0.tar.gz tmp/covert-ots-1.0.1.tar.gz --markdown 20230718/c/covert-ots/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-18 07:04:10] INFO root fetch - processPackages [PyDeepLX]: Downloading https://files.pythonhosted.org/packages/a3/bf/7201a63d075bc5ba4566ecd24910c03d482d2926cd4794cff164079a0bd0/PyDeepLX-1.0.4.tar.gz
+[2023-07-18 07:04:10] INFO root fetch - processPackages [accelbyte-py-sdk]: Downloading https://files.pythonhosted.org/packages/83/ce/b197da0b3c1e5e99740636dc6af8344b7f82cb5e745af1604c19f174e41a/accelbyte_py_sdk-0.45.0.tar.gz
+[2023-07-18 07:04:10] INFO root fetch - processPackages [mathjson-solver]: executing diffoscope
+[2023-07-18 07:04:10] INFO root fetch - processPackages [mathjson-solver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathjson-solver-1.6.0.tar.gz tmp/mathjson-solver-1.6.1.tar.gz --markdown 20230718/m/mathjson-solver/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-07-18 07:04:10] INFO root fetch - processPackages [webuiapi]: executing diffoscope
+[2023-07-18 07:04:10] INFO root fetch - processPackages [webuiapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webuiapi-0.9.4-py3-none-any.whl.zip tmp/webuiapi-0.9.5-py3-none-any.whl.zip --markdown 20230718/w/webuiapi/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-18 07:04:10] INFO root fetch - processPackages [odoo8-addon-crm-rma-stock-location]: Downloading https://files.pythonhosted.org/packages/6e/d5/1a26ae902caac426c841aa19af629c76739f03a442860db769db93a2551f/odoo8_addon_crm_rma_stock_location-8.0.1.1.0.99.dev2-py2-none-any.whl
+[2023-07-18 07:04:10] INFO root fetch - processPackages [PyDeepLX]: executing diffoscope
+[2023-07-18 07:04:10] INFO root fetch - processPackages [PyDeepLX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyDeepLX-1.0.3.tar.gz tmp/PyDeepLX-1.0.4.tar.gz --markdown 20230718/P/PyDeepLX/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-18 07:04:11] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-07-18 07:04:11] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.7.8.tar.gz tmp/llama_index-0.7.9.tar.gz --markdown 20230718/l/llama-index/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-18 07:04:11] INFO root fetch - processPackages [accelbyte-py-sdk]: executing diffoscope
+[2023-07-18 07:04:11] INFO root fetch - processPackages [accelbyte-py-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte_py_sdk-0.44.0.tar.gz tmp/accelbyte_py_sdk-0.45.0.tar.gz --markdown 20230718/a/accelbyte-py-sdk/0.44.0-0.45.0/diff.md --exclude *.pyd
+[2023-07-18 07:04:11] INFO root fetch - processPackages [odoo8-addon-crm-rma-stock-location]: executing diffoscope
+[2023-07-18 07:04:11] INFO root fetch - processPackages [odoo8-addon-crm-rma-stock-location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_crm_rma_stock_location-8.0.1.1.0.99.dev1-py2-none-any.whl.zip tmp/odoo8_addon_crm_rma_stock_location-8.0.1.1.0.99.dev2-py2-none-any.whl.zip --markdown 20230718/o/odoo8-addon-crm-rma-stock-location/8.0.1.1.0.99.dev1-8.0.1.1.0.99.dev2/diff.md --exclude *.pyd
+[2023-07-18 07:04:11] INFO root fetch - processPackages [mysqlbuilder]: Remove: archive file [/home/abi/fetcher/tmp/mysqlbuilder-1.0.19.tar.gz]
+[2023-07-18 07:04:11] INFO root fetch - processPackages [mysqlbuilder]: Remove: archive file [/home/abi/fetcher/tmp/mysqlbuilder-1.1.0.tar.gz]
+[2023-07-18 07:04:11] INFO root fetch - processPackages [mysqlbuilder]: Start processing: odoo-addons-oca-rma
+[2023-07-18 07:04:11] INFO root fetch - main [MainThread]: End processing [mysqlbuilder]: success
+[2023-07-18 07:04:11] INFO root fetch - processPackages [odoo-addons-oca-rma]: New version: [16.0.20230717.0] Old Version: [15.0.20221219.0]
+[2023-07-18 07:04:12] INFO root fetch - processPackages [covert-ots]: Remove: archive file [/home/abi/fetcher/tmp/covert-ots-1.0.tar.gz]
+[2023-07-18 07:04:12] INFO root fetch - processPackages [covert-ots]: Remove: archive file [/home/abi/fetcher/tmp/covert-ots-1.0.1.tar.gz]
+[2023-07-18 07:04:12] INFO root fetch - processPackages [covert-ots]: Start processing: trad
+[2023-07-18 07:04:12] INFO root fetch - main [MainThread]: End processing [covert-ots]: success
+[2023-07-18 07:04:12] INFO root fetch - processPackages [trad]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-18 07:04:12] INFO root fetch - processPackages [odoo-addons-oca-rma]: Downloading https://files.pythonhosted.org/packages/c9/b4/1d93201d898319402623febb1821bf63cca7a49cd6ba351ac46dbb4024e1/odoo_addons_oca_rma-15.0.20221219.0-py3-none-any.whl
+[2023-07-18 07:04:12] INFO root fetch - processPackages [covert-ots]: Start processing: gpt-index
+[2023-07-18 07:04:12] INFO root fetch - main [MainThread]: End processing [covert-ots]: success
+[2023-07-18 07:04:12] INFO root fetch - processPackages [trad]: Downloading https://files.pythonhosted.org/packages/f1/d7/b3db25f62e13c5d8a66d0903bdba812cd7e3413ebc29edcf62b928b4961b/trad-0.1.0.tar.gz
+[2023-07-18 07:04:12] INFO root fetch - processPackages [odoo-addon-product-warranty]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_warranty-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-18 07:04:12] INFO root fetch - processPackages [odoo-addon-product-warranty]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_warranty-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-18 07:04:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-warranty]: success
+[2023-07-18 07:04:12] INFO root fetch - processPackages [gpt-index]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-18 07:04:12] INFO root fetch - processPackages [PyDeepLX]: Remove: archive file [/home/abi/fetcher/tmp/PyDeepLX-1.0.3.tar.gz]
+[2023-07-18 07:04:12] INFO root fetch - processPackages [mathjson-solver]: Remove: archive file [/home/abi/fetcher/tmp/mathjson-solver-1.6.0.tar.gz]
+[2023-07-18 07:04:12] INFO root fetch - processPackages [PyDeepLX]: Remove: archive file [/home/abi/fetcher/tmp/PyDeepLX-1.0.4.tar.gz]
+[2023-07-18 07:04:12] INFO root fetch - processPackages [mathjson-solver]: Remove: archive file [/home/abi/fetcher/tmp/mathjson-solver-1.6.1.tar.gz]
+[2023-07-18 07:04:12] INFO root fetch - main [MainThread]: End processing [PyDeepLX]: success
+[2023-07-18 07:04:12] INFO root fetch - main [MainThread]: End processing [mathjson-solver]: success
+[2023-07-18 07:04:12] INFO root fetch - processPackages [odoo-addons-oca-rma]: Downloading https://files.pythonhosted.org/packages/a4/24/1b555d6d7c9911c7f4568fe168803d9f0df24b4e8514c18e34f6b5aa0621/odoo_addons_oca_rma-16.0.20230717.0-py3-none-any.whl
+[2023-07-18 07:04:12] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/a9/fc/759318b247b4f445b1da56bb0d8b711a7de1adda75a92c3fd92176d9984c/gpt_index-0.7.8.tar.gz
+[2023-07-18 07:04:12] INFO root fetch - processPackages [webuiapi]: Remove: archive file [/home/abi/fetcher/tmp/webuiapi-0.9.4-py3-none-any.whl.zip]
+[2023-07-18 07:04:12] INFO root fetch - processPackages [webuiapi]: Remove: archive file [/home/abi/fetcher/tmp/webuiapi-0.9.5-py3-none-any.whl.zip]
+[2023-07-18 07:04:12] INFO root fetch - main [MainThread]: End processing [webuiapi]: success
+[2023-07-18 07:04:12] INFO root fetch - processPackages [odoo-addons-oca-rma]: executing diffoscope
+[2023-07-18 07:04:12] INFO root fetch - processPackages [odoo-addons-oca-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_rma-15.0.20221219.0-py3-none-any.whl.zip tmp/odoo_addons_oca_rma-16.0.20230717.0-py3-none-any.whl.zip --markdown 20230718/o/odoo-addons-oca-rma/15.0.20221219.0-16.0.20230717.0/diff.md --exclude *.pyd
+[2023-07-18 07:04:12] INFO root fetch - processPackages [trad]: Downloading https://files.pythonhosted.org/packages/74/6c/481ddd658aac0a9fe16e35830c82d1df3ddcc5cee94d0219473b8e4b94bb/trad-0.1.1.tar.gz
+[2023-07-18 07:04:12] INFO root fetch - processPackages [trad]: executing diffoscope
+[2023-07-18 07:04:12] INFO root fetch - processPackages [trad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trad-0.1.0.tar.gz tmp/trad-0.1.1.tar.gz --markdown 20230718/t/trad/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-18 07:04:12] INFO root fetch - processPackages [odoo8-addon-crm-rma-stock-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_crm_rma_stock_location-8.0.1.1.0.99.dev1-py2-none-any.whl.zip]
+[2023-07-18 07:04:12] INFO root fetch - processPackages [odoo8-addon-crm-rma-stock-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_crm_rma_stock_location-8.0.1.1.0.99.dev2-py2-none-any.whl.zip]
+[2023-07-18 07:04:12] INFO root fetch - main [MainThread]: End processing [odoo8-addon-crm-rma-stock-location]: success
+[2023-07-18 07:04:12] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/fb/cd/b6cf67186f1ef0f3078acd211131fce74e74d15332fa85c6bdcdc2812534/gpt_index-0.7.9.tar.gz
+[2023-07-18 07:04:13] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-07-18 07:04:13] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.7.8.tar.gz tmp/gpt_index-0.7.9.tar.gz --markdown 20230718/g/gpt-index/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-18 07:04:13] INFO root fetch - processPackages [odoo-addons-oca-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_rma-15.0.20221219.0-py3-none-any.whl.zip]
+[2023-07-18 07:04:13] INFO root fetch - processPackages [odoo-addons-oca-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_rma-16.0.20230717.0-py3-none-any.whl.zip]
+[2023-07-18 07:04:13] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-rma]: success
+[2023-07-18 07:04:13] INFO root fetch - processPackages [trad]: Remove: archive file [/home/abi/fetcher/tmp/trad-0.1.0.tar.gz]
+[2023-07-18 07:04:13] INFO root fetch - processPackages [trad]: Remove: archive file [/home/abi/fetcher/tmp/trad-0.1.1.tar.gz]
+[2023-07-18 07:04:13] INFO root fetch - main [MainThread]: End processing [trad]: success
+[2023-07-18 07:04:14] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.7.8.tar.gz]
+[2023-07-18 07:04:14] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.7.9.tar.gz]
+[2023-07-18 07:04:14] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-07-18 07:04:16] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.7.8.tar.gz]
+[2023-07-18 07:04:16] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.7.9.tar.gz]
+[2023-07-18 07:04:16] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-07-18 07:05:29] INFO root fetch - processPackages [accelbyte-py-sdk]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk-0.44.0.tar.gz]
+[2023-07-18 07:05:29] INFO root fetch - processPackages [accelbyte-py-sdk]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk-0.45.0.tar.gz]
+[2023-07-18 07:05:29] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk]: success
+[2023-07-18 07:05:29] INFO root fetch - main [MainThread]: Store serial: [18928244]
