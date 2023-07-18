@@ -15955,3 +15955,24 @@
 [2023-07-18 07:58:26] INFO root fetch - processPackages [racplusplus]: Remove: archive file [/home/abi/fetcher/tmp/racplusplus-0.0.7-cp39-cp39-win_amd64.whl.zip]
 [2023-07-18 07:58:26] INFO root fetch - main [MainThread]: End processing [racplusplus]: success
 [2023-07-18 07:58:26] INFO root fetch - main [MainThread]: Store serial: [18928925]
+[2023-07-18 08:03:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18928925]
+[2023-07-18 08:03:35] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-18 08:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: danling
+[2023-07-18 08:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hrbot
+[2023-07-18 08:03:35] INFO root fetch - processPackages [danling]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-18 08:03:35] INFO root fetch - processPackages [hrbot]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-18 08:03:35] INFO root fetch - processPackages [danling]: Downloading https://files.pythonhosted.org/packages/eb/fa/de5f2def4160a45b5f50b4af90280823b803f72d46787da91b47bee6be41/danling-0.2.8.tar.gz
+[2023-07-18 08:03:35] INFO root fetch - processPackages [hrbot]: Downloading https://files.pythonhosted.org/packages/05/ac/c401e3f2b9326694543fe1641f88e395fe50283a7938dd140c3b49b6be0b/hrbot-0.1.3.tar.gz
+[2023-07-18 08:03:35] INFO root fetch - processPackages [hrbot]: Downloading https://files.pythonhosted.org/packages/64/a9/752d1e911faa6526f5b0d66a0920c4e6e7e147620ad17cb89dc9c8412a03/hrbot-0.1.4.tar.gz
+[2023-07-18 08:03:36] INFO root fetch - processPackages [hrbot]: executing diffoscope
+[2023-07-18 08:03:36] INFO root fetch - processPackages [hrbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrbot-0.1.3.tar.gz tmp/hrbot-0.1.4.tar.gz --markdown 20230718/h/hrbot/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-18 08:03:36] INFO root fetch - processPackages [hrbot]: Remove: archive file [/home/abi/fetcher/tmp/hrbot-0.1.3.tar.gz]
+[2023-07-18 08:03:36] INFO root fetch - processPackages [hrbot]: Remove: archive file [/home/abi/fetcher/tmp/hrbot-0.1.4.tar.gz]
+[2023-07-18 08:03:36] INFO root fetch - main [MainThread]: End processing [hrbot]: success
+[2023-07-18 08:03:38] INFO root fetch - processPackages [danling]: Downloading https://files.pythonhosted.org/packages/73/a7/97b5a6bb02e949a47e52eeed99053b0ebe6a580018dc0ac4478973b528f2/danling-0.2.9.tar.gz
+[2023-07-18 08:03:40] INFO root fetch - processPackages [danling]: executing diffoscope
+[2023-07-18 08:03:40] INFO root fetch - processPackages [danling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danling-0.2.8.tar.gz tmp/danling-0.2.9.tar.gz --markdown 20230718/d/danling/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-18 08:03:42] INFO root fetch - processPackages [danling]: Remove: archive file [/home/abi/fetcher/tmp/danling-0.2.8.tar.gz]
+[2023-07-18 08:03:42] INFO root fetch - processPackages [danling]: Remove: archive file [/home/abi/fetcher/tmp/danling-0.2.9.tar.gz]
+[2023-07-18 08:03:42] INFO root fetch - main [MainThread]: End processing [danling]: success
+[2023-07-18 08:03:42] INFO root fetch - main [MainThread]: Store serial: [18928931]
