@@ -12978,3 +12978,63 @@
 [2023-07-18 06:22:18] INFO root fetch - processPackages [pankmer]: Remove: archive file [/home/abi/fetcher/tmp/pankmer-0.9.0.tar.gz]
 [2023-07-18 06:22:18] INFO root fetch - main [MainThread]: End processing [pankmer]: success
 [2023-07-18 06:22:18] INFO root fetch - main [MainThread]: Store serial: [18927912]
+[2023-07-18 06:27:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18927912]
+[2023-07-18 06:27:28] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-18 06:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyutils
+[2023-07-18 06:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-cave
+[2023-07-18 06:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addon-purchase-sale-inter-company
+[2023-07-18 06:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: render-engine
+[2023-07-18 06:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: concataudio
+[2023-07-18 06:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: biliarchiver
+[2023-07-18 06:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: snowflake-connector-python-nightly
+[2023-07-18 06:27:28] INFO root fetch - processPackages [biliarchiver]: New version: [0.0.9] Old Version: [0.0.19]
+[2023-07-18 06:27:28] INFO root fetch - processPackages [pyutils]: New version: [0.0.1b9] Old Version: [0.0.1b8]
+[2023-07-18 06:27:28] WARNING root fetch - processPackages [concataudio]: Skipping, unable to determine old version
+[2023-07-18 06:27:28] INFO root fetch - main [MainThread]: End processing [concataudio] error
+[2023-07-18 06:27:28] INFO root fetch - processPackages [odoo13-addon-purchase-sale-inter-company]: New version: [13.0.1.0.6.dev5] Old Version: [13.0.1.0.6.dev4]
+[2023-07-18 06:27:28] INFO root fetch - processPackages [nonebot-plugin-cave]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-18 06:27:28] INFO root fetch - processPackages [render-engine]: New version: [2023.7.4a6] Old Version: [2023.7.4a5]
+[2023-07-18 06:27:28] INFO root fetch - processPackages [snowflake-connector-python-nightly]: New version: [2023.7.8] Old Version: [2023.7.6]
+[2023-07-18 06:27:28] INFO root fetch - processPackages [biliarchiver]: Downloading https://files.pythonhosted.org/packages/be/4f/b83f0a14b206f119151a10b6fa48bbceb448da4b48831c685510e10faeb3/biliarchiver-0.0.19.tar.gz
+[2023-07-18 06:27:28] INFO root fetch - processPackages [odoo13-addon-purchase-sale-inter-company]: Downloading https://files.pythonhosted.org/packages/a4/0b/fce03a85e8f57d4453537bc3745740347c81eb28a18feba6c6b8e9caa9f6/odoo13_addon_purchase_sale_inter_company-13.0.1.0.6.dev4-py3-none-any.whl
+[2023-07-18 06:27:28] INFO root fetch - processPackages [pyutils]: Downloading https://files.pythonhosted.org/packages/27/50/3ae892a4bd4fcdaa42f4a04d9bd0076733357c659cf7c794bdc24883d3cf/pyutils-0.0.1b8-py3-none-any.whl
+[2023-07-18 06:27:28] INFO root fetch - processPackages [render-engine]: Downloading https://files.pythonhosted.org/packages/64/a7/078f51e47c7010bcf8a9ef9f0d7a039114036381ea32194d877110a89722/render_engine-2023.7.4a5.tar.gz
+[2023-07-18 06:27:28] INFO root fetch - processPackages [nonebot-plugin-cave]: Downloading https://files.pythonhosted.org/packages/e1/bc/2d0fb2d5e586bec5ae0ad36093fdf5ec423fd3d07bed539a9960343ecb69/nonebot_plugin_cave-1.1.8.tar.gz
+[2023-07-18 06:27:28] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/c9/81/c4d9965bfca21c8ac1ee47fa96c6efeeb51fa6f29adea9b6c656c1e1186f/snowflake-connector-python-nightly-2023.7.6.tar.gz
+[2023-07-18 06:27:29] INFO root fetch - processPackages [nonebot-plugin-cave]: Downloading https://files.pythonhosted.org/packages/15/ed/af65e818e8c18d4f00c8f5972692c556a2043b9a6ce15e07b56926a16bd5/nonebot_plugin_cave-1.1.9.tar.gz
+[2023-07-18 06:27:29] INFO root fetch - processPackages [biliarchiver]: Downloading https://files.pythonhosted.org/packages/75/6f/a07bee6d23ed240047e737c1e393aadca816e9e1cc7c1aaa81457a4885da/biliarchiver-0.0.9.tar.gz
+[2023-07-18 06:27:29] INFO root fetch - processPackages [odoo13-addon-purchase-sale-inter-company]: Downloading https://files.pythonhosted.org/packages/53/27/a627e2c1d4e8ef2d14a8f69baac212b0c2ac98bc8c35605aedd21f275aaa/odoo13_addon_purchase_sale_inter_company-13.0.1.0.6.dev5-py3-none-any.whl
+[2023-07-18 06:27:29] INFO root fetch - processPackages [render-engine]: Downloading https://files.pythonhosted.org/packages/b3/69/913fb61832d7add62f4c1a57e978bb448fcd0ddffdf2a3b44622f5cf7d73/render_engine-2023.7.4a6.tar.gz
+[2023-07-18 06:27:29] INFO root fetch - processPackages [pyutils]: Downloading https://files.pythonhosted.org/packages/c8/9a/0d17bafc8102fc91fad611435c794bf7de1fd2751d1710ad8a41f99a4da1/pyutils-0.0.1b9-py3-none-any.whl
+[2023-07-18 06:27:29] INFO root fetch - processPackages [odoo13-addon-purchase-sale-inter-company]: executing diffoscope
+[2023-07-18 06:27:29] INFO root fetch - processPackages [odoo13-addon-purchase-sale-inter-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_purchase_sale_inter_company-13.0.1.0.6.dev4-py3-none-any.whl.zip tmp/odoo13_addon_purchase_sale_inter_company-13.0.1.0.6.dev5-py3-none-any.whl.zip --markdown 20230718/o/odoo13-addon-purchase-sale-inter-company/13.0.1.0.6.dev4-13.0.1.0.6.dev5/diff.md --exclude *.pyd
+[2023-07-18 06:27:29] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/40/16/80ea6fef1c1c6972dd25b43e5e7b1a2c889d92d33fd7e8988c16dd4d98be/snowflake-connector-python-nightly-2023.7.8.tar.gz
+[2023-07-18 06:27:29] INFO root fetch - processPackages [nonebot-plugin-cave]: executing diffoscope
+[2023-07-18 06:27:29] INFO root fetch - processPackages [nonebot-plugin-cave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_cave-1.1.8.tar.gz tmp/nonebot_plugin_cave-1.1.9.tar.gz --markdown 20230718/n/nonebot-plugin-cave/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-18 06:27:29] INFO root fetch - processPackages [pyutils]: executing diffoscope
+[2023-07-18 06:27:29] INFO root fetch - processPackages [pyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyutils-0.0.1b8-py3-none-any.whl.zip tmp/pyutils-0.0.1b9-py3-none-any.whl.zip --markdown 20230718/p/pyutils/0.0.1b8-0.0.1b9/diff.md --exclude *.pyd
+[2023-07-18 06:27:29] INFO root fetch - processPackages [biliarchiver]: executing diffoscope
+[2023-07-18 06:27:29] INFO root fetch - processPackages [biliarchiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biliarchiver-0.0.19.tar.gz tmp/biliarchiver-0.0.9.tar.gz --markdown 20230718/b/biliarchiver/0.0.19-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 06:27:29] INFO root fetch - processPackages [render-engine]: executing diffoscope
+[2023-07-18 06:27:29] INFO root fetch - processPackages [render-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/render_engine-2023.7.4a5.tar.gz tmp/render_engine-2023.7.4a6.tar.gz --markdown 20230718/r/render-engine/2023.7.4a5-2023.7.4a6/diff.md --exclude *.pyd
+[2023-07-18 06:27:29] INFO root fetch - processPackages [snowflake-connector-python-nightly]: executing diffoscope
+[2023-07-18 06:27:29] INFO root fetch - processPackages [snowflake-connector-python-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake-connector-python-nightly-2023.7.6.tar.gz tmp/snowflake-connector-python-nightly-2023.7.8.tar.gz --markdown 20230718/s/snowflake-connector-python-nightly/2023.7.6-2023.7.8/diff.md --exclude *.pyd
+[2023-07-18 06:27:30] INFO root fetch - processPackages [odoo13-addon-purchase-sale-inter-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_purchase_sale_inter_company-13.0.1.0.6.dev4-py3-none-any.whl.zip]
+[2023-07-18 06:27:30] INFO root fetch - processPackages [odoo13-addon-purchase-sale-inter-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_purchase_sale_inter_company-13.0.1.0.6.dev5-py3-none-any.whl.zip]
+[2023-07-18 06:27:30] INFO root fetch - main [MainThread]: End processing [odoo13-addon-purchase-sale-inter-company]: success
+[2023-07-18 06:27:30] INFO root fetch - processPackages [biliarchiver]: Remove: archive file [/home/abi/fetcher/tmp/biliarchiver-0.0.19.tar.gz]
+[2023-07-18 06:27:30] INFO root fetch - processPackages [biliarchiver]: Remove: archive file [/home/abi/fetcher/tmp/biliarchiver-0.0.9.tar.gz]
+[2023-07-18 06:27:30] INFO root fetch - main [MainThread]: End processing [biliarchiver]: success
+[2023-07-18 06:27:30] INFO root fetch - processPackages [nonebot-plugin-cave]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_cave-1.1.8.tar.gz]
+[2023-07-18 06:27:30] INFO root fetch - processPackages [nonebot-plugin-cave]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_cave-1.1.9.tar.gz]
+[2023-07-18 06:27:30] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-cave]: success
+[2023-07-18 06:27:30] INFO root fetch - processPackages [pyutils]: Remove: archive file [/home/abi/fetcher/tmp/pyutils-0.0.1b8-py3-none-any.whl.zip]
+[2023-07-18 06:27:30] INFO root fetch - processPackages [pyutils]: Remove: archive file [/home/abi/fetcher/tmp/pyutils-0.0.1b9-py3-none-any.whl.zip]
+[2023-07-18 06:27:30] INFO root fetch - main [MainThread]: End processing [pyutils]: success
+[2023-07-18 06:27:30] INFO root fetch - processPackages [render-engine]: Remove: archive file [/home/abi/fetcher/tmp/render_engine-2023.7.4a5.tar.gz]
+[2023-07-18 06:27:30] INFO root fetch - processPackages [render-engine]: Remove: archive file [/home/abi/fetcher/tmp/render_engine-2023.7.4a6.tar.gz]
+[2023-07-18 06:27:30] INFO root fetch - main [MainThread]: End processing [render-engine]: success
+[2023-07-18 06:27:31] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2023.7.6.tar.gz]
+[2023-07-18 06:27:31] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2023.7.8.tar.gz]
+[2023-07-18 06:27:31] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
+[2023-07-18 06:27:31] INFO root fetch - main [MainThread]: Store serial: [18927955]
