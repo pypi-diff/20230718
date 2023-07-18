@@ -17350,3 +17350,119 @@
 [2023-07-18 09:23:21] INFO root fetch - processPackages [renderg-sdk]: Remove: archive file [/home/abi/fetcher/tmp/renderg-sdk-0.1.7.tar.gz]
 [2023-07-18 09:23:21] INFO root fetch - main [MainThread]: End processing [renderg-sdk]: success
 [2023-07-18 09:23:21] INFO root fetch - main [MainThread]: Store serial: [18929613]
+[2023-07-18 09:28:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18929613]
+[2023-07-18 09:28:30] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-18 09:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ndp-app-versioncontrol
+[2023-07-18 09:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clickzetta-migration
+[2023-07-18 09:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: contek-timbersaw
+[2023-07-18 09:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cenas
+[2023-07-18 09:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mapel
+[2023-07-18 09:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mapel-core
+[2023-07-18 09:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mapel-elections
+[2023-07-18 09:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tfq-nightly
+[2023-07-18 09:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mapel-marriages
+[2023-07-18 09:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mapel-roommates
+[2023-07-18 09:28:30] INFO root fetch - processPackages [mapel-elections]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-07-18 09:28:30] INFO root fetch - processPackages [mapel-core]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-07-18 09:28:30] INFO root fetch - processPackages [contek-timbersaw]: New version: [2.7] Old Version: [2.6]
+[2023-07-18 09:28:30] INFO root fetch - processPackages [ndp-app-versioncontrol]: New version: [1.9] Old Version: [1.8]
+[2023-07-18 09:28:30] INFO root fetch - processPackages [clickzetta-migration]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2023-07-18 09:28:30] INFO root fetch - processPackages [mapel-marriages]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-07-18 09:28:30] INFO root fetch - processPackages [mapel]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-07-18 09:28:30] INFO root fetch - processPackages [cenas]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-18 09:28:30] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230718] Old Version: [0.7.3.dev20230717]
+[2023-07-18 09:28:30] INFO root fetch - processPackages [mapel-roommates]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-07-18 09:28:30] INFO root fetch - processPackages [mapel]: Downloading https://files.pythonhosted.org/packages/25/be/ca87d3bd0bd283cca01d6f6fd6115c1887706cb66f252a39ad5ba04fa6cc/mapel-2.0.7.tar.gz
+[2023-07-18 09:28:30] INFO root fetch - processPackages [ndp-app-versioncontrol]: Downloading https://files.pythonhosted.org/packages/46/51/58ef4f9d0af95f200bf10a7fe51591e5649d54ca593f070e697599f2fec0/ndp-app-versioncontrol-1.8.tar.gz
+[2023-07-18 09:28:30] INFO root fetch - processPackages [mapel-roommates]: Downloading https://files.pythonhosted.org/packages/71/60/5132111dc3c4e743acea9b914d22d27eda3de26be9919b9967bc6e401624/mapel-roommates-2.0.7.tar.gz
+[2023-07-18 09:28:30] INFO root fetch - processPackages [mapel-elections]: Downloading https://files.pythonhosted.org/packages/78/fb/7cac4a6e080630ab409133ab04c0e07597a4505739fd990288426ba3d38f/mapel-elections-2.0.7.tar.gz
+[2023-07-18 09:28:30] INFO root fetch - processPackages [contek-timbersaw]: Downloading https://files.pythonhosted.org/packages/6a/c6/bb0ae5178c983ad853c630bcbdfcf70389ab3d4299f270b05f84028bb8f6/contek-timbersaw-2.6.tar.gz
+[2023-07-18 09:28:30] INFO root fetch - processPackages [mapel-marriages]: Downloading https://files.pythonhosted.org/packages/17/1b/9f9da59e4cd94770b41c768ba345b8950bda1bf05888e55aac317d3e5064/mapel-marriages-2.0.7.tar.gz
+[2023-07-18 09:28:31] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/ad/ad/8e6ac29153c6369e5cbdf21108e60070080d9d4978e3a1a5f20be7b9492b/cenas-1.1.8.tar.gz
+[2023-07-18 09:28:31] INFO root fetch - processPackages [clickzetta-migration]: Downloading https://files.pythonhosted.org/packages/41/44/ccb36c44c5dbe410e6bc7cdd603456bdd5d8ddc39f5185c5f636c88a7467/clickzetta-migration-0.0.0.1.tar.gz
+[2023-07-18 09:28:31] INFO root fetch - processPackages [mapel-core]: Downloading https://files.pythonhosted.org/packages/1c/23/7ea1b402d76ce92227b349444c0c16ef910848dac7950cb538109fb6316d/mapel-core-2.0.7.tar.gz
+[2023-07-18 09:28:31] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/d1/41/506fc4ae559cfd3c52d00a8201c996687e195373acb0f13a8bf2b53e55b4/tfq_nightly-0.7.3.dev20230717-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-18 09:28:31] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10807264>=10485760
+[2023-07-18 09:28:31] INFO root fetch - processPackages [tfq-nightly]: Start processing: dvc-objects
+[2023-07-18 09:28:31] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-07-18 09:28:31] INFO root fetch - processPackages [dvc-objects]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-18 09:28:31] INFO root fetch - processPackages [mapel]: Downloading https://files.pythonhosted.org/packages/c2/c7/d0d0cff71e635381426e9d1f42526ef4cd2eabb9c17f2b1aa07d134cc8e0/mapel-2.0.8.tar.gz
+[2023-07-18 09:28:31] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/37/ba/9662c92e6a20bfb5bcfc4f81bef895566ee63c5d4018c2cae825c1c94e21/cenas-1.1.9.tar.gz
+[2023-07-18 09:28:31] INFO root fetch - processPackages [mapel-roommates]: Downloading https://files.pythonhosted.org/packages/e1/1f/80708865836fc3a7b13d9e064aaa1a1d16bbcc8349ce3ee506dc82de985c/mapel-roommates-2.0.8.tar.gz
+[2023-07-18 09:28:31] INFO root fetch - processPackages [mapel-elections]: Downloading https://files.pythonhosted.org/packages/a8/f2/d91ca5cd23f3f6a3d8accef206bde246d0ed3d8096aba103456385a0e303/mapel-elections-2.0.8.tar.gz
+[2023-07-18 09:28:31] INFO root fetch - processPackages [ndp-app-versioncontrol]: Downloading https://files.pythonhosted.org/packages/0e/bc/27f83b8ac7508e943e48758779f4efaaf66c7c01a7d5e6684e6612964fe1/ndp-app-versioncontrol-1.9.tar.gz
+[2023-07-18 09:28:31] INFO root fetch - processPackages [contek-timbersaw]: Downloading https://files.pythonhosted.org/packages/e3/7b/9d575333d44886732d16a5f7e2973aaddcc3d6f6d192450f2b463a1ea4d1/contek-timbersaw-2.7.tar.gz
+[2023-07-18 09:28:31] INFO root fetch - processPackages [clickzetta-migration]: Downloading https://files.pythonhosted.org/packages/01/23/1a3b1e0505afd9d00f66f8c1a5063db891e5cf66d93fb8722da7b5fd2f8a/clickzetta-migration-0.0.0.2.tar.gz
+[2023-07-18 09:28:31] INFO root fetch - processPackages [cenas]: executing diffoscope
+[2023-07-18 09:28:31] INFO root fetch - processPackages [cenas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cenas-1.1.8.tar.gz tmp/cenas-1.1.9.tar.gz --markdown 20230718/c/cenas/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-18 09:28:31] INFO root fetch - processPackages [mapel]: executing diffoscope
+[2023-07-18 09:28:31] INFO root fetch - processPackages [mapel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapel-2.0.7.tar.gz tmp/mapel-2.0.8.tar.gz --markdown 20230718/m/mapel/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-07-18 09:28:31] INFO root fetch - processPackages [mapel-core]: Downloading https://files.pythonhosted.org/packages/f2/cd/bda74a0ab7d07b7ff5454d1778b0f56aca922fd54bdef9abf6c57075a4c7/mapel-core-2.0.8.tar.gz
+[2023-07-18 09:28:31] INFO root fetch - processPackages [mapel-marriages]: Downloading https://files.pythonhosted.org/packages/7a/cc/6280fcfa5deaaae452aac555e540d27bc9a1d42b840e0d287812e7027bd3/mapel-marriages-2.0.8.tar.gz
+[2023-07-18 09:28:31] INFO root fetch - processPackages [dvc-objects]: Downloading https://files.pythonhosted.org/packages/bc/df/73361bacbd1309f1c294796ef25e1906cb21c3b1e39cc33c9b2cf45650e3/dvc-objects-0.8.0.tar.gz
+[2023-07-18 09:28:31] INFO root fetch - processPackages [ndp-app-versioncontrol]: executing diffoscope
+[2023-07-18 09:28:31] INFO root fetch - processPackages [ndp-app-versioncontrol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ndp-app-versioncontrol-1.8.tar.gz tmp/ndp-app-versioncontrol-1.9.tar.gz --markdown 20230718/n/ndp-app-versioncontrol/1.8-1.9/diff.md --exclude *.pyd
+[2023-07-18 09:28:31] INFO root fetch - processPackages [contek-timbersaw]: executing diffoscope
+[2023-07-18 09:28:31] INFO root fetch - processPackages [contek-timbersaw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contek-timbersaw-2.6.tar.gz tmp/contek-timbersaw-2.7.tar.gz --markdown 20230718/c/contek-timbersaw/2.6-2.7/diff.md --exclude *.pyd
+[2023-07-18 09:28:31] INFO root fetch - processPackages [mapel-roommates]: executing diffoscope
+[2023-07-18 09:28:31] INFO root fetch - processPackages [mapel-roommates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapel-roommates-2.0.7.tar.gz tmp/mapel-roommates-2.0.8.tar.gz --markdown 20230718/m/mapel-roommates/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-07-18 09:28:31] INFO root fetch - processPackages [clickzetta-migration]: executing diffoscope
+[2023-07-18 09:28:31] INFO root fetch - processPackages [clickzetta-migration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-migration-0.0.0.1.tar.gz tmp/clickzetta-migration-0.0.0.2.tar.gz --markdown 20230718/c/clickzetta-migration/0.0.0.1-0.0.0.2/diff.md --exclude *.pyd
+[2023-07-18 09:28:31] INFO root fetch - processPackages [mapel-elections]: executing diffoscope
+[2023-07-18 09:28:31] INFO root fetch - processPackages [mapel-elections]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapel-elections-2.0.7.tar.gz tmp/mapel-elections-2.0.8.tar.gz --markdown 20230718/m/mapel-elections/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-07-18 09:28:31] INFO root fetch - processPackages [mapel-core]: executing diffoscope
+[2023-07-18 09:28:31] INFO root fetch - processPackages [mapel-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapel-core-2.0.7.tar.gz tmp/mapel-core-2.0.8.tar.gz --markdown 20230718/m/mapel-core/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-07-18 09:28:32] INFO root fetch - processPackages [mapel-marriages]: executing diffoscope
+[2023-07-18 09:28:32] INFO root fetch - processPackages [mapel-marriages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapel-marriages-2.0.7.tar.gz tmp/mapel-marriages-2.0.8.tar.gz --markdown 20230718/m/mapel-marriages/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-07-18 09:28:32] INFO root fetch - processPackages [dvc-objects]: Downloading https://files.pythonhosted.org/packages/0e/18/e00adb4b827fc8f0d52d3b67d2d82af47094f116204a62904453ea2bd952/dvc-objects-0.9.0.tar.gz
+[2023-07-18 09:28:32] INFO root fetch - processPackages [dvc-objects]: executing diffoscope
+[2023-07-18 09:28:32] INFO root fetch - processPackages [dvc-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-objects-0.8.0.tar.gz tmp/dvc-objects-0.9.0.tar.gz --markdown 20230718/d/dvc-objects/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-18 09:28:33] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.8.tar.gz]
+[2023-07-18 09:28:33] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.9.tar.gz]
+[2023-07-18 09:28:33] INFO root fetch - processPackages [cenas]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-07-18 09:28:33] INFO root fetch - main [MainThread]: End processing [cenas]: success
+[2023-07-18 09:28:33] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-07-18 09:28:33] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-07-18 09:28:33] INFO root fetch - processPackages [ndp-app-versioncontrol]: Remove: archive file [/home/abi/fetcher/tmp/ndp-app-versioncontrol-1.8.tar.gz]
+[2023-07-18 09:28:33] INFO root fetch - processPackages [ndp-app-versioncontrol]: Remove: archive file [/home/abi/fetcher/tmp/ndp-app-versioncontrol-1.9.tar.gz]
+[2023-07-18 09:28:33] INFO root fetch - processPackages [ndp-app-versioncontrol]: Start processing: qontract-reconcile
+[2023-07-18 09:28:33] INFO root fetch - main [MainThread]: End processing [ndp-app-versioncontrol]: success
+[2023-07-18 09:28:33] INFO root fetch - processPackages [mapel]: Remove: archive file [/home/abi/fetcher/tmp/mapel-2.0.7.tar.gz]
+[2023-07-18 09:28:33] INFO root fetch - processPackages [mapel]: Remove: archive file [/home/abi/fetcher/tmp/mapel-2.0.8.tar.gz]
+[2023-07-18 09:28:33] INFO root fetch - main [MainThread]: End processing [mapel]: success
+[2023-07-18 09:28:33] INFO root fetch - processPackages [contek-timbersaw]: Remove: archive file [/home/abi/fetcher/tmp/contek-timbersaw-2.6.tar.gz]
+[2023-07-18 09:28:33] INFO root fetch - processPackages [contek-timbersaw]: Remove: archive file [/home/abi/fetcher/tmp/contek-timbersaw-2.7.tar.gz]
+[2023-07-18 09:28:33] INFO root fetch - main [MainThread]: End processing [contek-timbersaw]: success
+[2023-07-18 09:28:33] INFO root fetch - processPackages [mapel-roommates]: Remove: archive file [/home/abi/fetcher/tmp/mapel-roommates-2.0.7.tar.gz]
+[2023-07-18 09:28:33] INFO root fetch - processPackages [mapel-roommates]: Remove: archive file [/home/abi/fetcher/tmp/mapel-roommates-2.0.8.tar.gz]
+[2023-07-18 09:28:33] INFO root fetch - main [MainThread]: End processing [mapel-roommates]: success
+[2023-07-18 09:28:33] INFO root fetch - processPackages [clickzetta-migration]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-migration-0.0.0.1.tar.gz]
+[2023-07-18 09:28:33] INFO root fetch - processPackages [clickzetta-migration]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-migration-0.0.0.2.tar.gz]
+[2023-07-18 09:28:33] INFO root fetch - main [MainThread]: End processing [clickzetta-migration]: success
+[2023-07-18 09:28:33] INFO root fetch - processPackages [mapel-marriages]: Remove: archive file [/home/abi/fetcher/tmp/mapel-marriages-2.0.7.tar.gz]
+[2023-07-18 09:28:33] INFO root fetch - processPackages [mapel-core]: Remove: archive file [/home/abi/fetcher/tmp/mapel-core-2.0.7.tar.gz]
+[2023-07-18 09:28:33] INFO root fetch - processPackages [mapel-marriages]: Remove: archive file [/home/abi/fetcher/tmp/mapel-marriages-2.0.8.tar.gz]
+[2023-07-18 09:28:33] INFO root fetch - processPackages [mapel-core]: Remove: archive file [/home/abi/fetcher/tmp/mapel-core-2.0.8.tar.gz]
+[2023-07-18 09:28:33] INFO root fetch - main [MainThread]: End processing [mapel-marriages]: success
+[2023-07-18 09:28:33] INFO root fetch - main [MainThread]: End processing [mapel-core]: success
+[2023-07-18 09:28:34] INFO root fetch - processPackages [mapel-elections]: Remove: archive file [/home/abi/fetcher/tmp/mapel-elections-2.0.7.tar.gz]
+[2023-07-18 09:28:34] INFO root fetch - processPackages [mapel-elections]: Remove: archive file [/home/abi/fetcher/tmp/mapel-elections-2.0.8.tar.gz]
+[2023-07-18 09:28:34] INFO root fetch - main [MainThread]: End processing [mapel-elections]: success
+[2023-07-18 09:28:34] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-07-18 09:28:34] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-18 09:28:34] INFO root fetch - processPackages [dvc-objects]: Remove: archive file [/home/abi/fetcher/tmp/dvc-objects-0.8.0.tar.gz]
+[2023-07-18 09:28:34] INFO root fetch - processPackages [dvc-objects]: Remove: archive file [/home/abi/fetcher/tmp/dvc-objects-0.9.0.tar.gz]
+[2023-07-18 09:28:34] INFO root fetch - main [MainThread]: End processing [dvc-objects]: success
+[2023-07-18 09:28:34] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-07-18 09:28:34] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230718/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-07-18 09:28:34] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-18 09:28:34] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-18 09:28:35] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-18 09:28:35] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230718/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-18 09:28:35] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-07-18 09:28:35] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-07-18 09:28:35] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-07-18 09:28:37] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-18 09:28:37] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-18 09:28:37] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-18 09:28:37] INFO root fetch - main [MainThread]: Store serial: [18929694]
