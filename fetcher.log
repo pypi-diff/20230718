@@ -21344,3 +21344,151 @@ AssertionError: tmp/cellmap-1.0.1.dev202307180907-py3-none-any.whl.zip does not 
 [2023-07-18 12:02:26] INFO root fetch - processPackages [lino-react]: Remove: archive file [/home/abi/fetcher/tmp/lino_react-23.7.2.tar.gz]
 [2023-07-18 12:02:26] INFO root fetch - main [MainThread]: End processing [lino-react]: success
 [2023-07-18 12:02:26] INFO root fetch - main [MainThread]: Store serial: [18931361]
+[2023-07-18 12:07:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18931361]
+[2023-07-18 12:07:34] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-18 12:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kkpyutil
+[2023-07-18 12:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mesh-sandbox
+[2023-07-18 12:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: json-any
+[2023-07-18 12:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: priceloop-api
+[2023-07-18 12:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: priceloop-api
+[2023-07-18 12:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: systembridgefrontend
+[2023-07-18 12:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: exchangecurrency
+[2023-07-18 12:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TDCRPy
+[2023-07-18 12:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: turtlemd
+[2023-07-18 12:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: velikafkaclient
+[2023-07-18 12:07:35] INFO root fetch - processPackages [exchangecurrency]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-18 12:07:35] INFO root fetch - processPackages [velikafkaclient]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-18 12:07:35] INFO root fetch - processPackages [systembridgefrontend]: New version: [3.8.0.dev5] Old Version: [3.7.0.dev1]
+[2023-07-18 12:07:35] INFO root fetch - processPackages [kkpyutil]: New version: [0.99.1] Old Version: [0.99.0]
+[2023-07-18 12:07:35] INFO root fetch - processPackages [exchangecurrency]: Downloading https://files.pythonhosted.org/packages/20/f5/0bcffb9614e26ba55bbcb16003508541c558cc6765b78614f38078173eff/exchangecurrency-0.2.0.tar.gz
+[2023-07-18 12:07:35] WARNING root fetch - processPackages [turtlemd]: Skipping, unable to determine old version
+[2023-07-18 12:07:35] INFO root fetch - processPackages [turtlemd]: Start processing: LatticeGeometryLib
+[2023-07-18 12:07:35] INFO root fetch - main [MainThread]: End processing [turtlemd] error
+[2023-07-18 12:07:35] INFO root fetch - processPackages [json-any]: New version: [2023.8] Old Version: [2023.7]
+[2023-07-18 12:07:35] INFO root fetch - processPackages [mesh-sandbox]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-18 12:07:35] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-18 12:07:35] INFO root fetch - processPackages [priceloop-api]: New version: [0.97.0] Old Version: [0.95.0]
+[2023-07-18 12:07:35] INFO root fetch - processPackages [priceloop-api]: New version: [0.97.0] Old Version: [0.95.0]
+[2023-07-18 12:07:35] INFO root fetch - processPackages [velikafkaclient]: Downloading https://files.pythonhosted.org/packages/0b/b4/80957e2ab8ed8c5095dcde27efe607cbc5dbc444f8ee423f2b55c528fafe/velikafkaclient-1.0.8.tar.gz
+[2023-07-18 12:07:35] INFO root fetch - processPackages [systembridgefrontend]: Downloading https://files.pythonhosted.org/packages/b8/44/944aad46fa3d13a9af1dbe308ffc45f092fa6113d6b8044265695820a80b/systembridgefrontend-3.7.0.dev1.tar.gz
+[2023-07-18 12:07:35] INFO root fetch - processPackages [LatticeGeometryLib]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-18 12:07:35] INFO root fetch - processPackages [kkpyutil]: Downloading https://files.pythonhosted.org/packages/fd/24/affb7fe4496d087c3b175a07aae0ea898dcf008ef4be91f51a39e9000c24/kkpyutil-0.99.0.tar.gz
+[2023-07-18 12:07:35] INFO root fetch - processPackages [LatticeGeometryLib]: Downloading https://files.pythonhosted.org/packages/c8/ce/666cc7b6b521cdedd423f9cf46db42946b8a07ec00feb043f5ae6ed31d15/LatticeGeometryLib-0.0.1.tar.gz
+[2023-07-18 12:07:35] INFO root fetch - processPackages [priceloop-api]: Downloading https://files.pythonhosted.org/packages/f4/e0/3088f226e581e6c17ad492a0b5fe1fcf48c8da0ee246ebbb3a3784d33a31/priceloop-api-0.95.0.tar.gz
+[2023-07-18 12:07:35] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/8d/ee/b82e3fc38c88402b28f4ed52bd96bbd9d27705af9b36f854da36ce0909b1/TDCRPy-0.0.6.tar.gz
+[2023-07-18 12:07:35] INFO root fetch - processPackages [velikafkaclient]: Downloading https://files.pythonhosted.org/packages/2c/4f/2ef3bd2ca039a157eb2c151bc2d27b492e9124a6c72d10d8d637f05f077e/velikafkaclient-1.0.9.tar.gz
+[2023-07-18 12:07:35] INFO root fetch - processPackages [priceloop-api]: Downloading https://files.pythonhosted.org/packages/f4/e0/3088f226e581e6c17ad492a0b5fe1fcf48c8da0ee246ebbb3a3784d33a31/priceloop-api-0.95.0.tar.gz
+[2023-07-18 12:07:35] INFO root fetch - processPackages [json-any]: Downloading https://files.pythonhosted.org/packages/a5/94/14b70e12e8f781d6a76704c2f3f1ebbdc755308922f824fe55a7bbdb720f/json-any-2023.7.tar.gz
+[2023-07-18 12:07:35] INFO root fetch - processPackages [exchangecurrency]: Downloading https://files.pythonhosted.org/packages/5e/33/44a4f83eb3f7397b740f0f9841cec6eca77c36976cc67b2acfd2a4818b75/exchangecurrency-0.3.0.tar.gz
+[2023-07-18 12:07:35] INFO root fetch - processPackages [mesh-sandbox]: Downloading https://files.pythonhosted.org/packages/3f/76/d3822cce549c30517e161790a0dde09c0aab7ff1739670fd01cbe2b28e0b/mesh_sandbox-1.0.6-py3-none-any.whl
+[2023-07-18 12:07:35] INFO root fetch - processPackages [systembridgefrontend]: Downloading https://files.pythonhosted.org/packages/bd/70/fc06c8b6f13e872ea3d4739b6b2357d685182db995b0a49bec10ebd5c7bb/systembridgefrontend-3.8.0.dev5.tar.gz
+[2023-07-18 12:07:36] INFO root fetch - processPackages [velikafkaclient]: executing diffoscope
+[2023-07-18 12:07:36] INFO root fetch - processPackages [velikafkaclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/velikafkaclient-1.0.8.tar.gz tmp/velikafkaclient-1.0.9.tar.gz --markdown 20230718/v/velikafkaclient/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-18 12:07:36] INFO root fetch - processPackages [exchangecurrency]: executing diffoscope
+[2023-07-18 12:07:36] INFO root fetch - processPackages [exchangecurrency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exchangecurrency-0.2.0.tar.gz tmp/exchangecurrency-0.3.0.tar.gz --markdown 20230718/e/exchangecurrency/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-18 12:07:36] INFO root fetch - processPackages [LatticeGeometryLib]: Downloading https://files.pythonhosted.org/packages/fa/d1/2fcf5101d344d79272e77ea1bf9308447167389a48abba1b7eaeec0001b3/LatticeGeometryLib-0.0.2.tar.gz
+[2023-07-18 12:07:36] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/e8/e5/3e3bd3fed3b4e446d73def3a7d53997c20e1a1ce44b9a58b27c0a1ee7a50/TDCRPy-0.0.7.tar.gz
+[2023-07-18 12:07:36] INFO root fetch - processPackages [systembridgefrontend]: executing diffoscope
+[2023-07-18 12:07:36] INFO root fetch - processPackages [systembridgefrontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgefrontend-3.7.0.dev1.tar.gz tmp/systembridgefrontend-3.8.0.dev5.tar.gz --markdown 20230718/s/systembridgefrontend/3.7.0.dev1-3.8.0.dev5/diff.md --exclude *.pyd
+[2023-07-18 12:07:36] INFO root fetch - processPackages [LatticeGeometryLib]: executing diffoscope
+[2023-07-18 12:07:36] INFO root fetch - processPackages [LatticeGeometryLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LatticeGeometryLib-0.0.1.tar.gz tmp/LatticeGeometryLib-0.0.2.tar.gz --markdown 20230718/L/LatticeGeometryLib/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-18 12:07:36] INFO root fetch - processPackages [priceloop-api]: Downloading https://files.pythonhosted.org/packages/9d/74/6ba416c056a1971adb4037077324b06748a266234c5ac4107c2ed821cadb/priceloop-api-0.97.0.tar.gz
+[2023-07-18 12:07:36] INFO root fetch - processPackages [json-any]: Downloading https://files.pythonhosted.org/packages/8d/bd/0bc8daf27575cc528b7b703a65bc308ce61636e360078f023eb8b6294a63/json-any-2023.8.tar.gz
+[2023-07-18 12:07:36] INFO root fetch - processPackages [priceloop-api]: Downloading https://files.pythonhosted.org/packages/9d/74/6ba416c056a1971adb4037077324b06748a266234c5ac4107c2ed821cadb/priceloop-api-0.97.0.tar.gz
+[2023-07-18 12:07:36] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-07-18 12:07:36] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.6.tar.gz tmp/TDCRPy-0.0.7.tar.gz --markdown 20230718/T/TDCRPy/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-18 12:07:36] INFO root fetch - processPackages [mesh-sandbox]: Downloading https://files.pythonhosted.org/packages/a5/54/9d0db29c2c38eea2178cf90c9a0d5a4a912932c48381e1fefe2c24c6bd9c/mesh_sandbox-1.0.7-py3-none-any.whl
+[2023-07-18 12:07:36] INFO root fetch - processPackages [kkpyutil]: Downloading https://files.pythonhosted.org/packages/55/42/485d53cc78b791f1dd32900d05d05c1a2070176870f678253c86b332956b/kkpyutil-0.99.1.tar.gz
+[2023-07-18 12:07:36] INFO root fetch - processPackages [json-any]: executing diffoscope
+[2023-07-18 12:07:36] INFO root fetch - processPackages [json-any]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json-any-2023.7.tar.gz tmp/json-any-2023.8.tar.gz --markdown 20230718/j/json-any/2023.7-2023.8/diff.md --exclude *.pyd
+[2023-07-18 12:07:36] INFO root fetch - processPackages [kkpyutil]: executing diffoscope
+[2023-07-18 12:07:36] INFO root fetch - processPackages [kkpyutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkpyutil-0.99.0.tar.gz tmp/kkpyutil-0.99.1.tar.gz --markdown 20230718/k/kkpyutil/0.99.0-0.99.1/diff.md --exclude *.pyd
+[2023-07-18 12:07:36] INFO root fetch - processPackages [mesh-sandbox]: executing diffoscope
+[2023-07-18 12:07:36] INFO root fetch - processPackages [mesh-sandbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mesh_sandbox-1.0.6-py3-none-any.whl.zip tmp/mesh_sandbox-1.0.7-py3-none-any.whl.zip --markdown 20230718/m/mesh-sandbox/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-18 12:07:36] INFO root fetch - processPackages [priceloop-api]: executing diffoscope
+[2023-07-18 12:07:36] INFO root fetch - processPackages [priceloop-api]: executing diffoscope
+[2023-07-18 12:07:36] INFO root fetch - processPackages [priceloop-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/priceloop-api-0.95.0.tar.gz tmp/priceloop-api-0.97.0.tar.gz --markdown 20230718/p/priceloop-api/0.95.0-0.97.0/diff.md --exclude *.pyd
+[2023-07-18 12:07:36] INFO root fetch - processPackages [priceloop-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/priceloop-api-0.95.0.tar.gz tmp/priceloop-api-0.97.0.tar.gz --markdown 20230718/p/priceloop-api/0.95.0-0.97.0/diff.md --exclude *.pyd
+[2023-07-18 12:07:37] INFO root fetch - processPackages [exchangecurrency]: Remove: archive file [/home/abi/fetcher/tmp/exchangecurrency-0.2.0.tar.gz]
+[2023-07-18 12:07:37] INFO root fetch - processPackages [exchangecurrency]: Remove: archive file [/home/abi/fetcher/tmp/exchangecurrency-0.3.0.tar.gz]
+[2023-07-18 12:07:37] INFO root fetch - processPackages [exchangecurrency]: Start processing: pydantic-numpy
+[2023-07-18 12:07:37] INFO root fetch - main [MainThread]: End processing [exchangecurrency]: success
+[2023-07-18 12:07:37] INFO root fetch - processPackages [velikafkaclient]: Remove: archive file [/home/abi/fetcher/tmp/velikafkaclient-1.0.8.tar.gz]
+[2023-07-18 12:07:37] INFO root fetch - processPackages [velikafkaclient]: Remove: archive file [/home/abi/fetcher/tmp/velikafkaclient-1.0.9.tar.gz]
+[2023-07-18 12:07:37] INFO root fetch - processPackages [velikafkaclient]: Start processing: reservoirpy
+[2023-07-18 12:07:37] INFO root fetch - main [MainThread]: End processing [velikafkaclient]: success
+[2023-07-18 12:07:37] INFO root fetch - processPackages [reservoirpy]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-18 12:07:37] INFO root fetch - processPackages [pydantic-numpy]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-07-18 12:07:37] INFO root fetch - processPackages [reservoirpy]: Downloading https://files.pythonhosted.org/packages/0e/cb/232acc3c62dbd6708c83e9ea66f545149c80fbf0817fed9514e7110bad89/reservoirpy-0.3.8.tar.gz
+[2023-07-18 12:07:37] INFO root fetch - processPackages [LatticeGeometryLib]: Remove: archive file [/home/abi/fetcher/tmp/LatticeGeometryLib-0.0.1.tar.gz]
+[2023-07-18 12:07:37] INFO root fetch - processPackages [LatticeGeometryLib]: Remove: archive file [/home/abi/fetcher/tmp/LatticeGeometryLib-0.0.2.tar.gz]
+[2023-07-18 12:07:37] INFO root fetch - processPackages [LatticeGeometryLib]: Start processing: hsmm-mvpy
+[2023-07-18 12:07:37] INFO root fetch - main [MainThread]: End processing [LatticeGeometryLib]: success
+[2023-07-18 12:07:37] INFO root fetch - processPackages [pydantic-numpy]: Downloading https://files.pythonhosted.org/packages/a6/89/52fb7209a031f9f253fabedaecee7df1d9f2029ff1f830dfa4ab1d1d7ee8/pydantic_numpy-2.2.1.tar.gz
+[2023-07-18 12:07:37] INFO root fetch - processPackages [hsmm-mvpy]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-07-18 12:07:37] INFO root fetch - processPackages [hsmm-mvpy]: Downloading https://files.pythonhosted.org/packages/4d/b9/5a44e2109fa9213f64950ee2704f73c872d51119b88e0bdb8c5446b5c896/hsmm_mvpy-0.1.0b8.tar.gz
+[2023-07-18 12:07:37] INFO root fetch - processPackages [reservoirpy]: Downloading https://files.pythonhosted.org/packages/3a/98/521850c7135f8c92ca90a8f420c55c61abf0e5e104dbe4ef96c3dc2bc383/reservoirpy-0.3.9.tar.gz
+[2023-07-18 12:07:37] INFO root fetch - processPackages [json-any]: Remove: archive file [/home/abi/fetcher/tmp/json-any-2023.7.tar.gz]
+[2023-07-18 12:07:37] INFO root fetch - processPackages [json-any]: Remove: archive file [/home/abi/fetcher/tmp/json-any-2023.8.tar.gz]
+[2023-07-18 12:07:37] INFO root fetch - processPackages [json-any]: Start processing: pymisp
+[2023-07-18 12:07:37] INFO root fetch - main [MainThread]: End processing [json-any]: success
+[2023-07-18 12:07:37] INFO root fetch - processPackages [pymisp]: New version: [2.4.99] Old Version: [2.4.98]
+[2023-07-18 12:07:37] INFO root fetch - processPackages [pydantic-numpy]: Downloading https://files.pythonhosted.org/packages/f0/5c/2ed962eff83c7c965875f66557dc4968dfa3bda46673699afca7495ca384/pydantic_numpy-2.2.2.tar.gz
+[2023-07-18 12:07:37] INFO root fetch - processPackages [reservoirpy]: executing diffoscope
+[2023-07-18 12:07:37] INFO root fetch - processPackages [reservoirpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reservoirpy-0.3.8.tar.gz tmp/reservoirpy-0.3.9.tar.gz --markdown 20230718/r/reservoirpy/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-18 12:07:38] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.6.tar.gz]
+[2023-07-18 12:07:38] INFO root fetch - processPackages [kkpyutil]: Remove: archive file [/home/abi/fetcher/tmp/kkpyutil-0.99.0.tar.gz]
+[2023-07-18 12:07:38] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.7.tar.gz]
+[2023-07-18 12:07:38] INFO root fetch - processPackages [kkpyutil]: Remove: archive file [/home/abi/fetcher/tmp/kkpyutil-0.99.1.tar.gz]
+[2023-07-18 12:07:38] INFO root fetch - processPackages [TDCRPy]: Start processing: mrsal
+[2023-07-18 12:07:38] INFO root fetch - processPackages [kkpyutil]: Start processing: prophecy-libs
+[2023-07-18 12:07:38] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-07-18 12:07:38] INFO root fetch - main [MainThread]: End processing [kkpyutil]: success
+[2023-07-18 12:07:38] INFO root fetch - processPackages [pydantic-numpy]: executing diffoscope
+[2023-07-18 12:07:38] INFO root fetch - processPackages [pydantic-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_numpy-2.2.1.tar.gz tmp/pydantic_numpy-2.2.2.tar.gz --markdown 20230718/p/pydantic-numpy/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-07-18 12:07:38] INFO root fetch - processPackages [hsmm-mvpy]: Downloading https://files.pythonhosted.org/packages/d8/31/45994664bef4c0dd7674e718b4e4022a43c8ea7e17ef1523a865423fa960/hsmm_mvpy-0.1.0b9.tar.gz
+[2023-07-18 12:07:38] INFO root fetch - processPackages [mrsal]: New version: [0.6.0a0] Old Version: [0.5.0a0]
+[2023-07-18 12:07:38] INFO root fetch - processPackages [pymisp]: Downloading https://files.pythonhosted.org/packages/32/19/f2d78346e3750b7467c1e65c2260eacb925199f89b4c2184ab360e413770/pymisp-2.4.98.tar.gz
+[2023-07-18 12:07:38] INFO root fetch - processPackages [hsmm-mvpy]: executing diffoscope
+[2023-07-18 12:07:38] INFO root fetch - processPackages [hsmm-mvpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hsmm_mvpy-0.1.0b8.tar.gz tmp/hsmm_mvpy-0.1.0b9.tar.gz --markdown 20230718/h/hsmm-mvpy/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-07-18 12:07:38] INFO root fetch - processPackages [prophecy-libs]: New version: [1.5.9.dev2] Old Version: [1.5.9.dev1]
+[2023-07-18 12:07:38] INFO root fetch - processPackages [mesh-sandbox]: Remove: archive file [/home/abi/fetcher/tmp/mesh_sandbox-1.0.6-py3-none-any.whl.zip]
+[2023-07-18 12:07:38] INFO root fetch - processPackages [mesh-sandbox]: Remove: archive file [/home/abi/fetcher/tmp/mesh_sandbox-1.0.7-py3-none-any.whl.zip]
+[2023-07-18 12:07:38] INFO root fetch - main [MainThread]: End processing [mesh-sandbox]: success
+[2023-07-18 12:07:38] INFO root fetch - processPackages [mrsal]: Downloading https://files.pythonhosted.org/packages/6e/7a/a53b0befa761e34c9e73a4d00f3c12a26ab9e8e3dc7946f359cbf358cf67/mrsal-0.5.0a0.tar.gz
+[2023-07-18 12:07:38] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/51/01/85df825807aba0b774aec1f7c0180a53310a0428d918eac26f8f737d9a9d/prophecy-libs-1.5.9.dev1.tar.gz
+[2023-07-18 12:07:38] INFO root fetch - processPackages [pymisp]: Downloading https://files.pythonhosted.org/packages/74/20/acd9637c4e60fd8e1b28fb5b24b31dcd7b41f7fcd542494bde4753facec9/pymisp-2.4.99.tar.gz
+[2023-07-18 12:07:38] INFO root fetch - processPackages [priceloop-api]: Remove: archive file [/home/abi/fetcher/tmp/priceloop-api-0.95.0.tar.gz]
+[2023-07-18 12:07:38] INFO root fetch - processPackages [priceloop-api]: Remove: archive file [/home/abi/fetcher/tmp/priceloop-api-0.97.0.tar.gz]
+[2023-07-18 12:07:38] INFO root fetch - main [MainThread]: End processing [priceloop-api]: success
+[2023-07-18 12:07:38] INFO root fetch - processPackages [mrsal]: Downloading https://files.pythonhosted.org/packages/c3/8c/d2df0fed2d418a76c6ff7dc7c423e653dfcac963b4e5e6c8bf8f61b21c16/mrsal-0.6.0a0.tar.gz
+[2023-07-18 12:07:38] INFO root fetch - main [MainThread]: End processing [priceloop-api]: success
+[2023-07-18 12:07:38] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/4a/b8/bf79479d4270c6451013e7bcb0ed8e54dc94173c438e0c96e493907926fd/prophecy-libs-1.5.9.dev2.tar.gz
+[2023-07-18 12:07:39] INFO root fetch - processPackages [pymisp]: executing diffoscope
+[2023-07-18 12:07:39] INFO root fetch - processPackages [pymisp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymisp-2.4.98.tar.gz tmp/pymisp-2.4.99.tar.gz --markdown 20230718/p/pymisp/2.4.98-2.4.99/diff.md --exclude *.pyd
+[2023-07-18 12:07:39] INFO root fetch - processPackages [mrsal]: executing diffoscope
+[2023-07-18 12:07:39] INFO root fetch - processPackages [mrsal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrsal-0.5.0a0.tar.gz tmp/mrsal-0.6.0a0.tar.gz --markdown 20230718/m/mrsal/0.5.0a0-0.6.0a0/diff.md --exclude *.pyd
+[2023-07-18 12:07:39] INFO root fetch - processPackages [pydantic-numpy]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_numpy-2.2.1.tar.gz]
+[2023-07-18 12:07:39] INFO root fetch - processPackages [pydantic-numpy]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_numpy-2.2.2.tar.gz]
+[2023-07-18 12:07:39] INFO root fetch - main [MainThread]: End processing [pydantic-numpy]: success
+[2023-07-18 12:07:39] INFO root fetch - processPackages [prophecy-libs]: executing diffoscope
+[2023-07-18 12:07:39] INFO root fetch - processPackages [prophecy-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophecy-libs-1.5.9.dev1.tar.gz tmp/prophecy-libs-1.5.9.dev2.tar.gz --markdown 20230718/p/prophecy-libs/1.5.9.dev1-1.5.9.dev2/diff.md --exclude *.pyd
+[2023-07-18 12:07:39] INFO root fetch - processPackages [hsmm-mvpy]: Remove: archive file [/home/abi/fetcher/tmp/hsmm_mvpy-0.1.0b8.tar.gz]
+[2023-07-18 12:07:39] INFO root fetch - processPackages [hsmm-mvpy]: Remove: archive file [/home/abi/fetcher/tmp/hsmm_mvpy-0.1.0b9.tar.gz]
+[2023-07-18 12:07:39] INFO root fetch - main [MainThread]: End processing [hsmm-mvpy]: success
+[2023-07-18 12:07:39] INFO root fetch - processPackages [reservoirpy]: Remove: archive file [/home/abi/fetcher/tmp/reservoirpy-0.3.8.tar.gz]
+[2023-07-18 12:07:39] INFO root fetch - processPackages [reservoirpy]: Remove: archive file [/home/abi/fetcher/tmp/reservoirpy-0.3.9.tar.gz]
+[2023-07-18 12:07:39] INFO root fetch - main [MainThread]: End processing [reservoirpy]: success
+[2023-07-18 12:07:39] INFO root fetch - processPackages [mrsal]: Remove: archive file [/home/abi/fetcher/tmp/mrsal-0.5.0a0.tar.gz]
+[2023-07-18 12:07:39] INFO root fetch - processPackages [mrsal]: Remove: archive file [/home/abi/fetcher/tmp/mrsal-0.6.0a0.tar.gz]
+[2023-07-18 12:07:39] INFO root fetch - main [MainThread]: End processing [mrsal]: success
+[2023-07-18 12:07:40] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.5.9.dev1.tar.gz]
+[2023-07-18 12:07:40] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.5.9.dev2.tar.gz]
+[2023-07-18 12:07:40] INFO root fetch - main [MainThread]: End processing [prophecy-libs]: success
+[2023-07-18 12:07:40] INFO root fetch - processPackages [pymisp]: Remove: archive file [/home/abi/fetcher/tmp/pymisp-2.4.98.tar.gz]
+[2023-07-18 12:07:40] INFO root fetch - processPackages [pymisp]: Remove: archive file [/home/abi/fetcher/tmp/pymisp-2.4.99.tar.gz]
+[2023-07-18 12:07:40] INFO root fetch - main [MainThread]: End processing [pymisp]: success
+[2023-07-18 12:07:50] INFO root fetch - processPackages [systembridgefrontend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgefrontend-3.7.0.dev1.tar.gz]
+[2023-07-18 12:07:50] INFO root fetch - processPackages [systembridgefrontend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgefrontend-3.8.0.dev5.tar.gz]
+[2023-07-18 12:07:50] INFO root fetch - main [MainThread]: End processing [systembridgefrontend]: success
+[2023-07-18 12:07:50] INFO root fetch - main [MainThread]: Store serial: [18931441]
