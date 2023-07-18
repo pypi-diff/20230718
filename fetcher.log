@@ -21867,3 +21867,199 @@ AssertionError: tmp/cellmap-1.0.1.dev202307180907-py3-none-any.whl.zip does not 
 [2023-07-18 12:18:27] INFO root fetch - processPackages [amlopsvueelements]: Remove: archive file [/home/abi/fetcher/tmp/amlopsvueelements-1.2.9.tar.gz]
 [2023-07-18 12:18:27] INFO root fetch - main [MainThread]: End processing [amlopsvueelements]: success
 [2023-07-18 12:18:27] INFO root fetch - main [MainThread]: Store serial: [18931610]
+[2023-07-18 12:23:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18931610]
+[2023-07-18 12:23:36] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-07-18 12:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dlg-paletteGen
+[2023-07-18 12:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: LatticeGeometryLib
+[2023-07-18 12:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ctranslate2
+[2023-07-18 12:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: systembridgecli
+[2023-07-18 12:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-private-bucket
+[2023-07-18 12:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: omnata-plugin-devkit
+[2023-07-18 12:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: timing-asgi
+[2023-07-18 12:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: systembridgefrontend
+[2023-07-18 12:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jsonablr
+[2023-07-18 12:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: crmodel
+[2023-07-18 12:23:36] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-18 12:23:36] INFO root fetch - processPackages [LatticeGeometryLib]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-18 12:23:36] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-18 12:23:36] INFO root fetch - processPackages [systembridgecli]: New version: [3.8.0.dev7] Old Version: [3.8.0.dev6]
+[2023-07-18 12:23:36] INFO root fetch - processPackages [systembridgefrontend]: New version: [3.8.0.dev7] Old Version: [3.8.0.dev6]
+[2023-07-18 12:23:36] INFO root fetch - processPackages [timing-asgi]: New version: [0.3.1] Old Version: [0.3.0b0]
+[2023-07-18 12:23:36] INFO root fetch - processPackages [dlg-paletteGen]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-18 12:23:36] INFO root fetch - processPackages [jsonablr]: New version: [2.0.0] Old Version: [1.2.0]
+[2023-07-18 12:23:37] INFO root fetch - processPackages [crmodel]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-07-18 12:23:37] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e7/b6/4073de848e06d760b3ef30686b0684410fc4bb899faf50e7ef4a0b2fac85/pepperize.cdk-private-bucket-0.0.98.tar.gz
+[2023-07-18 12:23:37] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-07-18 12:23:37] INFO root fetch - processPackages [ctranslate2]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-07-18 12:23:37] INFO root fetch - processPackages [systembridgecli]: Downloading https://files.pythonhosted.org/packages/e3/7c/a80652782d01f838ac355250896b1f569964a637968acae5f3098da46ffa/systembridgecli-3.8.0.dev6.tar.gz
+[2023-07-18 12:23:37] INFO root fetch - processPackages [systembridgefrontend]: Downloading https://files.pythonhosted.org/packages/3c/8e/18a6b5aaa950474650f6bb1c726b4b965d2af24c08e322ee8ff9ab60738e/systembridgefrontend-3.8.0.dev6.tar.gz
+[2023-07-18 12:23:37] INFO root fetch - processPackages [LatticeGeometryLib]: Downloading https://files.pythonhosted.org/packages/8f/ed/30bd05d63c3bc45bb4ca97ced7b860229d4323ffcd03d174a4048a5eaa1e/LatticeGeometryLib-0.0.5.tar.gz
+[2023-07-18 12:23:37] INFO root fetch - processPackages [crmodel]: Downloading https://files.pythonhosted.org/packages/5d/ea/3d66cadeefc4ca0c5be6f92cfedac1acf5f1914d498db77e207afaf4e8cd/crmodel-0.4.4.tar.gz
+[2023-07-18 12:23:37] INFO root fetch - processPackages [jsonablr]: Downloading https://files.pythonhosted.org/packages/8a/23/121572b8185a53a0548d017f0aa27171006f701eda9955c6782f2c976419/jsonablr-1.2.0.tar.gz
+[2023-07-18 12:23:37] INFO root fetch - processPackages [timing-asgi]: Downloading https://files.pythonhosted.org/packages/e3/7f/a4247d002723f47b70b16eb1d9068df7d6dc89f9e9bc2d90d0c78bf6bfaa/timing-asgi-0.3.0b0.tar.gz
+[2023-07-18 12:23:37] INFO root fetch - processPackages [dlg-paletteGen]: Downloading https://files.pythonhosted.org/packages/25/12/bee66af4a7e61a8579993c7eab5691e8ec404147777e1341ee557cb24f20/dlg_paletteGen-0.1.8.tar.gz
+[2023-07-18 12:23:37] INFO root fetch - processPackages [ctranslate2]: Downloading https://files.pythonhosted.org/packages/b5/81/cdc9f9331850da67c3bf8ae02839d375c1dc9c96e40d2f23d29751661742/ctranslate2-3.9.0-cp39-cp39-win_amd64.whl
+[2023-07-18 12:23:37] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-07-18 12:23:37] INFO root fetch - processPackages [systembridgecli]: Downloading https://files.pythonhosted.org/packages/cd/f5/51fee9862e04ebd3c3ed166027cb960a4f63fd4485a96324edd3fce5dcd5/systembridgecli-3.8.0.dev7.tar.gz
+[2023-07-18 12:23:37] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e3/22/68d054109f3033e215b3e2bb124cce096ee16c91911cef45f98e5a69d1ca/pepperize.cdk-private-bucket-0.0.99.tar.gz
+[2023-07-18 12:23:37] INFO root fetch - processPackages [systembridgefrontend]: Downloading https://files.pythonhosted.org/packages/95/5e/dfa09074de5d4a20673431203cb02a8da3bfa97df23b8e14faa34803180d/systembridgefrontend-3.8.0.dev7.tar.gz
+[2023-07-18 12:23:37] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-07-18 12:23:37] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230718/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-18 12:23:37] INFO root fetch - processPackages [LatticeGeometryLib]: Downloading https://files.pythonhosted.org/packages/d9/ce/105c9018cacd5158278d30e66bda7a45c748deb2e7a4e553ea8bc387ae4e/LatticeGeometryLib-0.0.6.tar.gz
+[2023-07-18 12:23:37] INFO root fetch - processPackages [timing-asgi]: Downloading https://files.pythonhosted.org/packages/b4/29/261667860ae45de7197dd67dfae6bdceb65dfde57559be71d3c8fa4d438e/timing_asgi-0.3.1.tar.gz
+[2023-07-18 12:23:37] INFO root fetch - processPackages [systembridgecli]: executing diffoscope
+[2023-07-18 12:23:37] INFO root fetch - processPackages [systembridgecli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgecli-3.8.0.dev6.tar.gz tmp/systembridgecli-3.8.0.dev7.tar.gz --markdown 20230718/s/systembridgecli/3.8.0.dev6-3.8.0.dev7/diff.md --exclude *.pyd
+[2023-07-18 12:23:37] INFO root fetch - processPackages [crmodel]: Downloading https://files.pythonhosted.org/packages/07/8c/6ac0d9ee5c97b67fcc32170d7418431f620ac194e61a652d3e85c6cc6f32/crmodel-0.4.5.tar.gz
+[2023-07-18 12:23:37] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-07-18 12:23:37] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230718/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-18 12:23:37] INFO root fetch - processPackages [timing-asgi]: executing diffoscope
+[2023-07-18 12:23:37] INFO root fetch - processPackages [timing-asgi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timing-asgi-0.3.0b0.tar.gz tmp/timing_asgi-0.3.1.tar.gz --markdown 20230718/t/timing-asgi/0.3.0b0-0.3.1/diff.md --exclude *.pyd
+[2023-07-18 12:23:37] INFO root fetch - processPackages [systembridgefrontend]: executing diffoscope
+[2023-07-18 12:23:37] INFO root fetch - processPackages [systembridgefrontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgefrontend-3.8.0.dev6.tar.gz tmp/systembridgefrontend-3.8.0.dev7.tar.gz --markdown 20230718/s/systembridgefrontend/3.8.0.dev6-3.8.0.dev7/diff.md --exclude *.pyd
+[2023-07-18 12:23:37] INFO root fetch - processPackages [jsonablr]: Downloading https://files.pythonhosted.org/packages/e5/e3/0353d5a22a2542db3ab571a0b69ca4b1daa769ca3643de783ae40c50823c/jsonablr-2.0.0.tar.gz
+[2023-07-18 12:23:37] INFO root fetch - processPackages [crmodel]: executing diffoscope
+[2023-07-18 12:23:37] INFO root fetch - processPackages [crmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crmodel-0.4.4.tar.gz tmp/crmodel-0.4.5.tar.gz --markdown 20230718/c/crmodel/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-07-18 12:23:37] INFO root fetch - processPackages [dlg-paletteGen]: Downloading https://files.pythonhosted.org/packages/f4/af/1168c22bc592bf352e8c0c01adc8339076e21c405cfcedcb07291b53688f/dlg_paletteGen-0.1.9.tar.gz
+[2023-07-18 12:23:37] INFO root fetch - processPackages [LatticeGeometryLib]: executing diffoscope
+[2023-07-18 12:23:37] INFO root fetch - processPackages [LatticeGeometryLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LatticeGeometryLib-0.0.5.tar.gz tmp/LatticeGeometryLib-0.0.6.tar.gz --markdown 20230718/L/LatticeGeometryLib/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-18 12:23:38] INFO root fetch - processPackages [jsonablr]: executing diffoscope
+[2023-07-18 12:23:38] INFO root fetch - processPackages [jsonablr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonablr-1.2.0.tar.gz tmp/jsonablr-2.0.0.tar.gz --markdown 20230718/j/jsonablr/1.2.0-2.0.0/diff.md --exclude *.pyd
+[2023-07-18 12:23:38] INFO root fetch - processPackages [dlg-paletteGen]: executing diffoscope
+[2023-07-18 12:23:38] INFO root fetch - processPackages [dlg-paletteGen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlg_paletteGen-0.1.8.tar.gz tmp/dlg_paletteGen-0.1.9.tar.gz --markdown 20230718/d/dlg-paletteGen/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-18 12:23:38] WARNING root fetch - processPackages [ctranslate2]: Skipping package: exceeds size limit 17975431>=10485760
+[2023-07-18 12:23:38] INFO root fetch - processPackages [ctranslate2]: Start processing: exchangecurrency
+[2023-07-18 12:23:38] INFO root fetch - main [MainThread]: End processing [ctranslate2] error
+[2023-07-18 12:23:38] INFO root fetch - processPackages [exchangecurrency]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-07-18 12:23:39] INFO root fetch - processPackages [exchangecurrency]: Downloading https://files.pythonhosted.org/packages/84/3d/bf2faaa3ae10897a970d13be15d19f92ed6460a1edbd0aa910b5a293b020/exchangecurrency-0.6.0.tar.gz
+[2023-07-18 12:23:39] INFO root fetch - processPackages [systembridgecli]: Remove: archive file [/home/abi/fetcher/tmp/systembridgecli-3.8.0.dev6.tar.gz]
+[2023-07-18 12:23:39] INFO root fetch - processPackages [systembridgecli]: Remove: archive file [/home/abi/fetcher/tmp/systembridgecli-3.8.0.dev7.tar.gz]
+[2023-07-18 12:23:39] INFO root fetch - processPackages [systembridgecli]: Start processing: axion
+[2023-07-18 12:23:39] INFO root fetch - main [MainThread]: End processing [systembridgecli]: success
+[2023-07-18 12:23:39] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz]
+[2023-07-18 12:23:39] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz]
+[2023-07-18 12:23:39] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Start processing: b64-regex
+[2023-07-18 12:23:39] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-07-18 12:23:39] INFO root fetch - processPackages [timing-asgi]: Remove: archive file [/home/abi/fetcher/tmp/timing-asgi-0.3.0b0.tar.gz]
+[2023-07-18 12:23:39] INFO root fetch - processPackages [timing-asgi]: Remove: archive file [/home/abi/fetcher/tmp/timing_asgi-0.3.1.tar.gz]
+[2023-07-18 12:23:39] INFO root fetch - processPackages [timing-asgi]: Start processing: systembridgegui
+[2023-07-18 12:23:39] INFO root fetch - main [MainThread]: End processing [timing-asgi]: success
+[2023-07-18 12:23:39] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-07-18 12:23:39] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-07-18 12:23:39] INFO root fetch - processPackages [omnata-plugin-devkit]: Start processing: ravityemaillib
+[2023-07-18 12:23:39] INFO root fetch - processPackages [axion]: New version: [3.5.8] Old Version: [3.5.7]
+[2023-07-18 12:23:39] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-07-18 12:23:39] INFO root fetch - processPackages [ravityemaillib]: New version: [0.1.1.1] Old Version: [0.1.1.0]
+[2023-07-18 12:23:39] WARNING root fetch - processPackages [b64-regex]: Skipping, unable to determine old version
+[2023-07-18 12:23:39] INFO root fetch - processPackages [b64-regex]: Start processing: oci-cli
+[2023-07-18 12:23:39] INFO root fetch - main [MainThread]: End processing [b64-regex] error
+[2023-07-18 12:23:39] INFO root fetch - processPackages [LatticeGeometryLib]: Remove: archive file [/home/abi/fetcher/tmp/LatticeGeometryLib-0.0.5.tar.gz]
+[2023-07-18 12:23:39] INFO root fetch - processPackages [LatticeGeometryLib]: Remove: archive file [/home/abi/fetcher/tmp/LatticeGeometryLib-0.0.6.tar.gz]
+[2023-07-18 12:23:39] INFO root fetch - processPackages [LatticeGeometryLib]: Start processing: odoo-addon-document-url
+[2023-07-18 12:23:39] INFO root fetch - main [MainThread]: End processing [LatticeGeometryLib]: success
+[2023-07-18 12:23:39] INFO root fetch - processPackages [systembridgegui]: New version: [3.8.0.dev8] Old Version: [3.7.0.dev1]
+[2023-07-18 12:23:39] INFO root fetch - processPackages [exchangecurrency]: Downloading https://files.pythonhosted.org/packages/d0/c0/9bd60dfdc2f892d1aad0178157fbfe974db7ebc284f1220256a420cf8be1/exchangecurrency-0.7.0.tar.gz
+[2023-07-18 12:23:39] INFO root fetch - processPackages [jsonablr]: Remove: archive file [/home/abi/fetcher/tmp/jsonablr-1.2.0.tar.gz]
+[2023-07-18 12:23:39] INFO root fetch - processPackages [jsonablr]: Remove: archive file [/home/abi/fetcher/tmp/jsonablr-2.0.0.tar.gz]
+[2023-07-18 12:23:39] INFO root fetch - processPackages [jsonablr]: Start processing: systembridgewindowssensors
+[2023-07-18 12:23:39] INFO root fetch - main [MainThread]: End processing [jsonablr]: success
+[2023-07-18 12:23:39] INFO root fetch - processPackages [crmodel]: Remove: archive file [/home/abi/fetcher/tmp/crmodel-0.4.4.tar.gz]
+[2023-07-18 12:23:39] INFO root fetch - processPackages [crmodel]: Remove: archive file [/home/abi/fetcher/tmp/crmodel-0.4.5.tar.gz]
+[2023-07-18 12:23:39] INFO root fetch - processPackages [crmodel]: Start processing: exchangecurrency
+[2023-07-18 12:23:39] INFO root fetch - main [MainThread]: End processing [crmodel]: success
+[2023-07-18 12:23:39] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/fc/2a/8d12a1007564b0422e4011a83ede3d859552a77e17dd9f408595a5544eec/axion-3.5.7-cp311-none-win_amd64.whl
+[2023-07-18 12:23:39] INFO root fetch - processPackages [ravityemaillib]: Downloading https://files.pythonhosted.org/packages/40/ae/cd69b91c6560de812c739856116ae7921ef6e28b451d105cb889e1775f3b/ravityemaillib-0.1.1.0.tar.gz
+[2023-07-18 12:23:39] INFO root fetch - processPackages [oci-cli]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-07-18 12:23:39] INFO root fetch - processPackages [odoo-addon-document-url]: New version: [16.0.1.0.3] Old Version: [16.0.1.0.2.2]
+[2023-07-18 12:23:39] INFO root fetch - processPackages [exchangecurrency]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-18 12:23:39] INFO root fetch - processPackages [dlg-paletteGen]: Remove: archive file [/home/abi/fetcher/tmp/dlg_paletteGen-0.1.8.tar.gz]
+[2023-07-18 12:23:39] INFO root fetch - processPackages [dlg-paletteGen]: Remove: archive file [/home/abi/fetcher/tmp/dlg_paletteGen-0.1.9.tar.gz]
+[2023-07-18 12:23:39] INFO root fetch - processPackages [dlg-paletteGen]: Start processing: gpt-code-ui
+[2023-07-18 12:23:39] INFO root fetch - main [MainThread]: End processing [dlg-paletteGen]: success
+[2023-07-18 12:23:39] INFO root fetch - processPackages [exchangecurrency]: executing diffoscope
+[2023-07-18 12:23:39] INFO root fetch - processPackages [exchangecurrency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exchangecurrency-0.6.0.tar.gz tmp/exchangecurrency-0.7.0.tar.gz --markdown 20230718/e/exchangecurrency/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-07-18 12:23:39] INFO root fetch - processPackages [systembridgewindowssensors]: New version: [3.8.0.dev8] Old Version: [3.7.0.dev1]
+[2023-07-18 12:23:39] INFO root fetch - processPackages [systembridgegui]: Downloading https://files.pythonhosted.org/packages/f5/a2/20a61e75fe66a4721c742c8d936868f50cba8f896a753836a35266f03b24/systembridgegui-3.7.0.dev1.tar.gz
+[2023-07-18 12:23:39] INFO root fetch - processPackages [systembridgefrontend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgefrontend-3.8.0.dev6.tar.gz]
+[2023-07-18 12:23:39] INFO root fetch - processPackages [systembridgefrontend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgefrontend-3.8.0.dev7.tar.gz]
+[2023-07-18 12:23:39] INFO root fetch - processPackages [systembridgefrontend]: Start processing: fern-scorecard
+[2023-07-18 12:23:39] INFO root fetch - main [MainThread]: End processing [systembridgefrontend]: success
+[2023-07-18 12:23:39] INFO root fetch - processPackages [gpt-code-ui]: New version: [0.42.9] Old Version: [0.42.8]
+[2023-07-18 12:23:39] INFO root fetch - processPackages [exchangecurrency]: Downloading https://files.pythonhosted.org/packages/c4/46/216bee1fb67d03a33ec792b64654ef508b213b67836f9613f9d3e505b102/exchangecurrency-0.8.0.tar.gz
+[2023-07-18 12:23:39] INFO root fetch - processPackages [odoo-addon-document-url]: Downloading https://files.pythonhosted.org/packages/8d/94/3db90f454ce088d3389334c920e6569dbd0693f066df7b94775a805c52d1/odoo_addon_document_url-16.0.1.0.2.2-py3-none-any.whl
+[2023-07-18 12:23:39] WARNING root fetch - processPackages [fern-scorecard]: Skipping, unable to determine old version
+[2023-07-18 12:23:39] INFO root fetch - processPackages [fern-scorecard]: Start processing: LatticeGeometryLib
+[2023-07-18 12:23:39] INFO root fetch - main [MainThread]: End processing [fern-scorecard] error
+[2023-07-18 12:23:40] INFO root fetch - processPackages [ravityemaillib]: Downloading https://files.pythonhosted.org/packages/ce/62/0fd973238ae72aa695df6d83c545e83e5ad3880a32bc5594ce43906c9282/ravityemaillib-0.1.1.1.tar.gz
+[2023-07-18 12:23:40] INFO root fetch - processPackages [LatticeGeometryLib]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-18 12:23:40] INFO root fetch - processPackages [systembridgewindowssensors]: Downloading https://files.pythonhosted.org/packages/97/8f/a750b9d6f89a982d7898f6c4dbf4c36fbb968276552c04ff333cd54eae30/systembridgewindowssensors-3.7.0.dev1.tar.gz
+[2023-07-18 12:23:40] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/8f/da/5d46b5eaf07f83cb2daf2790fa4eac1a2c482e46addd2d75ad6d5d935b1d/axion-3.5.8-cp311-none-win_amd64.whl
+[2023-07-18 12:23:40] INFO root fetch - processPackages [gpt-code-ui]: Downloading https://files.pythonhosted.org/packages/1b/16/56dff599afaa6d8111b19339f9a0981a6bd2b74597ef50db0b02d7d6624b/gpt_code_ui-0.42.8.tar.gz
+[2023-07-18 12:23:40] INFO root fetch - processPackages [LatticeGeometryLib]: Downloading https://files.pythonhosted.org/packages/8f/ed/30bd05d63c3bc45bb4ca97ced7b860229d4323ffcd03d174a4048a5eaa1e/LatticeGeometryLib-0.0.5.tar.gz
+[2023-07-18 12:23:40] INFO root fetch - processPackages [oci-cli]: executing diffoscope
+[2023-07-18 12:23:40] INFO root fetch - processPackages [oci-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oci-cli-3.9.0.tar.gz tmp/oci-cli-3.9.1.tar.gz --markdown 20230718/o/oci-cli/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-07-18 12:23:40] INFO root fetch - processPackages [ravityemaillib]: executing diffoscope
+[2023-07-18 12:23:40] INFO root fetch - processPackages [ravityemaillib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ravityemaillib-0.1.1.0.tar.gz tmp/ravityemaillib-0.1.1.1.tar.gz --markdown 20230718/r/ravityemaillib/0.1.1.0-0.1.1.1/diff.md --exclude *.pyd
+[2023-07-18 12:23:40] INFO root fetch - processPackages [systembridgegui]: Downloading https://files.pythonhosted.org/packages/98/49/bef46531661ec04b544df7f3ffbab389abc531ee388df6dfc36a86c0d4eb/systembridgegui-3.8.0.dev8.tar.gz
+[2023-07-18 12:23:40] INFO root fetch - processPackages [odoo-addon-document-url]: Downloading https://files.pythonhosted.org/packages/e1/96/e2543da0fde29c8009af420cb613910cf75bbf94c2df1f86f948795cecaf/odoo_addon_document_url-16.0.1.0.3-py3-none-any.whl
+[2023-07-18 12:23:40] INFO root fetch - processPackages [exchangecurrency]: Downloading https://files.pythonhosted.org/packages/75/c1/d4826df4a1109a01e3f43ac23ffeab37d4037af4988ad08081d3580cde0a/exchangecurrency-0.9.0.tar.gz
+[2023-07-18 12:23:40] INFO root fetch - processPackages [axion]: executing diffoscope
+[2023-07-18 12:23:40] INFO root fetch - processPackages [axion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axion-3.5.7-cp311-none-win_amd64.whl.zip tmp/axion-3.5.8-cp311-none-win_amd64.whl.zip --markdown 20230718/a/axion/3.5.7-3.5.8/diff.md --exclude *.pyd
+[2023-07-18 12:23:40] INFO root fetch - processPackages [systembridgegui]: executing diffoscope
+[2023-07-18 12:23:40] INFO root fetch - processPackages [systembridgegui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgegui-3.7.0.dev1.tar.gz tmp/systembridgegui-3.8.0.dev8.tar.gz --markdown 20230718/s/systembridgegui/3.7.0.dev1-3.8.0.dev8/diff.md --exclude *.pyd
+[2023-07-18 12:23:40] INFO root fetch - processPackages [LatticeGeometryLib]: Downloading https://files.pythonhosted.org/packages/d9/ce/105c9018cacd5158278d30e66bda7a45c748deb2e7a4e553ea8bc387ae4e/LatticeGeometryLib-0.0.6.tar.gz
+[2023-07-18 12:23:40] INFO root fetch - processPackages [LatticeGeometryLib]: executing diffoscope
+[2023-07-18 12:23:40] INFO root fetch - processPackages [LatticeGeometryLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LatticeGeometryLib-0.0.5.tar.gz tmp/LatticeGeometryLib-0.0.6.tar.gz --markdown 20230718/L/LatticeGeometryLib/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-18 12:23:40] INFO root fetch - processPackages [exchangecurrency]: executing diffoscope
+[2023-07-18 12:23:40] INFO root fetch - processPackages [exchangecurrency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exchangecurrency-0.8.0.tar.gz tmp/exchangecurrency-0.9.0.tar.gz --markdown 20230718/e/exchangecurrency/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-18 12:23:40] INFO root fetch - processPackages [odoo-addon-document-url]: executing diffoscope
+[2023-07-18 12:23:40] INFO root fetch - processPackages [odoo-addon-document-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_document_url-16.0.1.0.2.2-py3-none-any.whl.zip tmp/odoo_addon_document_url-16.0.1.0.3-py3-none-any.whl.zip --markdown 20230718/o/odoo-addon-document-url/16.0.1.0.2.2-16.0.1.0.3/diff.md --exclude *.pyd
+[2023-07-18 12:23:40] INFO root fetch - processPackages [gpt-code-ui]: Downloading https://files.pythonhosted.org/packages/15/cb/776d616d575589143b3d91acbd1d7e649055f85a8e1cd2c321c0514c1cfa/gpt_code_ui-0.42.9.tar.gz
+[2023-07-18 12:23:40] INFO root fetch - processPackages [exchangecurrency]: Remove: archive file [/home/abi/fetcher/tmp/exchangecurrency-0.6.0.tar.gz]
+[2023-07-18 12:23:40] INFO root fetch - processPackages [exchangecurrency]: Remove: archive file [/home/abi/fetcher/tmp/exchangecurrency-0.7.0.tar.gz]
+[2023-07-18 12:23:40] INFO root fetch - processPackages [exchangecurrency]: Start processing: exchangecurrency
+[2023-07-18 12:23:40] INFO root fetch - main [MainThread]: End processing [exchangecurrency]: success
+[2023-07-18 12:23:40] INFO root fetch - processPackages [exchangecurrency]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-18 12:23:40] INFO root fetch - processPackages [systembridgewindowssensors]: Downloading https://files.pythonhosted.org/packages/81/2c/02c0da61a4727fb73476c2fa38e036da03aeff26456262a663d075806564/systembridgewindowssensors-3.8.0.dev8.tar.gz
+[2023-07-18 12:23:41] INFO root fetch - processPackages [exchangecurrency]: executing diffoscope
+[2023-07-18 12:23:41] INFO root fetch - processPackages [exchangecurrency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exchangecurrency-0.8.0.tar.gz tmp/exchangecurrency-0.9.0.tar.gz --markdown 20230718/e/exchangecurrency/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-18 12:23:41] INFO root fetch - processPackages [gpt-code-ui]: executing diffoscope
+[2023-07-18 12:23:41] INFO root fetch - processPackages [gpt-code-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_code_ui-0.42.8.tar.gz tmp/gpt_code_ui-0.42.9.tar.gz --markdown 20230718/g/gpt-code-ui/0.42.8-0.42.9/diff.md --exclude *.pyd
+[2023-07-18 12:23:41] INFO root fetch - processPackages [systembridgewindowssensors]: executing diffoscope
+[2023-07-18 12:23:41] INFO root fetch - processPackages [systembridgewindowssensors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgewindowssensors-3.7.0.dev1.tar.gz tmp/systembridgewindowssensors-3.8.0.dev8.tar.gz --markdown 20230718/s/systembridgewindowssensors/3.7.0.dev1-3.8.0.dev8/diff.md --exclude *.pyd
+[2023-07-18 12:23:41] INFO root fetch - processPackages [ravityemaillib]: Remove: archive file [/home/abi/fetcher/tmp/ravityemaillib-0.1.1.0.tar.gz]
+[2023-07-18 12:23:41] INFO root fetch - processPackages [ravityemaillib]: Remove: archive file [/home/abi/fetcher/tmp/ravityemaillib-0.1.1.1.tar.gz]
+[2023-07-18 12:23:41] INFO root fetch - processPackages [ravityemaillib]: Start processing: serialtools
+[2023-07-18 12:23:41] INFO root fetch - main [MainThread]: End processing [ravityemaillib]: success
+[2023-07-18 12:23:41] INFO root fetch - processPackages [serialtools]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-18 12:23:41] INFO root fetch - processPackages [serialtools]: Downloading https://files.pythonhosted.org/packages/40/04/307808954f1e13a7521714476682f9395b35fb601006a39f61dcf7546912/serialtools-0.4.0.tar.gz
+[2023-07-18 12:23:42] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-3.5.7-cp311-none-win_amd64.whl.zip]
+[2023-07-18 12:23:42] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-3.5.8-cp311-none-win_amd64.whl.zip]
+[2023-07-18 12:23:42] INFO root fetch - main [MainThread]: End processing [axion]: success
+[2023-07-18 12:23:42] INFO root fetch - processPackages [systembridgegui]: Remove: archive file [/home/abi/fetcher/tmp/systembridgegui-3.7.0.dev1.tar.gz]
+[2023-07-18 12:23:42] INFO root fetch - processPackages [systembridgegui]: Remove: archive file [/home/abi/fetcher/tmp/systembridgegui-3.8.0.dev8.tar.gz]
+[2023-07-18 12:23:42] INFO root fetch - main [MainThread]: End processing [systembridgegui]: success
+[2023-07-18 12:23:42] INFO root fetch - processPackages [serialtools]: Downloading https://files.pythonhosted.org/packages/c8/fd/9765ba21db0668b342dd8b328bce6c7d33fd36640ccf1daf5c08379b8cb8/serialtools-0.4.1.tar.gz
+[2023-07-18 12:23:42] INFO root fetch - processPackages [LatticeGeometryLib]: Remove: archive file [/home/abi/fetcher/tmp/LatticeGeometryLib-0.0.5.tar.gz]
+[2023-07-18 12:23:42] INFO root fetch - processPackages [LatticeGeometryLib]: Remove: archive file [/home/abi/fetcher/tmp/LatticeGeometryLib-0.0.6.tar.gz]
+[2023-07-18 12:23:42] INFO root fetch - main [MainThread]: End processing [LatticeGeometryLib]: success
+[2023-07-18 12:23:42] INFO root fetch - processPackages [exchangecurrency]: Remove: archive file [/home/abi/fetcher/tmp/exchangecurrency-0.8.0.tar.gz]
+[2023-07-18 12:23:42] INFO root fetch - processPackages [exchangecurrency]: Remove: archive file [/home/abi/fetcher/tmp/exchangecurrency-0.9.0.tar.gz]
+[2023-07-18 12:23:42] INFO root fetch - main [MainThread]: End processing [exchangecurrency]: success
+[2023-07-18 12:23:42] INFO root fetch - main [MainThread]: End processing [exchangecurrency]: success
+[2023-07-18 12:23:42] INFO root fetch - processPackages [serialtools]: executing diffoscope
+[2023-07-18 12:23:42] INFO root fetch - processPackages [serialtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serialtools-0.4.0.tar.gz tmp/serialtools-0.4.1.tar.gz --markdown 20230718/s/serialtools/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-18 12:23:43] INFO root fetch - processPackages [gpt-code-ui]: Remove: archive file [/home/abi/fetcher/tmp/gpt_code_ui-0.42.8.tar.gz]
+[2023-07-18 12:23:43] INFO root fetch - processPackages [gpt-code-ui]: Remove: archive file [/home/abi/fetcher/tmp/gpt_code_ui-0.42.9.tar.gz]
+[2023-07-18 12:23:43] INFO root fetch - main [MainThread]: End processing [gpt-code-ui]: success
+[2023-07-18 12:23:43] INFO root fetch - processPackages [odoo-addon-document-url]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_url-16.0.1.0.2.2-py3-none-any.whl.zip]
+[2023-07-18 12:23:43] INFO root fetch - processPackages [odoo-addon-document-url]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_url-16.0.1.0.3-py3-none-any.whl.zip]
+[2023-07-18 12:23:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-document-url]: success
+[2023-07-18 12:23:43] INFO root fetch - processPackages [systembridgewindowssensors]: Remove: archive file [/home/abi/fetcher/tmp/systembridgewindowssensors-3.7.0.dev1.tar.gz]
+[2023-07-18 12:23:43] INFO root fetch - processPackages [systembridgewindowssensors]: Remove: archive file [/home/abi/fetcher/tmp/systembridgewindowssensors-3.8.0.dev8.tar.gz]
+[2023-07-18 12:23:43] INFO root fetch - main [MainThread]: End processing [systembridgewindowssensors]: success
+[2023-07-18 12:23:44] INFO root fetch - processPackages [serialtools]: Remove: archive file [/home/abi/fetcher/tmp/serialtools-0.4.0.tar.gz]
+[2023-07-18 12:23:44] INFO root fetch - processPackages [serialtools]: Remove: archive file [/home/abi/fetcher/tmp/serialtools-0.4.1.tar.gz]
+[2023-07-18 12:23:44] INFO root fetch - main [MainThread]: End processing [serialtools]: success
+[2023-07-18 12:26:40] ERROR root fetch - processPackages [oci-cli]: Timeout during execution of pkgdiff
+[2023-07-18 12:26:40] INFO root fetch - main [MainThread]: End processing [oci-cli] error
+[2023-07-18 12:26:40] INFO root fetch - main [MainThread]: Store serial: [18931715]
