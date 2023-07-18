@@ -10493,3 +10493,192 @@
 [2023-07-18 04:30:31] INFO root fetch - processPackages [vsc-dm]: Remove: archive file [/home/abi/fetcher/tmp/vsc_dm-0.0.1.5582581972-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-18 04:30:31] INFO root fetch - main [MainThread]: End processing [vsc-dm]: success
 [2023-07-18 04:30:31] INFO root fetch - main [MainThread]: Store serial: [18927008]
+[2023-07-18 04:35:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18927008]
+[2023-07-18 04:35:52] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-07-18 04:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zuspec-arl-eval
+[2023-07-18 04:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo8-addon-product-analytic
+[2023-07-18 04:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mango-framework
+[2023-07-18 04:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ansible-core
+[2023-07-18 04:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo10-addon-product-analytic
+[2023-07-18 04:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-define
+[2023-07-18 04:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo11-addon-product-analytic
+[2023-07-18 04:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mango-framework
+[2023-07-18 04:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo12-addon-product-analytic
+[2023-07-18 04:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: seatable-api
+[2023-07-18 04:35:53] INFO root fetch - processPackages [odoo12-addon-product-analytic]: New version: [12.0.1.1.0.99.dev8] Old Version: [12.0.1.1.0.99.dev7]
+[2023-07-18 04:35:53] INFO root fetch - processPackages [odoo11-addon-product-analytic]: New version: [11.0.1.0.0.99.dev8] Old Version: [11.0.1.0.0.99.dev7]
+[2023-07-18 04:35:53] INFO root fetch - processPackages [mango-framework]: New version: [0.7.1] Old Version: [0.7.0b0]
+[2023-07-18 04:35:53] WARNING root fetch - processPackages [python-define]: Skipping, unable to determine old version
+[2023-07-18 04:35:53] INFO root fetch - processPackages [python-define]: Start processing: odoo13-addon-product-analytic
+[2023-07-18 04:35:53] INFO root fetch - main [MainThread]: End processing [python-define] error
+[2023-07-18 04:35:53] INFO root fetch - processPackages [zuspec-arl-eval]: New version: [0.0.1.5582587794] Old Version: [0.0.1.5428510212]
+[2023-07-18 04:35:53] INFO root fetch - processPackages [mango-framework]: New version: [0.7.1] Old Version: [0.7.0b0]
+[2023-07-18 04:35:53] INFO root fetch - processPackages [odoo10-addon-product-analytic]: New version: [10.0.1.0.1.99.dev9] Old Version: [10.0.1.0.1.99.dev8]
+[2023-07-18 04:35:53] INFO root fetch - processPackages [ansible-core]: New version: [2.15.2rc1] Old Version: [2.15.2]
+[2023-07-18 04:35:53] INFO root fetch - processPackages [seatable-api]: New version: [2.6.8] Old Version: [2.6.7]
+[2023-07-18 04:35:53] INFO root fetch - processPackages [odoo8-addon-product-analytic]: New version: [8.0.1.0.0.99.dev9] Old Version: [8.0.1.0.0.99.dev8]
+[2023-07-18 04:35:53] INFO root fetch - processPackages [odoo13-addon-product-analytic]: New version: [13.0.1.0.2.dev1] Old Version: [13.0.1.0.1.dev9]
+[2023-07-18 04:35:53] INFO root fetch - processPackages [seatable-api]: Downloading https://files.pythonhosted.org/packages/1d/5f/96a0fd003eb0df9a91d3ba48d56dac48159a073f89a6919d09437d91975e/seatable-api-2.6.7.tar.gz
+[2023-07-18 04:35:53] INFO root fetch - processPackages [ansible-core]: Downloading https://files.pythonhosted.org/packages/e9/cf/a169a1f505c15d92bcff3a08b68ed5646f0a8262c74a7a2de11ecd3efe81/ansible-core-2.15.2.tar.gz
+[2023-07-18 04:35:53] INFO root fetch - processPackages [odoo12-addon-product-analytic]: Downloading https://files.pythonhosted.org/packages/3a/c4/c99f619b2d93a3329af296aa602a8ab85770b1e236445fbfa28805fa19da/odoo12_addon_product_analytic-12.0.1.1.0.99.dev7-py3-none-any.whl
+[2023-07-18 04:35:53] INFO root fetch - processPackages [mango-framework]: Downloading https://files.pythonhosted.org/packages/e6/f0/2349bbcf9119d10bb09440ec682a7882442b3aa9971ab27950df20a6d0ef/mango-framework-0.7.0b0.tar.gz
+[2023-07-18 04:35:53] INFO root fetch - processPackages [zuspec-arl-eval]: Downloading https://files.pythonhosted.org/packages/6f/b7/fed2cdab674ef329efc16b7f86cb377da05c7a2d0556d439c0a1b60068d6/zuspec_arl_eval-0.0.1.5428510212-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-18 04:35:53] WARNING root fetch - processPackages [ansible-core]: Skipping package: exceeds size limit 10814159>=10485760
+[2023-07-18 04:35:53] INFO root fetch - processPackages [ansible-core]: Start processing: odoo-addon-product-analytic
+[2023-07-18 04:35:53] INFO root fetch - main [MainThread]: End processing [ansible-core] error
+[2023-07-18 04:35:53] INFO root fetch - processPackages [mango-framework]: Downloading https://files.pythonhosted.org/packages/e6/f0/2349bbcf9119d10bb09440ec682a7882442b3aa9971ab27950df20a6d0ef/mango-framework-0.7.0b0.tar.gz
+[2023-07-18 04:35:53] INFO root fetch - processPackages [odoo8-addon-product-analytic]: Downloading https://files.pythonhosted.org/packages/9a/03/dee12c331e1178a70ff03d0ebcc2d1444cd428f50e1222af5fe2bea5658e/odoo8_addon_product_analytic-8.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-07-18 04:35:53] INFO root fetch - processPackages [odoo10-addon-product-analytic]: Downloading https://files.pythonhosted.org/packages/a4/bb/99baf554a422e7f18f919361c75ea137bcacc164c0652a4e483890592070/odoo10_addon_product_analytic-10.0.1.0.1.99.dev8-py2-none-any.whl
+[2023-07-18 04:35:53] INFO root fetch - processPackages [odoo11-addon-product-analytic]: Downloading https://files.pythonhosted.org/packages/40/95/689511c351df914c5065e4395cc13843813be25a1fcbf7b2701c64d79096/odoo11_addon_product_analytic-11.0.1.0.0.99.dev7-py2.py3-none-any.whl
+[2023-07-18 04:35:53] INFO root fetch - processPackages [odoo-addon-product-analytic]: New version: [15.0.1.0.0.5] Old Version: [15.0.1.0.0.4]
+[2023-07-18 04:35:53] INFO root fetch - processPackages [odoo13-addon-product-analytic]: Downloading https://files.pythonhosted.org/packages/70/65/c13d9b454cb70f49c2e70af3bed67802bedc529336789edf57bd9684c724/odoo13_addon_product_analytic-13.0.1.0.1.dev9-py3-none-any.whl
+[2023-07-18 04:35:53] INFO root fetch - processPackages [seatable-api]: Downloading https://files.pythonhosted.org/packages/3d/40/139b50d8a7738d6fb14bf3e506422a0ed214335ba5bab3500852877c3367/seatable-api-2.6.8.tar.gz
+[2023-07-18 04:35:53] INFO root fetch - processPackages [odoo-addon-product-analytic]: Downloading https://files.pythonhosted.org/packages/1a/4e/4f8ee0bfde6762c77cd2ebe2afbe01609cfac3520ac75d6bf47a7ba06188/odoo_addon_product_analytic-15.0.1.0.0.4-py3-none-any.whl
+[2023-07-18 04:35:54] INFO root fetch - processPackages [mango-framework]: Downloading https://files.pythonhosted.org/packages/34/39/626955908e31265a4db467e2d3b84752bb7416dda0d763ba1944a4b215ee/mango-framework-0.7.1.tar.gz
+[2023-07-18 04:35:54] INFO root fetch - processPackages [mango-framework]: Downloading https://files.pythonhosted.org/packages/34/39/626955908e31265a4db467e2d3b84752bb7416dda0d763ba1944a4b215ee/mango-framework-0.7.1.tar.gz
+[2023-07-18 04:35:54] INFO root fetch - processPackages [odoo12-addon-product-analytic]: Downloading https://files.pythonhosted.org/packages/5a/72/510158a7f1011490da4be900787ba416da378dbf5ac5076758d08a2e2885/odoo12_addon_product_analytic-12.0.1.1.0.99.dev8-py3-none-any.whl
+[2023-07-18 04:35:54] INFO root fetch - processPackages [odoo11-addon-product-analytic]: Downloading https://files.pythonhosted.org/packages/e2/b0/46e73c73d58632219ae47cfe2037c098e4d488396f0e37ce2bdc24d9bad3/odoo11_addon_product_analytic-11.0.1.0.0.99.dev8-py2.py3-none-any.whl
+[2023-07-18 04:35:54] INFO root fetch - processPackages [zuspec-arl-eval]: Downloading https://files.pythonhosted.org/packages/13/ef/fb66d10844a64b342f94bfb2839545b67dbe72e22e0ec11a5fb6a48469de/zuspec_arl_eval-0.0.1.5582587794-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-18 04:35:54] INFO root fetch - processPackages [odoo8-addon-product-analytic]: Downloading https://files.pythonhosted.org/packages/a9/97/e4465f0dced95142e02573b35541978b178c8eb5650d0de95860120a63ec/odoo8_addon_product_analytic-8.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-07-18 04:35:54] INFO root fetch - processPackages [odoo10-addon-product-analytic]: Downloading https://files.pythonhosted.org/packages/36/9c/4b9c8426f1183b6f0fb46d5b27cf70b657a04fde743ff05d638fcb429c7c/odoo10_addon_product_analytic-10.0.1.0.1.99.dev9-py2-none-any.whl
+[2023-07-18 04:35:54] INFO root fetch - processPackages [seatable-api]: executing diffoscope
+[2023-07-18 04:35:54] INFO root fetch - processPackages [seatable-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seatable-api-2.6.7.tar.gz tmp/seatable-api-2.6.8.tar.gz --markdown 20230718/s/seatable-api/2.6.7-2.6.8/diff.md --exclude *.pyd
+[2023-07-18 04:35:54] INFO root fetch - processPackages [odoo13-addon-product-analytic]: Downloading https://files.pythonhosted.org/packages/a8/e7/011f2575454c13ca57ecb9f5e9f9d86310e31400aa5f2136b51108ffb786/odoo13_addon_product_analytic-13.0.1.0.2.dev1-py3-none-any.whl
+[2023-07-18 04:35:54] INFO root fetch - processPackages [odoo12-addon-product-analytic]: executing diffoscope
+[2023-07-18 04:35:54] INFO root fetch - processPackages [odoo12-addon-product-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_product_analytic-12.0.1.1.0.99.dev7-py3-none-any.whl.zip tmp/odoo12_addon_product_analytic-12.0.1.1.0.99.dev8-py3-none-any.whl.zip --markdown 20230718/o/odoo12-addon-product-analytic/12.0.1.1.0.99.dev7-12.0.1.1.0.99.dev8/diff.md --exclude *.pyd
+[2023-07-18 04:35:54] INFO root fetch - processPackages [mango-framework]: executing diffoscope
+[2023-07-18 04:35:54] INFO root fetch - processPackages [mango-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango-framework-0.7.0b0.tar.gz tmp/mango-framework-0.7.1.tar.gz --markdown 20230718/m/mango-framework/0.7.0b0-0.7.1/diff.md --exclude *.pyd
+[2023-07-18 04:35:54] INFO root fetch - processPackages [mango-framework]: executing diffoscope
+[2023-07-18 04:35:54] INFO root fetch - processPackages [mango-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango-framework-0.7.0b0.tar.gz tmp/mango-framework-0.7.1.tar.gz --markdown 20230718/m/mango-framework/0.7.0b0-0.7.1/diff.md --exclude *.pyd
+[2023-07-18 04:35:54] INFO root fetch - processPackages [odoo11-addon-product-analytic]: executing diffoscope
+[2023-07-18 04:35:54] INFO root fetch - processPackages [odoo11-addon-product-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_product_analytic-11.0.1.0.0.99.dev7-py2.py3-none-any.whl.zip tmp/odoo11_addon_product_analytic-11.0.1.0.0.99.dev8-py2.py3-none-any.whl.zip --markdown 20230718/o/odoo11-addon-product-analytic/11.0.1.0.0.99.dev7-11.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-07-18 04:35:54] INFO root fetch - processPackages [odoo13-addon-product-analytic]: executing diffoscope
+[2023-07-18 04:35:54] INFO root fetch - processPackages [odoo13-addon-product-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_product_analytic-13.0.1.0.1.dev9-py3-none-any.whl.zip tmp/odoo13_addon_product_analytic-13.0.1.0.2.dev1-py3-none-any.whl.zip --markdown 20230718/o/odoo13-addon-product-analytic/13.0.1.0.1.dev9-13.0.1.0.2.dev1/diff.md --exclude *.pyd
+[2023-07-18 04:35:54] INFO root fetch - processPackages [zuspec-arl-eval]: executing diffoscope
+[2023-07-18 04:35:54] INFO root fetch - processPackages [zuspec-arl-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zuspec_arl_eval-0.0.1.5428510212-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/zuspec_arl_eval-0.0.1.5582587794-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230718/z/zuspec-arl-eval/0.0.1.5428510212-0.0.1.5582587794/diff.md --exclude *.pyd
+[2023-07-18 04:35:54] INFO root fetch - processPackages [odoo8-addon-product-analytic]: executing diffoscope
+[2023-07-18 04:35:54] INFO root fetch - processPackages [odoo8-addon-product-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_product_analytic-8.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_product_analytic-8.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230718/o/odoo8-addon-product-analytic/8.0.1.0.0.99.dev8-8.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-07-18 04:35:54] INFO root fetch - processPackages [odoo-addon-product-analytic]: Downloading https://files.pythonhosted.org/packages/61/93/ef16c6bf42b4e9f9dc3db02c47908b678022f6a8cb5985c9c2e4b81eeb84/odoo_addon_product_analytic-15.0.1.0.0.5-py3-none-any.whl
+[2023-07-18 04:35:54] INFO root fetch - processPackages [odoo10-addon-product-analytic]: executing diffoscope
+[2023-07-18 04:35:54] INFO root fetch - processPackages [odoo10-addon-product-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_product_analytic-10.0.1.0.1.99.dev8-py2-none-any.whl.zip tmp/odoo10_addon_product_analytic-10.0.1.0.1.99.dev9-py2-none-any.whl.zip --markdown 20230718/o/odoo10-addon-product-analytic/10.0.1.0.1.99.dev8-10.0.1.0.1.99.dev9/diff.md --exclude *.pyd
+[2023-07-18 04:35:54] INFO root fetch - processPackages [odoo-addon-product-analytic]: executing diffoscope
+[2023-07-18 04:35:54] INFO root fetch - processPackages [odoo-addon-product-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_analytic-15.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_product_analytic-15.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230718/o/odoo-addon-product-analytic/15.0.1.0.0.4-15.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-07-18 04:35:55] INFO root fetch - processPackages [mango-framework]: Remove: archive file [/home/abi/fetcher/tmp/mango-framework-0.7.0b0.tar.gz]
+[2023-07-18 04:35:55] INFO root fetch - processPackages [mango-framework]: Remove: archive file [/home/abi/fetcher/tmp/mango-framework-0.7.1.tar.gz]
+[2023-07-18 04:35:55] INFO root fetch - processPackages [mango-framework]: Start processing: odoo14-addon-product-analytic
+[2023-07-18 04:35:55] INFO root fetch - main [MainThread]: End processing [mango-framework]: success
+[2023-07-18 04:35:55] INFO root fetch - processPackages [mango-framework]: Start processing: gen3-util
+[2023-07-18 04:35:55] INFO root fetch - main [MainThread]: End processing [mango-framework]: success
+[2023-07-18 04:35:55] INFO root fetch - processPackages [seatable-api]: Remove: archive file [/home/abi/fetcher/tmp/seatable-api-2.6.7.tar.gz]
+[2023-07-18 04:35:55] INFO root fetch - processPackages [seatable-api]: Remove: archive file [/home/abi/fetcher/tmp/seatable-api-2.6.8.tar.gz]
+[2023-07-18 04:35:55] INFO root fetch - processPackages [seatable-api]: Start processing: spectree
+[2023-07-18 04:35:55] INFO root fetch - main [MainThread]: End processing [seatable-api]: success
+[2023-07-18 04:35:56] INFO root fetch - processPackages [odoo14-addon-product-analytic]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2023-07-18 04:35:56] INFO root fetch - processPackages [gen3-util]: New version: [0.0.4rc3] Old Version: [0.0.4rc1]
+[2023-07-18 04:35:56] INFO root fetch - processPackages [odoo12-addon-product-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_product_analytic-12.0.1.1.0.99.dev7-py3-none-any.whl.zip]
+[2023-07-18 04:35:56] INFO root fetch - processPackages [odoo12-addon-product-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_product_analytic-12.0.1.1.0.99.dev8-py3-none-any.whl.zip]
+[2023-07-18 04:35:56] INFO root fetch - processPackages [odoo12-addon-product-analytic]: Start processing: torchqtm
+[2023-07-18 04:35:56] INFO root fetch - main [MainThread]: End processing [odoo12-addon-product-analytic]: success
+[2023-07-18 04:35:56] INFO root fetch - processPackages [spectree]: New version: [1.2.0] Old Version: [1.1.5]
+[2023-07-18 04:35:56] INFO root fetch - processPackages [torchqtm]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-18 04:35:56] INFO root fetch - processPackages [odoo8-addon-product-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_product_analytic-8.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-07-18 04:35:56] INFO root fetch - processPackages [odoo8-addon-product-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_product_analytic-8.0.1.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-07-18 04:35:56] INFO root fetch - processPackages [odoo8-addon-product-analytic]: Start processing: troubleshooter
+[2023-07-18 04:35:56] INFO root fetch - main [MainThread]: End processing [odoo8-addon-product-analytic]: success
+[2023-07-18 04:35:56] INFO root fetch - processPackages [odoo14-addon-product-analytic]: Downloading https://files.pythonhosted.org/packages/58/50/5fea13adabd1125ac3afd71828afbca255efe718a0ba8bfa08a875c952ac/odoo14_addon_product_analytic-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-07-18 04:35:56] INFO root fetch - processPackages [odoo13-addon-product-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_product_analytic-13.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2023-07-18 04:35:56] INFO root fetch - processPackages [odoo13-addon-product-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_product_analytic-13.0.1.0.2.dev1-py3-none-any.whl.zip]
+[2023-07-18 04:35:56] INFO root fetch - processPackages [odoo13-addon-product-analytic]: Start processing: fiftyone-devicedetection-cloud
+[2023-07-18 04:35:56] INFO root fetch - main [MainThread]: End processing [odoo13-addon-product-analytic]: success
+[2023-07-18 04:35:56] INFO root fetch - processPackages [troubleshooter]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-18 04:35:56] INFO root fetch - processPackages [torchqtm]: Downloading https://files.pythonhosted.org/packages/5f/b2/dc19d24adc55c335802fe4f5948c26947926dd944b66ee488228e4fb00c7/torchqtm-0.3.0.tar.gz
+[2023-07-18 04:35:56] INFO root fetch - processPackages [odoo11-addon-product-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_product_analytic-11.0.1.0.0.99.dev7-py2.py3-none-any.whl.zip]
+[2023-07-18 04:35:56] INFO root fetch - processPackages [odoo11-addon-product-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_product_analytic-11.0.1.0.0.99.dev8-py2.py3-none-any.whl.zip]
+[2023-07-18 04:35:56] INFO root fetch - processPackages [gen3-util]: Downloading https://files.pythonhosted.org/packages/ab/dc/3096cc46de6cd64bc782c48a705d9231bfdf81934f6d04e02e73489fc6df/gen3_util-0.0.4rc1.tar.gz
+[2023-07-18 04:35:56] INFO root fetch - processPackages [odoo11-addon-product-analytic]: Start processing: fiftyone-devicedetection-onpremise
+[2023-07-18 04:35:56] INFO root fetch - main [MainThread]: End processing [odoo11-addon-product-analytic]: success
+[2023-07-18 04:35:56] INFO root fetch - processPackages [fiftyone-devicedetection-cloud]: New version: [4.4.9] Old Version: [4.4.8]
+[2023-07-18 04:35:56] INFO root fetch - processPackages [spectree]: Downloading https://files.pythonhosted.org/packages/1e/db/23b1cef1801802d73a3467b2bf1b4a88bbd9ce8058711b863eac5186926f/spectree-1.1.5.tar.gz
+[2023-07-18 04:35:56] INFO root fetch - processPackages [odoo10-addon-product-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_product_analytic-10.0.1.0.1.99.dev8-py2-none-any.whl.zip]
+[2023-07-18 04:35:56] INFO root fetch - processPackages [odoo10-addon-product-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_product_analytic-10.0.1.0.1.99.dev9-py2-none-any.whl.zip]
+[2023-07-18 04:35:56] INFO root fetch - processPackages [odoo10-addon-product-analytic]: Start processing: fiftyone-devicedetection-shared
+[2023-07-18 04:35:56] INFO root fetch - main [MainThread]: End processing [odoo10-addon-product-analytic]: success
+[2023-07-18 04:35:56] INFO root fetch - processPackages [fiftyone-devicedetection-onpremise]: New version: [4.4.9] Old Version: [4.4.8]
+[2023-07-18 04:35:56] INFO root fetch - processPackages [odoo-addon-product-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_analytic-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-18 04:35:56] INFO root fetch - processPackages [odoo-addon-product-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_analytic-15.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-07-18 04:35:56] INFO root fetch - processPackages [odoo-addon-product-analytic]: Start processing: fiftyone-devicedetection
+[2023-07-18 04:35:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-analytic]: success
+[2023-07-18 04:35:56] INFO root fetch - processPackages [fiftyone-devicedetection-shared]: New version: [4.4.9] Old Version: [4.4.8]
+[2023-07-18 04:35:56] INFO root fetch - processPackages [fiftyone-devicedetection]: New version: [4.4.9] Old Version: [4.4.8]
+[2023-07-18 04:35:56] INFO root fetch - processPackages [troubleshooter]: Downloading https://files.pythonhosted.org/packages/f9/b0/6d8a7a13a9671cda8595823afa581d8223d07ee73d9f926a468998c0be3a/troubleshooter-1.0.8.tar.gz
+[2023-07-18 04:35:56] INFO root fetch - processPackages [fiftyone-devicedetection-cloud]: Downloading https://files.pythonhosted.org/packages/c2/05/001e319d2cfe159004ac1852e1838a815389b3339b57bf9be3291ee4e472/fiftyone_devicedetection_cloud-4.4.8.tar.gz
+[2023-07-18 04:35:56] INFO root fetch - processPackages [odoo14-addon-product-analytic]: Downloading https://files.pythonhosted.org/packages/2e/00/300eaabcd3cce3fb51f23ef914baa6705a1d1f87a3aab84195c3a15279df/odoo14_addon_product_analytic-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-07-18 04:35:56] INFO root fetch - processPackages [fiftyone-devicedetection-onpremise]: Downloading https://files.pythonhosted.org/packages/b1/df/28d4ba95bd392c536fe961d8dce1e994f87aa3d48a01e55e9515d0842db3/fiftyone_devicedetection_onpremise-4.4.8.tar.gz
+[2023-07-18 04:35:56] INFO root fetch - processPackages [fiftyone-devicedetection-shared]: Downloading https://files.pythonhosted.org/packages/3c/da/2412fa4de307b569d190795bb28dec9ae811596b99043386eca33940be28/fiftyone_devicedetection_shared-4.4.8.tar.gz
+[2023-07-18 04:35:56] INFO root fetch - processPackages [fiftyone-devicedetection]: Downloading https://files.pythonhosted.org/packages/78/9e/d445e0c4a0f6957a3f64eef83882b50ecf7254cd1dcfb1dd6194ac1a245c/fiftyone_devicedetection-4.4.8.tar.gz
+[2023-07-18 04:35:56] INFO root fetch - processPackages [torchqtm]: Downloading https://files.pythonhosted.org/packages/e1/6b/15b1f237157d2479dd98f1428155fbed0da1cc7509057385558202fc2c04/torchqtm-0.4.0.tar.gz
+[2023-07-18 04:35:56] INFO root fetch - processPackages [spectree]: Downloading https://files.pythonhosted.org/packages/fe/1c/aa56e25e4466dd5c474593a651ce16d293500bd2dd85474a7c35c6f41bdf/spectree-1.2.0.tar.gz
+[2023-07-18 04:35:56] INFO root fetch - processPackages [gen3-util]: Downloading https://files.pythonhosted.org/packages/5c/03/b2c1ab3bf1dc48d9d2b0e38b02c66bb005bf84e1d7c2107761bd873f0a76/gen3_util-0.0.4rc3.tar.gz
+[2023-07-18 04:35:56] INFO root fetch - processPackages [odoo14-addon-product-analytic]: executing diffoscope
+[2023-07-18 04:35:56] INFO root fetch - processPackages [odoo14-addon-product-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_analytic-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_product_analytic-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230718/o/odoo14-addon-product-analytic/14.0.1.0.1.dev8-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-07-18 04:35:56] INFO root fetch - processPackages [troubleshooter]: Downloading https://files.pythonhosted.org/packages/6c/57/fdc7440accda14a68f390d411a09b00acf12bf53acaad11dc625490efba9/troubleshooter-1.0.9.tar.gz
+[2023-07-18 04:35:57] INFO root fetch - processPackages [gen3-util]: executing diffoscope
+[2023-07-18 04:35:57] INFO root fetch - processPackages [gen3-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gen3_util-0.0.4rc1.tar.gz tmp/gen3_util-0.0.4rc3.tar.gz --markdown 20230718/g/gen3-util/0.0.4rc1-0.0.4rc3/diff.md --exclude *.pyd
+[2023-07-18 04:35:57] INFO root fetch - processPackages [spectree]: executing diffoscope
+[2023-07-18 04:35:57] INFO root fetch - processPackages [spectree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectree-1.1.5.tar.gz tmp/spectree-1.2.0.tar.gz --markdown 20230718/s/spectree/1.1.5-1.2.0/diff.md --exclude *.pyd
+[2023-07-18 04:35:57] INFO root fetch - processPackages [fiftyone-devicedetection-cloud]: Downloading https://files.pythonhosted.org/packages/4d/c9/c5ac416a606f9b136ac2929cef7206ef6e3af77c68ec3a349cacfdc42494/fiftyone_devicedetection_cloud-4.4.9.tar.gz
+[2023-07-18 04:35:57] INFO root fetch - processPackages [troubleshooter]: executing diffoscope
+[2023-07-18 04:35:57] INFO root fetch - processPackages [troubleshooter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/troubleshooter-1.0.8.tar.gz tmp/troubleshooter-1.0.9.tar.gz --markdown 20230718/t/troubleshooter/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-18 04:35:57] INFO root fetch - processPackages [torchqtm]: executing diffoscope
+[2023-07-18 04:35:57] INFO root fetch - processPackages [torchqtm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchqtm-0.3.0.tar.gz tmp/torchqtm-0.4.0.tar.gz --markdown 20230718/t/torchqtm/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-18 04:35:57] INFO root fetch - processPackages [fiftyone-devicedetection-onpremise]: Downloading https://files.pythonhosted.org/packages/30/d5/2b4fa4cec92069e5925b2a0b23f3fd4dca0a3a23d10ee35da5d371f9980a/fiftyone_devicedetection_onpremise-4.4.9.tar.gz
+[2023-07-18 04:35:57] INFO root fetch - processPackages [fiftyone-devicedetection-shared]: Downloading https://files.pythonhosted.org/packages/99/d4/d653c3be1089c3f8160a18a795f0c4962b77d69706332ebefdcb0e829cd5/fiftyone_devicedetection_shared-4.4.9.tar.gz
+[2023-07-18 04:35:57] INFO root fetch - processPackages [fiftyone-devicedetection-cloud]: executing diffoscope
+[2023-07-18 04:35:57] INFO root fetch - processPackages [fiftyone-devicedetection-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_devicedetection_cloud-4.4.8.tar.gz tmp/fiftyone_devicedetection_cloud-4.4.9.tar.gz --markdown 20230718/f/fiftyone-devicedetection-cloud/4.4.8-4.4.9/diff.md --exclude *.pyd
+[2023-07-18 04:35:57] INFO root fetch - processPackages [fiftyone-devicedetection]: Downloading https://files.pythonhosted.org/packages/83/fc/34fd863cd6fbd72392513d7f5dac042f4229299394794a87719f20e1c2f7/fiftyone_devicedetection-4.4.9.tar.gz
+[2023-07-18 04:35:57] INFO root fetch - processPackages [fiftyone-devicedetection-onpremise]: executing diffoscope
+[2023-07-18 04:35:57] INFO root fetch - processPackages [fiftyone-devicedetection-onpremise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_devicedetection_onpremise-4.4.8.tar.gz tmp/fiftyone_devicedetection_onpremise-4.4.9.tar.gz --markdown 20230718/f/fiftyone-devicedetection-onpremise/4.4.8-4.4.9/diff.md --exclude *.pyd
+[2023-07-18 04:35:57] INFO root fetch - processPackages [fiftyone-devicedetection-shared]: executing diffoscope
+[2023-07-18 04:35:57] INFO root fetch - processPackages [fiftyone-devicedetection-shared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_devicedetection_shared-4.4.8.tar.gz tmp/fiftyone_devicedetection_shared-4.4.9.tar.gz --markdown 20230718/f/fiftyone-devicedetection-shared/4.4.8-4.4.9/diff.md --exclude *.pyd
+[2023-07-18 04:35:57] INFO root fetch - processPackages [fiftyone-devicedetection]: executing diffoscope
+[2023-07-18 04:35:57] INFO root fetch - processPackages [fiftyone-devicedetection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_devicedetection-4.4.8.tar.gz tmp/fiftyone_devicedetection-4.4.9.tar.gz --markdown 20230718/f/fiftyone-devicedetection/4.4.8-4.4.9/diff.md --exclude *.pyd
+[2023-07-18 04:35:58] INFO root fetch - processPackages [odoo14-addon-product-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_analytic-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-07-18 04:35:58] INFO root fetch - processPackages [odoo14-addon-product-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_analytic-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2023-07-18 04:35:58] INFO root fetch - processPackages [odoo14-addon-product-analytic]: Start processing: lcapygui
+[2023-07-18 04:35:58] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-analytic]: success
+[2023-07-18 04:35:58] INFO root fetch - processPackages [lcapygui]: New version: [0.92] Old Version: [0.91]
+[2023-07-18 04:35:58] INFO root fetch - processPackages [gen3-util]: Remove: archive file [/home/abi/fetcher/tmp/gen3_util-0.0.4rc1.tar.gz]
+[2023-07-18 04:35:58] INFO root fetch - processPackages [gen3-util]: Remove: archive file [/home/abi/fetcher/tmp/gen3_util-0.0.4rc3.tar.gz]
+[2023-07-18 04:35:58] INFO root fetch - main [MainThread]: End processing [gen3-util]: success
+[2023-07-18 04:35:58] INFO root fetch - processPackages [fiftyone-devicedetection-cloud]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_devicedetection_cloud-4.4.8.tar.gz]
+[2023-07-18 04:35:58] INFO root fetch - processPackages [fiftyone-devicedetection-cloud]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_devicedetection_cloud-4.4.9.tar.gz]
+[2023-07-18 04:35:58] INFO root fetch - main [MainThread]: End processing [fiftyone-devicedetection-cloud]: success
+[2023-07-18 04:35:58] INFO root fetch - processPackages [lcapygui]: Downloading https://files.pythonhosted.org/packages/27/3f/8f2a6f3753453419ab6951a1c112d5d00f385402cc9ce906878ac8a2d15b/lcapygui-0.91.tar.gz
+[2023-07-18 04:35:58] INFO root fetch - processPackages [spectree]: Remove: archive file [/home/abi/fetcher/tmp/spectree-1.1.5.tar.gz]
+[2023-07-18 04:35:58] INFO root fetch - processPackages [spectree]: Remove: archive file [/home/abi/fetcher/tmp/spectree-1.2.0.tar.gz]
+[2023-07-18 04:35:58] INFO root fetch - main [MainThread]: End processing [spectree]: success
+[2023-07-18 04:35:59] INFO root fetch - processPackages [troubleshooter]: Remove: archive file [/home/abi/fetcher/tmp/troubleshooter-1.0.8.tar.gz]
+[2023-07-18 04:35:59] INFO root fetch - processPackages [troubleshooter]: Remove: archive file [/home/abi/fetcher/tmp/troubleshooter-1.0.9.tar.gz]
+[2023-07-18 04:35:59] INFO root fetch - main [MainThread]: End processing [troubleshooter]: success
+[2023-07-18 04:35:59] INFO root fetch - processPackages [fiftyone-devicedetection]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_devicedetection-4.4.8.tar.gz]
+[2023-07-18 04:35:59] INFO root fetch - processPackages [fiftyone-devicedetection]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_devicedetection-4.4.9.tar.gz]
+[2023-07-18 04:35:59] INFO root fetch - main [MainThread]: End processing [fiftyone-devicedetection]: success
+[2023-07-18 04:35:59] INFO root fetch - processPackages [fiftyone-devicedetection-shared]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_devicedetection_shared-4.4.8.tar.gz]
+[2023-07-18 04:35:59] INFO root fetch - processPackages [fiftyone-devicedetection-shared]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_devicedetection_shared-4.4.9.tar.gz]
+[2023-07-18 04:35:59] INFO root fetch - main [MainThread]: End processing [fiftyone-devicedetection-shared]: success
+[2023-07-18 04:35:59] INFO root fetch - processPackages [lcapygui]: Downloading https://files.pythonhosted.org/packages/74/5c/ee44561d508451c1840d1a4954d61edfdc4fd268398da18d865a066425fa/lcapygui-0.92.tar.gz
+[2023-07-18 04:35:59] INFO root fetch - processPackages [torchqtm]: Remove: archive file [/home/abi/fetcher/tmp/torchqtm-0.3.0.tar.gz]
+[2023-07-18 04:35:59] INFO root fetch - processPackages [torchqtm]: Remove: archive file [/home/abi/fetcher/tmp/torchqtm-0.4.0.tar.gz]
+[2023-07-18 04:35:59] INFO root fetch - main [MainThread]: End processing [torchqtm]: success
+[2023-07-18 04:35:59] INFO root fetch - processPackages [lcapygui]: executing diffoscope
+[2023-07-18 04:35:59] INFO root fetch - processPackages [lcapygui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lcapygui-0.91.tar.gz tmp/lcapygui-0.92.tar.gz --markdown 20230718/l/lcapygui/0.91-0.92/diff.md --exclude *.pyd
+[2023-07-18 04:35:59] INFO root fetch - processPackages [fiftyone-devicedetection-onpremise]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_devicedetection_onpremise-4.4.8.tar.gz]
+[2023-07-18 04:35:59] INFO root fetch - processPackages [fiftyone-devicedetection-onpremise]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_devicedetection_onpremise-4.4.9.tar.gz]
+[2023-07-18 04:35:59] INFO root fetch - main [MainThread]: End processing [fiftyone-devicedetection-onpremise]: success
+[2023-07-18 04:36:00] INFO root fetch - processPackages [lcapygui]: Remove: archive file [/home/abi/fetcher/tmp/lcapygui-0.91.tar.gz]
+[2023-07-18 04:36:00] INFO root fetch - processPackages [lcapygui]: Remove: archive file [/home/abi/fetcher/tmp/lcapygui-0.92.tar.gz]
+[2023-07-18 04:36:00] INFO root fetch - main [MainThread]: End processing [lcapygui]: success
+[2023-07-18 04:36:01] INFO root fetch - processPackages [zuspec-arl-eval]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_arl_eval-0.0.1.5428510212-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-18 04:36:01] INFO root fetch - processPackages [zuspec-arl-eval]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_arl_eval-0.0.1.5582587794-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-18 04:36:01] INFO root fetch - main [MainThread]: End processing [zuspec-arl-eval]: success
+[2023-07-18 04:36:01] INFO root fetch - main [MainThread]: Store serial: [18927067]
