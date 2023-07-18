@@ -19408,3 +19408,148 @@
 [2023-07-18 10:58:35] INFO root fetch - processPackages [heps-ds-utils]: Remove: archive file [/home/abi/fetcher/tmp/heps_ds_utils-0.4.7a8.tar.gz]
 [2023-07-18 10:58:35] INFO root fetch - main [MainThread]: End processing [heps-ds-utils]: success
 [2023-07-18 10:58:35] INFO root fetch - main [MainThread]: Store serial: [18930558]
+[2023-07-18 11:03:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18930558]
+[2023-07-18 11:03:44] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-18 11:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cmo-dataviz
+[2023-07-18 11:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modelbase
+[2023-07-18 11:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ojtool
+[2023-07-18 11:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lite-fastapi-local
+[2023-07-18 11:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: st-login
+[2023-07-18 11:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kynaylibs
+[2023-07-18 11:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cartagen4py
+[2023-07-18 11:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rayen
+[2023-07-18 11:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py-Ayra
+[2023-07-18 11:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: trustedtwin
+[2023-07-18 11:03:44] INFO root fetch - processPackages [cartagen4py]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-18 11:03:44] INFO root fetch - processPackages [lite-fastapi-local]: New version: [0.0.37] Old Version: [0.0.36]
+[2023-07-18 11:03:44] INFO root fetch - processPackages [trustedtwin]: New version: [3.3.20230717090114] Old Version: [3.3.20230716090132]
+[2023-07-18 11:03:44] INFO root fetch - processPackages [st-login]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-18 11:03:44] INFO root fetch - processPackages [cartagen4py]: Downloading https://files.pythonhosted.org/packages/ab/83/e0ded6d3798553a447b69c9900094aef0318ab0dba74265b4e19bd374db0/cartagen4py-0.2.0-py3-none-any.whl
+[2023-07-18 11:03:44] INFO root fetch - processPackages [ojtool]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-18 11:03:44] INFO root fetch - processPackages [lite-fastapi-local]: Downloading https://files.pythonhosted.org/packages/f5/e0/cd9a5fd841774c350f9df6a30703a571e480a87041378656ab648dc51f4b/lite_fastapi_local-0.0.36.tar.gz
+[2023-07-18 11:03:44] INFO root fetch - processPackages [cmo-dataviz]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-18 11:03:44] INFO root fetch - processPackages [kynaylibs]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-18 11:03:44] INFO root fetch - processPackages [py-Ayra]: New version: [1.9.0] Old Version: [1.8.9]
+[2023-07-18 11:03:44] INFO root fetch - processPackages [rayen]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-18 11:03:44] INFO root fetch - processPackages [trustedtwin]: Downloading https://files.pythonhosted.org/packages/56/5a/1054e6289a215bb80ec6c33275e2caa6e0fb2d0a810d67d4a4d136f4313f/trustedtwin-3.3.20230716090132.tar.gz
+[2023-07-18 11:03:44] INFO root fetch - processPackages [modelbase]: New version: [1rc2] Old Version: [1.9.3]
+[2023-07-18 11:03:44] INFO root fetch - processPackages [ojtool]: Downloading https://files.pythonhosted.org/packages/25/49/29fd15aeec5bb6fffa0b6eb7992875ee528bb841c97648c98668b95a74c1/ojtool-0.1.1.tar.gz
+[2023-07-18 11:03:44] INFO root fetch - processPackages [st-login]: Downloading https://files.pythonhosted.org/packages/c9/02/0896ab9f48d29b3ae48f475123e2424bea8be3b11b327e69138060a3fc66/st_login-0.0.1.tar.gz
+[2023-07-18 11:03:44] INFO root fetch - processPackages [cmo-dataviz]: Downloading https://files.pythonhosted.org/packages/f8/97/c77c81a73b8e322499282fb43146f7a04f0b3f145c2d4b8646a7c74096b6/cmo_dataviz-0.1.0.tar.gz
+[2023-07-18 11:03:44] INFO root fetch - processPackages [cartagen4py]: Downloading https://files.pythonhosted.org/packages/1e/32/a781cec2d4874dcead526a046b95581a64bf34812597db17ea93f5bc9994/cartagen4py-0.2.1-py3-none-any.whl
+[2023-07-18 11:03:44] INFO root fetch - processPackages [py-Ayra]: Downloading https://files.pythonhosted.org/packages/84/54/c5e3017d0317b453abffacc1e4682a77ac489a5eff3175ad87a265d9a099/py-Ayra-1.8.9.tar.gz
+[2023-07-18 11:03:44] INFO root fetch - processPackages [kynaylibs]: Downloading https://files.pythonhosted.org/packages/25/3e/323669c5568783d256ef6007ce9bf30621c1e94de0ecc598fcce10386fd0/kynaylibs-1.9.0.tar.gz
+[2023-07-18 11:03:44] INFO root fetch - processPackages [rayen]: Downloading https://files.pythonhosted.org/packages/fc/8d/5ed010d4df83741faa3aa3d56c4dcb457fd840ac6f3fdf68868325e379ce/rayen-0.0.4.tar.gz
+[2023-07-18 11:03:44] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/2d/60/61225a94c9e33f3d21366aefd4cdf1945c8805e3540a30f2fd1c5d8faa06/modelbase-1.9.3.tar.gz
+[2023-07-18 11:03:44] INFO root fetch - processPackages [lite-fastapi-local]: Downloading https://files.pythonhosted.org/packages/a1/1b/72fe717fc3b2bb0be3d908e3eb2f8e4ae638c972a4f60c1caf9d89c1710e/lite_fastapi_local-0.0.37.tar.gz
+[2023-07-18 11:03:45] INFO root fetch - processPackages [trustedtwin]: Downloading https://files.pythonhosted.org/packages/a7/11/3623fa56d2fb7d5ed3c0c67f8061efd82599876f42136dbfa645ca603147/trustedtwin-3.3.20230717090114.tar.gz
+[2023-07-18 11:03:45] INFO root fetch - processPackages [cartagen4py]: executing diffoscope
+[2023-07-18 11:03:45] INFO root fetch - processPackages [cartagen4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cartagen4py-0.2.0-py3-none-any.whl.zip tmp/cartagen4py-0.2.1-py3-none-any.whl.zip --markdown 20230718/c/cartagen4py/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-18 11:03:45] INFO root fetch - processPackages [trustedtwin]: executing diffoscope
+[2023-07-18 11:03:45] INFO root fetch - processPackages [trustedtwin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trustedtwin-3.3.20230716090132.tar.gz tmp/trustedtwin-3.3.20230717090114.tar.gz --markdown 20230718/t/trustedtwin/3.3.20230716090132-3.3.20230717090114/diff.md --exclude *.pyd
+[2023-07-18 11:03:45] INFO root fetch - processPackages [st-login]: Downloading https://files.pythonhosted.org/packages/7c/27/f4c87cdcbd8b8741f4e8e0abc40235ce87cbe7901caddf6f333a0e0b96d3/st_login-0.0.2.tar.gz
+[2023-07-18 11:03:45] INFO root fetch - processPackages [lite-fastapi-local]: executing diffoscope
+[2023-07-18 11:03:45] INFO root fetch - processPackages [lite-fastapi-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lite_fastapi_local-0.0.36.tar.gz tmp/lite_fastapi_local-0.0.37.tar.gz --markdown 20230718/l/lite-fastapi-local/0.0.36-0.0.37/diff.md --exclude *.pyd
+[2023-07-18 11:03:45] INFO root fetch - processPackages [ojtool]: Downloading https://files.pythonhosted.org/packages/cd/dc/79535f30975345be49c0a40d431ec40a7976dc2da1c7297eb49afd2581fa/ojtool-0.1.2.tar.gz
+[2023-07-18 11:03:45] INFO root fetch - processPackages [rayen]: Downloading https://files.pythonhosted.org/packages/0b/e7/7275b8df6752adcea0839ec63afa614000facbfc3fb1e8904509e91db917/rayen-0.0.5.tar.gz
+[2023-07-18 11:03:45] INFO root fetch - processPackages [cmo-dataviz]: Downloading https://files.pythonhosted.org/packages/3e/66/aa717ec7ec6c810b2a78a91b9d49748f81d080d75087f9bc55a722266ee4/cmo_dataviz-0.1.1.tar.gz
+[2023-07-18 11:03:45] INFO root fetch - processPackages [py-Ayra]: Downloading https://files.pythonhosted.org/packages/52/ce/4236945f7b274b22400f10e21e18cba17e67a0b26b6bf4cf4d68327b79af/py-Ayra-1.9.0.tar.gz
+[2023-07-18 11:03:45] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/50/e2/d6e4b5bb8eda18f7221f3af4d4f295ef693f37fbafe88e68574e7e39c29f/modelbase-1rc2.tar.gz
+[2023-07-18 11:03:45] INFO root fetch - processPackages [kynaylibs]: Downloading https://files.pythonhosted.org/packages/ee/d7/d96ae0629270d44b0d70dbd3cb4354422f4550f1f52d649a5f793bdba61a/kynaylibs-1.9.1.tar.gz
+[2023-07-18 11:03:45] INFO root fetch - processPackages [st-login]: executing diffoscope
+[2023-07-18 11:03:45] INFO root fetch - processPackages [st-login]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_login-0.0.1.tar.gz tmp/st_login-0.0.2.tar.gz --markdown 20230718/s/st-login/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-18 11:03:45] INFO root fetch - processPackages [modelbase]: executing diffoscope
+[2023-07-18 11:03:45] INFO root fetch - processPackages [modelbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbase-1.9.3.tar.gz tmp/modelbase-1rc2.tar.gz --markdown 20230718/m/modelbase/1.9.3-1rc2/diff.md --exclude *.pyd
+[2023-07-18 11:03:45] INFO root fetch - processPackages [cmo-dataviz]: executing diffoscope
+[2023-07-18 11:03:45] INFO root fetch - processPackages [cmo-dataviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmo_dataviz-0.1.0.tar.gz tmp/cmo_dataviz-0.1.1.tar.gz --markdown 20230718/c/cmo-dataviz/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-18 11:03:45] INFO root fetch - processPackages [kynaylibs]: executing diffoscope
+[2023-07-18 11:03:45] INFO root fetch - processPackages [kynaylibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kynaylibs-1.9.0.tar.gz tmp/kynaylibs-1.9.1.tar.gz --markdown 20230718/k/kynaylibs/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-18 11:03:45] INFO root fetch - processPackages [py-Ayra]: executing diffoscope
+[2023-07-18 11:03:45] INFO root fetch - processPackages [py-Ayra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayra-1.8.9.tar.gz tmp/py-Ayra-1.9.0.tar.gz --markdown 20230718/p/py-Ayra/1.8.9-1.9.0/diff.md --exclude *.pyd
+[2023-07-18 11:03:45] INFO root fetch - processPackages [rayen]: executing diffoscope
+[2023-07-18 11:03:45] INFO root fetch - processPackages [rayen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rayen-0.0.4.tar.gz tmp/rayen-0.0.5.tar.gz --markdown 20230718/r/rayen/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-18 11:03:45] INFO root fetch - processPackages [ojtool]: executing diffoscope
+[2023-07-18 11:03:45] INFO root fetch - processPackages [ojtool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ojtool-0.1.1.tar.gz tmp/ojtool-0.1.2.tar.gz --markdown 20230718/o/ojtool/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-18 11:03:46] INFO root fetch - processPackages [trustedtwin]: Remove: archive file [/home/abi/fetcher/tmp/trustedtwin-3.3.20230716090132.tar.gz]
+[2023-07-18 11:03:46] INFO root fetch - processPackages [trustedtwin]: Remove: archive file [/home/abi/fetcher/tmp/trustedtwin-3.3.20230717090114.tar.gz]
+[2023-07-18 11:03:46] INFO root fetch - processPackages [trustedtwin]: Start processing: python-schematized-config
+[2023-07-18 11:03:46] INFO root fetch - main [MainThread]: End processing [trustedtwin]: success
+[2023-07-18 11:03:46] INFO root fetch - processPackages [lite-fastapi-local]: Remove: archive file [/home/abi/fetcher/tmp/lite_fastapi_local-0.0.36.tar.gz]
+[2023-07-18 11:03:46] INFO root fetch - processPackages [lite-fastapi-local]: Remove: archive file [/home/abi/fetcher/tmp/lite_fastapi_local-0.0.37.tar.gz]
+[2023-07-18 11:03:46] INFO root fetch - processPackages [lite-fastapi-local]: Start processing: cellmap
+[2023-07-18 11:03:46] INFO root fetch - main [MainThread]: End processing [lite-fastapi-local]: success
+[2023-07-18 11:03:46] INFO root fetch - processPackages [cartagen4py]: Remove: archive file [/home/abi/fetcher/tmp/cartagen4py-0.2.0-py3-none-any.whl.zip]
+[2023-07-18 11:03:46] INFO root fetch - processPackages [cartagen4py]: Remove: archive file [/home/abi/fetcher/tmp/cartagen4py-0.2.1-py3-none-any.whl.zip]
+[2023-07-18 11:03:46] INFO root fetch - processPackages [cartagen4py]: Start processing: betwatch
+[2023-07-18 11:03:46] INFO root fetch - main [MainThread]: End processing [cartagen4py]: success
+[2023-07-18 11:03:46] INFO root fetch - processPackages [python-schematized-config]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-18 11:03:46] INFO root fetch - processPackages [cellmap]: New version: [1.0.1.dev202307180903] Old Version: [1.0.1.dev202307180902]
+[2023-07-18 11:03:46] INFO root fetch - processPackages [betwatch]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-18 11:03:46] INFO root fetch - processPackages [python-schematized-config]: Downloading https://files.pythonhosted.org/packages/b1/5d/bef5f1b53bf442bc7a250fea46009e114b2561079da7e7b81c6eccabadea/python-schematized-config-0.0.1.tar.gz
+[2023-07-18 11:03:46] INFO root fetch - processPackages [st-login]: Remove: archive file [/home/abi/fetcher/tmp/st_login-0.0.1.tar.gz]
+[2023-07-18 11:03:46] INFO root fetch - processPackages [st-login]: Remove: archive file [/home/abi/fetcher/tmp/st_login-0.0.2.tar.gz]
+[2023-07-18 11:03:46] INFO root fetch - processPackages [st-login]: Start processing: cellmap
+[2023-07-18 11:03:46] INFO root fetch - main [MainThread]: End processing [st-login]: success
+[2023-07-18 11:03:46] INFO root fetch - processPackages [cellmap]: New version: [1.0.1.dev202307180903] Old Version: [1.0.1.dev202307180902]
+[2023-07-18 11:03:47] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/fc/2d/ffa27d8b1562773ae4dac6f43a60393f23d72722c7b62cee588dac95059b/cellmap-1.0.1.dev202307180902-py3-none-any.whl
+[2023-07-18 11:03:47] INFO root fetch - processPackages [betwatch]: Downloading https://files.pythonhosted.org/packages/0c/c6/02837330ad00130521a49aa292161b68f32c965fa83e356d520fd4fef77d/betwatch-1.0.7.tar.gz
+[2023-07-18 11:03:47] INFO root fetch - processPackages [cmo-dataviz]: Remove: archive file [/home/abi/fetcher/tmp/cmo_dataviz-0.1.0.tar.gz]
+[2023-07-18 11:03:47] INFO root fetch - processPackages [cmo-dataviz]: Remove: archive file [/home/abi/fetcher/tmp/cmo_dataviz-0.1.1.tar.gz]
+[2023-07-18 11:03:47] INFO root fetch - processPackages [cmo-dataviz]: Start processing: planqk-quantum
+[2023-07-18 11:03:47] INFO root fetch - main [MainThread]: End processing [cmo-dataviz]: success
+[2023-07-18 11:03:47] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/fc/2d/ffa27d8b1562773ae4dac6f43a60393f23d72722c7b62cee588dac95059b/cellmap-1.0.1.dev202307180902-py3-none-any.whl
+[2023-07-18 11:03:47] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1.9.3.tar.gz]
+[2023-07-18 11:03:47] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1rc2.tar.gz]
+[2023-07-18 11:03:47] INFO root fetch - processPackages [modelbase]: Start processing: jsonschema
+[2023-07-18 11:03:47] INFO root fetch - main [MainThread]: End processing [modelbase]: success
+[2023-07-18 11:03:47] INFO root fetch - processPackages [python-schematized-config]: Downloading https://files.pythonhosted.org/packages/56/5b/4b3e126dd4f1e4e83239d35fc47b455285e9ad1985e02ba0461b153c60cc/python-schematized-config-0.0.2.tar.gz
+[2023-07-18 11:03:47] INFO root fetch - processPackages [planqk-quantum]: New version: [1.9.0] Old Version: [1.8.6]
+[2023-07-18 11:03:47] INFO root fetch - processPackages [jsonschema]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-07-18 11:03:47] INFO root fetch - processPackages [kynaylibs]: Remove: archive file [/home/abi/fetcher/tmp/kynaylibs-1.9.0.tar.gz]
+[2023-07-18 11:03:47] INFO root fetch - processPackages [kynaylibs]: Remove: archive file [/home/abi/fetcher/tmp/kynaylibs-1.9.1.tar.gz]
+[2023-07-18 11:03:47] INFO root fetch - main [MainThread]: End processing [kynaylibs]: success
+[2023-07-18 11:03:47] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/3b/a2/2283b7561efc1f28847bda5663a94ecf7f878f29f7b3a1590a79b839125d/planqk-quantum-1.8.6.tar.gz
+[2023-07-18 11:03:47] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/19/f6/4cda2d96cf40216a029238b7c9f741c11019a858cf199062f813664e0867/cellmap-1.0.1.dev202307180903-py3-none-any.whl
+[2023-07-18 11:03:47] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/19/f6/4cda2d96cf40216a029238b7c9f741c11019a858cf199062f813664e0867/cellmap-1.0.1.dev202307180903-py3-none-any.whl
+[2023-07-18 11:03:47] INFO root fetch - processPackages [betwatch]: Downloading https://files.pythonhosted.org/packages/d8/13/33bc49f63d184a5c1eaaf0dda5417b55968b164792a90d4446cffc08a85f/betwatch-1.0.8.tar.gz
+[2023-07-18 11:03:47] INFO root fetch - processPackages [python-schematized-config]: executing diffoscope
+[2023-07-18 11:03:47] INFO root fetch - processPackages [python-schematized-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-schematized-config-0.0.1.tar.gz tmp/python-schematized-config-0.0.2.tar.gz --markdown 20230718/p/python-schematized-config/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-18 11:03:47] INFO root fetch - processPackages [jsonschema]: Downloading https://files.pythonhosted.org/packages/02/96/901e5735f16cb438eccff95b534d0bdd058237dab1ae4731b5e1e1ddc9b4/jsonschema-4.9.0.tar.gz
+[2023-07-18 11:03:47] INFO root fetch - processPackages [py-Ayra]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayra-1.8.9.tar.gz]
+[2023-07-18 11:03:47] INFO root fetch - processPackages [py-Ayra]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayra-1.9.0.tar.gz]
+[2023-07-18 11:03:47] INFO root fetch - main [MainThread]: End processing [py-Ayra]: success
+[2023-07-18 11:03:47] INFO root fetch - processPackages [betwatch]: executing diffoscope
+[2023-07-18 11:03:47] INFO root fetch - processPackages [betwatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betwatch-1.0.7.tar.gz tmp/betwatch-1.0.8.tar.gz --markdown 20230718/b/betwatch/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-18 11:03:47] INFO root fetch - processPackages [cellmap]: executing diffoscope
+[2023-07-18 11:03:47] INFO root fetch - processPackages [cellmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmap-1.0.1.dev202307180902-py3-none-any.whl.zip tmp/cellmap-1.0.1.dev202307180903-py3-none-any.whl.zip --markdown 20230718/c/cellmap/1.0.1.dev202307180902-1.0.1.dev202307180903/diff.md --exclude *.pyd
+[2023-07-18 11:03:47] INFO root fetch - processPackages [cellmap]: executing diffoscope
+[2023-07-18 11:03:47] INFO root fetch - processPackages [cellmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmap-1.0.1.dev202307180902-py3-none-any.whl.zip tmp/cellmap-1.0.1.dev202307180903-py3-none-any.whl.zip --markdown 20230718/c/cellmap/1.0.1.dev202307180902-1.0.1.dev202307180903/diff.md --exclude *.pyd
+[2023-07-18 11:03:47] INFO root fetch - processPackages [ojtool]: Remove: archive file [/home/abi/fetcher/tmp/ojtool-0.1.1.tar.gz]
+[2023-07-18 11:03:47] INFO root fetch - processPackages [ojtool]: Remove: archive file [/home/abi/fetcher/tmp/ojtool-0.1.2.tar.gz]
+[2023-07-18 11:03:47] INFO root fetch - main [MainThread]: End processing [ojtool]: success
+[2023-07-18 11:03:47] INFO root fetch - processPackages [rayen]: Remove: archive file [/home/abi/fetcher/tmp/rayen-0.0.4.tar.gz]
+[2023-07-18 11:03:47] INFO root fetch - processPackages [rayen]: Remove: archive file [/home/abi/fetcher/tmp/rayen-0.0.5.tar.gz]
+[2023-07-18 11:03:47] INFO root fetch - main [MainThread]: End processing [rayen]: success
+[2023-07-18 11:03:47] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/a3/13/7cd24d3b8a0478841e1fa07648a7156ac8b299a7e39addc247212e1e8a60/planqk-quantum-1.9.0.tar.gz
+[2023-07-18 11:03:47] INFO root fetch - processPackages [planqk-quantum]: executing diffoscope
+[2023-07-18 11:03:47] INFO root fetch - processPackages [planqk-quantum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planqk-quantum-1.8.6.tar.gz tmp/planqk-quantum-1.9.0.tar.gz --markdown 20230718/p/planqk-quantum/1.8.6-1.9.0/diff.md --exclude *.pyd
+[2023-07-18 11:03:48] INFO root fetch - processPackages [jsonschema]: Downloading https://files.pythonhosted.org/packages/e6/a9/569ad03b90093c956bd396a6b3151c17e6005d8ac139d9419e89339c02df/jsonschema-4.9.1.tar.gz
+[2023-07-18 11:03:48] INFO root fetch - processPackages [jsonschema]: executing diffoscope
+[2023-07-18 11:03:48] INFO root fetch - processPackages [jsonschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonschema-4.9.0.tar.gz tmp/jsonschema-4.9.1.tar.gz --markdown 20230718/j/jsonschema/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-07-18 11:03:48] INFO root fetch - processPackages [cellmap]: Remove: archive file [/home/abi/fetcher/tmp/cellmap-1.0.1.dev202307180902-py3-none-any.whl.zip]
+[2023-07-18 11:03:48] INFO root fetch - processPackages [cellmap]: Remove: archive file [/home/abi/fetcher/tmp/cellmap-1.0.1.dev202307180903-py3-none-any.whl.zip]
+[2023-07-18 11:03:48] INFO root fetch - main [MainThread]: End processing [cellmap]: success
+[2023-07-18 11:03:48] INFO root fetch - processPackages [python-schematized-config]: Remove: archive file [/home/abi/fetcher/tmp/python-schematized-config-0.0.1.tar.gz]
+[2023-07-18 11:03:48] INFO root fetch - processPackages [python-schematized-config]: Remove: archive file [/home/abi/fetcher/tmp/python-schematized-config-0.0.2.tar.gz]
+[2023-07-18 11:03:48] INFO root fetch - main [MainThread]: End processing [python-schematized-config]: success
+[2023-07-18 11:03:48] INFO root fetch - processPackages [betwatch]: Remove: archive file [/home/abi/fetcher/tmp/betwatch-1.0.7.tar.gz]
+[2023-07-18 11:03:48] INFO root fetch - processPackages [betwatch]: Remove: archive file [/home/abi/fetcher/tmp/betwatch-1.0.8.tar.gz]
+[2023-07-18 11:03:48] INFO root fetch - main [MainThread]: End processing [betwatch]: success
+[2023-07-18 11:03:48] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-1.8.6.tar.gz]
+[2023-07-18 11:03:48] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-1.9.0.tar.gz]
+[2023-07-18 11:03:48] INFO root fetch - main [MainThread]: End processing [planqk-quantum]: success
+[2023-07-18 11:03:48] INFO root fetch - main [MainThread]: End processing [cellmap]: success
+[2023-07-18 11:03:50] INFO root fetch - processPackages [jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/jsonschema-4.9.0.tar.gz]
+[2023-07-18 11:03:50] INFO root fetch - processPackages [jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/jsonschema-4.9.1.tar.gz]
+[2023-07-18 11:03:50] INFO root fetch - main [MainThread]: End processing [jsonschema]: success
+[2023-07-18 11:03:50] INFO root fetch - main [MainThread]: Store serial: [18930610]
