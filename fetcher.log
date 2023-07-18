@@ -12478,3 +12478,56 @@
 [2023-07-18 05:56:09] INFO root fetch - processPackages [dolma]: Remove: archive file [/home/abi/fetcher/tmp/dolma-0.6.5-cp311-cp311-manylinux_2_28_x86_64.whl.zip]
 [2023-07-18 05:56:09] INFO root fetch - main [MainThread]: End processing [dolma]: success
 [2023-07-18 05:56:09] INFO root fetch - main [MainThread]: Store serial: [18927705]
+[2023-07-18 06:01:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18927705]
+[2023-07-18 06:01:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-18 06:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addons-oca-l10n-italy
+[2023-07-18 06:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-it-delivery-note
+[2023-07-18 06:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: real-brasileiro
+[2023-07-18 06:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: preprocessing-pgp
+[2023-07-18 06:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: evals-nightly
+[2023-07-18 06:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: usfm-grammar
+[2023-07-18 06:01:19] INFO root fetch - processPackages [usfm-grammar]: New version: [3.0.0a7] Old Version: [3.0.0a6]
+[2023-07-18 06:01:19] INFO root fetch - processPackages [odoo12-addons-oca-l10n-italy]: New version: [12.0.20230717.0] Old Version: [12.0.20230308.0]
+[2023-07-18 06:01:19] INFO root fetch - processPackages [real-brasileiro]: New version: [0.2.5] Old Version: [0.2.1]
+[2023-07-18 06:01:19] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230716] Old Version: [1.0.3.dev20230715]
+[2023-07-18 06:01:19] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: New version: [16.0.1.0.3.3] Old Version: [16.0.1.0.3.2]
+[2023-07-18 06:01:19] INFO root fetch - processPackages [preprocessing-pgp]: New version: [0.2.9.post9.dev8] Old Version: [0.2.9.post9.dev7]
+[2023-07-18 06:01:19] INFO root fetch - processPackages [real-brasileiro]: Downloading https://files.pythonhosted.org/packages/e4/24/24b50bcb8b2b8f4b65c014b60890935bc8dc55915a29e33080dc97ac4d90/real-brasileiro-0.2.1.tar.gz
+[2023-07-18 06:01:19] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/e0/15/f0276a12b68970c761017d1338e4189b163ae25c362505aec828b53f34a9/evals-nightly-1.0.3.dev20230715.tar.gz
+[2023-07-18 06:01:19] INFO root fetch - processPackages [usfm-grammar]: Downloading https://files.pythonhosted.org/packages/2c/6c/5f595a2b9244296151fc7cc30b27ef4e03a55babdc56ee1da28d7a074161/usfm_grammar-3.0.0a6-cp311-cp311-win_amd64.whl
+[2023-07-18 06:01:19] INFO root fetch - processPackages [odoo12-addons-oca-l10n-italy]: Downloading https://files.pythonhosted.org/packages/45/76/be6717a38d1514e42d0e5414636a223717de8ca60f5393f6959d9d80fdd0/odoo12_addons_oca_l10n_italy-12.0.20230308.0-py3-none-any.whl
+[2023-07-18 06:01:19] INFO root fetch - processPackages [preprocessing-pgp]: Downloading https://files.pythonhosted.org/packages/3b/ff/280ddfc30db341960587617aede0239f03d7380c369e1410cf3fc31d07bf/preprocessing-pgp-0.2.9.post9.dev7.tar.gz
+[2023-07-18 06:01:19] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: Downloading https://files.pythonhosted.org/packages/21/e5/142a2723420116b5903871abcd3138d6894657faa9140cc43caea42005cc/odoo_addon_l10n_it_delivery_note-16.0.1.0.3.2-py3-none-any.whl
+[2023-07-18 06:01:19] INFO root fetch - processPackages [real-brasileiro]: Downloading https://files.pythonhosted.org/packages/34/bb/aecf1f56b7ee7d22ce60971bd626de6c9d9ef7f8e78343e5e45596a957e1/real-brasileiro-0.2.5.tar.gz
+[2023-07-18 06:01:19] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/99/a8/b6ab4fbae549e9821a2051a51f1bb9c00dc72684f14250031a7c5ec2f1c0/evals-nightly-1.0.3.dev20230716.tar.gz
+[2023-07-18 06:01:19] INFO root fetch - processPackages [odoo12-addons-oca-l10n-italy]: Downloading https://files.pythonhosted.org/packages/ac/b0/58431600fa5be29413d95d9dae6a5a3addf3ac68ed9d22df6cdf2cac57a0/odoo12_addons_oca_l10n_italy-12.0.20230717.0-py3-none-any.whl
+[2023-07-18 06:01:19] INFO root fetch - processPackages [real-brasileiro]: executing diffoscope
+[2023-07-18 06:01:19] INFO root fetch - processPackages [real-brasileiro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/real-brasileiro-0.2.1.tar.gz tmp/real-brasileiro-0.2.5.tar.gz --markdown 20230718/r/real-brasileiro/0.2.1-0.2.5/diff.md --exclude *.pyd
+[2023-07-18 06:01:19] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-07-18 06:01:19] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230715.tar.gz tmp/evals-nightly-1.0.3.dev20230716.tar.gz --markdown 20230718/e/evals-nightly/1.0.3.dev20230715-1.0.3.dev20230716/diff.md --exclude *.pyd
+[2023-07-18 06:01:19] INFO root fetch - processPackages [odoo12-addons-oca-l10n-italy]: executing diffoscope
+[2023-07-18 06:01:19] INFO root fetch - processPackages [odoo12-addons-oca-l10n-italy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addons_oca_l10n_italy-12.0.20230308.0-py3-none-any.whl.zip tmp/odoo12_addons_oca_l10n_italy-12.0.20230717.0-py3-none-any.whl.zip --markdown 20230718/o/odoo12-addons-oca-l10n-italy/12.0.20230308.0-12.0.20230717.0/diff.md --exclude *.pyd
+[2023-07-18 06:01:19] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: Downloading https://files.pythonhosted.org/packages/db/cb/27de5e14d26aed0228603705b27e6a1b97464ceda2d5dafbd07f18c45c82/odoo_addon_l10n_it_delivery_note-16.0.1.0.3.3-py3-none-any.whl
+[2023-07-18 06:01:19] INFO root fetch - processPackages [usfm-grammar]: Downloading https://files.pythonhosted.org/packages/a3/35/a6b9219e8d8af4e0dffcbe31197c531833a338834ce8430d5105713f17ed/usfm_grammar-3.0.0a7-cp311-cp311-win32.whl
+[2023-07-18 06:01:19] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: executing diffoscope
+[2023-07-18 06:01:19] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_delivery_note-16.0.1.0.3.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_delivery_note-16.0.1.0.3.3-py3-none-any.whl.zip --markdown 20230718/o/odoo-addon-l10n-it-delivery-note/16.0.1.0.3.2-16.0.1.0.3.3/diff.md --exclude *.pyd
+[2023-07-18 06:01:20] WARNING root fetch - processPackages [preprocessing-pgp]: Skipping package: exceeds size limit 78857974>=10485760
+[2023-07-18 06:01:20] INFO root fetch - main [MainThread]: End processing [preprocessing-pgp] error
+[2023-07-18 06:01:20] INFO root fetch - processPackages [real-brasileiro]: Remove: archive file [/home/abi/fetcher/tmp/real-brasileiro-0.2.1.tar.gz]
+[2023-07-18 06:01:20] INFO root fetch - processPackages [real-brasileiro]: Remove: archive file [/home/abi/fetcher/tmp/real-brasileiro-0.2.5.tar.gz]
+[2023-07-18 06:01:20] INFO root fetch - main [MainThread]: End processing [real-brasileiro]: success
+[2023-07-18 06:01:20] INFO root fetch - processPackages [usfm-grammar]: executing diffoscope
+[2023-07-18 06:01:20] INFO root fetch - processPackages [usfm-grammar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usfm_grammar-3.0.0a6-cp311-cp311-win_amd64.whl.zip tmp/usfm_grammar-3.0.0a7-cp311-cp311-win32.whl.zip --markdown 20230718/u/usfm-grammar/3.0.0a6-3.0.0a7/diff.md --exclude *.pyd
+[2023-07-18 06:01:20] INFO root fetch - processPackages [odoo12-addons-oca-l10n-italy]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addons_oca_l10n_italy-12.0.20230308.0-py3-none-any.whl.zip]
+[2023-07-18 06:01:20] INFO root fetch - processPackages [odoo12-addons-oca-l10n-italy]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addons_oca_l10n_italy-12.0.20230717.0-py3-none-any.whl.zip]
+[2023-07-18 06:01:20] INFO root fetch - main [MainThread]: End processing [odoo12-addons-oca-l10n-italy]: success
+[2023-07-18 06:01:20] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_delivery_note-16.0.1.0.3.2-py3-none-any.whl.zip]
+[2023-07-18 06:01:20] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_delivery_note-16.0.1.0.3.3-py3-none-any.whl.zip]
+[2023-07-18 06:01:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-delivery-note]: success
+[2023-07-18 06:01:21] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230715.tar.gz]
+[2023-07-18 06:01:21] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230716.tar.gz]
+[2023-07-18 06:01:21] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-07-18 06:01:21] INFO root fetch - processPackages [usfm-grammar]: Remove: archive file [/home/abi/fetcher/tmp/usfm_grammar-3.0.0a6-cp311-cp311-win_amd64.whl.zip]
+[2023-07-18 06:01:21] INFO root fetch - processPackages [usfm-grammar]: Remove: archive file [/home/abi/fetcher/tmp/usfm_grammar-3.0.0a7-cp311-cp311-win32.whl.zip]
+[2023-07-18 06:01:21] INFO root fetch - main [MainThread]: End processing [usfm-grammar]: success
+[2023-07-18 06:01:21] INFO root fetch - main [MainThread]: Store serial: [18927767]
