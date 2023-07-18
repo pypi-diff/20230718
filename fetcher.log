@@ -17779,3 +17779,90 @@
 [2023-07-18 09:44:17] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2023-07-18 09:44:17] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-07-18 09:44:17] INFO root fetch - main [MainThread]: Store serial: [18929842]
+[2023-07-18 09:49:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18929842]
+[2023-07-18 09:49:26] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-18 09:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datamazing
+[2023-07-18 09:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bagbag
+[2023-07-18 09:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: microcat
+[2023-07-18 09:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gmsofttest
+[2023-07-18 09:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pywa
+[2023-07-18 09:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: price2bq-mg
+[2023-07-18 09:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: BinPackerPro
+[2023-07-18 09:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: salure-helpers-task-scheduler
+[2023-07-18 09:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: keras-nightly
+[2023-07-18 09:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eventix
+[2023-07-18 09:49:26] WARNING root fetch - processPackages [BinPackerPro]: Skipping, unable to determine old version
+[2023-07-18 09:49:26] INFO root fetch - main [MainThread]: End processing [BinPackerPro] error
+[2023-07-18 09:49:27] INFO root fetch - processPackages [eventix]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-18 09:49:27] INFO root fetch - processPackages [gmsofttest]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 09:49:27] INFO root fetch - processPackages [pywa]: New version: [0.0.1rc25] Old Version: [0.0.1rc24]
+[2023-07-18 09:49:27] INFO root fetch - processPackages [microcat]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-18 09:49:27] INFO root fetch - processPackages [price2bq-mg]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-18 09:49:27] INFO root fetch - processPackages [eventix]: Downloading https://files.pythonhosted.org/packages/b3/da/dfcc8dd867cc70d9f073a23b865723ee887ced1ee36ebc1c034e65a65322/eventix-0.8.0.tar.gz
+[2023-07-18 09:49:27] INFO root fetch - processPackages [datamazing]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-18 09:49:27] INFO root fetch - processPackages [salure-helpers-task-scheduler]: New version: [1.1.0] Old Version: [1.0.4]
+[2023-07-18 09:49:27] INFO root fetch - processPackages [bagbag]: New version: [0.60.9] Old Version: [0.60.8]
+[2023-07-18 09:49:27] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-07-18 09:49:27] INFO root fetch - processPackages [datamazing]: Downloading https://files.pythonhosted.org/packages/0c/3c/b0e706009598fb9befbb5153e3582fea163c42d68c3bd39367541362a6c0/datamazing-1.0.2.tar.gz
+[2023-07-18 09:49:27] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-07-18 09:49:27] INFO root fetch - processPackages [pywa]: Downloading https://files.pythonhosted.org/packages/b4/54/8cb2688f956b8112f524a5c57e7ca2caf8c648bbf1e62b02b9f09bc39fe1/pywa-0.0.1rc24-py3-none-any.whl
+[2023-07-18 09:49:27] INFO root fetch - processPackages [gmsofttest]: Downloading https://files.pythonhosted.org/packages/eb/c9/80a2e9566b35349b1eb8378e20b5a4ed2e0f534992281be6f39de2183dfc/gmsofttest-0.0.8.tar.gz
+[2023-07-18 09:49:27] INFO root fetch - processPackages [microcat]: Downloading https://files.pythonhosted.org/packages/49/c0/6d20a6744b89a208b4f990a02a9ec7fb5eac33db4407fb5edb6612ca0aa7/microcat-0.2.2.tar.gz
+[2023-07-18 09:49:27] INFO root fetch - processPackages [price2bq-mg]: Downloading https://files.pythonhosted.org/packages/01/2d/e9456dcc4c1c6a337c8a0e89a075cc8b8088c18774deac84ed5a1c2224b2/price2bq_mg-1.0.0.tar.gz
+[2023-07-18 09:49:27] INFO root fetch - processPackages [salure-helpers-task-scheduler]: Downloading https://files.pythonhosted.org/packages/68/d5/f4d6adf9df2b08de3d8c7c50a4d1063bce233e3bf09da180b2492affb5de/salure_helpers_task_scheduler-1.0.4.tar.gz
+[2023-07-18 09:49:27] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/9c/d9/18fcc3667854a152644716d257d55e30c5845485e0c8c0086d1449f5fca5/bagbag-0.60.8.tar.gz
+[2023-07-18 09:49:27] INFO root fetch - processPackages [eventix]: Downloading https://files.pythonhosted.org/packages/a5/9d/599088ab74046a024773754b6f76c69373b56a26404a7cec27eed6c51eb8/eventix-0.8.1.tar.gz
+[2023-07-18 09:49:27] INFO root fetch - processPackages [eventix]: executing diffoscope
+[2023-07-18 09:49:27] INFO root fetch - processPackages [eventix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventix-0.8.0.tar.gz tmp/eventix-0.8.1.tar.gz --markdown 20230718/e/eventix/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-18 09:49:27] INFO root fetch - processPackages [datamazing]: Downloading https://files.pythonhosted.org/packages/66/67/f25d6895204763fb16d970de71000662d869047a303d63741960799444e0/datamazing-1.0.3.tar.gz
+[2023-07-18 09:49:27] INFO root fetch - processPackages [pywa]: Downloading https://files.pythonhosted.org/packages/b5/ad/33b01e604d3f8d11181f9f2169b117335fcc2615bc09f3982e7bb1f5dbbf/pywa-0.0.1rc25-py3-none-any.whl
+[2023-07-18 09:49:27] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/c5/51/7ae0a1a526da702787345e0082bd8b3269a7b0c64300d0b309a215fbe724/bagbag-0.60.9.tar.gz
+[2023-07-18 09:49:27] INFO root fetch - processPackages [gmsofttest]: Downloading https://files.pythonhosted.org/packages/ed/9f/122493f4e3bf0b258a259a6fe55e73fbee9bdfc4fad41c41616c86d64327/gmsofttest-0.0.9.tar.gz
+[2023-07-18 09:49:27] INFO root fetch - processPackages [microcat]: Downloading https://files.pythonhosted.org/packages/35/8a/89123e4fdc8874dbb7833b15bdcec03cf6f7855e6060376646ca97e62311/microcat-0.2.3.tar.gz
+[2023-07-18 09:49:27] INFO root fetch - processPackages [datamazing]: executing diffoscope
+[2023-07-18 09:49:27] INFO root fetch - processPackages [datamazing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamazing-1.0.2.tar.gz tmp/datamazing-1.0.3.tar.gz --markdown 20230718/d/datamazing/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-18 09:49:27] INFO root fetch - processPackages [price2bq-mg]: Downloading https://files.pythonhosted.org/packages/0c/6e/d10fe3a4ca7218c87cdc691365f9b71c3b6ce42cfa0ff8d7262da24e6a26/price2bq_mg-1.0.1.tar.gz
+[2023-07-18 09:49:27] INFO root fetch - processPackages [salure-helpers-task-scheduler]: Downloading https://files.pythonhosted.org/packages/25/c3/38708853055cab50a576bb1b12270e82d6d3f680e04279c69fa93b8cd42e/salure_helpers_task_scheduler-1.1.0.tar.gz
+[2023-07-18 09:49:27] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-07-18 09:49:27] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.60.8.tar.gz tmp/bagbag-0.60.9.tar.gz --markdown 20230718/b/bagbag/0.60.8-0.60.9/diff.md --exclude *.pyd
+[2023-07-18 09:49:27] INFO root fetch - processPackages [pywa]: executing diffoscope
+[2023-07-18 09:49:27] INFO root fetch - processPackages [pywa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywa-0.0.1rc24-py3-none-any.whl.zip tmp/pywa-0.0.1rc25-py3-none-any.whl.zip --markdown 20230718/p/pywa/0.0.1rc24-0.0.1rc25/diff.md --exclude *.pyd
+[2023-07-18 09:49:28] INFO root fetch - processPackages [gmsofttest]: executing diffoscope
+[2023-07-18 09:49:28] INFO root fetch - processPackages [gmsofttest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmsofttest-0.0.8.tar.gz tmp/gmsofttest-0.0.9.tar.gz --markdown 20230718/g/gmsofttest/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 09:49:28] INFO root fetch - processPackages [microcat]: executing diffoscope
+[2023-07-18 09:49:28] INFO root fetch - processPackages [microcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microcat-0.2.2.tar.gz tmp/microcat-0.2.3.tar.gz --markdown 20230718/m/microcat/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-18 09:49:28] INFO root fetch - processPackages [price2bq-mg]: executing diffoscope
+[2023-07-18 09:49:28] INFO root fetch - processPackages [price2bq-mg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/price2bq_mg-1.0.0.tar.gz tmp/price2bq_mg-1.0.1.tar.gz --markdown 20230718/p/price2bq-mg/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-18 09:49:28] INFO root fetch - processPackages [salure-helpers-task-scheduler]: executing diffoscope
+[2023-07-18 09:49:28] INFO root fetch - processPackages [salure-helpers-task-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salure_helpers_task_scheduler-1.0.4.tar.gz tmp/salure_helpers_task_scheduler-1.1.0.tar.gz --markdown 20230718/s/salure-helpers-task-scheduler/1.0.4-1.1.0/diff.md --exclude *.pyd
+[2023-07-18 09:49:28] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-07-18 09:49:28] INFO root fetch - processPackages [eventix]: Remove: archive file [/home/abi/fetcher/tmp/eventix-0.8.0.tar.gz]
+[2023-07-18 09:49:28] INFO root fetch - processPackages [eventix]: Remove: archive file [/home/abi/fetcher/tmp/eventix-0.8.1.tar.gz]
+[2023-07-18 09:49:28] INFO root fetch - main [MainThread]: End processing [eventix]: success
+[2023-07-18 09:49:28] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-07-18 09:49:28] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230718/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-07-18 09:49:29] INFO root fetch - processPackages [datamazing]: Remove: archive file [/home/abi/fetcher/tmp/datamazing-1.0.2.tar.gz]
+[2023-07-18 09:49:29] INFO root fetch - processPackages [datamazing]: Remove: archive file [/home/abi/fetcher/tmp/datamazing-1.0.3.tar.gz]
+[2023-07-18 09:49:29] INFO root fetch - main [MainThread]: End processing [datamazing]: success
+[2023-07-18 09:49:29] INFO root fetch - processPackages [price2bq-mg]: Remove: archive file [/home/abi/fetcher/tmp/price2bq_mg-1.0.0.tar.gz]
+[2023-07-18 09:49:29] INFO root fetch - processPackages [price2bq-mg]: Remove: archive file [/home/abi/fetcher/tmp/price2bq_mg-1.0.1.tar.gz]
+[2023-07-18 09:49:29] INFO root fetch - main [MainThread]: End processing [price2bq-mg]: success
+[2023-07-18 09:49:29] INFO root fetch - processPackages [salure-helpers-task-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/salure_helpers_task_scheduler-1.0.4.tar.gz]
+[2023-07-18 09:49:29] INFO root fetch - processPackages [salure-helpers-task-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/salure_helpers_task_scheduler-1.1.0.tar.gz]
+[2023-07-18 09:49:29] INFO root fetch - main [MainThread]: End processing [salure-helpers-task-scheduler]: success
+[2023-07-18 09:49:29] INFO root fetch - processPackages [pywa]: Remove: archive file [/home/abi/fetcher/tmp/pywa-0.0.1rc24-py3-none-any.whl.zip]
+[2023-07-18 09:49:29] INFO root fetch - processPackages [pywa]: Remove: archive file [/home/abi/fetcher/tmp/pywa-0.0.1rc25-py3-none-any.whl.zip]
+[2023-07-18 09:49:29] INFO root fetch - main [MainThread]: End processing [pywa]: success
+[2023-07-18 09:49:29] INFO root fetch - processPackages [gmsofttest]: Remove: archive file [/home/abi/fetcher/tmp/gmsofttest-0.0.8.tar.gz]
+[2023-07-18 09:49:29] INFO root fetch - processPackages [gmsofttest]: Remove: archive file [/home/abi/fetcher/tmp/gmsofttest-0.0.9.tar.gz]
+[2023-07-18 09:49:29] INFO root fetch - main [MainThread]: End processing [gmsofttest]: success
+[2023-07-18 09:49:29] INFO root fetch - processPackages [microcat]: Remove: archive file [/home/abi/fetcher/tmp/microcat-0.2.2.tar.gz]
+[2023-07-18 09:49:29] INFO root fetch - processPackages [microcat]: Remove: archive file [/home/abi/fetcher/tmp/microcat-0.2.3.tar.gz]
+[2023-07-18 09:49:29] INFO root fetch - main [MainThread]: End processing [microcat]: success
+[2023-07-18 09:49:30] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.8.tar.gz]
+[2023-07-18 09:49:30] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.9.tar.gz]
+[2023-07-18 09:49:30] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-07-18 09:49:32] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-07-18 09:49:32] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-07-18 09:49:32] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-07-18 09:49:32] INFO root fetch - main [MainThread]: Store serial: [18929869]
