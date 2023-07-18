@@ -2045,3 +2045,130 @@
 [2023-07-18 01:55:13] INFO root fetch - processPackages [shrike]: Remove: archive file [/home/abi/fetcher/tmp/shrike-2.0.0.dev3.tar.gz]
 [2023-07-18 01:55:13] INFO root fetch - main [MainThread]: End processing [shrike]: success
 [2023-07-18 01:55:13] INFO root fetch - main [MainThread]: Store serial: [18923716]
+[2023-07-18 02:00:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18923716]
+[2023-07-18 02:00:22] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-18 02:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scrall
+[2023-07-18 02:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: check-changelog
+[2023-07-18 02:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyYAML
+[2023-07-18 02:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ewms-pilot
+[2023-07-18 02:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pythonsqltoolkitV1
+[2023-07-18 02:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: anchovy
+[2023-07-18 02:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ddtrace
+[2023-07-18 02:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flask-protobuf
+[2023-07-18 02:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pipsqladdV1
+[2023-07-18 02:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ddtrace
+[2023-07-18 02:00:22] INFO root fetch - processPackages [flask-protobuf]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-18 02:00:22] WARNING root fetch - processPackages [pythonsqltoolkitV1]: Skipping, unable to determine old version
+[2023-07-18 02:00:22] INFO root fetch - processPackages [pythonsqltoolkitV1]: Start processing: reflex
+[2023-07-18 02:00:22] INFO root fetch - main [MainThread]: End processing [pythonsqltoolkitV1] error
+[2023-07-18 02:00:22] INFO root fetch - processPackages [anchovy]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-07-18 02:00:22] INFO root fetch - processPackages [PyYAML]: New version: [6.0b1] Old Version: [6.0.1]
+[2023-07-18 02:00:22] INFO root fetch - processPackages [check-changelog]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-18 02:00:22] INFO root fetch - processPackages [scrall]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-18 02:00:22] INFO root fetch - processPackages [ewms-pilot]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-18 02:00:22] INFO root fetch - processPackages [reflex]: New version: [0.2.1a1] Old Version: [0.2.0a2]
+[2023-07-18 02:00:22] WARNING root fetch - processPackages [pipsqladdV1]: Skipping, unable to determine old version
+[2023-07-18 02:00:22] INFO root fetch - processPackages [pipsqladdV1]: Start processing: sweepai
+[2023-07-18 02:00:22] INFO root fetch - main [MainThread]: End processing [pipsqladdV1] error
+[2023-07-18 02:00:22] INFO root fetch - processPackages [ddtrace]: New version: [1.9.7] Old Version: [1.9.6]
+[2023-07-18 02:00:22] INFO root fetch - processPackages [ddtrace]: New version: [1.9.7] Old Version: [1.9.6]
+[2023-07-18 02:00:22] INFO root fetch - processPackages [flask-protobuf]: Downloading https://files.pythonhosted.org/packages/08/1d/44e387164d202e6dde3f0e9afb5cce861a9368d27193fd0a5e739baa8b29/flask_protobuf-0.1.1.tar.gz
+[2023-07-18 02:00:22] INFO root fetch - processPackages [scrall]: Downloading https://files.pythonhosted.org/packages/de/00/9be7725773d762b1329f041571b6d1925040ba279ca0d8793d9bb0f39264/scrall-0.2.8.tar.gz
+[2023-07-18 02:00:22] INFO root fetch - processPackages [PyYAML]: Downloading https://files.pythonhosted.org/packages/1e/ae/964ccb88a938f20ece5754878f182cfbd846924930d02d29d06af8d4c69e/PyYAML-6.0.1-cp37-cp37m-win_amd64.whl
+[2023-07-18 02:00:22] INFO root fetch - processPackages [sweepai]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-18 02:00:22] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/e9/cd/a4fb186f89d66d7d5389ff2fced21d64108e91dc92f9420a69c4a6231d94/reflex-0.2.0a2.tar.gz
+[2023-07-18 02:00:22] INFO root fetch - processPackages [anchovy]: Downloading https://files.pythonhosted.org/packages/fb/d1/7acde38516703a592ab44c0f1e4ffa7fbc8582f0d79250f84935310cd869/anchovy-0.6.1.tar.gz
+[2023-07-18 02:00:22] INFO root fetch - processPackages [check-changelog]: Downloading https://files.pythonhosted.org/packages/f1/df/4d884878042e7b2cdb2c15b526ec5d20fcf992a1fc4fc0ea348d0d34b557/check_changelog-0.3.0-py3-none-any.whl
+[2023-07-18 02:00:23] INFO root fetch - processPackages [ewms-pilot]: Downloading https://files.pythonhosted.org/packages/43/95/b05a87092ecdc0e1832fc3275ab296f596412029cb985059d2a2878c1fcd/ewms-pilot-0.9.0.tar.gz
+[2023-07-18 02:00:23] INFO root fetch - processPackages [ddtrace]: Downloading https://files.pythonhosted.org/packages/3a/2c/cff2a3eaa910dcd80b8323ee78c2bdc36e2d726d38ab467c65a785ce220d/ddtrace-1.9.6.tar.gz
+[2023-07-18 02:00:23] INFO root fetch - processPackages [ddtrace]: Downloading https://files.pythonhosted.org/packages/3a/2c/cff2a3eaa910dcd80b8323ee78c2bdc36e2d726d38ab467c65a785ce220d/ddtrace-1.9.6.tar.gz
+[2023-07-18 02:00:23] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/e4/b9/48332ae54ccd819624aa746899683a54d7a7782619ef370b473b31aa2784/sweepai-0.5.0.tar.gz
+[2023-07-18 02:00:23] INFO root fetch - processPackages [check-changelog]: Downloading https://files.pythonhosted.org/packages/7a/62/42cb7872c0ce6c08aaa79a8b54e0610fb394a43720b576bd49ec68a6696e/check_changelog-0.4.0-py3-none-any.whl
+[2023-07-18 02:00:23] INFO root fetch - processPackages [scrall]: Downloading https://files.pythonhosted.org/packages/9a/df/ccceb037295ae0343198d907678498d8862f523ce37edf85f3e7717dd05f/scrall-0.2.9.tar.gz
+[2023-07-18 02:00:23] INFO root fetch - processPackages [ewms-pilot]: Downloading https://files.pythonhosted.org/packages/31/5e/f3199ae6f49710308113c59388ea3659104f15bb19828479d90db8d40a7b/ewms-pilot-0.9.1.tar.gz
+[2023-07-18 02:00:23] INFO root fetch - processPackages [flask-protobuf]: Downloading https://files.pythonhosted.org/packages/a2/e6/8138d9ac41f281953b376758132325723c9581a9282e0071c18f94203ef1/flask_protobuf-0.1.2.tar.gz
+[2023-07-18 02:00:23] INFO root fetch - processPackages [PyYAML]: Downloading https://files.pythonhosted.org/packages/ac/2b/f872e3b78e6b2471c00e559bef89a89715888538dd3fa87528afa669ae08/PyYAML-6.0b1.tar.gz
+[2023-07-18 02:00:23] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/32/83/4ee876b00aedee212db39ade796be170e3593c03df1cc5484c01dc563458/reflex-0.2.1a1.tar.gz
+[2023-07-18 02:00:23] INFO root fetch - processPackages [check-changelog]: executing diffoscope
+[2023-07-18 02:00:23] INFO root fetch - processPackages [check-changelog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/check_changelog-0.3.0-py3-none-any.whl.zip tmp/check_changelog-0.4.0-py3-none-any.whl.zip --markdown 20230718/c/check-changelog/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-18 02:00:23] INFO root fetch - processPackages [scrall]: executing diffoscope
+[2023-07-18 02:00:23] INFO root fetch - processPackages [scrall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrall-0.2.8.tar.gz tmp/scrall-0.2.9.tar.gz --markdown 20230718/s/scrall/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-18 02:00:23] INFO root fetch - processPackages [PyYAML]: executing diffoscope
+[2023-07-18 02:00:23] INFO root fetch - processPackages [PyYAML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyYAML-6.0.1-cp39-cp39-win_amd64.whl.zip tmp/PyYAML-6.0b1.tar.gz --markdown 20230718/P/PyYAML/6.0.1-6.0b1/diff.md --exclude *.pyd
+[2023-07-18 02:00:23] INFO root fetch - processPackages [ewms-pilot]: executing diffoscope
+[2023-07-18 02:00:23] INFO root fetch - processPackages [ewms-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewms-pilot-0.9.0.tar.gz tmp/ewms-pilot-0.9.1.tar.gz --markdown 20230718/e/ewms-pilot/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-18 02:00:23] INFO root fetch - processPackages [flask-protobuf]: executing diffoscope
+[2023-07-18 02:00:23] INFO root fetch - processPackages [flask-protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_protobuf-0.1.1.tar.gz tmp/flask_protobuf-0.1.2.tar.gz --markdown 20230718/f/flask-protobuf/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-18 02:00:23] INFO root fetch - processPackages [ddtrace]: Downloading https://files.pythonhosted.org/packages/fb/91/45e4e65746e25b4af3841c377fa6cbd72ab8b8bf10e2067f0d010acf9f12/ddtrace-1.9.7.tar.gz
+[2023-07-18 02:00:23] INFO root fetch - processPackages [ddtrace]: Downloading https://files.pythonhosted.org/packages/fb/91/45e4e65746e25b4af3841c377fa6cbd72ab8b8bf10e2067f0d010acf9f12/ddtrace-1.9.7.tar.gz
+[2023-07-18 02:00:23] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/bb/67/d3e9ed58e5c629bc6840c0d20e94e52fc4fd799452a4ab8605e4918a8061/sweepai-0.5.1.tar.gz
+[2023-07-18 02:00:23] INFO root fetch - processPackages [reflex]: executing diffoscope
+[2023-07-18 02:00:23] INFO root fetch - processPackages [reflex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflex-0.2.0a2.tar.gz tmp/reflex-0.2.1a1.tar.gz --markdown 20230718/r/reflex/0.2.0a2-0.2.1a1/diff.md --exclude *.pyd
+[2023-07-18 02:00:24] INFO root fetch - processPackages [anchovy]: Downloading https://files.pythonhosted.org/packages/c8/ac/dc5bea2b82c44f944b4f32302418df4aec3ec944aa7a885cfea40a960b96/anchovy-0.7.0.tar.gz
+[2023-07-18 02:00:24] INFO root fetch - processPackages [sweepai]: executing diffoscope
+[2023-07-18 02:00:24] INFO root fetch - processPackages [sweepai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweepai-0.5.0.tar.gz tmp/sweepai-0.5.1.tar.gz --markdown 20230718/s/sweepai/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-18 02:00:24] INFO root fetch - processPackages [ddtrace]: executing diffoscope
+[2023-07-18 02:00:24] INFO root fetch - processPackages [ddtrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddtrace-1.9.6.tar.gz tmp/ddtrace-1.9.7.tar.gz --markdown 20230718/d/ddtrace/1.9.6-1.9.7/diff.md --exclude *.pyd
+[2023-07-18 02:00:24] INFO root fetch - processPackages [ddtrace]: executing diffoscope
+[2023-07-18 02:00:24] INFO root fetch - processPackages [ddtrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddtrace-1.9.6.tar.gz tmp/ddtrace-1.9.7.tar.gz --markdown 20230718/d/ddtrace/1.9.6-1.9.7/diff.md --exclude *.pyd
+[2023-07-18 02:00:24] INFO root fetch - processPackages [anchovy]: executing diffoscope
+[2023-07-18 02:00:24] INFO root fetch - processPackages [anchovy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anchovy-0.6.1.tar.gz tmp/anchovy-0.7.0.tar.gz --markdown 20230718/a/anchovy/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-07-18 02:00:24] INFO root fetch - processPackages [scrall]: Remove: archive file [/home/abi/fetcher/tmp/scrall-0.2.8.tar.gz]
+[2023-07-18 02:00:24] INFO root fetch - processPackages [scrall]: Remove: archive file [/home/abi/fetcher/tmp/scrall-0.2.9.tar.gz]
+[2023-07-18 02:00:25] INFO root fetch - processPackages [scrall]: Start processing: flask-protobuf
+[2023-07-18 02:00:25] INFO root fetch - main [MainThread]: End processing [scrall]: success
+[2023-07-18 02:00:25] INFO root fetch - processPackages [check-changelog]: Remove: archive file [/home/abi/fetcher/tmp/check_changelog-0.3.0-py3-none-any.whl.zip]
+[2023-07-18 02:00:25] INFO root fetch - processPackages [check-changelog]: Remove: archive file [/home/abi/fetcher/tmp/check_changelog-0.4.0-py3-none-any.whl.zip]
+[2023-07-18 02:00:25] INFO root fetch - processPackages [check-changelog]: Start processing: pathgenmap
+[2023-07-18 02:00:25] INFO root fetch - main [MainThread]: End processing [check-changelog]: success
+[2023-07-18 02:00:25] INFO root fetch - processPackages [flask-protobuf]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-18 02:00:25] INFO root fetch - processPackages [pathgenmap]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 02:00:25] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/82/fa/d177c4c9c686fdb8d227f6ddfafaf2ea43674491d50ee4c44b5f2b53f6da/pathgenmap-0.0.8.tar.gz
+[2023-07-18 02:00:25] INFO root fetch - processPackages [ewms-pilot]: Remove: archive file [/home/abi/fetcher/tmp/ewms-pilot-0.9.0.tar.gz]
+[2023-07-18 02:00:25] INFO root fetch - processPackages [ewms-pilot]: Remove: archive file [/home/abi/fetcher/tmp/ewms-pilot-0.9.1.tar.gz]
+[2023-07-18 02:00:25] INFO root fetch - processPackages [ewms-pilot]: Start processing: bastila-search
+[2023-07-18 02:00:25] INFO root fetch - main [MainThread]: End processing [ewms-pilot]: success
+[2023-07-18 02:00:25] INFO root fetch - processPackages [bastila-search]: New version: [0.5.0] Old Version: [0.4.6]
+[2023-07-18 02:00:25] INFO root fetch - processPackages [flask-protobuf]: Remove: archive file [/home/abi/fetcher/tmp/flask_protobuf-0.1.1.tar.gz]
+[2023-07-18 02:00:25] INFO root fetch - processPackages [flask-protobuf]: Remove: archive file [/home/abi/fetcher/tmp/flask_protobuf-0.1.2.tar.gz]
+[2023-07-18 02:00:25] INFO root fetch - processPackages [flask-protobuf]: Start processing: pythonsqltoolkitV1
+[2023-07-18 02:00:25] INFO root fetch - main [MainThread]: End processing [flask-protobuf]: success
+[2023-07-18 02:00:25] INFO root fetch - processPackages [PyYAML]: Remove: archive file [/home/abi/fetcher/tmp/PyYAML-6.0.1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-18 02:00:25] INFO root fetch - processPackages [flask-protobuf]: Downloading https://files.pythonhosted.org/packages/a2/e6/8138d9ac41f281953b376758132325723c9581a9282e0071c18f94203ef1/flask_protobuf-0.1.2.tar.gz
+[2023-07-18 02:00:25] INFO root fetch - processPackages [PyYAML]: Remove: archive file [/home/abi/fetcher/tmp/PyYAML-6.0b1.tar.gz]
+[2023-07-18 02:00:25] INFO root fetch - main [MainThread]: End processing [PyYAML]: success
+[2023-07-18 02:00:25] WARNING root fetch - processPackages [pythonsqltoolkitV1]: Skipping, unable to determine old version
+[2023-07-18 02:00:25] INFO root fetch - main [MainThread]: End processing [pythonsqltoolkitV1] error
+[2023-07-18 02:00:25] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/7e/52/a62425dafaf0638317648f0fc989a63f5a255e033e7d6d3ee27a1f944a2f/pathgenmap-0.0.9.tar.gz
+[2023-07-18 02:00:25] INFO root fetch - processPackages [flask-protobuf]: executing diffoscope
+[2023-07-18 02:00:25] INFO root fetch - processPackages [flask-protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_protobuf-0.1.1.tar.gz tmp/flask_protobuf-0.1.2.tar.gz --markdown 20230718/f/flask-protobuf/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-18 02:00:25] INFO root fetch - processPackages [bastila-search]: Downloading https://files.pythonhosted.org/packages/a3/6c/2baa2565659540c2d6eea3cb705a39e874a24e834dece0add50ea766e629/bastila_search-0.4.6.tar.gz
+[2023-07-18 02:00:25] INFO root fetch - processPackages [pathgenmap]: executing diffoscope
+[2023-07-18 02:00:25] INFO root fetch - processPackages [pathgenmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathgenmap-0.0.8.tar.gz tmp/pathgenmap-0.0.9.tar.gz --markdown 20230718/p/pathgenmap/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 02:00:25] INFO root fetch - processPackages [bastila-search]: Downloading https://files.pythonhosted.org/packages/15/7e/482e427f42ad1e06c4978cbb42a54ccbe6eec0f8ca1810ae7a3503b7a201/bastila_search-0.5.0.tar.gz
+[2023-07-18 02:00:26] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.5.0.tar.gz]
+[2023-07-18 02:00:26] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.5.1.tar.gz]
+[2023-07-18 02:00:26] INFO root fetch - main [MainThread]: End processing [sweepai]: success
+[2023-07-18 02:00:26] INFO root fetch - processPackages [bastila-search]: executing diffoscope
+[2023-07-18 02:00:26] INFO root fetch - processPackages [bastila-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bastila_search-0.4.6.tar.gz tmp/bastila_search-0.5.0.tar.gz --markdown 20230718/b/bastila-search/0.4.6-0.5.0/diff.md --exclude *.pyd
+[2023-07-18 02:00:26] ERROR root fetch - processPackages [flask-protobuf]: Diffoscope failed: time="2023-07-18T02:00:25+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/flask_protobuf-0.1.1.tar.gz: No such file or directory
+
+[2023-07-18 02:00:26] INFO root fetch - main [MainThread]: End processing [flask-protobuf] error
+[2023-07-18 02:00:26] INFO root fetch - processPackages [anchovy]: Remove: archive file [/home/abi/fetcher/tmp/anchovy-0.6.1.tar.gz]
+[2023-07-18 02:00:26] INFO root fetch - processPackages [anchovy]: Remove: archive file [/home/abi/fetcher/tmp/anchovy-0.7.0.tar.gz]
+[2023-07-18 02:00:26] INFO root fetch - main [MainThread]: End processing [anchovy]: success
+[2023-07-18 02:00:26] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.2.0a2.tar.gz]
+[2023-07-18 02:00:26] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.2.1a1.tar.gz]
+[2023-07-18 02:00:26] INFO root fetch - main [MainThread]: End processing [reflex]: success
+[2023-07-18 02:00:26] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.8.tar.gz]
+[2023-07-18 02:00:26] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.9.tar.gz]
+[2023-07-18 02:00:26] INFO root fetch - main [MainThread]: End processing [pathgenmap]: success
+[2023-07-18 02:00:27] INFO root fetch - processPackages [bastila-search]: Remove: archive file [/home/abi/fetcher/tmp/bastila_search-0.4.6.tar.gz]
+[2023-07-18 02:00:27] INFO root fetch - processPackages [bastila-search]: Remove: archive file [/home/abi/fetcher/tmp/bastila_search-0.5.0.tar.gz]
+[2023-07-18 02:00:27] INFO root fetch - main [MainThread]: End processing [bastila-search]: success
+[2023-07-18 02:00:52] INFO root fetch - processPackages [ddtrace]: Remove: archive file [/home/abi/fetcher/tmp/ddtrace-1.9.6.tar.gz]
+[2023-07-18 02:00:52] INFO root fetch - processPackages [ddtrace]: Remove: archive file [/home/abi/fetcher/tmp/ddtrace-1.9.7.tar.gz]
+[2023-07-18 02:00:52] INFO root fetch - main [MainThread]: End processing [ddtrace]: success
+[2023-07-18 02:00:53] INFO root fetch - main [MainThread]: End processing [ddtrace]: success
+[2023-07-18 02:00:53] INFO root fetch - main [MainThread]: Store serial: [18923865]
