@@ -16894,3 +16894,93 @@
 [2023-07-18 08:57:04] INFO root fetch - processPackages [pquisby]: Remove: archive file [/home/abi/fetcher/tmp/pquisby-0.0.9.tar.gz]
 [2023-07-18 08:57:04] INFO root fetch - main [MainThread]: End processing [pquisby]: success
 [2023-07-18 08:57:04] INFO root fetch - main [MainThread]: Store serial: [18929424]
+[2023-07-18 09:02:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18929424]
+[2023-07-18 09:02:13] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-18 09:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seqslab-cli
+[2023-07-18 09:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-genshin-cos
+[2023-07-18 09:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: htagweb
+[2023-07-18 09:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PSIcheck
+[2023-07-18 09:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: d3rlpy
+[2023-07-18 09:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-odc
+[2023-07-18 09:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-xrengine20230313
+[2023-07-18 09:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ReFrame-HPC
+[2023-07-18 09:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: text-justifier
+[2023-07-18 09:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ndp-app-deployment
+[2023-07-18 09:02:13] WARNING root fetch - processPackages [ndp-app-deployment]: Skipping, unable to determine old version
+[2023-07-18 09:02:13] INFO root fetch - processPackages [ndp-app-deployment]: Start processing: repeated-test
+[2023-07-18 09:02:13] INFO root fetch - main [MainThread]: End processing [ndp-app-deployment] error
+[2023-07-18 09:02:13] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-18 09:02:13] INFO root fetch - processPackages [alibabacloud-xrengine20230313]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-18 09:02:13] WARNING root fetch - processPackages [pytest-odc]: Skipping, unable to determine old version
+[2023-07-18 09:02:13] INFO root fetch - main [MainThread]: End processing [pytest-odc] error
+[2023-07-18 09:02:13] INFO root fetch - processPackages [seqslab-cli]: New version: [3.2.2a0] Old Version: [3.2.1.post0]
+[2023-07-18 09:02:13] INFO root fetch - processPackages [htagweb]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-18 09:02:13] INFO root fetch - processPackages [PSIcheck]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 09:02:13] INFO root fetch - processPackages [ReFrame-HPC]: New version: [4.3.2] Old Version: [4.3.1]
+[2023-07-18 09:02:13] INFO root fetch - processPackages [d3rlpy]: New version: [2.0.0] Old Version: [1.1.1]
+[2023-07-18 09:02:14] INFO root fetch - processPackages [text-justifier]: New version: [0.9.0] Old Version: [0.10.0]
+[2023-07-18 09:02:14] INFO root fetch - processPackages [htagweb]: Downloading https://files.pythonhosted.org/packages/e6/2d/4da3855e9f17c83d23da210c5dd6f58bf0ef4f8ef7671f4780ba8e6796cf/htagweb-0.3.2.tar.gz
+[2023-07-18 09:02:14] INFO root fetch - processPackages [repeated-test]: New version: [2.3.3] Old Version: [2.3.1]
+[2023-07-18 09:02:14] INFO root fetch - processPackages [PSIcheck]: Downloading https://files.pythonhosted.org/packages/7a/c9/5f567d426c30e3be2c6b6062957ee3a5e5adbc6bf57f413d39e4ef025890/PSIcheck-0.0.8.tar.gz
+[2023-07-18 09:02:14] INFO root fetch - processPackages [ReFrame-HPC]: Downloading https://files.pythonhosted.org/packages/bb/f0/159e98fcb18df9735ec978d827dc52d4e38eb2a055d09685c922495fa9c3/ReFrame-HPC-4.3.1.tar.gz
+[2023-07-18 09:02:14] INFO root fetch - processPackages [text-justifier]: Downloading https://files.pythonhosted.org/packages/4c/25/a2d0b306af5f7ca08d305517319095b7dea636c552ef9c042561c8ec05ec/text-justifier-0.10.0.tar.gz
+[2023-07-18 09:02:14] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: Downloading https://files.pythonhosted.org/packages/bb/a8/9df3e98119fc5cd895e6c8257ea76c417af0e89186bcc5329c5b7e168f5c/nonebot_plugin_genshin_cos-0.2.2.tar.gz
+[2023-07-18 09:02:14] INFO root fetch - processPackages [alibabacloud-xrengine20230313]: Downloading https://files.pythonhosted.org/packages/7a/31/1d3ad5a4670185450a997149885348f096ffc121882b18a86f3f1c0f233a/alibabacloud_xrengine20230313-1.0.0.tar.gz
+[2023-07-18 09:02:14] INFO root fetch - processPackages [seqslab-cli]: Downloading https://files.pythonhosted.org/packages/2c/fa/b0d60ad0020854ff53ccc7431ac158bf810f1173a0c1ee70fc6e5844b593/seqslab-cli-3.2.1.post0.tar.gz
+[2023-07-18 09:02:14] INFO root fetch - processPackages [d3rlpy]: Downloading https://files.pythonhosted.org/packages/3b/0c/bba8b546426819a2c297ddd9f2268b5f156180057e8db4a6b66eafa78e9b/d3rlpy-1.1.1.tar.gz
+[2023-07-18 09:02:14] INFO root fetch - processPackages [repeated-test]: Downloading https://files.pythonhosted.org/packages/80/1a/158dbc711af406dfbaf7ffa92cfd9feafef785751d803bdb2dddbb0495c8/repeated_test-2.3.1.tar.gz
+[2023-07-18 09:02:14] INFO root fetch - processPackages [PSIcheck]: Downloading https://files.pythonhosted.org/packages/06/ca/4d4fe2fd7dff2d82a85bba3e3f1a5dc97d2fc35561bdadffcfac0c934ee9/PSIcheck-0.0.9.tar.gz
+[2023-07-18 09:02:15] INFO root fetch - processPackages [seqslab-cli]: Downloading https://files.pythonhosted.org/packages/bb/0d/d44b4507d9a0faf15648cccf31a9a965471af4cba655640418b66b33cc03/seqslab-cli-3.2.2a0.tar.gz
+[2023-07-18 09:02:15] INFO root fetch - processPackages [d3rlpy]: Downloading https://files.pythonhosted.org/packages/54/6a/01d7f4ade1e934aca3f0501a23c9846288e8d52bd5ff297db372123daf1c/d3rlpy-2.0.0.tar.gz
+[2023-07-18 09:02:15] INFO root fetch - processPackages [ReFrame-HPC]: Downloading https://files.pythonhosted.org/packages/93/7f/1b6ca9137bc9a3565ed94d22bf9af98617690a560f8e599dfcd322638273/ReFrame-HPC-4.3.2.tar.gz
+[2023-07-18 09:02:15] INFO root fetch - processPackages [PSIcheck]: executing diffoscope
+[2023-07-18 09:02:15] INFO root fetch - processPackages [PSIcheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PSIcheck-0.0.8.tar.gz tmp/PSIcheck-0.0.9.tar.gz --markdown 20230718/P/PSIcheck/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 09:02:15] INFO root fetch - processPackages [htagweb]: Downloading https://files.pythonhosted.org/packages/1d/05/4a58ffcb8416333215defd00e3a74f6268a9ff1fcc714b4ef4b9dc378877/htagweb-0.3.3.tar.gz
+[2023-07-18 09:02:15] INFO root fetch - processPackages [alibabacloud-xrengine20230313]: Downloading https://files.pythonhosted.org/packages/d9/62/d4a30a9fa8e8761197945b16d2bfc7bcfc3f13c289075d21ea8a7b2d7d07/alibabacloud_xrengine20230313-1.0.1.tar.gz
+[2023-07-18 09:02:15] INFO root fetch - processPackages [repeated-test]: Downloading https://files.pythonhosted.org/packages/99/78/0911cdbd699c72701ba6755e7696d075bad52047ad6cd1e8976b08ded099/repeated_test-2.3.3.tar.gz
+[2023-07-18 09:02:15] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: Downloading https://files.pythonhosted.org/packages/63/7a/bc8ccb233b9f62f19a4ee1166ca6fbdcd681ceb21dab49f386a4d2c2f1c1/nonebot_plugin_genshin_cos-0.2.3.tar.gz
+[2023-07-18 09:02:15] INFO root fetch - processPackages [d3rlpy]: executing diffoscope
+[2023-07-18 09:02:15] INFO root fetch - processPackages [d3rlpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d3rlpy-1.1.1.tar.gz tmp/d3rlpy-2.0.0.tar.gz --markdown 20230718/d/d3rlpy/1.1.1-2.0.0/diff.md --exclude *.pyd
+[2023-07-18 09:02:15] INFO root fetch - processPackages [text-justifier]: Downloading https://files.pythonhosted.org/packages/1b/c6/61e395604327c4ed443527701de01e35c5108e3513bb18e5ab27fcaa8562/text-justifier-0.9.0.tar.gz
+[2023-07-18 09:02:15] INFO root fetch - processPackages [seqslab-cli]: executing diffoscope
+[2023-07-18 09:02:15] INFO root fetch - processPackages [seqslab-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqslab-cli-3.2.1.post0.tar.gz tmp/seqslab-cli-3.2.2a0.tar.gz --markdown 20230718/s/seqslab-cli/3.2.1.post0-3.2.2a0/diff.md --exclude *.pyd
+[2023-07-18 09:02:15] INFO root fetch - processPackages [alibabacloud-xrengine20230313]: executing diffoscope
+[2023-07-18 09:02:15] INFO root fetch - processPackages [alibabacloud-xrengine20230313]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_xrengine20230313-1.0.0.tar.gz tmp/alibabacloud_xrengine20230313-1.0.1.tar.gz --markdown 20230718/a/alibabacloud-xrengine20230313/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-18 09:02:15] INFO root fetch - processPackages [htagweb]: executing diffoscope
+[2023-07-18 09:02:15] INFO root fetch - processPackages [htagweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htagweb-0.3.2.tar.gz tmp/htagweb-0.3.3.tar.gz --markdown 20230718/h/htagweb/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-18 09:02:15] INFO root fetch - processPackages [ReFrame-HPC]: executing diffoscope
+[2023-07-18 09:02:15] INFO root fetch - processPackages [ReFrame-HPC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ReFrame-HPC-4.3.1.tar.gz tmp/ReFrame-HPC-4.3.2.tar.gz --markdown 20230718/R/ReFrame-HPC/4.3.1-4.3.2/diff.md --exclude *.pyd
+[2023-07-18 09:02:15] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: executing diffoscope
+[2023-07-18 09:02:15] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_genshin_cos-0.2.2.tar.gz tmp/nonebot_plugin_genshin_cos-0.2.3.tar.gz --markdown 20230718/n/nonebot-plugin-genshin-cos/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-18 09:02:15] INFO root fetch - processPackages [repeated-test]: executing diffoscope
+[2023-07-18 09:02:15] INFO root fetch - processPackages [repeated-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repeated_test-2.3.1.tar.gz tmp/repeated_test-2.3.3.tar.gz --markdown 20230718/r/repeated-test/2.3.1-2.3.3/diff.md --exclude *.pyd
+[2023-07-18 09:02:15] INFO root fetch - processPackages [text-justifier]: executing diffoscope
+[2023-07-18 09:02:15] INFO root fetch - processPackages [text-justifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text-justifier-0.10.0.tar.gz tmp/text-justifier-0.9.0.tar.gz --markdown 20230718/t/text-justifier/0.10.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-18 09:02:16] INFO root fetch - processPackages [PSIcheck]: Remove: archive file [/home/abi/fetcher/tmp/PSIcheck-0.0.8.tar.gz]
+[2023-07-18 09:02:16] INFO root fetch - processPackages [PSIcheck]: Remove: archive file [/home/abi/fetcher/tmp/PSIcheck-0.0.9.tar.gz]
+[2023-07-18 09:02:16] INFO root fetch - main [MainThread]: End processing [PSIcheck]: success
+[2023-07-18 09:02:16] INFO root fetch - processPackages [htagweb]: Remove: archive file [/home/abi/fetcher/tmp/htagweb-0.3.2.tar.gz]
+[2023-07-18 09:02:16] INFO root fetch - processPackages [htagweb]: Remove: archive file [/home/abi/fetcher/tmp/htagweb-0.3.3.tar.gz]
+[2023-07-18 09:02:16] INFO root fetch - main [MainThread]: End processing [htagweb]: success
+[2023-07-18 09:02:16] INFO root fetch - processPackages [alibabacloud-xrengine20230313]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_xrengine20230313-1.0.0.tar.gz]
+[2023-07-18 09:02:16] INFO root fetch - processPackages [alibabacloud-xrengine20230313]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_xrengine20230313-1.0.1.tar.gz]
+[2023-07-18 09:02:16] INFO root fetch - main [MainThread]: End processing [alibabacloud-xrengine20230313]: success
+[2023-07-18 09:02:17] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_genshin_cos-0.2.2.tar.gz]
+[2023-07-18 09:02:17] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_genshin_cos-0.2.3.tar.gz]
+[2023-07-18 09:02:17] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-genshin-cos]: success
+[2023-07-18 09:02:17] INFO root fetch - processPackages [repeated-test]: Remove: archive file [/home/abi/fetcher/tmp/repeated_test-2.3.1.tar.gz]
+[2023-07-18 09:02:17] INFO root fetch - processPackages [repeated-test]: Remove: archive file [/home/abi/fetcher/tmp/repeated_test-2.3.3.tar.gz]
+[2023-07-18 09:02:17] INFO root fetch - main [MainThread]: End processing [repeated-test]: success
+[2023-07-18 09:02:17] INFO root fetch - processPackages [text-justifier]: Remove: archive file [/home/abi/fetcher/tmp/text-justifier-0.10.0.tar.gz]
+[2023-07-18 09:02:17] INFO root fetch - processPackages [text-justifier]: Remove: archive file [/home/abi/fetcher/tmp/text-justifier-0.9.0.tar.gz]
+[2023-07-18 09:02:17] INFO root fetch - main [MainThread]: End processing [text-justifier]: success
+[2023-07-18 09:02:17] INFO root fetch - processPackages [seqslab-cli]: Remove: archive file [/home/abi/fetcher/tmp/seqslab-cli-3.2.1.post0.tar.gz]
+[2023-07-18 09:02:17] INFO root fetch - processPackages [seqslab-cli]: Remove: archive file [/home/abi/fetcher/tmp/seqslab-cli-3.2.2a0.tar.gz]
+[2023-07-18 09:02:17] INFO root fetch - main [MainThread]: End processing [seqslab-cli]: success
+[2023-07-18 09:02:17] INFO root fetch - processPackages [ReFrame-HPC]: Remove: archive file [/home/abi/fetcher/tmp/ReFrame-HPC-4.3.1.tar.gz]
+[2023-07-18 09:02:17] INFO root fetch - processPackages [ReFrame-HPC]: Remove: archive file [/home/abi/fetcher/tmp/ReFrame-HPC-4.3.2.tar.gz]
+[2023-07-18 09:02:17] INFO root fetch - main [MainThread]: End processing [ReFrame-HPC]: success
+[2023-07-18 09:02:17] INFO root fetch - processPackages [d3rlpy]: Remove: archive file [/home/abi/fetcher/tmp/d3rlpy-1.1.1.tar.gz]
+[2023-07-18 09:02:17] INFO root fetch - processPackages [d3rlpy]: Remove: archive file [/home/abi/fetcher/tmp/d3rlpy-2.0.0.tar.gz]
+[2023-07-18 09:02:17] INFO root fetch - main [MainThread]: End processing [d3rlpy]: success
+[2023-07-18 09:02:17] INFO root fetch - main [MainThread]: Store serial: [18929460]
