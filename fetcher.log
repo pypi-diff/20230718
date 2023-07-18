@@ -18875,3 +18875,137 @@
 [2023-07-18 10:37:27] INFO root fetch - processPackages [bitmovin-api-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bitmovin-api-sdk-1.99.0.tar.gz]
 [2023-07-18 10:37:27] INFO root fetch - main [MainThread]: End processing [bitmovin-api-sdk]: success
 [2023-07-18 10:37:27] INFO root fetch - main [MainThread]: Store serial: [18930361]
+[2023-07-18 10:42:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18930361]
+[2023-07-18 10:42:36] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-18 10:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vg-commons-pkg
+[2023-07-18 10:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kstreams
+[2023-07-18 10:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: charmongerai
+[2023-07-18 10:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-estimator-nightly
+[2023-07-18 10:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: docarray
+[2023-07-18 10:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: RangeSlider
+[2023-07-18 10:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: genai-test-lib
+[2023-07-18 10:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neo-fairy-client
+[2023-07-18 10:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: locuaz
+[2023-07-18 10:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tff-nightly
+[2023-07-18 10:42:36] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-07-18 10:42:36] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-07-18 10:42:36] INFO root fetch - processPackages [locuaz]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-18 10:42:36] WARNING root fetch - processPackages [genai-test-lib]: Skipping, unable to determine old version
+[2023-07-18 10:42:36] INFO root fetch - processPackages [genai-test-lib]: Start processing: autohooks
+[2023-07-18 10:42:36] INFO root fetch - main [MainThread]: End processing [genai-test-lib] error
+[2023-07-18 10:42:36] INFO root fetch - processPackages [RangeSlider]: New version: [2023.7.2] Old Version: [2023.7.1]
+[2023-07-18 10:42:36] WARNING root fetch - processPackages [vg-commons-pkg]: Skipping, unable to determine old version
+[2023-07-18 10:42:36] INFO root fetch - processPackages [vg-commons-pkg]: Start processing: sdccli
+[2023-07-18 10:42:36] INFO root fetch - main [MainThread]: End processing [vg-commons-pkg] error
+[2023-07-18 10:42:36] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/da/d0/4e039d9e7c4e19f30fbd831f0bd4670ae9aa6b5c8b29e21ed55f7886c9fe/docarray-0.9.9.dev4.tar.gz
+[2023-07-18 10:42:36] INFO root fetch - processPackages [kstreams]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-18 10:42:36] INFO root fetch - processPackages [locuaz]: Downloading https://files.pythonhosted.org/packages/b2/d0/cdf85a78e76bb0cf09892546a064bf5d1f4b9d2923e3e527df83a041f8ef/locuaz-0.5.0.tar.gz
+[2023-07-18 10:42:36] INFO root fetch - processPackages [neo-fairy-client]: New version: [3.5.0.7] Old Version: [3.5.0.5]
+[2023-07-18 10:42:36] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230718] Old Version: [0.0.1.dev20230717]
+[2023-07-18 10:42:36] INFO root fetch - processPackages [sdccli]: New version: [0.8.0] Old Version: [0.7.9]
+[2023-07-18 10:42:36] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-07-18 10:42:36] WARNING root fetch - processPackages [locuaz]: Skipping package: exceeds size limit 35163651>=10485760
+[2023-07-18 10:42:36] INFO root fetch - processPackages [locuaz]: Start processing: ExtractEmailAttachments
+[2023-07-18 10:42:36] INFO root fetch - main [MainThread]: End processing [locuaz] error
+[2023-07-18 10:42:36] INFO root fetch - processPackages [RangeSlider]: Downloading https://files.pythonhosted.org/packages/d9/f4/b923a046a7775f49ecc9b43ccfeb9b2aa21f890379c786a7319f9fc8c222/RangeSlider-2023.7.1.tar.gz
+[2023-07-18 10:42:36] INFO root fetch - processPackages [autohooks]: New version: [23.7.0] Old Version: [23.4.0]
+[2023-07-18 10:42:36] INFO root fetch - processPackages [charmongerai]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-18 10:42:36] INFO root fetch - processPackages [sdccli]: Downloading https://files.pythonhosted.org/packages/04/b9/bc8d6dbf7a12c2a7f196ee429890bfec91bdce45029914e58caed546be65/sdccli-0.7.9.tar.gz
+[2023-07-18 10:42:36] INFO root fetch - processPackages [kstreams]: Downloading https://files.pythonhosted.org/packages/9a/1d/ca3e2b8b740d2aa5987bc32e9793e218566beceff074a61554892e99e7b2/kstreams-0.9.0.tar.gz
+[2023-07-18 10:42:36] INFO root fetch - processPackages [ExtractEmailAttachments]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-18 10:42:36] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/d6/4a/ac78617cd0b6996b427327d9a608f73df279c7fcea43b362ed1f82c59519/tff_nightly-0.0.1.dev20230717-py2.py3-none-any.whl
+[2023-07-18 10:42:37] INFO root fetch - processPackages [neo-fairy-client]: Downloading https://files.pythonhosted.org/packages/ee/85/6ccae49a57746fba46eedf4f57c823a95b437d74d87fd9129f540f1d2bcc/neo-fairy-client-3.5.0.5.tar.gz
+[2023-07-18 10:42:37] INFO root fetch - processPackages [autohooks]: Downloading https://files.pythonhosted.org/packages/19/63/1a6179eae386a6edc49a2d5cefa47f9dfc6a3d30385a920c66d72ef1d6f9/autohooks-23.4.0.tar.gz
+[2023-07-18 10:42:37] INFO root fetch - processPackages [charmongerai]: Downloading https://files.pythonhosted.org/packages/e7/c3/fef00dd134bfaf2c6c1ab1a87659abd912914ee53645513c6c73b491e5e4/charmongerai-0.0.1.tar.gz
+[2023-07-18 10:42:37] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/2b/4f/53a641fcaefc8774128d5f48cb2a7b2e692c8adfce1e2afaf8d9260d8b2a/docarray-0.9.9.dev5.tar.gz
+[2023-07-18 10:42:37] INFO root fetch - processPackages [RangeSlider]: Downloading https://files.pythonhosted.org/packages/47/fd/460e4c9282d43520cd740abd2312a446b6e57e54c974b57c02d03f0fd544/RangeSlider-2023.7.2.tar.gz
+[2023-07-18 10:42:37] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-07-18 10:42:37] INFO root fetch - processPackages [ExtractEmailAttachments]: Downloading https://files.pythonhosted.org/packages/1c/29/09e19e735f9d10f2ed95026b7ee1dd4ed921aab8c34515159a21b67cbddf/ExtractEmailAttachments-0.1.2.tar.gz
+[2023-07-18 10:42:37] INFO root fetch - processPackages [sdccli]: Downloading https://files.pythonhosted.org/packages/8b/c6/5b378f1ced2025836446b51180f0175ebb873bdcd10a26f60238336a0524/sdccli-0.8.0.tar.gz
+[2023-07-18 10:42:37] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-07-18 10:42:37] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230718/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-07-18 10:42:37] INFO root fetch - processPackages [RangeSlider]: executing diffoscope
+[2023-07-18 10:42:37] INFO root fetch - processPackages [RangeSlider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RangeSlider-2023.7.1.tar.gz tmp/RangeSlider-2023.7.2.tar.gz --markdown 20230718/R/RangeSlider/2023.7.1-2023.7.2/diff.md --exclude *.pyd
+[2023-07-18 10:42:37] INFO root fetch - processPackages [neo-fairy-client]: Downloading https://files.pythonhosted.org/packages/bb/6c/41cb7cf782c173fba2f46d46f30c4a5aa1045263e7b21cb8eef77d0fd0ce/neo-fairy-client-3.5.0.7.tar.gz
+[2023-07-18 10:42:37] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-07-18 10:42:37] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230718/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-07-18 10:42:37] INFO root fetch - processPackages [sdccli]: executing diffoscope
+[2023-07-18 10:42:37] INFO root fetch - processPackages [sdccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdccli-0.7.9.tar.gz tmp/sdccli-0.8.0.tar.gz --markdown 20230718/s/sdccli/0.7.9-0.8.0/diff.md --exclude *.pyd
+[2023-07-18 10:42:37] INFO root fetch - processPackages [charmongerai]: Downloading https://files.pythonhosted.org/packages/7c/42/7d2b8324d5fa2cb441f11c2c940b62689695aacab7da0dfcdbbc2c188611/charmongerai-0.1.0.tar.gz
+[2023-07-18 10:42:37] INFO root fetch - processPackages [autohooks]: Downloading https://files.pythonhosted.org/packages/c8/71/c9be5dc45d2233f3990b50a8b47d1794dc8018280a428061bee2a41be54c/autohooks-23.7.0.tar.gz
+[2023-07-18 10:42:37] INFO root fetch - processPackages [kstreams]: Downloading https://files.pythonhosted.org/packages/62/9f/51bb919a10a681dae9c3fa7686fbdb1d017488a680b89797d87c871743e4/kstreams-0.9.1.tar.gz
+[2023-07-18 10:42:37] INFO root fetch - processPackages [charmongerai]: executing diffoscope
+[2023-07-18 10:42:37] INFO root fetch - processPackages [charmongerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charmongerai-0.0.1.tar.gz tmp/charmongerai-0.1.0.tar.gz --markdown 20230718/c/charmongerai/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-18 10:42:37] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/86/2d/a71ceba3856ee41c06ad5ea7657dc8ee52fb6f132785acdc5394f4896c8e/tff_nightly-0.0.1.dev20230718-py2.py3-none-any.whl
+[2023-07-18 10:42:37] INFO root fetch - processPackages [neo-fairy-client]: executing diffoscope
+[2023-07-18 10:42:37] INFO root fetch - processPackages [neo-fairy-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neo-fairy-client-3.5.0.5.tar.gz tmp/neo-fairy-client-3.5.0.7.tar.gz --markdown 20230718/n/neo-fairy-client/3.5.0.5-3.5.0.7/diff.md --exclude *.pyd
+[2023-07-18 10:42:37] INFO root fetch - processPackages [ExtractEmailAttachments]: Downloading https://files.pythonhosted.org/packages/16/2e/1e2d1cde50a1fa67e79097b67a11821ed9ef9a12d354191e18a5c710ae0b/ExtractEmailAttachments-0.1.3.tar.gz
+[2023-07-18 10:42:37] INFO root fetch - processPackages [autohooks]: executing diffoscope
+[2023-07-18 10:42:37] INFO root fetch - processPackages [autohooks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autohooks-23.4.0.tar.gz tmp/autohooks-23.7.0.tar.gz --markdown 20230718/a/autohooks/23.4.0-23.7.0/diff.md --exclude *.pyd
+[2023-07-18 10:42:37] INFO root fetch - processPackages [kstreams]: executing diffoscope
+[2023-07-18 10:42:37] INFO root fetch - processPackages [kstreams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kstreams-0.9.0.tar.gz tmp/kstreams-0.9.1.tar.gz --markdown 20230718/k/kstreams/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-18 10:42:37] INFO root fetch - processPackages [ExtractEmailAttachments]: executing diffoscope
+[2023-07-18 10:42:37] INFO root fetch - processPackages [ExtractEmailAttachments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExtractEmailAttachments-0.1.2.tar.gz tmp/ExtractEmailAttachments-0.1.3.tar.gz --markdown 20230718/E/ExtractEmailAttachments/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-18 10:42:38] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-07-18 10:42:38] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230717-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230718-py2.py3-none-any.whl.zip --markdown 20230718/t/tff-nightly/0.0.1.dev20230717-0.0.1.dev20230718/diff.md --exclude *.pyd
+[2023-07-18 10:42:39] INFO root fetch - processPackages [RangeSlider]: Remove: archive file [/home/abi/fetcher/tmp/RangeSlider-2023.7.1.tar.gz]
+[2023-07-18 10:42:39] INFO root fetch - processPackages [RangeSlider]: Remove: archive file [/home/abi/fetcher/tmp/RangeSlider-2023.7.2.tar.gz]
+[2023-07-18 10:42:39] INFO root fetch - processPackages [RangeSlider]: Start processing: DLMS-SPODES
+[2023-07-18 10:42:39] INFO root fetch - main [MainThread]: End processing [RangeSlider]: success
+[2023-07-18 10:42:39] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-07-18 10:42:39] INFO root fetch - processPackages [charmongerai]: Remove: archive file [/home/abi/fetcher/tmp/charmongerai-0.0.1.tar.gz]
+[2023-07-18 10:42:39] INFO root fetch - processPackages [charmongerai]: Remove: archive file [/home/abi/fetcher/tmp/charmongerai-0.1.0.tar.gz]
+[2023-07-18 10:42:39] INFO root fetch - processPackages [charmongerai]: Start processing: py-wake-cli
+[2023-07-18 10:42:39] INFO root fetch - main [MainThread]: End processing [charmongerai]: success
+[2023-07-18 10:42:39] INFO root fetch - processPackages [neo-fairy-client]: Remove: archive file [/home/abi/fetcher/tmp/neo-fairy-client-3.5.0.5.tar.gz]
+[2023-07-18 10:42:39] INFO root fetch - processPackages [neo-fairy-client]: Remove: archive file [/home/abi/fetcher/tmp/neo-fairy-client-3.5.0.7.tar.gz]
+[2023-07-18 10:42:39] INFO root fetch - processPackages [neo-fairy-client]: Start processing: session-repository
+[2023-07-18 10:42:39] INFO root fetch - main [MainThread]: End processing [neo-fairy-client]: success
+[2023-07-18 10:42:39] WARNING root fetch - processPackages [py-wake-cli]: Skipping, unable to determine old version
+[2023-07-18 10:42:39] INFO root fetch - processPackages [py-wake-cli]: Start processing: cloud-governance
+[2023-07-18 10:42:39] INFO root fetch - main [MainThread]: End processing [py-wake-cli] error
+[2023-07-18 10:42:39] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2023-07-18 10:42:39] INFO root fetch - processPackages [session-repository]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-18 10:42:39] INFO root fetch - processPackages [ExtractEmailAttachments]: Remove: archive file [/home/abi/fetcher/tmp/ExtractEmailAttachments-0.1.2.tar.gz]
+[2023-07-18 10:42:39] INFO root fetch - processPackages [ExtractEmailAttachments]: Remove: archive file [/home/abi/fetcher/tmp/ExtractEmailAttachments-0.1.3.tar.gz]
+[2023-07-18 10:42:39] INFO root fetch - main [MainThread]: End processing [ExtractEmailAttachments]: success
+[2023-07-18 10:42:39] INFO root fetch - processPackages [kstreams]: Remove: archive file [/home/abi/fetcher/tmp/kstreams-0.9.0.tar.gz]
+[2023-07-18 10:42:39] INFO root fetch - processPackages [kstreams]: Remove: archive file [/home/abi/fetcher/tmp/kstreams-0.9.1.tar.gz]
+[2023-07-18 10:42:39] INFO root fetch - main [MainThread]: End processing [kstreams]: success
+[2023-07-18 10:42:39] INFO root fetch - processPackages [session-repository]: Downloading https://files.pythonhosted.org/packages/fe/9a/a07bbe26573737fc0cdfca44bcd6c61335cf321249a560aa3c55ec129efc/session-repository-0.2.7.tar.gz
+[2023-07-18 10:42:39] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-18 10:42:39] INFO root fetch - processPackages [autohooks]: Remove: archive file [/home/abi/fetcher/tmp/autohooks-23.4.0.tar.gz]
+[2023-07-18 10:42:39] INFO root fetch - processPackages [autohooks]: Remove: archive file [/home/abi/fetcher/tmp/autohooks-23.7.0.tar.gz]
+[2023-07-18 10:42:39] INFO root fetch - main [MainThread]: End processing [autohooks]: success
+[2023-07-18 10:42:39] INFO root fetch - processPackages [sdccli]: Remove: archive file [/home/abi/fetcher/tmp/sdccli-0.7.9.tar.gz]
+[2023-07-18 10:42:39] INFO root fetch - processPackages [sdccli]: Remove: archive file [/home/abi/fetcher/tmp/sdccli-0.8.0.tar.gz]
+[2023-07-18 10:42:39] INFO root fetch - main [MainThread]: End processing [sdccli]: success
+[2023-07-18 10:42:39] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev4.tar.gz]
+[2023-07-18 10:42:39] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
+[2023-07-18 10:42:39] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-07-18 10:42:39] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-07-18 10:42:39] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-07-18 10:42:39] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-07-18 10:42:39] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2023-07-18 10:42:40] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2023-07-18 10:42:40] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-07-18 10:42:40] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230718/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-07-18 10:42:40] INFO root fetch - processPackages [session-repository]: Downloading https://files.pythonhosted.org/packages/1a/75/7fecae6169ae0ba02c87e4702cafde99800bdc6718fcac0937cfc6f7215b/session-repository-0.2.8.tar.gz
+[2023-07-18 10:42:40] INFO root fetch - processPackages [session-repository]: executing diffoscope
+[2023-07-18 10:42:40] INFO root fetch - processPackages [session-repository]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/session-repository-0.2.7.tar.gz tmp/session-repository-0.2.8.tar.gz --markdown 20230718/s/session-repository/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-18 10:42:40] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2023-07-18 10:42:40] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2023-07-18 10:42:40] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20230718/c/cloud-governance/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-18 10:42:40] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230717-py2.py3-none-any.whl.zip]
+[2023-07-18 10:42:40] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230718-py2.py3-none-any.whl.zip]
+[2023-07-18 10:42:40] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-07-18 10:42:41] INFO root fetch - processPackages [session-repository]: Remove: archive file [/home/abi/fetcher/tmp/session-repository-0.2.7.tar.gz]
+[2023-07-18 10:42:41] INFO root fetch - processPackages [session-repository]: Remove: archive file [/home/abi/fetcher/tmp/session-repository-0.2.8.tar.gz]
+[2023-07-18 10:42:41] INFO root fetch - main [MainThread]: End processing [session-repository]: success
+[2023-07-18 10:42:41] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.8.3.tar.gz]
+[2023-07-18 10:42:41] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
+[2023-07-18 10:42:41] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-07-18 10:42:42] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2023-07-18 10:42:42] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2023-07-18 10:42:42] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2023-07-18 10:42:42] INFO root fetch - main [MainThread]: Store serial: [18930411]
