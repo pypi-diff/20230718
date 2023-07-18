@@ -5392,3 +5392,76 @@
 [2023-07-18 02:45:31] INFO root fetch - processPackages [botocore]: Remove: archive file [/home/abi/fetcher/tmp/botocore-1.9.9.tar.gz]
 [2023-07-18 02:45:31] INFO root fetch - main [MainThread]: End processing [botocore]: success
 [2023-07-18 02:45:31] INFO root fetch - main [MainThread]: Store serial: [18925120]
+[2023-07-18 02:50:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18925120]
+[2023-07-18 02:50:40] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-18 02:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chalkpy
+[2023-07-18 02:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-aurora-globaldatabase
+[2023-07-18 02:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prompttools
+[2023-07-18 02:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-aurora-globaldatabase
+[2023-07-18 02:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-intl-en
+[2023-07-18 02:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk8s-plus-26
+[2023-07-18 02:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdktf-github-actions
+[2023-07-18 02:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aiopypiserver
+[2023-07-18 02:50:41] INFO root fetch - processPackages [chalkpy]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-07-18 02:50:41] INFO root fetch - processPackages [aiopypiserver]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-18 02:50:41] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-18 02:50:41] INFO root fetch - processPackages [prompttools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 02:50:41] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.95] Old Version: [2.4.94]
+[2023-07-18 02:50:41] INFO root fetch - processPackages [cdktf-github-actions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-18 02:50:41] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-07-18 02:50:41] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-18 02:50:41] INFO root fetch - processPackages [aiopypiserver]: Downloading https://files.pythonhosted.org/packages/25/21/960bb7623a5991df4bca838ec1538ea26c0d4cfc1ea3a55e5ff688016e5d/aiopypiserver-0.0.0.tar.gz
+[2023-07-18 02:50:41] INFO root fetch - processPackages [prompttools]: Downloading https://files.pythonhosted.org/packages/26/c3/a2d7c4e949b8684bc25b5d37c302593da2b28e0b3079d38826cc813f781e/prompttools-0.0.8.tar.gz
+[2023-07-18 02:50:41] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/47/ec/491739e9cb7da970b8f280ea2383dc94da0c3d39e938ac559e0f2e52aea8/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz
+[2023-07-18 02:50:41] INFO root fetch - processPackages [cdktf-github-actions]: Downloading https://files.pythonhosted.org/packages/07/58/fd956de115e00f327e93ad8957b6bb967e67537256fcee54171d65d2a849/cdktf-github-actions-0.0.98.tar.gz
+[2023-07-18 02:50:41] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2023-07-18 02:50:41] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2023-07-18 02:50:41] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/14/b2/f43e1c5bc2438c4e800bb6e6933561f947133f56f2bd160c2e35365d1638/cdk8s-plus-26-2.4.94.tar.gz
+[2023-07-18 02:50:41] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/37/52/5c69a74a70d94d61d88e81cf17862496f7cd9ebd0725d75f357f252f3052/chalkpy-2.9.8.tar.gz
+[2023-07-18 02:50:41] INFO root fetch - processPackages [prompttools]: Downloading https://files.pythonhosted.org/packages/58/ef/26a50efed9a40388c91cfa74d13b4df8e479fcff0a1c73af8e542f1ddf85/prompttools-0.0.9.tar.gz
+[2023-07-18 02:50:41] INFO root fetch - processPackages [aiopypiserver]: Downloading https://files.pythonhosted.org/packages/ad/dc/4239d56e14c8fc20f409ad0d245100386e7d87ca6e2aeee4d6dd6d31a5f0/aiopypiserver-0.0.1.tar.gz
+[2023-07-18 02:50:41] INFO root fetch - processPackages [prompttools]: executing diffoscope
+[2023-07-18 02:50:41] INFO root fetch - processPackages [prompttools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompttools-0.0.8.tar.gz tmp/prompttools-0.0.9.tar.gz --markdown 20230718/p/prompttools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 02:50:41] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/ee/9c/2dcfed598218dfd2d81fa3078c736962b265e5ae724bec2686e853a74d71/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz
+[2023-07-18 02:50:41] INFO root fetch - processPackages [aiopypiserver]: executing diffoscope
+[2023-07-18 02:50:41] INFO root fetch - processPackages [aiopypiserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiopypiserver-0.0.0.tar.gz tmp/aiopypiserver-0.0.1.tar.gz --markdown 20230718/a/aiopypiserver/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-18 02:50:41] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/09/4f/05603cfd91e7c913d4dd378ee5f27c54b74b1d9ebb03717d8a21f09b61f2/cdk8s-plus-26-2.4.95.tar.gz
+[2023-07-18 02:50:41] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/f1/ff/9cdb492bac7076766dffbc16bbff1773bfc5635cfb81b130f720883912c7/chalkpy-2.9.9.tar.gz
+[2023-07-18 02:50:41] INFO root fetch - processPackages [cdktf-github-actions]: Downloading https://files.pythonhosted.org/packages/56/78/477ea020d063f38bdacf3f5681517318875ce9cbff389019b4934f6c8cf1/cdktf-github-actions-0.0.99.tar.gz
+[2023-07-18 02:50:41] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: executing diffoscope
+[2023-07-18 02:50:41] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz --markdown 20230718/t/tencentcloud-sdk-python-intl-en/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-07-18 02:50:42] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2023-07-18 02:50:42] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2023-07-18 02:50:42] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-07-18 02:50:42] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.94.tar.gz tmp/cdk8s-plus-26-2.4.95.tar.gz --markdown 20230718/c/cdk8s-plus-26/2.4.94-2.4.95/diff.md --exclude *.pyd
+[2023-07-18 02:50:42] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-07-18 02:50:42] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.9.8.tar.gz tmp/chalkpy-2.9.9.tar.gz --markdown 20230718/c/chalkpy/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-07-18 02:50:42] INFO root fetch - processPackages [cdktf-github-actions]: executing diffoscope
+[2023-07-18 02:50:42] INFO root fetch - processPackages [cdktf-github-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-github-actions-0.0.98.tar.gz tmp/cdktf-github-actions-0.0.99.tar.gz --markdown 20230718/c/cdktf-github-actions/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-18 02:50:42] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2023-07-18 02:50:42] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20230718/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-18 02:50:42] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2023-07-18 02:50:42] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20230718/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-18 02:50:42] INFO root fetch - processPackages [aiopypiserver]: Remove: archive file [/home/abi/fetcher/tmp/aiopypiserver-0.0.0.tar.gz]
+[2023-07-18 02:50:42] INFO root fetch - processPackages [aiopypiserver]: Remove: archive file [/home/abi/fetcher/tmp/aiopypiserver-0.0.1.tar.gz]
+[2023-07-18 02:50:42] INFO root fetch - main [MainThread]: End processing [aiopypiserver]: success
+[2023-07-18 02:50:43] INFO root fetch - processPackages [prompttools]: Remove: archive file [/home/abi/fetcher/tmp/prompttools-0.0.8.tar.gz]
+[2023-07-18 02:50:43] INFO root fetch - processPackages [prompttools]: Remove: archive file [/home/abi/fetcher/tmp/prompttools-0.0.9.tar.gz]
+[2023-07-18 02:50:43] INFO root fetch - main [MainThread]: End processing [prompttools]: success
+[2023-07-18 02:50:43] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2023-07-18 02:50:43] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2023-07-18 02:50:43] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2023-07-18 02:50:43] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2023-07-18 02:50:43] INFO root fetch - processPackages [cdktf-github-actions]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-github-actions-0.0.98.tar.gz]
+[2023-07-18 02:50:43] INFO root fetch - processPackages [cdktf-github-actions]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-github-actions-0.0.99.tar.gz]
+[2023-07-18 02:50:43] INFO root fetch - main [MainThread]: End processing [cdktf-github-actions]: success
+[2023-07-18 02:50:43] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.94.tar.gz]
+[2023-07-18 02:50:43] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.95.tar.gz]
+[2023-07-18 02:50:43] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-07-18 02:50:44] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz]
+[2023-07-18 02:50:44] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
+[2023-07-18 02:50:44] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
+[2023-07-18 02:50:45] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.8.tar.gz]
+[2023-07-18 02:50:45] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
+[2023-07-18 02:50:45] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-07-18 02:50:45] INFO root fetch - main [MainThread]: Store serial: [18925145]
