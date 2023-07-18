@@ -18395,3 +18395,122 @@
 [2023-07-18 10:16:19] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.2.0a3.tar.gz]
 [2023-07-18 10:16:19] INFO root fetch - main [MainThread]: End processing [pygwalker]: success
 [2023-07-18 10:16:19] INFO root fetch - main [MainThread]: Store serial: [18930168]
+[2023-07-18 10:21:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18930168]
+[2023-07-18 10:21:28] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-18 10:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-dms
+[2023-07-18 10:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scaleway-core
+[2023-07-18 10:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scaleway
+[2023-07-18 10:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scaleway-async
+[2023-07-18 10:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: astars
+[2023-07-18 10:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyPreservica
+[2023-07-18 10:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyHEADTAIL
+[2023-07-18 10:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gammarer.aws-ec2-instance-running-scheduler
+[2023-07-18 10:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pybotx-smartapp-rpc
+[2023-07-18 10:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: acquire
+[2023-07-18 10:21:28] INFO root fetch - processPackages [odoo-addon-dms]: New version: [15.0.1.8.1] Old Version: [15.0.1.8.0]
+[2023-07-18 10:21:29] INFO root fetch - processPackages [odoo-addon-dms]: Downloading https://files.pythonhosted.org/packages/3c/e8/9501dd3118829d5fa6aa2975d15da81fb9c04d2d37aa86f962a1fc2743a4/odoo_addon_dms-15.0.1.8.0-py3-none-any.whl
+[2023-07-18 10:21:29] INFO root fetch - processPackages [pyPreservica]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-07-18 10:21:29] INFO root fetch - processPackages [scaleway]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-18 10:21:29] WARNING root fetch - processPackages [astars]: Skipping, unable to determine old version
+[2023-07-18 10:21:29] INFO root fetch - processPackages [astars]: Start processing: bosch-thermostat-client
+[2023-07-18 10:21:29] INFO root fetch - main [MainThread]: End processing [astars] error
+[2023-07-18 10:21:29] WARNING root fetch - processPackages [gammarer.aws-ec2-instance-running-scheduler]: Skipping, unable to determine old version
+[2023-07-18 10:21:29] INFO root fetch - processPackages [gammarer.aws-ec2-instance-running-scheduler]: Start processing: pepperize.projen-awscdk-construct
+[2023-07-18 10:21:29] INFO root fetch - main [MainThread]: End processing [gammarer.aws-ec2-instance-running-scheduler] error
+[2023-07-18 10:21:29] INFO root fetch - processPackages [scaleway-core]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-18 10:21:29] INFO root fetch - processPackages [PyHEADTAIL]: New version: [1.16.1] Old Version: [1.16.0]
+[2023-07-18 10:21:29] INFO root fetch - processPackages [pybotx-smartapp-rpc]: New version: [0.6.0] Old Version: [0.5.6]
+[2023-07-18 10:21:29] INFO root fetch - processPackages [scaleway-async]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-18 10:21:29] INFO root fetch - processPackages [acquire]: New version: [3.8.dev3] Old Version: [3.8.dev2]
+[2023-07-18 10:21:29] INFO root fetch - processPackages [bosch-thermostat-client]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-18 10:21:29] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-18 10:21:29] WARNING root fetch - processPackages [odoo-addon-dms]: Skipping package: exceeds size limit 15617163>=10485760
+[2023-07-18 10:21:29] INFO root fetch - processPackages [odoo-addon-dms]: Start processing: tasks-generator-new
+[2023-07-18 10:21:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-dms] error
+[2023-07-18 10:21:29] INFO root fetch - processPackages [pyPreservica]: Downloading https://files.pythonhosted.org/packages/fc/33/069717ecc6bbf3ff2c298589b8895aa917ce5595cf3ebc9d2c4749727138/pyPreservica-2.0.5.tar.gz
+[2023-07-18 10:21:29] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/73/65/dda73a01dc2ff283b57f83a0bbc3f1c935027e6ee30e4e6bc15797d67da0/pepperize.projen-awscdk-construct-0.0.98.tar.gz
+[2023-07-18 10:21:29] INFO root fetch - processPackages [scaleway]: Downloading https://files.pythonhosted.org/packages/67/21/46013cb213bcbce9880e47a1fd5eac7b117e02988532588010d357c0a9cc/scaleway-0.8.0.tar.gz
+[2023-07-18 10:21:29] WARNING root fetch - processPackages [tasks-generator-new]: Skipping, unable to determine old version
+[2023-07-18 10:21:29] INFO root fetch - processPackages [tasks-generator-new]: Start processing: py2g-libs
+[2023-07-18 10:21:29] INFO root fetch - main [MainThread]: End processing [tasks-generator-new] error
+[2023-07-18 10:21:29] INFO root fetch - processPackages [acquire]: Downloading https://files.pythonhosted.org/packages/fd/bc/6f989833a2abada68156c9d2294876951775696db955d4e8edbb3aad6ec5/acquire-3.8.dev2.tar.gz
+[2023-07-18 10:21:29] INFO root fetch - processPackages [PyHEADTAIL]: Downloading https://files.pythonhosted.org/packages/7c/dd/80d8ec272179941bf6cc181446127da194eb82b7138549a6939583c4c318/PyHEADTAIL-1.16.0.tar.gz
+[2023-07-18 10:21:29] INFO root fetch - processPackages [pybotx-smartapp-rpc]: Downloading https://files.pythonhosted.org/packages/fe/88/8978925852929371f7fd9b3da9cde0df65e590395d29adc791d4efb70c96/pybotx_smartapp_rpc-0.5.6.tar.gz
+[2023-07-18 10:21:29] INFO root fetch - processPackages [scaleway-async]: Downloading https://files.pythonhosted.org/packages/eb/08/72eca403ef3cc6b54711cd4effb064f70bc6b35fb4b15bd32c586c082078/scaleway_async-0.8.0.tar.gz
+[2023-07-18 10:21:29] INFO root fetch - processPackages [scaleway-core]: Downloading https://files.pythonhosted.org/packages/27/da/6b45c21159f8281050256a34c8fbf4014a1c64e70e4086b70acac676a2bc/scaleway_core-0.8.0.tar.gz
+[2023-07-18 10:21:29] INFO root fetch - processPackages [bosch-thermostat-client]: Downloading https://files.pythonhosted.org/packages/c7/a1/3ecc81ba0c2dd8f2a311c53c25d798e5fb626653517f148e74d31a2848a6/bosch-thermostat-client-0.9.8.tar.gz
+[2023-07-18 10:21:29] WARNING root fetch - processPackages [py2g-libs]: Skipping, unable to determine old version
+[2023-07-18 10:21:29] INFO root fetch - processPackages [py2g-libs]: Start processing: docarray
+[2023-07-18 10:21:29] INFO root fetch - main [MainThread]: End processing [py2g-libs] error
+[2023-07-18 10:21:29] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/f5/d1/e1f4c78f27c0f4fcdd4024b42cd0ac56deada431e5cac3ce9363aec5c5dd/pepperize.projen-awscdk-construct-0.0.99.tar.gz
+[2023-07-18 10:21:29] INFO root fetch - processPackages [pyPreservica]: Downloading https://files.pythonhosted.org/packages/61/1d/8c7804da214dd560d851cf53c3ce20196a36c3ee4765eff9acf5afb0620a/pyPreservica-2.0.6.tar.gz
+[2023-07-18 10:21:29] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: executing diffoscope
+[2023-07-18 10:21:29] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz --markdown 20230718/p/pepperize.projen-awscdk-construct/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-18 10:21:29] INFO root fetch - processPackages [acquire]: Downloading https://files.pythonhosted.org/packages/90/95/79802219fe922d68b786dab05d04949c06b934df9e18a293db8a79049b41/acquire-3.8.dev3.tar.gz
+[2023-07-18 10:21:29] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-07-18 10:21:30] INFO root fetch - processPackages [pybotx-smartapp-rpc]: Downloading https://files.pythonhosted.org/packages/a0/12/c07286fa4c024d5c525cdae0b2e6fd4aee48f3768987bd88cc27abd4ec92/pybotx_smartapp_rpc-0.6.0.tar.gz
+[2023-07-18 10:21:30] INFO root fetch - processPackages [PyHEADTAIL]: Downloading https://files.pythonhosted.org/packages/78/9f/5458dc75c80b3e74d67cd94184c80e45881fd6219c497f77268693f2a77e/PyHEADTAIL-1.16.1.tar.gz
+[2023-07-18 10:21:30] INFO root fetch - processPackages [pyPreservica]: executing diffoscope
+[2023-07-18 10:21:30] INFO root fetch - processPackages [pyPreservica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPreservica-2.0.5.tar.gz tmp/pyPreservica-2.0.6.tar.gz --markdown 20230718/p/pyPreservica/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-07-18 10:21:30] INFO root fetch - processPackages [bosch-thermostat-client]: Downloading https://files.pythonhosted.org/packages/61/c9/c2e93b4a507a766d56275f1de6a60af3b7f44329093d55fb9cd14244d4b5/bosch-thermostat-client-0.9.9.tar.gz
+[2023-07-18 10:21:30] INFO root fetch - processPackages [scaleway-async]: Downloading https://files.pythonhosted.org/packages/92/c5/a4f956878eb6796ff1d5815e34389477cfb80c4c6e5b662840e1f4193337/scaleway_async-0.9.0.tar.gz
+[2023-07-18 10:21:30] INFO root fetch - processPackages [scaleway]: Downloading https://files.pythonhosted.org/packages/3a/7e/88f0ee5e46853b67c7b855cc0bb27325c4930c08c2f05fadf0a4c9a0bc35/scaleway-0.9.0.tar.gz
+[2023-07-18 10:21:30] INFO root fetch - processPackages [acquire]: executing diffoscope
+[2023-07-18 10:21:30] INFO root fetch - processPackages [acquire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acquire-3.8.dev2.tar.gz tmp/acquire-3.8.dev3.tar.gz --markdown 20230718/a/acquire/3.8.dev2-3.8.dev3/diff.md --exclude *.pyd
+[2023-07-18 10:21:30] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/da/d0/4e039d9e7c4e19f30fbd831f0bd4670ae9aa6b5c8b29e21ed55f7886c9fe/docarray-0.9.9.dev4.tar.gz
+[2023-07-18 10:21:30] INFO root fetch - processPackages [pybotx-smartapp-rpc]: executing diffoscope
+[2023-07-18 10:21:30] INFO root fetch - processPackages [pybotx-smartapp-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybotx_smartapp_rpc-0.5.6.tar.gz tmp/pybotx_smartapp_rpc-0.6.0.tar.gz --markdown 20230718/p/pybotx-smartapp-rpc/0.5.6-0.6.0/diff.md --exclude *.pyd
+[2023-07-18 10:21:30] INFO root fetch - processPackages [PyHEADTAIL]: executing diffoscope
+[2023-07-18 10:21:30] INFO root fetch - processPackages [PyHEADTAIL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyHEADTAIL-1.16.0.tar.gz tmp/PyHEADTAIL-1.16.1.tar.gz --markdown 20230718/P/PyHEADTAIL/1.16.0-1.16.1/diff.md --exclude *.pyd
+[2023-07-18 10:21:30] INFO root fetch - processPackages [bosch-thermostat-client]: executing diffoscope
+[2023-07-18 10:21:30] INFO root fetch - processPackages [bosch-thermostat-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosch-thermostat-client-0.9.8.tar.gz tmp/bosch-thermostat-client-0.9.9.tar.gz --markdown 20230718/b/bosch-thermostat-client/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-18 10:21:30] INFO root fetch - processPackages [scaleway-core]: Downloading https://files.pythonhosted.org/packages/9d/2c/dedd0b5233c66256c6420cb2d4a13c24719c1e1ac0c9216c3625fda1c368/scaleway_core-0.9.0.tar.gz
+[2023-07-18 10:21:30] INFO root fetch - processPackages [scaleway-async]: executing diffoscope
+[2023-07-18 10:21:30] INFO root fetch - processPackages [scaleway-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaleway_async-0.8.0.tar.gz tmp/scaleway_async-0.9.0.tar.gz --markdown 20230718/s/scaleway-async/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-18 10:21:30] INFO root fetch - processPackages [scaleway]: executing diffoscope
+[2023-07-18 10:21:30] INFO root fetch - processPackages [scaleway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaleway-0.8.0.tar.gz tmp/scaleway-0.9.0.tar.gz --markdown 20230718/s/scaleway/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-18 10:21:30] INFO root fetch - processPackages [scaleway-core]: executing diffoscope
+[2023-07-18 10:21:30] INFO root fetch - processPackages [scaleway-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaleway_core-0.8.0.tar.gz tmp/scaleway_core-0.9.0.tar.gz --markdown 20230718/s/scaleway-core/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-18 10:21:30] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/2b/4f/53a641fcaefc8774128d5f48cb2a7b2e692c8adfce1e2afaf8d9260d8b2a/docarray-0.9.9.dev5.tar.gz
+[2023-07-18 10:21:30] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-07-18 10:21:30] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230718/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-07-18 10:21:31] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz]
+[2023-07-18 10:21:31] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz]
+[2023-07-18 10:21:31] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Start processing: zdatabase
+[2023-07-18 10:21:31] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-construct]: success
+[2023-07-18 10:21:31] INFO root fetch - processPackages [zdatabase]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-07-18 10:21:31] INFO root fetch - processPackages [pyPreservica]: Remove: archive file [/home/abi/fetcher/tmp/pyPreservica-2.0.5.tar.gz]
+[2023-07-18 10:21:31] INFO root fetch - processPackages [pyPreservica]: Remove: archive file [/home/abi/fetcher/tmp/pyPreservica-2.0.6.tar.gz]
+[2023-07-18 10:21:31] INFO root fetch - main [MainThread]: End processing [pyPreservica]: success
+[2023-07-18 10:21:31] INFO root fetch - processPackages [zdatabase]: Downloading https://files.pythonhosted.org/packages/39/ae/37963bc225564ad0c174736283aa9d38b0a2ee655ba0532af46462b6aa53/zdatabase-0.5.5.tar.gz
+[2023-07-18 10:21:31] INFO root fetch - processPackages [pybotx-smartapp-rpc]: Remove: archive file [/home/abi/fetcher/tmp/pybotx_smartapp_rpc-0.5.6.tar.gz]
+[2023-07-18 10:21:31] INFO root fetch - processPackages [pybotx-smartapp-rpc]: Remove: archive file [/home/abi/fetcher/tmp/pybotx_smartapp_rpc-0.6.0.tar.gz]
+[2023-07-18 10:21:31] INFO root fetch - main [MainThread]: End processing [pybotx-smartapp-rpc]: success
+[2023-07-18 10:21:32] INFO root fetch - processPackages [acquire]: Remove: archive file [/home/abi/fetcher/tmp/acquire-3.8.dev2.tar.gz]
+[2023-07-18 10:21:32] INFO root fetch - processPackages [acquire]: Remove: archive file [/home/abi/fetcher/tmp/acquire-3.8.dev3.tar.gz]
+[2023-07-18 10:21:32] INFO root fetch - main [MainThread]: End processing [acquire]: success
+[2023-07-18 10:21:32] INFO root fetch - processPackages [bosch-thermostat-client]: Remove: archive file [/home/abi/fetcher/tmp/bosch-thermostat-client-0.9.8.tar.gz]
+[2023-07-18 10:21:32] INFO root fetch - processPackages [bosch-thermostat-client]: Remove: archive file [/home/abi/fetcher/tmp/bosch-thermostat-client-0.9.9.tar.gz]
+[2023-07-18 10:21:32] INFO root fetch - main [MainThread]: End processing [bosch-thermostat-client]: success
+[2023-07-18 10:21:32] INFO root fetch - processPackages [zdatabase]: Downloading https://files.pythonhosted.org/packages/44/de/6538e32a95e92fea5abb6f6de9bbf55756b201ad56d531a692a32fe352e3/zdatabase-0.5.6.tar.gz
+[2023-07-18 10:21:32] INFO root fetch - processPackages [scaleway-core]: Remove: archive file [/home/abi/fetcher/tmp/scaleway_core-0.8.0.tar.gz]
+[2023-07-18 10:21:32] INFO root fetch - processPackages [scaleway-core]: Remove: archive file [/home/abi/fetcher/tmp/scaleway_core-0.9.0.tar.gz]
+[2023-07-18 10:21:32] INFO root fetch - main [MainThread]: End processing [scaleway-core]: success
+[2023-07-18 10:21:32] INFO root fetch - processPackages [zdatabase]: executing diffoscope
+[2023-07-18 10:21:32] INFO root fetch - processPackages [zdatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zdatabase-0.5.5.tar.gz tmp/zdatabase-0.5.6.tar.gz --markdown 20230718/z/zdatabase/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-07-18 10:21:32] INFO root fetch - processPackages [PyHEADTAIL]: Remove: archive file [/home/abi/fetcher/tmp/PyHEADTAIL-1.16.0.tar.gz]
+[2023-07-18 10:21:32] INFO root fetch - processPackages [PyHEADTAIL]: Remove: archive file [/home/abi/fetcher/tmp/PyHEADTAIL-1.16.1.tar.gz]
+[2023-07-18 10:21:32] INFO root fetch - main [MainThread]: End processing [PyHEADTAIL]: success
+[2023-07-18 10:21:32] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev4.tar.gz]
+[2023-07-18 10:21:32] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
+[2023-07-18 10:21:32] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-07-18 10:21:33] INFO root fetch - processPackages [zdatabase]: Remove: archive file [/home/abi/fetcher/tmp/zdatabase-0.5.5.tar.gz]
+[2023-07-18 10:21:33] INFO root fetch - processPackages [zdatabase]: Remove: archive file [/home/abi/fetcher/tmp/zdatabase-0.5.6.tar.gz]
+[2023-07-18 10:21:33] INFO root fetch - main [MainThread]: End processing [zdatabase]: success
+[2023-07-18 10:21:33] INFO root fetch - processPackages [scaleway]: Remove: archive file [/home/abi/fetcher/tmp/scaleway-0.8.0.tar.gz]
+[2023-07-18 10:21:33] INFO root fetch - processPackages [scaleway]: Remove: archive file [/home/abi/fetcher/tmp/scaleway-0.9.0.tar.gz]
+[2023-07-18 10:21:33] INFO root fetch - main [MainThread]: End processing [scaleway]: success
+[2023-07-18 10:21:33] INFO root fetch - processPackages [scaleway-async]: Remove: archive file [/home/abi/fetcher/tmp/scaleway_async-0.8.0.tar.gz]
+[2023-07-18 10:21:33] INFO root fetch - processPackages [scaleway-async]: Remove: archive file [/home/abi/fetcher/tmp/scaleway_async-0.9.0.tar.gz]
+[2023-07-18 10:21:33] INFO root fetch - main [MainThread]: End processing [scaleway-async]: success
+[2023-07-18 10:21:33] INFO root fetch - main [MainThread]: Store serial: [18930223]
