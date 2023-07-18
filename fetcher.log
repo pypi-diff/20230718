@@ -16429,3 +16429,108 @@
 [2023-07-18 08:29:53] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230718062736.tar.gz]
 [2023-07-18 08:29:53] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-07-18 08:29:53] INFO root fetch - main [MainThread]: Store serial: [18929206]
+[2023-07-18 08:34:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18929206]
+[2023-07-18 08:35:02] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-18 08:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PSIcheck
+[2023-07-18 08:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-07-18 08:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flux-burst
+[2023-07-18 08:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flux-burst-local
+[2023-07-18 08:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blocklist-aggregator
+[2023-07-18 08:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yz-core2
+[2023-07-18 08:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tree-sitter-languages
+[2023-07-18 08:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dnstap-pb
+[2023-07-18 08:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: TextClassification
+[2023-07-18 08:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sj-tool
+[2023-07-18 08:35:03] INFO root fetch - processPackages [yz-core2]: New version: [1.0.60] Old Version: [1.0.56b2]
+[2023-07-18 08:35:03] INFO root fetch - processPackages [dnstap-pb]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-18 08:35:03] INFO root fetch - processPackages [flux-burst]: New version: [0.0.15] Old Version: [0.0.14]
+[2023-07-18 08:35:03] INFO root fetch - processPackages [TextClassification]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-18 08:35:03] INFO root fetch - processPackages [blocklist-aggregator]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-18 08:35:03] INFO root fetch - processPackages [flux-burst-local]: New version: [0.0.11] Old Version: [0.0.1]
+[2023-07-18 08:35:03] INFO root fetch - processPackages [PSIcheck]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-18 08:35:03] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.87]
+[2023-07-18 08:35:03] INFO root fetch - processPackages [tree-sitter-languages]: New version: [1.7.0] Old Version: [1.6.1]
+[2023-07-18 08:35:03] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-18 08:35:03] INFO root fetch - processPackages [TextClassification]: Downloading https://files.pythonhosted.org/packages/72/b0/07a5bc4a6ce84960aec0cb5e4b1255a7298f9bb56ce9fdfc3e4a5022116e/TextClassification-0.1.7-py2.py3-none-any.whl
+[2023-07-18 08:35:03] INFO root fetch - processPackages [PSIcheck]: Downloading https://files.pythonhosted.org/packages/39/e3/7857411b3234f91ecaa2533426948add5937f15f9b9870a2a99ca26bf47e/PSIcheck-0.0.4.tar.gz
+[2023-07-18 08:35:03] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-07-18 08:35:03] INFO root fetch - processPackages [yz-core2]: Downloading https://files.pythonhosted.org/packages/9c/f7/e2bfdd8794266fb260dfcb5eb71da41465a2adab5d758d44e30c79217c3e/yz-core2-1.0.56b2.tar.gz
+[2023-07-18 08:35:03] INFO root fetch - processPackages [dnstap-pb]: Downloading https://files.pythonhosted.org/packages/5e/6d/86af123d749a528ebc9655806d8a8f7704d7193a96a98fd759f1c4c280e8/dnstap_pb-0.8.0.tar.gz
+[2023-07-18 08:35:03] INFO root fetch - processPackages [flux-burst-local]: Downloading https://files.pythonhosted.org/packages/33/16/b940e0675ed5e06b8157544f8e3e229c20834a3d5c323381e0f0906c097c/flux-burst-local-0.0.1.tar.gz
+[2023-07-18 08:35:03] INFO root fetch - processPackages [tree-sitter-languages]: Downloading https://files.pythonhosted.org/packages/36/7a/0ad24661e78c9c5c5f397608cd72f69c05a8662236f5d2a26d43bd7c085f/tree_sitter_languages-1.6.1-cp39-cp39-win_amd64.whl
+[2023-07-18 08:35:03] INFO root fetch - processPackages [flux-burst]: Downloading https://files.pythonhosted.org/packages/da/07/2d4abb19f1d8edfe598a51714cee1992c31d8c1ef2c3758358e19abe59c0/flux-burst-0.0.14.tar.gz
+[2023-07-18 08:35:03] INFO root fetch - processPackages [blocklist-aggregator]: Downloading https://files.pythonhosted.org/packages/f5/b3/38f95056823ba22ac1e9f7279bbb55fa0e4c3dc71bbab08d4d26ac9f74ab/blocklist_aggregator-0.8.0.tar.gz
+[2023-07-18 08:35:03] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/05/ef/d688a0d3d1ebbe290d856c8ce4a7474201b4a592c837fdaca5ab1dfb2b19/sj_tool-1.0.87-py3-none-any.whl
+[2023-07-18 08:35:03] INFO root fetch - processPackages [TextClassification]: Downloading https://files.pythonhosted.org/packages/76/29/68f7a14a19322610abb7a9cec7fbe26f2e7c01ec3e97446632eb98ca6dd9/TextClassification-0.1.8-py2.py3-none-any.whl
+[2023-07-18 08:35:03] INFO root fetch - processPackages [PSIcheck]: Downloading https://files.pythonhosted.org/packages/9e/7b/b7361e3d2c01221fefc99565df36e4637ad196f933eaa2a918803ebf7757/PSIcheck-0.0.5.tar.gz
+[2023-07-18 08:35:03] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-07-18 08:35:04] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-07-18 08:35:04] INFO root fetch - processPackages [TextClassification]: executing diffoscope
+[2023-07-18 08:35:04] INFO root fetch - processPackages [TextClassification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TextClassification-0.1.7-py2.py3-none-any.whl.zip tmp/TextClassification-0.1.8-py2.py3-none-any.whl.zip --markdown 20230718/T/TextClassification/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-18 08:35:04] INFO root fetch - processPackages [PSIcheck]: executing diffoscope
+[2023-07-18 08:35:04] INFO root fetch - processPackages [PSIcheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PSIcheck-0.0.4.tar.gz tmp/PSIcheck-0.0.5.tar.gz --markdown 20230718/P/PSIcheck/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-18 08:35:04] INFO root fetch - processPackages [flux-burst]: Downloading https://files.pythonhosted.org/packages/d2/0e/b997d6bacc6007543abf00eff16504d83547263ff0876eaf695ce09bb90b/flux-burst-0.0.15.tar.gz
+[2023-07-18 08:35:04] INFO root fetch - processPackages [dnstap-pb]: Downloading https://files.pythonhosted.org/packages/09/ef/62a5aa4c39dae3087e8316a65a8bb71e0ebd273845b5e0fc56f4ae7a22b1/dnstap_pb-0.9.0.tar.gz
+[2023-07-18 08:35:04] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-07-18 08:35:04] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.87-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230718/s/sj-tool/1.0.87-1.0.9/diff.md --exclude *.pyd
+[2023-07-18 08:35:04] INFO root fetch - processPackages [yz-core2]: Downloading https://files.pythonhosted.org/packages/a1/a8/5d56502649af703f4cc1f4a37e795f6dbe16b64538c1fda34752e1710201/yz-core2-1.0.60.tar.gz
+[2023-07-18 08:35:04] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-07-18 08:35:04] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230718/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-18 08:35:04] INFO root fetch - processPackages [blocklist-aggregator]: Downloading https://files.pythonhosted.org/packages/10/d8/822a09d31a9ddf0e134077c2087a254c02842afd357a3bb784655a9ec31d/blocklist_aggregator-0.9.0.tar.gz
+[2023-07-18 08:35:04] INFO root fetch - processPackages [flux-burst-local]: Downloading https://files.pythonhosted.org/packages/ed/98/48a2df262e29df1e6717ec0c02effbe2a60087023d1999cb9a23af6abcb7/flux-burst-local-0.0.11.tar.gz
+[2023-07-18 08:35:04] INFO root fetch - processPackages [flux-burst]: executing diffoscope
+[2023-07-18 08:35:04] INFO root fetch - processPackages [flux-burst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flux-burst-0.0.14.tar.gz tmp/flux-burst-0.0.15.tar.gz --markdown 20230718/f/flux-burst/0.0.14-0.0.15/diff.md --exclude *.pyd
+[2023-07-18 08:35:04] INFO root fetch - processPackages [dnstap-pb]: executing diffoscope
+[2023-07-18 08:35:04] INFO root fetch - processPackages [dnstap-pb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnstap_pb-0.8.0.tar.gz tmp/dnstap_pb-0.9.0.tar.gz --markdown 20230718/d/dnstap-pb/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-18 08:35:04] INFO root fetch - processPackages [yz-core2]: executing diffoscope
+[2023-07-18 08:35:04] INFO root fetch - processPackages [yz-core2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yz-core2-1.0.56b2.tar.gz tmp/yz-core2-1.0.60.tar.gz --markdown 20230718/y/yz-core2/1.0.56b2-1.0.60/diff.md --exclude *.pyd
+[2023-07-18 08:35:04] INFO root fetch - processPackages [blocklist-aggregator]: executing diffoscope
+[2023-07-18 08:35:04] INFO root fetch - processPackages [blocklist-aggregator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blocklist_aggregator-0.8.0.tar.gz tmp/blocklist_aggregator-0.9.0.tar.gz --markdown 20230718/b/blocklist-aggregator/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-18 08:35:04] INFO root fetch - processPackages [flux-burst-local]: executing diffoscope
+[2023-07-18 08:35:04] INFO root fetch - processPackages [flux-burst-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flux-burst-local-0.0.1.tar.gz tmp/flux-burst-local-0.0.11.tar.gz --markdown 20230718/f/flux-burst-local/0.0.1-0.0.11/diff.md --exclude *.pyd
+[2023-07-18 08:35:05] INFO root fetch - processPackages [tree-sitter-languages]: Downloading https://files.pythonhosted.org/packages/0e/5d/102674314eee0d9e7066310746dfb8861fbc0e62c5a98783165c0601b3a3/tree_sitter_languages-1.7.0-cp39-cp39-win_amd64.whl
+[2023-07-18 08:35:05] INFO root fetch - processPackages [PSIcheck]: Remove: archive file [/home/abi/fetcher/tmp/PSIcheck-0.0.4.tar.gz]
+[2023-07-18 08:35:05] INFO root fetch - processPackages [PSIcheck]: Remove: archive file [/home/abi/fetcher/tmp/PSIcheck-0.0.5.tar.gz]
+[2023-07-18 08:35:05] INFO root fetch - processPackages [PSIcheck]: Start processing: cavsiopy
+[2023-07-18 08:35:05] INFO root fetch - main [MainThread]: End processing [PSIcheck]: success
+[2023-07-18 08:35:05] INFO root fetch - processPackages [tree-sitter-languages]: executing diffoscope
+[2023-07-18 08:35:05] INFO root fetch - processPackages [tree-sitter-languages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree_sitter_languages-1.6.1-cp39-cp39-win_amd64.whl.zip tmp/tree_sitter_languages-1.7.0-cp39-cp39-win_amd64.whl.zip --markdown 20230718/t/tree-sitter-languages/1.6.1-1.7.0/diff.md --exclude *.pyd
+[2023-07-18 08:35:05] WARNING root fetch - processPackages [cavsiopy]: Skipping, unable to determine old version
+[2023-07-18 08:35:05] INFO root fetch - processPackages [cavsiopy]: Start processing: yz-core2
+[2023-07-18 08:35:05] INFO root fetch - main [MainThread]: End processing [cavsiopy] error
+[2023-07-18 08:35:05] INFO root fetch - processPackages [TextClassification]: Remove: archive file [/home/abi/fetcher/tmp/TextClassification-0.1.7-py2.py3-none-any.whl.zip]
+[2023-07-18 08:35:05] INFO root fetch - processPackages [TextClassification]: Remove: archive file [/home/abi/fetcher/tmp/TextClassification-0.1.8-py2.py3-none-any.whl.zip]
+[2023-07-18 08:35:05] INFO root fetch - main [MainThread]: End processing [TextClassification]: success
+[2023-07-18 08:35:05] INFO root fetch - processPackages [yz-core2]: New version: [1.0.61b1] Old Version: [1.0.60]
+[2023-07-18 08:35:05] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.87-py3-none-any.whl.zip]
+[2023-07-18 08:35:05] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-07-18 08:35:05] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-07-18 08:35:05] INFO root fetch - processPackages [dnstap-pb]: Remove: archive file [/home/abi/fetcher/tmp/dnstap_pb-0.8.0.tar.gz]
+[2023-07-18 08:35:05] INFO root fetch - processPackages [dnstap-pb]: Remove: archive file [/home/abi/fetcher/tmp/dnstap_pb-0.9.0.tar.gz]
+[2023-07-18 08:35:05] INFO root fetch - main [MainThread]: End processing [dnstap-pb]: success
+[2023-07-18 08:35:05] INFO root fetch - processPackages [blocklist-aggregator]: Remove: archive file [/home/abi/fetcher/tmp/blocklist_aggregator-0.8.0.tar.gz]
+[2023-07-18 08:35:05] INFO root fetch - processPackages [blocklist-aggregator]: Remove: archive file [/home/abi/fetcher/tmp/blocklist_aggregator-0.9.0.tar.gz]
+[2023-07-18 08:35:05] INFO root fetch - main [MainThread]: End processing [blocklist-aggregator]: success
+[2023-07-18 08:35:05] INFO root fetch - processPackages [yz-core2]: Downloading https://files.pythonhosted.org/packages/9e/6c/83896e069d7b11b7d878d0c9710ed6fb529465d66fe556f32851f5fc8dca/yz-core2-1.0.61b1.tar.gz
+[2023-07-18 08:35:06] INFO root fetch - processPackages [flux-burst]: Remove: archive file [/home/abi/fetcher/tmp/flux-burst-0.0.14.tar.gz]
+[2023-07-18 08:35:06] INFO root fetch - processPackages [flux-burst]: Remove: archive file [/home/abi/fetcher/tmp/flux-burst-0.0.15.tar.gz]
+[2023-07-18 08:35:06] INFO root fetch - main [MainThread]: End processing [flux-burst]: success
+[2023-07-18 08:35:06] INFO root fetch - processPackages [flux-burst-local]: Remove: archive file [/home/abi/fetcher/tmp/flux-burst-local-0.0.1.tar.gz]
+[2023-07-18 08:35:06] INFO root fetch - processPackages [flux-burst-local]: Remove: archive file [/home/abi/fetcher/tmp/flux-burst-local-0.0.11.tar.gz]
+[2023-07-18 08:35:06] INFO root fetch - main [MainThread]: End processing [flux-burst-local]: success
+[2023-07-18 08:35:06] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-07-18 08:35:06] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-07-18 08:35:06] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-07-18 08:35:06] INFO root fetch - processPackages [yz-core2]: executing diffoscope
+[2023-07-18 08:35:06] INFO root fetch - processPackages [yz-core2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yz-core2-1.0.60.tar.gz tmp/yz-core2-1.0.61b1.tar.gz --markdown 20230718/y/yz-core2/1.0.60-1.0.61b1/diff.md --exclude *.pyd
+[2023-07-18 08:35:06] INFO root fetch - processPackages [yz-core2]: Remove: archive file [/home/abi/fetcher/tmp/yz-core2-1.0.56b2.tar.gz]
+[2023-07-18 08:35:06] INFO root fetch - processPackages [yz-core2]: Remove: archive file [/home/abi/fetcher/tmp/yz-core2-1.0.60.tar.gz]
+[2023-07-18 08:35:06] INFO root fetch - main [MainThread]: End processing [yz-core2]: success
+[2023-07-18 08:35:06] ERROR root fetch - processPackages [yz-core2]: Diffoscope failed: time="2023-07-18T08:35:06+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/yz-core2-1.0.60.tar.gz: No such file or directory
+
+[2023-07-18 08:35:06] INFO root fetch - main [MainThread]: End processing [yz-core2] error
+[2023-07-18 08:35:56] INFO root fetch - processPackages [tree-sitter-languages]: Remove: archive file [/home/abi/fetcher/tmp/tree_sitter_languages-1.6.1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-18 08:35:56] INFO root fetch - processPackages [tree-sitter-languages]: Remove: archive file [/home/abi/fetcher/tmp/tree_sitter_languages-1.7.0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-18 08:35:56] INFO root fetch - main [MainThread]: End processing [tree-sitter-languages]: success
+[2023-07-18 08:35:56] INFO root fetch - main [MainThread]: Store serial: [18929283]
