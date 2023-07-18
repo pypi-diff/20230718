@@ -14189,3 +14189,121 @@
 [2023-07-18 07:10:46] INFO root fetch - processPackages [odoo12-addon-sale-order-line-date]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_sale_order_line_date-12.0.1.1.2.99.dev3-py3-none-any.whl.zip]
 [2023-07-18 07:10:46] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sale-order-line-date]: success
 [2023-07-18 07:10:46] INFO root fetch - main [MainThread]: Store serial: [18928322]
+[2023-07-18 07:15:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18928322]
+[2023-07-18 07:15:55] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-18 07:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: admobilizeapis
+[2023-07-18 07:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-sale-delivery-date
+[2023-07-18 07:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-sale-product-category-menu
+[2023-07-18 07:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: camtools
+[2023-07-18 07:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-sale-order-line-date
+[2023-07-18 07:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hsmm-mvpy
+[2023-07-18 07:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-sale-advance-payment
+[2023-07-18 07:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: camtools
+[2023-07-18 07:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pocketsearch
+[2023-07-18 07:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytorch-perf
+[2023-07-18 07:15:56] INFO root fetch - processPackages [camtools]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-18 07:15:56] INFO root fetch - processPackages [camtools]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-18 07:15:56] INFO root fetch - processPackages [odoo14-addon-sale-delivery-date]: New version: [14.0.1.1.1.dev3] Old Version: [14.0.1.1.1.dev2]
+[2023-07-18 07:15:56] INFO root fetch - processPackages [odoo14-addon-sale-product-category-menu]: New version: [14.0.1.0.2.dev9] Old Version: [14.0.1.0.2.dev8]
+[2023-07-18 07:15:56] INFO root fetch - processPackages [odoo14-addon-sale-advance-payment]: New version: [14.0.1.1.4.dev3] Old Version: [14.0.1.1.4.dev2]
+[2023-07-18 07:15:56] INFO root fetch - processPackages [pytorch-perf]: New version: [0.0.2] Old Version: [0.0.1.dev0]
+[2023-07-18 07:15:56] INFO root fetch - processPackages [odoo14-addon-sale-order-line-date]: New version: [14.0.1.2.1.dev1] Old Version: [14.0.1.2.0]
+[2023-07-18 07:15:56] INFO root fetch - processPackages [hsmm-mvpy]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-07-18 07:15:56] INFO root fetch - processPackages [pocketsearch]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-18 07:15:56] INFO root fetch - processPackages [admobilizeapis]: New version: [2023.7.18.post3] Old Version: [2023.7.18.post2]
+[2023-07-18 07:15:56] INFO root fetch - processPackages [hsmm-mvpy]: Downloading https://files.pythonhosted.org/packages/4d/b9/5a44e2109fa9213f64950ee2704f73c872d51119b88e0bdb8c5446b5c896/hsmm_mvpy-0.1.0b8.tar.gz
+[2023-07-18 07:15:56] INFO root fetch - processPackages [camtools]: Downloading https://files.pythonhosted.org/packages/ef/ad/e5a38c86f9e707366c60f5270dd25c306047bf7b0913d893c71f0f2e05f9/camtools-0.0.1-py3-none-any.whl
+[2023-07-18 07:15:56] INFO root fetch - processPackages [camtools]: Downloading https://files.pythonhosted.org/packages/ef/ad/e5a38c86f9e707366c60f5270dd25c306047bf7b0913d893c71f0f2e05f9/camtools-0.0.1-py3-none-any.whl
+[2023-07-18 07:15:56] INFO root fetch - processPackages [admobilizeapis]: Downloading https://files.pythonhosted.org/packages/f8/ec/795436e55d1f6fb7c18e25d8f049b28c84e5ad2315981586d7d2eb191287/admobilizeapis-2023.7.18.post2.tar.gz
+[2023-07-18 07:15:56] INFO root fetch - processPackages [odoo14-addon-sale-product-category-menu]: Downloading https://files.pythonhosted.org/packages/3d/b3/4bedfce96f093d66eb88c2f154c8f6fb4bd35f9aa715b70d370d2d0c2fb8/odoo14_addon_sale_product_category_menu-14.0.1.0.2.dev8-py3-none-any.whl
+[2023-07-18 07:15:56] INFO root fetch - processPackages [odoo14-addon-sale-delivery-date]: Downloading https://files.pythonhosted.org/packages/f7/ce/2b3fce423d038d1a3baf4fc56faf6dc36674d13cb22958f6076f7d672e6f/odoo14_addon_sale_delivery_date-14.0.1.1.1.dev2-py3-none-any.whl
+[2023-07-18 07:15:56] INFO root fetch - processPackages [odoo14-addon-sale-advance-payment]: Downloading https://files.pythonhosted.org/packages/32/cd/45142a0fd088939127ea202de711b93854ce43ff492a69a3623d18a81ce8/odoo14_addon_sale_advance_payment-14.0.1.1.4.dev2-py3-none-any.whl
+[2023-07-18 07:15:56] INFO root fetch - processPackages [pytorch-perf]: Downloading https://files.pythonhosted.org/packages/ba/89/852c0e0ff6fdef52488a9a97ce05921159651601a16e4e5b3fa94b8d73e9/pytorch-perf-0.0.1.dev0.tar.gz
+[2023-07-18 07:15:56] INFO root fetch - processPackages [odoo14-addon-sale-order-line-date]: Downloading https://files.pythonhosted.org/packages/36/2c/9660299000c0ba6a31fba98cb78b6bb1d672eec6aed8b8782cd5a4e37098/odoo14_addon_sale_order_line_date-14.0.1.2.0-py3-none-any.whl
+[2023-07-18 07:15:56] INFO root fetch - processPackages [pocketsearch]: Downloading https://files.pythonhosted.org/packages/0c/18/cbd0e41e7b40b18ec8a5a3773b4c72265f1083b37b655d4bd50a477e3fb6/pocketsearch-0.8.0.tar.gz
+[2023-07-18 07:15:56] INFO root fetch - processPackages [hsmm-mvpy]: Downloading https://files.pythonhosted.org/packages/d8/31/45994664bef4c0dd7674e718b4e4022a43c8ea7e17ef1523a865423fa960/hsmm_mvpy-0.1.0b9.tar.gz
+[2023-07-18 07:15:57] INFO root fetch - processPackages [camtools]: Downloading https://files.pythonhosted.org/packages/92/be/e07b945817321015fec8afe7ac70766731604c76cab03a8166af1e88b1cb/camtools-0.1.0.tar.gz
+[2023-07-18 07:15:57] INFO root fetch - processPackages [camtools]: Downloading https://files.pythonhosted.org/packages/92/be/e07b945817321015fec8afe7ac70766731604c76cab03a8166af1e88b1cb/camtools-0.1.0.tar.gz
+[2023-07-18 07:15:57] INFO root fetch - processPackages [admobilizeapis]: Downloading https://files.pythonhosted.org/packages/b4/6c/42030c148f6a5865b532171f15ec663e98166847d9a4406c22132b5c23bf/admobilizeapis-2023.7.18.post3.tar.gz
+[2023-07-18 07:15:57] INFO root fetch - processPackages [odoo14-addon-sale-order-line-date]: Downloading https://files.pythonhosted.org/packages/a9/07/921d13d5ca2bd2d48271efb6301d63ab864a82cc82f49ee471667f087ff2/odoo14_addon_sale_order_line_date-14.0.1.2.1.dev1-py3-none-any.whl
+[2023-07-18 07:15:57] INFO root fetch - processPackages [pytorch-perf]: Downloading https://files.pythonhosted.org/packages/ac/27/b8c14f755874af3cba8c8dce81c995f9fad234a8ad52558ac42f72ac5e9a/pytorch-perf-0.0.2.tar.gz
+[2023-07-18 07:15:57] INFO root fetch - processPackages [odoo14-addon-sale-product-category-menu]: Downloading https://files.pythonhosted.org/packages/94/28/4f1614111c910645cdeea3ed8ebdfaac262e5be1bbe4d882b27582920057/odoo14_addon_sale_product_category_menu-14.0.1.0.2.dev9-py3-none-any.whl
+[2023-07-18 07:15:57] INFO root fetch - processPackages [pocketsearch]: Downloading https://files.pythonhosted.org/packages/93/cd/299657c0dcc82b00210d53b49b5a909a37fbd6d20aa0c1b93585e9b2408d/pocketsearch-0.9.0.tar.gz
+[2023-07-18 07:15:57] INFO root fetch - processPackages [camtools]: executing diffoscope
+[2023-07-18 07:15:57] INFO root fetch - processPackages [camtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camtools-0.0.1-py3-none-any.whl.zip tmp/camtools-0.1.0.tar.gz --markdown 20230718/c/camtools/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-18 07:15:57] INFO root fetch - processPackages [camtools]: executing diffoscope
+[2023-07-18 07:15:57] INFO root fetch - processPackages [camtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camtools-0.0.1-py3-none-any.whl.zip tmp/camtools-0.1.0.tar.gz --markdown 20230718/c/camtools/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-18 07:15:57] INFO root fetch - processPackages [odoo14-addon-sale-delivery-date]: Downloading https://files.pythonhosted.org/packages/a3/e1/98103aed07a531c3da3d00d61734d620accb4c487fb463845b5ebec703c3/odoo14_addon_sale_delivery_date-14.0.1.1.1.dev3-py3-none-any.whl
+[2023-07-18 07:15:57] INFO root fetch - processPackages [hsmm-mvpy]: executing diffoscope
+[2023-07-18 07:15:57] INFO root fetch - processPackages [hsmm-mvpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hsmm_mvpy-0.1.0b8.tar.gz tmp/hsmm_mvpy-0.1.0b9.tar.gz --markdown 20230718/h/hsmm-mvpy/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-07-18 07:15:57] INFO root fetch - processPackages [odoo14-addon-sale-advance-payment]: Downloading https://files.pythonhosted.org/packages/d1/6c/491dea1c102ee7fb3dc871c0db5f62e6cb21415cf0b992d60db678deae76/odoo14_addon_sale_advance_payment-14.0.1.1.4.dev3-py3-none-any.whl
+[2023-07-18 07:15:57] INFO root fetch - processPackages [admobilizeapis]: executing diffoscope
+[2023-07-18 07:15:57] INFO root fetch - processPackages [admobilizeapis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/admobilizeapis-2023.7.18.post2.tar.gz tmp/admobilizeapis-2023.7.18.post3.tar.gz --markdown 20230718/a/admobilizeapis/2023.7.18.post2-2023.7.18.post3/diff.md --exclude *.pyd
+[2023-07-18 07:15:57] INFO root fetch - processPackages [odoo14-addon-sale-order-line-date]: executing diffoscope
+[2023-07-18 07:15:57] INFO root fetch - processPackages [odoo14-addon-sale-order-line-date]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_order_line_date-14.0.1.2.0-py3-none-any.whl.zip tmp/odoo14_addon_sale_order_line_date-14.0.1.2.1.dev1-py3-none-any.whl.zip --markdown 20230718/o/odoo14-addon-sale-order-line-date/14.0.1.2.0-14.0.1.2.1.dev1/diff.md --exclude *.pyd
+[2023-07-18 07:15:57] INFO root fetch - processPackages [pytorch-perf]: executing diffoscope
+[2023-07-18 07:15:57] INFO root fetch - processPackages [pytorch-perf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-perf-0.0.1.dev0.tar.gz tmp/pytorch-perf-0.0.2.tar.gz --markdown 20230718/p/pytorch-perf/0.0.1.dev0-0.0.2/diff.md --exclude *.pyd
+[2023-07-18 07:15:57] INFO root fetch - processPackages [odoo14-addon-sale-delivery-date]: executing diffoscope
+[2023-07-18 07:15:57] INFO root fetch - processPackages [odoo14-addon-sale-delivery-date]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_delivery_date-14.0.1.1.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_sale_delivery_date-14.0.1.1.1.dev3-py3-none-any.whl.zip --markdown 20230718/o/odoo14-addon-sale-delivery-date/14.0.1.1.1.dev2-14.0.1.1.1.dev3/diff.md --exclude *.pyd
+[2023-07-18 07:15:57] INFO root fetch - processPackages [odoo14-addon-sale-advance-payment]: executing diffoscope
+[2023-07-18 07:15:57] INFO root fetch - processPackages [odoo14-addon-sale-advance-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_advance_payment-14.0.1.1.4.dev2-py3-none-any.whl.zip tmp/odoo14_addon_sale_advance_payment-14.0.1.1.4.dev3-py3-none-any.whl.zip --markdown 20230718/o/odoo14-addon-sale-advance-payment/14.0.1.1.4.dev2-14.0.1.1.4.dev3/diff.md --exclude *.pyd
+[2023-07-18 07:15:57] INFO root fetch - processPackages [odoo14-addon-sale-product-category-menu]: executing diffoscope
+[2023-07-18 07:15:57] INFO root fetch - processPackages [odoo14-addon-sale-product-category-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_product_category_menu-14.0.1.0.2.dev8-py3-none-any.whl.zip tmp/odoo14_addon_sale_product_category_menu-14.0.1.0.2.dev9-py3-none-any.whl.zip --markdown 20230718/o/odoo14-addon-sale-product-category-menu/14.0.1.0.2.dev8-14.0.1.0.2.dev9/diff.md --exclude *.pyd
+[2023-07-18 07:15:58] INFO root fetch - processPackages [pocketsearch]: executing diffoscope
+[2023-07-18 07:15:58] INFO root fetch - processPackages [pocketsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pocketsearch-0.8.0.tar.gz tmp/pocketsearch-0.9.0.tar.gz --markdown 20230718/p/pocketsearch/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-18 07:15:58] INFO root fetch - processPackages [camtools]: Remove: archive file [/home/abi/fetcher/tmp/camtools-0.0.1-py3-none-any.whl.zip]
+[2023-07-18 07:15:58] INFO root fetch - processPackages [camtools]: Remove: archive file [/home/abi/fetcher/tmp/camtools-0.1.0.tar.gz]
+[2023-07-18 07:15:58] INFO root fetch - processPackages [camtools]: Start processing: nonebot-plugin-sayoroll
+[2023-07-18 07:15:58] INFO root fetch - main [MainThread]: End processing [camtools]: success
+[2023-07-18 07:15:58] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-18 07:15:58] INFO root fetch - processPackages [camtools]: Start processing: ec-ecology-toolbox
+[2023-07-18 07:15:58] INFO root fetch - main [MainThread]: End processing [camtools]: success
+[2023-07-18 07:15:58] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Downloading https://files.pythonhosted.org/packages/cd/ba/2e943ca094676e4a5bbc4025a0b3110fc53c0d4061b5bb8d45e616934c48/nonebot-plugin-sayoroll-0.2.4.tar.gz
+[2023-07-18 07:15:58] INFO root fetch - processPackages [ec-ecology-toolbox]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-07-18 07:15:58] INFO root fetch - processPackages [pytorch-perf]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-perf-0.0.1.dev0.tar.gz]
+[2023-07-18 07:15:58] INFO root fetch - processPackages [pytorch-perf]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-perf-0.0.2.tar.gz]
+[2023-07-18 07:15:58] INFO root fetch - processPackages [pytorch-perf]: Start processing: langsmith
+[2023-07-18 07:15:58] INFO root fetch - main [MainThread]: End processing [pytorch-perf]: success
+[2023-07-18 07:15:58] INFO root fetch - processPackages [ec-ecology-toolbox]: Downloading https://files.pythonhosted.org/packages/f5/41/e64e20779373c8f36b2829453369bf984153fa40dd647069fff26cff6cc1/ec_ecology_toolbox-0.0.6.tar.gz
+[2023-07-18 07:15:59] INFO root fetch - processPackages [odoo14-addon-sale-advance-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_advance_payment-14.0.1.1.4.dev2-py3-none-any.whl.zip]
+[2023-07-18 07:15:59] INFO root fetch - processPackages [odoo14-addon-sale-advance-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_advance_payment-14.0.1.1.4.dev3-py3-none-any.whl.zip]
+[2023-07-18 07:15:59] INFO root fetch - processPackages [langsmith]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 07:15:59] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-advance-payment]: success
+[2023-07-18 07:15:59] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Downloading https://files.pythonhosted.org/packages/bc/41/84abd75d9f1c46a16fe72f442fa82d04df3dd0396458204043158ab03625/nonebot-plugin-sayoroll-0.2.5.tar.gz
+[2023-07-18 07:15:59] INFO root fetch - processPackages [hsmm-mvpy]: Remove: archive file [/home/abi/fetcher/tmp/hsmm_mvpy-0.1.0b8.tar.gz]
+[2023-07-18 07:15:59] INFO root fetch - processPackages [hsmm-mvpy]: Remove: archive file [/home/abi/fetcher/tmp/hsmm_mvpy-0.1.0b9.tar.gz]
+[2023-07-18 07:15:59] INFO root fetch - main [MainThread]: End processing [hsmm-mvpy]: success
+[2023-07-18 07:15:59] INFO root fetch - processPackages [odoo14-addon-sale-delivery-date]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_delivery_date-14.0.1.1.1.dev2-py3-none-any.whl.zip]
+[2023-07-18 07:15:59] INFO root fetch - processPackages [odoo14-addon-sale-delivery-date]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_delivery_date-14.0.1.1.1.dev3-py3-none-any.whl.zip]
+[2023-07-18 07:15:59] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-delivery-date]: success
+[2023-07-18 07:15:59] INFO root fetch - processPackages [odoo14-addon-sale-order-line-date]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_order_line_date-14.0.1.2.0-py3-none-any.whl.zip]
+[2023-07-18 07:15:59] INFO root fetch - processPackages [odoo14-addon-sale-order-line-date]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_order_line_date-14.0.1.2.1.dev1-py3-none-any.whl.zip]
+[2023-07-18 07:15:59] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-order-line-date]: success
+[2023-07-18 07:15:59] INFO root fetch - processPackages [langsmith]: Downloading https://files.pythonhosted.org/packages/70/e8/f08f968adcbfa5134b56fd72a951d7bca0cf3c45e19f526a8e2eacfa377c/langsmith-0.0.8.tar.gz
+[2023-07-18 07:15:59] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: executing diffoscope
+[2023-07-18 07:15:59] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-sayoroll-0.2.4.tar.gz tmp/nonebot-plugin-sayoroll-0.2.5.tar.gz --markdown 20230718/n/nonebot-plugin-sayoroll/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-18 07:15:59] INFO root fetch - processPackages [odoo14-addon-sale-product-category-menu]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_product_category_menu-14.0.1.0.2.dev8-py3-none-any.whl.zip]
+[2023-07-18 07:15:59] INFO root fetch - processPackages [odoo14-addon-sale-product-category-menu]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_product_category_menu-14.0.1.0.2.dev9-py3-none-any.whl.zip]
+[2023-07-18 07:15:59] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-product-category-menu]: success
+[2023-07-18 07:15:59] INFO root fetch - processPackages [ec-ecology-toolbox]: Downloading https://files.pythonhosted.org/packages/15/d7/096ee708786e489abba107fbe6bebd2e6468246097db62abb5f09f21dd66/ec_ecology_toolbox-0.0.8.tar.gz
+[2023-07-18 07:15:59] INFO root fetch - processPackages [admobilizeapis]: Remove: archive file [/home/abi/fetcher/tmp/admobilizeapis-2023.7.18.post2.tar.gz]
+[2023-07-18 07:15:59] INFO root fetch - processPackages [admobilizeapis]: Remove: archive file [/home/abi/fetcher/tmp/admobilizeapis-2023.7.18.post3.tar.gz]
+[2023-07-18 07:15:59] INFO root fetch - main [MainThread]: End processing [admobilizeapis]: success
+[2023-07-18 07:15:59] INFO root fetch - processPackages [ec-ecology-toolbox]: executing diffoscope
+[2023-07-18 07:15:59] INFO root fetch - processPackages [ec-ecology-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ec_ecology_toolbox-0.0.6.tar.gz tmp/ec_ecology_toolbox-0.0.8.tar.gz --markdown 20230718/e/ec-ecology-toolbox/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2023-07-18 07:15:59] INFO root fetch - processPackages [pocketsearch]: Remove: archive file [/home/abi/fetcher/tmp/pocketsearch-0.8.0.tar.gz]
+[2023-07-18 07:15:59] INFO root fetch - processPackages [pocketsearch]: Remove: archive file [/home/abi/fetcher/tmp/pocketsearch-0.9.0.tar.gz]
+[2023-07-18 07:15:59] INFO root fetch - main [MainThread]: End processing [pocketsearch]: success
+[2023-07-18 07:15:59] INFO root fetch - processPackages [langsmith]: Downloading https://files.pythonhosted.org/packages/ea/40/b0e5e654b28ad105bb5168884b0ecdd39bd33af62489415cc34fb7f2738a/langsmith-0.0.9.tar.gz
+[2023-07-18 07:15:59] INFO root fetch - processPackages [langsmith]: executing diffoscope
+[2023-07-18 07:15:59] INFO root fetch - processPackages [langsmith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langsmith-0.0.8.tar.gz tmp/langsmith-0.0.9.tar.gz --markdown 20230718/l/langsmith/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 07:16:00] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-sayoroll-0.2.4.tar.gz]
+[2023-07-18 07:16:00] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-sayoroll-0.2.5.tar.gz]
+[2023-07-18 07:16:00] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sayoroll]: success
+[2023-07-18 07:16:00] INFO root fetch - processPackages [ec-ecology-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/ec_ecology_toolbox-0.0.6.tar.gz]
+[2023-07-18 07:16:00] INFO root fetch - processPackages [ec-ecology-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/ec_ecology_toolbox-0.0.8.tar.gz]
+[2023-07-18 07:16:00] INFO root fetch - main [MainThread]: End processing [ec-ecology-toolbox]: success
+[2023-07-18 07:16:00] INFO root fetch - processPackages [langsmith]: Remove: archive file [/home/abi/fetcher/tmp/langsmith-0.0.8.tar.gz]
+[2023-07-18 07:16:00] INFO root fetch - processPackages [langsmith]: Remove: archive file [/home/abi/fetcher/tmp/langsmith-0.0.9.tar.gz]
+[2023-07-18 07:16:00] INFO root fetch - main [MainThread]: End processing [langsmith]: success
+[2023-07-18 07:16:00] INFO root fetch - main [MainThread]: Store serial: [18928388]
