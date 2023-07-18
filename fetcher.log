@@ -18266,3 +18266,132 @@
 [2023-07-18 10:10:50] INFO root fetch - processPackages [frictionless]: Remove: archive file [/home/abi/fetcher/tmp/frictionless-5.8.3.tar.gz]
 [2023-07-18 10:10:50] INFO root fetch - main [MainThread]: End processing [frictionless]: success
 [2023-07-18 10:10:50] INFO root fetch - main [MainThread]: Store serial: [18930119]
+[2023-07-18 10:15:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18930119]
+[2023-07-18 10:15:59] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-18 10:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: remotemanager
+[2023-07-18 10:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rxn-utils
+[2023-07-18 10:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.projen-awscdk-construct
+[2023-07-18 10:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lite-fastapi-local
+[2023-07-18 10:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-pbx-admin
+[2023-07-18 10:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bohrium-sdk
+[2023-07-18 10:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: threetotheonehalfpy
+[2023-07-18 10:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dynamic-listing
+[2023-07-18 10:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sysplant
+[2023-07-18 10:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fastapi-serve
+[2023-07-18 10:15:59] INFO root fetch - processPackages [lite-fastapi-local]: New version: [0.0.34] Old Version: [0.0.33]
+[2023-07-18 10:15:59] INFO root fetch - processPackages [sysplant]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-07-18 10:15:59] WARNING root fetch - processPackages [threetotheonehalfpy]: Skipping, unable to determine old version
+[2023-07-18 10:15:59] INFO root fetch - processPackages [threetotheonehalfpy]: Start processing: pepperize.projen-awscdk-construct
+[2023-07-18 10:15:59] INFO root fetch - main [MainThread]: End processing [threetotheonehalfpy] error
+[2023-07-18 10:15:59] INFO root fetch - processPackages [remotemanager]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-07-18 10:15:59] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.3.dev9] Old Version: [0.0.3.dev8]
+[2023-07-18 10:16:00] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-18 10:16:00] INFO root fetch - processPackages [dynamic-listing]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 10:16:00] INFO root fetch - processPackages [django-pbx-admin]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-18 10:16:00] INFO root fetch - processPackages [rxn-utils]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-18 10:16:00] INFO root fetch - processPackages [bohrium-sdk]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-07-18 10:16:00] INFO root fetch - processPackages [lite-fastapi-local]: Downloading https://files.pythonhosted.org/packages/a7/ca/9417578fe933c44179ff92395c9ea73889f001c9e41299e477983ed06776/lite_fastapi_local-0.0.33.tar.gz
+[2023-07-18 10:16:00] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-18 10:16:00] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/48/14/b481649ead7842688b0b47b186531887a6b05ce42c5d3690a77b2492cfe6/fastapi-serve-0.0.3.dev8.tar.gz
+[2023-07-18 10:16:00] INFO root fetch - processPackages [sysplant]: Downloading https://files.pythonhosted.org/packages/1d/c1/c8fbfc83b42a32b0d62b903a5979a34825d1bde50627a22c056a8b12ff76/sysplant-0.1.4.tar.gz
+[2023-07-18 10:16:00] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/73/65/dda73a01dc2ff283b57f83a0bbc3f1c935027e6ee30e4e6bc15797d67da0/pepperize.projen-awscdk-construct-0.0.98.tar.gz
+[2023-07-18 10:16:00] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/fe/f6/f2e339ce589083f4f65551bf08d3db25bff753f9c1cd379988a6c55b60fd/remotemanager-0.8.4.tar.gz
+[2023-07-18 10:16:00] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/73/65/dda73a01dc2ff283b57f83a0bbc3f1c935027e6ee30e4e6bc15797d67da0/pepperize.projen-awscdk-construct-0.0.98.tar.gz
+[2023-07-18 10:16:00] INFO root fetch - processPackages [django-pbx-admin]: Downloading https://files.pythonhosted.org/packages/5d/89/1e07bfd3d252b2b5c525353006d441e9b58a55ac738e2b41a0ecfacf2008/django_pbx_admin-1.8.1-py3-none-any.whl
+[2023-07-18 10:16:00] INFO root fetch - processPackages [dynamic-listing]: Downloading https://files.pythonhosted.org/packages/b9/1c/386f8a4d9898b556ac1ea77338b7dc938e5b793a1acda5043cdf28168227/dynamic_listing-0.0.8.tar.gz
+[2023-07-18 10:16:00] INFO root fetch - processPackages [bohrium-sdk]: Downloading https://files.pythonhosted.org/packages/9e/af/c912fc0aed2c664b94d57cb7c2e778ce270201b6f7b5519aba3c426ae663/bohrium-sdk-0.3.2.tar.gz
+[2023-07-18 10:16:00] INFO root fetch - processPackages [rxn-utils]: Downloading https://files.pythonhosted.org/packages/b1/3b/0235b8ef1dbfa7f93fb33137ee945e621ecdd34739aa1444615fb6a04c55/rxn-utils-1.1.8.tar.gz
+[2023-07-18 10:16:00] INFO root fetch - processPackages [sysplant]: Downloading https://files.pythonhosted.org/packages/d2/67/ad8054fc73a97bd1bea9233982286189e82a1e648257bb64a6b5d122430a/sysplant-0.2.0.tar.gz
+[2023-07-18 10:16:00] INFO root fetch - processPackages [lite-fastapi-local]: Downloading https://files.pythonhosted.org/packages/01/5e/1dba0fdd8954269a638a82c48c77f42bb0ba91d24e83a77fcf81ace21f2d/lite_fastapi_local-0.0.34.tar.gz
+[2023-07-18 10:16:00] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/f5/d1/e1f4c78f27c0f4fcdd4024b42cd0ac56deada431e5cac3ce9363aec5c5dd/pepperize.projen-awscdk-construct-0.0.99.tar.gz
+[2023-07-18 10:16:00] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/f5/d1/e1f4c78f27c0f4fcdd4024b42cd0ac56deada431e5cac3ce9363aec5c5dd/pepperize.projen-awscdk-construct-0.0.99.tar.gz
+[2023-07-18 10:16:00] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/c1/ef/c33bb8ce90862ada7ac0e1cb284bc41af05415126105911cc824b193693d/fastapi-serve-0.0.3.dev9.tar.gz
+[2023-07-18 10:16:00] INFO root fetch - processPackages [lite-fastapi-local]: executing diffoscope
+[2023-07-18 10:16:00] INFO root fetch - processPackages [lite-fastapi-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lite_fastapi_local-0.0.33.tar.gz tmp/lite_fastapi_local-0.0.34.tar.gz --markdown 20230718/l/lite-fastapi-local/0.0.33-0.0.34/diff.md --exclude *.pyd
+[2023-07-18 10:16:00] INFO root fetch - processPackages [bohrium-sdk]: Downloading https://files.pythonhosted.org/packages/49/6f/e97268bb7d5d0b0883f6882748d9fa0d7ba2b3d0cb8cb12fb71de52490b7/bohrium-sdk-0.4.0.tar.gz
+[2023-07-18 10:16:00] INFO root fetch - processPackages [dynamic-listing]: Downloading https://files.pythonhosted.org/packages/ef/a9/9a0e51c2e2119793749260acf70d9f9c7b99354e26aab46693a058554382/dynamic_listing-0.0.9.tar.gz
+[2023-07-18 10:16:00] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/51/39/994b4b1d7e6744c4315d9508cc8426b61a6e2bbac79a0689478fbcb686d8/remotemanager-0.8.5.tar.gz
+[2023-07-18 10:16:00] INFO root fetch - processPackages [sysplant]: executing diffoscope
+[2023-07-18 10:16:00] INFO root fetch - processPackages [sysplant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sysplant-0.1.4.tar.gz tmp/sysplant-0.2.0.tar.gz --markdown 20230718/s/sysplant/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-07-18 10:16:01] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-18 10:16:01] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.3.dev8.tar.gz tmp/fastapi-serve-0.0.3.dev9.tar.gz --markdown 20230718/f/fastapi-serve/0.0.3.dev8-0.0.3.dev9/diff.md --exclude *.pyd
+[2023-07-18 10:16:01] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: executing diffoscope
+[2023-07-18 10:16:01] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz --markdown 20230718/p/pepperize.projen-awscdk-construct/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-18 10:16:01] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: executing diffoscope
+[2023-07-18 10:16:01] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz --markdown 20230718/p/pepperize.projen-awscdk-construct/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-18 10:16:01] INFO root fetch - processPackages [remotemanager]: executing diffoscope
+[2023-07-18 10:16:01] INFO root fetch - processPackages [rxn-utils]: Downloading https://files.pythonhosted.org/packages/93/05/fa6bfc057d61ef9cac25b8e4c990c3a29e1613e2b082864606cc019f9364/rxn-utils-1.1.9.tar.gz
+[2023-07-18 10:16:01] INFO root fetch - processPackages [remotemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotemanager-0.8.4.tar.gz tmp/remotemanager-0.8.5.tar.gz --markdown 20230718/r/remotemanager/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-07-18 10:16:01] INFO root fetch - processPackages [bohrium-sdk]: executing diffoscope
+[2023-07-18 10:16:01] INFO root fetch - processPackages [bohrium-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bohrium-sdk-0.3.2.tar.gz tmp/bohrium-sdk-0.4.0.tar.gz --markdown 20230718/b/bohrium-sdk/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-07-18 10:16:01] INFO root fetch - processPackages [dynamic-listing]: executing diffoscope
+[2023-07-18 10:16:01] INFO root fetch - processPackages [dynamic-listing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic_listing-0.0.8.tar.gz tmp/dynamic_listing-0.0.9.tar.gz --markdown 20230718/d/dynamic-listing/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 10:16:01] INFO root fetch - processPackages [rxn-utils]: executing diffoscope
+[2023-07-18 10:16:01] INFO root fetch - processPackages [rxn-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rxn-utils-1.1.8.tar.gz tmp/rxn-utils-1.1.9.tar.gz --markdown 20230718/r/rxn-utils/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-18 10:16:02] INFO root fetch - processPackages [lite-fastapi-local]: Remove: archive file [/home/abi/fetcher/tmp/lite_fastapi_local-0.0.33.tar.gz]
+[2023-07-18 10:16:02] INFO root fetch - processPackages [lite-fastapi-local]: Remove: archive file [/home/abi/fetcher/tmp/lite_fastapi_local-0.0.34.tar.gz]
+[2023-07-18 10:16:02] INFO root fetch - processPackages [lite-fastapi-local]: Start processing: pygwalker
+[2023-07-18 10:16:02] INFO root fetch - main [MainThread]: End processing [lite-fastapi-local]: success
+[2023-07-18 10:16:02] INFO root fetch - processPackages [pygwalker]: New version: [0.2.0a3] Old Version: [0.2.0a2]
+[2023-07-18 10:16:02] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.3.dev8.tar.gz]
+[2023-07-18 10:16:02] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.3.dev9.tar.gz]
+[2023-07-18 10:16:02] INFO root fetch - processPackages [fastapi-serve]: Start processing: nhssynth
+[2023-07-18 10:16:02] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-18 10:16:02] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz]
+[2023-07-18 10:16:02] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz]
+[2023-07-18 10:16:02] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Start processing: cg
+[2023-07-18 10:16:02] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-construct]: success
+[2023-07-18 10:16:02] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Start processing: airflowconversion
+[2023-07-18 10:16:02] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-construct]: success
+[2023-07-18 10:16:02] INFO root fetch - processPackages [bohrium-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bohrium-sdk-0.3.2.tar.gz]
+[2023-07-18 10:16:02] INFO root fetch - processPackages [bohrium-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bohrium-sdk-0.4.0.tar.gz]
+[2023-07-18 10:16:02] INFO root fetch - processPackages [bohrium-sdk]: Start processing: odoo-addon-dms
+[2023-07-18 10:16:02] INFO root fetch - main [MainThread]: End processing [bohrium-sdk]: success
+[2023-07-18 10:16:02] INFO root fetch - processPackages [nhssynth]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-07-18 10:16:02] INFO root fetch - processPackages [cg]: New version: [38.3.0] Old Version: [38.2.9]
+[2023-07-18 10:16:02] INFO root fetch - processPackages [django-pbx-admin]: Downloading https://files.pythonhosted.org/packages/9f/68/7cd5526d96c78fa3115fa7d469d50acb284144a6d6468ec29edac3ec09ff/django_pbx_admin-1.9.0-py3-none-any.whl
+[2023-07-18 10:16:02] INFO root fetch - processPackages [remotemanager]: Remove: archive file [/home/abi/fetcher/tmp/remotemanager-0.8.4.tar.gz]
+[2023-07-18 10:16:02] INFO root fetch - processPackages [remotemanager]: Remove: archive file [/home/abi/fetcher/tmp/remotemanager-0.8.5.tar.gz]
+[2023-07-18 10:16:02] INFO root fetch - main [MainThread]: End processing [remotemanager]: success
+[2023-07-18 10:16:02] INFO root fetch - processPackages [sysplant]: Remove: archive file [/home/abi/fetcher/tmp/sysplant-0.1.4.tar.gz]
+[2023-07-18 10:16:02] INFO root fetch - processPackages [sysplant]: Remove: archive file [/home/abi/fetcher/tmp/sysplant-0.2.0.tar.gz]
+[2023-07-18 10:16:02] INFO root fetch - main [MainThread]: End processing [sysplant]: success
+[2023-07-18 10:16:02] WARNING root fetch - processPackages [airflowconversion]: Skipping, unable to determine old version
+[2023-07-18 10:16:02] INFO root fetch - main [MainThread]: End processing [airflowconversion] error
+[2023-07-18 10:16:02] INFO root fetch - processPackages [pygwalker]: Downloading https://files.pythonhosted.org/packages/6b/7f/a9983998ac0c65e4597b3b556117c2185f78e2a0317ae5cbf7e2f1f34ca9/pygwalker-0.2.0a2.tar.gz
+[2023-07-18 10:16:03] INFO root fetch - processPackages [rxn-utils]: Remove: archive file [/home/abi/fetcher/tmp/rxn-utils-1.1.8.tar.gz]
+[2023-07-18 10:16:03] INFO root fetch - processPackages [rxn-utils]: Remove: archive file [/home/abi/fetcher/tmp/rxn-utils-1.1.9.tar.gz]
+[2023-07-18 10:16:03] INFO root fetch - main [MainThread]: End processing [rxn-utils]: success
+[2023-07-18 10:16:03] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/12/61/092ac5768b7a752e28fd6c78c1e24781eb4c35a6ba0617d4897246da39fa/cg-38.2.9.tar.gz
+[2023-07-18 10:16:03] INFO root fetch - processPackages [dynamic-listing]: Remove: archive file [/home/abi/fetcher/tmp/dynamic_listing-0.0.8.tar.gz]
+[2023-07-18 10:16:03] INFO root fetch - processPackages [dynamic-listing]: Remove: archive file [/home/abi/fetcher/tmp/dynamic_listing-0.0.9.tar.gz]
+[2023-07-18 10:16:03] INFO root fetch - main [MainThread]: End processing [dynamic-listing]: success
+[2023-07-18 10:16:03] INFO root fetch - processPackages [odoo-addon-dms]: New version: [15.0.1.8.1] Old Version: [15.0.1.8.0]
+[2023-07-18 10:16:03] INFO root fetch - processPackages [nhssynth]: Downloading https://files.pythonhosted.org/packages/ed/e9/e0eb90a4ca411fc1123b44d561ecb62d42bf21bc02d032c5b694eb59939b/nhssynth-0.3.1.tar.gz
+[2023-07-18 10:16:03] INFO root fetch - processPackages [odoo-addon-dms]: Downloading https://files.pythonhosted.org/packages/3c/e8/9501dd3118829d5fa6aa2975d15da81fb9c04d2d37aa86f962a1fc2743a4/odoo_addon_dms-15.0.1.8.0-py3-none-any.whl
+[2023-07-18 10:16:03] WARNING root fetch - processPackages [odoo-addon-dms]: Skipping package: exceeds size limit 15617163>=10485760
+[2023-07-18 10:16:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-dms] error
+[2023-07-18 10:16:03] INFO root fetch - processPackages [pygwalker]: Downloading https://files.pythonhosted.org/packages/97/1f/4b2ec19cd4724f06f582a46013bb2f3586fe4cd3af67e909dfd33d0cdc95/pygwalker-0.2.0a3.tar.gz
+[2023-07-18 10:16:03] INFO root fetch - processPackages [nhssynth]: Downloading https://files.pythonhosted.org/packages/56/7e/7b791190a589f3eaffb1e153fe0e57aac419c4c64fef2e5cee095547c03e/nhssynth-0.4.0.tar.gz
+[2023-07-18 10:16:03] INFO root fetch - processPackages [pygwalker]: executing diffoscope
+[2023-07-18 10:16:03] INFO root fetch - processPackages [pygwalker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygwalker-0.2.0a2.tar.gz tmp/pygwalker-0.2.0a3.tar.gz --markdown 20230718/p/pygwalker/0.2.0a2-0.2.0a3/diff.md --exclude *.pyd
+[2023-07-18 10:16:03] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/83/5f/7e884d7df0336b38b986bcfc02c425315032ee7555ce9696f7e0d24f5250/cg-38.3.0.tar.gz
+[2023-07-18 10:16:03] INFO root fetch - processPackages [nhssynth]: executing diffoscope
+[2023-07-18 10:16:03] INFO root fetch - processPackages [nhssynth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nhssynth-0.3.1.tar.gz tmp/nhssynth-0.4.0.tar.gz --markdown 20230718/n/nhssynth/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-07-18 10:16:03] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-07-18 10:16:03] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-38.2.9.tar.gz tmp/cg-38.3.0.tar.gz --markdown 20230718/c/cg/38.2.9-38.3.0/diff.md --exclude *.pyd
+[2023-07-18 10:16:04] INFO root fetch - processPackages [nhssynth]: Remove: archive file [/home/abi/fetcher/tmp/nhssynth-0.3.1.tar.gz]
+[2023-07-18 10:16:04] INFO root fetch - processPackages [nhssynth]: Remove: archive file [/home/abi/fetcher/tmp/nhssynth-0.4.0.tar.gz]
+[2023-07-18 10:16:04] INFO root fetch - main [MainThread]: End processing [nhssynth]: success
+[2023-07-18 10:16:05] INFO root fetch - processPackages [django-pbx-admin]: executing diffoscope
+[2023-07-18 10:16:05] INFO root fetch - processPackages [django-pbx-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_pbx_admin-1.8.1-py3-none-any.whl.zip tmp/django_pbx_admin-1.9.0-py3-none-any.whl.zip --markdown 20230718/d/django-pbx-admin/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-18 10:16:07] INFO root fetch - processPackages [django-pbx-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_pbx_admin-1.8.1-py3-none-any.whl.zip]
+[2023-07-18 10:16:07] INFO root fetch - processPackages [django-pbx-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_pbx_admin-1.9.0-py3-none-any.whl.zip]
+[2023-07-18 10:16:07] INFO root fetch - main [MainThread]: End processing [django-pbx-admin]: success
+[2023-07-18 10:16:09] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.2.9.tar.gz]
+[2023-07-18 10:16:09] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.3.0.tar.gz]
+[2023-07-18 10:16:09] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-07-18 10:16:19] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.2.0a2.tar.gz]
+[2023-07-18 10:16:19] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.2.0a3.tar.gz]
+[2023-07-18 10:16:19] INFO root fetch - main [MainThread]: End processing [pygwalker]: success
+[2023-07-18 10:16:19] INFO root fetch - main [MainThread]: Store serial: [18930168]
