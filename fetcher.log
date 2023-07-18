@@ -21220,3 +21220,127 @@ AssertionError: tmp/cellmap-1.0.1.dev202307180907-py3-none-any.whl.zip does not 
 [2023-07-18 11:57:03] INFO root fetch - processPackages [lino-react]: Remove: archive file [/home/abi/fetcher/tmp/lino_react-23.7.2.tar.gz]
 [2023-07-18 11:57:03] INFO root fetch - main [MainThread]: End processing [lino-react]: success
 [2023-07-18 11:57:03] INFO root fetch - main [MainThread]: Store serial: [18931311]
+[2023-07-18 12:02:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18931311]
+[2023-07-18 12:02:12] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-18 12:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: exchangecurrency
+[2023-07-18 12:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sflkit
+[2023-07-18 12:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfv
+[2023-07-18 12:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: green-tsetlin
+[2023-07-18 12:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: systembridgeconnector
+[2023-07-18 12:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ethrpc-accounts
+[2023-07-18 12:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: clargs
+[2023-07-18 12:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: systembridgeshared
+[2023-07-18 12:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytest-dryrun
+[2023-07-18 12:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lino-react
+[2023-07-18 12:02:12] INFO root fetch - processPackages [exchangecurrency]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-18 12:02:12] INFO root fetch - processPackages [lino-react]: New version: [23.7.2] Old Version: [23.7.1]
+[2023-07-18 12:02:12] WARNING root fetch - processPackages [ethrpc-accounts]: Skipping, unable to determine old version
+[2023-07-18 12:02:12] INFO root fetch - processPackages [ethrpc-accounts]: Start processing: airtest
+[2023-07-18 12:02:12] INFO root fetch - main [MainThread]: End processing [ethrpc-accounts] error
+[2023-07-18 12:02:12] INFO root fetch - processPackages [green-tsetlin]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-18 12:02:12] INFO root fetch - processPackages [clargs]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-18 12:02:12] INFO root fetch - processPackages [systembridgeconnector]: New version: [3.8.0.dev5] Old Version: [3.8.0.dev4]
+[2023-07-18 12:02:12] INFO root fetch - processPackages [systembridgeshared]: New version: [3.8.0.dev5] Old Version: [3.8.0.dev4]
+[2023-07-18 12:02:13] INFO root fetch - processPackages [tfv]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-18 12:02:13] INFO root fetch - processPackages [sflkit]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-18 12:02:13] INFO root fetch - processPackages [pytest-dryrun]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-07-18 12:02:13] INFO root fetch - processPackages [lino-react]: Downloading https://files.pythonhosted.org/packages/97/3b/9227e095d80416a67983cca93bc333df25ebbe51dc509ff990aa07d0d713/lino_react-23.7.1.tar.gz
+[2023-07-18 12:02:13] INFO root fetch - processPackages [airtest]: New version: [1.3.0.1] Old Version: [1.2.9.1]
+[2023-07-18 12:02:13] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/ec/e1/04eeeead1080b05d8eb65de67469ad24f4cdcfea4f50950ecac997b0d912/systembridgeconnector-3.8.0.dev4.tar.gz
+[2023-07-18 12:02:13] INFO root fetch - processPackages [systembridgeshared]: Downloading https://files.pythonhosted.org/packages/25/53/c2edb2fadd9468c928b43d882aac5fe4f3d8c36042b4c57a49c343d0e2de/systembridgeshared-3.8.0.dev4.tar.gz
+[2023-07-18 12:02:13] INFO root fetch - processPackages [exchangecurrency]: Downloading https://files.pythonhosted.org/packages/ee/d0/9b01e137345d1cc56df9b376140b386b5a14c9db77f289ed3843a36beece/exchangecurrency-0.1.0.tar.gz
+[2023-07-18 12:02:13] INFO root fetch - processPackages [clargs]: Downloading https://files.pythonhosted.org/packages/12/a3/5c892996407b59c9b200f2da46c388d566c274b12ba7ab70b4d1c458c9d5/clargs-0.5.0.tar.gz
+[2023-07-18 12:02:13] INFO root fetch - processPackages [green-tsetlin]: Downloading https://files.pythonhosted.org/packages/b2/a2/ca721f8da6e6fdee003fe483d35fdf334f92f4eb0706c1f1befd9a02f027/green_tsetlin-0.1.0.tar.gz
+[2023-07-18 12:02:13] INFO root fetch - processPackages [sflkit]: Downloading https://files.pythonhosted.org/packages/0c/de/3e9776eaf1ef199d6f446e1262198598c2534caf1c5b62d679d143717ba9/sflkit-0.2.0.tar.gz
+[2023-07-18 12:02:13] INFO root fetch - processPackages [tfv]: Downloading https://files.pythonhosted.org/packages/b9/c0/264221fe93bfba2fb7184b15746319bc2ecd1ec0612bfd823738bdc63c43/tfv-1.0.4.tar.gz
+[2023-07-18 12:02:13] INFO root fetch - processPackages [pytest-dryrun]: Downloading https://files.pythonhosted.org/packages/b7/b5/1ea56193cf2efaf8373d572a0c54d9718096aa9aca0a03f23aa9f6c46245/pytest_dryrun-0.1.0.tar.gz
+[2023-07-18 12:02:13] INFO root fetch - processPackages [airtest]: Downloading https://files.pythonhosted.org/packages/de/24/2430b387cf136c99f788ca498c1969399372e0d7a00e8f9339e70b749b43/airtest-1.2.9.1.tar.gz
+[2023-07-18 12:02:13] WARNING root fetch - processPackages [tfv]: Skipping package: exceeds size limit 20346727>=10485760
+[2023-07-18 12:02:13] INFO root fetch - processPackages [tfv]: Start processing: systembridgebackend
+[2023-07-18 12:02:13] INFO root fetch - main [MainThread]: End processing [tfv] error
+[2023-07-18 12:02:13] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/66/54/8bf1d7cea9c56e4a9a14465943037c6eb84c6c166d5e1879836a1661a3a5/systembridgeconnector-3.8.0.dev5.tar.gz
+[2023-07-18 12:02:13] INFO root fetch - processPackages [systembridgebackend]: New version: [3.8.0.dev5] Old Version: [3.7.0.dev1]
+[2023-07-18 12:02:13] INFO root fetch - processPackages [lino-react]: Downloading https://files.pythonhosted.org/packages/54/1f/d734d8434785318f2ccef85e7fe34ddbc4450cbbf73893a1794ece16cdef/lino_react-23.7.2.tar.gz
+[2023-07-18 12:02:13] WARNING root fetch - processPackages [airtest]: Skipping package: exceeds size limit 24919301>=10485760
+[2023-07-18 12:02:13] INFO root fetch - processPackages [airtest]: Start processing: ethrpc
+[2023-07-18 12:02:13] INFO root fetch - main [MainThread]: End processing [airtest] error
+[2023-07-18 12:02:13] INFO root fetch - processPackages [systembridgeshared]: Downloading https://files.pythonhosted.org/packages/48/b1/87a2363a98e8a18b7a6f1806bcbd1d066acde6135cbeca501c969b18d0d8/systembridgeshared-3.8.0.dev5.tar.gz
+[2023-07-18 12:02:13] INFO root fetch - processPackages [green-tsetlin]: Downloading https://files.pythonhosted.org/packages/68/86/fbff79af41a0a5f2770fde68ebc8290fc1db8e65034834547f402dfb0739/green_tsetlin-0.1.1.tar.gz
+[2023-07-18 12:02:13] INFO root fetch - processPackages [exchangecurrency]: Downloading https://files.pythonhosted.org/packages/20/f5/0bcffb9614e26ba55bbcb16003508541c558cc6765b78614f38078173eff/exchangecurrency-0.2.0.tar.gz
+[2023-07-18 12:02:13] INFO root fetch - processPackages [sflkit]: Downloading https://files.pythonhosted.org/packages/66/97/bf4e82a7c4b05f8a59562b316fd86168d0fbe58426d31d2121b0e298e1e9/sflkit-0.2.1.tar.gz
+[2023-07-18 12:02:13] INFO root fetch - processPackages [systembridgebackend]: Downloading https://files.pythonhosted.org/packages/59/9a/b8afe65ffc2994c3a5b053262cc3d7072738e7008d27b4d7d1310294c3f7/systembridgebackend-3.7.0.dev1.tar.gz
+[2023-07-18 12:02:13] INFO root fetch - processPackages [systembridgeconnector]: executing diffoscope
+[2023-07-18 12:02:13] INFO root fetch - processPackages [systembridgeconnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeconnector-3.8.0.dev4.tar.gz tmp/systembridgeconnector-3.8.0.dev5.tar.gz --markdown 20230718/s/systembridgeconnector/3.8.0.dev4-3.8.0.dev5/diff.md --exclude *.pyd
+[2023-07-18 12:02:13] INFO root fetch - processPackages [ethrpc]: New version: [6.6.3] Old Version: [6.6.2]
+[2023-07-18 12:02:13] INFO root fetch - processPackages [clargs]: Downloading https://files.pythonhosted.org/packages/f8/ea/54e13f5ba583f941cb599fa10e1839cdce84e6dc94d091fb84903ea9de09/clargs-0.5.1.tar.gz
+[2023-07-18 12:02:13] INFO root fetch - processPackages [pytest-dryrun]: Downloading https://files.pythonhosted.org/packages/1b/6e/feed1f2825bd0136a0c437a0d673f16f35c1bd25875e6f8a47ee80d4caec/pytest_dryrun-1.0.0.tar.gz
+[2023-07-18 12:02:14] INFO root fetch - processPackages [systembridgeshared]: executing diffoscope
+[2023-07-18 12:02:14] INFO root fetch - processPackages [systembridgeshared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeshared-3.8.0.dev4.tar.gz tmp/systembridgeshared-3.8.0.dev5.tar.gz --markdown 20230718/s/systembridgeshared/3.8.0.dev4-3.8.0.dev5/diff.md --exclude *.pyd
+[2023-07-18 12:02:14] INFO root fetch - processPackages [exchangecurrency]: executing diffoscope
+[2023-07-18 12:02:14] INFO root fetch - processPackages [exchangecurrency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exchangecurrency-0.1.0.tar.gz tmp/exchangecurrency-0.2.0.tar.gz --markdown 20230718/e/exchangecurrency/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-18 12:02:14] INFO root fetch - processPackages [lino-react]: executing diffoscope
+[2023-07-18 12:02:14] INFO root fetch - processPackages [lino-react]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lino_react-23.7.1.tar.gz tmp/lino_react-23.7.2.tar.gz --markdown 20230718/l/lino-react/23.7.1-23.7.2/diff.md --exclude *.pyd
+[2023-07-18 12:02:14] INFO root fetch - processPackages [sflkit]: executing diffoscope
+[2023-07-18 12:02:14] INFO root fetch - processPackages [sflkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sflkit-0.2.0.tar.gz tmp/sflkit-0.2.1.tar.gz --markdown 20230718/s/sflkit/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-18 12:02:14] INFO root fetch - processPackages [green-tsetlin]: executing diffoscope
+[2023-07-18 12:02:14] INFO root fetch - processPackages [green-tsetlin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/green_tsetlin-0.1.0.tar.gz tmp/green_tsetlin-0.1.1.tar.gz --markdown 20230718/g/green-tsetlin/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-18 12:02:14] INFO root fetch - processPackages [clargs]: executing diffoscope
+[2023-07-18 12:02:14] INFO root fetch - processPackages [clargs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clargs-0.5.0.tar.gz tmp/clargs-0.5.1.tar.gz --markdown 20230718/c/clargs/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-18 12:02:14] INFO root fetch - processPackages [pytest-dryrun]: executing diffoscope
+[2023-07-18 12:02:14] INFO root fetch - processPackages [pytest-dryrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_dryrun-0.1.0.tar.gz tmp/pytest_dryrun-1.0.0.tar.gz --markdown 20230718/p/pytest-dryrun/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-18 12:02:14] INFO root fetch - processPackages [ethrpc]: Downloading https://files.pythonhosted.org/packages/a4/a7/9834f663aa720a58cc51aebccd8129604830f910970f6cbe207156aaf9ec/ethrpc-6.6.2.tar.gz
+[2023-07-18 12:02:14] INFO root fetch - processPackages [systembridgebackend]: Downloading https://files.pythonhosted.org/packages/78/b1/941487fb324f6ecee01066c950515e5f9501a279626db56753490360e59d/systembridgebackend-3.8.0.dev5.tar.gz
+[2023-07-18 12:02:14] INFO root fetch - processPackages [systembridgebackend]: executing diffoscope
+[2023-07-18 12:02:14] INFO root fetch - processPackages [systembridgebackend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgebackend-3.7.0.dev1.tar.gz tmp/systembridgebackend-3.8.0.dev5.tar.gz --markdown 20230718/s/systembridgebackend/3.7.0.dev1-3.8.0.dev5/diff.md --exclude *.pyd
+[2023-07-18 12:02:14] INFO root fetch - processPackages [ethrpc]: Downloading https://files.pythonhosted.org/packages/a3/5b/e9c0794f5f3eee1673698f68f2aff6517cf54b2076e50b2674071f6fc384/ethrpc-6.6.3.tar.gz
+[2023-07-18 12:02:15] INFO root fetch - processPackages [ethrpc]: executing diffoscope
+[2023-07-18 12:02:15] INFO root fetch - processPackages [ethrpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethrpc-6.6.2.tar.gz tmp/ethrpc-6.6.3.tar.gz --markdown 20230718/e/ethrpc/6.6.2-6.6.3/diff.md --exclude *.pyd
+[2023-07-18 12:02:15] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-3.8.0.dev4.tar.gz]
+[2023-07-18 12:02:15] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-3.8.0.dev5.tar.gz]
+[2023-07-18 12:02:15] INFO root fetch - processPackages [systembridgeconnector]: Start processing: pglift
+[2023-07-18 12:02:15] INFO root fetch - main [MainThread]: End processing [systembridgeconnector]: success
+[2023-07-18 12:02:15] INFO root fetch - processPackages [pglift]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-18 12:02:15] INFO root fetch - processPackages [exchangecurrency]: Remove: archive file [/home/abi/fetcher/tmp/exchangecurrency-0.1.0.tar.gz]
+[2023-07-18 12:02:15] INFO root fetch - processPackages [exchangecurrency]: Remove: archive file [/home/abi/fetcher/tmp/exchangecurrency-0.2.0.tar.gz]
+[2023-07-18 12:02:15] INFO root fetch - processPackages [exchangecurrency]: Start processing: systembridgecli
+[2023-07-18 12:02:15] INFO root fetch - main [MainThread]: End processing [exchangecurrency]: success
+[2023-07-18 12:02:15] INFO root fetch - processPackages [pytest-dryrun]: Remove: archive file [/home/abi/fetcher/tmp/pytest_dryrun-0.1.0.tar.gz]
+[2023-07-18 12:02:15] INFO root fetch - processPackages [pytest-dryrun]: Remove: archive file [/home/abi/fetcher/tmp/pytest_dryrun-1.0.0.tar.gz]
+[2023-07-18 12:02:15] INFO root fetch - main [MainThread]: End processing [pytest-dryrun]: success
+[2023-07-18 12:02:15] INFO root fetch - processPackages [systembridgecli]: New version: [3.8.0.dev5] Old Version: [3.7.0.dev1]
+[2023-07-18 12:02:15] INFO root fetch - processPackages [clargs]: Remove: archive file [/home/abi/fetcher/tmp/clargs-0.5.0.tar.gz]
+[2023-07-18 12:02:15] INFO root fetch - processPackages [clargs]: Remove: archive file [/home/abi/fetcher/tmp/clargs-0.5.1.tar.gz]
+[2023-07-18 12:02:15] INFO root fetch - main [MainThread]: End processing [clargs]: success
+[2023-07-18 12:02:15] INFO root fetch - processPackages [systembridgecli]: Downloading https://files.pythonhosted.org/packages/97/6b/b594c33b5cc902fdf97d11006034cf48f896262fe5c3389cad1a84a87b9e/systembridgecli-3.7.0.dev1.tar.gz
+[2023-07-18 12:02:15] INFO root fetch - processPackages [systembridgeshared]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeshared-3.8.0.dev4.tar.gz]
+[2023-07-18 12:02:15] INFO root fetch - processPackages [systembridgeshared]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeshared-3.8.0.dev5.tar.gz]
+[2023-07-18 12:02:15] INFO root fetch - main [MainThread]: End processing [systembridgeshared]: success
+[2023-07-18 12:02:15] INFO root fetch - processPackages [pglift]: Downloading https://files.pythonhosted.org/packages/7d/27/d1f439d5f6d33d6b8dc6c0e851cb59f4592e14f49365386c600c6af68718/pglift-0.8.0.tar.gz
+[2023-07-18 12:02:16] INFO root fetch - processPackages [sflkit]: Remove: archive file [/home/abi/fetcher/tmp/sflkit-0.2.0.tar.gz]
+[2023-07-18 12:02:16] INFO root fetch - processPackages [sflkit]: Remove: archive file [/home/abi/fetcher/tmp/sflkit-0.2.1.tar.gz]
+[2023-07-18 12:02:16] INFO root fetch - main [MainThread]: End processing [sflkit]: success
+[2023-07-18 12:02:16] INFO root fetch - processPackages [systembridgebackend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgebackend-3.7.0.dev1.tar.gz]
+[2023-07-18 12:02:16] INFO root fetch - processPackages [systembridgebackend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgebackend-3.8.0.dev5.tar.gz]
+[2023-07-18 12:02:16] INFO root fetch - main [MainThread]: End processing [systembridgebackend]: success
+[2023-07-18 12:02:16] INFO root fetch - processPackages [pglift]: Downloading https://files.pythonhosted.org/packages/e2/f7/2e0ded87c196da325d82fbf455b25ffd39ead24ac9e7946a7782ddabfc13/pglift-0.9.0.tar.gz
+[2023-07-18 12:02:16] INFO root fetch - processPackages [green-tsetlin]: Remove: archive file [/home/abi/fetcher/tmp/green_tsetlin-0.1.0.tar.gz]
+[2023-07-18 12:02:16] INFO root fetch - processPackages [green-tsetlin]: Remove: archive file [/home/abi/fetcher/tmp/green_tsetlin-0.1.1.tar.gz]
+[2023-07-18 12:02:16] INFO root fetch - main [MainThread]: End processing [green-tsetlin]: success
+[2023-07-18 12:02:16] INFO root fetch - processPackages [systembridgecli]: Downloading https://files.pythonhosted.org/packages/15/25/4f5aa9826feb8b91c8ebe697fbc43b6ef51a4289c2d98953d7e0dc6c891a/systembridgecli-3.8.0.dev5.tar.gz
+[2023-07-18 12:02:16] INFO root fetch - processPackages [systembridgecli]: executing diffoscope
+[2023-07-18 12:02:16] INFO root fetch - processPackages [systembridgecli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgecli-3.7.0.dev1.tar.gz tmp/systembridgecli-3.8.0.dev5.tar.gz --markdown 20230718/s/systembridgecli/3.7.0.dev1-3.8.0.dev5/diff.md --exclude *.pyd
+[2023-07-18 12:02:16] INFO root fetch - processPackages [pglift]: executing diffoscope
+[2023-07-18 12:02:16] INFO root fetch - processPackages [pglift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pglift-0.8.0.tar.gz tmp/pglift-0.9.0.tar.gz --markdown 20230718/p/pglift/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-18 12:02:17] INFO root fetch - processPackages [systembridgecli]: Remove: archive file [/home/abi/fetcher/tmp/systembridgecli-3.7.0.dev1.tar.gz]
+[2023-07-18 12:02:17] INFO root fetch - processPackages [systembridgecli]: Remove: archive file [/home/abi/fetcher/tmp/systembridgecli-3.8.0.dev5.tar.gz]
+[2023-07-18 12:02:17] INFO root fetch - main [MainThread]: End processing [systembridgecli]: success
+[2023-07-18 12:02:17] INFO root fetch - processPackages [ethrpc]: Remove: archive file [/home/abi/fetcher/tmp/ethrpc-6.6.2.tar.gz]
+[2023-07-18 12:02:17] INFO root fetch - processPackages [ethrpc]: Remove: archive file [/home/abi/fetcher/tmp/ethrpc-6.6.3.tar.gz]
+[2023-07-18 12:02:17] INFO root fetch - main [MainThread]: End processing [ethrpc]: success
+[2023-07-18 12:02:18] INFO root fetch - processPackages [pglift]: Remove: archive file [/home/abi/fetcher/tmp/pglift-0.8.0.tar.gz]
+[2023-07-18 12:02:18] INFO root fetch - processPackages [pglift]: Remove: archive file [/home/abi/fetcher/tmp/pglift-0.9.0.tar.gz]
+[2023-07-18 12:02:18] INFO root fetch - main [MainThread]: End processing [pglift]: success
+[2023-07-18 12:02:26] INFO root fetch - processPackages [lino-react]: Remove: archive file [/home/abi/fetcher/tmp/lino_react-23.7.1.tar.gz]
+[2023-07-18 12:02:26] INFO root fetch - processPackages [lino-react]: Remove: archive file [/home/abi/fetcher/tmp/lino_react-23.7.2.tar.gz]
+[2023-07-18 12:02:26] INFO root fetch - main [MainThread]: End processing [lino-react]: success
+[2023-07-18 12:02:26] INFO root fetch - main [MainThread]: Store serial: [18931361]
