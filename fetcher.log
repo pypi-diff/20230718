@@ -17095,3 +17095,114 @@
 [2023-07-18 09:07:31] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
 [2023-07-18 09:07:31] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
 [2023-07-18 09:07:31] INFO root fetch - main [MainThread]: Store serial: [18929502]
+[2023-07-18 09:12:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18929502]
+[2023-07-18 09:12:40] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-18 09:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lite-fastapi-local
+[2023-07-18 09:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clife-svc
+[2023-07-18 09:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pquisby
+[2023-07-18 09:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gfx-perp-python-sdk
+[2023-07-18 09:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ndp-app-versioncontrol
+[2023-07-18 09:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cenas
+[2023-07-18 09:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bolt11
+[2023-07-18 09:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tmsproviderapisdk
+[2023-07-18 09:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lesscode-utils
+[2023-07-18 09:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: TinetApiRequest
+[2023-07-18 09:12:41] INFO root fetch - processPackages [lite-fastapi-local]: New version: [0.0.32] Old Version: [0.0.31]
+[2023-07-18 09:12:41] INFO root fetch - processPackages [cenas]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-18 09:12:41] INFO root fetch - processPackages [pquisby]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 09:12:41] INFO root fetch - processPackages [clife-svc]: New version: [1.15] Old Version: [1.14]
+[2023-07-18 09:12:41] INFO root fetch - processPackages [ndp-app-versioncontrol]: New version: [1.8] Old Version: [1.7]
+[2023-07-18 09:12:41] INFO root fetch - processPackages [lesscode-utils]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-18 09:12:41] INFO root fetch - processPackages [tmsproviderapisdk]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-18 09:12:41] INFO root fetch - processPackages [gfx-perp-python-sdk]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-18 09:12:41] INFO root fetch - processPackages [bolt11]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-18 09:12:41] INFO root fetch - processPackages [TinetApiRequest]: New version: [0.1.9.1] Old Version: [0.1.9]
+[2023-07-18 09:12:41] INFO root fetch - processPackages [lite-fastapi-local]: Downloading https://files.pythonhosted.org/packages/e3/b7/a16a1b95678c313311d141d7d0de3ee52fac87d7a2d8e6669a8b9da5ff0c/lite_fastapi_local-0.0.31.tar.gz
+[2023-07-18 09:12:41] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/ad/ad/8e6ac29153c6369e5cbdf21108e60070080d9d4978e3a1a5f20be7b9492b/cenas-1.1.8.tar.gz
+[2023-07-18 09:12:41] INFO root fetch - processPackages [pquisby]: Downloading https://files.pythonhosted.org/packages/d6/f1/7aed93fd661f571cdbbe3669f13929d38cd97f0fadd0dbb35fe072e546f0/pquisby-0.0.8.tar.gz
+[2023-07-18 09:12:41] INFO root fetch - processPackages [ndp-app-versioncontrol]: Downloading https://files.pythonhosted.org/packages/54/2b/16de393b233db417eeae4cca5c9a638177b17c6f045be3325f4372e3f531/ndp-app-versioncontrol-1.7.tar.gz
+[2023-07-18 09:12:41] INFO root fetch - processPackages [lesscode-utils]: Downloading https://files.pythonhosted.org/packages/bc/61/b0dce2dc54ed333aef177686abdce1caed9cc0f3760ab0323ea28efdd0a1/lesscode_utils-0.0.0.tar.gz
+[2023-07-18 09:12:41] INFO root fetch - processPackages [clife-svc]: Downloading https://files.pythonhosted.org/packages/93/d3/52232d5bc7703dfdb6b35ae3d9340c1cefbe0cd6481138f75a6189135c00/clife_svc-1.14.tar.gz
+[2023-07-18 09:12:41] INFO root fetch - processPackages [gfx-perp-python-sdk]: Downloading https://files.pythonhosted.org/packages/9b/46/64bc455cd22235f6c8b3cc85e34757ccd0c1bd3f566f5ead748a2a1bf279/gfx_perp_python_sdk-0.0.5.tar.gz
+[2023-07-18 09:12:41] INFO root fetch - processPackages [tmsproviderapisdk]: Downloading https://files.pythonhosted.org/packages/32/87/d169b196841fd98a9d0bdc8e165587255dc0c9a19f2c3e17e9b7682a0711/tmsproviderapisdk-0.1.2.tar.gz
+[2023-07-18 09:12:41] INFO root fetch - processPackages [bolt11]: Downloading https://files.pythonhosted.org/packages/8e/e8/78b6225646c1a671635f0ff6f843c7325bbc3bcd613b63234b1961c49d76/bolt11-1.0.2.tar.gz
+[2023-07-18 09:12:41] INFO root fetch - processPackages [TinetApiRequest]: Downloading https://files.pythonhosted.org/packages/4a/9b/61417a017b76c37a0abfec87fc99d718d125c05556631fe1f6e297381c7a/TinetApiRequest-0.1.9.tar.gz
+[2023-07-18 09:12:41] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/37/ba/9662c92e6a20bfb5bcfc4f81bef895566ee63c5d4018c2cae825c1c94e21/cenas-1.1.9.tar.gz
+[2023-07-18 09:12:41] INFO root fetch - processPackages [lite-fastapi-local]: Downloading https://files.pythonhosted.org/packages/d3/a8/51adabab709a8e8402ab533ec98e31bc05d24e943d79f2a5649e61fc3a19/lite_fastapi_local-0.0.32.tar.gz
+[2023-07-18 09:12:41] INFO root fetch - processPackages [pquisby]: Downloading https://files.pythonhosted.org/packages/d4/91/3e9961a55c54049d417b63c641b25bb1b00bc7235a425b5a0115b8e32455/pquisby-0.0.9.tar.gz
+[2023-07-18 09:12:42] INFO root fetch - processPackages [ndp-app-versioncontrol]: Downloading https://files.pythonhosted.org/packages/46/51/58ef4f9d0af95f200bf10a7fe51591e5649d54ca593f070e697599f2fec0/ndp-app-versioncontrol-1.8.tar.gz
+[2023-07-18 09:12:42] INFO root fetch - processPackages [lesscode-utils]: Downloading https://files.pythonhosted.org/packages/c7/47/e00ab04ceb76f74a09afb44cecb42c029ddb154b6b6a48232da20d16501d/lesscode_utils-0.0.1.tar.gz
+[2023-07-18 09:12:42] INFO root fetch - processPackages [clife-svc]: Downloading https://files.pythonhosted.org/packages/95/34/8bdaaa6f448f2b6d2c3d5df5616be314ff8d0a7395dc38af8a60a5d58a83/clife_svc-1.15.tar.gz
+[2023-07-18 09:12:42] INFO root fetch - processPackages [cenas]: executing diffoscope
+[2023-07-18 09:12:42] INFO root fetch - processPackages [cenas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cenas-1.1.8.tar.gz tmp/cenas-1.1.9.tar.gz --markdown 20230718/c/cenas/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-18 09:12:42] INFO root fetch - processPackages [gfx-perp-python-sdk]: Downloading https://files.pythonhosted.org/packages/bd/fb/d4ce01d1b7193ea233928f4cf0098aa97f77c14605c1d83467ae144b671f/gfx_perp_python_sdk-0.0.6.tar.gz
+[2023-07-18 09:12:42] INFO root fetch - processPackages [tmsproviderapisdk]: Downloading https://files.pythonhosted.org/packages/0f/92/06e20ba1677a0cdb2e37ddca52bb9a8c2696a526c82bcbadd59c983ebc95/tmsproviderapisdk-0.1.3.tar.gz
+[2023-07-18 09:12:42] INFO root fetch - processPackages [pquisby]: executing diffoscope
+[2023-07-18 09:12:42] INFO root fetch - processPackages [pquisby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pquisby-0.0.8.tar.gz tmp/pquisby-0.0.9.tar.gz --markdown 20230718/p/pquisby/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 09:12:42] INFO root fetch - processPackages [TinetApiRequest]: Downloading https://files.pythonhosted.org/packages/04/f4/c53ba21253f715362560571cf68bd00a605fe689f10446c753afb60948b4/TinetApiRequest-0.1.9.1.tar.gz
+[2023-07-18 09:12:42] INFO root fetch - processPackages [lite-fastapi-local]: executing diffoscope
+[2023-07-18 09:12:42] INFO root fetch - processPackages [lite-fastapi-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lite_fastapi_local-0.0.31.tar.gz tmp/lite_fastapi_local-0.0.32.tar.gz --markdown 20230718/l/lite-fastapi-local/0.0.31-0.0.32/diff.md --exclude *.pyd
+[2023-07-18 09:12:42] INFO root fetch - processPackages [bolt11]: Downloading https://files.pythonhosted.org/packages/43/ff/b60c3f69a5e20ffc9123772d3340121f8c152f4a4f56dd3a1da605289102/bolt11-1.0.3.tar.gz
+[2023-07-18 09:12:42] INFO root fetch - processPackages [lesscode-utils]: executing diffoscope
+[2023-07-18 09:12:42] INFO root fetch - processPackages [lesscode-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_utils-0.0.0.tar.gz tmp/lesscode_utils-0.0.1.tar.gz --markdown 20230718/l/lesscode-utils/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-18 09:12:42] INFO root fetch - processPackages [ndp-app-versioncontrol]: executing diffoscope
+[2023-07-18 09:12:42] INFO root fetch - processPackages [ndp-app-versioncontrol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ndp-app-versioncontrol-1.7.tar.gz tmp/ndp-app-versioncontrol-1.8.tar.gz --markdown 20230718/n/ndp-app-versioncontrol/1.7-1.8/diff.md --exclude *.pyd
+[2023-07-18 09:12:42] INFO root fetch - processPackages [tmsproviderapisdk]: executing diffoscope
+[2023-07-18 09:12:42] INFO root fetch - processPackages [tmsproviderapisdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmsproviderapisdk-0.1.2.tar.gz tmp/tmsproviderapisdk-0.1.3.tar.gz --markdown 20230718/t/tmsproviderapisdk/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-18 09:12:42] INFO root fetch - processPackages [clife-svc]: executing diffoscope
+[2023-07-18 09:12:42] INFO root fetch - processPackages [TinetApiRequest]: executing diffoscope
+[2023-07-18 09:12:42] INFO root fetch - processPackages [clife-svc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clife_svc-1.14.tar.gz tmp/clife_svc-1.15.tar.gz --markdown 20230718/c/clife-svc/1.14-1.15/diff.md --exclude *.pyd
+[2023-07-18 09:12:42] INFO root fetch - processPackages [TinetApiRequest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TinetApiRequest-0.1.9.tar.gz tmp/TinetApiRequest-0.1.9.1.tar.gz --markdown 20230718/T/TinetApiRequest/0.1.9-0.1.9.1/diff.md --exclude *.pyd
+[2023-07-18 09:12:42] INFO root fetch - processPackages [gfx-perp-python-sdk]: executing diffoscope
+[2023-07-18 09:12:42] INFO root fetch - processPackages [gfx-perp-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gfx_perp_python_sdk-0.0.5.tar.gz tmp/gfx_perp_python_sdk-0.0.6.tar.gz --markdown 20230718/g/gfx-perp-python-sdk/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-18 09:12:42] INFO root fetch - processPackages [bolt11]: executing diffoscope
+[2023-07-18 09:12:42] INFO root fetch - processPackages [bolt11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bolt11-1.0.2.tar.gz tmp/bolt11-1.0.3.tar.gz --markdown 20230718/b/bolt11/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-18 09:12:43] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.8.tar.gz]
+[2023-07-18 09:12:43] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.9.tar.gz]
+[2023-07-18 09:12:43] INFO root fetch - processPackages [cenas]: Start processing: streamlit-nightly
+[2023-07-18 09:12:43] INFO root fetch - main [MainThread]: End processing [cenas]: success
+[2023-07-18 09:12:43] INFO root fetch - processPackages [lesscode-utils]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_utils-0.0.0.tar.gz]
+[2023-07-18 09:12:43] INFO root fetch - processPackages [lesscode-utils]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_utils-0.0.1.tar.gz]
+[2023-07-18 09:12:43] INFO root fetch - processPackages [lesscode-utils]: Start processing: wizata-dsapi
+[2023-07-18 09:12:43] INFO root fetch - main [MainThread]: End processing [lesscode-utils]: success
+[2023-07-18 09:12:44] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-07-18 09:12:44] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-18 09:12:44] INFO root fetch - processPackages [lite-fastapi-local]: Remove: archive file [/home/abi/fetcher/tmp/lite_fastapi_local-0.0.31.tar.gz]
+[2023-07-18 09:12:44] INFO root fetch - processPackages [lite-fastapi-local]: Remove: archive file [/home/abi/fetcher/tmp/lite_fastapi_local-0.0.32.tar.gz]
+[2023-07-18 09:12:44] INFO root fetch - main [MainThread]: End processing [lite-fastapi-local]: success
+[2023-07-18 09:12:44] INFO root fetch - processPackages [pquisby]: Remove: archive file [/home/abi/fetcher/tmp/pquisby-0.0.8.tar.gz]
+[2023-07-18 09:12:44] INFO root fetch - processPackages [pquisby]: Remove: archive file [/home/abi/fetcher/tmp/pquisby-0.0.9.tar.gz]
+[2023-07-18 09:12:44] INFO root fetch - main [MainThread]: End processing [pquisby]: success
+[2023-07-18 09:12:44] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-07-18 09:12:44] INFO root fetch - processPackages [tmsproviderapisdk]: Remove: archive file [/home/abi/fetcher/tmp/tmsproviderapisdk-0.1.2.tar.gz]
+[2023-07-18 09:12:44] INFO root fetch - processPackages [tmsproviderapisdk]: Remove: archive file [/home/abi/fetcher/tmp/tmsproviderapisdk-0.1.3.tar.gz]
+[2023-07-18 09:12:44] INFO root fetch - main [MainThread]: End processing [tmsproviderapisdk]: success
+[2023-07-18 09:12:44] INFO root fetch - processPackages [gfx-perp-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/gfx_perp_python_sdk-0.0.5.tar.gz]
+[2023-07-18 09:12:44] INFO root fetch - processPackages [gfx-perp-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/gfx_perp_python_sdk-0.0.6.tar.gz]
+[2023-07-18 09:12:44] INFO root fetch - main [MainThread]: End processing [gfx-perp-python-sdk]: success
+[2023-07-18 09:12:44] INFO root fetch - processPackages [ndp-app-versioncontrol]: Remove: archive file [/home/abi/fetcher/tmp/ndp-app-versioncontrol-1.7.tar.gz]
+[2023-07-18 09:12:44] INFO root fetch - processPackages [ndp-app-versioncontrol]: Remove: archive file [/home/abi/fetcher/tmp/ndp-app-versioncontrol-1.8.tar.gz]
+[2023-07-18 09:12:44] INFO root fetch - main [MainThread]: End processing [ndp-app-versioncontrol]: success
+[2023-07-18 09:12:44] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/f4/04/42339e03644a3f77745377e93f0285d9ab9df3b519985af95662517306d2/wizata-dsapi-0.2.8.tar.gz
+[2023-07-18 09:12:44] INFO root fetch - processPackages [clife-svc]: Remove: archive file [/home/abi/fetcher/tmp/clife_svc-1.14.tar.gz]
+[2023-07-18 09:12:44] INFO root fetch - processPackages [clife-svc]: Remove: archive file [/home/abi/fetcher/tmp/clife_svc-1.15.tar.gz]
+[2023-07-18 09:12:44] INFO root fetch - main [MainThread]: End processing [clife-svc]: success
+[2023-07-18 09:12:44] INFO root fetch - processPackages [TinetApiRequest]: Remove: archive file [/home/abi/fetcher/tmp/TinetApiRequest-0.1.9.tar.gz]
+[2023-07-18 09:12:44] INFO root fetch - processPackages [TinetApiRequest]: Remove: archive file [/home/abi/fetcher/tmp/TinetApiRequest-0.1.9.1.tar.gz]
+[2023-07-18 09:12:44] INFO root fetch - main [MainThread]: End processing [TinetApiRequest]: success
+[2023-07-18 09:12:44] INFO root fetch - processPackages [bolt11]: Remove: archive file [/home/abi/fetcher/tmp/bolt11-1.0.2.tar.gz]
+[2023-07-18 09:12:44] INFO root fetch - processPackages [bolt11]: Remove: archive file [/home/abi/fetcher/tmp/bolt11-1.0.3.tar.gz]
+[2023-07-18 09:12:44] INFO root fetch - main [MainThread]: End processing [bolt11]: success
+[2023-07-18 09:12:44] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/34/b4/a97291f24e4329cef1f8118b7899dc7237cbb87cff0c1817da3b47c66f39/wizata-dsapi-0.2.9.tar.gz
+[2023-07-18 09:12:44] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-07-18 09:12:44] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.2.8.tar.gz tmp/wizata-dsapi-0.2.9.tar.gz --markdown 20230718/w/wizata-dsapi/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-18 09:12:45] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.2.8.tar.gz]
+[2023-07-18 09:12:45] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.2.9.tar.gz]
+[2023-07-18 09:12:45] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-07-18 09:12:45] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-07-18 09:12:46] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-07-18 09:12:46] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230718/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-07-18 09:12:54] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz]
+[2023-07-18 09:12:54] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
+[2023-07-18 09:12:54] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-07-18 09:12:54] INFO root fetch - main [MainThread]: Store serial: [18929537]
