@@ -16264,3 +16264,168 @@
 [2023-07-18 08:24:35] INFO root fetch - processPackages [odoo12-addon-somconnexio]: Remove: archive file [/home/abi/fetcher/tmp/odoo12-addon-somconnexio-12.0.2.3.3.99.dev2.tar.gz]
 [2023-07-18 08:24:35] INFO root fetch - main [MainThread]: End processing [odoo12-addon-somconnexio]: success
 [2023-07-18 08:24:35] INFO root fetch - main [MainThread]: Store serial: [18929149]
+[2023-07-18 08:29:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18929149]
+[2023-07-18 08:29:44] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-18 08:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fake-bpy-module-latest
+[2023-07-18 08:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mesh-database-client
+[2023-07-18 08:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyiron-base
+[2023-07-18 08:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chakravarthik27
+[2023-07-18 08:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grassmanntn
+[2023-07-18 08:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: charset-mnbvc
+[2023-07-18 08:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: py-hft
+[2023-07-18 08:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: similarity-ts
+[2023-07-18 08:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: barladb
+[2023-07-18 08:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flict
+[2023-07-18 08:29:44] INFO root fetch - processPackages [flict]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-07-18 08:29:44] INFO root fetch - processPackages [barladb]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-18 08:29:44] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230718] Old Version: [20230717]
+[2023-07-18 08:29:44] INFO root fetch - processPackages [mesh-database-client]: New version: [1.1] Old Version: [1.0]
+[2023-07-18 08:29:44] INFO root fetch - processPackages [py-hft]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-18 08:29:44] INFO root fetch - processPackages [charset-mnbvc]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-18 08:29:44] INFO root fetch - processPackages [chakravarthik27]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-07-18 08:29:44] INFO root fetch - processPackages [similarity-ts]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-18 08:29:44] INFO root fetch - processPackages [pyiron-base]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-18 08:29:44] INFO root fetch - processPackages [grassmanntn]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-18 08:29:44] INFO root fetch - processPackages [barladb]: Downloading https://files.pythonhosted.org/packages/4d/66/65a3531de1af1fa1a79ea04e63db51837159812f6089e98c8862d7037b6f/barladb-0.1.7.tar.gz
+[2023-07-18 08:29:44] INFO root fetch - processPackages [py-hft]: Downloading https://files.pythonhosted.org/packages/e2/6d/dbe8690ccfa41faa2132fe08a4515d11052e0d9d5ddd72987e8e732e5f2b/py_hft-0.1.3.tar.gz
+[2023-07-18 08:29:44] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/cd/0a/17640b63bb956b979aaa27174072868ea810d2a97ad7eafb418c7d284d00/fake-bpy-module-latest-20230717.tar.gz
+[2023-07-18 08:29:45] INFO root fetch - processPackages [flict]: Downloading https://files.pythonhosted.org/packages/01/39/1fc15c57009587cd06f784ad2ff308cdbf28f50e6f9875f13f75eafb0f02/flict-1.0.9.tar.gz
+[2023-07-18 08:29:45] INFO root fetch - processPackages [similarity-ts]: Downloading https://files.pythonhosted.org/packages/59/6e/706f0ec8a262a5022ab4e679590a40c95cd0520deae09a1c0887282cb822/similarity_ts-1.0.1.tar.gz
+[2023-07-18 08:29:45] INFO root fetch - processPackages [mesh-database-client]: Downloading https://files.pythonhosted.org/packages/cf/04/81efc87194baa1347ba982618d8e67f14c4fe050293cd61b38d09eb3ad51/mesh_database_client-1.0.tar.gz
+[2023-07-18 08:29:45] INFO root fetch - processPackages [chakravarthik27]: Downloading https://files.pythonhosted.org/packages/6d/1b/163d658561c5c578a34851fb7745adc5e48e76ca6ec69505dee34d193a09/chakravarthik27-0.0.2.tar.gz
+[2023-07-18 08:29:45] INFO root fetch - processPackages [grassmanntn]: Downloading https://files.pythonhosted.org/packages/cf/8b/1f79237c17645c768d08f784442140e64859327f34ddb723c0ce20fcf7c8/grassmanntn-1.2.1.tar.gz
+[2023-07-18 08:29:45] INFO root fetch - processPackages [pyiron-base]: Downloading https://files.pythonhosted.org/packages/1e/0b/a82832923e8fb992cab88115f57c5e5815891438bd2e74f8485e27105cf7/pyiron_base-0.6.2.tar.gz
+[2023-07-18 08:29:45] INFO root fetch - processPackages [charset-mnbvc]: Downloading https://files.pythonhosted.org/packages/40/f6/5907c12a54ce55a02a206d3214e36f2b107d7a7fcf3ac29956bd656a4f71/charset_mnbvc-0.0.7.tar.gz
+[2023-07-18 08:29:45] INFO root fetch - processPackages [barladb]: Downloading https://files.pythonhosted.org/packages/80/13/60c5c5b032ba12b7812d5cec33c2aa3e42058090825bd9d5bbc7ff90b0bd/barladb-0.1.8.tar.gz
+[2023-07-18 08:29:45] INFO root fetch - processPackages [barladb]: executing diffoscope
+[2023-07-18 08:29:45] INFO root fetch - processPackages [barladb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/barladb-0.1.7.tar.gz tmp/barladb-0.1.8.tar.gz --markdown 20230718/b/barladb/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-18 08:29:45] INFO root fetch - processPackages [py-hft]: Downloading https://files.pythonhosted.org/packages/a1/80/85b49fac439ffc71a0a7ae3d6978e1f51b597b58f058b78f6fdea3035a5d/py_hft-0.1.4.tar.gz
+[2023-07-18 08:29:45] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/5c/44/0ffb5fba58367d07e19459c73b09c3bf347e1550b3a45da289dd5b7092ca/fake-bpy-module-latest-20230718.tar.gz
+[2023-07-18 08:29:45] INFO root fetch - processPackages [similarity-ts]: Downloading https://files.pythonhosted.org/packages/1c/77/6c409b9895e19036aa20b441e1240c8d74c1ed5fdf30cebb4f1c2db2ddd4/similarity_ts-1.0.2.tar.gz
+[2023-07-18 08:29:45] INFO root fetch - processPackages [py-hft]: executing diffoscope
+[2023-07-18 08:29:45] INFO root fetch - processPackages [py-hft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_hft-0.1.3.tar.gz tmp/py_hft-0.1.4.tar.gz --markdown 20230718/p/py-hft/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-18 08:29:45] INFO root fetch - processPackages [flict]: Downloading https://files.pythonhosted.org/packages/7c/db/131fe5e6d5af14644c4811ac8a7f40b050bdece243df2682d478985ef31a/flict-1.1.0.tar.gz
+[2023-07-18 08:29:45] INFO root fetch - processPackages [chakravarthik27]: Downloading https://files.pythonhosted.org/packages/3c/42/ed70b1b8e33b8a722c02ac1cb41f88c0899f8128d3e4fe1840b38873c00a/chakravarthik27-0.1.0.tar.gz
+[2023-07-18 08:29:45] INFO root fetch - processPackages [mesh-database-client]: Downloading https://files.pythonhosted.org/packages/11/fd/297e5738403dfc2d04ca1b39fdecef6d7036a37ceb1a53cc46bc8c48d283/mesh_database_client-1.1.tar.gz
+[2023-07-18 08:29:45] INFO root fetch - processPackages [charset-mnbvc]: Downloading https://files.pythonhosted.org/packages/35/3e/aabc51aaa2b5bf163795ac339b8128ee8d3d3cbb2a41fbc4502711649408/charset_mnbvc-0.0.8.tar.gz
+[2023-07-18 08:29:45] INFO root fetch - processPackages [similarity-ts]: executing diffoscope
+[2023-07-18 08:29:45] INFO root fetch - processPackages [similarity-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/similarity_ts-1.0.1.tar.gz tmp/similarity_ts-1.0.2.tar.gz --markdown 20230718/s/similarity-ts/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-18 08:29:45] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-07-18 08:29:45] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230717.tar.gz tmp/fake-bpy-module-latest-20230718.tar.gz --markdown 20230718/f/fake-bpy-module-latest/20230717-20230718/diff.md --exclude *.pyd
+[2023-07-18 08:29:45] INFO root fetch - processPackages [grassmanntn]: Downloading https://files.pythonhosted.org/packages/8e/6a/bdca9968573c4bb3c23d27d072b0559c71572605303f3de8aecbdf3d8ff2/grassmanntn-1.2.2.tar.gz
+[2023-07-18 08:29:45] INFO root fetch - processPackages [pyiron-base]: Downloading https://files.pythonhosted.org/packages/2d/0b/9340f88ed00dd961b8a44929acf1a5b25b18d1e5b2aa43089b04aed569b3/pyiron_base-0.6.3.tar.gz
+[2023-07-18 08:29:45] INFO root fetch - processPackages [mesh-database-client]: executing diffoscope
+[2023-07-18 08:29:45] INFO root fetch - processPackages [mesh-database-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mesh_database_client-1.0.tar.gz tmp/mesh_database_client-1.1.tar.gz --markdown 20230718/m/mesh-database-client/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-18 08:29:45] INFO root fetch - processPackages [charset-mnbvc]: executing diffoscope
+[2023-07-18 08:29:45] INFO root fetch - processPackages [chakravarthik27]: executing diffoscope
+[2023-07-18 08:29:45] INFO root fetch - processPackages [charset-mnbvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charset_mnbvc-0.0.7.tar.gz tmp/charset_mnbvc-0.0.8.tar.gz --markdown 20230718/c/charset-mnbvc/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-18 08:29:45] INFO root fetch - processPackages [chakravarthik27]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chakravarthik27-0.0.2.tar.gz tmp/chakravarthik27-0.1.0.tar.gz --markdown 20230718/c/chakravarthik27/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-07-18 08:29:45] INFO root fetch - processPackages [flict]: executing diffoscope
+[2023-07-18 08:29:45] INFO root fetch - processPackages [flict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flict-1.0.9.tar.gz tmp/flict-1.1.0.tar.gz --markdown 20230718/f/flict/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-07-18 08:29:45] INFO root fetch - processPackages [grassmanntn]: executing diffoscope
+[2023-07-18 08:29:45] INFO root fetch - processPackages [grassmanntn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grassmanntn-1.2.1.tar.gz tmp/grassmanntn-1.2.2.tar.gz --markdown 20230718/g/grassmanntn/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-18 08:29:45] INFO root fetch - processPackages [pyiron-base]: executing diffoscope
+[2023-07-18 08:29:45] INFO root fetch - processPackages [pyiron-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiron_base-0.6.2.tar.gz tmp/pyiron_base-0.6.3.tar.gz --markdown 20230718/p/pyiron-base/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-18 08:29:46] INFO root fetch - processPackages [barladb]: Remove: archive file [/home/abi/fetcher/tmp/barladb-0.1.7.tar.gz]
+[2023-07-18 08:29:46] INFO root fetch - processPackages [barladb]: Remove: archive file [/home/abi/fetcher/tmp/barladb-0.1.8.tar.gz]
+[2023-07-18 08:29:46] INFO root fetch - processPackages [barladb]: Start processing: sj-tool
+[2023-07-18 08:29:46] INFO root fetch - main [MainThread]: End processing [barladb]: success
+[2023-07-18 08:29:47] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.86]
+[2023-07-18 08:29:47] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/63/84/805c6350c42f12ad33d4566bc871028da58e0e1bbe8ccbd9727664b604d8/sj_tool-1.0.86-py3-none-any.whl
+[2023-07-18 08:29:47] INFO root fetch - processPackages [py-hft]: Remove: archive file [/home/abi/fetcher/tmp/py_hft-0.1.3.tar.gz]
+[2023-07-18 08:29:47] INFO root fetch - processPackages [py-hft]: Remove: archive file [/home/abi/fetcher/tmp/py_hft-0.1.4.tar.gz]
+[2023-07-18 08:29:47] INFO root fetch - processPackages [py-hft]: Start processing: je-mail-thunder-dev
+[2023-07-18 08:29:47] INFO root fetch - main [MainThread]: End processing [py-hft]: success
+[2023-07-18 08:29:47] INFO root fetch - processPackages [je-mail-thunder-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 08:29:47] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-07-18 08:29:47] INFO root fetch - processPackages [chakravarthik27]: Remove: archive file [/home/abi/fetcher/tmp/chakravarthik27-0.0.2.tar.gz]
+[2023-07-18 08:29:47] INFO root fetch - processPackages [chakravarthik27]: Remove: archive file [/home/abi/fetcher/tmp/chakravarthik27-0.1.0.tar.gz]
+[2023-07-18 08:29:47] INFO root fetch - processPackages [chakravarthik27]: Start processing: infoworkssdk
+[2023-07-18 08:29:47] INFO root fetch - main [MainThread]: End processing [chakravarthik27]: success
+[2023-07-18 08:29:47] INFO root fetch - processPackages [mesh-database-client]: Remove: archive file [/home/abi/fetcher/tmp/mesh_database_client-1.0.tar.gz]
+[2023-07-18 08:29:47] INFO root fetch - processPackages [mesh-database-client]: Remove: archive file [/home/abi/fetcher/tmp/mesh_database_client-1.1.tar.gz]
+[2023-07-18 08:29:47] INFO root fetch - processPackages [mesh-database-client]: Start processing: threemystic-cloud-client
+[2023-07-18 08:29:47] INFO root fetch - main [MainThread]: End processing [mesh-database-client]: success
+[2023-07-18 08:29:47] INFO root fetch - processPackages [infoworkssdk]: New version: [3.0b0] Old Version: [3.0a3]
+[2023-07-18 08:29:47] INFO root fetch - processPackages [threemystic-cloud-client]: New version: [0.1.35] Old Version: [0.1.34]
+[2023-07-18 08:29:47] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-07-18 08:29:47] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.86-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230718/s/sj-tool/1.0.86-1.0.9/diff.md --exclude *.pyd
+[2023-07-18 08:29:47] INFO root fetch - processPackages [similarity-ts]: Remove: archive file [/home/abi/fetcher/tmp/similarity_ts-1.0.1.tar.gz]
+[2023-07-18 08:29:47] INFO root fetch - processPackages [similarity-ts]: Remove: archive file [/home/abi/fetcher/tmp/similarity_ts-1.0.2.tar.gz]
+[2023-07-18 08:29:47] INFO root fetch - processPackages [similarity-ts]: Start processing: localstack-core
+[2023-07-18 08:29:47] INFO root fetch - main [MainThread]: End processing [similarity-ts]: success
+[2023-07-18 08:29:47] INFO root fetch - processPackages [je-mail-thunder-dev]: Downloading https://files.pythonhosted.org/packages/d9/2d/666cfbe7457d16fd8f9c298e28fd54c3ff6c7a5cb10d6ebd6397b2764c96/je_mail_thunder_dev-0.0.8.tar.gz
+[2023-07-18 08:29:47] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230718062736] Old Version: [2.1.1.dev20230717171853]
+[2023-07-18 08:29:47] INFO root fetch - processPackages [charset-mnbvc]: Remove: archive file [/home/abi/fetcher/tmp/charset_mnbvc-0.0.7.tar.gz]
+[2023-07-18 08:29:47] INFO root fetch - processPackages [charset-mnbvc]: Remove: archive file [/home/abi/fetcher/tmp/charset_mnbvc-0.0.8.tar.gz]
+[2023-07-18 08:29:47] INFO root fetch - processPackages [charset-mnbvc]: Start processing: openpibo-python
+[2023-07-18 08:29:47] INFO root fetch - main [MainThread]: End processing [charset-mnbvc]: success
+[2023-07-18 08:29:47] INFO root fetch - processPackages [openpibo-python]: New version: [0.9.2.9] Old Version: [0.9.2.8]
+[2023-07-18 08:29:47] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/b1/a7/1c14a7ae55f637c9f1d45750a227e54955c71a169cda560cff21758ccbbf/threemystic_cloud_client-0.1.34.tar.gz
+[2023-07-18 08:29:48] INFO root fetch - processPackages [infoworkssdk]: Downloading https://files.pythonhosted.org/packages/33/e8/a116d3acfb54cdafec19702508f64b48093b5dcd8e59332910a9ed9f5ec2/infoworkssdk-3.0a3.tar.gz
+[2023-07-18 08:29:48] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/5d/44/62038dbd5e781e80943a5eafae29b80390a0539f41e057647b923ae4becd/localstack-core-2.1.1.dev20230717171853.tar.gz
+[2023-07-18 08:29:48] INFO root fetch - processPackages [je-mail-thunder-dev]: Downloading https://files.pythonhosted.org/packages/50/83/96de4dcb88c3fe1000dbe2a57639ee261684eff5193860f20204d5850501/je_mail_thunder_dev-0.0.9.tar.gz
+[2023-07-18 08:29:48] INFO root fetch - processPackages [grassmanntn]: Remove: archive file [/home/abi/fetcher/tmp/grassmanntn-1.2.1.tar.gz]
+[2023-07-18 08:29:48] INFO root fetch - processPackages [grassmanntn]: Remove: archive file [/home/abi/fetcher/tmp/grassmanntn-1.2.2.tar.gz]
+[2023-07-18 08:29:48] INFO root fetch - processPackages [grassmanntn]: Start processing: gravitas
+[2023-07-18 08:29:48] INFO root fetch - main [MainThread]: End processing [grassmanntn]: success
+[2023-07-18 08:29:48] INFO root fetch - processPackages [gravitas]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-07-18 08:29:48] INFO root fetch - processPackages [je-mail-thunder-dev]: executing diffoscope
+[2023-07-18 08:29:48] INFO root fetch - processPackages [je-mail-thunder-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_mail_thunder_dev-0.0.8.tar.gz tmp/je_mail_thunder_dev-0.0.9.tar.gz --markdown 20230718/j/je-mail-thunder-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 08:29:48] INFO root fetch - processPackages [flict]: Remove: archive file [/home/abi/fetcher/tmp/flict-1.0.9.tar.gz]
+[2023-07-18 08:29:48] INFO root fetch - processPackages [flict]: Remove: archive file [/home/abi/fetcher/tmp/flict-1.1.0.tar.gz]
+[2023-07-18 08:29:48] INFO root fetch - processPackages [flict]: Start processing: travertine
+[2023-07-18 08:29:48] INFO root fetch - main [MainThread]: End processing [flict]: success
+[2023-07-18 08:29:48] INFO root fetch - processPackages [openpibo-python]: Downloading https://files.pythonhosted.org/packages/8c/44/f4dc4462c26bf53e438a9f52811a9330696b7fe63e9f5db33b1c31f9ca69/openpibo_python-0.9.2.8-py3-none-any.whl
+[2023-07-18 08:29:48] INFO root fetch - processPackages [travertine]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-18 08:29:48] INFO root fetch - processPackages [gravitas]: Downloading https://files.pythonhosted.org/packages/92/bc/50ea3040745cb28fc9f59df80d74d223ba72bbcfb087317d6d896aecbdfd/gravitas-0.1.7.tar.gz
+[2023-07-18 08:29:48] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/9a/51/14bc56e1ddc4d0258cf332cd80012bb85017b7ff14784daab621ffa5ed11/threemystic_cloud_client-0.1.35.tar.gz
+[2023-07-18 08:29:48] INFO root fetch - processPackages [travertine]: Downloading https://files.pythonhosted.org/packages/a4/36/413b425cab8cfe2766d18bb01d441e5bc0d6eb4297d30e9cbe0e4039deb6/travertine-0.8.0-cp38-cp38-manylinux2010_x86_64.whl
+[2023-07-18 08:29:48] INFO root fetch - processPackages [threemystic-cloud-client]: executing diffoscope
+[2023-07-18 08:29:48] INFO root fetch - processPackages [threemystic-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_client-0.1.34.tar.gz tmp/threemystic_cloud_client-0.1.35.tar.gz --markdown 20230718/t/threemystic-cloud-client/0.1.34-0.1.35/diff.md --exclude *.pyd
+[2023-07-18 08:29:48] INFO root fetch - processPackages [pyiron-base]: Remove: archive file [/home/abi/fetcher/tmp/pyiron_base-0.6.2.tar.gz]
+[2023-07-18 08:29:48] INFO root fetch - processPackages [pyiron-base]: Remove: archive file [/home/abi/fetcher/tmp/pyiron_base-0.6.3.tar.gz]
+[2023-07-18 08:29:48] INFO root fetch - processPackages [infoworkssdk]: Downloading https://files.pythonhosted.org/packages/b1/20/e1727f2cd885fc933431526868eeae27d04a8b44eb1b0b6691c9a7f2b5a3/infoworkssdk-3.0b0.tar.gz
+[2023-07-18 08:29:48] INFO root fetch - main [MainThread]: End processing [pyiron-base]: success
+[2023-07-18 08:29:48] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/2d/56/adb4e2f6b2160af14baf1eb518c1e2ec8b8e3f1869f23c1955d507e93932/localstack-core-2.1.1.dev20230718062736.tar.gz
+[2023-07-18 08:29:48] INFO root fetch - processPackages [openpibo-python]: Downloading https://files.pythonhosted.org/packages/10/de/8b098614f964fd40b24224c491ae6eede239ecaae59f8d66fa1cb7d3d770/openpibo_python-0.9.2.9-py3-none-any.whl
+[2023-07-18 08:29:48] INFO root fetch - processPackages [infoworkssdk]: executing diffoscope
+[2023-07-18 08:29:48] INFO root fetch - processPackages [infoworkssdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infoworkssdk-3.0a3.tar.gz tmp/infoworkssdk-3.0b0.tar.gz --markdown 20230718/i/infoworkssdk/3.0a3-3.0b0/diff.md --exclude *.pyd
+[2023-07-18 08:29:48] INFO root fetch - processPackages [gravitas]: Downloading https://files.pythonhosted.org/packages/94/dd/d58fdb3812f62f10cec7a5b0ac3d03695b90284ae0d225aa96e9921ac6ab/gravitas-0.1.9.tar.gz
+[2023-07-18 08:29:48] INFO root fetch - processPackages [travertine]: Downloading https://files.pythonhosted.org/packages/ed/c3/f5f757cd6ce8c0a38ca0ff07753e5d1d8798b2efe7c43e19596fbba3c7d7/travertine-0.9.0-cp38-cp38-manylinux2010_x86_64.whl
+[2023-07-18 08:29:49] INFO root fetch - processPackages [openpibo-python]: executing diffoscope
+[2023-07-18 08:29:49] INFO root fetch - processPackages [openpibo-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openpibo_python-0.9.2.8-py3-none-any.whl.zip tmp/openpibo_python-0.9.2.9-py3-none-any.whl.zip --markdown 20230718/o/openpibo-python/0.9.2.8-0.9.2.9/diff.md --exclude *.pyd
+[2023-07-18 08:29:49] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-18 08:29:49] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230717171853.tar.gz tmp/localstack-core-2.1.1.dev20230718062736.tar.gz --markdown 20230718/l/localstack-core/2.1.1.dev20230717171853-2.1.1.dev20230718062736/diff.md --exclude *.pyd
+[2023-07-18 08:29:49] INFO root fetch - processPackages [travertine]: executing diffoscope
+[2023-07-18 08:29:49] INFO root fetch - processPackages [travertine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/travertine-0.8.0-cp38-cp38-manylinux2010_x86_64.whl.zip tmp/travertine-0.9.0-cp38-cp38-manylinux2010_x86_64.whl.zip --markdown 20230718/t/travertine/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-18 08:29:49] INFO root fetch - processPackages [gravitas]: executing diffoscope
+[2023-07-18 08:29:49] INFO root fetch - processPackages [gravitas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravitas-0.1.7.tar.gz tmp/gravitas-0.1.9.tar.gz --markdown 20230718/g/gravitas/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-07-18 08:29:49] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.86-py3-none-any.whl.zip]
+[2023-07-18 08:29:49] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-07-18 08:29:49] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-07-18 08:29:49] INFO root fetch - processPackages [je-mail-thunder-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_mail_thunder_dev-0.0.8.tar.gz]
+[2023-07-18 08:29:49] INFO root fetch - processPackages [je-mail-thunder-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_mail_thunder_dev-0.0.9.tar.gz]
+[2023-07-18 08:29:49] INFO root fetch - main [MainThread]: End processing [je-mail-thunder-dev]: success
+[2023-07-18 08:29:50] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.34.tar.gz]
+[2023-07-18 08:29:50] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.35.tar.gz]
+[2023-07-18 08:29:50] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-client]: success
+[2023-07-18 08:29:50] INFO root fetch - processPackages [openpibo-python]: Remove: archive file [/home/abi/fetcher/tmp/openpibo_python-0.9.2.8-py3-none-any.whl.zip]
+[2023-07-18 08:29:50] INFO root fetch - processPackages [openpibo-python]: Remove: archive file [/home/abi/fetcher/tmp/openpibo_python-0.9.2.9-py3-none-any.whl.zip]
+[2023-07-18 08:29:50] INFO root fetch - main [MainThread]: End processing [openpibo-python]: success
+[2023-07-18 08:29:50] INFO root fetch - processPackages [infoworkssdk]: Remove: archive file [/home/abi/fetcher/tmp/infoworkssdk-3.0a3.tar.gz]
+[2023-07-18 08:29:50] INFO root fetch - processPackages [infoworkssdk]: Remove: archive file [/home/abi/fetcher/tmp/infoworkssdk-3.0b0.tar.gz]
+[2023-07-18 08:29:50] INFO root fetch - main [MainThread]: End processing [infoworkssdk]: success
+[2023-07-18 08:29:50] INFO root fetch - processPackages [travertine]: Remove: archive file [/home/abi/fetcher/tmp/travertine-0.8.0-cp38-cp38-manylinux2010_x86_64.whl.zip]
+[2023-07-18 08:29:50] INFO root fetch - processPackages [travertine]: Remove: archive file [/home/abi/fetcher/tmp/travertine-0.9.0-cp38-cp38-manylinux2010_x86_64.whl.zip]
+[2023-07-18 08:29:50] INFO root fetch - main [MainThread]: End processing [travertine]: success
+[2023-07-18 08:29:50] INFO root fetch - processPackages [gravitas]: Remove: archive file [/home/abi/fetcher/tmp/gravitas-0.1.7.tar.gz]
+[2023-07-18 08:29:50] INFO root fetch - processPackages [gravitas]: Remove: archive file [/home/abi/fetcher/tmp/gravitas-0.1.9.tar.gz]
+[2023-07-18 08:29:50] INFO root fetch - main [MainThread]: End processing [gravitas]: success
+[2023-07-18 08:29:51] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230717.tar.gz]
+[2023-07-18 08:29:51] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230718.tar.gz]
+[2023-07-18 08:29:51] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-07-18 08:29:53] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230717171853.tar.gz]
+[2023-07-18 08:29:53] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230718062736.tar.gz]
+[2023-07-18 08:29:53] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-18 08:29:53] INFO root fetch - main [MainThread]: Store serial: [18929206]
