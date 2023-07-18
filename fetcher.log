@@ -15976,3 +15976,48 @@
 [2023-07-18 08:03:42] INFO root fetch - processPackages [danling]: Remove: archive file [/home/abi/fetcher/tmp/danling-0.2.9.tar.gz]
 [2023-07-18 08:03:42] INFO root fetch - main [MainThread]: End processing [danling]: success
 [2023-07-18 08:03:42] INFO root fetch - main [MainThread]: Store serial: [18928931]
+[2023-07-18 08:08:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18928931]
+[2023-07-18 08:08:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-18 08:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shopee-aip-transformers
+[2023-07-18 08:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: festo-edcon
+[2023-07-18 08:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maestro-music
+[2023-07-18 08:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: harmonai-tools
+[2023-07-18 08:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: irisml-tasks-azureml
+[2023-07-18 08:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: navit
+[2023-07-18 08:08:51] WARNING root fetch - processPackages [navit]: Skipping, unable to determine old version
+[2023-07-18 08:08:51] INFO root fetch - processPackages [irisml-tasks-azureml]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-18 08:08:51] INFO root fetch - main [MainThread]: End processing [navit] error
+[2023-07-18 08:08:51] INFO root fetch - processPackages [festo-edcon]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-18 08:08:51] INFO root fetch - processPackages [harmonai-tools]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-18 08:08:51] INFO root fetch - processPackages [maestro-music]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-18 08:08:51] WARNING root fetch - processPackages [shopee-aip-transformers]: Skipping, unable to determine old version
+[2023-07-18 08:08:51] INFO root fetch - main [MainThread]: End processing [shopee-aip-transformers] error
+[2023-07-18 08:08:51] INFO root fetch - processPackages [irisml-tasks-azureml]: Downloading https://files.pythonhosted.org/packages/3b/ae/415ce4c9063b48a99b9137b1e1595daed0f0ecc66c9e3986541609eecd4a/irisml-tasks-azureml-0.1.4.tar.gz
+[2023-07-18 08:08:51] INFO root fetch - processPackages [maestro-music]: Downloading https://files.pythonhosted.org/packages/3c/68/9a77bf210225ae7a57f7b0f7013f1c37b035b0dba5e85583f74d87dd79e8/maestro-music-1.0.5.tar.gz
+[2023-07-18 08:08:51] INFO root fetch - processPackages [harmonai-tools]: Downloading https://files.pythonhosted.org/packages/34/7c/34f618ee181035e1162a0e3c5e431f5f706af87cd935706b036ea43706e6/harmonai-tools-0.0.1.tar.gz
+[2023-07-18 08:08:51] INFO root fetch - processPackages [festo-edcon]: Downloading https://files.pythonhosted.org/packages/fb/80/032d30184e045615ab1e535a158fa764b4e55b85d7d50ec9d6c090e9e4a7/festo_edcon-0.8.0-py3-none-any.whl
+[2023-07-18 08:08:52] INFO root fetch - processPackages [maestro-music]: Downloading https://files.pythonhosted.org/packages/56/da/28a094bdc26a7e4a09243be77a97422d75797d12216f575f3949eea3d025/maestro-music-1.0.6.tar.gz
+[2023-07-18 08:08:52] INFO root fetch - processPackages [irisml-tasks-azureml]: Downloading https://files.pythonhosted.org/packages/f3/ee/e62a83a8b2dac23fc40b8eb013c3b10ef4490b64137ee8de13f9a0aaadc0/irisml-tasks-azureml-0.1.5.tar.gz
+[2023-07-18 08:08:52] INFO root fetch - processPackages [harmonai-tools]: Downloading https://files.pythonhosted.org/packages/cf/0e/dcf08496eb09b933b6be9b67383ae2f1fb9e946ba7f954d5dbb34c662527/harmonai-tools-0.0.2.tar.gz
+[2023-07-18 08:08:52] INFO root fetch - processPackages [maestro-music]: executing diffoscope
+[2023-07-18 08:08:52] INFO root fetch - processPackages [maestro-music]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maestro-music-1.0.5.tar.gz tmp/maestro-music-1.0.6.tar.gz --markdown 20230718/m/maestro-music/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-18 08:08:52] INFO root fetch - processPackages [festo-edcon]: Downloading https://files.pythonhosted.org/packages/78/fc/7a8ecf8113702455aa6143ab630b5c8929208cc84ac3c4a7570417569523/festo_edcon-0.9.0-py3-none-any.whl
+[2023-07-18 08:08:52] INFO root fetch - processPackages [harmonai-tools]: executing diffoscope
+[2023-07-18 08:08:52] INFO root fetch - processPackages [harmonai-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harmonai-tools-0.0.1.tar.gz tmp/harmonai-tools-0.0.2.tar.gz --markdown 20230718/h/harmonai-tools/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-18 08:08:52] INFO root fetch - processPackages [irisml-tasks-azureml]: executing diffoscope
+[2023-07-18 08:08:52] INFO root fetch - processPackages [irisml-tasks-azureml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irisml-tasks-azureml-0.1.4.tar.gz tmp/irisml-tasks-azureml-0.1.5.tar.gz --markdown 20230718/i/irisml-tasks-azureml/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-18 08:08:52] INFO root fetch - processPackages [festo-edcon]: executing diffoscope
+[2023-07-18 08:08:52] INFO root fetch - processPackages [festo-edcon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/festo_edcon-0.8.0-py3-none-any.whl.zip tmp/festo_edcon-0.9.0-py3-none-any.whl.zip --markdown 20230718/f/festo-edcon/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-18 08:08:53] INFO root fetch - processPackages [harmonai-tools]: Remove: archive file [/home/abi/fetcher/tmp/harmonai-tools-0.0.1.tar.gz]
+[2023-07-18 08:08:53] INFO root fetch - processPackages [harmonai-tools]: Remove: archive file [/home/abi/fetcher/tmp/harmonai-tools-0.0.2.tar.gz]
+[2023-07-18 08:08:53] INFO root fetch - main [MainThread]: End processing [harmonai-tools]: success
+[2023-07-18 08:08:53] INFO root fetch - processPackages [maestro-music]: Remove: archive file [/home/abi/fetcher/tmp/maestro-music-1.0.5.tar.gz]
+[2023-07-18 08:08:53] INFO root fetch - processPackages [maestro-music]: Remove: archive file [/home/abi/fetcher/tmp/maestro-music-1.0.6.tar.gz]
+[2023-07-18 08:08:53] INFO root fetch - main [MainThread]: End processing [maestro-music]: success
+[2023-07-18 08:08:53] INFO root fetch - processPackages [irisml-tasks-azureml]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-azureml-0.1.4.tar.gz]
+[2023-07-18 08:08:53] INFO root fetch - processPackages [irisml-tasks-azureml]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-azureml-0.1.5.tar.gz]
+[2023-07-18 08:08:53] INFO root fetch - main [MainThread]: End processing [irisml-tasks-azureml]: success
+[2023-07-18 08:08:53] INFO root fetch - processPackages [festo-edcon]: Remove: archive file [/home/abi/fetcher/tmp/festo_edcon-0.8.0-py3-none-any.whl.zip]
+[2023-07-18 08:08:53] INFO root fetch - processPackages [festo-edcon]: Remove: archive file [/home/abi/fetcher/tmp/festo_edcon-0.9.0-py3-none-any.whl.zip]
+[2023-07-18 08:08:53] INFO root fetch - main [MainThread]: End processing [festo-edcon]: success
+[2023-07-18 08:08:53] INFO root fetch - main [MainThread]: Store serial: [18928950]
