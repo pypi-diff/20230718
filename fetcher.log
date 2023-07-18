@@ -10327,3 +10327,77 @@
 [2023-07-18 04:19:43] INFO root fetch - processPackages [emmet-api]: Remove: archive file [/home/abi/fetcher/tmp/emmet-api-0.60.2.tar.gz]
 [2023-07-18 04:19:43] INFO root fetch - main [MainThread]: End processing [emmet-api]: success
 [2023-07-18 04:19:43] INFO root fetch - main [MainThread]: Store serial: [18926946]
+[2023-07-18 04:24:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18926946]
+[2023-07-18 04:24:52] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-18 04:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: talkytimes-package
+[2023-07-18 04:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: databricks-helper
+[2023-07-18 04:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tigersyn
+[2023-07-18 04:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arcs
+[2023-07-18 04:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: je-load-density
+[2023-07-18 04:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gita
+[2023-07-18 04:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ansible-core
+[2023-07-18 04:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tools-wzy
+[2023-07-18 04:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qcio
+[2023-07-18 04:24:53] INFO root fetch - processPackages [talkytimes-package]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-18 04:24:53] INFO root fetch - processPackages [tigersyn]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-18 04:24:53] WARNING root fetch - processPackages [arcs]: Skipping, unable to determine old version
+[2023-07-18 04:24:53] INFO root fetch - main [MainThread]: End processing [arcs] error
+[2023-07-18 04:24:53] INFO root fetch - processPackages [je-load-density]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 04:24:53] INFO root fetch - processPackages [tools-wzy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-18 04:24:53] INFO root fetch - processPackages [databricks-helper]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-18 04:24:53] INFO root fetch - processPackages [ansible-core]: New version: [2.15.2rc1] Old Version: [2.15.2]
+[2023-07-18 04:24:53] INFO root fetch - processPackages [qcio]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-18 04:24:53] INFO root fetch - processPackages [gita]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-18 04:24:53] INFO root fetch - processPackages [je-load-density]: Downloading https://files.pythonhosted.org/packages/4c/8c/dba8992c47ab061a70303761eacd4d5fbff44d8f454381c8e568f6b95847/je_load_density-0.0.8.tar.gz
+[2023-07-18 04:24:53] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/0a/3a/958d74cf4328cc6e6f0d9b91dde556223419a6f233178e91a71be0ecf990/talkytimes_package-0.3.8.tar.gz
+[2023-07-18 04:24:53] INFO root fetch - processPackages [tools-wzy]: Downloading https://files.pythonhosted.org/packages/42/b5/6042fd4b6ef07755def6b9a64d8cc62801e0a796072e29e632ad3d6b4c57/tools_wzy-0.0.2.tar.gz
+[2023-07-18 04:24:53] INFO root fetch - processPackages [tigersyn]: Downloading https://files.pythonhosted.org/packages/d3/6d/320c5cf02465c21a21f292cfd4d6951ec71db9fe26d36f72eed73203192e/tigersyn-0.0.4.tar.gz
+[2023-07-18 04:24:53] INFO root fetch - processPackages [gita]: Downloading https://files.pythonhosted.org/packages/08/74/f22a1b2f90d56fbe2c376a3b676b3863eb1f5b17712bf29abb3b48d8ec8d/gita-0.9.8.tar.gz
+[2023-07-18 04:24:53] INFO root fetch - processPackages [ansible-core]: Downloading https://files.pythonhosted.org/packages/e9/cf/a169a1f505c15d92bcff3a08b68ed5646f0a8262c74a7a2de11ecd3efe81/ansible-core-2.15.2.tar.gz
+[2023-07-18 04:24:53] INFO root fetch - processPackages [databricks-helper]: Downloading https://files.pythonhosted.org/packages/99/38/df3be162719ca1f462e4caebb2d3e91f970e5342069cf31a60c0de0f14c6/databricks_helper-0.0.0.tar.gz
+[2023-07-18 04:24:53] INFO root fetch - processPackages [qcio]: Downloading https://files.pythonhosted.org/packages/8b/9b/278c58bd499d262e39ea69202f975bce58eb422792452faa2cd58c1b846b/qcio-0.3.1.tar.gz
+[2023-07-18 04:24:53] WARNING root fetch - processPackages [ansible-core]: Skipping package: exceeds size limit 10814159>=10485760
+[2023-07-18 04:24:53] INFO root fetch - main [MainThread]: End processing [ansible-core] error
+[2023-07-18 04:24:53] INFO root fetch - processPackages [gita]: Downloading https://files.pythonhosted.org/packages/1d/46/236c7ff23d6debdb85880ac7785267931325f3896b58d56f306e7a592a0f/gita-0.9.9.tar.gz
+[2023-07-18 04:24:53] INFO root fetch - processPackages [je-load-density]: Downloading https://files.pythonhosted.org/packages/7c/6d/23fc8524faa26c12e97439e14d6a72ec372159914b55201815df9724ddb5/je_load_density-0.0.9.tar.gz
+[2023-07-18 04:24:53] INFO root fetch - processPackages [tigersyn]: Downloading https://files.pythonhosted.org/packages/fb/4a/a7bac05a7d1392f89e40c655af9f594861258920da1c39291cb143e4e63d/tigersyn-0.0.5.tar.gz
+[2023-07-18 04:24:53] INFO root fetch - processPackages [tools-wzy]: Downloading https://files.pythonhosted.org/packages/06/df/e17bb0613161396d81815e4557c688963cbd53e5e983574382c62b539b77/tools_wzy-0.0.3.tar.gz
+[2023-07-18 04:24:53] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/9b/bf/3c3f6413c7a37cb1807906ef30aa88b444de6c59250fe902f6ad44add628/talkytimes_package-0.3.9.tar.gz
+[2023-07-18 04:24:53] INFO root fetch - processPackages [gita]: executing diffoscope
+[2023-07-18 04:24:53] INFO root fetch - processPackages [gita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gita-0.9.8.tar.gz tmp/gita-0.9.9.tar.gz --markdown 20230718/g/gita/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-18 04:24:53] INFO root fetch - processPackages [je-load-density]: executing diffoscope
+[2023-07-18 04:24:53] INFO root fetch - processPackages [je-load-density]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_load_density-0.0.8.tar.gz tmp/je_load_density-0.0.9.tar.gz --markdown 20230718/j/je-load-density/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 04:24:53] INFO root fetch - processPackages [databricks-helper]: Downloading https://files.pythonhosted.org/packages/db/b9/df8346ed66bed9c349386261fb6469686449b803ab44760d815adb827d47/databricks_helper-0.0.1.tar.gz
+[2023-07-18 04:24:53] INFO root fetch - processPackages [tigersyn]: executing diffoscope
+[2023-07-18 04:24:53] INFO root fetch - processPackages [tigersyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tigersyn-0.0.4.tar.gz tmp/tigersyn-0.0.5.tar.gz --markdown 20230718/t/tigersyn/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-18 04:24:53] INFO root fetch - processPackages [talkytimes-package]: executing diffoscope
+[2023-07-18 04:24:53] INFO root fetch - processPackages [talkytimes-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytimes_package-0.3.8.tar.gz tmp/talkytimes_package-0.3.9.tar.gz --markdown 20230718/t/talkytimes-package/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-18 04:24:53] INFO root fetch - processPackages [qcio]: Downloading https://files.pythonhosted.org/packages/7d/9f/4c22caa98841581cf2c2740ce16da6bd5c0d179ec8127af5b500ef340844/qcio-0.3.2.tar.gz
+[2023-07-18 04:24:53] INFO root fetch - processPackages [tools-wzy]: executing diffoscope
+[2023-07-18 04:24:53] INFO root fetch - processPackages [tools-wzy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tools_wzy-0.0.2.tar.gz tmp/tools_wzy-0.0.3.tar.gz --markdown 20230718/t/tools-wzy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-18 04:24:54] INFO root fetch - processPackages [qcio]: executing diffoscope
+[2023-07-18 04:24:54] INFO root fetch - processPackages [databricks-helper]: executing diffoscope
+[2023-07-18 04:24:54] INFO root fetch - processPackages [qcio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcio-0.3.1.tar.gz tmp/qcio-0.3.2.tar.gz --markdown 20230718/q/qcio/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-18 04:24:54] INFO root fetch - processPackages [databricks-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks_helper-0.0.0.tar.gz tmp/databricks_helper-0.0.1.tar.gz --markdown 20230718/d/databricks-helper/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-18 04:24:54] INFO root fetch - processPackages [gita]: Remove: archive file [/home/abi/fetcher/tmp/gita-0.9.8.tar.gz]
+[2023-07-18 04:24:54] INFO root fetch - processPackages [gita]: Remove: archive file [/home/abi/fetcher/tmp/gita-0.9.9.tar.gz]
+[2023-07-18 04:24:54] INFO root fetch - main [MainThread]: End processing [gita]: success
+[2023-07-18 04:24:55] INFO root fetch - processPackages [tools-wzy]: Remove: archive file [/home/abi/fetcher/tmp/tools_wzy-0.0.2.tar.gz]
+[2023-07-18 04:24:55] INFO root fetch - processPackages [tools-wzy]: Remove: archive file [/home/abi/fetcher/tmp/tools_wzy-0.0.3.tar.gz]
+[2023-07-18 04:24:55] INFO root fetch - main [MainThread]: End processing [tools-wzy]: success
+[2023-07-18 04:24:55] INFO root fetch - processPackages [tigersyn]: Remove: archive file [/home/abi/fetcher/tmp/tigersyn-0.0.4.tar.gz]
+[2023-07-18 04:24:55] INFO root fetch - processPackages [tigersyn]: Remove: archive file [/home/abi/fetcher/tmp/tigersyn-0.0.5.tar.gz]
+[2023-07-18 04:24:55] INFO root fetch - main [MainThread]: End processing [tigersyn]: success
+[2023-07-18 04:24:55] INFO root fetch - processPackages [qcio]: Remove: archive file [/home/abi/fetcher/tmp/qcio-0.3.1.tar.gz]
+[2023-07-18 04:24:55] INFO root fetch - processPackages [qcio]: Remove: archive file [/home/abi/fetcher/tmp/qcio-0.3.2.tar.gz]
+[2023-07-18 04:24:55] INFO root fetch - main [MainThread]: End processing [qcio]: success
+[2023-07-18 04:24:55] INFO root fetch - processPackages [databricks-helper]: Remove: archive file [/home/abi/fetcher/tmp/databricks_helper-0.0.0.tar.gz]
+[2023-07-18 04:24:55] INFO root fetch - processPackages [databricks-helper]: Remove: archive file [/home/abi/fetcher/tmp/databricks_helper-0.0.1.tar.gz]
+[2023-07-18 04:24:55] INFO root fetch - main [MainThread]: End processing [databricks-helper]: success
+[2023-07-18 04:24:55] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.8.tar.gz]
+[2023-07-18 04:24:55] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.9.tar.gz]
+[2023-07-18 04:24:55] INFO root fetch - main [MainThread]: End processing [talkytimes-package]: success
+[2023-07-18 04:24:55] INFO root fetch - processPackages [je-load-density]: Remove: archive file [/home/abi/fetcher/tmp/je_load_density-0.0.8.tar.gz]
+[2023-07-18 04:24:55] INFO root fetch - processPackages [je-load-density]: Remove: archive file [/home/abi/fetcher/tmp/je_load_density-0.0.9.tar.gz]
+[2023-07-18 04:24:55] INFO root fetch - main [MainThread]: End processing [je-load-density]: success
+[2023-07-18 04:24:55] INFO root fetch - main [MainThread]: Store serial: [18926970]
