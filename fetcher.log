@@ -12598,3 +12598,77 @@
 [2023-07-18 06:06:34] INFO root fetch - processPackages [qctrl-client]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_client-7.2.0.tar.gz]
 [2023-07-18 06:06:34] INFO root fetch - main [MainThread]: End processing [qctrl-client]: success
 [2023-07-18 06:06:34] INFO root fetch - main [MainThread]: Store serial: [18927803]
+[2023-07-18 06:11:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18927803]
+[2023-07-18 06:11:43] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-18 06:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ykenan-util
+[2023-07-18 06:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: preprocessing-pgp
+[2023-07-18 06:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llm-replicate
+[2023-07-18 06:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sdock
+[2023-07-18 06:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tuack
+[2023-07-18 06:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quickfix-ch
+[2023-07-18 06:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-account-banking-ach-base
+[2023-07-18 06:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-account-banking-ach-base
+[2023-07-18 06:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-account-banking-ach-credit-transfer
+[2023-07-18 06:11:43] INFO root fetch - processPackages [odoo14-addon-account-banking-ach-base]: New version: [14.0.1.0.2.dev1] Old Version: [14.0.1.0.1.dev8]
+[2023-07-18 06:11:43] INFO root fetch - processPackages [tuack]: New version: [0.1.5.1.3] Old Version: [0.1.5.1.2]
+[2023-07-18 06:11:43] INFO root fetch - processPackages [quickfix-ch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 06:11:43] INFO root fetch - processPackages [sdock]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-18 06:11:43] INFO root fetch - processPackages [ykenan-util]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-18 06:11:43] INFO root fetch - processPackages [odoo-addon-account-banking-ach-base]: New version: [15.0.1.0.1.6] Old Version: [15.0.1.0.1.4]
+[2023-07-18 06:11:43] INFO root fetch - processPackages [odoo-addon-account-banking-ach-credit-transfer]: New version: [15.0.1.0.0.3] Old Version: [15.0.1.0.0.2]
+[2023-07-18 06:11:43] WARNING root fetch - processPackages [llm-replicate]: Skipping, unable to determine old version
+[2023-07-18 06:11:43] INFO root fetch - main [MainThread]: End processing [llm-replicate] error
+[2023-07-18 06:11:43] INFO root fetch - processPackages [preprocessing-pgp]: New version: [0.2.9.post9.dev8] Old Version: [0.2.9.post9.dev7]
+[2023-07-18 06:11:43] INFO root fetch - processPackages [sdock]: Downloading https://files.pythonhosted.org/packages/41/ee/21a196c7677db2662eda40c9eec68cc25f925d35f8961226cfbf3ee9a7cb/sdock-0.1.8.tar.gz
+[2023-07-18 06:11:43] INFO root fetch - processPackages [preprocessing-pgp]: Downloading https://files.pythonhosted.org/packages/3b/ff/280ddfc30db341960587617aede0239f03d7380c369e1410cf3fc31d07bf/preprocessing-pgp-0.2.9.post9.dev7.tar.gz
+[2023-07-18 06:11:43] WARNING root fetch - processPackages [preprocessing-pgp]: Skipping package: exceeds size limit 78857974>=10485760
+[2023-07-18 06:11:43] INFO root fetch - main [MainThread]: End processing [preprocessing-pgp] error
+[2023-07-18 06:11:44] INFO root fetch - processPackages [odoo14-addon-account-banking-ach-base]: Downloading https://files.pythonhosted.org/packages/17/48/a35c7751e09718bef9de76a3ea84b5208fc90fa53ce25cd9381948bf8c55/odoo14_addon_account_banking_ach_base-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-07-18 06:11:44] INFO root fetch - processPackages [ykenan-util]: Downloading https://files.pythonhosted.org/packages/85/a0/84ab467e8b76ac64ba3b394b9adc0edae1b37cf7130060843054e35a8909/ykenan_util-0.0.1.tar.gz
+[2023-07-18 06:11:44] INFO root fetch - processPackages [quickfix-ch]: Downloading https://files.pythonhosted.org/packages/f0/83/efca9de09d9ff6dd4fdfdccf96a100a02c57b727244691eea9f94b4451d4/quickfix-ch-0.0.8.tar.gz
+[2023-07-18 06:11:44] INFO root fetch - processPackages [tuack]: Downloading https://files.pythonhosted.org/packages/14/4e/4bd47a455d5db8e8c8a19f115d659b78b20b8c849220068fbfccbee12daa/tuack-0.1.5.1.2.tar.gz
+[2023-07-18 06:11:44] INFO root fetch - processPackages [odoo-addon-account-banking-ach-credit-transfer]: Downloading https://files.pythonhosted.org/packages/dc/d6/e45905cddc9905c16cee9565a3a3e87c3ee8789b793a715ed4554c635e91/odoo_addon_account_banking_ach_credit_transfer-15.0.1.0.0.2-py3-none-any.whl
+[2023-07-18 06:11:44] INFO root fetch - processPackages [odoo-addon-account-banking-ach-base]: Downloading https://files.pythonhosted.org/packages/ba/81/2f173404d77ec36437764699de02e015d39f285a68c2312b8ac07146f7f6/odoo_addon_account_banking_ach_base-15.0.1.0.1.4-py3-none-any.whl
+[2023-07-18 06:11:44] INFO root fetch - processPackages [sdock]: Downloading https://files.pythonhosted.org/packages/45/a7/929bd031aeedd6564b477e14caa297078664bb434accb97d098c6ee76c94/sdock-0.1.9.tar.gz
+[2023-07-18 06:11:44] INFO root fetch - processPackages [ykenan-util]: Downloading https://files.pythonhosted.org/packages/79/88/c4573f06fee9cf05f64cd88987358519695f0c204ef0d8bb88685d8c1146/ykenan_util-0.0.2.tar.gz
+[2023-07-18 06:11:44] INFO root fetch - processPackages [sdock]: executing diffoscope
+[2023-07-18 06:11:44] INFO root fetch - processPackages [sdock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdock-0.1.8.tar.gz tmp/sdock-0.1.9.tar.gz --markdown 20230718/s/sdock/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-18 06:11:44] INFO root fetch - processPackages [odoo-addon-account-banking-ach-credit-transfer]: Downloading https://files.pythonhosted.org/packages/89/5c/c1462b64932a9a0d6bb81b45f74cd04e08f4b092291e40a4e57b30c43f39/odoo_addon_account_banking_ach_credit_transfer-15.0.1.0.0.3-py3-none-any.whl
+[2023-07-18 06:11:44] INFO root fetch - processPackages [ykenan-util]: executing diffoscope
+[2023-07-18 06:11:44] INFO root fetch - processPackages [ykenan-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ykenan_util-0.0.1.tar.gz tmp/ykenan_util-0.0.2.tar.gz --markdown 20230718/y/ykenan-util/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-18 06:11:44] INFO root fetch - processPackages [odoo14-addon-account-banking-ach-base]: Downloading https://files.pythonhosted.org/packages/18/f9/b7b40d99e108ea4eb8da305434f066e76e488794fd3dbae6ce3e9909695f/odoo14_addon_account_banking_ach_base-14.0.1.0.2.dev1-py3-none-any.whl
+[2023-07-18 06:11:44] INFO root fetch - processPackages [tuack]: Downloading https://files.pythonhosted.org/packages/de/de/e91b28b3eedc2c76acd4315f48d32cc516de5c8a63db8bb6e208b65d06e7/tuack-0.1.5.1.3.tar.gz
+[2023-07-18 06:11:44] INFO root fetch - processPackages [odoo-addon-account-banking-ach-base]: Downloading https://files.pythonhosted.org/packages/bc/17/8dd6f48e9ab5f89ddff68f89e0e845af5d2266b6a6aeea034f7b43354533/odoo_addon_account_banking_ach_base-15.0.1.0.1.6-py3-none-any.whl
+[2023-07-18 06:11:44] INFO root fetch - processPackages [odoo14-addon-account-banking-ach-base]: executing diffoscope
+[2023-07-18 06:11:44] INFO root fetch - processPackages [odoo14-addon-account-banking-ach-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_banking_ach_base-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_account_banking_ach_base-14.0.1.0.2.dev1-py3-none-any.whl.zip --markdown 20230718/o/odoo14-addon-account-banking-ach-base/14.0.1.0.1.dev8-14.0.1.0.2.dev1/diff.md --exclude *.pyd
+[2023-07-18 06:11:44] INFO root fetch - processPackages [odoo-addon-account-banking-ach-credit-transfer]: executing diffoscope
+[2023-07-18 06:11:44] INFO root fetch - processPackages [odoo-addon-account-banking-ach-credit-transfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_ach_credit_transfer-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_banking_ach_credit_transfer-15.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230718/o/odoo-addon-account-banking-ach-credit-transfer/15.0.1.0.0.2-15.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-07-18 06:11:44] INFO root fetch - processPackages [odoo-addon-account-banking-ach-base]: executing diffoscope
+[2023-07-18 06:11:44] INFO root fetch - processPackages [odoo-addon-account-banking-ach-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_ach_base-15.0.1.0.1.4-py3-none-any.whl.zip tmp/odoo_addon_account_banking_ach_base-15.0.1.0.1.6-py3-none-any.whl.zip --markdown 20230718/o/odoo-addon-account-banking-ach-base/15.0.1.0.1.4-15.0.1.0.1.6/diff.md --exclude *.pyd
+[2023-07-18 06:11:44] INFO root fetch - processPackages [tuack]: executing diffoscope
+[2023-07-18 06:11:44] INFO root fetch - processPackages [tuack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuack-0.1.5.1.2.tar.gz tmp/tuack-0.1.5.1.3.tar.gz --markdown 20230718/t/tuack/0.1.5.1.2-0.1.5.1.3/diff.md --exclude *.pyd
+[2023-07-18 06:11:44] INFO root fetch - processPackages [quickfix-ch]: Downloading https://files.pythonhosted.org/packages/0b/7d/da20004e346782a821ef5a6d2c86109b1555f0fb738fb5801fa25238dc54/quickfix-ch-0.0.9.tar.gz
+[2023-07-18 06:11:45] INFO root fetch - processPackages [quickfix-ch]: executing diffoscope
+[2023-07-18 06:11:45] INFO root fetch - processPackages [quickfix-ch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickfix-ch-0.0.8.tar.gz tmp/quickfix-ch-0.0.9.tar.gz --markdown 20230718/q/quickfix-ch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 06:11:45] INFO root fetch - processPackages [sdock]: Remove: archive file [/home/abi/fetcher/tmp/sdock-0.1.8.tar.gz]
+[2023-07-18 06:11:45] INFO root fetch - processPackages [sdock]: Remove: archive file [/home/abi/fetcher/tmp/sdock-0.1.9.tar.gz]
+[2023-07-18 06:11:45] INFO root fetch - main [MainThread]: End processing [sdock]: success
+[2023-07-18 06:11:45] INFO root fetch - processPackages [ykenan-util]: Remove: archive file [/home/abi/fetcher/tmp/ykenan_util-0.0.1.tar.gz]
+[2023-07-18 06:11:45] INFO root fetch - processPackages [ykenan-util]: Remove: archive file [/home/abi/fetcher/tmp/ykenan_util-0.0.2.tar.gz]
+[2023-07-18 06:11:45] INFO root fetch - main [MainThread]: End processing [ykenan-util]: success
+[2023-07-18 06:11:45] INFO root fetch - processPackages [odoo-addon-account-banking-ach-credit-transfer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_ach_credit_transfer-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-18 06:11:45] INFO root fetch - processPackages [odoo-addon-account-banking-ach-credit-transfer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_ach_credit_transfer-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-18 06:11:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-ach-credit-transfer]: success
+[2023-07-18 06:11:45] INFO root fetch - processPackages [odoo-addon-account-banking-ach-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_ach_base-15.0.1.0.1.4-py3-none-any.whl.zip]
+[2023-07-18 06:11:45] INFO root fetch - processPackages [odoo-addon-account-banking-ach-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_ach_base-15.0.1.0.1.6-py3-none-any.whl.zip]
+[2023-07-18 06:11:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-ach-base]: success
+[2023-07-18 06:11:45] INFO root fetch - processPackages [odoo14-addon-account-banking-ach-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_banking_ach_base-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-07-18 06:11:45] INFO root fetch - processPackages [odoo14-addon-account-banking-ach-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_banking_ach_base-14.0.1.0.2.dev1-py3-none-any.whl.zip]
+[2023-07-18 06:11:45] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-banking-ach-base]: success
+[2023-07-18 06:11:46] INFO root fetch - processPackages [tuack]: Remove: archive file [/home/abi/fetcher/tmp/tuack-0.1.5.1.2.tar.gz]
+[2023-07-18 06:11:46] INFO root fetch - processPackages [tuack]: Remove: archive file [/home/abi/fetcher/tmp/tuack-0.1.5.1.3.tar.gz]
+[2023-07-18 06:11:46] INFO root fetch - main [MainThread]: End processing [tuack]: success
+[2023-07-18 06:11:48] INFO root fetch - processPackages [quickfix-ch]: Remove: archive file [/home/abi/fetcher/tmp/quickfix-ch-0.0.8.tar.gz]
+[2023-07-18 06:11:48] INFO root fetch - processPackages [quickfix-ch]: Remove: archive file [/home/abi/fetcher/tmp/quickfix-ch-0.0.9.tar.gz]
+[2023-07-18 06:11:48] INFO root fetch - main [MainThread]: End processing [quickfix-ch]: success
+[2023-07-18 06:11:48] INFO root fetch - main [MainThread]: Store serial: [18927827]
