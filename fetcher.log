@@ -17571,3 +17571,101 @@
 [2023-07-18 09:33:51] INFO root fetch - processPackages [ZODB]: Remove: archive file [/home/abi/fetcher/tmp/ZODB-5.8.1.tar.gz]
 [2023-07-18 09:33:51] INFO root fetch - main [MainThread]: End processing [ZODB]: success
 [2023-07-18 09:33:51] INFO root fetch - main [MainThread]: Store serial: [18929729]
+[2023-07-18 09:38:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18929729]
+[2023-07-18 09:39:00] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-18 09:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: learnware
+[2023-07-18 09:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cenas
+[2023-07-18 09:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ffmpeg-quality-metrics
+[2023-07-18 09:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: berrydb
+[2023-07-18 09:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tap-mailchimp
+[2023-07-18 09:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rstream
+[2023-07-18 09:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-master
+[2023-07-18 09:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: clickzetta-migration
+[2023-07-18 09:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pynamicui
+[2023-07-18 09:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: omgpt
+[2023-07-18 09:39:00] INFO root fetch - processPackages [cenas]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-18 09:39:00] INFO root fetch - processPackages [learnware]: New version: [0.1.0.dev0] Old Version: [0.1.0.99]
+[2023-07-18 09:39:00] INFO root fetch - processPackages [clickzetta-migration]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2023-07-18 09:39:00] WARNING root fetch - processPackages [pynamicui]: Skipping, unable to determine old version
+[2023-07-18 09:39:00] INFO root fetch - processPackages [pynamicui]: Start processing: gfx-perp-python-sdk
+[2023-07-18 09:39:00] INFO root fetch - main [MainThread]: End processing [pynamicui] error
+[2023-07-18 09:39:00] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230717.22.7.563808] Old Version: [20230717.21.42.615656]
+[2023-07-18 09:39:00] INFO root fetch - processPackages [ffmpeg-quality-metrics]: New version: [3.3.0] Old Version: [3.2.1]
+[2023-07-18 09:39:00] WARNING root fetch - processPackages [berrydb]: Skipping, unable to determine old version
+[2023-07-18 09:39:00] INFO root fetch - processPackages [berrydb]: Start processing: eko-throttler
+[2023-07-18 09:39:00] INFO root fetch - main [MainThread]: End processing [berrydb] error
+[2023-07-18 09:39:00] INFO root fetch - processPackages [gfx-perp-python-sdk]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-18 09:39:00] INFO root fetch - processPackages [tap-mailchimp]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-18 09:39:00] INFO root fetch - processPackages [rstream]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-18 09:39:00] INFO root fetch - processPackages [omgpt]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 09:39:00] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/ad/ad/8e6ac29153c6369e5cbdf21108e60070080d9d4978e3a1a5f20be7b9492b/cenas-1.1.8.tar.gz
+[2023-07-18 09:39:00] INFO root fetch - processPackages [clickzetta-migration]: Downloading https://files.pythonhosted.org/packages/41/44/ccb36c44c5dbe410e6bc7cdd603456bdd5d8ddc39f5185c5f636c88a7467/clickzetta-migration-0.0.0.1.tar.gz
+[2023-07-18 09:39:01] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/c7/8d/de7800e17f9c2a7275c79b28a8fa2946d6f97b61b408f66b50b10f3e2b2f/certora-cli-alpha-master-20230717.21.42.615656.tar.gz
+[2023-07-18 09:39:01] INFO root fetch - processPackages [learnware]: Downloading https://files.pythonhosted.org/packages/54/f6/135b67eed18ab7ac61bc07913e987dacedb1209e6ef42e1b0dfaa81f9f73/learnware-0.1.0.99-py3-none-any.whl
+[2023-07-18 09:39:01] INFO root fetch - processPackages [gfx-perp-python-sdk]: Downloading https://files.pythonhosted.org/packages/9b/46/64bc455cd22235f6c8b3cc85e34757ccd0c1bd3f566f5ead748a2a1bf279/gfx_perp_python_sdk-0.0.5.tar.gz
+[2023-07-18 09:39:01] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37506705>=10485760
+[2023-07-18 09:39:01] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: joseki
+[2023-07-18 09:39:01] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-18 09:39:01] WARNING root fetch - processPackages [eko-throttler]: Skipping, unable to determine old version
+[2023-07-18 09:39:01] INFO root fetch - main [MainThread]: End processing [eko-throttler] error
+[2023-07-18 09:39:01] INFO root fetch - processPackages [omgpt]: Downloading https://files.pythonhosted.org/packages/95/9b/1f4bcb2ba7c25dcf306fda6c086584232a3f7ab060058477dbe21ed0663e/omgpt-0.0.8.tar.gz
+[2023-07-18 09:39:01] INFO root fetch - processPackages [ffmpeg-quality-metrics]: Downloading https://files.pythonhosted.org/packages/f9/da/c6d9aa0d41664c91235d2173441142ffe6b96998832631c5fdbc2a2dae9e/ffmpeg_quality_metrics-3.2.1.tar.gz
+[2023-07-18 09:39:01] INFO root fetch - processPackages [tap-mailchimp]: Downloading https://files.pythonhosted.org/packages/2b/eb/84b030056a6b461f323730244ece3fd1c5bc7d72ccb64912bd1b4ce5134a/tap-mailchimp-1.2.0.tar.gz
+[2023-07-18 09:39:01] INFO root fetch - processPackages [rstream]: Downloading https://files.pythonhosted.org/packages/b9/02/cda6be5ba5d1adb01bada1d2cfaec91e30f2d6ec2a048f9fa170aa87f94d/rstream-0.8.1.tar.gz
+[2023-07-18 09:39:01] INFO root fetch - processPackages [joseki]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-18 09:39:01] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/37/ba/9662c92e6a20bfb5bcfc4f81bef895566ee63c5d4018c2cae825c1c94e21/cenas-1.1.9.tar.gz
+[2023-07-18 09:39:01] INFO root fetch - processPackages [clickzetta-migration]: Downloading https://files.pythonhosted.org/packages/01/23/1a3b1e0505afd9d00f66f8c1a5063db891e5cf66d93fb8722da7b5fd2f8a/clickzetta-migration-0.0.0.2.tar.gz
+[2023-07-18 09:39:01] INFO root fetch - processPackages [gfx-perp-python-sdk]: Downloading https://files.pythonhosted.org/packages/bd/fb/d4ce01d1b7193ea233928f4cf0098aa97f77c14605c1d83467ae144b671f/gfx_perp_python_sdk-0.0.6.tar.gz
+[2023-07-18 09:39:01] INFO root fetch - processPackages [cenas]: executing diffoscope
+[2023-07-18 09:39:01] INFO root fetch - processPackages [cenas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cenas-1.1.8.tar.gz tmp/cenas-1.1.9.tar.gz --markdown 20230718/c/cenas/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-18 09:39:01] INFO root fetch - processPackages [joseki]: Downloading https://files.pythonhosted.org/packages/7b/ef/e752d5b836030e7488ebfd73179c51afa53d54e0dbf404d70dab60914f19/joseki-2.1.0.tar.gz
+[2023-07-18 09:39:01] INFO root fetch - processPackages [learnware]: Downloading https://files.pythonhosted.org/packages/36/5d/99746a0e2b4b1afb0f862bd56b491612a0f150c3f1cacef7b6fbd09040fc/learnware-0.1.0.dev0-py3-none-any.whl
+[2023-07-18 09:39:01] INFO root fetch - processPackages [clickzetta-migration]: executing diffoscope
+[2023-07-18 09:39:01] INFO root fetch - processPackages [clickzetta-migration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-migration-0.0.0.1.tar.gz tmp/clickzetta-migration-0.0.0.2.tar.gz --markdown 20230718/c/clickzetta-migration/0.0.0.1-0.0.0.2/diff.md --exclude *.pyd
+[2023-07-18 09:39:01] INFO root fetch - processPackages [gfx-perp-python-sdk]: executing diffoscope
+[2023-07-18 09:39:01] INFO root fetch - processPackages [gfx-perp-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gfx_perp_python_sdk-0.0.5.tar.gz tmp/gfx_perp_python_sdk-0.0.6.tar.gz --markdown 20230718/g/gfx-perp-python-sdk/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-18 09:39:01] INFO root fetch - processPackages [omgpt]: Downloading https://files.pythonhosted.org/packages/36/eb/1b49802490ac705759227f8e6b347150ec116fa24ee9361cac7fee64566a/omgpt-0.0.9.tar.gz
+[2023-07-18 09:39:01] INFO root fetch - processPackages [tap-mailchimp]: Downloading https://files.pythonhosted.org/packages/3c/dd/6ff86673d8d6fd821812092f05ee88e37d37e9e95732b4aff0afe3946ab2/tap-mailchimp-1.2.1.tar.gz
+[2023-07-18 09:39:01] INFO root fetch - processPackages [learnware]: executing diffoscope
+[2023-07-18 09:39:01] INFO root fetch - processPackages [learnware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/learnware-0.1.0.99-py3-none-any.whl.zip tmp/learnware-0.1.0.dev0-py3-none-any.whl.zip --markdown 20230718/l/learnware/0.1.0.99-0.1.0.dev0/diff.md --exclude *.pyd
+[2023-07-18 09:39:01] INFO root fetch - processPackages [ffmpeg-quality-metrics]: Downloading https://files.pythonhosted.org/packages/a5/f3/3c1b48639fa2ce1225aab13be709c7eeda5e415eef75ff1a7f091758ab6a/ffmpeg_quality_metrics-3.3.0.tar.gz
+[2023-07-18 09:39:01] INFO root fetch - processPackages [rstream]: Downloading https://files.pythonhosted.org/packages/92/ef/61a6ea12a0afe157e759df9abbbb973d4d75526af47b4b5bddf4f613b288/rstream-0.9.0.tar.gz
+[2023-07-18 09:39:01] INFO root fetch - processPackages [omgpt]: executing diffoscope
+[2023-07-18 09:39:01] INFO root fetch - processPackages [omgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omgpt-0.0.8.tar.gz tmp/omgpt-0.0.9.tar.gz --markdown 20230718/o/omgpt/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 09:39:01] INFO root fetch - processPackages [tap-mailchimp]: executing diffoscope
+[2023-07-18 09:39:01] INFO root fetch - processPackages [tap-mailchimp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap-mailchimp-1.2.0.tar.gz tmp/tap-mailchimp-1.2.1.tar.gz --markdown 20230718/t/tap-mailchimp/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-18 09:39:01] INFO root fetch - processPackages [ffmpeg-quality-metrics]: executing diffoscope
+[2023-07-18 09:39:01] INFO root fetch - processPackages [ffmpeg-quality-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffmpeg_quality_metrics-3.2.1.tar.gz tmp/ffmpeg_quality_metrics-3.3.0.tar.gz --markdown 20230718/f/ffmpeg-quality-metrics/3.2.1-3.3.0/diff.md --exclude *.pyd
+[2023-07-18 09:39:02] INFO root fetch - processPackages [rstream]: executing diffoscope
+[2023-07-18 09:39:02] INFO root fetch - processPackages [rstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rstream-0.8.1.tar.gz tmp/rstream-0.9.0.tar.gz --markdown 20230718/r/rstream/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-18 09:39:02] INFO root fetch - processPackages [joseki]: Downloading https://files.pythonhosted.org/packages/c5/f4/53d0e68585659b1d9799c625f12263148d57e9f92374a609fbdfe9c68157/joseki-2.2.0.tar.gz
+[2023-07-18 09:39:02] INFO root fetch - processPackages [joseki]: executing diffoscope
+[2023-07-18 09:39:02] INFO root fetch - processPackages [joseki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joseki-2.1.0.tar.gz tmp/joseki-2.2.0.tar.gz --markdown 20230718/j/joseki/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-18 09:39:02] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.8.tar.gz]
+[2023-07-18 09:39:02] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.9.tar.gz]
+[2023-07-18 09:39:02] INFO root fetch - main [MainThread]: End processing [cenas]: success
+[2023-07-18 09:39:02] INFO root fetch - processPackages [gfx-perp-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/gfx_perp_python_sdk-0.0.5.tar.gz]
+[2023-07-18 09:39:02] INFO root fetch - processPackages [gfx-perp-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/gfx_perp_python_sdk-0.0.6.tar.gz]
+[2023-07-18 09:39:02] INFO root fetch - main [MainThread]: End processing [gfx-perp-python-sdk]: success
+[2023-07-18 09:39:02] INFO root fetch - processPackages [clickzetta-migration]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-migration-0.0.0.1.tar.gz]
+[2023-07-18 09:39:02] INFO root fetch - processPackages [clickzetta-migration]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-migration-0.0.0.2.tar.gz]
+[2023-07-18 09:39:02] INFO root fetch - main [MainThread]: End processing [clickzetta-migration]: success
+[2023-07-18 09:39:03] INFO root fetch - processPackages [omgpt]: Remove: archive file [/home/abi/fetcher/tmp/omgpt-0.0.8.tar.gz]
+[2023-07-18 09:39:03] INFO root fetch - processPackages [omgpt]: Remove: archive file [/home/abi/fetcher/tmp/omgpt-0.0.9.tar.gz]
+[2023-07-18 09:39:03] INFO root fetch - main [MainThread]: End processing [omgpt]: success
+[2023-07-18 09:39:03] INFO root fetch - processPackages [learnware]: Remove: archive file [/home/abi/fetcher/tmp/learnware-0.1.0.99-py3-none-any.whl.zip]
+[2023-07-18 09:39:03] INFO root fetch - processPackages [learnware]: Remove: archive file [/home/abi/fetcher/tmp/learnware-0.1.0.dev0-py3-none-any.whl.zip]
+[2023-07-18 09:39:03] INFO root fetch - main [MainThread]: End processing [learnware]: success
+[2023-07-18 09:39:03] INFO root fetch - processPackages [tap-mailchimp]: Remove: archive file [/home/abi/fetcher/tmp/tap-mailchimp-1.2.0.tar.gz]
+[2023-07-18 09:39:03] INFO root fetch - processPackages [tap-mailchimp]: Remove: archive file [/home/abi/fetcher/tmp/tap-mailchimp-1.2.1.tar.gz]
+[2023-07-18 09:39:03] INFO root fetch - main [MainThread]: End processing [tap-mailchimp]: success
+[2023-07-18 09:39:03] INFO root fetch - processPackages [ffmpeg-quality-metrics]: Remove: archive file [/home/abi/fetcher/tmp/ffmpeg_quality_metrics-3.2.1.tar.gz]
+[2023-07-18 09:39:03] INFO root fetch - processPackages [ffmpeg-quality-metrics]: Remove: archive file [/home/abi/fetcher/tmp/ffmpeg_quality_metrics-3.3.0.tar.gz]
+[2023-07-18 09:39:03] INFO root fetch - main [MainThread]: End processing [ffmpeg-quality-metrics]: success
+[2023-07-18 09:39:03] INFO root fetch - processPackages [rstream]: Remove: archive file [/home/abi/fetcher/tmp/rstream-0.8.1.tar.gz]
+[2023-07-18 09:39:03] INFO root fetch - processPackages [rstream]: Remove: archive file [/home/abi/fetcher/tmp/rstream-0.9.0.tar.gz]
+[2023-07-18 09:39:03] INFO root fetch - main [MainThread]: End processing [rstream]: success
+[2023-07-18 09:39:03] INFO root fetch - processPackages [joseki]: Remove: archive file [/home/abi/fetcher/tmp/joseki-2.1.0.tar.gz]
+[2023-07-18 09:39:03] INFO root fetch - processPackages [joseki]: Remove: archive file [/home/abi/fetcher/tmp/joseki-2.2.0.tar.gz]
+[2023-07-18 09:39:03] INFO root fetch - main [MainThread]: End processing [joseki]: success
+[2023-07-18 09:39:03] INFO root fetch - main [MainThread]: Store serial: [18929779]
