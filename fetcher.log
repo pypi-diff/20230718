@@ -10827,3 +10827,159 @@
 [2023-07-18 04:41:19] INFO root fetch - processPackages [odoo13-addon-account-product-fiscal-classification]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_account_product_fiscal_classification-13.0.1.0.1.dev5-py3-none-any.whl.zip]
 [2023-07-18 04:41:19] INFO root fetch - main [MainThread]: End processing [odoo13-addon-account-product-fiscal-classification]: success
 [2023-07-18 04:41:19] INFO root fetch - main [MainThread]: Store serial: [18927111]
+[2023-07-18 04:46:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18927111]
+[2023-07-18 04:46:29] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-18 04:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pisync
+[2023-07-18 04:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-plus-24
+[2023-07-18 04:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: memory-efficient-attention-pytorch
+[2023-07-18 04:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quantumsymmetry
+[2023-07-18 04:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-07-18 04:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-templates
+[2023-07-18 04:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: admobilizeapis
+[2023-07-18 04:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jaxDiversity
+[2023-07-18 04:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk8s-plus-26
+[2023-07-18 04:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cliffy
+[2023-07-18 04:46:30] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-07-18 04:46:30] INFO root fetch - processPackages [quantumsymmetry]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-18 04:46:30] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.96] Old Version: [2.4.95]
+[2023-07-18 04:46:30] WARNING root fetch - processPackages [pisync]: Skipping, unable to determine old version
+[2023-07-18 04:46:30] INFO root fetch - processPackages [pisync]: Start processing: manim-lamination-builder
+[2023-07-18 04:46:30] INFO root fetch - main [MainThread]: End processing [pisync] error
+[2023-07-18 04:46:30] WARNING root fetch - processPackages [jaxDiversity]: Skipping, unable to determine old version
+[2023-07-18 04:46:30] INFO root fetch - processPackages [jaxDiversity]: Start processing: talkytimes-package
+[2023-07-18 04:46:30] INFO root fetch - main [MainThread]: End processing [jaxDiversity] error
+[2023-07-18 04:46:30] WARNING root fetch - processPackages [nonebot-plugin-templates]: Skipping, unable to determine old version
+[2023-07-18 04:46:30] INFO root fetch - processPackages [nonebot-plugin-templates]: Start processing: flash-attention-jax
+[2023-07-18 04:46:30] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-templates] error
+[2023-07-18 04:46:30] INFO root fetch - processPackages [memory-efficient-attention-pytorch]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-18 04:46:30] INFO root fetch - processPackages [cliffy]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-18 04:46:30] INFO root fetch - processPackages [admobilizeapis]: New version: [2023.7.18.post1] Old Version: [2023.7.10.post1]
+[2023-07-18 04:46:30] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.97] Old Version: [2.8.96]
+[2023-07-18 04:46:30] INFO root fetch - processPackages [manim-lamination-builder]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-18 04:46:30] INFO root fetch - processPackages [talkytimes-package]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-18 04:46:30] INFO root fetch - processPackages [flash-attention-jax]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-18 04:46:30] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/09/4f/05603cfd91e7c913d4dd378ee5f27c54b74b1d9ebb03717d8a21f09b61f2/cdk8s-plus-26-2.4.95.tar.gz
+[2023-07-18 04:46:30] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/0a/3a/958d74cf4328cc6e6f0d9b91dde556223419a6f233178e91a71be0ecf990/talkytimes_package-0.3.8.tar.gz
+[2023-07-18 04:46:30] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/bf/59/61b6e0da1e8ba271fbcc1e8c1b76477fb0ef6673c20f975efba2e8bfcb43/cdk8s-plus-24-2.8.96.tar.gz
+[2023-07-18 04:46:30] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/20/7a/1cf95cd827a5bc2353d4a04fac9ad2282341306d1871323109bc1fcdc1bf/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz
+[2023-07-18 04:46:30] INFO root fetch - processPackages [quantumsymmetry]: Downloading https://files.pythonhosted.org/packages/b2/b3/af819c96bb69a89faffd61e7cb51a9bc3f3cd668688e5eed7513ca25effc/quantumsymmetry-0.1.8.tar.gz
+[2023-07-18 04:46:30] INFO root fetch - processPackages [admobilizeapis]: Downloading https://files.pythonhosted.org/packages/df/08/0a0caa223b4381c90ff8d8d4a6ba6a9583f193eb717cede79f5f9e1345ce/admobilizeapis-2023.7.10.post1.tar.gz
+[2023-07-18 04:46:30] INFO root fetch - processPackages [cliffy]: Downloading https://files.pythonhosted.org/packages/93/22/72319532e5dda45930697ac25d27a06ef5c2a7761ecd9ee3b7a47a803314/cliffy-0.3.2.tar.gz
+[2023-07-18 04:46:30] INFO root fetch - processPackages [memory-efficient-attention-pytorch]: Downloading https://files.pythonhosted.org/packages/7f/7e/4a435c3b32351c52983ca24b5bbe593820fa1f978b872a7d20cf672e7240/memory-efficient-attention-pytorch-0.1.5.tar.gz
+[2023-07-18 04:46:30] INFO root fetch - processPackages [manim-lamination-builder]: Downloading https://files.pythonhosted.org/packages/66/e6/27f1889f00d213c15d9397ae0cd2b643b0ed2e4261b2c91fed899e7d15d9/manim_lamination_builder-0.2.7.tar.gz
+[2023-07-18 04:46:30] INFO root fetch - processPackages [flash-attention-jax]: Downloading https://files.pythonhosted.org/packages/6b/e9/e44ef25a86c86b113510cb2c5d720ca85484b28d88ee99c08b4bacfc6ff5/flash-attention-jax-0.3.0.tar.gz
+[2023-07-18 04:46:30] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/9b/bf/3c3f6413c7a37cb1807906ef30aa88b444de6c59250fe902f6ad44add628/talkytimes_package-0.3.9.tar.gz
+[2023-07-18 04:46:30] INFO root fetch - processPackages [talkytimes-package]: executing diffoscope
+[2023-07-18 04:46:30] INFO root fetch - processPackages [talkytimes-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytimes_package-0.3.8.tar.gz tmp/talkytimes_package-0.3.9.tar.gz --markdown 20230718/t/talkytimes-package/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-18 04:46:31] INFO root fetch - processPackages [memory-efficient-attention-pytorch]: Downloading https://files.pythonhosted.org/packages/6f/6a/f263c5c5b82d9c2bfb278fae9d6bcd57aab1b3870eb901fbc8e261b83cdb/memory-efficient-attention-pytorch-0.1.6.tar.gz
+[2023-07-18 04:46:31] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/f1/3c/045bacb2cfb38f76e343acf88da4c0a1631df3288d3e232bcb03c55f25f6/cdk8s-plus-24-2.8.97.tar.gz
+[2023-07-18 04:46:31] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/a1/02/a44f26db0508904ac5d6e70c575bf20e4f99ab1df68dad57967a57b3a117/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz
+[2023-07-18 04:46:31] INFO root fetch - processPackages [admobilizeapis]: Downloading https://files.pythonhosted.org/packages/b1/21/a5ba1ac539634a4a4247f98a9c2cac656e80580fdb0f64857b1aea831b5a/admobilizeapis-2023.7.18.post1.tar.gz
+[2023-07-18 04:46:31] INFO root fetch - processPackages [manim-lamination-builder]: Downloading https://files.pythonhosted.org/packages/64/91/f36b0e4a1b38219703497fe3f03351570e50a021eaaf5f711d3ba1416536/manim_lamination_builder-0.2.8.tar.gz
+[2023-07-18 04:46:31] INFO root fetch - processPackages [quantumsymmetry]: Downloading https://files.pythonhosted.org/packages/92/ba/7752b13df3d21ea96763764586cc1541bf17bfc367fa11ea9f8c9af445af/quantumsymmetry-0.1.9.tar.gz
+[2023-07-18 04:46:31] INFO root fetch - processPackages [cliffy]: Downloading https://files.pythonhosted.org/packages/35/c9/d0dfeea52993a53ca22866629d9dcb7ed5bc52467984eb2d50ed699fe124/cliffy-0.3.3.tar.gz
+[2023-07-18 04:46:31] INFO root fetch - processPackages [flash-attention-jax]: Downloading https://files.pythonhosted.org/packages/e2/8a/c7c8f926d613392d2009a646b45d5dcab072c1326b42aafad93de45399c9/flash-attention-jax-0.3.1.tar.gz
+[2023-07-18 04:46:31] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/26/4b/c08150749de6e1ae7e663b4e1ee0bf5dffab4df91dc5a088bce9e54ac711/cdk8s-plus-26-2.4.96.tar.gz
+[2023-07-18 04:46:31] INFO root fetch - processPackages [memory-efficient-attention-pytorch]: executing diffoscope
+[2023-07-18 04:46:31] INFO root fetch - processPackages [memory-efficient-attention-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memory-efficient-attention-pytorch-0.1.5.tar.gz tmp/memory-efficient-attention-pytorch-0.1.6.tar.gz --markdown 20230718/m/memory-efficient-attention-pytorch/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-18 04:46:31] INFO root fetch - processPackages [admobilizeapis]: executing diffoscope
+[2023-07-18 04:46:31] INFO root fetch - processPackages [admobilizeapis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/admobilizeapis-2023.7.10.post1.tar.gz tmp/admobilizeapis-2023.7.18.post1.tar.gz --markdown 20230718/a/admobilizeapis/2023.7.10.post1-2023.7.18.post1/diff.md --exclude *.pyd
+[2023-07-18 04:46:31] INFO root fetch - processPackages [manim-lamination-builder]: executing diffoscope
+[2023-07-18 04:46:31] INFO root fetch - processPackages [manim-lamination-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manim_lamination_builder-0.2.7.tar.gz tmp/manim_lamination_builder-0.2.8.tar.gz --markdown 20230718/m/manim-lamination-builder/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-18 04:46:31] INFO root fetch - processPackages [flash-attention-jax]: executing diffoscope
+[2023-07-18 04:46:31] INFO root fetch - processPackages [flash-attention-jax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flash-attention-jax-0.3.0.tar.gz tmp/flash-attention-jax-0.3.1.tar.gz --markdown 20230718/f/flash-attention-jax/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-18 04:46:31] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-07-18 04:46:31] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230718/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-07-18 04:46:31] INFO root fetch - processPackages [quantumsymmetry]: executing diffoscope
+[2023-07-18 04:46:31] INFO root fetch - processPackages [quantumsymmetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantumsymmetry-0.1.8.tar.gz tmp/quantumsymmetry-0.1.9.tar.gz --markdown 20230718/q/quantumsymmetry/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-18 04:46:31] INFO root fetch - processPackages [cliffy]: executing diffoscope
+[2023-07-18 04:46:31] INFO root fetch - processPackages [cliffy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cliffy-0.3.2.tar.gz tmp/cliffy-0.3.3.tar.gz --markdown 20230718/c/cliffy/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-18 04:46:31] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-07-18 04:46:31] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.95.tar.gz tmp/cdk8s-plus-26-2.4.96.tar.gz --markdown 20230718/c/cdk8s-plus-26/2.4.95-2.4.96/diff.md --exclude *.pyd
+[2023-07-18 04:46:31] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-07-18 04:46:31] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.8.96.tar.gz tmp/cdk8s-plus-24-2.8.97.tar.gz --markdown 20230718/c/cdk8s-plus-24/2.8.96-2.8.97/diff.md --exclude *.pyd
+[2023-07-18 04:46:32] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.8.tar.gz]
+[2023-07-18 04:46:32] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.9.tar.gz]
+[2023-07-18 04:46:32] INFO root fetch - processPackages [talkytimes-package]: Start processing: odoo-addons-oca-account-invoicing
+[2023-07-18 04:46:32] INFO root fetch - main [MainThread]: End processing [talkytimes-package]: success
+[2023-07-18 04:46:32] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: New version: [16.0.20230712.0] Old Version: [16.0.20230703.0]
+[2023-07-18 04:46:32] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: Downloading https://files.pythonhosted.org/packages/b4/94/65a699906c85e148f1666d19899f82887cda130328c46b8471b2495c10b4/odoo_addons_oca_account_invoicing-16.0.20230703.0-py3-none-any.whl
+[2023-07-18 04:46:32] INFO root fetch - processPackages [memory-efficient-attention-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/memory-efficient-attention-pytorch-0.1.5.tar.gz]
+[2023-07-18 04:46:32] INFO root fetch - processPackages [memory-efficient-attention-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/memory-efficient-attention-pytorch-0.1.6.tar.gz]
+[2023-07-18 04:46:32] INFO root fetch - processPackages [memory-efficient-attention-pytorch]: Start processing: cdk8s-plus-25
+[2023-07-18 04:46:32] INFO root fetch - main [MainThread]: End processing [memory-efficient-attention-pytorch]: success
+[2023-07-18 04:46:32] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.96] Old Version: [2.8.95]
+[2023-07-18 04:46:32] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz]
+[2023-07-18 04:46:32] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz]
+[2023-07-18 04:46:32] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Start processing: pisync
+[2023-07-18 04:46:32] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-07-18 04:46:32] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: Downloading https://files.pythonhosted.org/packages/c8/23/0ff9abad3428d7bfab7af2d01d08c706ee731bc0e682569e0cae94f73f4b/odoo_addons_oca_account_invoicing-16.0.20230712.0-py3-none-any.whl
+[2023-07-18 04:46:32] INFO root fetch - processPackages [pisync]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-18 04:46:32] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/48/76/2d93a7ce8cb5cf1864ec39e8a55c78050eb31bd2bc01be4291bd66d1342b/cdk8s-plus-25-2.8.95.tar.gz
+[2023-07-18 04:46:32] INFO root fetch - processPackages [flash-attention-jax]: Remove: archive file [/home/abi/fetcher/tmp/flash-attention-jax-0.3.0.tar.gz]
+[2023-07-18 04:46:32] INFO root fetch - processPackages [flash-attention-jax]: Remove: archive file [/home/abi/fetcher/tmp/flash-attention-jax-0.3.1.tar.gz]
+[2023-07-18 04:46:32] INFO root fetch - processPackages [flash-attention-jax]: Start processing: yahoofinancials
+[2023-07-18 04:46:32] INFO root fetch - main [MainThread]: End processing [flash-attention-jax]: success
+[2023-07-18 04:46:33] INFO root fetch - processPackages [manim-lamination-builder]: Remove: archive file [/home/abi/fetcher/tmp/manim_lamination_builder-0.2.7.tar.gz]
+[2023-07-18 04:46:33] INFO root fetch - processPackages [manim-lamination-builder]: Remove: archive file [/home/abi/fetcher/tmp/manim_lamination_builder-0.2.8.tar.gz]
+[2023-07-18 04:46:33] INFO root fetch - processPackages [manim-lamination-builder]: Start processing: naif-eop-high-prec
+[2023-07-18 04:46:33] INFO root fetch - main [MainThread]: End processing [manim-lamination-builder]: success
+[2023-07-18 04:46:33] INFO root fetch - processPackages [yahoofinancials]: New version: [1.9] Old Version: [1.8]
+[2023-07-18 04:46:33] INFO root fetch - processPackages [quantumsymmetry]: Remove: archive file [/home/abi/fetcher/tmp/quantumsymmetry-0.1.8.tar.gz]
+[2023-07-18 04:46:33] INFO root fetch - processPackages [quantumsymmetry]: Remove: archive file [/home/abi/fetcher/tmp/quantumsymmetry-0.1.9.tar.gz]
+[2023-07-18 04:46:33] INFO root fetch - processPackages [quantumsymmetry]: Start processing: ork.build
+[2023-07-18 04:46:33] INFO root fetch - main [MainThread]: End processing [quantumsymmetry]: success
+[2023-07-18 04:46:33] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-18 04:46:33] INFO root fetch - processPackages [ork.build]: New version: [0.0.57] Old Version: [0.0.56]
+[2023-07-18 04:46:33] INFO root fetch - processPackages [cliffy]: Remove: archive file [/home/abi/fetcher/tmp/cliffy-0.3.2.tar.gz]
+[2023-07-18 04:46:33] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: executing diffoscope
+[2023-07-18 04:46:33] INFO root fetch - processPackages [cliffy]: Remove: archive file [/home/abi/fetcher/tmp/cliffy-0.3.3.tar.gz]
+[2023-07-18 04:46:33] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_account_invoicing-16.0.20230703.0-py3-none-any.whl.zip tmp/odoo_addons_oca_account_invoicing-16.0.20230712.0-py3-none-any.whl.zip --markdown 20230718/o/odoo-addons-oca-account-invoicing/16.0.20230703.0-16.0.20230712.0/diff.md --exclude *.pyd
+[2023-07-18 04:46:33] INFO root fetch - main [MainThread]: End processing [cliffy]: success
+[2023-07-18 04:46:33] INFO root fetch - processPackages [pisync]: Downloading https://files.pythonhosted.org/packages/8f/c9/8101fe624bd2ca6bd0d5aa946f64f4d62d38667e79984172f4d45773e6c2/pisync-0.0.0.tar.gz
+[2023-07-18 04:46:33] INFO root fetch - processPackages [yahoofinancials]: Downloading https://files.pythonhosted.org/packages/f8/3e/3a18ee8701d1b8346a6ee37eacaa87eb8b793bc76da09a40b0c8f160d9ef/yahoofinancials-1.8.tar.gz
+[2023-07-18 04:46:33] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.95.tar.gz]
+[2023-07-18 04:46:33] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.96.tar.gz]
+[2023-07-18 04:46:33] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-07-18 04:46:33] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/09/ed/7488d5d961ce08546f5ee7ced9b28382ede88767e23d898f7a089dbd5065/naif_eop_high_prec-2023.7.8.tar.gz
+[2023-07-18 04:46:33] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/95/16/268afe5bab9c539aa89f93fa9ba8535b7261c90c086973e21e578c4c616a/ork.build-0.0.56.tar.gz
+[2023-07-18 04:46:33] INFO root fetch - processPackages [admobilizeapis]: Remove: archive file [/home/abi/fetcher/tmp/admobilizeapis-2023.7.10.post1.tar.gz]
+[2023-07-18 04:46:33] INFO root fetch - processPackages [admobilizeapis]: Remove: archive file [/home/abi/fetcher/tmp/admobilizeapis-2023.7.18.post1.tar.gz]
+[2023-07-18 04:46:33] INFO root fetch - main [MainThread]: End processing [admobilizeapis]: success
+[2023-07-18 04:46:33] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.96.tar.gz]
+[2023-07-18 04:46:33] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.97.tar.gz]
+[2023-07-18 04:46:33] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-07-18 04:46:33] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/34/6e/c92f4e8ec0aa24763f45a76c1e4950bbe278ff720baf865142c757657408/cdk8s-plus-25-2.8.96.tar.gz
+[2023-07-18 04:46:33] INFO root fetch - processPackages [pisync]: Downloading https://files.pythonhosted.org/packages/6e/c6/d2bee77c7b1fc3f844b5a8854e5b5af06c66249320f652dd55a493416ff4/pisync-0.0.1.tar.gz
+[2023-07-18 04:46:33] INFO root fetch - processPackages [pisync]: executing diffoscope
+[2023-07-18 04:46:33] INFO root fetch - processPackages [pisync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pisync-0.0.0.tar.gz tmp/pisync-0.0.1.tar.gz --markdown 20230718/p/pisync/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-18 04:46:33] INFO root fetch - processPackages [yahoofinancials]: Downloading https://files.pythonhosted.org/packages/5b/20/bba1e36da065e8b58db6c464b857232ea744f3a9d365445ec6f26cb225d1/yahoofinancials-1.9.tar.gz
+[2023-07-18 04:46:33] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/da/fc/671d472a71d0f1bed173a0c7f11db5928b6162b792f67751308b7d206533/ork.build-0.0.57.tar.gz
+[2023-07-18 04:46:33] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-07-18 04:46:33] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.95.tar.gz tmp/cdk8s-plus-25-2.8.96.tar.gz --markdown 20230718/c/cdk8s-plus-25/2.8.95-2.8.96/diff.md --exclude *.pyd
+[2023-07-18 04:46:33] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/a2/f8/57853410d5affd1adacbfb12a5d90596ba94081ec97e3ffc215261ba9fea/naif_eop_high_prec-2023.7.9.tar.gz
+[2023-07-18 04:46:33] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_invoicing-16.0.20230703.0-py3-none-any.whl.zip]
+[2023-07-18 04:46:33] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_invoicing-16.0.20230712.0-py3-none-any.whl.zip]
+[2023-07-18 04:46:33] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-account-invoicing]: success
+[2023-07-18 04:46:34] INFO root fetch - processPackages [yahoofinancials]: executing diffoscope
+[2023-07-18 04:46:34] INFO root fetch - processPackages [yahoofinancials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yahoofinancials-1.8.tar.gz tmp/yahoofinancials-1.9.tar.gz --markdown 20230718/y/yahoofinancials/1.8-1.9/diff.md --exclude *.pyd
+[2023-07-18 04:46:34] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2023-07-18 04:46:34] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.56.tar.gz tmp/ork.build-0.0.57.tar.gz --markdown 20230718/o/ork.build/0.0.56-0.0.57/diff.md --exclude *.pyd
+[2023-07-18 04:46:34] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-07-18 04:46:34] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.7.8.tar.gz tmp/naif_eop_high_prec-2023.7.9.tar.gz --markdown 20230718/n/naif-eop-high-prec/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-18 04:46:34] INFO root fetch - processPackages [pisync]: Remove: archive file [/home/abi/fetcher/tmp/pisync-0.0.0.tar.gz]
+[2023-07-18 04:46:34] INFO root fetch - processPackages [pisync]: Remove: archive file [/home/abi/fetcher/tmp/pisync-0.0.1.tar.gz]
+[2023-07-18 04:46:34] INFO root fetch - main [MainThread]: End processing [pisync]: success
+[2023-07-18 04:46:34] INFO root fetch - processPackages [yahoofinancials]: Remove: archive file [/home/abi/fetcher/tmp/yahoofinancials-1.8.tar.gz]
+[2023-07-18 04:46:34] INFO root fetch - processPackages [yahoofinancials]: Remove: archive file [/home/abi/fetcher/tmp/yahoofinancials-1.9.tar.gz]
+[2023-07-18 04:46:34] INFO root fetch - main [MainThread]: End processing [yahoofinancials]: success
+[2023-07-18 04:46:35] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.95.tar.gz]
+[2023-07-18 04:46:35] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.96.tar.gz]
+[2023-07-18 04:46:35] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-07-18 04:46:36] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.56.tar.gz]
+[2023-07-18 04:46:36] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.57.tar.gz]
+[2023-07-18 04:46:36] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2023-07-18 04:46:36] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.8.tar.gz]
+[2023-07-18 04:46:36] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.9.tar.gz]
+[2023-07-18 04:46:36] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-07-18 04:46:36] INFO root fetch - main [MainThread]: Store serial: [18927171]
