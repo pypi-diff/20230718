@@ -11088,3 +11088,157 @@
 [2023-07-18 04:52:16] INFO root fetch - processPackages [sqlite-vss]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_vss-0.1.1a9-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
 [2023-07-18 04:52:16] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
 [2023-07-18 04:52:16] INFO root fetch - main [MainThread]: Store serial: [18927205]
+[2023-07-18 04:57:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18927205]
+[2023-07-18 04:57:25] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-18 04:57:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-ptsl
+[2023-07-18 04:57:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-define
+[2023-07-18 04:57:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tools-wzy
+[2023-07-18 04:57:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hcls-imaging-ml-toolkit-ez-wsi
+[2023-07-18 04:57:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: myfuncs
+[2023-07-18 04:57:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CalSim
+[2023-07-18 04:57:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-define
+[2023-07-18 04:57:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo8-addon-sale-commission
+[2023-07-18 04:57:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spender
+[2023-07-18 04:57:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gammarer.aws-secure-bucket
+[2023-07-18 04:57:25] INFO root fetch - processPackages [CalSim]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 04:57:25] INFO root fetch - processPackages [odoo8-addon-sale-commission]: New version: [8.0.3.1.1.99.dev9] Old Version: [8.0.3.1.1.99.dev8]
+[2023-07-18 04:57:26] INFO root fetch - processPackages [spender]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-18 04:57:26] WARNING root fetch - processPackages [hcls-imaging-ml-toolkit-ez-wsi]: Skipping, unable to determine old version
+[2023-07-18 04:57:26] INFO root fetch - processPackages [hcls-imaging-ml-toolkit-ez-wsi]: Start processing: databricks-helper
+[2023-07-18 04:57:26] INFO root fetch - main [MainThread]: End processing [hcls-imaging-ml-toolkit-ez-wsi] error
+[2023-07-18 04:57:26] INFO root fetch - processPackages [python-define]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-18 04:57:26] INFO root fetch - processPackages [tools-wzy]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-18 04:57:26] INFO root fetch - processPackages [python-define]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-18 04:57:26] WARNING root fetch - processPackages [py-ptsl]: Skipping, unable to determine old version
+[2023-07-18 04:57:26] INFO root fetch - processPackages [py-ptsl]: Start processing: sdock
+[2023-07-18 04:57:26] INFO root fetch - main [MainThread]: End processing [py-ptsl] error
+[2023-07-18 04:57:26] INFO root fetch - processPackages [myfuncs]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-18 04:57:26] INFO root fetch - processPackages [databricks-helper]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-18 04:57:26] WARNING root fetch - processPackages [gammarer.aws-secure-bucket]: Skipping, unable to determine old version
+[2023-07-18 04:57:26] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: Start processing: iam-actions
+[2023-07-18 04:57:26] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-bucket] error
+[2023-07-18 04:57:26] INFO root fetch - processPackages [sdock]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-18 04:57:26] INFO root fetch - processPackages [spender]: Downloading https://files.pythonhosted.org/packages/a1/55/0cd8517746b6f8a990e74b2d5fee0d9019ed265fbdac058968fdb9defc6e/spender-0.2.1.tar.gz
+[2023-07-18 04:57:26] INFO root fetch - processPackages [python-define]: Downloading https://files.pythonhosted.org/packages/65/e8/92c9d1761776e23d4d67084015209efca4b347f5daa67ce4aedd6965444a/python-define-1.0.0.tar.gz
+[2023-07-18 04:57:26] INFO root fetch - processPackages [python-define]: Downloading https://files.pythonhosted.org/packages/65/e8/92c9d1761776e23d4d67084015209efca4b347f5daa67ce4aedd6965444a/python-define-1.0.0.tar.gz
+[2023-07-18 04:57:26] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230718] Old Version: [1.2.20230717]
+[2023-07-18 04:57:26] INFO root fetch - processPackages [tools-wzy]: Downloading https://files.pythonhosted.org/packages/06/df/e17bb0613161396d81815e4557c688963cbd53e5e983574382c62b539b77/tools_wzy-0.0.3.tar.gz
+[2023-07-18 04:57:26] INFO root fetch - processPackages [CalSim]: Downloading https://files.pythonhosted.org/packages/9c/ee/10ee1f0aac4cceb86a1b873cf16fb9b223bd38be45cc04d38f07d7d0b40c/calsim-0.0.8.tar.gz
+[2023-07-18 04:57:26] INFO root fetch - processPackages [odoo8-addon-sale-commission]: Downloading https://files.pythonhosted.org/packages/3d/9a/425cceb43d4ed82c6811d1e0bc99df0b869822cc372d236ff52715c0b0a4/odoo8_addon_sale_commission-8.0.3.1.1.99.dev8-py2-none-any.whl
+[2023-07-18 04:57:26] INFO root fetch - processPackages [databricks-helper]: Downloading https://files.pythonhosted.org/packages/6d/fe/58cb79499d41a486009caede03dd4d2e1700b1daa5192d4eeaf2bca29ddf/databricks_helper-0.0.2.tar.gz
+[2023-07-18 04:57:26] INFO root fetch - processPackages [sdock]: Downloading https://files.pythonhosted.org/packages/6d/bd/33bb0032d686fffdf82ffd89819e85c6ba2f3b905dface067b5688f81c06/sdock-0.1.5.tar.gz
+[2023-07-18 04:57:26] INFO root fetch - processPackages [myfuncs]: Downloading https://files.pythonhosted.org/packages/38/8c/c1d85e2905c62a59738b8ec4b35e67b8de81066c99c0032a1dd6ba922f6b/myfuncs-1.0.0.tar.gz
+[2023-07-18 04:57:26] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/20/ad/31b6188d1c33bc381d2cc3a6bdab1844921506d4b7d03724edd5f404c9b0/iam_actions-1.2.20230717.tar.gz
+[2023-07-18 04:57:26] INFO root fetch - processPackages [spender]: Downloading https://files.pythonhosted.org/packages/55/b0/8aa602eb8efca04b0f45bcb97218649ea4cb26824a0c40c8b669824a960d/spender-0.2.2.tar.gz
+[2023-07-18 04:57:26] INFO root fetch - processPackages [tools-wzy]: Downloading https://files.pythonhosted.org/packages/65/95/ff9a12a2520b976d937f6b7c1f5da3529914163745806ea2fff1635e4923/tools_wzy-0.0.4.tar.gz
+[2023-07-18 04:57:26] INFO root fetch - processPackages [python-define]: Downloading https://files.pythonhosted.org/packages/f3/95/41f4c8973349917f796ff049648c1e0950fb65d9c56d43257107f1ec01d4/python-define-1.0.1.tar.gz
+[2023-07-18 04:57:26] INFO root fetch - processPackages [python-define]: Downloading https://files.pythonhosted.org/packages/f3/95/41f4c8973349917f796ff049648c1e0950fb65d9c56d43257107f1ec01d4/python-define-1.0.1.tar.gz
+[2023-07-18 04:57:26] INFO root fetch - processPackages [databricks-helper]: Downloading https://files.pythonhosted.org/packages/ce/32/4c47da231456b73e4e6369e4ed82623179d3cf8a426d292eda3f8a540f7f/databricks_helper-0.0.3.tar.gz
+[2023-07-18 04:57:26] INFO root fetch - processPackages [sdock]: Downloading https://files.pythonhosted.org/packages/10/f2/d84d6594d2f624709ab60711b91b1c13b756305392533e42e3e38be5dd37/sdock-0.1.6.tar.gz
+[2023-07-18 04:57:26] INFO root fetch - processPackages [odoo8-addon-sale-commission]: Downloading https://files.pythonhosted.org/packages/5f/b9/70759e373e1c9ec9b457e5bc1f7a8a6e6212129985746d7d2605346ffcc8/odoo8_addon_sale_commission-8.0.3.1.1.99.dev9-py2-none-any.whl
+[2023-07-18 04:57:26] INFO root fetch - processPackages [CalSim]: Downloading https://files.pythonhosted.org/packages/65/a1/95437c20af234eb1ed67c5cd349670e67df09bd27fafd7f248f5f12a3045/calsim-0.0.9.tar.gz
+[2023-07-18 04:57:26] INFO root fetch - processPackages [myfuncs]: Downloading https://files.pythonhosted.org/packages/af/ea/4ea3277c8b6b888e5cb8ceb82f71c40ac4c69bdac246b122899b7a8f5423/myfuncs-1.1.0.tar.gz
+[2023-07-18 04:57:27] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/01/60/e5f2897fcd85e0f62316c8946a6e30006b3aee8df8779eeb4c6707944267/iam_actions-1.2.20230718.tar.gz
+[2023-07-18 04:57:27] INFO root fetch - processPackages [tools-wzy]: executing diffoscope
+[2023-07-18 04:57:27] INFO root fetch - processPackages [tools-wzy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tools_wzy-0.0.3.tar.gz tmp/tools_wzy-0.0.4.tar.gz --markdown 20230718/t/tools-wzy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-18 04:57:27] INFO root fetch - processPackages [spender]: executing diffoscope
+[2023-07-18 04:57:27] INFO root fetch - processPackages [spender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spender-0.2.1.tar.gz tmp/spender-0.2.2.tar.gz --markdown 20230718/s/spender/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-18 04:57:27] INFO root fetch - processPackages [sdock]: executing diffoscope
+[2023-07-18 04:57:27] INFO root fetch - processPackages [sdock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdock-0.1.5.tar.gz tmp/sdock-0.1.6.tar.gz --markdown 20230718/s/sdock/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-18 04:57:27] INFO root fetch - processPackages [python-define]: executing diffoscope
+[2023-07-18 04:57:27] INFO root fetch - processPackages [python-define]: executing diffoscope
+[2023-07-18 04:57:27] INFO root fetch - processPackages [python-define]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-define-1.0.0.tar.gz tmp/python-define-1.0.1.tar.gz --markdown 20230718/p/python-define/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-18 04:57:27] INFO root fetch - processPackages [python-define]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-define-1.0.0.tar.gz tmp/python-define-1.0.1.tar.gz --markdown 20230718/p/python-define/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-18 04:57:27] INFO root fetch - processPackages [databricks-helper]: executing diffoscope
+[2023-07-18 04:57:27] INFO root fetch - processPackages [databricks-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks_helper-0.0.2.tar.gz tmp/databricks_helper-0.0.3.tar.gz --markdown 20230718/d/databricks-helper/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-18 04:57:27] INFO root fetch - processPackages [myfuncs]: executing diffoscope
+[2023-07-18 04:57:27] INFO root fetch - processPackages [myfuncs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfuncs-1.0.0.tar.gz tmp/myfuncs-1.1.0.tar.gz --markdown 20230718/m/myfuncs/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-18 04:57:27] INFO root fetch - processPackages [odoo8-addon-sale-commission]: executing diffoscope
+[2023-07-18 04:57:27] INFO root fetch - processPackages [odoo8-addon-sale-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_sale_commission-8.0.3.1.1.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_sale_commission-8.0.3.1.1.99.dev9-py2-none-any.whl.zip --markdown 20230718/o/odoo8-addon-sale-commission/8.0.3.1.1.99.dev8-8.0.3.1.1.99.dev9/diff.md --exclude *.pyd
+[2023-07-18 04:57:27] INFO root fetch - processPackages [CalSim]: executing diffoscope
+[2023-07-18 04:57:27] INFO root fetch - processPackages [CalSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calsim-0.0.8.tar.gz tmp/calsim-0.0.9.tar.gz --markdown 20230718/C/CalSim/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 04:57:27] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-07-18 04:57:27] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230717.tar.gz tmp/iam_actions-1.2.20230718.tar.gz --markdown 20230718/i/iam-actions/1.2.20230717-1.2.20230718/diff.md --exclude *.pyd
+[2023-07-18 04:57:28] INFO root fetch - processPackages [tools-wzy]: Remove: archive file [/home/abi/fetcher/tmp/tools_wzy-0.0.3.tar.gz]
+[2023-07-18 04:57:28] INFO root fetch - processPackages [tools-wzy]: Remove: archive file [/home/abi/fetcher/tmp/tools_wzy-0.0.4.tar.gz]
+[2023-07-18 04:57:28] INFO root fetch - processPackages [tools-wzy]: Start processing: wow-ai-sdk
+[2023-07-18 04:57:28] INFO root fetch - main [MainThread]: End processing [tools-wzy]: success
+[2023-07-18 04:57:28] INFO root fetch - processPackages [wow-ai-sdk]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-18 04:57:28] INFO root fetch - processPackages [sdock]: Remove: archive file [/home/abi/fetcher/tmp/sdock-0.1.5.tar.gz]
+[2023-07-18 04:57:28] INFO root fetch - processPackages [sdock]: Remove: archive file [/home/abi/fetcher/tmp/sdock-0.1.6.tar.gz]
+[2023-07-18 04:57:28] INFO root fetch - processPackages [sdock]: Start processing: astronomia
+[2023-07-18 04:57:28] INFO root fetch - main [MainThread]: End processing [sdock]: success
+[2023-07-18 04:57:28] INFO root fetch - processPackages [spender]: Remove: archive file [/home/abi/fetcher/tmp/spender-0.2.1.tar.gz]
+[2023-07-18 04:57:28] INFO root fetch - processPackages [spender]: Remove: archive file [/home/abi/fetcher/tmp/spender-0.2.2.tar.gz]
+[2023-07-18 04:57:28] INFO root fetch - processPackages [spender]: Start processing: pytdxmeasure
+[2023-07-18 04:57:28] INFO root fetch - main [MainThread]: End processing [spender]: success
+[2023-07-18 04:57:28] INFO root fetch - processPackages [astronomia]: New version: [2.0.0] Old Version: [1.2.9]
+[2023-07-18 04:57:28] INFO root fetch - processPackages [pytdxmeasure]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 04:57:28] INFO root fetch - processPackages [myfuncs]: Remove: archive file [/home/abi/fetcher/tmp/myfuncs-1.0.0.tar.gz]
+[2023-07-18 04:57:28] INFO root fetch - processPackages [myfuncs]: Remove: archive file [/home/abi/fetcher/tmp/myfuncs-1.1.0.tar.gz]
+[2023-07-18 04:57:28] INFO root fetch - processPackages [myfuncs]: Start processing: notion-dump-kernel
+[2023-07-18 04:57:28] INFO root fetch - main [MainThread]: End processing [myfuncs]: success
+[2023-07-18 04:57:28] INFO root fetch - processPackages [python-define]: Remove: archive file [/home/abi/fetcher/tmp/python-define-1.0.0.tar.gz]
+[2023-07-18 04:57:28] INFO root fetch - processPackages [python-define]: Remove: archive file [/home/abi/fetcher/tmp/python-define-1.0.1.tar.gz]
+[2023-07-18 04:57:28] INFO root fetch - processPackages [python-define]: Start processing: whatsappy-py
+[2023-07-18 04:57:28] INFO root fetch - main [MainThread]: End processing [python-define]: success
+[2023-07-18 04:57:28] INFO root fetch - processPackages [wow-ai-sdk]: Downloading https://files.pythonhosted.org/packages/04/1f/1d9b7527016296f637911b176c941de4ee49f54005d172ee62f2a034a163/wow_ai_sdk-0.1.2.tar.gz
+[2023-07-18 04:57:28] INFO root fetch - processPackages [databricks-helper]: Remove: archive file [/home/abi/fetcher/tmp/databricks_helper-0.0.2.tar.gz]
+[2023-07-18 04:57:28] INFO root fetch - processPackages [databricks-helper]: Remove: archive file [/home/abi/fetcher/tmp/databricks_helper-0.0.3.tar.gz]
+[2023-07-18 04:57:28] INFO root fetch - processPackages [databricks-helper]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-07-18 04:57:28] INFO root fetch - main [MainThread]: End processing [databricks-helper]: success
+[2023-07-18 04:57:28] INFO root fetch - processPackages [notion-dump-kernel]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-18 04:57:28] INFO root fetch - processPackages [whatsappy-py]: New version: [4.1.2] Old Version: [4.1.1]
+[2023-07-18 04:57:28] INFO root fetch - processPackages [CalSim]: Remove: archive file [/home/abi/fetcher/tmp/calsim-0.0.8.tar.gz]
+[2023-07-18 04:57:28] INFO root fetch - processPackages [CalSim]: Remove: archive file [/home/abi/fetcher/tmp/calsim-0.0.9.tar.gz]
+[2023-07-18 04:57:28] INFO root fetch - main [MainThread]: End processing [CalSim]: success
+[2023-07-18 04:57:28] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-07-18 04:57:28] INFO root fetch - processPackages [pytdxmeasure]: Downloading https://files.pythonhosted.org/packages/1c/07/7dfa37317ff6116a1b0356b7518983d94ed8ea8843de6e06bb139cde5ff4/pytdxmeasure-0.0.8-py3-none-any.whl
+[2023-07-18 04:57:28] INFO root fetch - processPackages [astronomia]: Downloading https://files.pythonhosted.org/packages/2a/4c/3e22eea68c8de7ef1bb0286142c280704668d839174189eed37bf374307e/astronomia-1.2.9.tar.gz
+[2023-07-18 04:57:29] INFO root fetch - main [MainThread]: End processing [python-define]: success
+[2023-07-18 04:57:29] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/20/7a/1cf95cd827a5bc2353d4a04fac9ad2282341306d1871323109bc1fcdc1bf/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz
+[2023-07-18 04:57:29] INFO root fetch - processPackages [notion-dump-kernel]: Downloading https://files.pythonhosted.org/packages/b6/05/c15431d7256aef4e3cb0fb87075b322091bd5f253e9e871f1b0dbe7d0e1a/notion-dump-kernel-0.2.2.tar.gz
+[2023-07-18 04:57:29] INFO root fetch - processPackages [whatsappy-py]: Downloading https://files.pythonhosted.org/packages/f4/71/67a00efa2d772b49622a0ebf2902b15e894f128fa7b3e55f619c935d6595/whatsappy-py-4.1.1.tar.gz
+[2023-07-18 04:57:29] INFO root fetch - processPackages [wow-ai-sdk]: Downloading https://files.pythonhosted.org/packages/71/08/5040c387c0dce5e21e6079320bab3d2d0c60694b705a28bdfc8fd942ba73/wow_ai_sdk-0.1.3.tar.gz
+[2023-07-18 04:57:29] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/a1/02/a44f26db0508904ac5d6e70c575bf20e4f99ab1df68dad57967a57b3a117/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz
+[2023-07-18 04:57:29] INFO root fetch - processPackages [wow-ai-sdk]: executing diffoscope
+[2023-07-18 04:57:29] INFO root fetch - processPackages [wow-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wow_ai_sdk-0.1.2.tar.gz tmp/wow_ai_sdk-0.1.3.tar.gz --markdown 20230718/w/wow-ai-sdk/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-18 04:57:29] INFO root fetch - processPackages [pytdxmeasure]: Downloading https://files.pythonhosted.org/packages/f9/ab/ea547814ed56aa025ded132a9f13b605bd0601964f2e4266fd8a118575e2/pytdxmeasure-0.0.9-py3-none-any.whl
+[2023-07-18 04:57:29] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-07-18 04:57:29] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230718/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-07-18 04:57:29] INFO root fetch - processPackages [astronomia]: Downloading https://files.pythonhosted.org/packages/00/b1/26ab7f18c6571294eac92d666c8d26e5cd7feacfea967134370ef92d1eab/astronomia-2.0.0.tar.gz
+[2023-07-18 04:57:29] INFO root fetch - processPackages [notion-dump-kernel]: Downloading https://files.pythonhosted.org/packages/2a/a9/4e45cfb346e855fcee9bc971f4f910629b889a1ca8e13b8c1f461f81d9c5/notion-dump-kernel-0.2.3.tar.gz
+[2023-07-18 04:57:29] INFO root fetch - processPackages [pytdxmeasure]: executing diffoscope
+[2023-07-18 04:57:29] INFO root fetch - processPackages [pytdxmeasure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytdxmeasure-0.0.8-py3-none-any.whl.zip tmp/pytdxmeasure-0.0.9-py3-none-any.whl.zip --markdown 20230718/p/pytdxmeasure/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 04:57:29] INFO root fetch - processPackages [astronomia]: executing diffoscope
+[2023-07-18 04:57:29] INFO root fetch - processPackages [astronomia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astronomia-1.2.9.tar.gz tmp/astronomia-2.0.0.tar.gz --markdown 20230718/a/astronomia/1.2.9-2.0.0/diff.md --exclude *.pyd
+[2023-07-18 04:57:29] INFO root fetch - processPackages [notion-dump-kernel]: executing diffoscope
+[2023-07-18 04:57:29] INFO root fetch - processPackages [notion-dump-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notion-dump-kernel-0.2.2.tar.gz tmp/notion-dump-kernel-0.2.3.tar.gz --markdown 20230718/n/notion-dump-kernel/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-18 04:57:29] INFO root fetch - processPackages [whatsappy-py]: Downloading https://files.pythonhosted.org/packages/d5/d5/4b4077dcd3354af2a378b66b229ab62d44c060430744155dbef8a9fe0e17/whatsappy-py-4.1.2.tar.gz
+[2023-07-18 04:57:30] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230717.tar.gz]
+[2023-07-18 04:57:30] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230718.tar.gz]
+[2023-07-18 04:57:30] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-07-18 04:57:30] INFO root fetch - processPackages [odoo8-addon-sale-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_sale_commission-8.0.3.1.1.99.dev8-py2-none-any.whl.zip]
+[2023-07-18 04:57:30] INFO root fetch - processPackages [odoo8-addon-sale-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_sale_commission-8.0.3.1.1.99.dev9-py2-none-any.whl.zip]
+[2023-07-18 04:57:30] INFO root fetch - main [MainThread]: End processing [odoo8-addon-sale-commission]: success
+[2023-07-18 04:57:30] INFO root fetch - processPackages [wow-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_sdk-0.1.2.tar.gz]
+[2023-07-18 04:57:30] INFO root fetch - processPackages [wow-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_sdk-0.1.3.tar.gz]
+[2023-07-18 04:57:30] INFO root fetch - main [MainThread]: End processing [wow-ai-sdk]: success
+[2023-07-18 04:57:30] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz]
+[2023-07-18 04:57:30] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz]
+[2023-07-18 04:57:30] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-07-18 04:57:30] INFO root fetch - processPackages [pytdxmeasure]: Remove: archive file [/home/abi/fetcher/tmp/pytdxmeasure-0.0.8-py3-none-any.whl.zip]
+[2023-07-18 04:57:30] INFO root fetch - processPackages [pytdxmeasure]: Remove: archive file [/home/abi/fetcher/tmp/pytdxmeasure-0.0.9-py3-none-any.whl.zip]
+[2023-07-18 04:57:30] INFO root fetch - main [MainThread]: End processing [pytdxmeasure]: success
+[2023-07-18 04:57:30] INFO root fetch - processPackages [notion-dump-kernel]: Remove: archive file [/home/abi/fetcher/tmp/notion-dump-kernel-0.2.2.tar.gz]
+[2023-07-18 04:57:30] INFO root fetch - processPackages [notion-dump-kernel]: Remove: archive file [/home/abi/fetcher/tmp/notion-dump-kernel-0.2.3.tar.gz]
+[2023-07-18 04:57:30] INFO root fetch - main [MainThread]: End processing [notion-dump-kernel]: success
+[2023-07-18 04:57:31] INFO root fetch - processPackages [astronomia]: Remove: archive file [/home/abi/fetcher/tmp/astronomia-1.2.9.tar.gz]
+[2023-07-18 04:57:31] INFO root fetch - processPackages [astronomia]: Remove: archive file [/home/abi/fetcher/tmp/astronomia-2.0.0.tar.gz]
+[2023-07-18 04:57:31] INFO root fetch - main [MainThread]: End processing [astronomia]: success
+[2023-07-18 04:57:31] INFO root fetch - processPackages [whatsappy-py]: executing diffoscope
+[2023-07-18 04:57:31] INFO root fetch - processPackages [whatsappy-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whatsappy-py-4.1.1.tar.gz tmp/whatsappy-py-4.1.2.tar.gz --markdown 20230718/w/whatsappy-py/4.1.1-4.1.2/diff.md --exclude *.pyd
+[2023-07-18 04:57:52] INFO root fetch - processPackages [whatsappy-py]: Remove: archive file [/home/abi/fetcher/tmp/whatsappy-py-4.1.1.tar.gz]
+[2023-07-18 04:57:52] INFO root fetch - processPackages [whatsappy-py]: Remove: archive file [/home/abi/fetcher/tmp/whatsappy-py-4.1.2.tar.gz]
+[2023-07-18 04:57:52] INFO root fetch - main [MainThread]: End processing [whatsappy-py]: success
+[2023-07-18 04:57:52] INFO root fetch - main [MainThread]: Store serial: [18927264]
