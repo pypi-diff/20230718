@@ -6163,3 +6163,113 @@
 [2023-07-18 03:28:07] INFO root fetch - processPackages [sentinel-protobuf]: Remove: archive file [/home/abi/fetcher/tmp/sentinel_protobuf-0.3.0.tar.gz]
 [2023-07-18 03:28:07] INFO root fetch - main [MainThread]: End processing [sentinel-protobuf]: success
 [2023-07-18 03:28:07] INFO root fetch - main [MainThread]: Store serial: [18925465]
+[2023-07-18 03:33:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18925465]
+[2023-07-18 03:33:17] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-18 03:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aemcmc-nightly
+[2023-07-18 03:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-translator
+[2023-07-18 03:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: botocore-stubs
+[2023-07-18 03:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: np-workflows
+[2023-07-18 03:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edc-test-utils
+[2023-07-18 03:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-lambda-layer-curl
+[2023-07-18 03:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cogent3
+[2023-07-18 03:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: klvm-tools
+[2023-07-18 03:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lesscode-py
+[2023-07-18 03:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: roblox-pyc
+[2023-07-18 03:33:17] INFO root fetch - processPackages [nonebot-plugin-translator]: New version: [2.0.0b4.post2] Old Version: [2.0.0b4.post1]
+[2023-07-18 03:33:17] INFO root fetch - processPackages [edc-test-utils]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-18 03:33:17] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-18 03:33:17] INFO root fetch - processPackages [botocore-stubs]: New version: [1.31.4] Old Version: [1.31.3]
+[2023-07-18 03:33:17] INFO root fetch - processPackages [cogent3]: New version: [2023.7.18a1] Old Version: [2023.2.12a1]
+[2023-07-18 03:33:17] INFO root fetch - processPackages [np-workflows]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-07-18 03:33:17] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-18 03:33:17] INFO root fetch - processPackages [lesscode-py]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-18 03:33:17] WARNING root fetch - processPackages [klvm-tools]: Skipping, unable to determine old version
+[2023-07-18 03:33:17] INFO root fetch - processPackages [klvm-tools]: Start processing: mo-parsing
+[2023-07-18 03:33:17] INFO root fetch - main [MainThread]: End processing [klvm-tools] error
+[2023-07-18 03:33:17] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230718] Old Version: [0.0.8.dev20230717]
+[2023-07-18 03:33:17] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-07-18 03:33:17] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-18 03:33:17] INFO root fetch - processPackages [nonebot-plugin-translator]: Downloading https://files.pythonhosted.org/packages/ea/3f/fb7ea49b6800a14bda95eb239eca451c4a50be390ef8fce5ac697e3db7e1/nonebot_plugin_translator-2.0.0b4.post1.tar.gz
+[2023-07-18 03:33:17] INFO root fetch - processPackages [mo-parsing]: New version: [8.6.21337] Old Version: [8.423.23199]
+[2023-07-18 03:33:17] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/93/59/9c87e90597a4fc3c2567abe4a0ff19fd2b89df126eacc6b3d22b92ec47b4/lesscode-py-0.3.8.tar.gz
+[2023-07-18 03:33:17] INFO root fetch - processPackages [edc-test-utils]: Downloading https://files.pythonhosted.org/packages/88/77/6830dd4f3853661a4058f77baf647d89588609ed3a08c34e32d75f9dbc47/edc_test_utils-0.3.8-py3-none-any.whl
+[2023-07-18 03:33:17] INFO root fetch - processPackages [botocore-stubs]: Downloading https://files.pythonhosted.org/packages/77/13/ccb2ba18a11db84d3e2789e0b167943233823ad77b0d307287cb5b744c6b/botocore_stubs-1.31.3.tar.gz
+[2023-07-18 03:33:18] INFO root fetch - processPackages [cogent3]: Downloading https://files.pythonhosted.org/packages/e0/bb/603a3e887e5d01d47d8dddea06a479055c48e39f13ee281ce025c704078b/cogent3-2023.2.12a1.tar.gz
+[2023-07-18 03:33:18] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/36/ab/9b675c87619a650acbe8796e98b47850d904e77f80227a5b47d44ce29ab6/np_workflows-1.5.3.tar.gz
+[2023-07-18 03:33:18] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/45/b8/bc054b1701a516cd1ab833f4f19b7aad7b8eae75880c520c510339ce39e4/aemcmc-nightly-0.0.8.dev20230717.tar.gz
+[2023-07-18 03:33:18] INFO root fetch - processPackages [mo-parsing]: Downloading https://files.pythonhosted.org/packages/ea/9b/eb4e86fc7653ebcc1797730dc1df822217ea9c7bbcce4ad54efb44dc378f/mo_parsing-8.423.23199-py2.py3-none-any.whl
+[2023-07-18 03:33:18] WARNING root fetch - processPackages [cogent3]: Skipping package: exceeds size limit 12400293>=10485760
+[2023-07-18 03:33:18] INFO root fetch - processPackages [cogent3]: Start processing: mo-sql-parsing
+[2023-07-18 03:33:18] INFO root fetch - main [MainThread]: End processing [cogent3] error
+[2023-07-18 03:33:18] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-18 03:33:18] INFO root fetch - processPackages [mo-sql-parsing]: New version: [9.423.23199] Old Version: [9.422.23190]
+[2023-07-18 03:33:18] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/64/97/cec698b665aba9a27d2cddb9f7528a8982bbaa3379372774ff671e45fb3e/lesscode-py-0.3.9.tar.gz
+[2023-07-18 03:33:18] INFO root fetch - processPackages [nonebot-plugin-translator]: Downloading https://files.pythonhosted.org/packages/95/1b/dd3b595ce41307a9291bb97e51125b891eaf3876013464cd1871655ae911/nonebot_plugin_translator-2.0.0b4.post2.tar.gz
+[2023-07-18 03:33:18] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-07-18 03:33:18] INFO root fetch - processPackages [botocore-stubs]: Downloading https://files.pythonhosted.org/packages/81/b9/ad1f0f6dd8c488cfee7f988c4b70d6693e4d0190856c3bbf0762c67efc7e/botocore_stubs-1.31.4.tar.gz
+[2023-07-18 03:33:18] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-18 03:33:18] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230718/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-18 03:33:18] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/46/92/90bb738c173839eb6586e35d230defb349c4b13d8f901fb2b350a9b5e820/np_workflows-1.5.4.tar.gz
+[2023-07-18 03:33:18] INFO root fetch - processPackages [edc-test-utils]: Downloading https://files.pythonhosted.org/packages/85/4d/0b5aa585370e88312de5b4663f06fab953d5798e3516907e3eccc76abae6/edc_test_utils-0.3.9-py3-none-any.whl
+[2023-07-18 03:33:18] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/a5/e9/92f0822d0958f728af8551a0a935b727de0d99e36a059f81ee33cf8580e2/aemcmc-nightly-0.0.8.dev20230718.tar.gz
+[2023-07-18 03:33:18] INFO root fetch - processPackages [mo-sql-parsing]: Downloading https://files.pythonhosted.org/packages/65/01/d5d0f8f46bbd84cea3eb438e6689fb3b0408a0f74b05611df1b5582a54fa/mo_sql_parsing-9.422.23190-py2.py3-none-any.whl
+[2023-07-18 03:33:18] INFO root fetch - processPackages [lesscode-py]: executing diffoscope
+[2023-07-18 03:33:18] INFO root fetch - processPackages [lesscode-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode-py-0.3.8.tar.gz tmp/lesscode-py-0.3.9.tar.gz --markdown 20230718/l/lesscode-py/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-18 03:33:18] INFO root fetch - processPackages [nonebot-plugin-translator]: executing diffoscope
+[2023-07-18 03:33:18] INFO root fetch - processPackages [nonebot-plugin-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_translator-2.0.0b4.post1.tar.gz tmp/nonebot_plugin_translator-2.0.0b4.post2.tar.gz --markdown 20230718/n/nonebot-plugin-translator/2.0.0b4.post1-2.0.0b4.post2/diff.md --exclude *.pyd
+[2023-07-18 03:33:18] INFO root fetch - processPackages [botocore-stubs]: executing diffoscope
+[2023-07-18 03:33:18] INFO root fetch - processPackages [botocore-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore_stubs-1.31.3.tar.gz tmp/botocore_stubs-1.31.4.tar.gz --markdown 20230718/b/botocore-stubs/1.31.3-1.31.4/diff.md --exclude *.pyd
+[2023-07-18 03:33:18] INFO root fetch - processPackages [mo-parsing]: Downloading https://files.pythonhosted.org/packages/f5/1a/82201993fe48978b96bd30729e1d7c8097d4513168689bc51790c6a20d90/mo-parsing-8.6.21337.tar.gz
+[2023-07-18 03:33:18] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-07-18 03:33:18] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230718/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-18 03:33:18] INFO root fetch - processPackages [edc-test-utils]: executing diffoscope
+[2023-07-18 03:33:18] INFO root fetch - processPackages [edc-test-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_test_utils-0.3.8-py3-none-any.whl.zip tmp/edc_test_utils-0.3.9-py3-none-any.whl.zip --markdown 20230718/e/edc-test-utils/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-18 03:33:18] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-07-18 03:33:18] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230717.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230718.tar.gz --markdown 20230718/a/aemcmc-nightly/0.0.8.dev20230717-0.0.8.dev20230718/diff.md --exclude *.pyd
+[2023-07-18 03:33:18] INFO root fetch - processPackages [np-workflows]: executing diffoscope
+[2023-07-18 03:33:18] INFO root fetch - processPackages [np-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_workflows-1.5.3.tar.gz tmp/np_workflows-1.5.4.tar.gz --markdown 20230718/n/np-workflows/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-07-18 03:33:19] INFO root fetch - processPackages [mo-parsing]: executing diffoscope
+[2023-07-18 03:33:19] INFO root fetch - processPackages [mo-parsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_parsing-8.423.23199-py2.py3-none-any.whl.zip tmp/mo-parsing-8.6.21337.tar.gz --markdown 20230718/m/mo-parsing/8.423.23199-8.6.21337/diff.md --exclude *.pyd
+[2023-07-18 03:33:19] INFO root fetch - processPackages [mo-sql-parsing]: Downloading https://files.pythonhosted.org/packages/a4/bd/f9ad6e8fb1ec6e61bb322e88786800ba408c496696f216755afa36513f45/mo_sql_parsing-9.423.23199-py2.py3-none-any.whl
+[2023-07-18 03:33:19] INFO root fetch - processPackages [mo-sql-parsing]: executing diffoscope
+[2023-07-18 03:33:19] INFO root fetch - processPackages [mo-sql-parsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_sql_parsing-9.422.23190-py2.py3-none-any.whl.zip tmp/mo_sql_parsing-9.423.23199-py2.py3-none-any.whl.zip --markdown 20230718/m/mo-sql-parsing/9.422.23190-9.423.23199/diff.md --exclude *.pyd
+[2023-07-18 03:33:20] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-18 03:33:20] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-18 03:33:20] INFO root fetch - processPackages [roblox-pyc]: Start processing: t265
+[2023-07-18 03:33:20] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-18 03:33:20] INFO root fetch - processPackages [nonebot-plugin-translator]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_translator-2.0.0b4.post1.tar.gz]
+[2023-07-18 03:33:20] INFO root fetch - processPackages [nonebot-plugin-translator]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_translator-2.0.0b4.post2.tar.gz]
+[2023-07-18 03:33:20] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-translator]: success
+[2023-07-18 03:33:20] INFO root fetch - processPackages [t265]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-18 03:33:20] INFO root fetch - processPackages [mo-parsing]: Remove: archive file [/home/abi/fetcher/tmp/mo_parsing-8.423.23199-py2.py3-none-any.whl.zip]
+[2023-07-18 03:33:20] INFO root fetch - processPackages [mo-parsing]: Remove: archive file [/home/abi/fetcher/tmp/mo-parsing-8.6.21337.tar.gz]
+[2023-07-18 03:33:20] INFO root fetch - main [MainThread]: End processing [mo-parsing]: success
+[2023-07-18 03:33:20] INFO root fetch - processPackages [edc-test-utils]: Remove: archive file [/home/abi/fetcher/tmp/edc_test_utils-0.3.8-py3-none-any.whl.zip]
+[2023-07-18 03:33:20] INFO root fetch - processPackages [edc-test-utils]: Remove: archive file [/home/abi/fetcher/tmp/edc_test_utils-0.3.9-py3-none-any.whl.zip]
+[2023-07-18 03:33:20] INFO root fetch - main [MainThread]: End processing [edc-test-utils]: success
+[2023-07-18 03:33:20] INFO root fetch - processPackages [botocore-stubs]: Remove: archive file [/home/abi/fetcher/tmp/botocore_stubs-1.31.3.tar.gz]
+[2023-07-18 03:33:20] INFO root fetch - processPackages [botocore-stubs]: Remove: archive file [/home/abi/fetcher/tmp/botocore_stubs-1.31.4.tar.gz]
+[2023-07-18 03:33:20] INFO root fetch - main [MainThread]: End processing [botocore-stubs]: success
+[2023-07-18 03:33:20] INFO root fetch - processPackages [lesscode-py]: Remove: archive file [/home/abi/fetcher/tmp/lesscode-py-0.3.8.tar.gz]
+[2023-07-18 03:33:20] INFO root fetch - processPackages [lesscode-py]: Remove: archive file [/home/abi/fetcher/tmp/lesscode-py-0.3.9.tar.gz]
+[2023-07-18 03:33:20] INFO root fetch - main [MainThread]: End processing [lesscode-py]: success
+[2023-07-18 03:33:20] INFO root fetch - processPackages [t265]: Downloading https://files.pythonhosted.org/packages/f6/2b/4d0d20449ea42a6638dabaa1f7b547f03db174a786d3727537d90ef89010/t265-0.1.2.tar.gz
+[2023-07-18 03:33:20] INFO root fetch - processPackages [mo-sql-parsing]: Remove: archive file [/home/abi/fetcher/tmp/mo_sql_parsing-9.422.23190-py2.py3-none-any.whl.zip]
+[2023-07-18 03:33:20] INFO root fetch - processPackages [mo-sql-parsing]: Remove: archive file [/home/abi/fetcher/tmp/mo_sql_parsing-9.423.23199-py2.py3-none-any.whl.zip]
+[2023-07-18 03:33:20] INFO root fetch - main [MainThread]: End processing [mo-sql-parsing]: success
+[2023-07-18 03:33:20] INFO root fetch - processPackages [np-workflows]: Remove: archive file [/home/abi/fetcher/tmp/np_workflows-1.5.3.tar.gz]
+[2023-07-18 03:33:20] INFO root fetch - processPackages [np-workflows]: Remove: archive file [/home/abi/fetcher/tmp/np_workflows-1.5.4.tar.gz]
+[2023-07-18 03:33:20] INFO root fetch - main [MainThread]: End processing [np-workflows]: success
+[2023-07-18 03:33:20] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230717.tar.gz]
+[2023-07-18 03:33:20] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230718.tar.gz]
+[2023-07-18 03:33:20] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-07-18 03:33:20] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-07-18 03:33:20] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-07-18 03:33:20] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-07-18 03:33:20] INFO root fetch - processPackages [t265]: Downloading https://files.pythonhosted.org/packages/17/a5/151a0e2194f165fbf586dd19910bb92e44e19a904cdf33d73bedeef87d6c/t265-0.1.3.tar.gz
+[2023-07-18 03:33:21] INFO root fetch - processPackages [t265]: executing diffoscope
+[2023-07-18 03:33:21] INFO root fetch - processPackages [t265]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t265-0.1.2.tar.gz tmp/t265-0.1.3.tar.gz --markdown 20230718/t/t265/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-18 03:33:21] INFO root fetch - processPackages [t265]: Remove: archive file [/home/abi/fetcher/tmp/t265-0.1.2.tar.gz]
+[2023-07-18 03:33:21] INFO root fetch - processPackages [t265]: Remove: archive file [/home/abi/fetcher/tmp/t265-0.1.3.tar.gz]
+[2023-07-18 03:33:21] INFO root fetch - main [MainThread]: End processing [t265]: success
+[2023-07-18 03:33:21] INFO root fetch - main [MainThread]: Store serial: [18925505]
