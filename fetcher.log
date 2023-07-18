@@ -16617,3 +16617,72 @@
 [2023-07-18 08:41:23] INFO root fetch - processPackages [mqt.bench]: Remove: archive file [/home/abi/fetcher/tmp/mqt.bench-1.0.1.tar.gz]
 [2023-07-18 08:41:23] INFO root fetch - main [MainThread]: End processing [mqt.bench]: success
 [2023-07-18 08:41:23] INFO root fetch - main [MainThread]: Store serial: [18929326]
+[2023-07-18 08:46:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18929326]
+[2023-07-18 08:46:33] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-18 08:46:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sdccli
+[2023-07-18 08:46:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lite-fastapi-local
+[2023-07-18 08:46:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omnata-plugin-devkit
+[2023-07-18 08:46:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wdmtoolbox
+[2023-07-18 08:46:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: petab
+[2023-07-18 08:46:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: distcrab
+[2023-07-18 08:46:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PSIcheck
+[2023-07-18 08:46:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: je-mail-thunder
+[2023-07-18 08:46:33] INFO root fetch - processPackages [PSIcheck]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-18 08:46:33] INFO root fetch - processPackages [sdccli]: New version: [0.8.0] Old Version: [0.7.9]
+[2023-07-18 08:46:33] INFO root fetch - processPackages [distcrab]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 08:46:33] INFO root fetch - processPackages [je-mail-thunder]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 08:46:33] INFO root fetch - processPackages [petab]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-18 08:46:33] WARNING root fetch - processPackages [lite-fastapi-local]: Skipping, unable to determine old version
+[2023-07-18 08:46:33] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-18 08:46:33] INFO root fetch - main [MainThread]: End processing [lite-fastapi-local] error
+[2023-07-18 08:46:33] INFO root fetch - processPackages [distcrab]: Downloading https://files.pythonhosted.org/packages/dc/ac/54f66fb4b83a926c3839c5502dcbe0f0a0a00e21f943dd692399b994b5b0/distcrab-0.0.8.tar.gz
+[2023-07-18 08:46:33] INFO root fetch - processPackages [wdmtoolbox]: New version: [8.9.7.5] Old Version: [7.9.7.5]
+[2023-07-18 08:46:33] INFO root fetch - processPackages [PSIcheck]: Downloading https://files.pythonhosted.org/packages/9e/7b/b7361e3d2c01221fefc99565df36e4637ad196f933eaa2a918803ebf7757/PSIcheck-0.0.5.tar.gz
+[2023-07-18 08:46:33] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-07-18 08:46:33] INFO root fetch - processPackages [sdccli]: Downloading https://files.pythonhosted.org/packages/04/b9/bc8d6dbf7a12c2a7f196ee429890bfec91bdce45029914e58caed546be65/sdccli-0.7.9.tar.gz
+[2023-07-18 08:46:33] INFO root fetch - processPackages [je-mail-thunder]: Downloading https://files.pythonhosted.org/packages/00/f5/1fddea644fa72ad7caf4c3541fd95402c82966b9bf3cee33a9664308ae54/je_mail_thunder-0.0.8.tar.gz
+[2023-07-18 08:46:33] INFO root fetch - processPackages [petab]: Downloading https://files.pythonhosted.org/packages/87/52/3fb72d309b0a64aa700bed80d7207c056625b7799199c2e661b43b9f3d84/petab-0.2.2.tar.gz
+[2023-07-18 08:46:33] INFO root fetch - processPackages [wdmtoolbox]: Downloading https://files.pythonhosted.org/packages/ec/9a/3bc801645af851093802a64c43c71137b82cab1db34a7279d8f696cf0b19/wdmtoolbox-7.9.7.5.tar.gz
+[2023-07-18 08:46:33] INFO root fetch - processPackages [PSIcheck]: Downloading https://files.pythonhosted.org/packages/50/f4/0de6649ccbc39b9b222780c9decddaa110b80999f9907a21cac3e0bdb1f3/PSIcheck-0.0.6.tar.gz
+[2023-07-18 08:46:33] INFO root fetch - processPackages [distcrab]: Downloading https://files.pythonhosted.org/packages/bb/77/3651b4f9952f0091761a1bce6614d428b71ebcfce2aaeae915a5c1b7e324/distcrab-0.0.9.tar.gz
+[2023-07-18 08:46:33] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-07-18 08:46:33] INFO root fetch - processPackages [distcrab]: executing diffoscope
+[2023-07-18 08:46:33] INFO root fetch - processPackages [distcrab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distcrab-0.0.8.tar.gz tmp/distcrab-0.0.9.tar.gz --markdown 20230718/d/distcrab/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 08:46:34] INFO root fetch - processPackages [je-mail-thunder]: Downloading https://files.pythonhosted.org/packages/0e/52/72dbb2396dffc495c2d329b371da485bd85f60db90b846ea3b2ad2944f73/je_mail_thunder-0.0.9.tar.gz
+[2023-07-18 08:46:34] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-07-18 08:46:34] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230718/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-18 08:46:34] INFO root fetch - processPackages [petab]: Downloading https://files.pythonhosted.org/packages/7e/b6/cc25c4819d7c3f1e8fb6e132cd410f14dd02fdfa996a96505a8aae2a7d40/petab-0.2.3.tar.gz
+[2023-07-18 08:46:34] INFO root fetch - processPackages [PSIcheck]: executing diffoscope
+[2023-07-18 08:46:34] INFO root fetch - processPackages [PSIcheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PSIcheck-0.0.5.tar.gz tmp/PSIcheck-0.0.6.tar.gz --markdown 20230718/P/PSIcheck/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-18 08:46:34] INFO root fetch - processPackages [sdccli]: Downloading https://files.pythonhosted.org/packages/8b/c6/5b378f1ced2025836446b51180f0175ebb873bdcd10a26f60238336a0524/sdccli-0.8.0.tar.gz
+[2023-07-18 08:46:34] INFO root fetch - processPackages [wdmtoolbox]: Downloading https://files.pythonhosted.org/packages/70/67/62d4bfd6f784827489a14b4c543d4ca60b65a5484ef88e082f73ff0a2de0/wdmtoolbox-8.9.7.5.tar.gz
+[2023-07-18 08:46:34] INFO root fetch - processPackages [petab]: executing diffoscope
+[2023-07-18 08:46:34] INFO root fetch - processPackages [petab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petab-0.2.2.tar.gz tmp/petab-0.2.3.tar.gz --markdown 20230718/p/petab/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-18 08:46:34] INFO root fetch - processPackages [sdccli]: executing diffoscope
+[2023-07-18 08:46:34] INFO root fetch - processPackages [sdccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdccli-0.7.9.tar.gz tmp/sdccli-0.8.0.tar.gz --markdown 20230718/s/sdccli/0.7.9-0.8.0/diff.md --exclude *.pyd
+[2023-07-18 08:46:34] INFO root fetch - processPackages [je-mail-thunder]: executing diffoscope
+[2023-07-18 08:46:34] INFO root fetch - processPackages [je-mail-thunder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_mail_thunder-0.0.8.tar.gz tmp/je_mail_thunder-0.0.9.tar.gz --markdown 20230718/j/je-mail-thunder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 08:46:34] INFO root fetch - processPackages [wdmtoolbox]: executing diffoscope
+[2023-07-18 08:46:34] INFO root fetch - processPackages [wdmtoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wdmtoolbox-7.9.7.5.tar.gz tmp/wdmtoolbox-8.9.7.5.tar.gz --markdown 20230718/w/wdmtoolbox/7.9.7.5-8.9.7.5/diff.md --exclude *.pyd
+[2023-07-18 08:46:35] INFO root fetch - processPackages [distcrab]: Remove: archive file [/home/abi/fetcher/tmp/distcrab-0.0.8.tar.gz]
+[2023-07-18 08:46:35] INFO root fetch - processPackages [distcrab]: Remove: archive file [/home/abi/fetcher/tmp/distcrab-0.0.9.tar.gz]
+[2023-07-18 08:46:35] INFO root fetch - main [MainThread]: End processing [distcrab]: success
+[2023-07-18 08:46:35] INFO root fetch - processPackages [PSIcheck]: Remove: archive file [/home/abi/fetcher/tmp/PSIcheck-0.0.5.tar.gz]
+[2023-07-18 08:46:35] INFO root fetch - processPackages [PSIcheck]: Remove: archive file [/home/abi/fetcher/tmp/PSIcheck-0.0.6.tar.gz]
+[2023-07-18 08:46:35] INFO root fetch - main [MainThread]: End processing [PSIcheck]: success
+[2023-07-18 08:46:35] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-07-18 08:46:35] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-07-18 08:46:35] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-07-18 08:46:35] INFO root fetch - processPackages [je-mail-thunder]: Remove: archive file [/home/abi/fetcher/tmp/je_mail_thunder-0.0.8.tar.gz]
+[2023-07-18 08:46:35] INFO root fetch - processPackages [je-mail-thunder]: Remove: archive file [/home/abi/fetcher/tmp/je_mail_thunder-0.0.9.tar.gz]
+[2023-07-18 08:46:35] INFO root fetch - main [MainThread]: End processing [je-mail-thunder]: success
+[2023-07-18 08:46:35] INFO root fetch - processPackages [sdccli]: Remove: archive file [/home/abi/fetcher/tmp/sdccli-0.7.9.tar.gz]
+[2023-07-18 08:46:35] INFO root fetch - processPackages [sdccli]: Remove: archive file [/home/abi/fetcher/tmp/sdccli-0.8.0.tar.gz]
+[2023-07-18 08:46:35] INFO root fetch - main [MainThread]: End processing [sdccli]: success
+[2023-07-18 08:46:35] INFO root fetch - processPackages [petab]: Remove: archive file [/home/abi/fetcher/tmp/petab-0.2.2.tar.gz]
+[2023-07-18 08:46:35] INFO root fetch - processPackages [petab]: Remove: archive file [/home/abi/fetcher/tmp/petab-0.2.3.tar.gz]
+[2023-07-18 08:46:35] INFO root fetch - main [MainThread]: End processing [petab]: success
+[2023-07-18 08:46:35] INFO root fetch - processPackages [wdmtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/wdmtoolbox-7.9.7.5.tar.gz]
+[2023-07-18 08:46:35] INFO root fetch - processPackages [wdmtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/wdmtoolbox-8.9.7.5.tar.gz]
+[2023-07-18 08:46:36] INFO root fetch - main [MainThread]: End processing [wdmtoolbox]: success
+[2023-07-18 08:46:36] INFO root fetch - main [MainThread]: Store serial: [18929350]
