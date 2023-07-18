@@ -20731,3 +20731,172 @@ AssertionError: tmp/cellmap-1.0.1.dev202307180907-py3-none-any.whl.zip does not 
 [2023-07-18 11:40:54] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.8.8.tar.gz]
 [2023-07-18 11:40:54] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
 [2023-07-18 11:40:54] INFO root fetch - main [MainThread]: Store serial: [18931070]
+[2023-07-18 11:45:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18931070]
+[2023-07-18 11:46:03] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-18 11:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SpaGoG
+[2023-07-18 11:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ExtractEmailAttachments
+[2023-07-18 11:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ezGPX
+[2023-07-18 11:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: digimat.bac0
+[2023-07-18 11:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TextClassification
+[2023-07-18 11:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shimoku-api-python
+[2023-07-18 11:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: systembridgeconnector
+[2023-07-18 11:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: file-combiner
+[2023-07-18 11:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: imio.events.core
+[2023-07-18 11:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: systembridgeshared
+[2023-07-18 11:46:03] INFO root fetch - processPackages [digimat.bac0]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-18 11:46:03] WARNING root fetch - processPackages [file-combiner]: Skipping, unable to determine old version
+[2023-07-18 11:46:03] INFO root fetch - processPackages [file-combiner]: Start processing: tiledb-cloud
+[2023-07-18 11:46:03] INFO root fetch - main [MainThread]: End processing [file-combiner] error
+[2023-07-18 11:46:03] INFO root fetch - processPackages [ExtractEmailAttachments]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-18 11:46:03] INFO root fetch - processPackages [TextClassification]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-18 11:46:03] INFO root fetch - processPackages [systembridgeshared]: New version: [3.8.0.dev3] Old Version: [3.8.0.dev2]
+[2023-07-18 11:46:03] INFO root fetch - processPackages [systembridgeconnector]: New version: [3.8.0.dev3] Old Version: [3.8.0.dev2]
+[2023-07-18 11:46:03] INFO root fetch - processPackages [shimoku-api-python]: New version: [1.0] Old Version: [0.9]
+[2023-07-18 11:46:03] INFO root fetch - processPackages [imio.events.core]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-07-18 11:46:03] INFO root fetch - processPackages [SpaGoG]: New version: [0.22] Old Version: [0.21]
+[2023-07-18 11:46:03] WARNING root fetch - processPackages [ezGPX]: Skipping, unable to determine old version
+[2023-07-18 11:46:03] INFO root fetch - processPackages [ezGPX]: Start processing: heps-ds-utils
+[2023-07-18 11:46:03] INFO root fetch - main [MainThread]: End processing [ezGPX] error
+[2023-07-18 11:46:03] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/93/69/86e0838e726c0937c564256e80ef37aa475670fd71b17c0760827302f8e2/digimat.bac0-0.0.7.tar.gz
+[2023-07-18 11:46:03] INFO root fetch - processPackages [tiledb-cloud]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-18 11:46:03] INFO root fetch - processPackages [heps-ds-utils]: New version: [0.4.7a8] Old Version: [0.4.7a7]
+[2023-07-18 11:46:03] INFO root fetch - processPackages [ExtractEmailAttachments]: Downloading https://files.pythonhosted.org/packages/1c/29/09e19e735f9d10f2ed95026b7ee1dd4ed921aab8c34515159a21b67cbddf/ExtractEmailAttachments-0.1.2.tar.gz
+[2023-07-18 11:46:03] INFO root fetch - processPackages [TextClassification]: Downloading https://files.pythonhosted.org/packages/ed/ca/7bbcfb0e5237d1bd75a387c8a1babd215497c491d14e8f4f43aea72447ca/TextClassification-0.2.1-py2.py3-none-any.whl
+[2023-07-18 11:46:03] INFO root fetch - processPackages [systembridgeshared]: Downloading https://files.pythonhosted.org/packages/b3/21/07ffbb8899bfb8b70021915e61c80d8e5abeff577dcfb492e73b7ad8cc86/systembridgeshared-3.8.0.dev2.tar.gz
+[2023-07-18 11:46:03] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/4b/0d/0a3ec7e8429017f14efea9c792c9947175649ccc562eb3c844146afb5a4c/systembridgeconnector-3.8.0.dev2.tar.gz
+[2023-07-18 11:46:04] INFO root fetch - processPackages [heps-ds-utils]: Downloading https://files.pythonhosted.org/packages/08/9e/808355296796bf62f70131205c55d7f368b8d67583089befc11a12b8d670/heps_ds_utils-0.4.7a7.tar.gz
+[2023-07-18 11:46:04] INFO root fetch - processPackages [shimoku-api-python]: Downloading https://files.pythonhosted.org/packages/12/3e/ec83bde96fc66f5775191c2bd6152638642b5c194b6da3e82971cea702aa/shimoku_api_python-0.9-py2.py3-none-any.whl
+[2023-07-18 11:46:04] INFO root fetch - processPackages [SpaGoG]: Downloading https://files.pythonhosted.org/packages/f7/66/48b5390f827164f405ca45c27928aafea5af5f695343ed2140e94c2d4be4/SpaGoG-0.21.tar.gz
+[2023-07-18 11:46:04] INFO root fetch - processPackages [imio.events.core]: Downloading https://files.pythonhosted.org/packages/3f/4b/f15bed9c578c2c815cfe7b0ca9bb6e94c0fafcc85940e2a6631cbc1b180c/imio.events.core-1.1.7.tar.gz
+[2023-07-18 11:46:04] INFO root fetch - processPackages [tiledb-cloud]: Downloading https://files.pythonhosted.org/packages/4d/e2/38ce15b3fcb2200474c3f28f12ab07f8fedb6d754ec30860278cc1b550fd/tiledb_cloud-0.9.4-py3-none-any.whl
+[2023-07-18 11:46:04] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/78/69/c221dd8f83b0cf18b4d8071cc4f3e464fd1a4a46aedfcc6da331732122ce/digimat.bac0-0.0.8.tar.gz
+[2023-07-18 11:46:04] INFO root fetch - processPackages [TextClassification]: Downloading https://files.pythonhosted.org/packages/88/96/d3112d974e2afeafa0039bd47aab416cbe733daf5a10eb06ee48628aeb03/TextClassification-0.2.2-py2.py3-none-any.whl
+[2023-07-18 11:46:04] INFO root fetch - processPackages [ExtractEmailAttachments]: Downloading https://files.pythonhosted.org/packages/16/2e/1e2d1cde50a1fa67e79097b67a11821ed9ef9a12d354191e18a5c710ae0b/ExtractEmailAttachments-0.1.3.tar.gz
+[2023-07-18 11:46:04] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/bb/f8/a4846e8da22d23c0af79e935ae6db702d2ea4ff9087fee65a79befc2388d/systembridgeconnector-3.8.0.dev3.tar.gz
+[2023-07-18 11:46:04] INFO root fetch - processPackages [systembridgeshared]: Downloading https://files.pythonhosted.org/packages/64/03/887bcbc20670cd4dc3f4974ffb351a5be6cf3571f54e2034e2fdcf302de4/systembridgeshared-3.8.0.dev3.tar.gz
+[2023-07-18 11:46:04] INFO root fetch - processPackages [digimat.bac0]: executing diffoscope
+[2023-07-18 11:46:04] INFO root fetch - processPackages [digimat.bac0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.bac0-0.0.7.tar.gz tmp/digimat.bac0-0.0.8.tar.gz --markdown 20230718/d/digimat.bac0/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-18 11:46:04] INFO root fetch - processPackages [heps-ds-utils]: Downloading https://files.pythonhosted.org/packages/7e/c2/e286b7662362770e1b6f3a3408b7c9df588d22bb3de5052da759bd565202/heps_ds_utils-0.4.7a8.tar.gz
+[2023-07-18 11:46:04] INFO root fetch - processPackages [TextClassification]: executing diffoscope
+[2023-07-18 11:46:04] INFO root fetch - processPackages [TextClassification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TextClassification-0.2.1-py2.py3-none-any.whl.zip tmp/TextClassification-0.2.2-py2.py3-none-any.whl.zip --markdown 20230718/T/TextClassification/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-18 11:46:04] INFO root fetch - processPackages [ExtractEmailAttachments]: executing diffoscope
+[2023-07-18 11:46:04] INFO root fetch - processPackages [ExtractEmailAttachments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExtractEmailAttachments-0.1.2.tar.gz tmp/ExtractEmailAttachments-0.1.3.tar.gz --markdown 20230718/E/ExtractEmailAttachments/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-18 11:46:04] INFO root fetch - processPackages [systembridgeconnector]: executing diffoscope
+[2023-07-18 11:46:04] INFO root fetch - processPackages [systembridgeconnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeconnector-3.8.0.dev2.tar.gz tmp/systembridgeconnector-3.8.0.dev3.tar.gz --markdown 20230718/s/systembridgeconnector/3.8.0.dev2-3.8.0.dev3/diff.md --exclude *.pyd
+[2023-07-18 11:46:04] INFO root fetch - processPackages [systembridgeshared]: executing diffoscope
+[2023-07-18 11:46:04] INFO root fetch - processPackages [systembridgeshared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeshared-3.8.0.dev2.tar.gz tmp/systembridgeshared-3.8.0.dev3.tar.gz --markdown 20230718/s/systembridgeshared/3.8.0.dev2-3.8.0.dev3/diff.md --exclude *.pyd
+[2023-07-18 11:46:04] INFO root fetch - processPackages [heps-ds-utils]: executing diffoscope
+[2023-07-18 11:46:04] INFO root fetch - processPackages [heps-ds-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heps_ds_utils-0.4.7a7.tar.gz tmp/heps_ds_utils-0.4.7a8.tar.gz --markdown 20230718/h/heps-ds-utils/0.4.7a7-0.4.7a8/diff.md --exclude *.pyd
+[2023-07-18 11:46:04] INFO root fetch - processPackages [SpaGoG]: Downloading https://files.pythonhosted.org/packages/86/0e/cacb256e2fe4208f18a1cc5b011f422b9e5cf29e0422dd8fea197139aba4/SpaGoG-0.22.tar.gz
+[2023-07-18 11:46:04] INFO root fetch - processPackages [imio.events.core]: Downloading https://files.pythonhosted.org/packages/7d/8a/ca98d9732fe45ea8812a7089c53a32087484a31b8dd63adbf01c8a90429d/imio.events.core-1.1.8.tar.gz
+[2023-07-18 11:46:04] INFO root fetch - processPackages [tiledb-cloud]: Downloading https://files.pythonhosted.org/packages/aa/55/f0fcd5db15793f389dfd3c37e59718e290812cc782a170f0e8e71ed01c95/tiledb_cloud-0.9.5-py3-none-any.whl
+[2023-07-18 11:46:04] INFO root fetch - processPackages [SpaGoG]: executing diffoscope
+[2023-07-18 11:46:04] INFO root fetch - processPackages [SpaGoG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpaGoG-0.21.tar.gz tmp/SpaGoG-0.22.tar.gz --markdown 20230718/S/SpaGoG/0.21-0.22/diff.md --exclude *.pyd
+[2023-07-18 11:46:04] INFO root fetch - processPackages [imio.events.core]: executing diffoscope
+[2023-07-18 11:46:04] INFO root fetch - processPackages [imio.events.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.events.core-1.1.7.tar.gz tmp/imio.events.core-1.1.8.tar.gz --markdown 20230718/i/imio.events.core/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-07-18 11:46:05] INFO root fetch - processPackages [tiledb-cloud]: executing diffoscope
+[2023-07-18 11:46:05] INFO root fetch - processPackages [tiledb-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledb_cloud-0.9.4-py3-none-any.whl.zip tmp/tiledb_cloud-0.9.5-py3-none-any.whl.zip --markdown 20230718/t/tiledb-cloud/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-18 11:46:05] INFO root fetch - processPackages [shimoku-api-python]: Downloading https://files.pythonhosted.org/packages/0b/de/5b50ad1e08c11096184358e3cae75f3d224f7866715736e1dd253051a670/shimoku-api-python-1.0.tar.gz
+[2023-07-18 11:46:05] INFO root fetch - processPackages [shimoku-api-python]: executing diffoscope
+[2023-07-18 11:46:05] INFO root fetch - processPackages [shimoku-api-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shimoku_api_python-0.9-py2.py3-none-any.whl.zip tmp/shimoku-api-python-1.0.tar.gz --markdown 20230718/s/shimoku-api-python/0.9-1.0/diff.md --exclude *.pyd
+[2023-07-18 11:46:05] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.7.tar.gz]
+[2023-07-18 11:46:05] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.8.tar.gz]
+[2023-07-18 11:46:05] INFO root fetch - processPackages [digimat.bac0]: Start processing: kodexa
+[2023-07-18 11:46:05] INFO root fetch - main [MainThread]: End processing [digimat.bac0]: success
+[2023-07-18 11:46:05] INFO root fetch - processPackages [kodexa]: New version: [6.3.35585655579] Old Version: [6.2.3a5260876523]
+[2023-07-18 11:46:06] INFO root fetch - processPackages [ExtractEmailAttachments]: Remove: archive file [/home/abi/fetcher/tmp/ExtractEmailAttachments-0.1.2.tar.gz]
+[2023-07-18 11:46:06] INFO root fetch - processPackages [ExtractEmailAttachments]: Remove: archive file [/home/abi/fetcher/tmp/ExtractEmailAttachments-0.1.3.tar.gz]
+[2023-07-18 11:46:06] INFO root fetch - processPackages [ExtractEmailAttachments]: Start processing: nuvla-api
+[2023-07-18 11:46:06] INFO root fetch - main [MainThread]: End processing [ExtractEmailAttachments]: success
+[2023-07-18 11:46:06] INFO root fetch - processPackages [nuvla-api]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-07-18 11:46:06] INFO root fetch - processPackages [TextClassification]: Remove: archive file [/home/abi/fetcher/tmp/TextClassification-0.2.1-py2.py3-none-any.whl.zip]
+[2023-07-18 11:46:06] INFO root fetch - processPackages [TextClassification]: Remove: archive file [/home/abi/fetcher/tmp/TextClassification-0.2.2-py2.py3-none-any.whl.zip]
+[2023-07-18 11:46:06] INFO root fetch - processPackages [TextClassification]: Start processing: kodexa
+[2023-07-18 11:46:06] INFO root fetch - main [MainThread]: End processing [TextClassification]: success
+[2023-07-18 11:46:06] INFO root fetch - processPackages [heps-ds-utils]: Remove: archive file [/home/abi/fetcher/tmp/heps_ds_utils-0.4.7a7.tar.gz]
+[2023-07-18 11:46:06] INFO root fetch - processPackages [heps-ds-utils]: Remove: archive file [/home/abi/fetcher/tmp/heps_ds_utils-0.4.7a8.tar.gz]
+[2023-07-18 11:46:06] INFO root fetch - processPackages [heps-ds-utils]: Start processing: LatticeGeometryLib
+[2023-07-18 11:46:06] INFO root fetch - main [MainThread]: End processing [heps-ds-utils]: success
+[2023-07-18 11:46:06] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-3.8.0.dev2.tar.gz]
+[2023-07-18 11:46:06] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-3.8.0.dev3.tar.gz]
+[2023-07-18 11:46:06] INFO root fetch - processPackages [systembridgeconnector]: Start processing: qontract-reconcile
+[2023-07-18 11:46:06] INFO root fetch - main [MainThread]: End processing [systembridgeconnector]: success
+[2023-07-18 11:46:06] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/4a/66/617dd208a245435e376984f62632bbda4041e15ec88b301ccf1e07f3d6fd/kodexa-6.2.3a5260876523.tar.gz
+[2023-07-18 11:46:06] INFO root fetch - processPackages [kodexa]: New version: [6.3.35585850782] Old Version: [6.3.35585849120]
+[2023-07-18 11:46:06] INFO root fetch - processPackages [systembridgeshared]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeshared-3.8.0.dev2.tar.gz]
+[2023-07-18 11:46:06] INFO root fetch - processPackages [systembridgeshared]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeshared-3.8.0.dev3.tar.gz]
+[2023-07-18 11:46:06] INFO root fetch - processPackages [systembridgeshared]: Start processing: ethrpc
+[2023-07-18 11:46:06] INFO root fetch - main [MainThread]: End processing [systembridgeshared]: success
+[2023-07-18 11:46:06] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-18 11:46:06] INFO root fetch - processPackages [LatticeGeometryLib]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-18 11:46:06] INFO root fetch - processPackages [nuvla-api]: Downloading https://files.pythonhosted.org/packages/e5/9a/696b0646b586bbb286a9b82071938b5635ca5a62854ee114b5c748c43bba/nuvla-api-3.0.8.tar.gz
+[2023-07-18 11:46:06] INFO root fetch - processPackages [ethrpc]: New version: [6.6.2] Old Version: [6.6.1]
+[2023-07-18 11:46:06] INFO root fetch - processPackages [SpaGoG]: Remove: archive file [/home/abi/fetcher/tmp/SpaGoG-0.21.tar.gz]
+[2023-07-18 11:46:06] INFO root fetch - processPackages [SpaGoG]: Remove: archive file [/home/abi/fetcher/tmp/SpaGoG-0.22.tar.gz]
+[2023-07-18 11:46:06] INFO root fetch - processPackages [SpaGoG]: Start processing: QRcodeTracking
+[2023-07-18 11:46:06] INFO root fetch - main [MainThread]: End processing [SpaGoG]: success
+[2023-07-18 11:46:06] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/97/c1/ae2ea5c1dce0935c405b38d93584d0cd9a93ecfb6cf0ef6a112f2043cbea/kodexa-6.3.35585849120.tar.gz
+[2023-07-18 11:46:06] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-18 11:46:06] INFO root fetch - processPackages [LatticeGeometryLib]: Downloading https://files.pythonhosted.org/packages/af/37/0d6512416f400cb80a35493d758fc813fd37cf6be1051ae5e71c2b2b1ab1/LatticeGeometryLib-0.0.0.tar.gz
+[2023-07-18 11:46:06] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/fb/e9/3ab1b7e14dbe36ac6ec89324f9fc1def51d696f48b187b58490ad470d6d6/kodexa-6.3.35585655579.tar.gz
+[2023-07-18 11:46:06] INFO root fetch - processPackages [shimoku-api-python]: Remove: archive file [/home/abi/fetcher/tmp/shimoku_api_python-0.9-py2.py3-none-any.whl.zip]
+[2023-07-18 11:46:06] INFO root fetch - processPackages [shimoku-api-python]: Remove: archive file [/home/abi/fetcher/tmp/shimoku-api-python-1.0.tar.gz]
+[2023-07-18 11:46:06] INFO root fetch - processPackages [shimoku-api-python]: Start processing: LatticeGeometryLib
+[2023-07-18 11:46:06] INFO root fetch - main [MainThread]: End processing [shimoku-api-python]: success
+[2023-07-18 11:46:06] INFO root fetch - processPackages [QRcodeTracking]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-18 11:46:06] INFO root fetch - processPackages [LatticeGeometryLib]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-18 11:46:06] INFO root fetch - processPackages [imio.events.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.events.core-1.1.7.tar.gz]
+[2023-07-18 11:46:06] INFO root fetch - processPackages [imio.events.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.events.core-1.1.8.tar.gz]
+[2023-07-18 11:46:06] INFO root fetch - main [MainThread]: End processing [imio.events.core]: success
+[2023-07-18 11:46:06] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-07-18 11:46:06] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.2.3a5260876523.tar.gz tmp/kodexa-6.3.35585655579.tar.gz --markdown 20230718/k/kodexa/6.2.3a5260876523-6.3.35585655579/diff.md --exclude *.pyd
+[2023-07-18 11:46:06] INFO root fetch - processPackages [ethrpc]: Downloading https://files.pythonhosted.org/packages/9d/ff/cd84a1fd79303ec7f3eba99748e2a61a16f1d7b65b526f0352cf481d6075/ethrpc-6.6.1.tar.gz
+[2023-07-18 11:46:06] INFO root fetch - processPackages [LatticeGeometryLib]: Downloading https://files.pythonhosted.org/packages/af/37/0d6512416f400cb80a35493d758fc813fd37cf6be1051ae5e71c2b2b1ab1/LatticeGeometryLib-0.0.0.tar.gz
+[2023-07-18 11:46:06] INFO root fetch - processPackages [nuvla-api]: Downloading https://files.pythonhosted.org/packages/15/80/3b23429467ae57c9fc65425abffccb41d168df5506b1ec6f0b4764311bc4/nuvla-api-3.0.9.tar.gz
+[2023-07-18 11:46:06] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-18 11:46:06] INFO root fetch - processPackages [QRcodeTracking]: Downloading https://files.pythonhosted.org/packages/fc/a3/de6b789f12db8a05b555d439e62a1a11f75d0efd6fc2d9bf8182b301f0dd/QRcodeTracking-0.1.4.tar.gz
+[2023-07-18 11:46:06] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/c2/a8/70f0251b931629c1b62867c51b56f863900a8e7533f0071f909c62cbde6e/kodexa-6.3.35585850782.tar.gz
+[2023-07-18 11:46:07] INFO root fetch - processPackages [LatticeGeometryLib]: Downloading https://files.pythonhosted.org/packages/c8/ce/666cc7b6b521cdedd423f9cf46db42946b8a07ec00feb043f5ae6ed31d15/LatticeGeometryLib-0.0.1.tar.gz
+[2023-07-18 11:46:07] INFO root fetch - processPackages [LatticeGeometryLib]: Downloading https://files.pythonhosted.org/packages/c8/ce/666cc7b6b521cdedd423f9cf46db42946b8a07ec00feb043f5ae6ed31d15/LatticeGeometryLib-0.0.1.tar.gz
+[2023-07-18 11:46:07] INFO root fetch - processPackages [nuvla-api]: executing diffoscope
+[2023-07-18 11:46:07] INFO root fetch - processPackages [nuvla-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuvla-api-3.0.8.tar.gz tmp/nuvla-api-3.0.9.tar.gz --markdown 20230718/n/nuvla-api/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-07-18 11:46:07] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-18 11:46:07] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230718/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-18 11:46:07] INFO root fetch - processPackages [LatticeGeometryLib]: executing diffoscope
+[2023-07-18 11:46:07] INFO root fetch - processPackages [LatticeGeometryLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LatticeGeometryLib-0.0.0.tar.gz tmp/LatticeGeometryLib-0.0.1.tar.gz --markdown 20230718/L/LatticeGeometryLib/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-18 11:46:07] INFO root fetch - processPackages [LatticeGeometryLib]: executing diffoscope
+[2023-07-18 11:46:07] INFO root fetch - processPackages [LatticeGeometryLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LatticeGeometryLib-0.0.0.tar.gz tmp/LatticeGeometryLib-0.0.1.tar.gz --markdown 20230718/L/LatticeGeometryLib/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-18 11:46:07] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-07-18 11:46:07] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.3.35585849120.tar.gz tmp/kodexa-6.3.35585850782.tar.gz --markdown 20230718/k/kodexa/6.3.35585849120-6.3.35585850782/diff.md --exclude *.pyd
+[2023-07-18 11:46:07] INFO root fetch - processPackages [ethrpc]: Downloading https://files.pythonhosted.org/packages/a4/a7/9834f663aa720a58cc51aebccd8129604830f910970f6cbe207156aaf9ec/ethrpc-6.6.2.tar.gz
+[2023-07-18 11:46:07] INFO root fetch - processPackages [QRcodeTracking]: Downloading https://files.pythonhosted.org/packages/a0/be/86425ec50b5b469413178250d678ca4bf3197fbacb683e45838e5ea9b9f6/QRcodeTracking-0.1.5.tar.gz
+[2023-07-18 11:46:07] INFO root fetch - processPackages [QRcodeTracking]: executing diffoscope
+[2023-07-18 11:46:07] INFO root fetch - processPackages [QRcodeTracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QRcodeTracking-0.1.4.tar.gz tmp/QRcodeTracking-0.1.5.tar.gz --markdown 20230718/Q/QRcodeTracking/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-18 11:46:07] INFO root fetch - processPackages [ethrpc]: executing diffoscope
+[2023-07-18 11:46:07] INFO root fetch - processPackages [ethrpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethrpc-6.6.1.tar.gz tmp/ethrpc-6.6.2.tar.gz --markdown 20230718/e/ethrpc/6.6.1-6.6.2/diff.md --exclude *.pyd
+[2023-07-18 11:46:08] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.2.3a5260876523.tar.gz]
+[2023-07-18 11:46:08] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.3.35585655579.tar.gz]
+[2023-07-18 11:46:08] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-07-18 11:46:08] INFO root fetch - processPackages [nuvla-api]: Remove: archive file [/home/abi/fetcher/tmp/nuvla-api-3.0.8.tar.gz]
+[2023-07-18 11:46:08] INFO root fetch - processPackages [nuvla-api]: Remove: archive file [/home/abi/fetcher/tmp/nuvla-api-3.0.9.tar.gz]
+[2023-07-18 11:46:08] INFO root fetch - main [MainThread]: End processing [nuvla-api]: success
+[2023-07-18 11:46:08] INFO root fetch - processPackages [LatticeGeometryLib]: Remove: archive file [/home/abi/fetcher/tmp/LatticeGeometryLib-0.0.0.tar.gz]
+[2023-07-18 11:46:08] INFO root fetch - processPackages [LatticeGeometryLib]: Remove: archive file [/home/abi/fetcher/tmp/LatticeGeometryLib-0.0.1.tar.gz]
+[2023-07-18 11:46:08] INFO root fetch - main [MainThread]: End processing [LatticeGeometryLib]: success
+[2023-07-18 11:46:08] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.3.35585849120.tar.gz]
+[2023-07-18 11:46:08] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.3.35585850782.tar.gz]
+[2023-07-18 11:46:08] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-07-18 11:46:08] INFO root fetch - main [MainThread]: End processing [LatticeGeometryLib]: success
+[2023-07-18 11:46:08] INFO root fetch - processPackages [QRcodeTracking]: Remove: archive file [/home/abi/fetcher/tmp/QRcodeTracking-0.1.4.tar.gz]
+[2023-07-18 11:46:08] INFO root fetch - processPackages [QRcodeTracking]: Remove: archive file [/home/abi/fetcher/tmp/QRcodeTracking-0.1.5.tar.gz]
+[2023-07-18 11:46:08] INFO root fetch - main [MainThread]: End processing [QRcodeTracking]: success
+[2023-07-18 11:46:09] INFO root fetch - processPackages [tiledb-cloud]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_cloud-0.9.4-py3-none-any.whl.zip]
+[2023-07-18 11:46:09] INFO root fetch - processPackages [tiledb-cloud]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_cloud-0.9.5-py3-none-any.whl.zip]
+[2023-07-18 11:46:09] INFO root fetch - main [MainThread]: End processing [tiledb-cloud]: success
+[2023-07-18 11:46:10] INFO root fetch - processPackages [ethrpc]: Remove: archive file [/home/abi/fetcher/tmp/ethrpc-6.6.1.tar.gz]
+[2023-07-18 11:46:10] INFO root fetch - processPackages [ethrpc]: Remove: archive file [/home/abi/fetcher/tmp/ethrpc-6.6.2.tar.gz]
+[2023-07-18 11:46:10] INFO root fetch - main [MainThread]: End processing [ethrpc]: success
+[2023-07-18 11:46:10] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-18 11:46:10] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-18 11:46:10] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-18 11:46:10] INFO root fetch - main [MainThread]: Store serial: [18931129]
