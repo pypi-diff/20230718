@@ -21492,3 +21492,224 @@ AssertionError: tmp/cellmap-1.0.1.dev202307180907-py3-none-any.whl.zip does not 
 [2023-07-18 12:07:50] INFO root fetch - processPackages [systembridgefrontend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgefrontend-3.8.0.dev5.tar.gz]
 [2023-07-18 12:07:50] INFO root fetch - main [MainThread]: End processing [systembridgefrontend]: success
 [2023-07-18 12:07:50] INFO root fetch - main [MainThread]: Store serial: [18931441]
+[2023-07-18 12:12:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18931441]
+[2023-07-18 12:12:58] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-07-18 12:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opentaskpy
+[2023-07-18 12:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: systembridgeconnector
+[2023-07-18 12:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bioval
+[2023-07-18 12:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: systembridgeshared
+[2023-07-18 12:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: LatticeGeometryLib
+[2023-07-18 12:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-rds-dump
+[2023-07-18 12:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tap-exactonline
+[2023-07-18 12:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: c2cciutils
+[2023-07-18 12:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: systembridgebackend
+[2023-07-18 12:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ecallisto-ng
+[2023-07-18 12:12:59] INFO root fetch - processPackages [systembridgebackend]: New version: [3.8.0.dev6] Old Version: [3.8.0.dev5]
+[2023-07-18 12:12:59] INFO root fetch - processPackages [LatticeGeometryLib]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-18 12:12:59] INFO root fetch - processPackages [systembridgeshared]: New version: [3.8.0.dev6] Old Version: [3.8.0.dev5]
+[2023-07-18 12:12:59] INFO root fetch - processPackages [systembridgeconnector]: New version: [3.8.0.dev6] Old Version: [3.8.0.dev5]
+[2023-07-18 12:12:59] INFO root fetch - processPackages [ecallisto-ng]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-18 12:12:59] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-07-18 12:12:59] INFO root fetch - processPackages [systembridgeshared]: Downloading https://files.pythonhosted.org/packages/48/b1/87a2363a98e8a18b7a6f1806bcbd1d066acde6135cbeca501c969b18d0d8/systembridgeshared-3.8.0.dev5.tar.gz
+[2023-07-18 12:12:59] INFO root fetch - processPackages [systembridgebackend]: Downloading https://files.pythonhosted.org/packages/78/b1/941487fb324f6ecee01066c950515e5f9501a279626db56753490360e59d/systembridgebackend-3.8.0.dev5.tar.gz
+[2023-07-18 12:12:59] INFO root fetch - processPackages [LatticeGeometryLib]: Downloading https://files.pythonhosted.org/packages/fa/d1/2fcf5101d344d79272e77ea1bf9308447167389a48abba1b7eaeec0001b3/LatticeGeometryLib-0.0.2.tar.gz
+[2023-07-18 12:12:59] INFO root fetch - processPackages [tap-exactonline]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-18 12:12:59] INFO root fetch - processPackages [opentaskpy]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-18 12:12:59] INFO root fetch - processPackages [bioval]: New version: [0.1.1a0] Old Version: [0.1.1.6b0]
+[2023-07-18 12:12:59] WARNING root fetch - processPackages [cdk-rds-dump]: Skipping, unable to determine old version
+[2023-07-18 12:12:59] INFO root fetch - processPackages [cdk-rds-dump]: Start processing: c2cciutils
+[2023-07-18 12:12:59] INFO root fetch - main [MainThread]: End processing [cdk-rds-dump] error
+[2023-07-18 12:12:59] INFO root fetch - processPackages [ecallisto-ng]: Downloading https://files.pythonhosted.org/packages/12/15/b24fd76c23d0d10e617d69c875a6c750c20ad6c4bd4e5e360887a93c0994/ecallisto_ng-0.2.0.tar.gz
+[2023-07-18 12:12:59] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-07-18 12:12:59] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/66/54/8bf1d7cea9c56e4a9a14465943037c6eb84c6c166d5e1879836a1661a3a5/systembridgeconnector-3.8.0.dev5.tar.gz
+[2023-07-18 12:12:59] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-07-18 12:12:59] INFO root fetch - processPackages [bioval]: Downloading https://files.pythonhosted.org/packages/7e/b6/a6ed9aa30bcbacc560310aa51be1722a90857d64e09df90e7e864b7e2530/bioval-0.1.1.6b0.tar.gz
+[2023-07-18 12:12:59] INFO root fetch - processPackages [opentaskpy]: Downloading https://files.pythonhosted.org/packages/95/1e/6b8dd6ec46cda589e45847dd943cee9ebe864c0966e9314a3e01546c9b9a/opentaskpy-0.8.1.tar.gz
+[2023-07-18 12:12:59] INFO root fetch - processPackages [tap-exactonline]: Downloading https://files.pythonhosted.org/packages/86/fe/a3e71e2b3947489a0a997ada4ef069fa939c810fa928df934d58b6a95410/tap-exactonline-0.2.8.tar.gz
+[2023-07-18 12:12:59] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-07-18 12:12:59] INFO root fetch - processPackages [systembridgebackend]: Downloading https://files.pythonhosted.org/packages/cc/56/17c6a03ad849d9d1ba34463d4a20fa3d0d997e4a8642f8358664e168d873/systembridgebackend-3.8.0.dev6.tar.gz
+[2023-07-18 12:12:59] INFO root fetch - processPackages [systembridgeshared]: Downloading https://files.pythonhosted.org/packages/b5/42/d81d8f12479756b5be9bf20bcf46005cb4e6153c4b9be902c89244872a2c/systembridgeshared-3.8.0.dev6.tar.gz
+[2023-07-18 12:12:59] INFO root fetch - processPackages [LatticeGeometryLib]: Downloading https://files.pythonhosted.org/packages/00/fe/eef1dddb8b3f6dc6c9c6ef6cacf82618828139dcf4ef4387799f8ed60586/LatticeGeometryLib-0.0.3.tar.gz
+[2023-07-18 12:13:00] INFO root fetch - processPackages [ecallisto-ng]: Downloading https://files.pythonhosted.org/packages/29/02/8379a44528906a509c27ba22345c934a1af6033d42bb004762855d4affcf/ecallisto_ng-0.2.1.tar.gz
+[2023-07-18 12:13:00] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/8e/bb/3cf1ef285296cfa92109e36bff5dd68f8254f2de837804c35223cec3e41e/systembridgeconnector-3.8.0.dev6.tar.gz
+[2023-07-18 12:13:00] INFO root fetch - processPackages [systembridgebackend]: executing diffoscope
+[2023-07-18 12:13:00] INFO root fetch - processPackages [systembridgebackend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgebackend-3.8.0.dev5.tar.gz tmp/systembridgebackend-3.8.0.dev6.tar.gz --markdown 20230718/s/systembridgebackend/3.8.0.dev5-3.8.0.dev6/diff.md --exclude *.pyd
+[2023-07-18 12:13:00] INFO root fetch - processPackages [systembridgeshared]: executing diffoscope
+[2023-07-18 12:13:00] INFO root fetch - processPackages [systembridgeshared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeshared-3.8.0.dev5.tar.gz tmp/systembridgeshared-3.8.0.dev6.tar.gz --markdown 20230718/s/systembridgeshared/3.8.0.dev5-3.8.0.dev6/diff.md --exclude *.pyd
+[2023-07-18 12:13:00] INFO root fetch - processPackages [LatticeGeometryLib]: executing diffoscope
+[2023-07-18 12:13:00] INFO root fetch - processPackages [LatticeGeometryLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LatticeGeometryLib-0.0.2.tar.gz tmp/LatticeGeometryLib-0.0.3.tar.gz --markdown 20230718/L/LatticeGeometryLib/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-18 12:13:00] INFO root fetch - processPackages [ecallisto-ng]: executing diffoscope
+[2023-07-18 12:13:00] INFO root fetch - processPackages [ecallisto-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecallisto_ng-0.2.0.tar.gz tmp/ecallisto_ng-0.2.1.tar.gz --markdown 20230718/e/ecallisto-ng/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-18 12:13:00] INFO root fetch - processPackages [systembridgeconnector]: executing diffoscope
+[2023-07-18 12:13:00] INFO root fetch - processPackages [systembridgeconnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeconnector-3.8.0.dev5.tar.gz tmp/systembridgeconnector-3.8.0.dev6.tar.gz --markdown 20230718/s/systembridgeconnector/3.8.0.dev5-3.8.0.dev6/diff.md --exclude *.pyd
+[2023-07-18 12:13:00] INFO root fetch - processPackages [bioval]: Downloading https://files.pythonhosted.org/packages/ec/19/db6500a367cbe0cef5d4993a66ae4dfde211e5d7b9aaa98920b3eda88ae6/bioval-0.1.1a0.tar.gz
+[2023-07-18 12:13:00] INFO root fetch - processPackages [opentaskpy]: Downloading https://files.pythonhosted.org/packages/55/5e/e1649c92e39fa5463eee87af2417041582137708d256f1e8080e447c4950/opentaskpy-0.9.0.tar.gz
+[2023-07-18 12:13:00] INFO root fetch - processPackages [tap-exactonline]: Downloading https://files.pythonhosted.org/packages/16/0a/a6e5835baf3818466669a042055e11c6ad0b078823f4e8db9bb7d167125a/tap-exactonline-0.2.9.tar.gz
+[2023-07-18 12:13:00] INFO root fetch - processPackages [bioval]: executing diffoscope
+[2023-07-18 12:13:00] INFO root fetch - processPackages [bioval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioval-0.1.1.6b0.tar.gz tmp/bioval-0.1.1a0.tar.gz --markdown 20230718/b/bioval/0.1.1.6b0-0.1.1a0/diff.md --exclude *.pyd
+[2023-07-18 12:13:00] INFO root fetch - processPackages [opentaskpy]: executing diffoscope
+[2023-07-18 12:13:00] INFO root fetch - processPackages [opentaskpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentaskpy-0.8.1.tar.gz tmp/opentaskpy-0.9.0.tar.gz --markdown 20230718/o/opentaskpy/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-18 12:13:00] INFO root fetch - processPackages [tap-exactonline]: executing diffoscope
+[2023-07-18 12:13:00] INFO root fetch - processPackages [tap-exactonline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap-exactonline-0.2.8.tar.gz tmp/tap-exactonline-0.2.9.tar.gz --markdown 20230718/t/tap-exactonline/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-18 12:13:01] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-07-18 12:13:01] INFO root fetch - processPackages [LatticeGeometryLib]: Remove: archive file [/home/abi/fetcher/tmp/LatticeGeometryLib-0.0.2.tar.gz]
+[2023-07-18 12:13:01] INFO root fetch - processPackages [LatticeGeometryLib]: Remove: archive file [/home/abi/fetcher/tmp/LatticeGeometryLib-0.0.3.tar.gz]
+[2023-07-18 12:13:01] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-07-18 12:13:01] INFO root fetch - processPackages [LatticeGeometryLib]: Start processing: ediri-scaleway
+[2023-07-18 12:13:01] INFO root fetch - main [MainThread]: End processing [LatticeGeometryLib]: success
+[2023-07-18 12:13:01] INFO root fetch - processPackages [ediri-scaleway]: New version: [2.24.0] Old Version: [2.23.0]
+[2023-07-18 12:13:01] INFO root fetch - processPackages [systembridgeshared]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeshared-3.8.0.dev5.tar.gz]
+[2023-07-18 12:13:01] INFO root fetch - processPackages [systembridgeshared]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeshared-3.8.0.dev6.tar.gz]
+[2023-07-18 12:13:01] INFO root fetch - processPackages [systembridgeshared]: Start processing: mccalcy
+[2023-07-18 12:13:01] INFO root fetch - main [MainThread]: End processing [systembridgeshared]: success
+[2023-07-18 12:13:01] INFO root fetch - processPackages [mccalcy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 12:13:01] INFO root fetch - processPackages [systembridgebackend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgebackend-3.8.0.dev5.tar.gz]
+[2023-07-18 12:13:01] INFO root fetch - processPackages [systembridgebackend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgebackend-3.8.0.dev6.tar.gz]
+[2023-07-18 12:13:01] INFO root fetch - processPackages [systembridgebackend]: Start processing: inductiva
+[2023-07-18 12:13:01] INFO root fetch - main [MainThread]: End processing [systembridgebackend]: success
+[2023-07-18 12:13:01] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-07-18 12:13:01] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230718/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-07-18 12:13:01] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-07-18 12:13:01] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230718/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-07-18 12:13:01] INFO root fetch - processPackages [mccalcy]: Downloading https://files.pythonhosted.org/packages/96/2b/85bc383914c57f638f7157482202009b17632a1eedb2a2db40aab9dce2fe/mccalcy-0.0.8.tar.gz
+[2023-07-18 12:13:01] INFO root fetch - processPackages [ecallisto-ng]: Remove: archive file [/home/abi/fetcher/tmp/ecallisto_ng-0.2.0.tar.gz]
+[2023-07-18 12:13:01] INFO root fetch - processPackages [ecallisto-ng]: Remove: archive file [/home/abi/fetcher/tmp/ecallisto_ng-0.2.1.tar.gz]
+[2023-07-18 12:13:01] INFO root fetch - processPackages [ecallisto-ng]: Start processing: pyvoikko
+[2023-07-18 12:13:01] INFO root fetch - main [MainThread]: End processing [ecallisto-ng]: success
+[2023-07-18 12:13:01] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-3.8.0.dev5.tar.gz]
+[2023-07-18 12:13:01] INFO root fetch - processPackages [ediri-scaleway]: Downloading https://files.pythonhosted.org/packages/0e/f2/1abfad6b22d457c556fd6c33abf9ecdb42230eed95c6a0bf56b93cf8f2a3/ediri_scaleway-2.23.0.tar.gz
+[2023-07-18 12:13:01] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-3.8.0.dev6.tar.gz]
+[2023-07-18 12:13:01] INFO root fetch - processPackages [systembridgeconnector]: Start processing: systembridgecli
+[2023-07-18 12:13:01] INFO root fetch - main [MainThread]: End processing [systembridgeconnector]: success
+[2023-07-18 12:13:01] INFO root fetch - processPackages [inductiva]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 12:13:01] INFO root fetch - processPackages [systembridgecli]: New version: [3.8.0.dev6] Old Version: [3.8.0.dev5]
+[2023-07-18 12:13:01] INFO root fetch - processPackages [pyvoikko]: New version: [0.3] Old Version: [0.2]
+[2023-07-18 12:13:01] INFO root fetch - processPackages [bioval]: Remove: archive file [/home/abi/fetcher/tmp/bioval-0.1.1.6b0.tar.gz]
+[2023-07-18 12:13:01] INFO root fetch - processPackages [bioval]: Remove: archive file [/home/abi/fetcher/tmp/bioval-0.1.1a0.tar.gz]
+[2023-07-18 12:13:01] INFO root fetch - processPackages [bioval]: Start processing: oarepo-model-builder-requests
+[2023-07-18 12:13:01] INFO root fetch - main [MainThread]: End processing [bioval]: success
+[2023-07-18 12:13:01] INFO root fetch - processPackages [tap-exactonline]: Remove: archive file [/home/abi/fetcher/tmp/tap-exactonline-0.2.8.tar.gz]
+[2023-07-18 12:13:01] INFO root fetch - processPackages [tap-exactonline]: Remove: archive file [/home/abi/fetcher/tmp/tap-exactonline-0.2.9.tar.gz]
+[2023-07-18 12:13:01] INFO root fetch - processPackages [tap-exactonline]: Start processing: c2cciutils
+[2023-07-18 12:13:01] INFO root fetch - main [MainThread]: End processing [tap-exactonline]: success
+[2023-07-18 12:13:01] INFO root fetch - processPackages [systembridgecli]: Downloading https://files.pythonhosted.org/packages/15/25/4f5aa9826feb8b91c8ebe697fbc43b6ef51a4289c2d98953d7e0dc6c891a/systembridgecli-3.8.0.dev5.tar.gz
+[2023-07-18 12:13:02] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-07-18 12:13:02] INFO root fetch - processPackages [inductiva]: Downloading https://files.pythonhosted.org/packages/f5/ff/12aafe5f40c79ba196217ac69abea4ff2395483b0cf633c43282dee37955/inductiva-0.0.8.tar.gz
+[2023-07-18 12:13:02] INFO root fetch - processPackages [mccalcy]: Downloading https://files.pythonhosted.org/packages/f6/2b/198b5203c8df1e3ccc38c240e96228be5cba931ce71e06726e441d2046dd/mccalcy-0.0.9.tar.gz
+[2023-07-18 12:13:02] INFO root fetch - processPackages [oarepo-model-builder-requests]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-07-18 12:13:02] INFO root fetch - processPackages [opentaskpy]: Remove: archive file [/home/abi/fetcher/tmp/opentaskpy-0.8.1.tar.gz]
+[2023-07-18 12:13:02] INFO root fetch - processPackages [opentaskpy]: Remove: archive file [/home/abi/fetcher/tmp/opentaskpy-0.9.0.tar.gz]
+[2023-07-18 12:13:02] INFO root fetch - processPackages [opentaskpy]: Start processing: sphinx-markdown-builder
+[2023-07-18 12:13:02] INFO root fetch - main [MainThread]: End processing [opentaskpy]: success
+[2023-07-18 12:13:02] INFO root fetch - processPackages [ediri-scaleway]: Downloading https://files.pythonhosted.org/packages/e4/f2/a695974190db055361c5b4baf50b5a661a377c59314726e9e5ceac76db98/ediri_scaleway-2.24.0.tar.gz
+[2023-07-18 12:13:02] INFO root fetch - processPackages [pyvoikko]: Downloading https://files.pythonhosted.org/packages/44/4a/fc19cdd217ae5bf8a6dd723ec909d9f89357e9f25158264ed420b304e421/pyvoikko-0.2.tar.gz
+[2023-07-18 12:13:02] INFO root fetch - processPackages [mccalcy]: executing diffoscope
+[2023-07-18 12:13:02] INFO root fetch - processPackages [mccalcy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mccalcy-0.0.8.tar.gz tmp/mccalcy-0.0.9.tar.gz --markdown 20230718/m/mccalcy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 12:13:02] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-07-18 12:13:02] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230718/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-07-18 12:13:02] INFO root fetch - processPackages [systembridgecli]: Downloading https://files.pythonhosted.org/packages/e3/7c/a80652782d01f838ac355250896b1f569964a637968acae5f3098da46ffa/systembridgecli-3.8.0.dev6.tar.gz
+[2023-07-18 12:13:02] INFO root fetch - processPackages [sphinx-markdown-builder]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-18 12:13:02] INFO root fetch - processPackages [oarepo-model-builder-requests]: Downloading https://files.pythonhosted.org/packages/c8/11/df5b5e60e94c4e31bcecd23bb433ead174b2cc95ae221e99133f37577e04/oarepo-model-builder-requests-4.0.0.tar.gz
+[2023-07-18 12:13:02] INFO root fetch - processPackages [ediri-scaleway]: executing diffoscope
+[2023-07-18 12:13:02] INFO root fetch - processPackages [ediri-scaleway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ediri_scaleway-2.23.0.tar.gz tmp/ediri_scaleway-2.24.0.tar.gz --markdown 20230718/e/ediri-scaleway/2.23.0-2.24.0/diff.md --exclude *.pyd
+[2023-07-18 12:13:02] INFO root fetch - processPackages [systembridgecli]: executing diffoscope
+[2023-07-18 12:13:02] INFO root fetch - processPackages [systembridgecli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgecli-3.8.0.dev5.tar.gz tmp/systembridgecli-3.8.0.dev6.tar.gz --markdown 20230718/s/systembridgecli/3.8.0.dev5-3.8.0.dev6/diff.md --exclude *.pyd
+[2023-07-18 12:13:02] INFO root fetch - processPackages [inductiva]: Downloading https://files.pythonhosted.org/packages/66/8c/41e6f743b1cb237403e96113a0d1f57bd8b76d7462c0d42293e2ea2d7359/inductiva-0.0.9.tar.gz
+[2023-07-18 12:13:02] INFO root fetch - processPackages [sphinx-markdown-builder]: Downloading https://files.pythonhosted.org/packages/6b/2f/0f71ae1d0283651a98a19bc8feabe79987d0816ce6885ee5910091191b13/sphinx-markdown-builder-0.6.2.tar.gz
+[2023-07-18 12:13:02] INFO root fetch - processPackages [pyvoikko]: Downloading https://files.pythonhosted.org/packages/ae/4a/c3a58192ff98ea16f50c0ac7958fb9944980174d7ee6bb8b6790fbda492c/pyvoikko-0.3.tar.gz
+[2023-07-18 12:13:02] INFO root fetch - processPackages [inductiva]: executing diffoscope
+[2023-07-18 12:13:02] INFO root fetch - processPackages [inductiva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inductiva-0.0.8.tar.gz tmp/inductiva-0.0.9.tar.gz --markdown 20230718/i/inductiva/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 12:13:02] INFO root fetch - processPackages [oarepo-model-builder-requests]: Downloading https://files.pythonhosted.org/packages/3b/f8/d2de03f9c0cf0400c3f4139c41c629d17e2cb40eae66752b128c88460eb9/oarepo-model-builder-requests-4.0.1.tar.gz
+[2023-07-18 12:13:03] INFO root fetch - processPackages [sphinx-markdown-builder]: Downloading https://files.pythonhosted.org/packages/27/40/1346bf788b5f5bbd963b013b16866f45c2862baa2127cd781b69a5fe4f4f/sphinx-markdown-builder-0.6.3.tar.gz
+[2023-07-18 12:13:03] INFO root fetch - processPackages [oarepo-model-builder-requests]: executing diffoscope
+[2023-07-18 12:13:03] INFO root fetch - processPackages [oarepo-model-builder-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-requests-4.0.0.tar.gz tmp/oarepo-model-builder-requests-4.0.1.tar.gz --markdown 20230718/o/oarepo-model-builder-requests/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-07-18 12:13:03] INFO root fetch - processPackages [pyvoikko]: executing diffoscope
+[2023-07-18 12:13:03] INFO root fetch - processPackages [pyvoikko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvoikko-0.2.tar.gz tmp/pyvoikko-0.3.tar.gz --markdown 20230718/p/pyvoikko/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-18 12:13:03] INFO root fetch - processPackages [sphinx-markdown-builder]: executing diffoscope
+[2023-07-18 12:13:03] INFO root fetch - processPackages [sphinx-markdown-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-markdown-builder-0.6.2.tar.gz tmp/sphinx-markdown-builder-0.6.3.tar.gz --markdown 20230718/s/sphinx-markdown-builder/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-18 12:13:03] INFO root fetch - processPackages [mccalcy]: Remove: archive file [/home/abi/fetcher/tmp/mccalcy-0.0.8.tar.gz]
+[2023-07-18 12:13:03] INFO root fetch - processPackages [mccalcy]: Remove: archive file [/home/abi/fetcher/tmp/mccalcy-0.0.9.tar.gz]
+[2023-07-18 12:13:03] INFO root fetch - processPackages [mccalcy]: Start processing: serialtools
+[2023-07-18 12:13:03] INFO root fetch - main [MainThread]: End processing [mccalcy]: success
+[2023-07-18 12:13:03] INFO root fetch - processPackages [serialtools]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-18 12:13:03] INFO root fetch - processPackages [serialtools]: Downloading https://files.pythonhosted.org/packages/5f/6e/2e30f1de4986c6bda1839b951015c37f17ffbbda0793e2f14776e80d1793/serialtools-0.3.0.tar.gz
+[2023-07-18 12:13:03] INFO root fetch - processPackages [systembridgecli]: Remove: archive file [/home/abi/fetcher/tmp/systembridgecli-3.8.0.dev5.tar.gz]
+[2023-07-18 12:13:03] INFO root fetch - processPackages [systembridgecli]: Remove: archive file [/home/abi/fetcher/tmp/systembridgecli-3.8.0.dev6.tar.gz]
+[2023-07-18 12:13:03] INFO root fetch - processPackages [systembridgecli]: Start processing: m3-db-utils
+[2023-07-18 12:13:03] INFO root fetch - main [MainThread]: End processing [systembridgecli]: success
+[2023-07-18 12:13:04] INFO root fetch - processPackages [m3-db-utils]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-18 12:13:04] INFO root fetch - processPackages [m3-db-utils]: Downloading https://files.pythonhosted.org/packages/b8/37/983fe8643a165fbf9e064375c365c13ab30b1e0c51a01f0b6a54f2477403/m3_db_utils-0.3.3.tar.gz
+[2023-07-18 12:13:04] INFO root fetch - processPackages [serialtools]: Downloading https://files.pythonhosted.org/packages/40/04/307808954f1e13a7521714476682f9395b35fb601006a39f61dcf7546912/serialtools-0.4.0.tar.gz
+[2023-07-18 12:13:04] INFO root fetch - processPackages [pyvoikko]: Remove: archive file [/home/abi/fetcher/tmp/pyvoikko-0.2.tar.gz]
+[2023-07-18 12:13:04] INFO root fetch - processPackages [pyvoikko]: Remove: archive file [/home/abi/fetcher/tmp/pyvoikko-0.3.tar.gz]
+[2023-07-18 12:13:04] INFO root fetch - processPackages [pyvoikko]: Start processing: systembridgefrontend
+[2023-07-18 12:13:04] INFO root fetch - main [MainThread]: End processing [pyvoikko]: success
+[2023-07-18 12:13:04] INFO root fetch - processPackages [oarepo-model-builder-requests]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-requests-4.0.0.tar.gz]
+[2023-07-18 12:13:04] INFO root fetch - processPackages [oarepo-model-builder-requests]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-requests-4.0.1.tar.gz]
+[2023-07-18 12:13:04] INFO root fetch - processPackages [oarepo-model-builder-requests]: Start processing: exchangecurrency
+[2023-07-18 12:13:04] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder-requests]: success
+[2023-07-18 12:13:04] INFO root fetch - processPackages [systembridgefrontend]: New version: [3.8.0.dev6] Old Version: [3.8.0.dev5]
+[2023-07-18 12:13:04] INFO root fetch - processPackages [exchangecurrency]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-18 12:13:04] INFO root fetch - processPackages [m3-db-utils]: Downloading https://files.pythonhosted.org/packages/77/07/14f8496e095a18b33172e04595519dc97b8edc89ac04dc4c2b70ab29f434/m3_db_utils-0.3.4.tar.gz
+[2023-07-18 12:13:04] INFO root fetch - processPackages [sphinx-markdown-builder]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-markdown-builder-0.6.2.tar.gz]
+[2023-07-18 12:13:04] INFO root fetch - processPackages [sphinx-markdown-builder]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-markdown-builder-0.6.3.tar.gz]
+[2023-07-18 12:13:04] INFO root fetch - processPackages [sphinx-markdown-builder]: Start processing: ckanext-nhm
+[2023-07-18 12:13:04] INFO root fetch - main [MainThread]: End processing [sphinx-markdown-builder]: success
+[2023-07-18 12:13:04] INFO root fetch - processPackages [systembridgefrontend]: Downloading https://files.pythonhosted.org/packages/bd/70/fc06c8b6f13e872ea3d4739b6b2357d685182db995b0a49bec10ebd5c7bb/systembridgefrontend-3.8.0.dev5.tar.gz
+[2023-07-18 12:13:04] INFO root fetch - processPackages [exchangecurrency]: Downloading https://files.pythonhosted.org/packages/5e/33/44a4f83eb3f7397b740f0f9841cec6eca77c36976cc67b2acfd2a4818b75/exchangecurrency-0.3.0.tar.gz
+[2023-07-18 12:13:04] INFO root fetch - processPackages [ckanext-nhm]: New version: [5.8.2] Old Version: [5.8.1]
+[2023-07-18 12:13:04] INFO root fetch - processPackages [inductiva]: Remove: archive file [/home/abi/fetcher/tmp/inductiva-0.0.8.tar.gz]
+[2023-07-18 12:13:04] INFO root fetch - processPackages [inductiva]: Remove: archive file [/home/abi/fetcher/tmp/inductiva-0.0.9.tar.gz]
+[2023-07-18 12:13:04] INFO root fetch - processPackages [inductiva]: Start processing: esp-idf-sbom
+[2023-07-18 12:13:04] INFO root fetch - main [MainThread]: End processing [inductiva]: success
+[2023-07-18 12:13:05] INFO root fetch - processPackages [m3-db-utils]: executing diffoscope
+[2023-07-18 12:13:05] INFO root fetch - processPackages [m3-db-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m3_db_utils-0.3.3.tar.gz tmp/m3_db_utils-0.3.4.tar.gz --markdown 20230718/m/m3-db-utils/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-18 12:13:05] INFO root fetch - processPackages [ckanext-nhm]: Downloading https://files.pythonhosted.org/packages/f6/8f/3115458510a23ab1cbe2f9874716e9d03f22a71e4f5ec9845ca262fb576b/ckanext-nhm-5.8.1.tar.gz
+[2023-07-18 12:13:05] INFO root fetch - processPackages [serialtools]: executing diffoscope
+[2023-07-18 12:13:05] INFO root fetch - processPackages [serialtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serialtools-0.3.0.tar.gz tmp/serialtools-0.4.0.tar.gz --markdown 20230718/s/serialtools/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-18 12:13:05] WARNING root fetch - processPackages [ckanext-nhm]: Skipping package: exceeds size limit 29132885>=10485760
+[2023-07-18 12:13:05] INFO root fetch - processPackages [ckanext-nhm]: Start processing: oarepo-model-builder-drafts
+[2023-07-18 12:13:05] INFO root fetch - main [MainThread]: End processing [ckanext-nhm] error
+[2023-07-18 12:13:05] INFO root fetch - processPackages [esp-idf-sbom]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-18 12:13:05] INFO root fetch - processPackages [systembridgefrontend]: Downloading https://files.pythonhosted.org/packages/3c/8e/18a6b5aaa950474650f6bb1c726b4b965d2af24c08e322ee8ff9ab60738e/systembridgefrontend-3.8.0.dev6.tar.gz
+[2023-07-18 12:13:05] INFO root fetch - processPackages [oarepo-model-builder-drafts]: New version: [4.0.0] Old Version: [1.0.4]
+[2023-07-18 12:13:05] INFO root fetch - processPackages [exchangecurrency]: Downloading https://files.pythonhosted.org/packages/d0/a7/eb6ebd0f8031776e3db0aac3c2f23f9b7d6cb092876a93e7fe14354b8509/exchangecurrency-0.4.0.tar.gz
+[2023-07-18 12:13:05] INFO root fetch - processPackages [ediri-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/ediri_scaleway-2.23.0.tar.gz]
+[2023-07-18 12:13:05] INFO root fetch - processPackages [ediri-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/ediri_scaleway-2.24.0.tar.gz]
+[2023-07-18 12:13:05] INFO root fetch - main [MainThread]: End processing [ediri-scaleway]: success
+[2023-07-18 12:13:05] INFO root fetch - processPackages [esp-idf-sbom]: Downloading https://files.pythonhosted.org/packages/80/2a/e16a3ccdb09d9ec5f3c3619d4d1320a611f505c14a320fa1f33d09700143/esp-idf-sbom-0.2.0.tar.gz
+[2023-07-18 12:13:05] INFO root fetch - processPackages [systembridgefrontend]: executing diffoscope
+[2023-07-18 12:13:05] INFO root fetch - processPackages [systembridgefrontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgefrontend-3.8.0.dev5.tar.gz tmp/systembridgefrontend-3.8.0.dev6.tar.gz --markdown 20230718/s/systembridgefrontend/3.8.0.dev5-3.8.0.dev6/diff.md --exclude *.pyd
+[2023-07-18 12:13:05] INFO root fetch - processPackages [exchangecurrency]: executing diffoscope
+[2023-07-18 12:13:05] INFO root fetch - processPackages [exchangecurrency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exchangecurrency-0.3.0.tar.gz tmp/exchangecurrency-0.4.0.tar.gz --markdown 20230718/e/exchangecurrency/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-18 12:13:05] INFO root fetch - processPackages [oarepo-model-builder-drafts]: Downloading https://files.pythonhosted.org/packages/f0/17/9ecf4742cabe4f26d663cfe8a2218be39f390cac3e82ebc0604ba4e8f155/oarepo-model-builder-drafts-1.0.4.tar.gz
+[2023-07-18 12:13:05] INFO root fetch - processPackages [esp-idf-sbom]: Downloading https://files.pythonhosted.org/packages/29/99/79adedd396d0ad630f3f6d65c2eb5459ac441409ae20d89d5493a0161fda/esp-idf-sbom-0.3.0.tar.gz
+[2023-07-18 12:13:05] INFO root fetch - processPackages [oarepo-model-builder-drafts]: Downloading https://files.pythonhosted.org/packages/a7/62/85567255545e2d9bbd75381b2e411c4af764046834d68dd7f04f96c554df/oarepo-model-builder-drafts-4.0.0.tar.gz
+[2023-07-18 12:13:06] INFO root fetch - processPackages [esp-idf-sbom]: executing diffoscope
+[2023-07-18 12:13:06] INFO root fetch - processPackages [esp-idf-sbom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esp-idf-sbom-0.2.0.tar.gz tmp/esp-idf-sbom-0.3.0.tar.gz --markdown 20230718/e/esp-idf-sbom/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-18 12:13:06] INFO root fetch - processPackages [oarepo-model-builder-drafts]: executing diffoscope
+[2023-07-18 12:13:06] INFO root fetch - processPackages [oarepo-model-builder-drafts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-drafts-1.0.4.tar.gz tmp/oarepo-model-builder-drafts-4.0.0.tar.gz --markdown 20230718/o/oarepo-model-builder-drafts/1.0.4-4.0.0/diff.md --exclude *.pyd
+[2023-07-18 12:13:06] INFO root fetch - processPackages [m3-db-utils]: Remove: archive file [/home/abi/fetcher/tmp/m3_db_utils-0.3.3.tar.gz]
+[2023-07-18 12:13:06] INFO root fetch - processPackages [m3-db-utils]: Remove: archive file [/home/abi/fetcher/tmp/m3_db_utils-0.3.4.tar.gz]
+[2023-07-18 12:13:06] INFO root fetch - main [MainThread]: End processing [m3-db-utils]: success
+[2023-07-18 12:13:06] INFO root fetch - processPackages [exchangecurrency]: Remove: archive file [/home/abi/fetcher/tmp/exchangecurrency-0.3.0.tar.gz]
+[2023-07-18 12:13:06] INFO root fetch - processPackages [exchangecurrency]: Remove: archive file [/home/abi/fetcher/tmp/exchangecurrency-0.4.0.tar.gz]
+[2023-07-18 12:13:06] INFO root fetch - main [MainThread]: End processing [exchangecurrency]: success
+[2023-07-18 12:13:07] INFO root fetch - processPackages [systembridgefrontend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgefrontend-3.8.0.dev5.tar.gz]
+[2023-07-18 12:13:07] INFO root fetch - processPackages [systembridgefrontend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgefrontend-3.8.0.dev6.tar.gz]
+[2023-07-18 12:13:07] INFO root fetch - main [MainThread]: End processing [systembridgefrontend]: success
+[2023-07-18 12:13:07] INFO root fetch - processPackages [esp-idf-sbom]: Remove: archive file [/home/abi/fetcher/tmp/esp-idf-sbom-0.2.0.tar.gz]
+[2023-07-18 12:13:07] INFO root fetch - processPackages [esp-idf-sbom]: Remove: archive file [/home/abi/fetcher/tmp/esp-idf-sbom-0.3.0.tar.gz]
+[2023-07-18 12:13:07] INFO root fetch - main [MainThread]: End processing [esp-idf-sbom]: success
+[2023-07-18 12:13:07] INFO root fetch - processPackages [oarepo-model-builder-drafts]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-drafts-1.0.4.tar.gz]
+[2023-07-18 12:13:07] INFO root fetch - processPackages [oarepo-model-builder-drafts]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-drafts-4.0.0.tar.gz]
+[2023-07-18 12:13:07] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder-drafts]: success
+[2023-07-18 12:13:07] INFO root fetch - processPackages [serialtools]: Remove: archive file [/home/abi/fetcher/tmp/serialtools-0.3.0.tar.gz]
+[2023-07-18 12:13:07] INFO root fetch - processPackages [serialtools]: Remove: archive file [/home/abi/fetcher/tmp/serialtools-0.4.0.tar.gz]
+[2023-07-18 12:13:07] INFO root fetch - main [MainThread]: End processing [serialtools]: success
+[2023-07-18 12:13:07] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev98.tar.gz]
+[2023-07-18 12:13:07] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
+[2023-07-18 12:13:07] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-07-18 12:13:07] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-07-18 12:13:08] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-07-18 12:13:08] INFO root fetch - main [MainThread]: Store serial: [18931533]
