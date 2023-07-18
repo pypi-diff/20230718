@@ -1,4 +1,4 @@
-# Comparing `tmp/flytekitplugins-deck-standard-1.8.0.tar.gz` & `tmp/flytekitplugins_deck_standard-1.8.1-py3-none-any.whl.zip`
+# Comparing `tmp/flytekitplugins-deck-standard-1.8.0.tar.gz` & `tmp/flytekitplugins-deck-standard-1.8.1.tar.gz`
 
 ## filetype from file(1)
 

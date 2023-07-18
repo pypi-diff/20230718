@@ -1,4 +1,4 @@
-# Comparing `tmp/flytekitplugins-dbt-1.8.0.tar.gz` & `tmp/flytekitplugins_dbt-1.8.1-py3-none-any.whl.zip`
+# Comparing `tmp/flytekitplugins-dbt-1.8.0.tar.gz` & `tmp/flytekitplugins-dbt-1.8.1.tar.gz`
 
 ## filetype from file(1)
 
