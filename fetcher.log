@@ -12531,3 +12531,70 @@
 [2023-07-18 06:01:21] INFO root fetch - processPackages [usfm-grammar]: Remove: archive file [/home/abi/fetcher/tmp/usfm_grammar-3.0.0a7-cp311-cp311-win32.whl.zip]
 [2023-07-18 06:01:21] INFO root fetch - main [MainThread]: End processing [usfm-grammar]: success
 [2023-07-18 06:01:21] INFO root fetch - main [MainThread]: Store serial: [18927767]
+[2023-07-18 06:06:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18927767]
+[2023-07-18 06:06:31] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-18 06:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TreeSAK
+[2023-07-18 06:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fyCursor
+[2023-07-18 06:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: real-brasileiro
+[2023-07-18 06:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: timberas
+[2023-07-18 06:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qctrl-client
+[2023-07-18 06:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dicomset
+[2023-07-18 06:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: TreeSAK
+[2023-07-18 06:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cyberdrop-dl
+[2023-07-18 06:06:31] WARNING root fetch - processPackages [timberas]: Skipping, unable to determine old version
+[2023-07-18 06:06:31] INFO root fetch - main [MainThread]: End processing [timberas] error
+[2023-07-18 06:06:32] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-18 06:06:32] INFO root fetch - processPackages [dicomset]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-18 06:06:32] INFO root fetch - processPackages [real-brasileiro]: New version: [0.2.7] Old Version: [0.2.5]
+[2023-07-18 06:06:32] INFO root fetch - processPackages [qctrl-client]: New version: [7.2.0] Old Version: [7.1.0]
+[2023-07-18 06:06:32] INFO root fetch - processPackages [fyCursor]: New version: [0.1.4.2] Old Version: [0.1.4.1]
+[2023-07-18 06:06:32] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-18 06:06:32] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.99] Old Version: [4.2.98]
+[2023-07-18 06:06:32] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2023-07-18 06:06:32] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2023-07-18 06:06:32] INFO root fetch - processPackages [real-brasileiro]: Downloading https://files.pythonhosted.org/packages/34/bb/aecf1f56b7ee7d22ce60971bd626de6c9d9ef7f8e78343e5e45596a957e1/real-brasileiro-0.2.5.tar.gz
+[2023-07-18 06:06:32] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/1b/f8/0bf0ba2d44c54577234ba97b219752bdc63f63c54eddb613647161b06c5e/cyberdrop-dl-4.2.98.tar.gz
+[2023-07-18 06:06:32] INFO root fetch - processPackages [dicomset]: Downloading https://files.pythonhosted.org/packages/87/22/00290a2dbee3c442b53feefe8b89722924962beb5c6dae84c998668a1381/dicomset-0.0.4.tar.gz
+[2023-07-18 06:06:32] INFO root fetch - processPackages [fyCursor]: Downloading https://files.pythonhosted.org/packages/f9/73/795256be008ef9bd557110642805781eb4098fc68e83751f67bd8e012706/fyCursor-0.1.4.1.tar.gz
+[2023-07-18 06:06:32] INFO root fetch - processPackages [qctrl-client]: Downloading https://files.pythonhosted.org/packages/91/1e/2d9f9f9cc71f65ef59d530bd42f015e3e74ae686c551bae22c2be58a2cf8/qctrl_client-7.1.0.tar.gz
+[2023-07-18 06:06:32] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2023-07-18 06:06:32] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/cb/85/1082dbce7699795fa0752358803e2c52dedd79d14d96d728d35eae76c69a/cyberdrop-dl-4.2.99.tar.gz
+[2023-07-18 06:06:32] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2023-07-18 06:06:32] INFO root fetch - processPackages [real-brasileiro]: Downloading https://files.pythonhosted.org/packages/aa/97/a73f2ffd1b791d0f4ecd0c87a938565fa0f79b99bc006f814b7b94e9b3c8/real-brasileiro-0.2.7.tar.gz
+[2023-07-18 06:06:32] INFO root fetch - processPackages [dicomset]: Downloading https://files.pythonhosted.org/packages/8d/e0/f35d4800142f9088c2e7df07a9e3cc0562c5ed634ce33e3fb805b8565080/dicomset-0.0.5.tar.gz
+[2023-07-18 06:06:32] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-07-18 06:06:32] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.98.tar.gz tmp/cyberdrop-dl-4.2.99.tar.gz --markdown 20230718/c/cyberdrop-dl/4.2.98-4.2.99/diff.md --exclude *.pyd
+[2023-07-18 06:06:32] INFO root fetch - processPackages [fyCursor]: Downloading https://files.pythonhosted.org/packages/61/5a/1bed3bd7818c2a9aa2a05e77b8ee523790ce70faae95deb8d2a9a9946bb6/fyCursor-0.1.4.2.tar.gz
+[2023-07-18 06:06:32] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2023-07-18 06:06:32] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20230718/T/TreeSAK/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-18 06:06:32] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2023-07-18 06:06:32] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20230718/T/TreeSAK/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-18 06:06:32] INFO root fetch - processPackages [real-brasileiro]: executing diffoscope
+[2023-07-18 06:06:32] INFO root fetch - processPackages [real-brasileiro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/real-brasileiro-0.2.5.tar.gz tmp/real-brasileiro-0.2.7.tar.gz --markdown 20230718/r/real-brasileiro/0.2.5-0.2.7/diff.md --exclude *.pyd
+[2023-07-18 06:06:32] INFO root fetch - processPackages [qctrl-client]: Downloading https://files.pythonhosted.org/packages/de/cf/8fa035750b94b81318a1f008e61462ed1e0fa333bc2a08bf032a2435d105/qctrl_client-7.2.0.tar.gz
+[2023-07-18 06:06:32] INFO root fetch - processPackages [dicomset]: executing diffoscope
+[2023-07-18 06:06:32] INFO root fetch - processPackages [dicomset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicomset-0.0.4.tar.gz tmp/dicomset-0.0.5.tar.gz --markdown 20230718/d/dicomset/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-18 06:06:32] INFO root fetch - processPackages [fyCursor]: executing diffoscope
+[2023-07-18 06:06:32] INFO root fetch - processPackages [fyCursor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyCursor-0.1.4.1.tar.gz tmp/fyCursor-0.1.4.2.tar.gz --markdown 20230718/f/fyCursor/0.1.4.1-0.1.4.2/diff.md --exclude *.pyd
+[2023-07-18 06:06:33] INFO root fetch - processPackages [qctrl-client]: executing diffoscope
+[2023-07-18 06:06:33] INFO root fetch - processPackages [qctrl-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qctrl_client-7.1.0.tar.gz tmp/qctrl_client-7.2.0.tar.gz --markdown 20230718/q/qctrl-client/7.1.0-7.2.0/diff.md --exclude *.pyd
+[2023-07-18 06:06:34] INFO root fetch - processPackages [real-brasileiro]: Remove: archive file [/home/abi/fetcher/tmp/real-brasileiro-0.2.5.tar.gz]
+[2023-07-18 06:06:34] INFO root fetch - processPackages [real-brasileiro]: Remove: archive file [/home/abi/fetcher/tmp/real-brasileiro-0.2.7.tar.gz]
+[2023-07-18 06:06:34] INFO root fetch - main [MainThread]: End processing [real-brasileiro]: success
+[2023-07-18 06:06:34] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.1.tar.gz]
+[2023-07-18 06:06:34] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
+[2023-07-18 06:06:34] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2023-07-18 06:06:34] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.98.tar.gz]
+[2023-07-18 06:06:34] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.99.tar.gz]
+[2023-07-18 06:06:34] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-07-18 06:06:34] INFO root fetch - processPackages [fyCursor]: Remove: archive file [/home/abi/fetcher/tmp/fyCursor-0.1.4.1.tar.gz]
+[2023-07-18 06:06:34] INFO root fetch - processPackages [fyCursor]: Remove: archive file [/home/abi/fetcher/tmp/fyCursor-0.1.4.2.tar.gz]
+[2023-07-18 06:06:34] INFO root fetch - main [MainThread]: End processing [fyCursor]: success
+[2023-07-18 06:06:34] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2023-07-18 06:06:34] INFO root fetch - processPackages [dicomset]: Remove: archive file [/home/abi/fetcher/tmp/dicomset-0.0.4.tar.gz]
+[2023-07-18 06:06:34] INFO root fetch - processPackages [dicomset]: Remove: archive file [/home/abi/fetcher/tmp/dicomset-0.0.5.tar.gz]
+[2023-07-18 06:06:34] INFO root fetch - main [MainThread]: End processing [dicomset]: success
+[2023-07-18 06:06:34] INFO root fetch - processPackages [qctrl-client]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_client-7.1.0.tar.gz]
+[2023-07-18 06:06:34] INFO root fetch - processPackages [qctrl-client]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_client-7.2.0.tar.gz]
+[2023-07-18 06:06:34] INFO root fetch - main [MainThread]: End processing [qctrl-client]: success
+[2023-07-18 06:06:34] INFO root fetch - main [MainThread]: Store serial: [18927803]
