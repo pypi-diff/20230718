@@ -13150,3 +13150,86 @@
 [2023-07-18 06:32:45] INFO root fetch - processPackages [usfm-grammar]: Remove: archive file [/home/abi/fetcher/tmp/usfm_grammar-3.0.0b1-cp311-cp311-win_amd64.whl.zip]
 [2023-07-18 06:32:45] INFO root fetch - main [MainThread]: End processing [usfm-grammar]: success
 [2023-07-18 06:32:45] INFO root fetch - main [MainThread]: Store serial: [18928003]
+[2023-07-18 06:37:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18928003]
+[2023-07-18 06:37:54] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-18 06:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tnzapi
+[2023-07-18 06:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: threads-py
+[2023-07-18 06:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ork.build
+[2023-07-18 06:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dicomset
+[2023-07-18 06:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fyCursor
+[2023-07-18 06:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: preprocessing-pgp
+[2023-07-18 06:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: omnata-cli
+[2023-07-18 06:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: shoot-ChatGPT
+[2023-07-18 06:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scale-llm-engine
+[2023-07-18 06:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: playcli
+[2023-07-18 06:37:55] INFO root fetch - processPackages [ork.build]: New version: [0.0.59] Old Version: [0.0.58]
+[2023-07-18 06:37:55] INFO root fetch - processPackages [omnata-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-18 06:37:55] INFO root fetch - processPackages [dicomset]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-18 06:37:55] WARNING root fetch - processPackages [shoot-ChatGPT]: Skipping, unable to determine old version
+[2023-07-18 06:37:55] INFO root fetch - main [MainThread]: End processing [shoot-ChatGPT] error
+[2023-07-18 06:37:55] INFO root fetch - processPackages [fyCursor]: New version: [0.1.5] Old Version: [0.1.4.2]
+[2023-07-18 06:37:55] INFO root fetch - processPackages [tnzapi]: New version: [2.3.0.0] Old Version: [2.2.0.0]
+[2023-07-18 06:37:55] INFO root fetch - processPackages [threads-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 06:37:55] INFO root fetch - processPackages [scale-llm-engine]: New version: [0.0.0b3] Old Version: [0.0.0b2]
+[2023-07-18 06:37:55] INFO root fetch - processPackages [preprocessing-pgp]: New version: [0.2.9.post9.dev8] Old Version: [0.2.9.post9.dev7]
+[2023-07-18 06:37:55] INFO root fetch - processPackages [playcli]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-18 06:37:55] INFO root fetch - processPackages [dicomset]: Downloading https://files.pythonhosted.org/packages/31/7d/24f85017b797fee7fab18a13c4a53ef44cd8f2a3c0bef53e084709ea734f/dicomset-0.0.6.tar.gz
+[2023-07-18 06:37:55] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/7d/08/a2dd2a8c52a9c5a8d536b26f3189c79d577221b852f51b604675f2be9887/ork.build-0.0.58.tar.gz
+[2023-07-18 06:37:55] INFO root fetch - processPackages [fyCursor]: Downloading https://files.pythonhosted.org/packages/61/5a/1bed3bd7818c2a9aa2a05e77b8ee523790ce70faae95deb8d2a9a9946bb6/fyCursor-0.1.4.2.tar.gz
+[2023-07-18 06:37:55] INFO root fetch - processPackages [preprocessing-pgp]: Downloading https://files.pythonhosted.org/packages/3b/ff/280ddfc30db341960587617aede0239f03d7380c369e1410cf3fc31d07bf/preprocessing-pgp-0.2.9.post9.dev7.tar.gz
+[2023-07-18 06:37:55] INFO root fetch - processPackages [threads-py]: Downloading https://files.pythonhosted.org/packages/51/41/805490da688ab8487e9680f7ca3f7aa6d2d10b02cf5af309c64bd9c4a549/threads_py-0.0.8.tar.gz
+[2023-07-18 06:37:55] INFO root fetch - processPackages [tnzapi]: Downloading https://files.pythonhosted.org/packages/66/49/3e56fab187fd816c4596370e5d0379c69c9fd68fc0e5d8d5a212c296e031/tnzapi-2.2.0.0.tar.gz
+[2023-07-18 06:37:55] WARNING root fetch - processPackages [preprocessing-pgp]: Skipping package: exceeds size limit 78857974>=10485760
+[2023-07-18 06:37:55] INFO root fetch - main [MainThread]: End processing [preprocessing-pgp] error
+[2023-07-18 06:37:55] INFO root fetch - processPackages [omnata-cli]: Downloading https://files.pythonhosted.org/packages/9e/8b/90259f893cad23f97c68b88983da1dea45ae42c4e516ece525422f6c56ed/omnata_cli-0.1.8.tar.gz
+[2023-07-18 06:37:55] INFO root fetch - processPackages [scale-llm-engine]: Downloading https://files.pythonhosted.org/packages/3a/70/4c03132112f85d5e76fac9d6bccb0cc74afb14e14b0b9ebc1736d939b9c7/scale_llm_engine-0.0.0b2.tar.gz
+[2023-07-18 06:37:55] INFO root fetch - processPackages [playcli]: Downloading https://files.pythonhosted.org/packages/7f/9e/cc4a688de67d8e9510138f1c4ca45ccef402c6cba3fcd3d8efb39ca9c73c/playcli-0.1.1.tar.gz
+[2023-07-18 06:37:55] INFO root fetch - processPackages [dicomset]: Downloading https://files.pythonhosted.org/packages/eb/9a/67dcf7fd7fde889dcba504ba67b50e19a5d7a53271603cd16edb25222e2e/dicomset-0.0.7.tar.gz
+[2023-07-18 06:37:55] INFO root fetch - processPackages [fyCursor]: Downloading https://files.pythonhosted.org/packages/fb/79/c138a71eff3861d4b6744f1761983808f83442ec5258382efcaa6b01826e/fyCursor-0.1.5.tar.gz
+[2023-07-18 06:37:55] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/a6/b0/61e8a7878b77821b53eaa995ea5014660f6f6ca51d97a4686cd6055b0d9e/ork.build-0.0.59.tar.gz
+[2023-07-18 06:37:55] INFO root fetch - processPackages [threads-py]: Downloading https://files.pythonhosted.org/packages/64/e1/5a3566f01298818462f803a5d654b4746ede9312e18e337c955b7f333a9f/threads_py-0.0.9.tar.gz
+[2023-07-18 06:37:55] INFO root fetch - processPackages [omnata-cli]: Downloading https://files.pythonhosted.org/packages/e7/66/06c4155a43b900348765d5790a566f2105b62af3b45d0c94b9aec4e7cb81/omnata_cli-0.1.9.tar.gz
+[2023-07-18 06:37:55] INFO root fetch - processPackages [scale-llm-engine]: Downloading https://files.pythonhosted.org/packages/d1/2a/5ffac2512356af545317a259f02c44086eae96fae3b06240996a98b1e56a/scale_llm_engine-0.0.0b3.tar.gz
+[2023-07-18 06:37:55] INFO root fetch - processPackages [dicomset]: executing diffoscope
+[2023-07-18 06:37:55] INFO root fetch - processPackages [dicomset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicomset-0.0.6.tar.gz tmp/dicomset-0.0.7.tar.gz --markdown 20230718/d/dicomset/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-18 06:37:55] INFO root fetch - processPackages [tnzapi]: Downloading https://files.pythonhosted.org/packages/6b/26/e057813c784ee6d6cff707df814129a0e1c903f007043cd68a84933e68f6/tnzapi-2.3.0.0.tar.gz
+[2023-07-18 06:37:55] INFO root fetch - processPackages [fyCursor]: executing diffoscope
+[2023-07-18 06:37:55] INFO root fetch - processPackages [fyCursor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyCursor-0.1.4.2.tar.gz tmp/fyCursor-0.1.5.tar.gz --markdown 20230718/f/fyCursor/0.1.4.2-0.1.5/diff.md --exclude *.pyd
+[2023-07-18 06:37:55] INFO root fetch - processPackages [threads-py]: executing diffoscope
+[2023-07-18 06:37:55] INFO root fetch - processPackages [threads-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads_py-0.0.8.tar.gz tmp/threads_py-0.0.9.tar.gz --markdown 20230718/t/threads-py/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 06:37:55] INFO root fetch - processPackages [omnata-cli]: executing diffoscope
+[2023-07-18 06:37:55] INFO root fetch - processPackages [omnata-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_cli-0.1.8.tar.gz tmp/omnata_cli-0.1.9.tar.gz --markdown 20230718/o/omnata-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-18 06:37:56] INFO root fetch - processPackages [playcli]: Downloading https://files.pythonhosted.org/packages/57/9e/93cb94f5faf0a8b0f9b609e5d7d80c789a0893b1748dc311ae9b4e5fd4c7/playcli-0.2.0.tar.gz
+[2023-07-18 06:37:56] INFO root fetch - processPackages [tnzapi]: executing diffoscope
+[2023-07-18 06:37:56] INFO root fetch - processPackages [tnzapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tnzapi-2.2.0.0.tar.gz tmp/tnzapi-2.3.0.0.tar.gz --markdown 20230718/t/tnzapi/2.2.0.0-2.3.0.0/diff.md --exclude *.pyd
+[2023-07-18 06:37:56] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2023-07-18 06:37:56] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.58.tar.gz tmp/ork.build-0.0.59.tar.gz --markdown 20230718/o/ork.build/0.0.58-0.0.59/diff.md --exclude *.pyd
+[2023-07-18 06:37:56] INFO root fetch - processPackages [scale-llm-engine]: executing diffoscope
+[2023-07-18 06:37:56] INFO root fetch - processPackages [scale-llm-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scale_llm_engine-0.0.0b2.tar.gz tmp/scale_llm_engine-0.0.0b3.tar.gz --markdown 20230718/s/scale-llm-engine/0.0.0b2-0.0.0b3/diff.md --exclude *.pyd
+[2023-07-18 06:37:56] INFO root fetch - processPackages [playcli]: executing diffoscope
+[2023-07-18 06:37:56] INFO root fetch - processPackages [playcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playcli-0.1.1.tar.gz tmp/playcli-0.2.0.tar.gz --markdown 20230718/p/playcli/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-18 06:37:57] INFO root fetch - processPackages [tnzapi]: Remove: archive file [/home/abi/fetcher/tmp/tnzapi-2.2.0.0.tar.gz]
+[2023-07-18 06:37:57] INFO root fetch - processPackages [tnzapi]: Remove: archive file [/home/abi/fetcher/tmp/tnzapi-2.3.0.0.tar.gz]
+[2023-07-18 06:37:57] INFO root fetch - main [MainThread]: End processing [tnzapi]: success
+[2023-07-18 06:37:57] INFO root fetch - processPackages [threads-py]: Remove: archive file [/home/abi/fetcher/tmp/threads_py-0.0.8.tar.gz]
+[2023-07-18 06:37:57] INFO root fetch - processPackages [threads-py]: Remove: archive file [/home/abi/fetcher/tmp/threads_py-0.0.9.tar.gz]
+[2023-07-18 06:37:57] INFO root fetch - main [MainThread]: End processing [threads-py]: success
+[2023-07-18 06:37:57] INFO root fetch - processPackages [fyCursor]: Remove: archive file [/home/abi/fetcher/tmp/fyCursor-0.1.4.2.tar.gz]
+[2023-07-18 06:37:57] INFO root fetch - processPackages [fyCursor]: Remove: archive file [/home/abi/fetcher/tmp/fyCursor-0.1.5.tar.gz]
+[2023-07-18 06:37:57] INFO root fetch - main [MainThread]: End processing [fyCursor]: success
+[2023-07-18 06:37:57] INFO root fetch - processPackages [omnata-cli]: Remove: archive file [/home/abi/fetcher/tmp/omnata_cli-0.1.8.tar.gz]
+[2023-07-18 06:37:57] INFO root fetch - processPackages [omnata-cli]: Remove: archive file [/home/abi/fetcher/tmp/omnata_cli-0.1.9.tar.gz]
+[2023-07-18 06:37:57] INFO root fetch - main [MainThread]: End processing [omnata-cli]: success
+[2023-07-18 06:37:57] INFO root fetch - processPackages [scale-llm-engine]: Remove: archive file [/home/abi/fetcher/tmp/scale_llm_engine-0.0.0b2.tar.gz]
+[2023-07-18 06:37:57] INFO root fetch - processPackages [scale-llm-engine]: Remove: archive file [/home/abi/fetcher/tmp/scale_llm_engine-0.0.0b3.tar.gz]
+[2023-07-18 06:37:57] INFO root fetch - main [MainThread]: End processing [scale-llm-engine]: success
+[2023-07-18 06:37:57] INFO root fetch - processPackages [dicomset]: Remove: archive file [/home/abi/fetcher/tmp/dicomset-0.0.6.tar.gz]
+[2023-07-18 06:37:57] INFO root fetch - processPackages [dicomset]: Remove: archive file [/home/abi/fetcher/tmp/dicomset-0.0.7.tar.gz]
+[2023-07-18 06:37:57] INFO root fetch - main [MainThread]: End processing [dicomset]: success
+[2023-07-18 06:37:57] INFO root fetch - processPackages [playcli]: Remove: archive file [/home/abi/fetcher/tmp/playcli-0.1.1.tar.gz]
+[2023-07-18 06:37:57] INFO root fetch - processPackages [playcli]: Remove: archive file [/home/abi/fetcher/tmp/playcli-0.2.0.tar.gz]
+[2023-07-18 06:37:57] INFO root fetch - main [MainThread]: End processing [playcli]: success
+[2023-07-18 06:37:58] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.58.tar.gz]
+[2023-07-18 06:37:58] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.59.tar.gz]
+[2023-07-18 06:37:58] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2023-07-18 06:37:58] INFO root fetch - main [MainThread]: Store serial: [18928033]
