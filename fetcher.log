@@ -12281,3 +12281,96 @@
 [2023-07-18 05:45:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip]
 [2023-07-18 05:45:41] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-fiscal]: success
 [2023-07-18 05:45:41] INFO root fetch - main [MainThread]: Store serial: [18927610]
+[2023-07-18 05:50:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18927610]
+[2023-07-18 05:50:51] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-18 05:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quickfix-ch
+[2023-07-18 05:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agentbrowser
+[2023-07-18 05:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dicomset
+[2023-07-18 05:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scrunch
+[2023-07-18 05:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: real-brasileiro
+[2023-07-18 05:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydantic-neo4j
+[2023-07-18 05:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ykenan-util
+[2023-07-18 05:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo8-addon-l10n-fr-ecotaxe
+[2023-07-18 05:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-l10n-fr-ecotaxe
+[2023-07-18 05:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dicomset
+[2023-07-18 05:50:51] INFO root fetch - processPackages [quickfix-ch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 05:50:51] INFO root fetch - processPackages [agentbrowser]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-18 05:50:51] INFO root fetch - processPackages [scrunch]: New version: [6.5.1991.post1689640518] Old Version: [6.5.1990.post1689629043]
+[2023-07-18 05:50:51] INFO root fetch - processPackages [dicomset]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-18 05:50:51] INFO root fetch - processPackages [odoo8-addon-l10n-fr-ecotaxe]: New version: [8.0.0.1.0.99.dev9] Old Version: [8.0.0.1.0.99.dev8]
+[2023-07-18 05:50:51] INFO root fetch - processPackages [dicomset]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-18 05:50:51] WARNING root fetch - processPackages [ykenan-util]: Skipping, unable to determine old version
+[2023-07-18 05:50:51] INFO root fetch - processPackages [ykenan-util]: Start processing: nonebot-plugin-templates
+[2023-07-18 05:50:51] INFO root fetch - main [MainThread]: End processing [ykenan-util] error
+[2023-07-18 05:50:51] INFO root fetch - processPackages [pydantic-neo4j]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-18 05:50:51] INFO root fetch - processPackages [real-brasileiro]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-18 05:50:51] INFO root fetch - processPackages [odoo-addon-l10n-fr-ecotaxe]: New version: [15.0.1.0.0.9] Old Version: [15.0.1.0.0.8]
+[2023-07-18 05:50:51] INFO root fetch - processPackages [dicomset]: Downloading https://files.pythonhosted.org/packages/0e/9d/80144ec1332287afe11704dd66f68d16ae6220b57287bd20e519635cc50e/dicomset-0.0.2.tar.gz
+[2023-07-18 05:50:51] INFO root fetch - processPackages [nonebot-plugin-templates]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-18 05:50:51] INFO root fetch - processPackages [quickfix-ch]: Downloading https://files.pythonhosted.org/packages/f0/83/efca9de09d9ff6dd4fdfdccf96a100a02c57b727244691eea9f94b4451d4/quickfix-ch-0.0.8.tar.gz
+[2023-07-18 05:50:51] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/5b/67/14b159d9873d42c3598ef521b7e352dc4156f5a30a04c4e63f92300e3670/scrunch-6.5.1990.post1689629043.tar.gz
+[2023-07-18 05:50:51] INFO root fetch - processPackages [pydantic-neo4j]: Downloading https://files.pythonhosted.org/packages/dd/fe/08e5c160779e2f83a3a9f6bece3b6fa629a1c64bc35eff33e8177b1d4998/pydantic_neo4j-0.2.1.tar.gz
+[2023-07-18 05:50:51] INFO root fetch - processPackages [agentbrowser]: Downloading https://files.pythonhosted.org/packages/76/f7/78a6ab9cf813903e7e636b042ec63e0531fba03f9a210f9b913d711b2da8/agentbrowser-0.1.0.tar.gz
+[2023-07-18 05:50:51] INFO root fetch - processPackages [nonebot-plugin-templates]: Downloading https://files.pythonhosted.org/packages/2b/a6/2eb6e92405c0d087123b79d785f13183157f547c4dac9f751c09b9441ad7/nonebot_plugin_templates-0.1.1.tar.gz
+[2023-07-18 05:50:51] INFO root fetch - processPackages [real-brasileiro]: Downloading https://files.pythonhosted.org/packages/fd/d3/fdf7d44e69f34376647d1c0ba199197aa0d8db42389ede78183f477ae3d9/real_brasileiro-0.2.0.tar.gz
+[2023-07-18 05:50:51] INFO root fetch - processPackages [odoo-addon-l10n-fr-ecotaxe]: Downloading https://files.pythonhosted.org/packages/b1/0a/46837fa1fe2a0547045430f43669d5f65b452868630ff3f0643d7eda6d43/odoo_addon_l10n_fr_ecotaxe-15.0.1.0.0.8-py3-none-any.whl
+[2023-07-18 05:50:51] INFO root fetch - processPackages [odoo8-addon-l10n-fr-ecotaxe]: Downloading https://files.pythonhosted.org/packages/17/23/e8e04b31f95fcbfc5dff1b0856ed815fc133a84d13c679042dec20523a7e/odoo8_addon_l10n_fr_ecotaxe-8.0.0.1.0.99.dev8-py2-none-any.whl
+[2023-07-18 05:50:52] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/56/b7/5dbd079f272a01d62904e73a1aa048a1d6581e7dcfdea32ac93d89e6ba2c/scrunch-6.5.1991.post1689640518.tar.gz
+[2023-07-18 05:50:52] INFO root fetch - processPackages [quickfix-ch]: Downloading https://files.pythonhosted.org/packages/0b/7d/da20004e346782a821ef5a6d2c86109b1555f0fb738fb5801fa25238dc54/quickfix-ch-0.0.9.tar.gz
+[2023-07-18 05:50:52] INFO root fetch - processPackages [dicomset]: Downloading https://files.pythonhosted.org/packages/0d/e1/a0dc8d4df308626939dbae91fb16dcec314a975f6c0db17701fa2bafdccd/dicomset-0.0.3.tar.gz
+[2023-07-18 05:50:52] INFO root fetch - processPackages [dicomset]: Downloading https://files.pythonhosted.org/packages/0d/e1/a0dc8d4df308626939dbae91fb16dcec314a975f6c0db17701fa2bafdccd/dicomset-0.0.3.tar.gz
+[2023-07-18 05:50:52] INFO root fetch - processPackages [pydantic-neo4j]: Downloading https://files.pythonhosted.org/packages/0b/54/0118f9d5290a52ffd1b9cff6c4e1191e2427d2fc021279e45d5bb5f92622/pydantic_neo4j-0.3.0.tar.gz
+[2023-07-18 05:50:52] INFO root fetch - processPackages [agentbrowser]: Downloading https://files.pythonhosted.org/packages/88/dc/066db04a6b89b51415cb39a6b907651fd36c0cd1f85076e8bcdc42d6d057/agentbrowser-0.1.1.tar.gz
+[2023-07-18 05:50:52] INFO root fetch - processPackages [dicomset]: executing diffoscope
+[2023-07-18 05:50:52] INFO root fetch - processPackages [dicomset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicomset-0.0.2.tar.gz tmp/dicomset-0.0.3.tar.gz --markdown 20230718/d/dicomset/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-18 05:50:52] INFO root fetch - processPackages [dicomset]: executing diffoscope
+[2023-07-18 05:50:52] INFO root fetch - processPackages [dicomset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicomset-0.0.2.tar.gz tmp/dicomset-0.0.3.tar.gz --markdown 20230718/d/dicomset/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-18 05:50:52] INFO root fetch - processPackages [real-brasileiro]: Downloading https://files.pythonhosted.org/packages/e4/24/24b50bcb8b2b8f4b65c014b60890935bc8dc55915a29e33080dc97ac4d90/real-brasileiro-0.2.1.tar.gz
+[2023-07-18 05:50:52] INFO root fetch - processPackages [scrunch]: executing diffoscope
+[2023-07-18 05:50:52] INFO root fetch - processPackages [scrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrunch-6.5.1990.post1689629043.tar.gz tmp/scrunch-6.5.1991.post1689640518.tar.gz --markdown 20230718/s/scrunch/6.5.1990.post1689629043-6.5.1991.post1689640518/diff.md --exclude *.pyd
+[2023-07-18 05:50:52] INFO root fetch - processPackages [pydantic-neo4j]: executing diffoscope
+[2023-07-18 05:50:52] INFO root fetch - processPackages [pydantic-neo4j]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_neo4j-0.2.1.tar.gz tmp/pydantic_neo4j-0.3.0.tar.gz --markdown 20230718/p/pydantic-neo4j/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-18 05:50:52] INFO root fetch - processPackages [agentbrowser]: executing diffoscope
+[2023-07-18 05:50:52] INFO root fetch - processPackages [agentbrowser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentbrowser-0.1.0.tar.gz tmp/agentbrowser-0.1.1.tar.gz --markdown 20230718/a/agentbrowser/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-18 05:50:52] INFO root fetch - processPackages [quickfix-ch]: executing diffoscope
+[2023-07-18 05:50:52] INFO root fetch - processPackages [quickfix-ch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickfix-ch-0.0.8.tar.gz tmp/quickfix-ch-0.0.9.tar.gz --markdown 20230718/q/quickfix-ch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 05:50:52] INFO root fetch - processPackages [real-brasileiro]: executing diffoscope
+[2023-07-18 05:50:52] INFO root fetch - processPackages [real-brasileiro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/real_brasileiro-0.2.0.tar.gz tmp/real-brasileiro-0.2.1.tar.gz --markdown 20230718/r/real-brasileiro/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-18 05:50:52] INFO root fetch - processPackages [odoo8-addon-l10n-fr-ecotaxe]: Downloading https://files.pythonhosted.org/packages/26/fa/a2676a3f8337adec55f347482564885afb6b38e6c8ece3f51c72027b49c9/odoo8_addon_l10n_fr_ecotaxe-8.0.0.1.0.99.dev9-py2-none-any.whl
+[2023-07-18 05:50:52] INFO root fetch - processPackages [odoo-addon-l10n-fr-ecotaxe]: Downloading https://files.pythonhosted.org/packages/0b/e4/5f522e94c6f51960cdeaa6255c79bc12db3f6893b1d47c58a82186e4b5d6/odoo_addon_l10n_fr_ecotaxe-15.0.1.0.0.9-py3-none-any.whl
+[2023-07-18 05:50:52] INFO root fetch - processPackages [odoo-addon-l10n-fr-ecotaxe]: executing diffoscope
+[2023-07-18 05:50:52] INFO root fetch - processPackages [odoo-addon-l10n-fr-ecotaxe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_fr_ecotaxe-15.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_l10n_fr_ecotaxe-15.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230718/o/odoo-addon-l10n-fr-ecotaxe/15.0.1.0.0.8-15.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-07-18 05:50:52] INFO root fetch - processPackages [odoo8-addon-l10n-fr-ecotaxe]: executing diffoscope
+[2023-07-18 05:50:52] INFO root fetch - processPackages [odoo8-addon-l10n-fr-ecotaxe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_l10n_fr_ecotaxe-8.0.0.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_l10n_fr_ecotaxe-8.0.0.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230718/o/odoo8-addon-l10n-fr-ecotaxe/8.0.0.1.0.99.dev8-8.0.0.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-07-18 05:50:52] INFO root fetch - processPackages [nonebot-plugin-templates]: Downloading https://files.pythonhosted.org/packages/1b/2d/ac58b9134f9fd854e6ae6ed67259e91e4ff6d1d26bd44216533829e23aba/nonebot_plugin_templates-0.1.2.tar.gz
+[2023-07-18 05:50:53] INFO root fetch - processPackages [nonebot-plugin-templates]: executing diffoscope
+[2023-07-18 05:50:53] INFO root fetch - processPackages [nonebot-plugin-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_templates-0.1.1.tar.gz tmp/nonebot_plugin_templates-0.1.2.tar.gz --markdown 20230718/n/nonebot-plugin-templates/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-18 05:50:53] INFO root fetch - processPackages [dicomset]: Remove: archive file [/home/abi/fetcher/tmp/dicomset-0.0.2.tar.gz]
+[2023-07-18 05:50:53] INFO root fetch - processPackages [dicomset]: Remove: archive file [/home/abi/fetcher/tmp/dicomset-0.0.3.tar.gz]
+[2023-07-18 05:50:53] INFO root fetch - main [MainThread]: End processing [dicomset]: success
+[2023-07-18 05:50:53] INFO root fetch - main [MainThread]: End processing [dicomset]: success
+[2023-07-18 05:50:53] INFO root fetch - processPackages [pydantic-neo4j]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_neo4j-0.2.1.tar.gz]
+[2023-07-18 05:50:53] INFO root fetch - processPackages [pydantic-neo4j]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_neo4j-0.3.0.tar.gz]
+[2023-07-18 05:50:53] INFO root fetch - main [MainThread]: End processing [pydantic-neo4j]: success
+[2023-07-18 05:50:54] INFO root fetch - processPackages [real-brasileiro]: Remove: archive file [/home/abi/fetcher/tmp/real_brasileiro-0.2.0.tar.gz]
+[2023-07-18 05:50:54] INFO root fetch - processPackages [real-brasileiro]: Remove: archive file [/home/abi/fetcher/tmp/real-brasileiro-0.2.1.tar.gz]
+[2023-07-18 05:50:54] INFO root fetch - main [MainThread]: End processing [real-brasileiro]: success
+[2023-07-18 05:50:54] INFO root fetch - processPackages [agentbrowser]: Remove: archive file [/home/abi/fetcher/tmp/agentbrowser-0.1.0.tar.gz]
+[2023-07-18 05:50:54] INFO root fetch - processPackages [agentbrowser]: Remove: archive file [/home/abi/fetcher/tmp/agentbrowser-0.1.1.tar.gz]
+[2023-07-18 05:50:54] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.1990.post1689629043.tar.gz]
+[2023-07-18 05:50:54] INFO root fetch - main [MainThread]: End processing [agentbrowser]: success
+[2023-07-18 05:50:54] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.1991.post1689640518.tar.gz]
+[2023-07-18 05:50:54] INFO root fetch - main [MainThread]: End processing [scrunch]: success
+[2023-07-18 05:50:54] INFO root fetch - processPackages [odoo-addon-l10n-fr-ecotaxe]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_fr_ecotaxe-15.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-07-18 05:50:54] INFO root fetch - processPackages [odoo-addon-l10n-fr-ecotaxe]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_fr_ecotaxe-15.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-07-18 05:50:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-fr-ecotaxe]: success
+[2023-07-18 05:50:54] INFO root fetch - processPackages [odoo8-addon-l10n-fr-ecotaxe]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_l10n_fr_ecotaxe-8.0.0.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-07-18 05:50:54] INFO root fetch - processPackages [odoo8-addon-l10n-fr-ecotaxe]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_l10n_fr_ecotaxe-8.0.0.1.0.99.dev9-py2-none-any.whl.zip]
+[2023-07-18 05:50:54] INFO root fetch - main [MainThread]: End processing [odoo8-addon-l10n-fr-ecotaxe]: success
+[2023-07-18 05:50:54] INFO root fetch - processPackages [nonebot-plugin-templates]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_templates-0.1.1.tar.gz]
+[2023-07-18 05:50:54] INFO root fetch - processPackages [nonebot-plugin-templates]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_templates-0.1.2.tar.gz]
+[2023-07-18 05:50:54] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-templates]: success
+[2023-07-18 05:50:55] INFO root fetch - processPackages [quickfix-ch]: Remove: archive file [/home/abi/fetcher/tmp/quickfix-ch-0.0.8.tar.gz]
+[2023-07-18 05:50:55] INFO root fetch - processPackages [quickfix-ch]: Remove: archive file [/home/abi/fetcher/tmp/quickfix-ch-0.0.9.tar.gz]
+[2023-07-18 05:50:55] INFO root fetch - main [MainThread]: End processing [quickfix-ch]: success
+[2023-07-18 05:50:55] INFO root fetch - main [MainThread]: Store serial: [18927645]
