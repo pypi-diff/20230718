@@ -20056,3 +20056,222 @@ AssertionError: tmp/cellmap-1.0.1.dev202307180907-py3-none-any.whl.zip does not 
 [2023-07-18 11:19:49] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2023-07-18 11:19:49] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2023-07-18 11:19:49] INFO root fetch - main [MainThread]: Store serial: [18930805]
+[2023-07-18 11:24:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18930805]
+[2023-07-18 11:24:58] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-07-18 11:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cenas
+[2023-07-18 11:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kshell-utilities
+[2023-07-18 11:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-l10n-es-ticketbai-pos
+[2023-07-18 11:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-l10n-es-ticketbai-api
+[2023-07-18 11:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: perun.proxy.utils
+[2023-07-18 11:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ethrpc-keys
+[2023-07-18 11:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: satosacontrib.perun
+[2023-07-18 11:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: libcnmc
+[2023-07-18 11:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spanishconjugator
+[2023-07-18 11:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-admin-commands2
+[2023-07-18 11:24:59] INFO root fetch - processPackages [kshell-utilities]: New version: [1.5.0.0] Old Version: [1.4.0.0]
+[2023-07-18 11:24:59] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai-api]: New version: [14.0.2.4.2] Old Version: [14.0.2.4.1.dev1]
+[2023-07-18 11:24:59] INFO root fetch - processPackages [kshell-utilities]: Downloading https://files.pythonhosted.org/packages/ac/53/ddc237b6b2794c8689b2619d3ddc05c400fca4b6ab7a6af511d4d957915a/kshell-utilities-1.4.0.0.tar.gz
+[2023-07-18 11:24:59] INFO root fetch - processPackages [cenas]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-18 11:24:59] INFO root fetch - processPackages [django-admin-commands2]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-18 11:24:59] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai-pos]: New version: [14.0.1.1.3] Old Version: [14.0.1.1.2]
+[2023-07-18 11:24:59] INFO root fetch - processPackages [satosacontrib.perun]: New version: [3.7.3] Old Version: [3.7.2]
+[2023-07-18 11:24:59] INFO root fetch - processPackages [perun.proxy.utils]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-07-18 11:24:59] WARNING root fetch - processPackages [ethrpc-keys]: Skipping, unable to determine old version
+[2023-07-18 11:24:59] INFO root fetch - processPackages [ethrpc-keys]: Start processing: ssi-fc-data
+[2023-07-18 11:24:59] INFO root fetch - main [MainThread]: End processing [ethrpc-keys] error
+[2023-07-18 11:24:59] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-07-18 11:24:59] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-18 11:24:59] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai-api]: Downloading https://files.pythonhosted.org/packages/af/11/eba30a80fe7785879c898c3a33722f3fd6cff57073842e9c570d384bfaf6/odoo14_addon_l10n_es_ticketbai_api-14.0.2.4.1.dev1-py3-none-any.whl
+[2023-07-18 11:24:59] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/ad/ad/8e6ac29153c6369e5cbdf21108e60070080d9d4978e3a1a5f20be7b9492b/cenas-1.1.8.tar.gz
+[2023-07-18 11:24:59] INFO root fetch - processPackages [ssi-fc-data]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-07-18 11:24:59] INFO root fetch - processPackages [django-admin-commands2]: Downloading https://files.pythonhosted.org/packages/31/f9/8025f38e8305b77f89c82c01cc4a4ea67c0565e20ee1cdaed503c5584392/django-admin-commands2-1.1.1.tar.gz
+[2023-07-18 11:24:59] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-18 11:24:59] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai-pos]: Downloading https://files.pythonhosted.org/packages/c0/6c/2783325a0d9efed9b5ba58218ac773a3c93dab4ddcb3211b3d5b243b3c39/odoo14_addon_l10n_es_ticketbai_pos-14.0.1.1.2-py3-none-any.whl
+[2023-07-18 11:24:59] INFO root fetch - processPackages [kshell-utilities]: Downloading https://files.pythonhosted.org/packages/15/66/45f9c2b3c8a45d8bee79b661fb25e1ad990f20d49e2a2d9d1e8664decbe9/kshell-utilities-1.5.0.0.tar.gz
+[2023-07-18 11:24:59] INFO root fetch - processPackages [perun.proxy.utils]: Downloading https://files.pythonhosted.org/packages/7c/bf/db29355f52adda76bc57f3582c864957e98f9235e60e2ce753e384446755/perun.proxy.utils-1.8.1.tar.gz
+[2023-07-18 11:24:59] INFO root fetch - processPackages [satosacontrib.perun]: Downloading https://files.pythonhosted.org/packages/3a/35/c6d20e2eb5d62691e89d96e9f6f426fa7a70678a9596e0121c88c991b181/satosacontrib.perun-3.7.2.tar.gz
+[2023-07-18 11:24:59] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/91/88/c28ff84568ef323398498b71d609a92ca287ddcdf8a851536ab656221bc4/libcnmc-23.9.0.tar.gz
+[2023-07-18 11:24:59] INFO root fetch - processPackages [ssi-fc-data]: Downloading https://files.pythonhosted.org/packages/06/e9/cd85c473a0a5471fffce052cc34abe7f08da0d483ceb0baca2d7e8caaeb8/ssi_fc_data-2.1.1.tar.gz
+[2023-07-18 11:24:59] INFO root fetch - processPackages [kshell-utilities]: executing diffoscope
+[2023-07-18 11:24:59] INFO root fetch - processPackages [kshell-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kshell-utilities-1.4.0.0.tar.gz tmp/kshell-utilities-1.5.0.0.tar.gz --markdown 20230718/k/kshell-utilities/1.4.0.0-1.5.0.0/diff.md --exclude *.pyd
+[2023-07-18 11:24:59] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/37/ba/9662c92e6a20bfb5bcfc4f81bef895566ee63c5d4018c2cae825c1c94e21/cenas-1.1.9.tar.gz
+[2023-07-18 11:24:59] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-18 11:24:59] INFO root fetch - processPackages [django-admin-commands2]: Downloading https://files.pythonhosted.org/packages/c5/99/6707300d32572397a9a150042f9191b5c54981288247d30fdaa37d9666ad/django-admin-commands2-1.1.2.tar.gz
+[2023-07-18 11:25:00] INFO root fetch - processPackages [cenas]: executing diffoscope
+[2023-07-18 11:25:00] INFO root fetch - processPackages [cenas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cenas-1.1.8.tar.gz tmp/cenas-1.1.9.tar.gz --markdown 20230718/c/cenas/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-18 11:25:00] INFO root fetch - processPackages [satosacontrib.perun]: Downloading https://files.pythonhosted.org/packages/17/a2/d36f26cb19998c36a2f0fa8db0150606de40697fdcdc8556cb99da097381/satosacontrib.perun-3.7.3.tar.gz
+[2023-07-18 11:25:00] INFO root fetch - processPackages [perun.proxy.utils]: Downloading https://files.pythonhosted.org/packages/09/a8/3a2a6417546e48641930904d0591e054f453d255a8169cb37a580fcb9df4/perun.proxy.utils-1.8.2.tar.gz
+[2023-07-18 11:25:00] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-18 11:25:00] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230718/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-18 11:25:00] INFO root fetch - processPackages [django-admin-commands2]: executing diffoscope
+[2023-07-18 11:25:00] INFO root fetch - processPackages [django-admin-commands2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-admin-commands2-1.1.1.tar.gz tmp/django-admin-commands2-1.1.2.tar.gz --markdown 20230718/d/django-admin-commands2/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-18 11:25:00] INFO root fetch - processPackages [satosacontrib.perun]: executing diffoscope
+[2023-07-18 11:25:00] INFO root fetch - processPackages [satosacontrib.perun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satosacontrib.perun-3.7.2.tar.gz tmp/satosacontrib.perun-3.7.3.tar.gz --markdown 20230718/s/satosacontrib.perun/3.7.2-3.7.3/diff.md --exclude *.pyd
+[2023-07-18 11:25:00] INFO root fetch - processPackages [ssi-fc-data]: Downloading https://files.pythonhosted.org/packages/c2/ba/602c27e81154e3f2885c9848a652f312ee4d64c3bbc01265eea5e3e12010/ssi_fc_data-2.1.2.tar.gz
+[2023-07-18 11:25:00] INFO root fetch - processPackages [perun.proxy.utils]: executing diffoscope
+[2023-07-18 11:25:00] INFO root fetch - processPackages [perun.proxy.utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perun.proxy.utils-1.8.1.tar.gz tmp/perun.proxy.utils-1.8.2.tar.gz --markdown 20230718/p/perun.proxy.utils/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-07-18 11:25:00] INFO root fetch - processPackages [ssi-fc-data]: executing diffoscope
+[2023-07-18 11:25:00] INFO root fetch - processPackages [ssi-fc-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssi_fc_data-2.1.1.tar.gz tmp/ssi_fc_data-2.1.2.tar.gz --markdown 20230718/s/ssi-fc-data/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-07-18 11:25:00] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai-pos]: Downloading https://files.pythonhosted.org/packages/a6/c8/f3995afdc85eff7795fc81743dc682e447293a6ebbf5ba842c242e26d440/odoo14_addon_l10n_es_ticketbai_pos-14.0.1.1.3-py3-none-any.whl
+[2023-07-18 11:25:00] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai-api]: Downloading https://files.pythonhosted.org/packages/7a/10/a0fc8236993b757da8840bd672c561c504107e886a561dbac0f804cf5519/odoo14_addon_l10n_es_ticketbai_api-14.0.2.4.2-py3-none-any.whl
+[2023-07-18 11:25:00] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai-pos]: executing diffoscope
+[2023-07-18 11:25:00] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai-pos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_es_ticketbai_pos-14.0.1.1.2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_es_ticketbai_pos-14.0.1.1.3-py3-none-any.whl.zip --markdown 20230718/o/odoo14-addon-l10n-es-ticketbai-pos/14.0.1.1.2-14.0.1.1.3/diff.md --exclude *.pyd
+[2023-07-18 11:25:00] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/fc/9f/639d42b63484a91cf9f1c60f9bb709f1ed853240f45c2e02047054beffa6/libcnmc-23.9.1.tar.gz
+[2023-07-18 11:25:00] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-07-18 11:25:00] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230718/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-07-18 11:25:00] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai-api]: executing diffoscope
+[2023-07-18 11:25:00] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_es_ticketbai_api-14.0.2.4.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_es_ticketbai_api-14.0.2.4.2-py3-none-any.whl.zip --markdown 20230718/o/odoo14-addon-l10n-es-ticketbai-api/14.0.2.4.1.dev1-14.0.2.4.2/diff.md --exclude *.pyd
+[2023-07-18 11:25:01] INFO root fetch - processPackages [kshell-utilities]: Remove: archive file [/home/abi/fetcher/tmp/kshell-utilities-1.4.0.0.tar.gz]
+[2023-07-18 11:25:01] INFO root fetch - processPackages [kshell-utilities]: Remove: archive file [/home/abi/fetcher/tmp/kshell-utilities-1.5.0.0.tar.gz]
+[2023-07-18 11:25:01] INFO root fetch - processPackages [kshell-utilities]: Start processing: cenas
+[2023-07-18 11:25:01] INFO root fetch - main [MainThread]: End processing [kshell-utilities]: success
+[2023-07-18 11:25:01] INFO root fetch - processPackages [cenas]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-18 11:25:01] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.8.tar.gz]
+[2023-07-18 11:25:01] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.9.tar.gz]
+[2023-07-18 11:25:01] INFO root fetch - processPackages [cenas]: Start processing: spanishconjugator
+[2023-07-18 11:25:01] INFO root fetch - main [MainThread]: End processing [cenas]: success
+[2023-07-18 11:25:01] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/ad/ad/8e6ac29153c6369e5cbdf21108e60070080d9d4978e3a1a5f20be7b9492b/cenas-1.1.8.tar.gz
+[2023-07-18 11:25:02] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-18 11:25:02] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-18 11:25:02] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-18 11:25:02] INFO root fetch - processPackages [spanishconjugator]: Start processing: datagit
+[2023-07-18 11:25:02] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-18 11:25:02] INFO root fetch - processPackages [django-admin-commands2]: Remove: archive file [/home/abi/fetcher/tmp/django-admin-commands2-1.1.1.tar.gz]
+[2023-07-18 11:25:02] INFO root fetch - processPackages [django-admin-commands2]: Remove: archive file [/home/abi/fetcher/tmp/django-admin-commands2-1.1.2.tar.gz]
+[2023-07-18 11:25:02] INFO root fetch - processPackages [django-admin-commands2]: Start processing: fdog
+[2023-07-18 11:25:02] INFO root fetch - main [MainThread]: End processing [django-admin-commands2]: success
+[2023-07-18 11:25:02] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-18 11:25:02] INFO root fetch - processPackages [datagit]: New version: [0.9] Old Version: [0.8]
+[2023-07-18 11:25:02] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/37/ba/9662c92e6a20bfb5bcfc4f81bef895566ee63c5d4018c2cae825c1c94e21/cenas-1.1.9.tar.gz
+[2023-07-18 11:25:02] INFO root fetch - processPackages [fdog]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-18 11:25:02] INFO root fetch - processPackages [cenas]: executing diffoscope
+[2023-07-18 11:25:02] INFO root fetch - processPackages [cenas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cenas-1.1.8.tar.gz tmp/cenas-1.1.9.tar.gz --markdown 20230718/c/cenas/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-18 11:25:02] INFO root fetch - processPackages [ssi-fc-data]: Remove: archive file [/home/abi/fetcher/tmp/ssi_fc_data-2.1.1.tar.gz]
+[2023-07-18 11:25:02] INFO root fetch - processPackages [ssi-fc-data]: Remove: archive file [/home/abi/fetcher/tmp/ssi_fc_data-2.1.2.tar.gz]
+[2023-07-18 11:25:02] INFO root fetch - processPackages [ssi-fc-data]: Start processing: antchain-twc
+[2023-07-18 11:25:02] INFO root fetch - main [MainThread]: End processing [ssi-fc-data]: success
+[2023-07-18 11:25:02] INFO root fetch - processPackages [perun.proxy.utils]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxy.utils-1.8.1.tar.gz]
+[2023-07-18 11:25:02] INFO root fetch - processPackages [perun.proxy.utils]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxy.utils-1.8.2.tar.gz]
+[2023-07-18 11:25:02] INFO root fetch - processPackages [perun.proxy.utils]: Start processing: odoo-addon-delivery-postlogistics
+[2023-07-18 11:25:02] INFO root fetch - main [MainThread]: End processing [perun.proxy.utils]: success
+[2023-07-18 11:25:02] INFO root fetch - processPackages [datagit]: Downloading https://files.pythonhosted.org/packages/92/03/09115a0e007a0e9e34ca94fe7dc5a98a891eb84cfd5635cfc89e93e6145b/datagit-0.8.tar.gz
+[2023-07-18 11:25:02] INFO root fetch - processPackages [fdog]: Downloading https://files.pythonhosted.org/packages/a3/96/e80531f9b64a2bfdde4aafa10e4dae4c4b1288107b471338f546d298cca7/fdog-0.1.8.tar.gz
+[2023-07-18 11:25:02] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-18 11:25:03] INFO root fetch - processPackages [antchain-twc]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-18 11:25:03] INFO root fetch - processPackages [odoo-addon-delivery-postlogistics]: New version: [16.0.1.0.2] Old Version: [16.0.1.0.1]
+[2023-07-18 11:25:03] INFO root fetch - processPackages [satosacontrib.perun]: Remove: archive file [/home/abi/fetcher/tmp/satosacontrib.perun-3.7.2.tar.gz]
+[2023-07-18 11:25:03] INFO root fetch - processPackages [satosacontrib.perun]: Remove: archive file [/home/abi/fetcher/tmp/satosacontrib.perun-3.7.3.tar.gz]
+[2023-07-18 11:25:03] INFO root fetch - processPackages [satosacontrib.perun]: Start processing: digimat.bac0
+[2023-07-18 11:25:03] INFO root fetch - main [MainThread]: End processing [satosacontrib.perun]: success
+[2023-07-18 11:25:03] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-18 11:25:03] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230718/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-18 11:25:03] INFO root fetch - processPackages [digimat.bac0]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-18 11:25:03] INFO root fetch - processPackages [antchain-twc]: Downloading https://files.pythonhosted.org/packages/c8/36/ff01772c79f6304da84d484196bc1707748a6660a1040ac06c256cf6ac4a/antchain_twc-1.9.0.tar.gz
+[2023-07-18 11:25:03] INFO root fetch - processPackages [datagit]: Downloading https://files.pythonhosted.org/packages/ae/74/35e2d657a79a0024a1d34c810f8eba7282593c263077d44d211afb6d9e3e/datagit-0.9.tar.gz
+[2023-07-18 11:25:03] INFO root fetch - processPackages [odoo-addon-delivery-postlogistics]: Downloading https://files.pythonhosted.org/packages/8e/f4/2b77d7a71f3889b93ca50518b19d8daf9ad141ff6411c22eb964c9dfcd6b/odoo_addon_delivery_postlogistics-16.0.1.0.1-py3-none-any.whl
+[2023-07-18 11:25:03] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/93/69/86e0838e726c0937c564256e80ef37aa475670fd71b17c0760827302f8e2/digimat.bac0-0.0.7.tar.gz
+[2023-07-18 11:25:03] INFO root fetch - processPackages [datagit]: executing diffoscope
+[2023-07-18 11:25:03] INFO root fetch - processPackages [datagit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datagit-0.8.tar.gz tmp/datagit-0.9.tar.gz --markdown 20230718/d/datagit/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-18 11:25:03] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/78/69/c221dd8f83b0cf18b4d8071cc4f3e464fd1a4a46aedfcc6da331732122ce/digimat.bac0-0.0.8.tar.gz
+[2023-07-18 11:25:03] INFO root fetch - processPackages [fdog]: Downloading https://files.pythonhosted.org/packages/a4/13/402b01e3227678921c619da9ab8eb4399d3a11dba161163518f064df54d3/fdog-0.1.9.tar.gz
+[2023-07-18 11:25:03] INFO root fetch - processPackages [digimat.bac0]: executing diffoscope
+[2023-07-18 11:25:03] INFO root fetch - processPackages [digimat.bac0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.bac0-0.0.7.tar.gz tmp/digimat.bac0-0.0.8.tar.gz --markdown 20230718/d/digimat.bac0/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-18 11:25:04] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_ticketbai_pos-14.0.1.1.2-py3-none-any.whl.zip]
+[2023-07-18 11:25:04] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_ticketbai_pos-14.0.1.1.3-py3-none-any.whl.zip]
+[2023-07-18 11:25:04] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai-pos]: Start processing: threetotheonehalfpy
+[2023-07-18 11:25:04] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-es-ticketbai-pos]: success
+[2023-07-18 11:25:04] WARNING root fetch - processPackages [threetotheonehalfpy]: Skipping, unable to determine old version
+[2023-07-18 11:25:04] INFO root fetch - processPackages [threetotheonehalfpy]: Start processing: dexie-rewards
+[2023-07-18 11:25:04] INFO root fetch - main [MainThread]: End processing [threetotheonehalfpy] error
+[2023-07-18 11:25:04] INFO root fetch - processPackages [dexie-rewards]: New version: [1.8.2b5] Old Version: [1.8.2b4]
+[2023-07-18 11:25:04] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.8.tar.gz]
+[2023-07-18 11:25:04] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.9.tar.gz]
+[2023-07-18 11:25:04] INFO root fetch - processPackages [cenas]: Start processing: sphinx-enos-theme
+[2023-07-18 11:25:04] INFO root fetch - main [MainThread]: End processing [cenas]: success
+[2023-07-18 11:25:04] INFO root fetch - processPackages [dexie-rewards]: Downloading https://files.pythonhosted.org/packages/dc/90/cb93f7423aad6714a748c02a2d317b453d5d95850bef4b968c4da2e5a04c/dexie_rewards-1.8.2b4.tar.gz
+[2023-07-18 11:25:04] INFO root fetch - processPackages [odoo-addon-delivery-postlogistics]: Downloading https://files.pythonhosted.org/packages/42/9e/e6d1b67af767dec1bdbff953e4cff272f0926705ce40ceb15e7e2404c4ae/odoo_addon_delivery_postlogistics-16.0.1.0.2-py3-none-any.whl
+[2023-07-18 11:25:04] INFO root fetch - processPackages [antchain-twc]: Downloading https://files.pythonhosted.org/packages/80/5d/e8c3a8e4914e62821cb8c2f92eb9444de15abfbc652758282cff30ac712a/antchain_twc-1.9.1.tar.gz
+[2023-07-18 11:25:04] INFO root fetch - processPackages [fdog]: executing diffoscope
+[2023-07-18 11:25:04] INFO root fetch - processPackages [sphinx-enos-theme]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-18 11:25:04] INFO root fetch - processPackages [fdog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdog-0.1.8.tar.gz tmp/fdog-0.1.9.tar.gz --markdown 20230718/f/fdog/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-18 11:25:04] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai-api]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_ticketbai_api-14.0.2.4.1.dev1-py3-none-any.whl.zip]
+[2023-07-18 11:25:04] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai-api]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_ticketbai_api-14.0.2.4.2-py3-none-any.whl.zip]
+[2023-07-18 11:25:04] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai-api]: Start processing: cenas
+[2023-07-18 11:25:04] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-es-ticketbai-api]: success
+[2023-07-18 11:25:04] INFO root fetch - processPackages [dexie-rewards]: Downloading https://files.pythonhosted.org/packages/2c/9c/7877d9f0ce5722d179be9fe8356b3fe2cb94ea82fe948e19147f0e77e9c4/dexie_rewards-1.8.2b5.tar.gz
+[2023-07-18 11:25:04] INFO root fetch - processPackages [cenas]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-18 11:25:04] INFO root fetch - processPackages [odoo-addon-delivery-postlogistics]: executing diffoscope
+[2023-07-18 11:25:04] INFO root fetch - processPackages [odoo-addon-delivery-postlogistics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_delivery_postlogistics-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_delivery_postlogistics-16.0.1.0.2-py3-none-any.whl.zip --markdown 20230718/o/odoo-addon-delivery-postlogistics/16.0.1.0.1-16.0.1.0.2/diff.md --exclude *.pyd
+[2023-07-18 11:25:04] INFO root fetch - processPackages [dexie-rewards]: executing diffoscope
+[2023-07-18 11:25:04] INFO root fetch - processPackages [dexie-rewards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dexie_rewards-1.8.2b4.tar.gz tmp/dexie_rewards-1.8.2b5.tar.gz --markdown 20230718/d/dexie-rewards/1.8.2b4-1.8.2b5/diff.md --exclude *.pyd
+[2023-07-18 11:25:04] INFO root fetch - processPackages [sphinx-enos-theme]: Downloading https://files.pythonhosted.org/packages/d1/91/a94ff8e2f017a275c7162f624377aa91f191fa1086cc9b0c9871f44f67ed/sphinx_enos_theme-0.2.8.tar.gz
+[2023-07-18 11:25:04] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/ad/ad/8e6ac29153c6369e5cbdf21108e60070080d9d4978e3a1a5f20be7b9492b/cenas-1.1.8.tar.gz
+[2023-07-18 11:25:04] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-18 11:25:04] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-18 11:25:04] INFO root fetch - processPackages [spanishconjugator]: Start processing: pydatawork
+[2023-07-18 11:25:04] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-18 11:25:04] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.0.tar.gz]
+[2023-07-18 11:25:04] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.1.tar.gz]
+[2023-07-18 11:25:04] INFO root fetch - processPackages [libcnmc]: Start processing: th2-data-services
+[2023-07-18 11:25:04] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-07-18 11:25:04] INFO root fetch - processPackages [antchain-twc]: executing diffoscope
+[2023-07-18 11:25:04] INFO root fetch - processPackages [antchain-twc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_twc-1.9.0.tar.gz tmp/antchain_twc-1.9.1.tar.gz --markdown 20230718/a/antchain-twc/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-18 11:25:04] INFO root fetch - processPackages [datagit]: Remove: archive file [/home/abi/fetcher/tmp/datagit-0.8.tar.gz]
+[2023-07-18 11:25:04] INFO root fetch - processPackages [datagit]: Remove: archive file [/home/abi/fetcher/tmp/datagit-0.9.tar.gz]
+[2023-07-18 11:25:04] INFO root fetch - processPackages [datagit]: Start processing: kodexa
+[2023-07-18 11:25:04] INFO root fetch - main [MainThread]: End processing [datagit]: success
+[2023-07-18 11:25:05] INFO root fetch - processPackages [pydatawork]: New version: [0.17.5.5] Old Version: [0.17.5.4]
+[2023-07-18 11:25:05] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev5585651073] Old Version: [2.0.0.dev5504842108]
+[2023-07-18 11:25:05] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/37/ba/9662c92e6a20bfb5bcfc4f81bef895566ee63c5d4018c2cae825c1c94e21/cenas-1.1.9.tar.gz
+[2023-07-18 11:25:05] INFO root fetch - processPackages [kodexa]: New version: [6.3.35585655579] Old Version: [6.2.3a5260876523]
+[2023-07-18 11:25:05] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.7.tar.gz]
+[2023-07-18 11:25:05] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.8.tar.gz]
+[2023-07-18 11:25:05] INFO root fetch - processPackages [digimat.bac0]: Start processing: kivypinview
+[2023-07-18 11:25:05] INFO root fetch - main [MainThread]: End processing [digimat.bac0]: success
+[2023-07-18 11:25:05] INFO root fetch - processPackages [cenas]: executing diffoscope
+[2023-07-18 11:25:05] INFO root fetch - processPackages [cenas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cenas-1.1.8.tar.gz tmp/cenas-1.1.9.tar.gz --markdown 20230718/c/cenas/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-18 11:25:05] INFO root fetch - processPackages [sphinx-enos-theme]: Downloading https://files.pythonhosted.org/packages/cf/26/5cc1b9d871cfd2bf60bdd6594178f1651766e04dfa4731e2d745543aa7e3/sphinx_enos_theme-0.2.9.tar.gz
+[2023-07-18 11:25:05] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/4a/66/617dd208a245435e376984f62632bbda4041e15ec88b301ccf1e07f3d6fd/kodexa-6.2.3a5260876523.tar.gz
+[2023-07-18 11:25:05] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/be/25/1ab1a4ac8c7353cbc9c18f6ffd614115c293d266504cafcd46c6900a4a7d/th2_data_services-2.0.0.dev5504842108.tar.gz
+[2023-07-18 11:25:05] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/73/ae/b1563c7e31358e0ece735210b8ead23393b3ef5f778852cb819a00cd7f5d/pydatawork-0.17.5.4.tar.gz
+[2023-07-18 11:25:05] WARNING root fetch - processPackages [kivypinview]: Skipping, unable to determine old version
+[2023-07-18 11:25:05] INFO root fetch - main [MainThread]: End processing [kivypinview] error
+[2023-07-18 11:25:05] INFO root fetch - processPackages [sphinx-enos-theme]: executing diffoscope
+[2023-07-18 11:25:05] INFO root fetch - processPackages [sphinx-enos-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_enos_theme-0.2.8.tar.gz tmp/sphinx_enos_theme-0.2.9.tar.gz --markdown 20230718/s/sphinx-enos-theme/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-18 11:25:05] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/09/cc/58a22c1f62191bb225270b2f6684fd43bfa5cedc1ec44c1e6aa209eaf0b7/th2_data_services-2.0.0.dev5585651073.tar.gz
+[2023-07-18 11:25:05] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2023-07-18 11:25:05] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev5504842108.tar.gz tmp/th2_data_services-2.0.0.dev5585651073.tar.gz --markdown 20230718/t/th2-data-services/2.0.0.dev5504842108-2.0.0.dev5585651073/diff.md --exclude *.pyd
+[2023-07-18 11:25:05] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/fb/e9/3ab1b7e14dbe36ac6ec89324f9fc1def51d696f48b187b58490ad470d6d6/kodexa-6.3.35585655579.tar.gz
+[2023-07-18 11:25:05] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/6b/fc/7f86fd7f7d02465f430751132ffc881db2d5f500ed547a641e831be2e602/pydatawork-0.17.5.5.tar.gz
+[2023-07-18 11:25:06] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-07-18 11:25:06] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.17.5.4.tar.gz tmp/pydatawork-0.17.5.5.tar.gz --markdown 20230718/p/pydatawork/0.17.5.4-0.17.5.5/diff.md --exclude *.pyd
+[2023-07-18 11:25:06] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-07-18 11:25:06] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.2.3a5260876523.tar.gz tmp/kodexa-6.3.35585655579.tar.gz --markdown 20230718/k/kodexa/6.2.3a5260876523-6.3.35585655579/diff.md --exclude *.pyd
+[2023-07-18 11:25:06] INFO root fetch - processPackages [fdog]: Remove: archive file [/home/abi/fetcher/tmp/fdog-0.1.8.tar.gz]
+[2023-07-18 11:25:06] INFO root fetch - processPackages [fdog]: Remove: archive file [/home/abi/fetcher/tmp/fdog-0.1.9.tar.gz]
+[2023-07-18 11:25:06] INFO root fetch - main [MainThread]: End processing [fdog]: success
+[2023-07-18 11:25:06] INFO root fetch - processPackages [dexie-rewards]: Remove: archive file [/home/abi/fetcher/tmp/dexie_rewards-1.8.2b4.tar.gz]
+[2023-07-18 11:25:06] INFO root fetch - processPackages [dexie-rewards]: Remove: archive file [/home/abi/fetcher/tmp/dexie_rewards-1.8.2b5.tar.gz]
+[2023-07-18 11:25:06] INFO root fetch - main [MainThread]: End processing [dexie-rewards]: success
+[2023-07-18 11:25:06] INFO root fetch - processPackages [odoo-addon-delivery-postlogistics]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_postlogistics-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-18 11:25:06] INFO root fetch - processPackages [odoo-addon-delivery-postlogistics]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_postlogistics-16.0.1.0.2-py3-none-any.whl.zip]
+[2023-07-18 11:25:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-delivery-postlogistics]: success
+[2023-07-18 11:25:06] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.8.tar.gz]
+[2023-07-18 11:25:06] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.9.tar.gz]
+[2023-07-18 11:25:06] INFO root fetch - main [MainThread]: End processing [cenas]: success
+[2023-07-18 11:25:07] INFO root fetch - processPackages [antchain-twc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_twc-1.9.0.tar.gz]
+[2023-07-18 11:25:07] INFO root fetch - processPackages [antchain-twc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_twc-1.9.1.tar.gz]
+[2023-07-18 11:25:07] INFO root fetch - main [MainThread]: End processing [antchain-twc]: success
+[2023-07-18 11:25:07] INFO root fetch - processPackages [sphinx-enos-theme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_enos_theme-0.2.8.tar.gz]
+[2023-07-18 11:25:07] INFO root fetch - processPackages [sphinx-enos-theme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_enos_theme-0.2.9.tar.gz]
+[2023-07-18 11:25:07] INFO root fetch - main [MainThread]: End processing [sphinx-enos-theme]: success
+[2023-07-18 11:25:07] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.17.5.4.tar.gz]
+[2023-07-18 11:25:07] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.17.5.5.tar.gz]
+[2023-07-18 11:25:07] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-07-18 11:25:07] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev5504842108.tar.gz]
+[2023-07-18 11:25:07] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev5585651073.tar.gz]
+[2023-07-18 11:25:07] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2023-07-18 11:25:08] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.2.3a5260876523.tar.gz]
+[2023-07-18 11:25:08] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.3.35585655579.tar.gz]
+[2023-07-18 11:25:08] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-07-18 11:25:08] INFO root fetch - main [MainThread]: Store serial: [18930876]
