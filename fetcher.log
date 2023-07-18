@@ -18514,3 +18514,137 @@
 [2023-07-18 10:21:33] INFO root fetch - processPackages [scaleway-async]: Remove: archive file [/home/abi/fetcher/tmp/scaleway_async-0.9.0.tar.gz]
 [2023-07-18 10:21:33] INFO root fetch - main [MainThread]: End processing [scaleway-async]: success
 [2023-07-18 10:21:33] INFO root fetch - main [MainThread]: Store serial: [18930223]
+[2023-07-18 10:26:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18930223]
+[2023-07-18 10:26:42] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-18 10:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: personio-client-api
+[2023-07-18 10:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: saic-ismart-client
+[2023-07-18 10:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metathreads
+[2023-07-18 10:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cenas
+[2023-07-18 10:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: BinPackerPro
+[2023-07-18 10:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datamazing
+[2023-07-18 10:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyiron-atomistics
+[2023-07-18 10:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: threetotheonehalfpy
+[2023-07-18 10:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tf-model-optimization-nightly
+[2023-07-18 10:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-shopfloor-mobile-base
+[2023-07-18 10:26:43] INFO root fetch - processPackages [cenas]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-18 10:26:43] INFO root fetch - processPackages [BinPackerPro]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-18 10:26:43] INFO root fetch - processPackages [datamazing]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-18 10:26:43] INFO root fetch - processPackages [saic-ismart-client]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-07-18 10:26:43] WARNING root fetch - processPackages [threetotheonehalfpy]: Skipping, unable to determine old version
+[2023-07-18 10:26:43] INFO root fetch - processPackages [threetotheonehalfpy]: Start processing: odoo14-addon-shopfloor-reception-mobile
+[2023-07-18 10:26:43] INFO root fetch - main [MainThread]: End processing [threetotheonehalfpy] error
+[2023-07-18 10:26:43] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile-base]: New version: [14.0.3.9.1] Old Version: [14.0.3.9.0]
+[2023-07-18 10:26:43] WARNING root fetch - processPackages [personio-client-api]: Skipping, unable to determine old version
+[2023-07-18 10:26:43] INFO root fetch - processPackages [personio-client-api]: Start processing: odoo14-addon-shopfloor-dangerous-goods-mobile
+[2023-07-18 10:26:43] INFO root fetch - main [MainThread]: End processing [personio-client-api] error
+[2023-07-18 10:26:43] INFO root fetch - processPackages [metathreads]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-18 10:26:43] INFO root fetch - processPackages [pyiron-atomistics]: New version: [0.3.1] Old Version: [0.3.0.dev0]
+[2023-07-18 10:26:43] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/ad/ad/8e6ac29153c6369e5cbdf21108e60070080d9d4978e3a1a5f20be7b9492b/cenas-1.1.8.tar.gz
+[2023-07-18 10:26:43] INFO root fetch - processPackages [BinPackerPro]: Downloading https://files.pythonhosted.org/packages/ff/5c/7015d684189c92678fed165e631cdc5607d54e2b8984c4e3b5efa911035a/BinPackerPro-0.0.7.tar.gz
+[2023-07-18 10:26:43] INFO root fetch - processPackages [tf-model-optimization-nightly]: New version: [0.7.5.dev20230718] Old Version: [0.7.5.dev20230716]
+[2023-07-18 10:26:43] INFO root fetch - processPackages [datamazing]: Downloading https://files.pythonhosted.org/packages/0c/3c/b0e706009598fb9befbb5153e3582fea163c42d68c3bd39367541362a6c0/datamazing-1.0.2.tar.gz
+[2023-07-18 10:26:43] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception-mobile]: New version: [14.0.0.4.0] Old Version: [14.0.0.3.0]
+[2023-07-18 10:26:43] INFO root fetch - processPackages [odoo14-addon-shopfloor-dangerous-goods-mobile]: New version: [14.0.1.1.0] Old Version: [14.0.1.0.1.dev2]
+[2023-07-18 10:26:43] INFO root fetch - processPackages [saic-ismart-client]: Downloading https://files.pythonhosted.org/packages/2c/95/7ad4d3be65ef9e4d9e0005c7d27f9c32f03488e226d09493fa551836f581/saic_ismart_client-1.4.1.tar.gz
+[2023-07-18 10:26:43] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile-base]: Downloading https://files.pythonhosted.org/packages/c9/02/fbd281e8677b36013336bf9465d3cffb46f7d914917799726d5401feda45/odoo14_addon_shopfloor_mobile_base-14.0.3.9.0-py3-none-any.whl
+[2023-07-18 10:26:43] INFO root fetch - processPackages [metathreads]: Downloading https://files.pythonhosted.org/packages/8a/a2/6fca453741659264b4d46a77c314c17bbd7f5a8e1c083602712abe4992e3/metathreads-0.0.2.tar.gz
+[2023-07-18 10:26:43] INFO root fetch - processPackages [pyiron-atomistics]: Downloading https://files.pythonhosted.org/packages/9b/96/2ba037210447227836528727ad75927056ca96954d590dcd01766b11a93e/pyiron-atomistics-0.3.0.dev0.tar.gz
+[2023-07-18 10:26:43] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/37/ba/9662c92e6a20bfb5bcfc4f81bef895566ee63c5d4018c2cae825c1c94e21/cenas-1.1.9.tar.gz
+[2023-07-18 10:26:43] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/41/dd/38f9c37b3945117c9626ea5bc2c5086afb5314af82cceac127f128154ecc/tf_model_optimization_nightly-0.7.5.dev20230716-py2.py3-none-any.whl
+[2023-07-18 10:26:43] INFO root fetch - processPackages [datamazing]: Downloading https://files.pythonhosted.org/packages/66/67/f25d6895204763fb16d970de71000662d869047a303d63741960799444e0/datamazing-1.0.3.tar.gz
+[2023-07-18 10:26:43] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception-mobile]: Downloading https://files.pythonhosted.org/packages/f1/98/6ea40696f01ad8ad8f9309f9d75362a12c028fbadee203206e703696d4a0/odoo14_addon_shopfloor_reception_mobile-14.0.0.3.0-py3-none-any.whl
+[2023-07-18 10:26:43] INFO root fetch - processPackages [BinPackerPro]: Downloading https://files.pythonhosted.org/packages/44/dc/f3764d2ce86df1bbcca2aba8870f4daf92c2624d212d423fcf6067b0d665/BinPackerPro-0.0.8.tar.gz
+[2023-07-18 10:26:43] INFO root fetch - processPackages [odoo14-addon-shopfloor-dangerous-goods-mobile]: Downloading https://files.pythonhosted.org/packages/fe/4d/7dfedf9a78d53a3f61d48728db43bb3641a1c44765b9775e7be48ba07662/odoo14_addon_shopfloor_dangerous_goods_mobile-14.0.1.0.1.dev2-py3-none-any.whl
+[2023-07-18 10:26:43] INFO root fetch - processPackages [cenas]: executing diffoscope
+[2023-07-18 10:26:43] INFO root fetch - processPackages [cenas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cenas-1.1.8.tar.gz tmp/cenas-1.1.9.tar.gz --markdown 20230718/c/cenas/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-18 10:26:43] INFO root fetch - processPackages [datamazing]: executing diffoscope
+[2023-07-18 10:26:43] INFO root fetch - processPackages [datamazing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamazing-1.0.2.tar.gz tmp/datamazing-1.0.3.tar.gz --markdown 20230718/d/datamazing/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-18 10:26:43] INFO root fetch - processPackages [BinPackerPro]: executing diffoscope
+[2023-07-18 10:26:43] INFO root fetch - processPackages [BinPackerPro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BinPackerPro-0.0.7.tar.gz tmp/BinPackerPro-0.0.8.tar.gz --markdown 20230718/B/BinPackerPro/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-18 10:26:44] INFO root fetch - processPackages [saic-ismart-client]: Downloading https://files.pythonhosted.org/packages/5c/79/57b8dd891bfd87172761ed373bdc93db751ce385d671b5449cd85ab6255e/saic_ismart_client-1.4.2.tar.gz
+[2023-07-18 10:26:44] INFO root fetch - processPackages [metathreads]: Downloading https://files.pythonhosted.org/packages/59/28/8f7cf95360ba945b2c0447cd900b499c33845de05abf90bd15539fd86f2b/metathreads-0.0.3.tar.gz
+[2023-07-18 10:26:44] INFO root fetch - processPackages [pyiron-atomistics]: Downloading https://files.pythonhosted.org/packages/a2/8f/515af63940461274e84932ec77c8057d2a29352af154485e5ce5ddd1cc41/pyiron-atomistics-0.3.1.tar.gz
+[2023-07-18 10:26:44] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/6c/5f/57397572691a4746436837f4863f9e995a1d6e5da7da8eb4bc586a32c35b/tf_model_optimization_nightly-0.7.5.dev20230718-py2.py3-none-any.whl
+[2023-07-18 10:26:44] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception-mobile]: Downloading https://files.pythonhosted.org/packages/c7/a9/4e2d0608f3c835dcb27073ad685fd50ff58a57e269e832b164ec6cd2ab9a/odoo14_addon_shopfloor_reception_mobile-14.0.0.4.0-py3-none-any.whl
+[2023-07-18 10:26:44] INFO root fetch - processPackages [odoo14-addon-shopfloor-dangerous-goods-mobile]: Downloading https://files.pythonhosted.org/packages/b2/89/735b1b1cf3538c4c56eaec36ec5b173b0497921a73d94157349d0510f750/odoo14_addon_shopfloor_dangerous_goods_mobile-14.0.1.1.0-py3-none-any.whl
+[2023-07-18 10:26:44] INFO root fetch - processPackages [saic-ismart-client]: executing diffoscope
+[2023-07-18 10:26:44] INFO root fetch - processPackages [saic-ismart-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saic_ismart_client-1.4.1.tar.gz tmp/saic_ismart_client-1.4.2.tar.gz --markdown 20230718/s/saic-ismart-client/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-07-18 10:26:44] INFO root fetch - processPackages [metathreads]: executing diffoscope
+[2023-07-18 10:26:44] INFO root fetch - processPackages [metathreads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metathreads-0.0.2.tar.gz tmp/metathreads-0.0.3.tar.gz --markdown 20230718/m/metathreads/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-18 10:26:44] INFO root fetch - processPackages [pyiron-atomistics]: executing diffoscope
+[2023-07-18 10:26:44] INFO root fetch - processPackages [pyiron-atomistics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiron-atomistics-0.3.0.dev0.tar.gz tmp/pyiron-atomistics-0.3.1.tar.gz --markdown 20230718/p/pyiron-atomistics/0.3.0.dev0-0.3.1/diff.md --exclude *.pyd
+[2023-07-18 10:26:44] INFO root fetch - processPackages [tf-model-optimization-nightly]: executing diffoscope
+[2023-07-18 10:26:44] INFO root fetch - processPackages [tf-model-optimization-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_model_optimization_nightly-0.7.5.dev20230716-py2.py3-none-any.whl.zip tmp/tf_model_optimization_nightly-0.7.5.dev20230718-py2.py3-none-any.whl.zip --markdown 20230718/t/tf-model-optimization-nightly/0.7.5.dev20230716-0.7.5.dev20230718/diff.md --exclude *.pyd
+[2023-07-18 10:26:44] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception-mobile]: executing diffoscope
+[2023-07-18 10:26:44] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception-mobile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopfloor_reception_mobile-14.0.0.3.0-py3-none-any.whl.zip tmp/odoo14_addon_shopfloor_reception_mobile-14.0.0.4.0-py3-none-any.whl.zip --markdown 20230718/o/odoo14-addon-shopfloor-reception-mobile/14.0.0.3.0-14.0.0.4.0/diff.md --exclude *.pyd
+[2023-07-18 10:26:44] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile-base]: Downloading https://files.pythonhosted.org/packages/9c/4e/8ecc8852ff23bc95932ae1f8ba30fe73b8ddad3a6a84ff656bb087fcf7ed/odoo14_addon_shopfloor_mobile_base-14.0.3.9.1-py3-none-any.whl
+[2023-07-18 10:26:44] INFO root fetch - processPackages [odoo14-addon-shopfloor-dangerous-goods-mobile]: executing diffoscope
+[2023-07-18 10:26:44] INFO root fetch - processPackages [odoo14-addon-shopfloor-dangerous-goods-mobile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopfloor_dangerous_goods_mobile-14.0.1.0.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_shopfloor_dangerous_goods_mobile-14.0.1.1.0-py3-none-any.whl.zip --markdown 20230718/o/odoo14-addon-shopfloor-dangerous-goods-mobile/14.0.1.0.1.dev2-14.0.1.1.0/diff.md --exclude *.pyd
+[2023-07-18 10:26:44] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile-base]: executing diffoscope
+[2023-07-18 10:26:44] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopfloor_mobile_base-14.0.3.9.0-py3-none-any.whl.zip tmp/odoo14_addon_shopfloor_mobile_base-14.0.3.9.1-py3-none-any.whl.zip --markdown 20230718/o/odoo14-addon-shopfloor-mobile-base/14.0.3.9.0-14.0.3.9.1/diff.md --exclude *.pyd
+[2023-07-18 10:26:44] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.8.tar.gz]
+[2023-07-18 10:26:44] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.9.tar.gz]
+[2023-07-18 10:26:44] INFO root fetch - processPackages [cenas]: Start processing: odoo14-addon-shopfloor-mobile
+[2023-07-18 10:26:44] INFO root fetch - main [MainThread]: End processing [cenas]: success
+[2023-07-18 10:26:45] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: New version: [14.0.1.9.2] Old Version: [14.0.1.9.1]
+[2023-07-18 10:26:45] INFO root fetch - processPackages [datamazing]: Remove: archive file [/home/abi/fetcher/tmp/datamazing-1.0.2.tar.gz]
+[2023-07-18 10:26:45] INFO root fetch - processPackages [datamazing]: Remove: archive file [/home/abi/fetcher/tmp/datamazing-1.0.3.tar.gz]
+[2023-07-18 10:26:45] INFO root fetch - processPackages [datamazing]: Start processing: clickzetta-migration
+[2023-07-18 10:26:45] INFO root fetch - main [MainThread]: End processing [datamazing]: success
+[2023-07-18 10:26:45] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: Downloading https://files.pythonhosted.org/packages/af/c7/2dfad19c93c73bc908c931517bb0a44366c1e3dee31a33df4b10efa23db2/odoo14_addon_shopfloor_mobile-14.0.1.9.1-py3-none-any.whl
+[2023-07-18 10:26:45] INFO root fetch - processPackages [clickzetta-migration]: New version: [0.0.0.3] Old Version: [0.0.0.2]
+[2023-07-18 10:26:45] INFO root fetch - processPackages [clickzetta-migration]: Downloading https://files.pythonhosted.org/packages/01/23/1a3b1e0505afd9d00f66f8c1a5063db891e5cf66d93fb8722da7b5fd2f8a/clickzetta-migration-0.0.0.2.tar.gz
+[2023-07-18 10:26:45] INFO root fetch - processPackages [BinPackerPro]: Remove: archive file [/home/abi/fetcher/tmp/BinPackerPro-0.0.7.tar.gz]
+[2023-07-18 10:26:45] INFO root fetch - processPackages [BinPackerPro]: Remove: archive file [/home/abi/fetcher/tmp/BinPackerPro-0.0.8.tar.gz]
+[2023-07-18 10:26:45] INFO root fetch - processPackages [BinPackerPro]: Start processing: odoo-addon-product-set
+[2023-07-18 10:26:45] INFO root fetch - main [MainThread]: End processing [BinPackerPro]: success
+[2023-07-18 10:26:45] WARNING root fetch - processPackages [odoo-addon-product-set]: Skipping, unable to determine old version
+[2023-07-18 10:26:45] INFO root fetch - processPackages [odoo-addon-product-set]: Start processing: signalsnap
+[2023-07-18 10:26:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-set] error
+[2023-07-18 10:26:45] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: Downloading https://files.pythonhosted.org/packages/c3/23/8526362ab9300aa58a210d8569f60632603010270fa72c28f63373aca95c/odoo14_addon_shopfloor_mobile-14.0.1.9.2-py3-none-any.whl
+[2023-07-18 10:26:45] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: executing diffoscope
+[2023-07-18 10:26:45] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopfloor_mobile-14.0.1.9.1-py3-none-any.whl.zip tmp/odoo14_addon_shopfloor_mobile-14.0.1.9.2-py3-none-any.whl.zip --markdown 20230718/o/odoo14-addon-shopfloor-mobile/14.0.1.9.1-14.0.1.9.2/diff.md --exclude *.pyd
+[2023-07-18 10:26:45] INFO root fetch - processPackages [signalsnap]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-18 10:26:45] INFO root fetch - processPackages [clickzetta-migration]: Downloading https://files.pythonhosted.org/packages/15/c6/6f555b8ad34a98d6cf50de9d648ca3be039e7cee8387ae0a1b9edf368405/clickzetta-migration-0.0.0.3.tar.gz
+[2023-07-18 10:26:45] INFO root fetch - processPackages [metathreads]: Remove: archive file [/home/abi/fetcher/tmp/metathreads-0.0.2.tar.gz]
+[2023-07-18 10:26:45] INFO root fetch - processPackages [metathreads]: Remove: archive file [/home/abi/fetcher/tmp/metathreads-0.0.3.tar.gz]
+[2023-07-18 10:26:45] INFO root fetch - processPackages [metathreads]: Start processing: nope-py
+[2023-07-18 10:26:45] INFO root fetch - main [MainThread]: End processing [metathreads]: success
+[2023-07-18 10:26:45] INFO root fetch - processPackages [clickzetta-migration]: executing diffoscope
+[2023-07-18 10:26:45] INFO root fetch - processPackages [clickzetta-migration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-migration-0.0.0.2.tar.gz tmp/clickzetta-migration-0.0.0.3.tar.gz --markdown 20230718/c/clickzetta-migration/0.0.0.2-0.0.0.3/diff.md --exclude *.pyd
+[2023-07-18 10:26:45] INFO root fetch - processPackages [signalsnap]: Downloading https://files.pythonhosted.org/packages/bf/ec/5bd60cf118bfe6b8645656d8546c1598b6889642dbb1da33605c4e02f57a/signalsnap-0.1.8.tar.gz
+[2023-07-18 10:26:45] INFO root fetch - processPackages [saic-ismart-client]: Remove: archive file [/home/abi/fetcher/tmp/saic_ismart_client-1.4.1.tar.gz]
+[2023-07-18 10:26:45] INFO root fetch - processPackages [saic-ismart-client]: Remove: archive file [/home/abi/fetcher/tmp/saic_ismart_client-1.4.2.tar.gz]
+[2023-07-18 10:26:45] INFO root fetch - main [MainThread]: End processing [saic-ismart-client]: success
+[2023-07-18 10:26:46] INFO root fetch - processPackages [nope-py]: New version: [1.7.9] Old Version: [1.7.8rc3]
+[2023-07-18 10:26:46] WARNING root fetch - processPackages [signalsnap]: Skipping package: exceeds size limit 32154085>=10485760
+[2023-07-18 10:26:46] INFO root fetch - main [MainThread]: End processing [signalsnap] error
+[2023-07-18 10:26:46] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception-mobile]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_reception_mobile-14.0.0.3.0-py3-none-any.whl.zip]
+[2023-07-18 10:26:46] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception-mobile]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_reception_mobile-14.0.0.4.0-py3-none-any.whl.zip]
+[2023-07-18 10:26:46] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor-reception-mobile]: success
+[2023-07-18 10:26:46] INFO root fetch - processPackages [odoo14-addon-shopfloor-dangerous-goods-mobile]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_dangerous_goods_mobile-14.0.1.0.1.dev2-py3-none-any.whl.zip]
+[2023-07-18 10:26:46] INFO root fetch - processPackages [odoo14-addon-shopfloor-dangerous-goods-mobile]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_dangerous_goods_mobile-14.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-18 10:26:46] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor-dangerous-goods-mobile]: success
+[2023-07-18 10:26:46] INFO root fetch - processPackages [nope-py]: Downloading https://files.pythonhosted.org/packages/1d/08/8465fde9741a0551715dd148470e992eb0cac96cd64c4d0dae37de52b516/nope_py-1.7.8rc3.tar.gz
+[2023-07-18 10:26:46] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230716-py2.py3-none-any.whl.zip]
+[2023-07-18 10:26:46] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230718-py2.py3-none-any.whl.zip]
+[2023-07-18 10:26:46] INFO root fetch - main [MainThread]: End processing [tf-model-optimization-nightly]: success
+[2023-07-18 10:26:46] INFO root fetch - processPackages [pyiron-atomistics]: Remove: archive file [/home/abi/fetcher/tmp/pyiron-atomistics-0.3.0.dev0.tar.gz]
+[2023-07-18 10:26:46] INFO root fetch - processPackages [pyiron-atomistics]: Remove: archive file [/home/abi/fetcher/tmp/pyiron-atomistics-0.3.1.tar.gz]
+[2023-07-18 10:26:46] INFO root fetch - main [MainThread]: End processing [pyiron-atomistics]: success
+[2023-07-18 10:26:46] INFO root fetch - processPackages [nope-py]: Downloading https://files.pythonhosted.org/packages/10/91/01613c2d2bc395a442c4b4e0dc7dbd4698d738de5fd1be25001b7efdf5b7/nope_py-1.7.9.tar.gz
+[2023-07-18 10:26:46] INFO root fetch - processPackages [clickzetta-migration]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-migration-0.0.0.2.tar.gz]
+[2023-07-18 10:26:46] INFO root fetch - processPackages [clickzetta-migration]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-migration-0.0.0.3.tar.gz]
+[2023-07-18 10:26:46] INFO root fetch - main [MainThread]: End processing [clickzetta-migration]: success
+[2023-07-18 10:26:46] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_mobile_base-14.0.3.9.0-py3-none-any.whl.zip]
+[2023-07-18 10:26:46] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_mobile_base-14.0.3.9.1-py3-none-any.whl.zip]
+[2023-07-18 10:26:46] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor-mobile-base]: success
+[2023-07-18 10:26:46] INFO root fetch - processPackages [nope-py]: executing diffoscope
+[2023-07-18 10:26:46] INFO root fetch - processPackages [nope-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nope_py-1.7.8rc3.tar.gz tmp/nope_py-1.7.9.tar.gz --markdown 20230718/n/nope-py/1.7.8rc3-1.7.9/diff.md --exclude *.pyd
+[2023-07-18 10:26:47] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_mobile-14.0.1.9.1-py3-none-any.whl.zip]
+[2023-07-18 10:26:47] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_mobile-14.0.1.9.2-py3-none-any.whl.zip]
+[2023-07-18 10:26:47] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor-mobile]: success
+[2023-07-18 10:26:48] INFO root fetch - processPackages [nope-py]: Remove: archive file [/home/abi/fetcher/tmp/nope_py-1.7.8rc3.tar.gz]
+[2023-07-18 10:26:48] INFO root fetch - processPackages [nope-py]: Remove: archive file [/home/abi/fetcher/tmp/nope_py-1.7.9.tar.gz]
+[2023-07-18 10:26:48] INFO root fetch - main [MainThread]: End processing [nope-py]: success
+[2023-07-18 10:26:48] INFO root fetch - main [MainThread]: Store serial: [18930272]
