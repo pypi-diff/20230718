@@ -21089,3 +21089,134 @@ AssertionError: tmp/cellmap-1.0.1.dev202307180907-py3-none-any.whl.zip does not 
 [2023-07-18 11:51:41] INFO root fetch - processPackages [systembridgefrontend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgefrontend-3.8.0.dev5.tar.gz]
 [2023-07-18 11:51:41] INFO root fetch - main [MainThread]: End processing [systembridgefrontend]: success
 [2023-07-18 11:51:41] INFO root fetch - main [MainThread]: Store serial: [18931239]
+[2023-07-18 11:56:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18931239]
+[2023-07-18 11:56:49] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-18 11:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dartrig
+[2023-07-18 11:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dataflows
+[2023-07-18 11:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lino-react
+[2023-07-18 11:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: daktari
+[2023-07-18 11:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: timedctl
+[2023-07-18 11:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydantic-db-backend
+[2023-07-18 11:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: apteco
+[2023-07-18 11:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kodexa-cli
+[2023-07-18 11:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: LatticeGeometryLib
+[2023-07-18 11:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cnnClassifier
+[2023-07-18 11:56:50] INFO root fetch - processPackages [LatticeGeometryLib]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-18 11:56:50] WARNING root fetch - processPackages [timedctl]: Skipping, unable to determine old version
+[2023-07-18 11:56:50] INFO root fetch - processPackages [timedctl]: Start processing: ckanext-statistics
+[2023-07-18 11:56:50] INFO root fetch - main [MainThread]: End processing [timedctl] error
+[2023-07-18 11:56:50] INFO root fetch - processPackages [kodexa-cli]: New version: [6.3.35585881742] Old Version: [6.3.35585704685]
+[2023-07-18 11:56:50] INFO root fetch - processPackages [dartrig]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-18 11:56:50] INFO root fetch - processPackages [LatticeGeometryLib]: Downloading https://files.pythonhosted.org/packages/af/37/0d6512416f400cb80a35493d758fc813fd37cf6be1051ae5e71c2b2b1ab1/LatticeGeometryLib-0.0.0.tar.gz
+[2023-07-18 11:56:50] INFO root fetch - processPackages [apteco]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-18 11:56:50] INFO root fetch - processPackages [pydantic-db-backend]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-18 11:56:50] WARNING root fetch - processPackages [cnnClassifier]: Skipping, unable to determine old version
+[2023-07-18 11:56:50] INFO root fetch - processPackages [cnnClassifier]: Start processing: dopplrSDK
+[2023-07-18 11:56:50] INFO root fetch - main [MainThread]: End processing [cnnClassifier] error
+[2023-07-18 11:56:50] INFO root fetch - processPackages [lino-react]: New version: [23.7.2] Old Version: [23.7.1]
+[2023-07-18 11:56:50] INFO root fetch - processPackages [daktari]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-18 11:56:50] INFO root fetch - processPackages [dataflows]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-07-18 11:56:50] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/53/c1/66056490e3671467a6caf23c5cc0e23f80031845ec7429d6271897bb3757/kodexa_cli-6.3.35585704685.tar.gz
+[2023-07-18 11:56:50] INFO root fetch - processPackages [ckanext-statistics]: New version: [3.1.8] Old Version: [3.1.7]
+[2023-07-18 11:56:50] INFO root fetch - processPackages [dartrig]: Downloading https://files.pythonhosted.org/packages/c3/a1/ecb0fc49702e70d469ceb63bbffe292a25022b72614b9921fb303fad5986/dartrig-0.1.8.tar.gz
+[2023-07-18 11:56:50] INFO root fetch - processPackages [dopplrSDK]: New version: [3.3.0] Old Version: [3.2.0]
+[2023-07-18 11:56:50] INFO root fetch - processPackages [apteco]: Downloading https://files.pythonhosted.org/packages/fe/f1/9f9f33c3785d4314c08845aabf9af404aac9044b9813ddd829af0e1f1825/apteco-0.8.0.tar.gz
+[2023-07-18 11:56:50] INFO root fetch - processPackages [pydantic-db-backend]: Downloading https://files.pythonhosted.org/packages/47/06/ebcdc1d5124d80fb559fb8e4f69b076c6963b1edfe97fd92d88e7a307c45/pydantic_db_backend-0.6.0.tar.gz
+[2023-07-18 11:56:50] INFO root fetch - processPackages [ckanext-statistics]: Downloading https://files.pythonhosted.org/packages/ee/ff/ca0c2f12a6125aa0f8932a1f43767c38c09374d1a110475add1dd7e6c816/ckanext-statistics-3.1.7.tar.gz
+[2023-07-18 11:56:50] INFO root fetch - processPackages [lino-react]: Downloading https://files.pythonhosted.org/packages/97/3b/9227e095d80416a67983cca93bc333df25ebbe51dc509ff990aa07d0d713/lino_react-23.7.1.tar.gz
+[2023-07-18 11:56:50] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/80/e2/e763e02669b3c5003eab9a1d3f23a8c11ddea7b9843baca75d4a3f67dfd1/daktari-0.0.98.tar.gz
+[2023-07-18 11:56:50] INFO root fetch - processPackages [LatticeGeometryLib]: Downloading https://files.pythonhosted.org/packages/c8/ce/666cc7b6b521cdedd423f9cf46db42946b8a07ec00feb043f5ae6ed31d15/LatticeGeometryLib-0.0.1.tar.gz
+[2023-07-18 11:56:50] INFO root fetch - processPackages [dataflows]: Downloading https://files.pythonhosted.org/packages/56/7f/e110c34a0c8a98b881e03a614291eb2494e7bf34d19117d5eb2571bd72e8/dataflows-0.3.7.tar.gz
+[2023-07-18 11:56:50] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/f9/f5/72823149757b33b2114163f2025f4d2a80221da7a9aa33d227a964dc8003/kodexa_cli-6.3.35585881742.tar.gz
+[2023-07-18 11:56:50] INFO root fetch - processPackages [dopplrSDK]: Downloading https://files.pythonhosted.org/packages/16/da/10bee4c748965a847da4afea8acd135ccfe3494d5cfa1bca9be27dff0fb7/dopplrSDK-3.2.0-py3-none-any.whl
+[2023-07-18 11:56:50] INFO root fetch - processPackages [LatticeGeometryLib]: executing diffoscope
+[2023-07-18 11:56:50] INFO root fetch - processPackages [LatticeGeometryLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LatticeGeometryLib-0.0.0.tar.gz tmp/LatticeGeometryLib-0.0.1.tar.gz --markdown 20230718/L/LatticeGeometryLib/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-18 11:56:50] INFO root fetch - processPackages [apteco]: Downloading https://files.pythonhosted.org/packages/da/60/423ce4c773460f9fcd48b3e4a72fd5d9930a3f29efcadf6b7a97b554154b/apteco-0.8.1.tar.gz
+[2023-07-18 11:56:50] INFO root fetch - processPackages [kodexa-cli]: executing diffoscope
+[2023-07-18 11:56:50] INFO root fetch - processPackages [kodexa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa_cli-6.3.35585704685.tar.gz tmp/kodexa_cli-6.3.35585881742.tar.gz --markdown 20230718/k/kodexa-cli/6.3.35585704685-6.3.35585881742/diff.md --exclude *.pyd
+[2023-07-18 11:56:51] INFO root fetch - processPackages [dartrig]: Downloading https://files.pythonhosted.org/packages/95/93/0003c3e63e809e98d18242999380721f577baec8ccf697071faca8e8b6ec/dartrig-0.1.9.tar.gz
+[2023-07-18 11:56:51] INFO root fetch - processPackages [ckanext-statistics]: Downloading https://files.pythonhosted.org/packages/fe/4d/73841cfd0a4eb1315fa4a28c16a434369f10e59a4a0e5b285b7adc71bbfa/ckanext-statistics-3.1.8.tar.gz
+[2023-07-18 11:56:51] INFO root fetch - processPackages [pydantic-db-backend]: Downloading https://files.pythonhosted.org/packages/d9/70/6b99be3d4dff727298c0e6bb32a8c770b6edbe37a204722691a27c896df1/pydantic_db_backend-0.6.1.tar.gz
+[2023-07-18 11:56:51] INFO root fetch - processPackages [apteco]: executing diffoscope
+[2023-07-18 11:56:51] INFO root fetch - processPackages [apteco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apteco-0.8.0.tar.gz tmp/apteco-0.8.1.tar.gz --markdown 20230718/a/apteco/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-18 11:56:51] INFO root fetch - processPackages [ckanext-statistics]: executing diffoscope
+[2023-07-18 11:56:51] INFO root fetch - processPackages [ckanext-statistics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-statistics-3.1.7.tar.gz tmp/ckanext-statistics-3.1.8.tar.gz --markdown 20230718/c/ckanext-statistics/3.1.7-3.1.8/diff.md --exclude *.pyd
+[2023-07-18 11:56:51] INFO root fetch - processPackages [dopplrSDK]: Downloading https://files.pythonhosted.org/packages/b2/d3/c7d0bf44f8d9ec24e81acbf535a25c698b37ce4a288f11c5138048db71b5/dopplrSDK-3.3.0-py3-none-any.whl
+[2023-07-18 11:56:51] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/35/1f/9e7becfab4e84e6879ca6968ba9f3963734de77bebf086053003ea27839c/daktari-0.0.99.tar.gz
+[2023-07-18 11:56:51] INFO root fetch - processPackages [pydantic-db-backend]: executing diffoscope
+[2023-07-18 11:56:51] INFO root fetch - processPackages [pydantic-db-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_db_backend-0.6.0.tar.gz tmp/pydantic_db_backend-0.6.1.tar.gz --markdown 20230718/p/pydantic-db-backend/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-18 11:56:51] INFO root fetch - processPackages [dataflows]: Downloading https://files.pythonhosted.org/packages/ad/a4/2832e40a1817581784cde0109600276ff868042e194e13a0c124b1e4ca4d/dataflows-0.3.8.tar.gz
+[2023-07-18 11:56:51] INFO root fetch - processPackages [lino-react]: Downloading https://files.pythonhosted.org/packages/54/1f/d734d8434785318f2ccef85e7fe34ddbc4450cbbf73893a1794ece16cdef/lino_react-23.7.2.tar.gz
+[2023-07-18 11:56:51] INFO root fetch - processPackages [dartrig]: executing diffoscope
+[2023-07-18 11:56:51] INFO root fetch - processPackages [dartrig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dartrig-0.1.8.tar.gz tmp/dartrig-0.1.9.tar.gz --markdown 20230718/d/dartrig/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-18 11:56:51] INFO root fetch - processPackages [lino-react]: executing diffoscope
+[2023-07-18 11:56:51] INFO root fetch - processPackages [dopplrSDK]: executing diffoscope
+[2023-07-18 11:56:51] INFO root fetch - processPackages [lino-react]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lino_react-23.7.1.tar.gz tmp/lino_react-23.7.2.tar.gz --markdown 20230718/l/lino-react/23.7.1-23.7.2/diff.md --exclude *.pyd
+[2023-07-18 11:56:51] INFO root fetch - processPackages [dopplrSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dopplrSDK-3.2.0-py3-none-any.whl.zip tmp/dopplrSDK-3.3.0-py3-none-any.whl.zip --markdown 20230718/d/dopplrSDK/3.2.0-3.3.0/diff.md --exclude *.pyd
+[2023-07-18 11:56:51] INFO root fetch - processPackages [daktari]: executing diffoscope
+[2023-07-18 11:56:51] INFO root fetch - processPackages [daktari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daktari-0.0.98.tar.gz tmp/daktari-0.0.99.tar.gz --markdown 20230718/d/daktari/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-18 11:56:51] INFO root fetch - processPackages [dataflows]: executing diffoscope
+[2023-07-18 11:56:51] INFO root fetch - processPackages [dataflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataflows-0.3.7.tar.gz tmp/dataflows-0.3.8.tar.gz --markdown 20230718/d/dataflows/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-07-18 11:56:52] INFO root fetch - processPackages [LatticeGeometryLib]: Remove: archive file [/home/abi/fetcher/tmp/LatticeGeometryLib-0.0.0.tar.gz]
+[2023-07-18 11:56:52] INFO root fetch - processPackages [LatticeGeometryLib]: Remove: archive file [/home/abi/fetcher/tmp/LatticeGeometryLib-0.0.1.tar.gz]
+[2023-07-18 11:56:52] INFO root fetch - processPackages [LatticeGeometryLib]: Start processing: eventix
+[2023-07-18 11:56:52] INFO root fetch - main [MainThread]: End processing [LatticeGeometryLib]: success
+[2023-07-18 11:56:52] INFO root fetch - processPackages [eventix]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-18 11:56:52] INFO root fetch - processPackages [eventix]: Downloading https://files.pythonhosted.org/packages/a5/9d/599088ab74046a024773754b6f76c69373b56a26404a7cec27eed6c51eb8/eventix-0.8.1.tar.gz
+[2023-07-18 11:56:52] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-6.3.35585704685.tar.gz]
+[2023-07-18 11:56:52] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-6.3.35585881742.tar.gz]
+[2023-07-18 11:56:52] INFO root fetch - processPackages [kodexa-cli]: Start processing: formio-data
+[2023-07-18 11:56:52] INFO root fetch - main [MainThread]: End processing [kodexa-cli]: success
+[2023-07-18 11:56:52] INFO root fetch - processPackages [eventix]: Downloading https://files.pythonhosted.org/packages/60/e3/dfbc45d79cf31c56a7ea080e03997833ef4156e2e9c6468fccc7dd9c6825/eventix-0.9.0.tar.gz
+[2023-07-18 11:56:52] INFO root fetch - processPackages [formio-data]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-18 11:56:52] INFO root fetch - processPackages [pydantic-db-backend]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_db_backend-0.6.0.tar.gz]
+[2023-07-18 11:56:52] INFO root fetch - processPackages [pydantic-db-backend]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_db_backend-0.6.1.tar.gz]
+[2023-07-18 11:56:52] INFO root fetch - processPackages [pydantic-db-backend]: Start processing: langtest
+[2023-07-18 11:56:52] INFO root fetch - main [MainThread]: End processing [pydantic-db-backend]: success
+[2023-07-18 11:56:52] INFO root fetch - processPackages [apteco]: Remove: archive file [/home/abi/fetcher/tmp/apteco-0.8.0.tar.gz]
+[2023-07-18 11:56:52] INFO root fetch - processPackages [apteco]: Remove: archive file [/home/abi/fetcher/tmp/apteco-0.8.1.tar.gz]
+[2023-07-18 11:56:52] INFO root fetch - processPackages [apteco]: Start processing: shapelets-platform
+[2023-07-18 11:56:52] INFO root fetch - main [MainThread]: End processing [apteco]: success
+[2023-07-18 11:56:52] INFO root fetch - processPackages [eventix]: executing diffoscope
+[2023-07-18 11:56:52] INFO root fetch - processPackages [eventix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventix-0.8.1.tar.gz tmp/eventix-0.9.0.tar.gz --markdown 20230718/e/eventix/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-18 11:56:52] INFO root fetch - processPackages [langtest]: New version: [1.1.0rc3] Old Version: [1.1.0rc2]
+[2023-07-18 11:56:53] INFO root fetch - processPackages [formio-data]: Downloading https://files.pythonhosted.org/packages/9e/e8/6d650d27f637f289ce4a6538680990aadbb738b83a54be90eef17f064c64/formio-data-1.0.0.tar.gz
+[2023-07-18 11:56:53] INFO root fetch - processPackages [shapelets-platform]: New version: [2.0.93] Old Version: [2.0.88]
+[2023-07-18 11:56:53] INFO root fetch - processPackages [dartrig]: Remove: archive file [/home/abi/fetcher/tmp/dartrig-0.1.8.tar.gz]
+[2023-07-18 11:56:53] INFO root fetch - processPackages [dartrig]: Remove: archive file [/home/abi/fetcher/tmp/dartrig-0.1.9.tar.gz]
+[2023-07-18 11:56:53] INFO root fetch - main [MainThread]: End processing [dartrig]: success
+[2023-07-18 11:56:53] INFO root fetch - processPackages [ckanext-statistics]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-statistics-3.1.7.tar.gz]
+[2023-07-18 11:56:53] INFO root fetch - processPackages [ckanext-statistics]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-statistics-3.1.8.tar.gz]
+[2023-07-18 11:56:53] INFO root fetch - main [MainThread]: End processing [ckanext-statistics]: success
+[2023-07-18 11:56:53] INFO root fetch - processPackages [dopplrSDK]: Remove: archive file [/home/abi/fetcher/tmp/dopplrSDK-3.2.0-py3-none-any.whl.zip]
+[2023-07-18 11:56:53] INFO root fetch - processPackages [dopplrSDK]: Remove: archive file [/home/abi/fetcher/tmp/dopplrSDK-3.3.0-py3-none-any.whl.zip]
+[2023-07-18 11:56:53] INFO root fetch - main [MainThread]: End processing [dopplrSDK]: success
+[2023-07-18 11:56:53] INFO root fetch - processPackages [langtest]: Downloading https://files.pythonhosted.org/packages/c8/09/b925c955168ad10fe58a60e444955823601f351312f7178d9aa7888ed86b/langtest-1.1.0rc2.tar.gz
+[2023-07-18 11:56:53] INFO root fetch - processPackages [shapelets-platform]: Downloading https://files.pythonhosted.org/packages/56/d7/2e4a63714c50cc43bb6f3d82d74e7908e63a1b7ee348ab87baa636e1e10b/shapelets-platform-2.0.88.tar.gz
+[2023-07-18 11:56:53] INFO root fetch - processPackages [formio-data]: Downloading https://files.pythonhosted.org/packages/60/06/e6f7f6726ae8a9a09602d6148e69d8c134f199b9a414f7a92ed8ba54228f/formio-data-1.0.1.tar.gz
+[2023-07-18 11:56:53] WARNING root fetch - processPackages [langtest]: Skipping package: exceeds size limit 59694193>=10485760
+[2023-07-18 11:56:53] INFO root fetch - main [MainThread]: End processing [langtest] error
+[2023-07-18 11:56:53] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.98.tar.gz]
+[2023-07-18 11:56:53] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.99.tar.gz]
+[2023-07-18 11:56:53] INFO root fetch - main [MainThread]: End processing [daktari]: success
+[2023-07-18 11:56:53] INFO root fetch - processPackages [dataflows]: Remove: archive file [/home/abi/fetcher/tmp/dataflows-0.3.7.tar.gz]
+[2023-07-18 11:56:53] INFO root fetch - processPackages [dataflows]: Remove: archive file [/home/abi/fetcher/tmp/dataflows-0.3.8.tar.gz]
+[2023-07-18 11:56:53] INFO root fetch - main [MainThread]: End processing [dataflows]: success
+[2023-07-18 11:56:53] INFO root fetch - processPackages [formio-data]: executing diffoscope
+[2023-07-18 11:56:53] INFO root fetch - processPackages [formio-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formio-data-1.0.0.tar.gz tmp/formio-data-1.0.1.tar.gz --markdown 20230718/f/formio-data/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-18 11:56:53] INFO root fetch - processPackages [eventix]: Remove: archive file [/home/abi/fetcher/tmp/eventix-0.8.1.tar.gz]
+[2023-07-18 11:56:53] INFO root fetch - processPackages [eventix]: Remove: archive file [/home/abi/fetcher/tmp/eventix-0.9.0.tar.gz]
+[2023-07-18 11:56:53] INFO root fetch - main [MainThread]: End processing [eventix]: success
+[2023-07-18 11:56:54] INFO root fetch - processPackages [shapelets-platform]: Downloading https://files.pythonhosted.org/packages/d2/fd/823d034d967da2b8ddf3aa4029556270ace83778e5126210efa5ede53aa2/shapelets-platform-2.0.93.tar.gz
+[2023-07-18 11:56:54] INFO root fetch - processPackages [formio-data]: Remove: archive file [/home/abi/fetcher/tmp/formio-data-1.0.0.tar.gz]
+[2023-07-18 11:56:54] INFO root fetch - processPackages [formio-data]: Remove: archive file [/home/abi/fetcher/tmp/formio-data-1.0.1.tar.gz]
+[2023-07-18 11:56:54] INFO root fetch - main [MainThread]: End processing [formio-data]: success
+[2023-07-18 11:56:54] INFO root fetch - processPackages [shapelets-platform]: executing diffoscope
+[2023-07-18 11:56:54] INFO root fetch - processPackages [shapelets-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapelets-platform-2.0.88.tar.gz tmp/shapelets-platform-2.0.93.tar.gz --markdown 20230718/s/shapelets-platform/2.0.88-2.0.93/diff.md --exclude *.pyd
+[2023-07-18 11:56:56] INFO root fetch - processPackages [shapelets-platform]: Remove: archive file [/home/abi/fetcher/tmp/shapelets-platform-2.0.88.tar.gz]
+[2023-07-18 11:56:56] INFO root fetch - processPackages [shapelets-platform]: Remove: archive file [/home/abi/fetcher/tmp/shapelets-platform-2.0.93.tar.gz]
+[2023-07-18 11:56:56] INFO root fetch - main [MainThread]: End processing [shapelets-platform]: success
+[2023-07-18 11:57:03] INFO root fetch - processPackages [lino-react]: Remove: archive file [/home/abi/fetcher/tmp/lino_react-23.7.1.tar.gz]
+[2023-07-18 11:57:03] INFO root fetch - processPackages [lino-react]: Remove: archive file [/home/abi/fetcher/tmp/lino_react-23.7.2.tar.gz]
+[2023-07-18 11:57:03] INFO root fetch - main [MainThread]: End processing [lino-react]: success
+[2023-07-18 11:57:03] INFO root fetch - main [MainThread]: Store serial: [18931311]
