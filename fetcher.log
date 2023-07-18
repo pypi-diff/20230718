@@ -6094,3 +6094,72 @@
 [2023-07-18 03:22:52] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2023-07-18 03:22:52] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-07-18 03:22:52] INFO root fetch - main [MainThread]: Store serial: [18925427]
+[2023-07-18 03:27:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18925427]
+[2023-07-18 03:28:01] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-18 03:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: guardshield
+[2023-07-18 03:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omni-pro
+[2023-07-18 03:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-sns-notify
+[2023-07-18 03:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bstk-datatables
+[2023-07-18 03:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-07-18 03:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lesscode-py
+[2023-07-18 03:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sentinel-protobuf
+[2023-07-18 03:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-rauthman
+[2023-07-18 03:28:01] WARNING root fetch - processPackages [omni-pro]: Skipping, unable to determine old version
+[2023-07-18 03:28:01] INFO root fetch - main [MainThread]: End processing [omni-pro] error
+[2023-07-18 03:28:01] INFO root fetch - processPackages [bstk-datatables]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-18 03:28:01] INFO root fetch - processPackages [nonebot-plugin-rauthman]: New version: [2.0.0rc1.post3] Old Version: [2.0.0rc1.post2]
+[2023-07-18 03:28:01] INFO root fetch - processPackages [guardshield]: New version: [1.0.8] Old Version: [1.0.6]
+[2023-07-18 03:28:01] INFO root fetch - processPackages [sentinel-protobuf]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-07-18 03:28:01] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-18 03:28:01] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-18 03:28:01] INFO root fetch - processPackages [lesscode-py]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-18 03:28:01] INFO root fetch - processPackages [nonebot-plugin-rauthman]: Downloading https://files.pythonhosted.org/packages/1b/7b/3cab09d9c57d5567d32476017ea37a066efb2063a625ec02f258b3020e1f/nonebot_plugin_rauthman-2.0.0rc1.post2.tar.gz
+[2023-07-18 03:28:01] INFO root fetch - processPackages [bstk-datatables]: Downloading https://files.pythonhosted.org/packages/c3/63/b904184568b53d71e96a3d64597ecf70e008218d82a1f1f950c6bb13b704/bstk_datatables-0.1.6.tar.gz
+[2023-07-18 03:28:01] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/93/59/9c87e90597a4fc3c2567abe4a0ff19fd2b89df126eacc6b3d22b92ec47b4/lesscode-py-0.3.8.tar.gz
+[2023-07-18 03:28:01] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-07-18 03:28:02] INFO root fetch - processPackages [sentinel-protobuf]: Downloading https://files.pythonhosted.org/packages/fd/0a/473519c1c2e5f0cccb1960f51a9bf9f659c145ba0b5e71d87d3502c7df0b/sentinel_protobuf-0.2.3.tar.gz
+[2023-07-18 03:28:02] INFO root fetch - processPackages [guardshield]: Downloading https://files.pythonhosted.org/packages/a2/6f/5e5e728cef92fd48738889883e34dbceb3ab0baaba40a93f19d8bdf56220/guardshield-1.0.6.tar.gz
+[2023-07-18 03:28:02] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2023-07-18 03:28:02] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/64/97/cec698b665aba9a27d2cddb9f7528a8982bbaa3379372774ff671e45fb3e/lesscode-py-0.3.9.tar.gz
+[2023-07-18 03:28:02] INFO root fetch - processPackages [nonebot-plugin-rauthman]: Downloading https://files.pythonhosted.org/packages/c7/3d/fc1fb546f0877653dff8d8f3118ef32f45a06c015dca7bfa0872c0e3f029/nonebot_plugin_rauthman-2.0.0rc1.post3.tar.gz
+[2023-07-18 03:28:02] INFO root fetch - processPackages [lesscode-py]: executing diffoscope
+[2023-07-18 03:28:02] INFO root fetch - processPackages [lesscode-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode-py-0.3.8.tar.gz tmp/lesscode-py-0.3.9.tar.gz --markdown 20230718/l/lesscode-py/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-18 03:28:02] INFO root fetch - processPackages [bstk-datatables]: Downloading https://files.pythonhosted.org/packages/5d/0e/787235705ac88f952418ccc6dff13430e7b9225b7480d675f3caf1d903bc/bstk_datatables-0.1.7.tar.gz
+[2023-07-18 03:28:02] INFO root fetch - processPackages [guardshield]: Downloading https://files.pythonhosted.org/packages/f0/36/47937a176c28d9c4a4985a4381217a6485ffab7a0761e3b03301ffb212ed/guardshield-1.0.8.tar.gz
+[2023-07-18 03:28:02] INFO root fetch - processPackages [sentinel-protobuf]: Downloading https://files.pythonhosted.org/packages/83/b0/a83f7a4809b09757f8ecbf6e6391da233c287386288d5253ecb72a21a97d/sentinel_protobuf-0.3.0.tar.gz
+[2023-07-18 03:28:02] INFO root fetch - processPackages [nonebot-plugin-rauthman]: executing diffoscope
+[2023-07-18 03:28:02] INFO root fetch - processPackages [nonebot-plugin-rauthman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_rauthman-2.0.0rc1.post2.tar.gz tmp/nonebot_plugin_rauthman-2.0.0rc1.post3.tar.gz --markdown 20230718/n/nonebot-plugin-rauthman/2.0.0rc1.post2-2.0.0rc1.post3/diff.md --exclude *.pyd
+[2023-07-18 03:28:02] INFO root fetch - processPackages [bstk-datatables]: executing diffoscope
+[2023-07-18 03:28:02] INFO root fetch - processPackages [bstk-datatables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bstk_datatables-0.1.6.tar.gz tmp/bstk_datatables-0.1.7.tar.gz --markdown 20230718/b/bstk-datatables/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-18 03:28:02] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2023-07-18 03:28:02] INFO root fetch - processPackages [guardshield]: executing diffoscope
+[2023-07-18 03:28:02] INFO root fetch - processPackages [guardshield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guardshield-1.0.6.tar.gz tmp/guardshield-1.0.8.tar.gz --markdown 20230718/g/guardshield/1.0.6-1.0.8/diff.md --exclude *.pyd
+[2023-07-18 03:28:02] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-07-18 03:28:02] INFO root fetch - processPackages [sentinel-protobuf]: executing diffoscope
+[2023-07-18 03:28:02] INFO root fetch - processPackages [sentinel-protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentinel_protobuf-0.2.3.tar.gz tmp/sentinel_protobuf-0.3.0.tar.gz --markdown 20230718/s/sentinel-protobuf/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-07-18 03:28:02] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2023-07-18 03:28:02] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20230718/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-18 03:28:03] INFO root fetch - processPackages [bstk-datatables]: Remove: archive file [/home/abi/fetcher/tmp/bstk_datatables-0.1.6.tar.gz]
+[2023-07-18 03:28:03] INFO root fetch - processPackages [bstk-datatables]: Remove: archive file [/home/abi/fetcher/tmp/bstk_datatables-0.1.7.tar.gz]
+[2023-07-18 03:28:03] INFO root fetch - main [MainThread]: End processing [bstk-datatables]: success
+[2023-07-18 03:28:03] INFO root fetch - processPackages [nonebot-plugin-rauthman]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_rauthman-2.0.0rc1.post2.tar.gz]
+[2023-07-18 03:28:03] INFO root fetch - processPackages [nonebot-plugin-rauthman]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_rauthman-2.0.0rc1.post3.tar.gz]
+[2023-07-18 03:28:03] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-rauthman]: success
+[2023-07-18 03:28:03] INFO root fetch - processPackages [lesscode-py]: Remove: archive file [/home/abi/fetcher/tmp/lesscode-py-0.3.8.tar.gz]
+[2023-07-18 03:28:03] INFO root fetch - processPackages [lesscode-py]: Remove: archive file [/home/abi/fetcher/tmp/lesscode-py-0.3.9.tar.gz]
+[2023-07-18 03:28:03] INFO root fetch - main [MainThread]: End processing [lesscode-py]: success
+[2023-07-18 03:28:03] INFO root fetch - processPackages [guardshield]: Remove: archive file [/home/abi/fetcher/tmp/guardshield-1.0.6.tar.gz]
+[2023-07-18 03:28:03] INFO root fetch - processPackages [guardshield]: Remove: archive file [/home/abi/fetcher/tmp/guardshield-1.0.8.tar.gz]
+[2023-07-18 03:28:03] INFO root fetch - main [MainThread]: End processing [guardshield]: success
+[2023-07-18 03:28:03] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2023-07-18 03:28:03] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2023-07-18 03:28:03] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2023-07-18 03:28:04] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-07-18 03:28:04] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230718/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-18 03:28:05] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2023-07-18 03:28:05] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2023-07-18 03:28:05] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-07-18 03:28:07] INFO root fetch - processPackages [sentinel-protobuf]: Remove: archive file [/home/abi/fetcher/tmp/sentinel_protobuf-0.2.3.tar.gz]
+[2023-07-18 03:28:07] INFO root fetch - processPackages [sentinel-protobuf]: Remove: archive file [/home/abi/fetcher/tmp/sentinel_protobuf-0.3.0.tar.gz]
+[2023-07-18 03:28:07] INFO root fetch - main [MainThread]: End processing [sentinel-protobuf]: success
+[2023-07-18 03:28:07] INFO root fetch - main [MainThread]: Store serial: [18925465]
