@@ -12374,3 +12374,107 @@
 [2023-07-18 05:50:55] INFO root fetch - processPackages [quickfix-ch]: Remove: archive file [/home/abi/fetcher/tmp/quickfix-ch-0.0.9.tar.gz]
 [2023-07-18 05:50:55] INFO root fetch - main [MainThread]: End processing [quickfix-ch]: success
 [2023-07-18 05:50:55] INFO root fetch - main [MainThread]: Store serial: [18927645]
+[2023-07-18 05:55:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18927645]
+[2023-07-18 05:56:04] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-18 05:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lm-datahandler
+[2023-07-18 05:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dartpy
+[2023-07-18 05:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo8-addon-l10n-it-withholding-tax
+[2023-07-18 05:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shopee-aip-dpl
+[2023-07-18 05:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: readyocr
+[2023-07-18 05:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-l10n-it-pos-fatturapa
+[2023-07-18 05:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jetson-adapter-pkg
+[2023-07-18 05:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: work-helper
+[2023-07-18 05:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dolma
+[2023-07-18 05:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: evo-prot-grad
+[2023-07-18 05:56:05] INFO root fetch - processPackages [lm-datahandler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-18 05:56:05] INFO root fetch - processPackages [odoo8-addon-l10n-it-withholding-tax]: New version: [8.0.4.0.1.99.dev9] Old Version: [8.0.4.0.1.99.dev8]
+[2023-07-18 05:56:05] INFO root fetch - processPackages [jetson-adapter-pkg]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-18 05:56:05] INFO root fetch - processPackages [dartpy]: New version: [0.1.0.post99] Old Version: [0.1.0.post98]
+[2023-07-18 05:56:05] INFO root fetch - processPackages [work-helper]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-18 05:56:05] INFO root fetch - processPackages [readyocr]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-18 05:56:05] WARNING root fetch - processPackages [evo-prot-grad]: Skipping, unable to determine old version
+[2023-07-18 05:56:05] INFO root fetch - processPackages [evo-prot-grad]: Start processing: odoo14-addon-l10n-it-delivery-note
+[2023-07-18 05:56:05] INFO root fetch - main [MainThread]: End processing [evo-prot-grad] error
+[2023-07-18 05:56:05] WARNING root fetch - processPackages [shopee-aip-dpl]: Skipping, unable to determine old version
+[2023-07-18 05:56:05] INFO root fetch - processPackages [shopee-aip-dpl]: Start processing: odoo12-addon-l10n-it-delivery-note
+[2023-07-18 05:56:05] INFO root fetch - main [MainThread]: End processing [shopee-aip-dpl] error
+[2023-07-18 05:56:05] INFO root fetch - processPackages [odoo14-addon-l10n-it-pos-fatturapa]: New version: [14.0.1.0.1.dev4] Old Version: [14.0.1.0.1.dev3]
+[2023-07-18 05:56:05] INFO root fetch - processPackages [dolma]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-07-18 05:56:05] INFO root fetch - processPackages [lm-datahandler]: Downloading https://files.pythonhosted.org/packages/d9/98/95c6dbde862088dda438ca6adc5a4960239cca0a315229c70d3bad832211/lm_datahandler-0.1.8.tar.gz
+[2023-07-18 05:56:05] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: New version: [14.0.2.1.1.dev3] Old Version: [14.0.2.1.1.dev2]
+[2023-07-18 05:56:05] INFO root fetch - processPackages [odoo8-addon-l10n-it-withholding-tax]: Downloading https://files.pythonhosted.org/packages/c6/b6/60a9691950f78ea2d3ce443cdd426bf978807e7b50402edbf575bc2c6bf7/odoo8_addon_l10n_it_withholding_tax-8.0.4.0.1.99.dev8-py2-none-any.whl
+[2023-07-18 05:56:05] INFO root fetch - processPackages [dartpy]: Downloading https://files.pythonhosted.org/packages/c4/e2/e012a94f3e718a1fdf451f95db91ede9137f23c98201defefbeb39d4bd80/dartpy-0.1.0.post98-cp39-cp39-win_amd64.whl
+[2023-07-18 05:56:05] INFO root fetch - processPackages [odoo12-addon-l10n-it-delivery-note]: New version: [12.0.1.2.1.99.dev9] Old Version: [12.0.1.2.1.99.dev8]
+[2023-07-18 05:56:05] INFO root fetch - processPackages [jetson-adapter-pkg]: Downloading https://files.pythonhosted.org/packages/f2/9b/d806dec5845da08db4eb40f4c415a99029448d932ac57dbf9e4f44df6991/jetson-adapter-pkg-0.9.4.tar.gz
+[2023-07-18 05:56:05] INFO root fetch - processPackages [work-helper]: Downloading https://files.pythonhosted.org/packages/f9/b2/9e627431ee0f7b04fe1d6f82a4002fc2be6244a2c3c8fc031450caca853e/work_helper-0.1.2.tar.gz
+[2023-07-18 05:56:05] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/c1/18/94c9465ca32057fe84e4b45aa48180ec2997ab40266f1cdafdb5e2dac998/readyocr-0.0.7.tar.gz
+[2023-07-18 05:56:05] INFO root fetch - processPackages [odoo14-addon-l10n-it-pos-fatturapa]: Downloading https://files.pythonhosted.org/packages/57/d8/9fe40c4217c74dd19de6c4cd14691fa897c7f2ab19bec76fa92c9766cd8d/odoo14_addon_l10n_it_pos_fatturapa-14.0.1.0.1.dev3-py3-none-any.whl
+[2023-07-18 05:56:05] INFO root fetch - processPackages [dolma]: Downloading https://files.pythonhosted.org/packages/30/c2/bc3c5b8fd72eb89cf93f9f9ffd2a0a3b9bfcc6623d259cf75772930867be/dolma-0.6.4.tar.gz
+[2023-07-18 05:56:05] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: Downloading https://files.pythonhosted.org/packages/04/e4/7b5d7878cd68012d40d31f90b8e5f0d270a655f809dc5e9962fd93fd6d0e/odoo14_addon_l10n_it_delivery_note-14.0.2.1.1.dev2-py3-none-any.whl
+[2023-07-18 05:56:05] INFO root fetch - processPackages [odoo12-addon-l10n-it-delivery-note]: Downloading https://files.pythonhosted.org/packages/23/b4/dcd9da9038a3067a7e221b728921a183c0283167ca61af22261ec96e17bf/odoo12_addon_l10n_it_delivery_note-12.0.1.2.1.99.dev8-py3-none-any.whl
+[2023-07-18 05:56:06] INFO root fetch - processPackages [jetson-adapter-pkg]: Downloading https://files.pythonhosted.org/packages/72/00/a891658f9a46b96ef65fd6ff67fcff3ef56950599664ca5d47df029b4f81/jetson_adapter_pkg-0.9.5-py3-none-any.whl
+[2023-07-18 05:56:06] INFO root fetch - processPackages [odoo14-addon-l10n-it-pos-fatturapa]: Downloading https://files.pythonhosted.org/packages/d6/52/e8dcf5018fe69d82277695b23ce9c921a14d4d2fac95cfc11a42bc6c0587/odoo14_addon_l10n_it_pos_fatturapa-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-07-18 05:56:06] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/c0/29/14e71ef7cbc2bb63eb3a7dde19b1d0261a548da80fc6f233f4cdf0b5ee8c/readyocr-0.0.8.tar.gz
+[2023-07-18 05:56:06] INFO root fetch - processPackages [odoo8-addon-l10n-it-withholding-tax]: Downloading https://files.pythonhosted.org/packages/1a/75/49dd64ab6570c9e54bbcd3131baa67c518be46c21a901e9fe42f36fb39b1/odoo8_addon_l10n_it_withholding_tax-8.0.4.0.1.99.dev9-py2-none-any.whl
+[2023-07-18 05:56:06] INFO root fetch - processPackages [work-helper]: Downloading https://files.pythonhosted.org/packages/55/39/72db00c6e3ebcaf0b69e7834cc3c965270b44a8ce61dc53936a7a69042b4/work_helper-0.1.3.tar.gz
+[2023-07-18 05:56:06] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: Downloading https://files.pythonhosted.org/packages/26/af/e616a558c3a3bdc91ac4850d5c4a16f5a55989bacbdd2e6973080299d373/odoo14_addon_l10n_it_delivery_note-14.0.2.1.1.dev3-py3-none-any.whl
+[2023-07-18 05:56:06] WARNING root fetch - processPackages [dartpy]: Skipping package: exceeds size limit 20036126>=10485760
+[2023-07-18 05:56:06] INFO root fetch - processPackages [dartpy]: Start processing: odoo12-addons-oca-l10n-italy
+[2023-07-18 05:56:06] INFO root fetch - main [MainThread]: End processing [dartpy] error
+[2023-07-18 05:56:06] INFO root fetch - processPackages [jetson-adapter-pkg]: executing diffoscope
+[2023-07-18 05:56:06] INFO root fetch - processPackages [jetson-adapter-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jetson-adapter-pkg-0.9.4.tar.gz tmp/jetson_adapter_pkg-0.9.5-py3-none-any.whl.zip --markdown 20230718/j/jetson-adapter-pkg/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-18 05:56:06] INFO root fetch - processPackages [odoo14-addon-l10n-it-pos-fatturapa]: executing diffoscope
+[2023-07-18 05:56:06] INFO root fetch - processPackages [odoo14-addon-l10n-it-pos-fatturapa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_pos_fatturapa-14.0.1.0.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_pos_fatturapa-14.0.1.0.1.dev4-py3-none-any.whl.zip --markdown 20230718/o/odoo14-addon-l10n-it-pos-fatturapa/14.0.1.0.1.dev3-14.0.1.0.1.dev4/diff.md --exclude *.pyd
+[2023-07-18 05:56:06] INFO root fetch - processPackages [readyocr]: executing diffoscope
+[2023-07-18 05:56:06] INFO root fetch - processPackages [readyocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readyocr-0.0.7.tar.gz tmp/readyocr-0.0.8.tar.gz --markdown 20230718/r/readyocr/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-18 05:56:06] INFO root fetch - processPackages [dolma]: Downloading https://files.pythonhosted.org/packages/f0/cc/8a3b6d8e82b394f6d47fa56f05e24a3441feb0fbc30464fdd6447066d9c7/dolma-0.6.5-cp311-cp311-manylinux_2_28_x86_64.whl
+[2023-07-18 05:56:06] INFO root fetch - processPackages [work-helper]: executing diffoscope
+[2023-07-18 05:56:06] INFO root fetch - processPackages [work-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/work_helper-0.1.2.tar.gz tmp/work_helper-0.1.3.tar.gz --markdown 20230718/w/work-helper/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-18 05:56:06] INFO root fetch - processPackages [odoo8-addon-l10n-it-withholding-tax]: executing diffoscope
+[2023-07-18 05:56:06] INFO root fetch - processPackages [odoo8-addon-l10n-it-withholding-tax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_l10n_it_withholding_tax-8.0.4.0.1.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_l10n_it_withholding_tax-8.0.4.0.1.99.dev9-py2-none-any.whl.zip --markdown 20230718/o/odoo8-addon-l10n-it-withholding-tax/8.0.4.0.1.99.dev8-8.0.4.0.1.99.dev9/diff.md --exclude *.pyd
+[2023-07-18 05:56:06] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: executing diffoscope
+[2023-07-18 05:56:06] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_delivery_note-14.0.2.1.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_delivery_note-14.0.2.1.1.dev3-py3-none-any.whl.zip --markdown 20230718/o/odoo14-addon-l10n-it-delivery-note/14.0.2.1.1.dev2-14.0.2.1.1.dev3/diff.md --exclude *.pyd
+[2023-07-18 05:56:06] INFO root fetch - processPackages [odoo12-addons-oca-l10n-italy]: New version: [12.0.20230717.0] Old Version: [12.0.20230308.0]
+[2023-07-18 05:56:06] INFO root fetch - processPackages [odoo12-addon-l10n-it-delivery-note]: Downloading https://files.pythonhosted.org/packages/17/59/53cd0dd27295f34ac14b1d6d922487658963707fff94ceaaac38d83bf33a/odoo12_addon_l10n_it_delivery_note-12.0.1.2.1.99.dev9-py3-none-any.whl
+[2023-07-18 05:56:06] INFO root fetch - processPackages [lm-datahandler]: Downloading https://files.pythonhosted.org/packages/b6/7b/c27a06878e585d9037a60649c26f1e7818a9ddfdac4d817718ab2b5a2f7e/lm_datahandler-0.1.9.tar.gz
+[2023-07-18 05:56:06] INFO root fetch - processPackages [lm-datahandler]: executing diffoscope
+[2023-07-18 05:56:06] INFO root fetch - processPackages [lm-datahandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lm_datahandler-0.1.8.tar.gz tmp/lm_datahandler-0.1.9.tar.gz --markdown 20230718/l/lm-datahandler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-18 05:56:06] INFO root fetch - processPackages [odoo12-addons-oca-l10n-italy]: Downloading https://files.pythonhosted.org/packages/45/76/be6717a38d1514e42d0e5414636a223717de8ca60f5393f6959d9d80fdd0/odoo12_addons_oca_l10n_italy-12.0.20230308.0-py3-none-any.whl
+[2023-07-18 05:56:06] INFO root fetch - processPackages [odoo12-addon-l10n-it-delivery-note]: executing diffoscope
+[2023-07-18 05:56:06] INFO root fetch - processPackages [odoo12-addon-l10n-it-delivery-note]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_it_delivery_note-12.0.1.2.1.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_l10n_it_delivery_note-12.0.1.2.1.99.dev9-py3-none-any.whl.zip --markdown 20230718/o/odoo12-addon-l10n-it-delivery-note/12.0.1.2.1.99.dev8-12.0.1.2.1.99.dev9/diff.md --exclude *.pyd
+[2023-07-18 05:56:07] INFO root fetch - processPackages [odoo12-addons-oca-l10n-italy]: Downloading https://files.pythonhosted.org/packages/ac/b0/58431600fa5be29413d95d9dae6a5a3addf3ac68ed9d22df6cdf2cac57a0/odoo12_addons_oca_l10n_italy-12.0.20230717.0-py3-none-any.whl
+[2023-07-18 05:56:07] INFO root fetch - processPackages [odoo12-addons-oca-l10n-italy]: executing diffoscope
+[2023-07-18 05:56:07] INFO root fetch - processPackages [odoo12-addons-oca-l10n-italy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addons_oca_l10n_italy-12.0.20230308.0-py3-none-any.whl.zip tmp/odoo12_addons_oca_l10n_italy-12.0.20230717.0-py3-none-any.whl.zip --markdown 20230718/o/odoo12-addons-oca-l10n-italy/12.0.20230308.0-12.0.20230717.0/diff.md --exclude *.pyd
+[2023-07-18 05:56:07] INFO root fetch - processPackages [work-helper]: Remove: archive file [/home/abi/fetcher/tmp/work_helper-0.1.2.tar.gz]
+[2023-07-18 05:56:07] INFO root fetch - processPackages [work-helper]: Remove: archive file [/home/abi/fetcher/tmp/work_helper-0.1.3.tar.gz]
+[2023-07-18 05:56:07] INFO root fetch - main [MainThread]: End processing [work-helper]: success
+[2023-07-18 05:56:07] INFO root fetch - processPackages [odoo8-addon-l10n-it-withholding-tax]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_l10n_it_withholding_tax-8.0.4.0.1.99.dev8-py2-none-any.whl.zip]
+[2023-07-18 05:56:07] INFO root fetch - processPackages [odoo8-addon-l10n-it-withholding-tax]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_l10n_it_withholding_tax-8.0.4.0.1.99.dev9-py2-none-any.whl.zip]
+[2023-07-18 05:56:07] INFO root fetch - main [MainThread]: End processing [odoo8-addon-l10n-it-withholding-tax]: success
+[2023-07-18 05:56:07] INFO root fetch - processPackages [jetson-adapter-pkg]: Remove: archive file [/home/abi/fetcher/tmp/jetson-adapter-pkg-0.9.4.tar.gz]
+[2023-07-18 05:56:07] INFO root fetch - processPackages [jetson-adapter-pkg]: Remove: archive file [/home/abi/fetcher/tmp/jetson_adapter_pkg-0.9.5-py3-none-any.whl.zip]
+[2023-07-18 05:56:07] INFO root fetch - main [MainThread]: End processing [jetson-adapter-pkg]: success
+[2023-07-18 05:56:07] INFO root fetch - processPackages [odoo14-addon-l10n-it-pos-fatturapa]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_pos_fatturapa-14.0.1.0.1.dev3-py3-none-any.whl.zip]
+[2023-07-18 05:56:07] INFO root fetch - processPackages [odoo14-addon-l10n-it-pos-fatturapa]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_pos_fatturapa-14.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2023-07-18 05:56:07] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-pos-fatturapa]: success
+[2023-07-18 05:56:07] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.7.tar.gz]
+[2023-07-18 05:56:07] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.8.tar.gz]
+[2023-07-18 05:56:07] INFO root fetch - main [MainThread]: End processing [readyocr]: success
+[2023-07-18 05:56:08] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_delivery_note-14.0.2.1.1.dev2-py3-none-any.whl.zip]
+[2023-07-18 05:56:08] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_delivery_note-14.0.2.1.1.dev3-py3-none-any.whl.zip]
+[2023-07-18 05:56:08] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-delivery-note]: success
+[2023-07-18 05:56:08] INFO root fetch - processPackages [lm-datahandler]: Remove: archive file [/home/abi/fetcher/tmp/lm_datahandler-0.1.8.tar.gz]
+[2023-07-18 05:56:08] INFO root fetch - processPackages [lm-datahandler]: Remove: archive file [/home/abi/fetcher/tmp/lm_datahandler-0.1.9.tar.gz]
+[2023-07-18 05:56:08] INFO root fetch - main [MainThread]: End processing [lm-datahandler]: success
+[2023-07-18 05:56:08] INFO root fetch - processPackages [odoo12-addon-l10n-it-delivery-note]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_it_delivery_note-12.0.1.2.1.99.dev8-py3-none-any.whl.zip]
+[2023-07-18 05:56:08] INFO root fetch - processPackages [odoo12-addon-l10n-it-delivery-note]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_it_delivery_note-12.0.1.2.1.99.dev9-py3-none-any.whl.zip]
+[2023-07-18 05:56:08] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-it-delivery-note]: success
+[2023-07-18 05:56:08] INFO root fetch - processPackages [odoo12-addons-oca-l10n-italy]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addons_oca_l10n_italy-12.0.20230308.0-py3-none-any.whl.zip]
+[2023-07-18 05:56:08] INFO root fetch - processPackages [odoo12-addons-oca-l10n-italy]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addons_oca_l10n_italy-12.0.20230717.0-py3-none-any.whl.zip]
+[2023-07-18 05:56:08] INFO root fetch - main [MainThread]: End processing [odoo12-addons-oca-l10n-italy]: success
+[2023-07-18 05:56:08] INFO root fetch - processPackages [dolma]: executing diffoscope
+[2023-07-18 05:56:08] INFO root fetch - processPackages [dolma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolma-0.6.4.tar.gz tmp/dolma-0.6.5-cp311-cp311-manylinux_2_28_x86_64.whl.zip --markdown 20230718/d/dolma/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-07-18 05:56:09] INFO root fetch - processPackages [dolma]: Remove: archive file [/home/abi/fetcher/tmp/dolma-0.6.4.tar.gz]
+[2023-07-18 05:56:09] INFO root fetch - processPackages [dolma]: Remove: archive file [/home/abi/fetcher/tmp/dolma-0.6.5-cp311-cp311-manylinux_2_28_x86_64.whl.zip]
+[2023-07-18 05:56:09] INFO root fetch - main [MainThread]: End processing [dolma]: success
+[2023-07-18 05:56:09] INFO root fetch - main [MainThread]: Store serial: [18927705]
