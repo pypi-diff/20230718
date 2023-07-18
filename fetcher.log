@@ -16789,3 +16789,108 @@
 [2023-07-18 08:51:50] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.9.tar.gz]
 [2023-07-18 08:51:50] INFO root fetch - main [MainThread]: End processing [bagbag]: success
 [2023-07-18 08:51:50] INFO root fetch - main [MainThread]: Store serial: [18929386]
+[2023-07-18 08:56:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18929386]
+[2023-07-18 08:56:59] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-18 08:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bagbag
+[2023-07-18 08:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lite-fastapi-local
+[2023-07-18 08:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hagrid
+[2023-07-18 08:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spark-generated-rules-tools
+[2023-07-18 08:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cenas
+[2023-07-18 08:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: profiling-helpers
+[2023-07-18 08:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-07-18 08:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ign-pdal-tools
+[2023-07-18 08:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: TextClassification
+[2023-07-18 08:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: freepaths
+[2023-07-18 08:57:00] INFO root fetch - processPackages [hagrid]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-18 08:57:00] INFO root fetch - processPackages [TextClassification]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-18 08:57:00] INFO root fetch - processPackages [lite-fastapi-local]: New version: [0.0.31] Old Version: [0.0.30]
+[2023-07-18 08:57:00] INFO root fetch - processPackages [profiling-helpers]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-18 08:57:00] WARNING root fetch - processPackages [spark-generated-rules-tools]: Skipping, unable to determine old version
+[2023-07-18 08:57:00] INFO root fetch - processPackages [spark-generated-rules-tools]: Start processing: gfx-perp-python-sdk
+[2023-07-18 08:57:00] INFO root fetch - processPackages [freepaths]: New version: [1.6] Old Version: [1.4.1]
+[2023-07-18 08:57:00] INFO root fetch - main [MainThread]: End processing [spark-generated-rules-tools] error
+[2023-07-18 08:57:00] INFO root fetch - processPackages [ign-pdal-tools]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-18 08:57:00] INFO root fetch - processPackages [cenas]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-18 08:57:00] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-07-18 08:57:00] INFO root fetch - processPackages [bagbag]: New version: [0.60.9] Old Version: [0.60.8]
+[2023-07-18 08:57:00] INFO root fetch - processPackages [gfx-perp-python-sdk]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-18 08:57:00] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/63/8f/f6b3f8daafd8bb51dd59ed15dee9f83776e53b4bd4f460239542b391169f/hagrid-0.3.8.tar.gz
+[2023-07-18 08:57:00] INFO root fetch - processPackages [lite-fastapi-local]: Downloading https://files.pythonhosted.org/packages/4e/ee/1f3f20b79dd7fb56a1ab220bd953ed6cb9393b1544691e9982135627dd8d/lite_fastapi_local-0.0.30.tar.gz
+[2023-07-18 08:57:00] INFO root fetch - processPackages [TextClassification]: Downloading https://files.pythonhosted.org/packages/76/29/68f7a14a19322610abb7a9cec7fbe26f2e7c01ec3e97446632eb98ca6dd9/TextClassification-0.1.8-py2.py3-none-any.whl
+[2023-07-18 08:57:00] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/ad/ad/8e6ac29153c6369e5cbdf21108e60070080d9d4978e3a1a5f20be7b9492b/cenas-1.1.8.tar.gz
+[2023-07-18 08:57:00] INFO root fetch - processPackages [gfx-perp-python-sdk]: Downloading https://files.pythonhosted.org/packages/d7/80/41d301d07600c7dd3910e1679d9ebc76ab10caf649520795b6146ec6f8cc/gfx_perp_python_sdk-0.0.4.tar.gz
+[2023-07-18 08:57:00] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-07-18 08:57:00] INFO root fetch - processPackages [freepaths]: Downloading https://files.pythonhosted.org/packages/f0/72/5e80069d074afa8fdbf9d285096bb3a747cfbc8ec58ff975a7f3d0f198a8/freepaths-1.4.1.tar.gz
+[2023-07-18 08:57:00] INFO root fetch - processPackages [ign-pdal-tools]: Downloading https://files.pythonhosted.org/packages/b9/6c/fec131ef0b48a6ce42c3d7215c31cb741ac2bef5878d43841ad17adb0266/ign-pdal-tools-1.0.0.tar.gz
+[2023-07-18 08:57:00] INFO root fetch - processPackages [profiling-helpers]: Downloading https://files.pythonhosted.org/packages/ab/25/f559f31f90e2dd6e7952e0f78de6ed2a62a371fddc1f1cbbc2fe227291cf/profiling-helpers-0.1.0.tar.gz
+[2023-07-18 08:57:00] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/9c/d9/18fcc3667854a152644716d257d55e30c5845485e0c8c0086d1449f5fca5/bagbag-0.60.8.tar.gz
+[2023-07-18 08:57:00] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/37/ba/9662c92e6a20bfb5bcfc4f81bef895566ee63c5d4018c2cae825c1c94e21/cenas-1.1.9.tar.gz
+[2023-07-18 08:57:00] INFO root fetch - processPackages [lite-fastapi-local]: Downloading https://files.pythonhosted.org/packages/e3/b7/a16a1b95678c313311d141d7d0de3ee52fac87d7a2d8e6669a8b9da5ff0c/lite_fastapi_local-0.0.31.tar.gz
+[2023-07-18 08:57:01] INFO root fetch - processPackages [gfx-perp-python-sdk]: Downloading https://files.pythonhosted.org/packages/9b/46/64bc455cd22235f6c8b3cc85e34757ccd0c1bd3f566f5ead748a2a1bf279/gfx_perp_python_sdk-0.0.5.tar.gz
+[2023-07-18 08:57:01] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/93/62/db70dc46e40b49bc26e4074bed1920230e6deffcc964b82b28bdc7cfccdc/hagrid-0.3.9.tar.gz
+[2023-07-18 08:57:01] INFO root fetch - processPackages [TextClassification]: Downloading https://files.pythonhosted.org/packages/ed/97/e0903113c80fcf71d178042ecd1b84b45429bceda8bc22553728d030a540/TextClassification-0.1.9-py2.py3-none-any.whl
+[2023-07-18 08:57:01] INFO root fetch - processPackages [cenas]: executing diffoscope
+[2023-07-18 08:57:01] INFO root fetch - processPackages [cenas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cenas-1.1.8.tar.gz tmp/cenas-1.1.9.tar.gz --markdown 20230718/c/cenas/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-18 08:57:01] INFO root fetch - processPackages [freepaths]: Downloading https://files.pythonhosted.org/packages/24/cc/aa23981257fd71e7b71d4a070ef4d29e5e005f05de3fd0eb2f884c911be3/freepaths-1.6.tar.gz
+[2023-07-18 08:57:01] INFO root fetch - processPackages [lite-fastapi-local]: executing diffoscope
+[2023-07-18 08:57:01] INFO root fetch - processPackages [lite-fastapi-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lite_fastapi_local-0.0.30.tar.gz tmp/lite_fastapi_local-0.0.31.tar.gz --markdown 20230718/l/lite-fastapi-local/0.0.30-0.0.31/diff.md --exclude *.pyd
+[2023-07-18 08:57:01] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/c5/51/7ae0a1a526da702787345e0082bd8b3269a7b0c64300d0b309a215fbe724/bagbag-0.60.9.tar.gz
+[2023-07-18 08:57:01] INFO root fetch - processPackages [TextClassification]: executing diffoscope
+[2023-07-18 08:57:01] INFO root fetch - processPackages [TextClassification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TextClassification-0.1.8-py2.py3-none-any.whl.zip tmp/TextClassification-0.1.9-py2.py3-none-any.whl.zip --markdown 20230718/T/TextClassification/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-18 08:57:01] INFO root fetch - processPackages [profiling-helpers]: Downloading https://files.pythonhosted.org/packages/d4/1c/9c14f1b52cb252ce6754fb687b225dcce0935bad918ac7a491f9568cbbf0/profiling-helpers-0.2.0.tar.gz
+[2023-07-18 08:57:01] INFO root fetch - processPackages [ign-pdal-tools]: Downloading https://files.pythonhosted.org/packages/ee/ff/f2e2c64030cdd27b38c83677a408d3651b45e7e602453a8ae7e8f8b8bd14/ign-pdal-tools-1.1.0.tar.gz
+[2023-07-18 08:57:01] INFO root fetch - processPackages [hagrid]: executing diffoscope
+[2023-07-18 08:57:01] INFO root fetch - processPackages [hagrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagrid-0.3.8.tar.gz tmp/hagrid-0.3.9.tar.gz --markdown 20230718/h/hagrid/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-18 08:57:01] INFO root fetch - processPackages [gfx-perp-python-sdk]: executing diffoscope
+[2023-07-18 08:57:01] INFO root fetch - processPackages [gfx-perp-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gfx_perp_python_sdk-0.0.4.tar.gz tmp/gfx_perp_python_sdk-0.0.5.tar.gz --markdown 20230718/g/gfx-perp-python-sdk/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-18 08:57:01] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-07-18 08:57:01] INFO root fetch - processPackages [freepaths]: executing diffoscope
+[2023-07-18 08:57:01] INFO root fetch - processPackages [freepaths]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freepaths-1.4.1.tar.gz tmp/freepaths-1.6.tar.gz --markdown 20230718/f/freepaths/1.4.1-1.6/diff.md --exclude *.pyd
+[2023-07-18 08:57:01] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-07-18 08:57:01] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.60.8.tar.gz tmp/bagbag-0.60.9.tar.gz --markdown 20230718/b/bagbag/0.60.8-0.60.9/diff.md --exclude *.pyd
+[2023-07-18 08:57:01] INFO root fetch - processPackages [profiling-helpers]: executing diffoscope
+[2023-07-18 08:57:01] INFO root fetch - processPackages [profiling-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profiling-helpers-0.1.0.tar.gz tmp/profiling-helpers-0.2.0.tar.gz --markdown 20230718/p/profiling-helpers/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-18 08:57:01] INFO root fetch - processPackages [ign-pdal-tools]: executing diffoscope
+[2023-07-18 08:57:01] INFO root fetch - processPackages [ign-pdal-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign-pdal-tools-1.0.0.tar.gz tmp/ign-pdal-tools-1.1.0.tar.gz --markdown 20230718/i/ign-pdal-tools/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-18 08:57:01] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-07-18 08:57:01] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230718/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-07-18 08:57:02] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.8.tar.gz]
+[2023-07-18 08:57:02] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.9.tar.gz]
+[2023-07-18 08:57:02] INFO root fetch - processPackages [cenas]: Start processing: pquisby
+[2023-07-18 08:57:02] INFO root fetch - main [MainThread]: End processing [cenas]: success
+[2023-07-18 08:57:02] INFO root fetch - processPackages [pquisby]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 08:57:03] INFO root fetch - processPackages [lite-fastapi-local]: Remove: archive file [/home/abi/fetcher/tmp/lite_fastapi_local-0.0.30.tar.gz]
+[2023-07-18 08:57:03] INFO root fetch - processPackages [lite-fastapi-local]: Remove: archive file [/home/abi/fetcher/tmp/lite_fastapi_local-0.0.31.tar.gz]
+[2023-07-18 08:57:03] INFO root fetch - main [MainThread]: End processing [lite-fastapi-local]: success
+[2023-07-18 08:57:03] INFO root fetch - processPackages [pquisby]: Downloading https://files.pythonhosted.org/packages/d6/f1/7aed93fd661f571cdbbe3669f13929d38cd97f0fadd0dbb35fe072e546f0/pquisby-0.0.8.tar.gz
+[2023-07-18 08:57:03] INFO root fetch - processPackages [gfx-perp-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/gfx_perp_python_sdk-0.0.4.tar.gz]
+[2023-07-18 08:57:03] INFO root fetch - processPackages [gfx-perp-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/gfx_perp_python_sdk-0.0.5.tar.gz]
+[2023-07-18 08:57:03] INFO root fetch - main [MainThread]: End processing [gfx-perp-python-sdk]: success
+[2023-07-18 08:57:03] INFO root fetch - processPackages [TextClassification]: Remove: archive file [/home/abi/fetcher/tmp/TextClassification-0.1.8-py2.py3-none-any.whl.zip]
+[2023-07-18 08:57:03] INFO root fetch - processPackages [TextClassification]: Remove: archive file [/home/abi/fetcher/tmp/TextClassification-0.1.9-py2.py3-none-any.whl.zip]
+[2023-07-18 08:57:03] INFO root fetch - main [MainThread]: End processing [TextClassification]: success
+[2023-07-18 08:57:03] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.8.tar.gz]
+[2023-07-18 08:57:03] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.9.tar.gz]
+[2023-07-18 08:57:03] INFO root fetch - main [MainThread]: End processing [hagrid]: success
+[2023-07-18 08:57:03] INFO root fetch - processPackages [profiling-helpers]: Remove: archive file [/home/abi/fetcher/tmp/profiling-helpers-0.1.0.tar.gz]
+[2023-07-18 08:57:03] INFO root fetch - processPackages [profiling-helpers]: Remove: archive file [/home/abi/fetcher/tmp/profiling-helpers-0.2.0.tar.gz]
+[2023-07-18 08:57:03] INFO root fetch - main [MainThread]: End processing [profiling-helpers]: success
+[2023-07-18 08:57:03] INFO root fetch - processPackages [pquisby]: Downloading https://files.pythonhosted.org/packages/d4/91/3e9961a55c54049d417b63c641b25bb1b00bc7235a425b5a0115b8e32455/pquisby-0.0.9.tar.gz
+[2023-07-18 08:57:03] INFO root fetch - processPackages [freepaths]: Remove: archive file [/home/abi/fetcher/tmp/freepaths-1.4.1.tar.gz]
+[2023-07-18 08:57:03] INFO root fetch - processPackages [freepaths]: Remove: archive file [/home/abi/fetcher/tmp/freepaths-1.6.tar.gz]
+[2023-07-18 08:57:03] INFO root fetch - main [MainThread]: End processing [freepaths]: success
+[2023-07-18 08:57:03] INFO root fetch - processPackages [ign-pdal-tools]: Remove: archive file [/home/abi/fetcher/tmp/ign-pdal-tools-1.0.0.tar.gz]
+[2023-07-18 08:57:03] INFO root fetch - processPackages [ign-pdal-tools]: Remove: archive file [/home/abi/fetcher/tmp/ign-pdal-tools-1.1.0.tar.gz]
+[2023-07-18 08:57:03] INFO root fetch - main [MainThread]: End processing [ign-pdal-tools]: success
+[2023-07-18 08:57:03] INFO root fetch - processPackages [pquisby]: executing diffoscope
+[2023-07-18 08:57:03] INFO root fetch - processPackages [pquisby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pquisby-0.0.8.tar.gz tmp/pquisby-0.0.9.tar.gz --markdown 20230718/p/pquisby/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 08:57:03] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-07-18 08:57:03] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-07-18 08:57:03] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-07-18 08:57:04] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.8.tar.gz]
+[2023-07-18 08:57:04] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.9.tar.gz]
+[2023-07-18 08:57:04] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-07-18 08:57:04] INFO root fetch - processPackages [pquisby]: Remove: archive file [/home/abi/fetcher/tmp/pquisby-0.0.8.tar.gz]
+[2023-07-18 08:57:04] INFO root fetch - processPackages [pquisby]: Remove: archive file [/home/abi/fetcher/tmp/pquisby-0.0.9.tar.gz]
+[2023-07-18 08:57:04] INFO root fetch - main [MainThread]: End processing [pquisby]: success
+[2023-07-18 08:57:04] INFO root fetch - main [MainThread]: Store serial: [18929424]
