@@ -10983,3 +10983,108 @@
 [2023-07-18 04:46:36] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.9.tar.gz]
 [2023-07-18 04:46:36] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
 [2023-07-18 04:46:36] INFO root fetch - main [MainThread]: Store serial: [18927171]
+[2023-07-18 04:51:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18927171]
+[2023-07-18 04:51:52] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-18 04:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ork.build
+[2023-07-18 04:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cudagrad
+[2023-07-18 04:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datasette-sqlite-vss
+[2023-07-18 04:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlite-vss
+[2023-07-18 04:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: roblox-pyc
+[2023-07-18 04:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-randomprime
+[2023-07-18 04:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: abnosql
+[2023-07-18 04:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-07-18 04:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pisync
+[2023-07-18 04:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gita
+[2023-07-18 04:51:52] INFO root fetch - processPackages [datasette-sqlite-vss]: New version: [0.1.1a9] Old Version: [0.1.1a8]
+[2023-07-18 04:51:52] INFO root fetch - processPackages [pisync]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-18 04:51:52] INFO root fetch - processPackages [cudagrad]: New version: [0.0.2] Old Version: [0.0.16]
+[2023-07-18 04:51:52] INFO root fetch - processPackages [abnosql]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-18 04:51:52] INFO root fetch - processPackages [sqlite-vss]: New version: [0.1.1a9] Old Version: [0.1.1a8]
+[2023-07-18 04:51:52] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-18 04:51:52] INFO root fetch - processPackages [py-randomprime]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-07-18 04:51:52] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-07-18 04:51:52] INFO root fetch - processPackages [gita]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-18 04:51:52] INFO root fetch - processPackages [ork.build]: New version: [0.0.57] Old Version: [0.0.56]
+[2023-07-18 04:51:52] INFO root fetch - processPackages [pisync]: Downloading https://files.pythonhosted.org/packages/8f/c9/8101fe624bd2ca6bd0d5aa946f64f4d62d38667e79984172f4d45773e6c2/pisync-0.0.0.tar.gz
+[2023-07-18 04:51:52] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-18 04:51:52] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/20/7a/1cf95cd827a5bc2353d4a04fac9ad2282341306d1871323109bc1fcdc1bf/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz
+[2023-07-18 04:51:52] INFO root fetch - processPackages [gita]: Downloading https://files.pythonhosted.org/packages/08/74/f22a1b2f90d56fbe2c376a3b676b3863eb1f5b17712bf29abb3b48d8ec8d/gita-0.9.8.tar.gz
+[2023-07-18 04:51:52] INFO root fetch - processPackages [cudagrad]: Downloading https://files.pythonhosted.org/packages/b6/8b/f79248ebd120965a1e406c1c34cc17925aac04538876df7e7f8edc6a9bcb/cudagrad-0.0.16.tar.gz
+[2023-07-18 04:51:52] INFO root fetch - processPackages [sqlite-vss]: Downloading https://files.pythonhosted.org/packages/51/63/9dd1545bb1d137578652a5f27284866e142c23a512c823ced396eb35870b/sqlite_vss-0.1.1a8-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-07-18 04:51:52] INFO root fetch - processPackages [datasette-sqlite-vss]: Downloading https://files.pythonhosted.org/packages/6b/c9/46cbc03e6120a6d031ef47d3764f65fae9e0925e556486102f15dea9a2e7/datasette_sqlite_vss-0.1.1a8-py3-none-any.whl
+[2023-07-18 04:51:52] INFO root fetch - processPackages [abnosql]: Downloading https://files.pythonhosted.org/packages/a5/fe/c8d812f3a2480b7cac87ebcab6f44eae59dcb543faec854f170e8a709b29/abnosql-0.0.2.tar.gz
+[2023-07-18 04:51:52] INFO root fetch - processPackages [py-randomprime]: Downloading https://files.pythonhosted.org/packages/a1/c2/9f63a80aa15c105bf618f0737e83a193079aeedd84344cd8bde9e895eb12/py-randomprime-1.9.5.tar.gz
+[2023-07-18 04:51:52] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/95/16/268afe5bab9c539aa89f93fa9ba8535b7261c90c086973e21e578c4c616a/ork.build-0.0.56.tar.gz
+[2023-07-18 04:51:53] INFO root fetch - processPackages [pisync]: Downloading https://files.pythonhosted.org/packages/6e/c6/d2bee77c7b1fc3f844b5a8854e5b5af06c66249320f652dd55a493416ff4/pisync-0.0.1.tar.gz
+[2023-07-18 04:51:53] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-18 04:51:53] INFO root fetch - processPackages [gita]: Downloading https://files.pythonhosted.org/packages/1d/46/236c7ff23d6debdb85880ac7785267931325f3896b58d56f306e7a592a0f/gita-0.9.9.tar.gz
+[2023-07-18 04:51:53] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/a1/02/a44f26db0508904ac5d6e70c575bf20e4f99ab1df68dad57967a57b3a117/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz
+[2023-07-18 04:51:53] INFO root fetch - processPackages [cudagrad]: Downloading https://files.pythonhosted.org/packages/57/f3/d7e753c2890989b22f26afd14d0fb2833511f9831d32f97b4c5af670bf37/cudagrad-0.0.2.tar.gz
+[2023-07-18 04:51:53] INFO root fetch - processPackages [pisync]: executing diffoscope
+[2023-07-18 04:51:53] INFO root fetch - processPackages [pisync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pisync-0.0.0.tar.gz tmp/pisync-0.0.1.tar.gz --markdown 20230718/p/pisync/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-18 04:51:53] INFO root fetch - processPackages [abnosql]: Downloading https://files.pythonhosted.org/packages/3a/28/d74208f1b1352c5ac4fb5582240c5d1bacfda6f30e5bb1f9718370c7aaec/abnosql-0.0.3.tar.gz
+[2023-07-18 04:51:53] INFO root fetch - processPackages [gita]: executing diffoscope
+[2023-07-18 04:51:53] INFO root fetch - processPackages [gita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gita-0.9.8.tar.gz tmp/gita-0.9.9.tar.gz --markdown 20230718/g/gita/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-18 04:51:53] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-18 04:51:53] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230718/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-18 04:51:53] INFO root fetch - processPackages [datasette-sqlite-vss]: Downloading https://files.pythonhosted.org/packages/78/39/1de339a6154e659c8a6464539aaa36ab5e4340a7d77d50f437b106ca0d12/datasette_sqlite_vss-0.1.1a9-py3-none-any.whl
+[2023-07-18 04:51:53] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/da/fc/671d472a71d0f1bed173a0c7f11db5928b6162b792f67751308b7d206533/ork.build-0.0.57.tar.gz
+[2023-07-18 04:51:53] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-07-18 04:51:53] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230718/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-07-18 04:51:53] INFO root fetch - processPackages [cudagrad]: executing diffoscope
+[2023-07-18 04:51:53] INFO root fetch - processPackages [cudagrad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cudagrad-0.0.16.tar.gz tmp/cudagrad-0.0.2.tar.gz --markdown 20230718/c/cudagrad/0.0.16-0.0.2/diff.md --exclude *.pyd
+[2023-07-18 04:51:53] INFO root fetch - processPackages [abnosql]: executing diffoscope
+[2023-07-18 04:51:53] INFO root fetch - processPackages [abnosql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abnosql-0.0.2.tar.gz tmp/abnosql-0.0.3.tar.gz --markdown 20230718/a/abnosql/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-18 04:51:53] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2023-07-18 04:51:53] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.56.tar.gz tmp/ork.build-0.0.57.tar.gz --markdown 20230718/o/ork.build/0.0.56-0.0.57/diff.md --exclude *.pyd
+[2023-07-18 04:51:53] INFO root fetch - processPackages [datasette-sqlite-vss]: executing diffoscope
+[2023-07-18 04:51:53] INFO root fetch - processPackages [datasette-sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_vss-0.1.1a8-py3-none-any.whl.zip tmp/datasette_sqlite_vss-0.1.1a9-py3-none-any.whl.zip --markdown 20230718/d/datasette-sqlite-vss/0.1.1a8-0.1.1a9/diff.md --exclude *.pyd
+[2023-07-18 04:51:53] INFO root fetch - processPackages [sqlite-vss]: Downloading https://files.pythonhosted.org/packages/84/49/c3e9edf1447bbca8e97d5a521f090a99ac9069452f7cf7863df641abd8c2/sqlite_vss-0.1.1a9-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-07-18 04:51:54] INFO root fetch - processPackages [py-randomprime]: Downloading https://files.pythonhosted.org/packages/6a/a6/30f067323fda064fe22f5ce375f9f91e615acab8985915b93ce4839b3fd9/py-randomprime-1.9.6.tar.gz
+[2023-07-18 04:51:54] INFO root fetch - processPackages [sqlite-vss]: executing diffoscope
+[2023-07-18 04:51:54] INFO root fetch - processPackages [sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_vss-0.1.1a8-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip tmp/sqlite_vss-0.1.1a9-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip --markdown 20230718/s/sqlite-vss/0.1.1a8-0.1.1a9/diff.md --exclude *.pyd
+[2023-07-18 04:51:54] INFO root fetch - processPackages [py-randomprime]: executing diffoscope
+[2023-07-18 04:51:54] INFO root fetch - processPackages [py-randomprime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-randomprime-1.9.5.tar.gz tmp/py-randomprime-1.9.6.tar.gz --markdown 20230718/p/py-randomprime/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-07-18 04:51:54] INFO root fetch - processPackages [gita]: Remove: archive file [/home/abi/fetcher/tmp/gita-0.9.8.tar.gz]
+[2023-07-18 04:51:54] INFO root fetch - processPackages [gita]: Remove: archive file [/home/abi/fetcher/tmp/gita-0.9.9.tar.gz]
+[2023-07-18 04:51:54] INFO root fetch - processPackages [gita]: Start processing: abejacli
+[2023-07-18 04:51:54] INFO root fetch - main [MainThread]: End processing [gita]: success
+[2023-07-18 04:51:54] INFO root fetch - processPackages [pisync]: Remove: archive file [/home/abi/fetcher/tmp/pisync-0.0.0.tar.gz]
+[2023-07-18 04:51:54] INFO root fetch - processPackages [pisync]: Remove: archive file [/home/abi/fetcher/tmp/pisync-0.0.1.tar.gz]
+[2023-07-18 04:51:54] INFO root fetch - processPackages [pisync]: Start processing: py-ptsl
+[2023-07-18 04:51:54] INFO root fetch - main [MainThread]: End processing [pisync]: success
+[2023-07-18 04:51:54] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz]
+[2023-07-18 04:51:54] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz]
+[2023-07-18 04:51:54] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-07-18 04:51:54] INFO root fetch - processPackages [cudagrad]: Remove: archive file [/home/abi/fetcher/tmp/cudagrad-0.0.16.tar.gz]
+[2023-07-18 04:51:54] INFO root fetch - processPackages [cudagrad]: Remove: archive file [/home/abi/fetcher/tmp/cudagrad-0.0.2.tar.gz]
+[2023-07-18 04:51:54] INFO root fetch - main [MainThread]: End processing [cudagrad]: success
+[2023-07-18 04:51:54] INFO root fetch - processPackages [abejacli]: New version: [2.2.0rc3] Old Version: [2.2.0rc2]
+[2023-07-18 04:51:54] WARNING root fetch - processPackages [py-ptsl]: Skipping, unable to determine old version
+[2023-07-18 04:51:54] INFO root fetch - main [MainThread]: End processing [py-ptsl] error
+[2023-07-18 04:51:54] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-18 04:51:54] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-18 04:51:54] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-18 04:51:54] INFO root fetch - processPackages [datasette-sqlite-vss]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_vss-0.1.1a8-py3-none-any.whl.zip]
+[2023-07-18 04:51:54] INFO root fetch - processPackages [datasette-sqlite-vss]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_vss-0.1.1a9-py3-none-any.whl.zip]
+[2023-07-18 04:51:54] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-vss]: success
+[2023-07-18 04:51:55] INFO root fetch - processPackages [abnosql]: Remove: archive file [/home/abi/fetcher/tmp/abnosql-0.0.2.tar.gz]
+[2023-07-18 04:51:55] INFO root fetch - processPackages [abnosql]: Remove: archive file [/home/abi/fetcher/tmp/abnosql-0.0.3.tar.gz]
+[2023-07-18 04:51:55] INFO root fetch - main [MainThread]: End processing [abnosql]: success
+[2023-07-18 04:51:55] INFO root fetch - processPackages [abejacli]: Downloading https://files.pythonhosted.org/packages/73/10/5bee678a97cfdb5703cc46fe229094abfcb860d504fd1ace0627e597fdf4/abejacli-2.2.0rc2-py3-none-any.whl
+[2023-07-18 04:51:55] INFO root fetch - processPackages [py-randomprime]: Remove: archive file [/home/abi/fetcher/tmp/py-randomprime-1.9.5.tar.gz]
+[2023-07-18 04:51:55] INFO root fetch - processPackages [py-randomprime]: Remove: archive file [/home/abi/fetcher/tmp/py-randomprime-1.9.6.tar.gz]
+[2023-07-18 04:51:55] INFO root fetch - main [MainThread]: End processing [py-randomprime]: success
+[2023-07-18 04:51:55] INFO root fetch - processPackages [abejacli]: Downloading https://files.pythonhosted.org/packages/d3/be/a47621c916abcdaaf62052589d117ca93567904ec0e3bbb944d6fdf7e3cb/abejacli-2.2.0rc3-py3-none-any.whl
+[2023-07-18 04:51:55] INFO root fetch - processPackages [abejacli]: executing diffoscope
+[2023-07-18 04:51:55] INFO root fetch - processPackages [abejacli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abejacli-2.2.0rc2-py3-none-any.whl.zip tmp/abejacli-2.2.0rc3-py3-none-any.whl.zip --markdown 20230718/a/abejacli/2.2.0rc2-2.2.0rc3/diff.md --exclude *.pyd
+[2023-07-18 04:51:56] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.56.tar.gz]
+[2023-07-18 04:51:56] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.57.tar.gz]
+[2023-07-18 04:51:56] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2023-07-18 04:51:56] INFO root fetch - processPackages [abejacli]: Remove: archive file [/home/abi/fetcher/tmp/abejacli-2.2.0rc2-py3-none-any.whl.zip]
+[2023-07-18 04:51:56] INFO root fetch - processPackages [abejacli]: Remove: archive file [/home/abi/fetcher/tmp/abejacli-2.2.0rc3-py3-none-any.whl.zip]
+[2023-07-18 04:51:56] INFO root fetch - main [MainThread]: End processing [abejacli]: success
+[2023-07-18 04:52:16] INFO root fetch - processPackages [sqlite-vss]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_vss-0.1.1a8-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
+[2023-07-18 04:52:16] INFO root fetch - processPackages [sqlite-vss]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_vss-0.1.1a9-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
+[2023-07-18 04:52:16] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
+[2023-07-18 04:52:16] INFO root fetch - main [MainThread]: Store serial: [18927205]
