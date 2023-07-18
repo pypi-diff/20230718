@@ -21713,3 +21713,157 @@ AssertionError: tmp/cellmap-1.0.1.dev202307180907-py3-none-any.whl.zip does not 
 [2023-07-18 12:13:07] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
 [2023-07-18 12:13:08] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
 [2023-07-18 12:13:08] INFO root fetch - main [MainThread]: Store serial: [18931533]
+[2023-07-18 12:18:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18931533]
+[2023-07-18 12:18:17] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-18 12:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gramps-webapi
+[2023-07-18 12:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: udata-front
+[2023-07-18 12:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: middleware-apm
+[2023-07-18 12:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-private-bucket
+[2023-07-18 12:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: exchangecurrency
+[2023-07-18 12:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tox-pyenv-redux
+[2023-07-18 12:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hyko-sdk
+[2023-07-18 12:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ravityemaillib
+[2023-07-18 12:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fileformats-extras
+[2023-07-18 12:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: exchangecurrency
+[2023-07-18 12:18:17] INFO root fetch - processPackages [gramps-webapi]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-18 12:18:17] WARNING root fetch - processPackages [ravityemaillib]: Skipping, unable to determine old version
+[2023-07-18 12:18:17] INFO root fetch - processPackages [ravityemaillib]: Start processing: kivy-pinview
+[2023-07-18 12:18:17] INFO root fetch - main [MainThread]: End processing [ravityemaillib] error
+[2023-07-18 12:18:17] INFO root fetch - processPackages [hyko-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-18 12:18:17] INFO root fetch - processPackages [exchangecurrency]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-18 12:18:17] INFO root fetch - processPackages [exchangecurrency]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-18 12:18:17] WARNING root fetch - processPackages [fileformats-extras]: Skipping, unable to determine old version
+[2023-07-18 12:18:17] INFO root fetch - processPackages [fileformats-extras]: Start processing: systembridgeconnector
+[2023-07-18 12:18:17] INFO root fetch - main [MainThread]: End processing [fileformats-extras] error
+[2023-07-18 12:18:18] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/f8/1b/02137db3d93571c0867cacae818eb8136e59f81d7b8eeee650eb74521728/hyko_sdk-0.1.8.tar.gz
+[2023-07-18 12:18:18] INFO root fetch - processPackages [middleware-apm]: New version: [0.2.0rc1] Old Version: [0.1.9]
+[2023-07-18 12:18:18] INFO root fetch - processPackages [gramps-webapi]: Downloading https://files.pythonhosted.org/packages/84/30/fdcd793e05ac97d1e157916955b185c62d13c46c1dd62bd68b06feeea169/gramps-webapi-1.1.2.tar.gz
+[2023-07-18 12:18:18] INFO root fetch - processPackages [tox-pyenv-redux]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-18 12:18:18] INFO root fetch - processPackages [systembridgeconnector]: New version: [3.8.0.dev7] Old Version: [3.8.0.dev6]
+[2023-07-18 12:18:18] INFO root fetch - processPackages [udata-front]: New version: [3.2.5.dev11931] Old Version: [3.2.5.dev11838]
+[2023-07-18 12:18:18] INFO root fetch - processPackages [exchangecurrency]: Downloading https://files.pythonhosted.org/packages/d0/a7/eb6ebd0f8031776e3db0aac3c2f23f9b7d6cb092876a93e7fe14354b8509/exchangecurrency-0.4.0.tar.gz
+[2023-07-18 12:18:18] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-18 12:18:18] WARNING root fetch - processPackages [kivy-pinview]: Skipping, unable to determine old version
+[2023-07-18 12:18:18] INFO root fetch - processPackages [kivy-pinview]: Start processing: streamlit-base-extras
+[2023-07-18 12:18:18] INFO root fetch - main [MainThread]: End processing [kivy-pinview] error
+[2023-07-18 12:18:18] INFO root fetch - processPackages [exchangecurrency]: Downloading https://files.pythonhosted.org/packages/d0/a7/eb6ebd0f8031776e3db0aac3c2f23f9b7d6cb092876a93e7fe14354b8509/exchangecurrency-0.4.0.tar.gz
+[2023-07-18 12:18:18] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/8e/bb/3cf1ef285296cfa92109e36bff5dd68f8254f2de837804c35223cec3e41e/systembridgeconnector-3.8.0.dev6.tar.gz
+[2023-07-18 12:18:18] INFO root fetch - processPackages [streamlit-base-extras]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-18 12:18:18] INFO root fetch - processPackages [middleware-apm]: Downloading https://files.pythonhosted.org/packages/85/4e/51d46e303433412c897f03bf1f831155e665f691f00202ec4c762fb8eed6/middleware-apm-0.1.9.tar.gz
+[2023-07-18 12:18:18] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/d6/be/563f4da06ec5f1966861c86c8819c171591e499b4434b89dc0553f1bd6ae/udata_front-3.2.5.dev11838-py2.py3-none-any.whl
+[2023-07-18 12:18:18] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/18/dd/0fc13fe8ada91f69ab17997d640fbdeff420217e7e2dc38f5e85178a4187/hyko_sdk-0.1.9.tar.gz
+[2023-07-18 12:18:18] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e7/b6/4073de848e06d760b3ef30686b0684410fc4bb899faf50e7ef4a0b2fac85/pepperize.cdk-private-bucket-0.0.98.tar.gz
+[2023-07-18 12:18:18] INFO root fetch - processPackages [tox-pyenv-redux]: Downloading https://files.pythonhosted.org/packages/01/96/8cb88a6db633922a0e2e2f1590e2bc380715766e022620d791debbd6a069/tox-pyenv-redux-0.1.0.tar.gz
+[2023-07-18 12:18:18] INFO root fetch - processPackages [gramps-webapi]: Downloading https://files.pythonhosted.org/packages/44/55/7a69398be11c8cd71d0d5723e00f39b1556af98d3956b88561a8644afadf/gramps-webapi-1.1.3.tar.gz
+[2023-07-18 12:18:18] INFO root fetch - processPackages [exchangecurrency]: Downloading https://files.pythonhosted.org/packages/42/21/f5a0b7beff499f9df31b709372000ac84161ddfe40e136af4a543f45f812/exchangecurrency-0.5.0.tar.gz
+[2023-07-18 12:18:18] INFO root fetch - processPackages [exchangecurrency]: Downloading https://files.pythonhosted.org/packages/42/21/f5a0b7beff499f9df31b709372000ac84161ddfe40e136af4a543f45f812/exchangecurrency-0.5.0.tar.gz
+[2023-07-18 12:18:18] INFO root fetch - processPackages [hyko-sdk]: executing diffoscope
+[2023-07-18 12:18:18] INFO root fetch - processPackages [hyko-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyko_sdk-0.1.8.tar.gz tmp/hyko_sdk-0.1.9.tar.gz --markdown 20230718/h/hyko-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-18 12:18:18] INFO root fetch - processPackages [streamlit-base-extras]: Downloading https://files.pythonhosted.org/packages/ba/f8/48c123c3f22d0ae525a7b4edbb61e0ea4be958779baf1093da7e2e92ca66/streamlit-base-extras-0.2.8.tar.gz
+[2023-07-18 12:18:18] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/6a/d8/e31c16d6acca2a82963f52d5646eee0c16037cfc55f58cca700fda7b6cf1/systembridgeconnector-3.8.0.dev7.tar.gz
+[2023-07-18 12:18:18] INFO root fetch - processPackages [gramps-webapi]: executing diffoscope
+[2023-07-18 12:18:18] INFO root fetch - processPackages [gramps-webapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gramps-webapi-1.1.2.tar.gz tmp/gramps-webapi-1.1.3.tar.gz --markdown 20230718/g/gramps-webapi/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-18 12:18:18] INFO root fetch - processPackages [exchangecurrency]: executing diffoscope
+[2023-07-18 12:18:18] INFO root fetch - processPackages [exchangecurrency]: executing diffoscope
+[2023-07-18 12:18:18] INFO root fetch - processPackages [exchangecurrency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exchangecurrency-0.4.0.tar.gz tmp/exchangecurrency-0.5.0.tar.gz --markdown 20230718/e/exchangecurrency/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-18 12:18:18] INFO root fetch - processPackages [exchangecurrency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exchangecurrency-0.4.0.tar.gz tmp/exchangecurrency-0.5.0.tar.gz --markdown 20230718/e/exchangecurrency/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-18 12:18:18] INFO root fetch - processPackages [middleware-apm]: Downloading https://files.pythonhosted.org/packages/70/d0/3b7c01c4e0fe25666933ca22f09637a25295cd1113abe98eeeb0fefaa4f9/middleware-apm-0.2.0rc1.tar.gz
+[2023-07-18 12:18:18] INFO root fetch - processPackages [systembridgeconnector]: executing diffoscope
+[2023-07-18 12:18:18] INFO root fetch - processPackages [systembridgeconnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeconnector-3.8.0.dev6.tar.gz tmp/systembridgeconnector-3.8.0.dev7.tar.gz --markdown 20230718/s/systembridgeconnector/3.8.0.dev6-3.8.0.dev7/diff.md --exclude *.pyd
+[2023-07-18 12:18:19] INFO root fetch - processPackages [tox-pyenv-redux]: Downloading https://files.pythonhosted.org/packages/54/40/72b6e683789120720982ad6884b7beb4fbefc92a540ef9e7e05ab1749b85/tox_pyenv_redux-0.1.1.tar.gz
+[2023-07-18 12:18:19] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e3/22/68d054109f3033e215b3e2bb124cce096ee16c91911cef45f98e5a69d1ca/pepperize.cdk-private-bucket-0.0.99.tar.gz
+[2023-07-18 12:18:19] INFO root fetch - processPackages [middleware-apm]: executing diffoscope
+[2023-07-18 12:18:19] INFO root fetch - processPackages [middleware-apm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/middleware-apm-0.1.9.tar.gz tmp/middleware-apm-0.2.0rc1.tar.gz --markdown 20230718/m/middleware-apm/0.1.9-0.2.0rc1/diff.md --exclude *.pyd
+[2023-07-18 12:18:19] INFO root fetch - processPackages [tox-pyenv-redux]: executing diffoscope
+[2023-07-18 12:18:19] INFO root fetch - processPackages [tox-pyenv-redux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tox-pyenv-redux-0.1.0.tar.gz tmp/tox_pyenv_redux-0.1.1.tar.gz --markdown 20230718/t/tox-pyenv-redux/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-18 12:18:19] INFO root fetch - processPackages [streamlit-base-extras]: Downloading https://files.pythonhosted.org/packages/57/6d/6c62cfb0160329d0de8745332c248a56f7813a2d7e0df64d54d326ce0773/streamlit-base-extras-0.2.9.tar.gz
+[2023-07-18 12:18:19] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-07-18 12:18:19] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230718/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-18 12:18:19] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/75/4c/67b96151534df17622ce3db138a3a8f6856b71e3a35a18bfe4fc89b89762/udata_front-3.2.5.dev11931-py2.py3-none-any.whl
+[2023-07-18 12:18:19] INFO root fetch - processPackages [streamlit-base-extras]: executing diffoscope
+[2023-07-18 12:18:19] INFO root fetch - processPackages [streamlit-base-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-base-extras-0.2.8.tar.gz tmp/streamlit-base-extras-0.2.9.tar.gz --markdown 20230718/s/streamlit-base-extras/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-18 12:18:19] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2023-07-18 12:18:19] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-3.2.5.dev11838-py2.py3-none-any.whl.zip tmp/udata_front-3.2.5.dev11931-py2.py3-none-any.whl.zip --markdown 20230718/u/udata-front/3.2.5.dev11838-3.2.5.dev11931/diff.md --exclude *.pyd
+[2023-07-18 12:18:19] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.8.tar.gz]
+[2023-07-18 12:18:19] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.9.tar.gz]
+[2023-07-18 12:18:19] INFO root fetch - processPackages [hyko-sdk]: Start processing: gphoto2
+[2023-07-18 12:18:19] INFO root fetch - main [MainThread]: End processing [hyko-sdk]: success
+[2023-07-18 12:18:19] INFO root fetch - processPackages [gphoto2]: New version: [2.3.5] Old Version: [2.3.4]
+[2023-07-18 12:18:20] INFO root fetch - processPackages [exchangecurrency]: Remove: archive file [/home/abi/fetcher/tmp/exchangecurrency-0.4.0.tar.gz]
+[2023-07-18 12:18:20] INFO root fetch - processPackages [exchangecurrency]: Remove: archive file [/home/abi/fetcher/tmp/exchangecurrency-0.5.0.tar.gz]
+[2023-07-18 12:18:20] INFO root fetch - processPackages [exchangecurrency]: Start processing: amlopsvueelements
+[2023-07-18 12:18:20] INFO root fetch - main [MainThread]: End processing [exchangecurrency]: success
+[2023-07-18 12:18:20] INFO root fetch - processPackages [gphoto2]: Downloading https://files.pythonhosted.org/packages/0a/ed/3f2a51de7a9d1bfa37308e938f5c68c076cbc31a57197da4d8ecca2dd4e7/gphoto2-2.3.4.tar.gz
+[2023-07-18 12:18:20] INFO root fetch - processPackages [exchangecurrency]: Start processing: esp-idf-panic-decoder
+[2023-07-18 12:18:20] INFO root fetch - main [MainThread]: End processing [exchangecurrency]: success
+[2023-07-18 12:18:20] INFO root fetch - processPackages [amlopsvueelements]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-18 12:18:20] WARNING root fetch - processPackages [esp-idf-panic-decoder]: Skipping, unable to determine old version
+[2023-07-18 12:18:20] INFO root fetch - processPackages [esp-idf-panic-decoder]: Start processing: systembridgeshared
+[2023-07-18 12:18:20] INFO root fetch - main [MainThread]: End processing [esp-idf-panic-decoder] error
+[2023-07-18 12:18:20] INFO root fetch - processPackages [middleware-apm]: Remove: archive file [/home/abi/fetcher/tmp/middleware-apm-0.1.9.tar.gz]
+[2023-07-18 12:18:20] INFO root fetch - processPackages [middleware-apm]: Remove: archive file [/home/abi/fetcher/tmp/middleware-apm-0.2.0rc1.tar.gz]
+[2023-07-18 12:18:20] INFO root fetch - processPackages [middleware-apm]: Start processing: fileformats-medimage-extras
+[2023-07-18 12:18:20] INFO root fetch - main [MainThread]: End processing [middleware-apm]: success
+[2023-07-18 12:18:20] INFO root fetch - processPackages [systembridgeshared]: New version: [3.8.0.dev7] Old Version: [3.8.0.dev6]
+[2023-07-18 12:18:20] WARNING root fetch - processPackages [fileformats-medimage-extras]: Skipping, unable to determine old version
+[2023-07-18 12:18:20] INFO root fetch - processPackages [fileformats-medimage-extras]: Start processing: sfdc-test
+[2023-07-18 12:18:20] INFO root fetch - main [MainThread]: End processing [fileformats-medimage-extras] error
+[2023-07-18 12:18:20] INFO root fetch - processPackages [systembridgeshared]: Downloading https://files.pythonhosted.org/packages/b5/42/d81d8f12479756b5be9bf20bcf46005cb4e6153c4b9be902c89244872a2c/systembridgeshared-3.8.0.dev6.tar.gz
+[2023-07-18 12:18:20] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-3.8.0.dev6.tar.gz]
+[2023-07-18 12:18:20] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-3.8.0.dev7.tar.gz]
+[2023-07-18 12:18:20] INFO root fetch - processPackages [systembridgeconnector]: Start processing: nonebot-plugin-groupmate-waifu
+[2023-07-18 12:18:20] INFO root fetch - main [MainThread]: End processing [systembridgeconnector]: success
+[2023-07-18 12:18:20] INFO root fetch - processPackages [tox-pyenv-redux]: Remove: archive file [/home/abi/fetcher/tmp/tox-pyenv-redux-0.1.0.tar.gz]
+[2023-07-18 12:18:20] INFO root fetch - processPackages [tox-pyenv-redux]: Remove: archive file [/home/abi/fetcher/tmp/tox_pyenv_redux-0.1.1.tar.gz]
+[2023-07-18 12:18:20] INFO root fetch - processPackages [tox-pyenv-redux]: Start processing: systembridgebackend
+[2023-07-18 12:18:20] INFO root fetch - main [MainThread]: End processing [tox-pyenv-redux]: success
+[2023-07-18 12:18:20] INFO root fetch - processPackages [amlopsvueelements]: Downloading https://files.pythonhosted.org/packages/66/c5/7cc4562a9948fa70330c8597948fda7c968a965313e177f21cd9f6e69c15/amlopsvueelements-1.2.8.tar.gz
+[2023-07-18 12:18:20] INFO root fetch - processPackages [nonebot-plugin-groupmate-waifu]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-07-18 12:18:20] WARNING root fetch - processPackages [sfdc-test]: Skipping, unable to determine old version
+[2023-07-18 12:18:20] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz]
+[2023-07-18 12:18:20] INFO root fetch - main [MainThread]: End processing [sfdc-test] error
+[2023-07-18 12:18:20] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz]
+[2023-07-18 12:18:20] INFO root fetch - processPackages [systembridgebackend]: New version: [3.8.0.dev7] Old Version: [3.8.0.dev6]
+[2023-07-18 12:18:20] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-07-18 12:18:20] INFO root fetch - processPackages [gphoto2]: Downloading https://files.pythonhosted.org/packages/91/63/8c83e64614e50982368b6232a8d1d272883ca2b8610618cb0cd70bc16721/gphoto2-2.3.5.tar.gz
+[2023-07-18 12:18:20] INFO root fetch - processPackages [systembridgebackend]: Downloading https://files.pythonhosted.org/packages/cc/56/17c6a03ad849d9d1ba34463d4a20fa3d0d997e4a8642f8358664e168d873/systembridgebackend-3.8.0.dev6.tar.gz
+[2023-07-18 12:18:20] INFO root fetch - processPackages [nonebot-plugin-groupmate-waifu]: Downloading https://files.pythonhosted.org/packages/41/57/951aa6378c0f228b3035aedbc146665fc92301a46169a7fb4765780edb23/nonebot_plugin_groupmate_waifu-1.2.6.tar.gz
+[2023-07-18 12:18:20] INFO root fetch - processPackages [gphoto2]: executing diffoscope
+[2023-07-18 12:18:20] INFO root fetch - processPackages [gphoto2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gphoto2-2.3.4.tar.gz tmp/gphoto2-2.3.5.tar.gz --markdown 20230718/g/gphoto2/2.3.4-2.3.5/diff.md --exclude *.pyd
+[2023-07-18 12:18:21] INFO root fetch - processPackages [streamlit-base-extras]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-base-extras-0.2.8.tar.gz]
+[2023-07-18 12:18:21] INFO root fetch - processPackages [streamlit-base-extras]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-base-extras-0.2.9.tar.gz]
+[2023-07-18 12:18:21] INFO root fetch - main [MainThread]: End processing [streamlit-base-extras]: success
+[2023-07-18 12:18:21] INFO root fetch - processPackages [systembridgeshared]: Downloading https://files.pythonhosted.org/packages/e3/c5/afe1a0cff0841d54cd13650b729ca6187bea4e114c35f064ce64964083c8/systembridgeshared-3.8.0.dev7.tar.gz
+[2023-07-18 12:18:21] INFO root fetch - processPackages [nonebot-plugin-groupmate-waifu]: Downloading https://files.pythonhosted.org/packages/d8/57/63f682e6a8ed1a45e1b57ba72148b2683dd6213d399872d41301677f9bcc/nonebot_plugin_groupmate_waifu-1.2.7.tar.gz
+[2023-07-18 12:18:21] INFO root fetch - processPackages [systembridgeshared]: executing diffoscope
+[2023-07-18 12:18:21] INFO root fetch - processPackages [systembridgeshared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeshared-3.8.0.dev6.tar.gz tmp/systembridgeshared-3.8.0.dev7.tar.gz --markdown 20230718/s/systembridgeshared/3.8.0.dev6-3.8.0.dev7/diff.md --exclude *.pyd
+[2023-07-18 12:18:21] INFO root fetch - processPackages [amlopsvueelements]: Downloading https://files.pythonhosted.org/packages/66/13/78a0a71cbe22ea1ba27617b67cbd09d3dd5db33dcfc03407cadf975cb283/amlopsvueelements-1.2.9.tar.gz
+[2023-07-18 12:18:21] INFO root fetch - processPackages [nonebot-plugin-groupmate-waifu]: executing diffoscope
+[2023-07-18 12:18:21] INFO root fetch - processPackages [nonebot-plugin-groupmate-waifu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_groupmate_waifu-1.2.6.tar.gz tmp/nonebot_plugin_groupmate_waifu-1.2.7.tar.gz --markdown 20230718/n/nonebot-plugin-groupmate-waifu/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-07-18 12:18:21] INFO root fetch - processPackages [systembridgebackend]: Downloading https://files.pythonhosted.org/packages/4d/ba/a2e7b6e04f4272c514f82dd00fbce719b6069e516bffaa05eafb36236da4/systembridgebackend-3.8.0.dev7.tar.gz
+[2023-07-18 12:18:21] INFO root fetch - processPackages [systembridgebackend]: executing diffoscope
+[2023-07-18 12:18:21] INFO root fetch - processPackages [systembridgebackend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgebackend-3.8.0.dev6.tar.gz tmp/systembridgebackend-3.8.0.dev7.tar.gz --markdown 20230718/s/systembridgebackend/3.8.0.dev6-3.8.0.dev7/diff.md --exclude *.pyd
+[2023-07-18 12:18:21] INFO root fetch - processPackages [gramps-webapi]: Remove: archive file [/home/abi/fetcher/tmp/gramps-webapi-1.1.2.tar.gz]
+[2023-07-18 12:18:21] INFO root fetch - processPackages [gramps-webapi]: Remove: archive file [/home/abi/fetcher/tmp/gramps-webapi-1.1.3.tar.gz]
+[2023-07-18 12:18:21] INFO root fetch - main [MainThread]: End processing [gramps-webapi]: success
+[2023-07-18 12:18:21] INFO root fetch - processPackages [amlopsvueelements]: executing diffoscope
+[2023-07-18 12:18:21] INFO root fetch - processPackages [amlopsvueelements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amlopsvueelements-1.2.8.tar.gz tmp/amlopsvueelements-1.2.9.tar.gz --markdown 20230718/a/amlopsvueelements/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-18 12:18:22] INFO root fetch - processPackages [nonebot-plugin-groupmate-waifu]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_groupmate_waifu-1.2.6.tar.gz]
+[2023-07-18 12:18:22] INFO root fetch - processPackages [nonebot-plugin-groupmate-waifu]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_groupmate_waifu-1.2.7.tar.gz]
+[2023-07-18 12:18:22] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-groupmate-waifu]: success
+[2023-07-18 12:18:22] INFO root fetch - processPackages [systembridgeshared]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeshared-3.8.0.dev6.tar.gz]
+[2023-07-18 12:18:22] INFO root fetch - processPackages [systembridgeshared]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeshared-3.8.0.dev7.tar.gz]
+[2023-07-18 12:18:22] INFO root fetch - main [MainThread]: End processing [systembridgeshared]: success
+[2023-07-18 12:18:22] INFO root fetch - processPackages [systembridgebackend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgebackend-3.8.0.dev6.tar.gz]
+[2023-07-18 12:18:22] INFO root fetch - processPackages [systembridgebackend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgebackend-3.8.0.dev7.tar.gz]
+[2023-07-18 12:18:22] INFO root fetch - main [MainThread]: End processing [systembridgebackend]: success
+[2023-07-18 12:18:23] INFO root fetch - processPackages [gphoto2]: Remove: archive file [/home/abi/fetcher/tmp/gphoto2-2.3.4.tar.gz]
+[2023-07-18 12:18:23] INFO root fetch - processPackages [gphoto2]: Remove: archive file [/home/abi/fetcher/tmp/gphoto2-2.3.5.tar.gz]
+[2023-07-18 12:18:23] INFO root fetch - main [MainThread]: End processing [gphoto2]: success
+[2023-07-18 12:18:26] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.2.5.dev11838-py2.py3-none-any.whl.zip]
+[2023-07-18 12:18:26] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.2.5.dev11931-py2.py3-none-any.whl.zip]
+[2023-07-18 12:18:26] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2023-07-18 12:18:27] INFO root fetch - processPackages [amlopsvueelements]: Remove: archive file [/home/abi/fetcher/tmp/amlopsvueelements-1.2.8.tar.gz]
+[2023-07-18 12:18:27] INFO root fetch - processPackages [amlopsvueelements]: Remove: archive file [/home/abi/fetcher/tmp/amlopsvueelements-1.2.9.tar.gz]
+[2023-07-18 12:18:27] INFO root fetch - main [MainThread]: End processing [amlopsvueelements]: success
+[2023-07-18 12:18:27] INFO root fetch - main [MainThread]: Store serial: [18931610]
