@@ -17466,3 +17466,108 @@
 [2023-07-18 09:28:37] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2023-07-18 09:28:37] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-07-18 09:28:37] INFO root fetch - main [MainThread]: Store serial: [18929694]
+[2023-07-18 09:33:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18929694]
+[2023-07-18 09:33:46] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-18 09:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: helperfns
+[2023-07-18 09:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lite-fastapi-local
+[2023-07-18 09:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fugue-ml
+[2023-07-18 09:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ZODB
+[2023-07-18 09:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: regulator
+[2023-07-18 09:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: softnanotools
+[2023-07-18 09:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: presentpy
+[2023-07-18 09:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: BinPackerPro
+[2023-07-18 09:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eko-throttler-ekoteq
+[2023-07-18 09:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: location-local
+[2023-07-18 09:33:46] WARNING root fetch - processPackages [eko-throttler-ekoteq]: Skipping, unable to determine old version
+[2023-07-18 09:33:46] INFO root fetch - processPackages [eko-throttler-ekoteq]: Start processing: cenas
+[2023-07-18 09:33:46] INFO root fetch - main [MainThread]: End processing [eko-throttler-ekoteq] error
+[2023-07-18 09:33:46] INFO root fetch - processPackages [helperfns]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-18 09:33:46] INFO root fetch - processPackages [ZODB]: New version: [5.8.1] Old Version: [5.8.0]
+[2023-07-18 09:33:46] INFO root fetch - processPackages [presentpy]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-18 09:33:46] INFO root fetch - processPackages [fugue-ml]: New version: [0.0.3.dev1] Old Version: [0.0.2]
+[2023-07-18 09:33:46] INFO root fetch - processPackages [location-local]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-18 09:33:47] INFO root fetch - processPackages [regulator]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-18 09:33:47] INFO root fetch - processPackages [lite-fastapi-local]: New version: [0.0.33] Old Version: [0.0.32]
+[2023-07-18 09:33:47] INFO root fetch - processPackages [softnanotools]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-18 09:33:47] INFO root fetch - processPackages [BinPackerPro]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-18 09:33:47] INFO root fetch - processPackages [cenas]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-18 09:33:47] INFO root fetch - processPackages [location-local]: Downloading https://files.pythonhosted.org/packages/c9/df/2bc496af16d1f714f09840377aba29daafdb977f69aa181bc1d0ba25cee4/location-local-0.0.1.tar.gz
+[2023-07-18 09:33:47] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/ad/ad/8e6ac29153c6369e5cbdf21108e60070080d9d4978e3a1a5f20be7b9492b/cenas-1.1.8.tar.gz
+[2023-07-18 09:33:47] INFO root fetch - processPackages [lite-fastapi-local]: Downloading https://files.pythonhosted.org/packages/d3/a8/51adabab709a8e8402ab533ec98e31bc05d24e943d79f2a5649e61fc3a19/lite_fastapi_local-0.0.32.tar.gz
+[2023-07-18 09:33:47] INFO root fetch - processPackages [helperfns]: Downloading https://files.pythonhosted.org/packages/d0/c7/d47433dca8f5ce3d58cdbb4bf43e86140d9f9e621af5e92b43e12d880116/helperfns-0.0.6.tar.gz
+[2023-07-18 09:33:47] INFO root fetch - processPackages [ZODB]: Downloading https://files.pythonhosted.org/packages/fe/f2/0679637079735cb1c3f27cb5d1c8f631afd8a86105874df0b67709635f62/ZODB-5.8.0.tar.gz
+[2023-07-18 09:33:47] INFO root fetch - processPackages [BinPackerPro]: Downloading https://files.pythonhosted.org/packages/f5/2f/aadcfdd7aba9e80866a6f9a201f07cd05cd1cd057ed991a8b9576b5ef996/BinPackerPro-0.0.4.tar.gz
+[2023-07-18 09:33:47] INFO root fetch - processPackages [fugue-ml]: Downloading https://files.pythonhosted.org/packages/ed/03/0835cfc2914bc4808a559a3172da7f668bd08aa32acd0842721ec3865102/fugue-ml-0.0.2.tar.gz
+[2023-07-18 09:33:47] INFO root fetch - processPackages [presentpy]: Downloading https://files.pythonhosted.org/packages/c3/b7/21ee6f8aad06c682198f7e6406b697d7c933477b7e21c0e9f9d8a1b4d50e/presentpy-0.8.0.tar.gz
+[2023-07-18 09:33:47] INFO root fetch - processPackages [regulator]: Downloading https://files.pythonhosted.org/packages/bf/6b/e8abef2d30160ec522b3aab616d71eb0aa24a7c36d336a5cd9abaf188e6f/regulator-1.0.0.tar.gz
+[2023-07-18 09:33:47] INFO root fetch - processPackages [softnanotools]: Downloading https://files.pythonhosted.org/packages/c1/b5/cba84c202bc3ef718e8d69007650fd73d784c7c6ff04d65d4efc3d960389/softnanotools-0.5.0.tar.gz
+[2023-07-18 09:33:47] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/37/ba/9662c92e6a20bfb5bcfc4f81bef895566ee63c5d4018c2cae825c1c94e21/cenas-1.1.9.tar.gz
+[2023-07-18 09:33:47] INFO root fetch - processPackages [location-local]: Downloading https://files.pythonhosted.org/packages/ea/f2/59c1e7d3f7a5b1c366b808b17aaf781369dffc8fda47f916201724a1cba5/location-local-0.0.2.tar.gz
+[2023-07-18 09:33:47] INFO root fetch - processPackages [cenas]: executing diffoscope
+[2023-07-18 09:33:47] INFO root fetch - processPackages [cenas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cenas-1.1.8.tar.gz tmp/cenas-1.1.9.tar.gz --markdown 20230718/c/cenas/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-18 09:33:47] INFO root fetch - processPackages [lite-fastapi-local]: Downloading https://files.pythonhosted.org/packages/a7/ca/9417578fe933c44179ff92395c9ea73889f001c9e41299e477983ed06776/lite_fastapi_local-0.0.33.tar.gz
+[2023-07-18 09:33:47] INFO root fetch - processPackages [helperfns]: Downloading https://files.pythonhosted.org/packages/3f/57/b7ef640d2abde9ac65e8c6a69316d4c1ed8c159bda3ded33c3607eb6b266/helperfns-0.0.7.tar.gz
+[2023-07-18 09:33:47] INFO root fetch - processPackages [BinPackerPro]: Downloading https://files.pythonhosted.org/packages/ee/d8/c1ca328f911c4840918f4837b3536d41fad11aa993c1f7a611ac016e0a81/BinPackerPro-0.0.5.tar.gz
+[2023-07-18 09:33:47] INFO root fetch - processPackages [fugue-ml]: Downloading https://files.pythonhosted.org/packages/28/03/1fd3c64ecf211cce2593d15e053b7e069dbf58037f2a789d65342cc86735/fugue-ml-0.0.3.dev1.tar.gz
+[2023-07-18 09:33:47] INFO root fetch - processPackages [presentpy]: Downloading https://files.pythonhosted.org/packages/3b/60/0a3b5060098fb0adbfeebbd2d0c176130f72381c7f7f723634739d786faa/presentpy-0.9.0.tar.gz
+[2023-07-18 09:33:47] INFO root fetch - processPackages [location-local]: executing diffoscope
+[2023-07-18 09:33:47] INFO root fetch - processPackages [location-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/location-local-0.0.1.tar.gz tmp/location-local-0.0.2.tar.gz --markdown 20230718/l/location-local/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-18 09:33:47] INFO root fetch - processPackages [regulator]: Downloading https://files.pythonhosted.org/packages/63/7e/dac5eb84362ff1416781a187a4c5ad2755bfc0cab00d5a08feb8789af927/regulator-1.0.1.tar.gz
+[2023-07-18 09:33:48] INFO root fetch - processPackages [ZODB]: Downloading https://files.pythonhosted.org/packages/68/8f/ba84246f531ffe594f78e417ab9069673e2ffd12f210939f42d2c1b86aa9/ZODB-5.8.1.tar.gz
+[2023-07-18 09:33:48] INFO root fetch - processPackages [softnanotools]: Downloading https://files.pythonhosted.org/packages/a1/2c/b499f6d6cf2723837bd0b6ad6b94ded62c013577d8ea49c39d4acd87b19e/softnanotools-0.5.1.tar.gz
+[2023-07-18 09:33:48] INFO root fetch - processPackages [lite-fastapi-local]: executing diffoscope
+[2023-07-18 09:33:48] INFO root fetch - processPackages [lite-fastapi-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lite_fastapi_local-0.0.32.tar.gz tmp/lite_fastapi_local-0.0.33.tar.gz --markdown 20230718/l/lite-fastapi-local/0.0.32-0.0.33/diff.md --exclude *.pyd
+[2023-07-18 09:33:48] INFO root fetch - processPackages [helperfns]: executing diffoscope
+[2023-07-18 09:33:48] INFO root fetch - processPackages [helperfns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helperfns-0.0.6.tar.gz tmp/helperfns-0.0.7.tar.gz --markdown 20230718/h/helperfns/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-18 09:33:48] INFO root fetch - processPackages [BinPackerPro]: executing diffoscope
+[2023-07-18 09:33:48] INFO root fetch - processPackages [BinPackerPro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BinPackerPro-0.0.4.tar.gz tmp/BinPackerPro-0.0.5.tar.gz --markdown 20230718/B/BinPackerPro/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-18 09:33:48] INFO root fetch - processPackages [presentpy]: executing diffoscope
+[2023-07-18 09:33:48] INFO root fetch - processPackages [presentpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/presentpy-0.8.0.tar.gz tmp/presentpy-0.9.0.tar.gz --markdown 20230718/p/presentpy/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-18 09:33:48] INFO root fetch - processPackages [regulator]: executing diffoscope
+[2023-07-18 09:33:48] INFO root fetch - processPackages [regulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regulator-1.0.0.tar.gz tmp/regulator-1.0.1.tar.gz --markdown 20230718/r/regulator/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-18 09:33:48] INFO root fetch - processPackages [fugue-ml]: executing diffoscope
+[2023-07-18 09:33:48] INFO root fetch - processPackages [fugue-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fugue-ml-0.0.2.tar.gz tmp/fugue-ml-0.0.3.dev1.tar.gz --markdown 20230718/f/fugue-ml/0.0.2-0.0.3.dev1/diff.md --exclude *.pyd
+[2023-07-18 09:33:48] INFO root fetch - processPackages [ZODB]: executing diffoscope
+[2023-07-18 09:33:48] INFO root fetch - processPackages [ZODB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ZODB-5.8.0.tar.gz tmp/ZODB-5.8.1.tar.gz --markdown 20230718/Z/ZODB/5.8.0-5.8.1/diff.md --exclude *.pyd
+[2023-07-18 09:33:48] INFO root fetch - processPackages [softnanotools]: executing diffoscope
+[2023-07-18 09:33:48] INFO root fetch - processPackages [softnanotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/softnanotools-0.5.0.tar.gz tmp/softnanotools-0.5.1.tar.gz --markdown 20230718/s/softnanotools/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-18 09:33:49] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.8.tar.gz]
+[2023-07-18 09:33:49] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.9.tar.gz]
+[2023-07-18 09:33:49] INFO root fetch - processPackages [cenas]: Start processing: miauw-base-service
+[2023-07-18 09:33:49] INFO root fetch - main [MainThread]: End processing [cenas]: success
+[2023-07-18 09:33:49] INFO root fetch - processPackages [miauw-base-service]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-18 09:33:49] INFO root fetch - processPackages [miauw-base-service]: Downloading https://files.pythonhosted.org/packages/4f/c3/b9b91431008109f78e5abdeee800a1146dbd4a39ae17acbf27b429c85b4f/miauw-base-service-1.9.0.tar.gz
+[2023-07-18 09:33:49] INFO root fetch - processPackages [location-local]: Remove: archive file [/home/abi/fetcher/tmp/location-local-0.0.1.tar.gz]
+[2023-07-18 09:33:49] INFO root fetch - processPackages [location-local]: Remove: archive file [/home/abi/fetcher/tmp/location-local-0.0.2.tar.gz]
+[2023-07-18 09:33:49] INFO root fetch - main [MainThread]: End processing [location-local]: success
+[2023-07-18 09:33:49] INFO root fetch - processPackages [miauw-base-service]: Downloading https://files.pythonhosted.org/packages/a6/27/0a078dc32fe889feef14ef5de9cac60772f9a3845acbb47c169462bf06ba/miauw-base-service-1.9.1.tar.gz
+[2023-07-18 09:33:49] INFO root fetch - processPackages [BinPackerPro]: Remove: archive file [/home/abi/fetcher/tmp/BinPackerPro-0.0.4.tar.gz]
+[2023-07-18 09:33:49] INFO root fetch - processPackages [BinPackerPro]: Remove: archive file [/home/abi/fetcher/tmp/BinPackerPro-0.0.5.tar.gz]
+[2023-07-18 09:33:49] INFO root fetch - main [MainThread]: End processing [BinPackerPro]: success
+[2023-07-18 09:33:49] INFO root fetch - processPackages [miauw-base-service]: executing diffoscope
+[2023-07-18 09:33:49] INFO root fetch - processPackages [miauw-base-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miauw-base-service-1.9.0.tar.gz tmp/miauw-base-service-1.9.1.tar.gz --markdown 20230718/m/miauw-base-service/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-18 09:33:49] INFO root fetch - processPackages [helperfns]: Remove: archive file [/home/abi/fetcher/tmp/helperfns-0.0.6.tar.gz]
+[2023-07-18 09:33:49] INFO root fetch - processPackages [helperfns]: Remove: archive file [/home/abi/fetcher/tmp/helperfns-0.0.7.tar.gz]
+[2023-07-18 09:33:49] INFO root fetch - main [MainThread]: End processing [helperfns]: success
+[2023-07-18 09:33:49] INFO root fetch - processPackages [lite-fastapi-local]: Remove: archive file [/home/abi/fetcher/tmp/lite_fastapi_local-0.0.32.tar.gz]
+[2023-07-18 09:33:49] INFO root fetch - processPackages [lite-fastapi-local]: Remove: archive file [/home/abi/fetcher/tmp/lite_fastapi_local-0.0.33.tar.gz]
+[2023-07-18 09:33:49] INFO root fetch - main [MainThread]: End processing [lite-fastapi-local]: success
+[2023-07-18 09:33:49] INFO root fetch - processPackages [fugue-ml]: Remove: archive file [/home/abi/fetcher/tmp/fugue-ml-0.0.2.tar.gz]
+[2023-07-18 09:33:49] INFO root fetch - processPackages [fugue-ml]: Remove: archive file [/home/abi/fetcher/tmp/fugue-ml-0.0.3.dev1.tar.gz]
+[2023-07-18 09:33:49] INFO root fetch - main [MainThread]: End processing [fugue-ml]: success
+[2023-07-18 09:33:49] INFO root fetch - processPackages [regulator]: Remove: archive file [/home/abi/fetcher/tmp/regulator-1.0.0.tar.gz]
+[2023-07-18 09:33:49] INFO root fetch - processPackages [regulator]: Remove: archive file [/home/abi/fetcher/tmp/regulator-1.0.1.tar.gz]
+[2023-07-18 09:33:49] INFO root fetch - main [MainThread]: End processing [regulator]: success
+[2023-07-18 09:33:50] INFO root fetch - processPackages [softnanotools]: Remove: archive file [/home/abi/fetcher/tmp/softnanotools-0.5.0.tar.gz]
+[2023-07-18 09:33:50] INFO root fetch - processPackages [softnanotools]: Remove: archive file [/home/abi/fetcher/tmp/softnanotools-0.5.1.tar.gz]
+[2023-07-18 09:33:50] INFO root fetch - main [MainThread]: End processing [softnanotools]: success
+[2023-07-18 09:33:50] INFO root fetch - processPackages [presentpy]: Remove: archive file [/home/abi/fetcher/tmp/presentpy-0.8.0.tar.gz]
+[2023-07-18 09:33:50] INFO root fetch - processPackages [presentpy]: Remove: archive file [/home/abi/fetcher/tmp/presentpy-0.9.0.tar.gz]
+[2023-07-18 09:33:50] INFO root fetch - main [MainThread]: End processing [presentpy]: success
+[2023-07-18 09:33:50] INFO root fetch - processPackages [miauw-base-service]: Remove: archive file [/home/abi/fetcher/tmp/miauw-base-service-1.9.0.tar.gz]
+[2023-07-18 09:33:50] INFO root fetch - processPackages [miauw-base-service]: Remove: archive file [/home/abi/fetcher/tmp/miauw-base-service-1.9.1.tar.gz]
+[2023-07-18 09:33:50] INFO root fetch - main [MainThread]: End processing [miauw-base-service]: success
+[2023-07-18 09:33:51] INFO root fetch - processPackages [ZODB]: Remove: archive file [/home/abi/fetcher/tmp/ZODB-5.8.0.tar.gz]
+[2023-07-18 09:33:51] INFO root fetch - processPackages [ZODB]: Remove: archive file [/home/abi/fetcher/tmp/ZODB-5.8.1.tar.gz]
+[2023-07-18 09:33:51] INFO root fetch - main [MainThread]: End processing [ZODB]: success
+[2023-07-18 09:33:51] INFO root fetch - main [MainThread]: Store serial: [18929729]
