@@ -17278,3 +17278,75 @@
 [2023-07-18 09:18:06] INFO root fetch - processPackages [pineappl]: Remove: archive file [/home/abi/fetcher/tmp/pineappl-0.6.1.tar.gz]
 [2023-07-18 09:18:06] INFO root fetch - main [MainThread]: End processing [pineappl]: success
 [2023-07-18 09:18:06] INFO root fetch - main [MainThread]: Store serial: [18929589]
+[2023-07-18 09:23:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18929589]
+[2023-07-18 09:23:16] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-18 09:23:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cenas
+[2023-07-18 09:23:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: picca
+[2023-07-18 09:23:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lesscode-tag
+[2023-07-18 09:23:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-07-18 09:23:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-spark-gpt
+[2023-07-18 09:23:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: utilsd
+[2023-07-18 09:23:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: renderg-sdk
+[2023-07-18 09:23:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: viur-cli
+[2023-07-18 09:23:16] INFO root fetch - processPackages [picca]: New version: [7.2.0] Old Version: [7.1.0]
+[2023-07-18 09:23:16] INFO root fetch - processPackages [cenas]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-18 09:23:16] INFO root fetch - processPackages [utilsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 09:23:16] INFO root fetch - processPackages [renderg-sdk]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-18 09:23:16] INFO root fetch - processPackages [lesscode-tag]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-18 09:23:16] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-18 09:23:16] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-07-18 09:23:16] INFO root fetch - processPackages [viur-cli]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-18 09:23:16] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-07-18 09:23:16] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/ad/ad/8e6ac29153c6369e5cbdf21108e60070080d9d4978e3a1a5f20be7b9492b/cenas-1.1.8.tar.gz
+[2023-07-18 09:23:16] INFO root fetch - processPackages [picca]: Downloading https://files.pythonhosted.org/packages/fa/56/abe4f69a12752b2ea3ae450caece3ec71521a4981bd85786da7940952129/picca-7.1.0.tar.gz
+[2023-07-18 09:23:16] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Downloading https://files.pythonhosted.org/packages/00/76/8bbb003ea52ac1ed327f6efe4ebc5fbe0eeafa23349423b9e8919e85ba26/nonebot_plugin_spark_gpt-1.1.8.tar.gz
+[2023-07-18 09:23:16] INFO root fetch - processPackages [lesscode-tag]: Downloading https://files.pythonhosted.org/packages/34/39/a69f7b1888b8d911e403cb92a6365dbce2eb08ff52cfe55b78a8b5a10e1b/lesscode_tag-0.0.6.tar.gz
+[2023-07-18 09:23:16] INFO root fetch - processPackages [utilsd]: Downloading https://files.pythonhosted.org/packages/1f/d3/0156c60c211c6f3a5689d1b72d8579bfab24c18956ab0a776db8391765e7/utilsd-0.0.8.tar.gz
+[2023-07-18 09:23:16] INFO root fetch - processPackages [renderg-sdk]: Downloading https://files.pythonhosted.org/packages/31/dd/e32a117c5d10fdc33eb7c1675c03826c2e84cf53a8b31e05b1027d4eeef8/renderg-sdk-0.1.6.tar.gz
+[2023-07-18 09:23:16] INFO root fetch - processPackages [viur-cli]: Downloading https://files.pythonhosted.org/packages/c6/22/4b772e9cc900712f11979ca02af0257af4c99f3b3f32ec32a9a1aca175fb/viur_cli-1.0.8.tar.gz
+[2023-07-18 09:23:16] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/37/ba/9662c92e6a20bfb5bcfc4f81bef895566ee63c5d4018c2cae825c1c94e21/cenas-1.1.9.tar.gz
+[2023-07-18 09:23:17] INFO root fetch - processPackages [cenas]: executing diffoscope
+[2023-07-18 09:23:17] INFO root fetch - processPackages [cenas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cenas-1.1.8.tar.gz tmp/cenas-1.1.9.tar.gz --markdown 20230718/c/cenas/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-18 09:23:17] INFO root fetch - processPackages [picca]: Downloading https://files.pythonhosted.org/packages/45/1e/c298e9b20a8615fb917b06b0c1aca6bb3878e0b701298b9477967b69cf8b/picca-7.2.0.tar.gz
+[2023-07-18 09:23:17] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-07-18 09:23:17] INFO root fetch - processPackages [lesscode-tag]: Downloading https://files.pythonhosted.org/packages/a1/26/20c256f1bae36540b58dcc0dc6521aac51ac23e670f502b88b962cb4f290/lesscode_tag-0.0.7.tar.gz
+[2023-07-18 09:23:17] INFO root fetch - processPackages [viur-cli]: Downloading https://files.pythonhosted.org/packages/0c/ce/14316bd9a7aa4c43ab61d0b3e17401a15093ecb1b6181bbfd5af0a59dc70/viur_cli-1.0.9.tar.gz
+[2023-07-18 09:23:17] INFO root fetch - processPackages [utilsd]: Downloading https://files.pythonhosted.org/packages/5a/f8/29e1d1e3500d478588d2858f0f42f1c3ee6a05bd8ac3fd1fb9679026447e/utilsd-0.0.9.tar.gz
+[2023-07-18 09:23:17] INFO root fetch - processPackages [picca]: executing diffoscope
+[2023-07-18 09:23:17] INFO root fetch - processPackages [utilsd]: executing diffoscope
+[2023-07-18 09:23:17] INFO root fetch - processPackages [picca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picca-7.1.0.tar.gz tmp/picca-7.2.0.tar.gz --markdown 20230718/p/picca/7.1.0-7.2.0/diff.md --exclude *.pyd
+[2023-07-18 09:23:17] INFO root fetch - processPackages [utilsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utilsd-0.0.8.tar.gz tmp/utilsd-0.0.9.tar.gz --markdown 20230718/u/utilsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 09:23:17] INFO root fetch - processPackages [viur-cli]: executing diffoscope
+[2023-07-18 09:23:17] INFO root fetch - processPackages [viur-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viur_cli-1.0.8.tar.gz tmp/viur_cli-1.0.9.tar.gz --markdown 20230718/v/viur-cli/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-18 09:23:17] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Downloading https://files.pythonhosted.org/packages/8f/0c/18df022011c82af03d7c03f47cc899bfa84515ae6104960b5bb08cf05ede/nonebot_plugin_spark_gpt-1.1.9.tar.gz
+[2023-07-18 09:23:17] INFO root fetch - processPackages [lesscode-tag]: executing diffoscope
+[2023-07-18 09:23:17] INFO root fetch - processPackages [lesscode-tag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_tag-0.0.6.tar.gz tmp/lesscode_tag-0.0.7.tar.gz --markdown 20230718/l/lesscode-tag/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-18 09:23:17] WARNING root fetch - processPackages [nonebot-plugin-spark-gpt]: Skipping package: exceeds size limit 11742630>=10485760
+[2023-07-18 09:23:17] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-spark-gpt] error
+[2023-07-18 09:23:17] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-07-18 09:23:17] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230718/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-07-18 09:23:17] INFO root fetch - processPackages [renderg-sdk]: Downloading https://files.pythonhosted.org/packages/27/d6/368ec6266135d240b34fbb3b8d0a75b3b8ec2b339b428a868fcea9c869a7/renderg-sdk-0.1.7.tar.gz
+[2023-07-18 09:23:18] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.8.tar.gz]
+[2023-07-18 09:23:18] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.9.tar.gz]
+[2023-07-18 09:23:18] INFO root fetch - main [MainThread]: End processing [cenas]: success
+[2023-07-18 09:23:18] INFO root fetch - processPackages [lesscode-tag]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_tag-0.0.6.tar.gz]
+[2023-07-18 09:23:18] INFO root fetch - processPackages [lesscode-tag]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_tag-0.0.7.tar.gz]
+[2023-07-18 09:23:18] INFO root fetch - main [MainThread]: End processing [lesscode-tag]: success
+[2023-07-18 09:23:18] INFO root fetch - processPackages [utilsd]: Remove: archive file [/home/abi/fetcher/tmp/utilsd-0.0.8.tar.gz]
+[2023-07-18 09:23:18] INFO root fetch - processPackages [utilsd]: Remove: archive file [/home/abi/fetcher/tmp/utilsd-0.0.9.tar.gz]
+[2023-07-18 09:23:18] INFO root fetch - main [MainThread]: End processing [utilsd]: success
+[2023-07-18 09:23:18] INFO root fetch - processPackages [viur-cli]: Remove: archive file [/home/abi/fetcher/tmp/viur_cli-1.0.8.tar.gz]
+[2023-07-18 09:23:18] INFO root fetch - processPackages [viur-cli]: Remove: archive file [/home/abi/fetcher/tmp/viur_cli-1.0.9.tar.gz]
+[2023-07-18 09:23:18] INFO root fetch - main [MainThread]: End processing [viur-cli]: success
+[2023-07-18 09:23:18] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-07-18 09:23:18] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-07-18 09:23:18] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-07-18 09:23:18] INFO root fetch - processPackages [renderg-sdk]: executing diffoscope
+[2023-07-18 09:23:18] INFO root fetch - processPackages [renderg-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renderg-sdk-0.1.6.tar.gz tmp/renderg-sdk-0.1.7.tar.gz --markdown 20230718/r/renderg-sdk/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-18 09:23:19] INFO root fetch - processPackages [picca]: Remove: archive file [/home/abi/fetcher/tmp/picca-7.1.0.tar.gz]
+[2023-07-18 09:23:19] INFO root fetch - processPackages [picca]: Remove: archive file [/home/abi/fetcher/tmp/picca-7.2.0.tar.gz]
+[2023-07-18 09:23:19] INFO root fetch - main [MainThread]: End processing [picca]: success
+[2023-07-18 09:23:21] INFO root fetch - processPackages [renderg-sdk]: Remove: archive file [/home/abi/fetcher/tmp/renderg-sdk-0.1.6.tar.gz]
+[2023-07-18 09:23:21] INFO root fetch - processPackages [renderg-sdk]: Remove: archive file [/home/abi/fetcher/tmp/renderg-sdk-0.1.7.tar.gz]
+[2023-07-18 09:23:21] INFO root fetch - main [MainThread]: End processing [renderg-sdk]: success
+[2023-07-18 09:23:21] INFO root fetch - main [MainThread]: Store serial: [18929613]
