@@ -10111,3 +10111,126 @@
 [2023-07-18 04:09:14] INFO root fetch - processPackages [feffery-antd-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_antd_components-0.2.9.tar.gz]
 [2023-07-18 04:09:14] INFO root fetch - main [MainThread]: End processing [feffery-antd-components]: success
 [2023-07-18 04:09:14] INFO root fetch - main [MainThread]: Store serial: [18926851]
+[2023-07-18 04:14:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18926851]
+[2023-07-18 04:14:24] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-18 04:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edc-list-data
+[2023-07-18 04:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hak
+[2023-07-18 04:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Janex
+[2023-07-18 04:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-wordpress
+[2023-07-18 04:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: render-engine
+[2023-07-18 04:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edc-pdf-reports
+[2023-07-18 04:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: edc-sites
+[2023-07-18 04:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fv1-programmer
+[2023-07-18 04:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tools-wzy
+[2023-07-18 04:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lp-ap-tools
+[2023-07-18 04:14:24] WARNING root fetch - processPackages [tools-wzy]: Skipping, unable to determine old version
+[2023-07-18 04:14:24] INFO root fetch - processPackages [tools-wzy]: Start processing: edc
+[2023-07-18 04:14:24] INFO root fetch - main [MainThread]: End processing [tools-wzy] error
+[2023-07-18 04:14:24] INFO root fetch - processPackages [edc-list-data]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-18 04:14:24] INFO root fetch - processPackages [hak]: New version: [0.0.95] Old Version: [0.0.94]
+[2023-07-18 04:14:24] INFO root fetch - processPackages [lp-ap-tools]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-18 04:14:24] INFO root fetch - processPackages [edc-sites]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-18 04:14:24] INFO root fetch - processPackages [fv1-programmer]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-18 04:14:24] INFO root fetch - processPackages [edc-pdf-reports]: New version: [0.3.9] Old Version: [0.3.14]
+[2023-07-18 04:14:24] INFO root fetch - processPackages [Janex]: New version: [0.0.8b0] Old Version: [0.0.8]
+[2023-07-18 04:14:24] INFO root fetch - processPackages [render-engine]: New version: [2023.7.4a3] Old Version: [2023.7.4a2]
+[2023-07-18 04:14:25] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-18 04:14:25] INFO root fetch - processPackages [edc]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-07-18 04:14:25] INFO root fetch - processPackages [render-engine]: Downloading https://files.pythonhosted.org/packages/a3/ec/6f28c2eadabc05956e35e5f772c67424e414470d4a3b58fb256cfbc6e514/render_engine-2023.7.4a2.tar.gz
+[2023-07-18 04:14:25] INFO root fetch - processPackages [lp-ap-tools]: Downloading https://files.pythonhosted.org/packages/f7/cb/6a88e4f57434f3b006274ab3b52bd8b058d88a1964ad1042994a76d9af5b/lp_ap_tools-0.1.7.tar.gz
+[2023-07-18 04:14:25] INFO root fetch - processPackages [edc-list-data]: Downloading https://files.pythonhosted.org/packages/cb/41/cfe2c7a2194c41a2f1b6d98f9ceb812460e1e5588d3d0661b80e69c57fbc/edc_list_data-0.3.8-py3-none-any.whl
+[2023-07-18 04:14:25] INFO root fetch - processPackages [edc-pdf-reports]: Downloading https://files.pythonhosted.org/packages/8e/6d/59105fcda2d53c455b96a1810a031d0dbb0ec572aff31aae4edb443a9c6d/edc-pdf-reports-0.3.14.tar.gz
+[2023-07-18 04:14:25] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/b4/82/ff399a2c8830f4153091a9a5c083908c34eb2598d26fb107d82300e645ff/Janex-0.0.8.tar.gz
+[2023-07-18 04:14:25] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/79/61/550da69aa6b08d3e65767fb3d9b7bc00f8cf9f4fcfd5e1d727521546d214/hak-0.0.94.tar.gz
+[2023-07-18 04:14:25] INFO root fetch - processPackages [edc-sites]: Downloading https://files.pythonhosted.org/packages/6c/d2/0971f47310f1e86111203d2b71e42e2b45e7f8545d3e4b302c358963aaf6/edc-sites-0.3.8.tar.gz
+[2023-07-18 04:14:25] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2023-07-18 04:14:25] INFO root fetch - processPackages [fv1-programmer]: Downloading https://files.pythonhosted.org/packages/54/69/6b99b8b4339037f116b83c6b16c45b528562860105256115d3309099faee/fv1_programmer-0.2.3.tar.gz
+[2023-07-18 04:14:25] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/f9/15/95b638202a264534a787971e2a4c0f733aa265e8d8f04de44a2ce619eb75/edc-0.5.7.tar.gz
+[2023-07-18 04:14:25] INFO root fetch - processPackages [lp-ap-tools]: Downloading https://files.pythonhosted.org/packages/73/9c/dc88916ee5b63cb4403294eabeffbebed461d4133bf28b8fb0172544c60d/lp_ap_tools-0.1.8.tar.gz
+[2023-07-18 04:14:25] INFO root fetch - processPackages [edc-list-data]: Downloading https://files.pythonhosted.org/packages/6f/3a/f0243d8f0eb2f42fcca9ab0c84caf50d754cd3e205c900c3aa2ef49235d3/edc_list_data-0.3.9-py3-none-any.whl
+[2023-07-18 04:14:25] INFO root fetch - processPackages [render-engine]: Downloading https://files.pythonhosted.org/packages/02/2a/28035e92673a791d1994b488f902302f5b827f889aed54142826e857b8da/render_engine-2023.7.4a3.tar.gz
+[2023-07-18 04:14:25] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/ad/9b/02e3075181cb89ca28ef6d7eac669469d8be57e9f6888e74a0598d03bd22/Janex-0.0.8b0.tar.gz
+[2023-07-18 04:14:25] INFO root fetch - processPackages [edc-pdf-reports]: Downloading https://files.pythonhosted.org/packages/f6/f9/ff5521ba26ca2c42105ff66e6fdbe57e998921d1287d264e0a6754ede2fe/edc-pdf-reports-0.3.9.tar.gz
+[2023-07-18 04:14:25] INFO root fetch - processPackages [fv1-programmer]: Downloading https://files.pythonhosted.org/packages/93/67/f25c3fff0018ce73a3fe05cdea659f6e9d9630739c1e6043fa02b28ca5cf/fv1_programmer-0.2.4.tar.gz
+[2023-07-18 04:14:25] INFO root fetch - processPackages [lp-ap-tools]: executing diffoscope
+[2023-07-18 04:14:25] INFO root fetch - processPackages [lp-ap-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lp_ap_tools-0.1.7.tar.gz tmp/lp_ap_tools-0.1.8.tar.gz --markdown 20230718/l/lp-ap-tools/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-18 04:14:25] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/4b/80/41cc48be086a82e6d8979b3e36a594e86fc653a8d8500c90075485a000fd/hak-0.0.95.tar.gz
+[2023-07-18 04:14:25] INFO root fetch - processPackages [edc-sites]: Downloading https://files.pythonhosted.org/packages/93/47/2d0fe4fb111586f78d184cca78fdb1a6d3b4edda0ca7b0d1b76cb2c2af13/edc-sites-0.3.9.tar.gz
+[2023-07-18 04:14:25] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/0d/71/fd426ffa8384b1a3dcc003d2c9cdcf108903816623585994a8b806e67082/edc-0.5.8.tar.gz
+[2023-07-18 04:14:26] INFO root fetch - processPackages [edc-list-data]: executing diffoscope
+[2023-07-18 04:14:26] INFO root fetch - processPackages [edc-list-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_list_data-0.3.8-py3-none-any.whl.zip tmp/edc_list_data-0.3.9-py3-none-any.whl.zip --markdown 20230718/e/edc-list-data/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-18 04:14:26] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2023-07-18 04:14:26] INFO root fetch - processPackages [Janex]: executing diffoscope
+[2023-07-18 04:14:26] INFO root fetch - processPackages [Janex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Janex-0.0.8.tar.gz tmp/Janex-0.0.8b0.tar.gz --markdown 20230718/J/Janex/0.0.8-0.0.8b0/diff.md --exclude *.pyd
+[2023-07-18 04:14:26] INFO root fetch - processPackages [fv1-programmer]: executing diffoscope
+[2023-07-18 04:14:26] INFO root fetch - processPackages [fv1-programmer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fv1_programmer-0.2.3.tar.gz tmp/fv1_programmer-0.2.4.tar.gz --markdown 20230718/f/fv1-programmer/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-18 04:14:26] INFO root fetch - processPackages [render-engine]: executing diffoscope
+[2023-07-18 04:14:26] INFO root fetch - processPackages [render-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/render_engine-2023.7.4a2.tar.gz tmp/render_engine-2023.7.4a3.tar.gz --markdown 20230718/r/render-engine/2023.7.4a2-2023.7.4a3/diff.md --exclude *.pyd
+[2023-07-18 04:14:26] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-18 04:14:26] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.94.tar.gz tmp/hak-0.0.95.tar.gz --markdown 20230718/h/hak/0.0.94-0.0.95/diff.md --exclude *.pyd
+[2023-07-18 04:14:26] INFO root fetch - processPackages [edc]: executing diffoscope
+[2023-07-18 04:14:26] INFO root fetch - processPackages [edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-0.5.7.tar.gz tmp/edc-0.5.8.tar.gz --markdown 20230718/e/edc/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-07-18 04:14:26] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-07-18 04:14:26] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230718/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-18 04:14:26] INFO root fetch - processPackages [edc-pdf-reports]: executing diffoscope
+[2023-07-18 04:14:26] INFO root fetch - processPackages [edc-pdf-reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-pdf-reports-0.3.14.tar.gz tmp/edc-pdf-reports-0.3.9.tar.gz --markdown 20230718/e/edc-pdf-reports/0.3.14-0.3.9/diff.md --exclude *.pyd
+[2023-07-18 04:14:26] INFO root fetch - processPackages [edc-sites]: executing diffoscope
+[2023-07-18 04:14:26] INFO root fetch - processPackages [edc-sites]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-sites-0.3.8.tar.gz tmp/edc-sites-0.3.9.tar.gz --markdown 20230718/e/edc-sites/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-18 04:14:27] INFO root fetch - processPackages [lp-ap-tools]: Remove: archive file [/home/abi/fetcher/tmp/lp_ap_tools-0.1.7.tar.gz]
+[2023-07-18 04:14:27] INFO root fetch - processPackages [lp-ap-tools]: Remove: archive file [/home/abi/fetcher/tmp/lp_ap_tools-0.1.8.tar.gz]
+[2023-07-18 04:14:27] INFO root fetch - processPackages [lp-ap-tools]: Start processing: httpackage
+[2023-07-18 04:14:27] INFO root fetch - main [MainThread]: End processing [lp-ap-tools]: success
+[2023-07-18 04:14:27] INFO root fetch - processPackages [httpackage]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-18 04:14:27] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.8.tar.gz]
+[2023-07-18 04:14:27] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.8b0.tar.gz]
+[2023-07-18 04:14:27] INFO root fetch - processPackages [Janex]: Start processing: Janex
+[2023-07-18 04:14:27] INFO root fetch - main [MainThread]: End processing [Janex]: success
+[2023-07-18 04:14:27] INFO root fetch - processPackages [Janex]: New version: [0.0.9] Old Version: [0.0.8b0]
+[2023-07-18 04:14:27] INFO root fetch - processPackages [httpackage]: Downloading https://files.pythonhosted.org/packages/20/43/2034666fdbdd88c607aca5612f91fa2861bf4912f6abde78d35db60d657b/httpackage-1.0.0.tar.gz
+[2023-07-18 04:14:27] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/ad/9b/02e3075181cb89ca28ef6d7eac669469d8be57e9f6888e74a0598d03bd22/Janex-0.0.8b0.tar.gz
+[2023-07-18 04:14:27] INFO root fetch - processPackages [edc-list-data]: Remove: archive file [/home/abi/fetcher/tmp/edc_list_data-0.3.8-py3-none-any.whl.zip]
+[2023-07-18 04:14:27] INFO root fetch - processPackages [edc-list-data]: Remove: archive file [/home/abi/fetcher/tmp/edc_list_data-0.3.9-py3-none-any.whl.zip]
+[2023-07-18 04:14:27] INFO root fetch - processPackages [fv1-programmer]: Remove: archive file [/home/abi/fetcher/tmp/fv1_programmer-0.2.3.tar.gz]
+[2023-07-18 04:14:27] INFO root fetch - processPackages [fv1-programmer]: Remove: archive file [/home/abi/fetcher/tmp/fv1_programmer-0.2.4.tar.gz]
+[2023-07-18 04:14:27] INFO root fetch - processPackages [edc-list-data]: Start processing: emmet-core
+[2023-07-18 04:14:27] INFO root fetch - main [MainThread]: End processing [edc-list-data]: success
+[2023-07-18 04:14:27] INFO root fetch - main [MainThread]: End processing [fv1-programmer]: success
+[2023-07-18 04:14:27] INFO root fetch - processPackages [edc-pdf-reports]: Remove: archive file [/home/abi/fetcher/tmp/edc-pdf-reports-0.3.14.tar.gz]
+[2023-07-18 04:14:27] INFO root fetch - processPackages [edc-pdf-reports]: Remove: archive file [/home/abi/fetcher/tmp/edc-pdf-reports-0.3.9.tar.gz]
+[2023-07-18 04:14:27] INFO root fetch - main [MainThread]: End processing [edc-pdf-reports]: success
+[2023-07-18 04:14:27] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2023-07-18 04:14:27] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2023-07-18 04:14:27] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-07-18 04:14:27] INFO root fetch - processPackages [emmet-core]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-18 04:14:27] INFO root fetch - processPackages [httpackage]: Downloading https://files.pythonhosted.org/packages/9b/3d/400266aa17f63348a34d24bd399473f31425fad6f64d9fb5efe744b4ea0f/httpackage-1.0.1.tar.gz
+[2023-07-18 04:14:27] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/40/e1/132b211480dc634919c04b591850f6164665441cdbd516ef4c1b946c6f18/Janex-0.0.9.tar.gz
+[2023-07-18 04:14:27] INFO root fetch - processPackages [httpackage]: executing diffoscope
+[2023-07-18 04:14:27] INFO root fetch - processPackages [httpackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/httpackage-1.0.0.tar.gz tmp/httpackage-1.0.1.tar.gz --markdown 20230718/h/httpackage/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-18 04:14:28] INFO root fetch - processPackages [emmet-core]: Downloading https://files.pythonhosted.org/packages/79/85/be17b500afc3d15c1ca6b73b0cf8b7564ecc06d89b27d59ca86581efa254/emmet-core-0.9.2.tar.gz
+[2023-07-18 04:14:28] INFO root fetch - processPackages [edc]: Remove: archive file [/home/abi/fetcher/tmp/edc-0.5.7.tar.gz]
+[2023-07-18 04:14:28] INFO root fetch - processPackages [edc]: Remove: archive file [/home/abi/fetcher/tmp/edc-0.5.8.tar.gz]
+[2023-07-18 04:14:28] INFO root fetch - main [MainThread]: End processing [edc]: success
+[2023-07-18 04:14:28] INFO root fetch - processPackages [Janex]: executing diffoscope
+[2023-07-18 04:14:28] INFO root fetch - processPackages [Janex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Janex-0.0.8b0.tar.gz tmp/Janex-0.0.9.tar.gz --markdown 20230718/J/Janex/0.0.8b0-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 04:14:28] INFO root fetch - processPackages [render-engine]: Remove: archive file [/home/abi/fetcher/tmp/render_engine-2023.7.4a2.tar.gz]
+[2023-07-18 04:14:28] INFO root fetch - processPackages [render-engine]: Remove: archive file [/home/abi/fetcher/tmp/render_engine-2023.7.4a3.tar.gz]
+[2023-07-18 04:14:28] INFO root fetch - main [MainThread]: End processing [render-engine]: success
+[2023-07-18 04:14:28] INFO root fetch - processPackages [edc-sites]: Remove: archive file [/home/abi/fetcher/tmp/edc-sites-0.3.8.tar.gz]
+[2023-07-18 04:14:28] INFO root fetch - processPackages [edc-sites]: Remove: archive file [/home/abi/fetcher/tmp/edc-sites-0.3.9.tar.gz]
+[2023-07-18 04:14:28] INFO root fetch - main [MainThread]: End processing [edc-sites]: success
+[2023-07-18 04:14:28] INFO root fetch - processPackages [emmet-core]: Downloading https://files.pythonhosted.org/packages/a8/71/fb3a5816288c941fd4a8039c02a612bdb6b1e002843cb9c029f1a4210aaa/emmet-core-0.9.3.tar.gz
+[2023-07-18 04:14:28] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.94.tar.gz]
+[2023-07-18 04:14:28] INFO root fetch - processPackages [emmet-core]: executing diffoscope
+[2023-07-18 04:14:28] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.95.tar.gz]
+[2023-07-18 04:14:28] INFO root fetch - processPackages [emmet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmet-core-0.9.2.tar.gz tmp/emmet-core-0.9.3.tar.gz --markdown 20230718/e/emmet-core/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-18 04:14:28] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-18 04:14:28] INFO root fetch - processPackages [httpackage]: Remove: archive file [/home/abi/fetcher/tmp/httpackage-1.0.0.tar.gz]
+[2023-07-18 04:14:28] INFO root fetch - processPackages [httpackage]: Remove: archive file [/home/abi/fetcher/tmp/httpackage-1.0.1.tar.gz]
+[2023-07-18 04:14:28] INFO root fetch - main [MainThread]: End processing [httpackage]: success
+[2023-07-18 04:14:28] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.8b0.tar.gz]
+[2023-07-18 04:14:28] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.9.tar.gz]
+[2023-07-18 04:14:28] INFO root fetch - main [MainThread]: End processing [Janex]: success
+[2023-07-18 04:14:29] INFO root fetch - processPackages [emmet-core]: Remove: archive file [/home/abi/fetcher/tmp/emmet-core-0.9.2.tar.gz]
+[2023-07-18 04:14:29] INFO root fetch - processPackages [emmet-core]: Remove: archive file [/home/abi/fetcher/tmp/emmet-core-0.9.3.tar.gz]
+[2023-07-18 04:14:29] INFO root fetch - main [MainThread]: End processing [emmet-core]: success
+[2023-07-18 04:14:29] INFO root fetch - main [MainThread]: Store serial: [18926913]
