@@ -16120,3 +16120,70 @@
 [2023-07-18 08:14:08] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230718.tar.gz]
 [2023-07-18 08:14:08] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-07-18 08:14:08] INFO root fetch - main [MainThread]: Store serial: [18929009]
+[2023-07-18 08:19:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18929009]
+[2023-07-18 08:19:18] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-18 08:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-game-collection
+[2023-07-18 08:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cudagrad
+[2023-07-18 08:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: StereoSiTE
+[2023-07-18 08:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ecmpy
+[2023-07-18 08:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: whttpcats
+[2023-07-18 08:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: BinPackerPro
+[2023-07-18 08:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-game-collection
+[2023-07-18 08:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: camminapy
+[2023-07-18 08:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: camminapy
+[2023-07-18 08:19:18] INFO root fetch - processPackages [camminapy]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-07-18 08:19:18] WARNING root fetch - processPackages [StereoSiTE]: Skipping, unable to determine old version
+[2023-07-18 08:19:18] INFO root fetch - processPackages [cudagrad]: New version: [0.0.2] Old Version: [0.0.19]
+[2023-07-18 08:19:18] INFO root fetch - main [MainThread]: End processing [StereoSiTE] error
+[2023-07-18 08:19:18] INFO root fetch - processPackages [ecmpy]: New version: [2.11] Old Version: [2.1]
+[2023-07-18 08:19:18] WARNING root fetch - processPackages [whttpcats]: Skipping, unable to determine old version
+[2023-07-18 08:19:18] INFO root fetch - main [MainThread]: End processing [whttpcats] error
+[2023-07-18 08:19:18] INFO root fetch - processPackages [BinPackerPro]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-18 08:19:18] INFO root fetch - processPackages [camminapy]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-07-18 08:19:18] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-07-18 08:19:18] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-07-18 08:19:18] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/51/fb/d907f05bab271d6408024397bb87d8e7e069ff91fa3152a09c37d0191aec/nonebot_plugin_game_collection-2.3.8.tar.gz
+[2023-07-18 08:19:19] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/51/fb/d907f05bab271d6408024397bb87d8e7e069ff91fa3152a09c37d0191aec/nonebot_plugin_game_collection-2.3.8.tar.gz
+[2023-07-18 08:19:19] INFO root fetch - processPackages [cudagrad]: Downloading https://files.pythonhosted.org/packages/0c/f8/a8ba87b8f238db0275b231b26b543cf15d647225ef48453fea453a9f7717/cudagrad-0.0.19.tar.gz
+[2023-07-18 08:19:19] INFO root fetch - processPackages [camminapy]: Downloading https://files.pythonhosted.org/packages/e0/c4/63d65d985ad378f0003e3f78e98f70d2c2392782d182a343786d1ecc8f09/camminapy-1.1.5.tar.gz
+[2023-07-18 08:19:19] INFO root fetch - processPackages [camminapy]: Downloading https://files.pythonhosted.org/packages/e0/c4/63d65d985ad378f0003e3f78e98f70d2c2392782d182a343786d1ecc8f09/camminapy-1.1.5.tar.gz
+[2023-07-18 08:19:19] INFO root fetch - processPackages [BinPackerPro]: Downloading https://files.pythonhosted.org/packages/b7/e7/78efc911ff33e9d061fe691cb232686b1ccc07453537990f7c527fc136aa/BinPackerPro-0.0.3.tar.gz
+[2023-07-18 08:19:19] INFO root fetch - processPackages [ecmpy]: Downloading https://files.pythonhosted.org/packages/06/43/0aa4993082c5f0829db2128adc7cdcbde505deda0584ae454ce223c548e3/ECMPY-2.1.tar.gz
+[2023-07-18 08:19:19] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/e4/94/777d03c2f9fbba4c5835c0178b82dffa9d6007ab381b752f81e9af32ff1e/nonebot_plugin_game_collection-2.3.9.tar.gz
+[2023-07-18 08:19:19] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-07-18 08:19:19] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.3.8.tar.gz tmp/nonebot_plugin_game_collection-2.3.9.tar.gz --markdown 20230718/n/nonebot-plugin-game-collection/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-07-18 08:19:19] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-07-18 08:19:19] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.3.8.tar.gz tmp/nonebot_plugin_game_collection-2.3.9.tar.gz --markdown 20230718/n/nonebot-plugin-game-collection/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-07-18 08:19:19] INFO root fetch - processPackages [cudagrad]: Downloading https://files.pythonhosted.org/packages/57/f3/d7e753c2890989b22f26afd14d0fb2833511f9831d32f97b4c5af670bf37/cudagrad-0.0.2.tar.gz
+[2023-07-18 08:19:19] INFO root fetch - processPackages [ecmpy]: Downloading https://files.pythonhosted.org/packages/09/6e/4e7b1ef720f098ddf2596ddb7405e3e74fc8e7b0ae2fbed581645be87f15/ecmpy-2.11.tar.gz
+[2023-07-18 08:19:19] INFO root fetch - processPackages [BinPackerPro]: Downloading https://files.pythonhosted.org/packages/f5/2f/aadcfdd7aba9e80866a6f9a201f07cd05cd1cd057ed991a8b9576b5ef996/BinPackerPro-0.0.4.tar.gz
+[2023-07-18 08:19:19] INFO root fetch - processPackages [camminapy]: Downloading https://files.pythonhosted.org/packages/6a/79/c8fcf43b61ccf4444b93b6bb7536506e189b7da2e6a731c3a36e36d0ec1b/camminapy-1.1.6.tar.gz
+[2023-07-18 08:19:19] INFO root fetch - processPackages [camminapy]: Downloading https://files.pythonhosted.org/packages/6a/79/c8fcf43b61ccf4444b93b6bb7536506e189b7da2e6a731c3a36e36d0ec1b/camminapy-1.1.6.tar.gz
+[2023-07-18 08:19:19] INFO root fetch - processPackages [ecmpy]: executing diffoscope
+[2023-07-18 08:19:19] INFO root fetch - processPackages [ecmpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ECMPY-2.1.tar.gz tmp/ecmpy-2.11.tar.gz --markdown 20230718/e/ecmpy/2.1-2.11/diff.md --exclude *.pyd
+[2023-07-18 08:19:19] INFO root fetch - processPackages [cudagrad]: executing diffoscope
+[2023-07-18 08:19:19] INFO root fetch - processPackages [cudagrad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cudagrad-0.0.19.tar.gz tmp/cudagrad-0.0.2.tar.gz --markdown 20230718/c/cudagrad/0.0.19-0.0.2/diff.md --exclude *.pyd
+[2023-07-18 08:19:19] INFO root fetch - processPackages [camminapy]: executing diffoscope
+[2023-07-18 08:19:19] INFO root fetch - processPackages [camminapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camminapy-1.1.5.tar.gz tmp/camminapy-1.1.6.tar.gz --markdown 20230718/c/camminapy/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-07-18 08:19:19] INFO root fetch - processPackages [camminapy]: executing diffoscope
+[2023-07-18 08:19:19] INFO root fetch - processPackages [camminapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camminapy-1.1.5.tar.gz tmp/camminapy-1.1.6.tar.gz --markdown 20230718/c/camminapy/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-07-18 08:19:19] INFO root fetch - processPackages [BinPackerPro]: executing diffoscope
+[2023-07-18 08:19:19] INFO root fetch - processPackages [BinPackerPro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BinPackerPro-0.0.3.tar.gz tmp/BinPackerPro-0.0.4.tar.gz --markdown 20230718/B/BinPackerPro/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-18 08:19:20] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.3.8.tar.gz]
+[2023-07-18 08:19:20] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.3.9.tar.gz]
+[2023-07-18 08:19:20] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-07-18 08:19:20] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-07-18 08:19:20] INFO root fetch - processPackages [ecmpy]: Remove: archive file [/home/abi/fetcher/tmp/ECMPY-2.1.tar.gz]
+[2023-07-18 08:19:20] INFO root fetch - processPackages [ecmpy]: Remove: archive file [/home/abi/fetcher/tmp/ecmpy-2.11.tar.gz]
+[2023-07-18 08:19:20] INFO root fetch - main [MainThread]: End processing [ecmpy]: success
+[2023-07-18 08:19:21] INFO root fetch - processPackages [cudagrad]: Remove: archive file [/home/abi/fetcher/tmp/cudagrad-0.0.19.tar.gz]
+[2023-07-18 08:19:21] INFO root fetch - processPackages [cudagrad]: Remove: archive file [/home/abi/fetcher/tmp/cudagrad-0.0.2.tar.gz]
+[2023-07-18 08:19:21] INFO root fetch - main [MainThread]: End processing [cudagrad]: success
+[2023-07-18 08:19:21] INFO root fetch - processPackages [camminapy]: Remove: archive file [/home/abi/fetcher/tmp/camminapy-1.1.5.tar.gz]
+[2023-07-18 08:19:21] INFO root fetch - processPackages [camminapy]: Remove: archive file [/home/abi/fetcher/tmp/camminapy-1.1.6.tar.gz]
+[2023-07-18 08:19:21] INFO root fetch - main [MainThread]: End processing [camminapy]: success
+[2023-07-18 08:19:21] INFO root fetch - main [MainThread]: End processing [camminapy]: success
+[2023-07-18 08:19:21] INFO root fetch - processPackages [BinPackerPro]: Remove: archive file [/home/abi/fetcher/tmp/BinPackerPro-0.0.3.tar.gz]
+[2023-07-18 08:19:21] INFO root fetch - processPackages [BinPackerPro]: Remove: archive file [/home/abi/fetcher/tmp/BinPackerPro-0.0.4.tar.gz]
+[2023-07-18 08:19:21] INFO root fetch - main [MainThread]: End processing [BinPackerPro]: success
+[2023-07-18 08:19:21] INFO root fetch - main [MainThread]: Store serial: [18929113]
