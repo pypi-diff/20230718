@@ -20900,3 +20900,192 @@ AssertionError: tmp/cellmap-1.0.1.dev202307180907-py3-none-any.whl.zip does not 
 [2023-07-18 11:46:10] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2023-07-18 11:46:10] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-07-18 11:46:10] INFO root fetch - main [MainThread]: Store serial: [18931129]
+[2023-07-18 11:51:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18931129]
+[2023-07-18 11:51:20] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-07-18 11:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: systembridgeconnector
+[2023-07-18 11:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: systembridgeshared
+[2023-07-18 11:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ckanext-query-dois
+[2023-07-18 11:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pysqream-blue
+[2023-07-18 11:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: storey
+[2023-07-18 11:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: exchangecurrency
+[2023-07-18 11:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odd-collector-sdk
+[2023-07-18 11:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kodexa-cli
+[2023-07-18 11:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: MeUtils
+[2023-07-18 11:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: edu-rdm-integration
+[2023-07-18 11:51:20] INFO root fetch - processPackages [edu-rdm-integration]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-18 11:51:20] WARNING root fetch - processPackages [exchangecurrency]: Skipping, unable to determine old version
+[2023-07-18 11:51:20] INFO root fetch - processPackages [exchangecurrency]: Start processing: systembridgebackend
+[2023-07-18 11:51:20] INFO root fetch - main [MainThread]: End processing [exchangecurrency] error
+[2023-07-18 11:51:20] INFO root fetch - processPackages [systembridgeshared]: New version: [3.8.0.dev4] Old Version: [3.8.0.dev3]
+[2023-07-18 11:51:20] INFO root fetch - processPackages [odd-collector-sdk]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-18 11:51:20] INFO root fetch - processPackages [kodexa-cli]: New version: [6.3.35585704685] Old Version: [6.2.25576633875]
+[2023-07-18 11:51:20] INFO root fetch - processPackages [pysqream-blue]: New version: [1.0.3] Old Version: [1.0.29]
+[2023-07-18 11:51:20] INFO root fetch - processPackages [MeUtils]: New version: [2023.7.7.15.3.6] Old Version: [2023.7.6.9.18.40]
+[2023-07-18 11:51:20] INFO root fetch - processPackages [edu-rdm-integration]: Downloading https://files.pythonhosted.org/packages/5b/6b/31003532b6a831ebe92cf0f82e1bf8695fc201653083d34aa17d71201a33/edu_rdm_integration-0.0.1.tar.gz
+[2023-07-18 11:51:20] INFO root fetch - processPackages [ckanext-query-dois]: New version: [4.0.0] Old Version: [3.0.5]
+[2023-07-18 11:51:20] INFO root fetch - processPackages [systembridgeshared]: Downloading https://files.pythonhosted.org/packages/64/03/887bcbc20670cd4dc3f4974ffb351a5be6cf3571f54e2034e2fdcf302de4/systembridgeshared-3.8.0.dev3.tar.gz
+[2023-07-18 11:51:20] INFO root fetch - processPackages [storey]: New version: [1.5.0] Old Version: [1.4.4]
+[2023-07-18 11:51:20] INFO root fetch - processPackages [odd-collector-sdk]: Downloading https://files.pythonhosted.org/packages/cf/ba/ce865f52258c39c0b1d62ee3998decaf12b77f41fc74cc29f739aef2418a/odd-collector-sdk-0.3.8.tar.gz
+[2023-07-18 11:51:20] INFO root fetch - processPackages [systembridgeconnector]: New version: [3.8.0.dev5] Old Version: [3.8.0.dev4]
+[2023-07-18 11:51:20] INFO root fetch - processPackages [systembridgebackend]: New version: [3.8.0.dev5] Old Version: [3.7.0.dev1]
+[2023-07-18 11:51:20] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/a4/77/63b123dbe2b10b2fea6f79c9e326e2618a82627100a160358df6674acd6b/kodexa_cli-6.2.25576633875.tar.gz
+[2023-07-18 11:51:20] INFO root fetch - processPackages [pysqream-blue]: Downloading https://files.pythonhosted.org/packages/6a/08/7362798006f0b17e0d0d89e05fb7c28bf10105b6ea080950e86cdf9dcdb3/pysqream-blue-1.0.29.tar.gz
+[2023-07-18 11:51:20] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/ec/e1/04eeeead1080b05d8eb65de67469ad24f4cdcfea4f50950ecac997b0d912/systembridgeconnector-3.8.0.dev4.tar.gz
+[2023-07-18 11:51:20] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/03/c2/0074fedd9218c4324bec9cdbb7bc5f7c2c839ea18d1079a715c0d495a660/MeUtils-2023.7.6.9.18.40.tar.gz
+[2023-07-18 11:51:20] INFO root fetch - processPackages [ckanext-query-dois]: Downloading https://files.pythonhosted.org/packages/94/6a/c63ec07f18642ee12e738dbb4bdd5aa42a3041cf38b0078bc61136e0ecfa/ckanext-query-dois-3.0.5.tar.gz
+[2023-07-18 11:51:20] INFO root fetch - processPackages [odd-collector-sdk]: Downloading https://files.pythonhosted.org/packages/b7/09/a072e072a86ba00164c8e4095f66211981ce5e1276abb17076ff23854b5d/odd_collector_sdk-0.3.9.tar.gz
+[2023-07-18 11:51:20] INFO root fetch - processPackages [systembridgebackend]: Downloading https://files.pythonhosted.org/packages/59/9a/b8afe65ffc2994c3a5b053262cc3d7072738e7008d27b4d7d1310294c3f7/systembridgebackend-3.7.0.dev1.tar.gz
+[2023-07-18 11:51:20] INFO root fetch - processPackages [storey]: Downloading https://files.pythonhosted.org/packages/08/4d/55f153158c3b25bc74e820c353a18194025291e8f574c028b3d7478c0673/storey-1.4.4.tar.gz
+[2023-07-18 11:51:21] INFO root fetch - processPackages [edu-rdm-integration]: Downloading https://files.pythonhosted.org/packages/6c/6f/a5e62c5d064772f227b4db62ede59ef4ba4f809c13a4e4bf0472b72a5140/edu_rdm_integration-0.1.0.tar.gz
+[2023-07-18 11:51:21] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/53/c1/66056490e3671467a6caf23c5cc0e23f80031845ec7429d6271897bb3757/kodexa_cli-6.3.35585704685.tar.gz
+[2023-07-18 11:51:21] INFO root fetch - processPackages [systembridgeshared]: Downloading https://files.pythonhosted.org/packages/25/53/c2edb2fadd9468c928b43d882aac5fe4f3d8c36042b4c57a49c343d0e2de/systembridgeshared-3.8.0.dev4.tar.gz
+[2023-07-18 11:51:21] INFO root fetch - processPackages [odd-collector-sdk]: executing diffoscope
+[2023-07-18 11:51:21] INFO root fetch - processPackages [odd-collector-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odd-collector-sdk-0.3.8.tar.gz tmp/odd_collector_sdk-0.3.9.tar.gz --markdown 20230718/o/odd-collector-sdk/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-18 11:51:21] INFO root fetch - processPackages [edu-rdm-integration]: executing diffoscope
+[2023-07-18 11:51:21] INFO root fetch - processPackages [edu-rdm-integration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edu_rdm_integration-0.0.1.tar.gz tmp/edu_rdm_integration-0.1.0.tar.gz --markdown 20230718/e/edu-rdm-integration/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-18 11:51:21] INFO root fetch - processPackages [pysqream-blue]: Downloading https://files.pythonhosted.org/packages/07/8a/1682c765da1564d49da4144b4c5ce03bac1d60c0379d33a352c682c9ab4c/pysqream-blue-1.0.3.tar.gz
+[2023-07-18 11:51:21] INFO root fetch - processPackages [kodexa-cli]: executing diffoscope
+[2023-07-18 11:51:21] INFO root fetch - processPackages [kodexa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa_cli-6.2.25576633875.tar.gz tmp/kodexa_cli-6.3.35585704685.tar.gz --markdown 20230718/k/kodexa-cli/6.2.25576633875-6.3.35585704685/diff.md --exclude *.pyd
+[2023-07-18 11:51:21] INFO root fetch - processPackages [systembridgeshared]: executing diffoscope
+[2023-07-18 11:51:21] INFO root fetch - processPackages [systembridgeshared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeshared-3.8.0.dev3.tar.gz tmp/systembridgeshared-3.8.0.dev4.tar.gz --markdown 20230718/s/systembridgeshared/3.8.0.dev3-3.8.0.dev4/diff.md --exclude *.pyd
+[2023-07-18 11:51:21] INFO root fetch - processPackages [storey]: Downloading https://files.pythonhosted.org/packages/49/31/12a099311119718cf7abf6d3caf97362c1ab596795e309e850b8b411c55e/storey-1.5.0.tar.gz
+[2023-07-18 11:51:21] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/66/54/8bf1d7cea9c56e4a9a14465943037c6eb84c6c166d5e1879836a1661a3a5/systembridgeconnector-3.8.0.dev5.tar.gz
+[2023-07-18 11:51:21] INFO root fetch - processPackages [ckanext-query-dois]: Downloading https://files.pythonhosted.org/packages/81/c6/c6d73325012a69c3f4fac318b5eab6e7311eba187488177ec219d3eac89d/ckanext-query-dois-4.0.0.tar.gz
+[2023-07-18 11:51:21] INFO root fetch - processPackages [systembridgebackend]: Downloading https://files.pythonhosted.org/packages/78/b1/941487fb324f6ecee01066c950515e5f9501a279626db56753490360e59d/systembridgebackend-3.8.0.dev5.tar.gz
+[2023-07-18 11:51:21] INFO root fetch - processPackages [pysqream-blue]: executing diffoscope
+[2023-07-18 11:51:21] INFO root fetch - processPackages [pysqream-blue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysqream-blue-1.0.29.tar.gz tmp/pysqream-blue-1.0.3.tar.gz --markdown 20230718/p/pysqream-blue/1.0.29-1.0.3/diff.md --exclude *.pyd
+[2023-07-18 11:51:21] INFO root fetch - processPackages [systembridgeconnector]: executing diffoscope
+[2023-07-18 11:51:21] INFO root fetch - processPackages [systembridgeconnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeconnector-3.8.0.dev4.tar.gz tmp/systembridgeconnector-3.8.0.dev5.tar.gz --markdown 20230718/s/systembridgeconnector/3.8.0.dev4-3.8.0.dev5/diff.md --exclude *.pyd
+[2023-07-18 11:51:21] INFO root fetch - processPackages [storey]: executing diffoscope
+[2023-07-18 11:51:21] INFO root fetch - processPackages [storey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storey-1.4.4.tar.gz tmp/storey-1.5.0.tar.gz --markdown 20230718/s/storey/1.4.4-1.5.0/diff.md --exclude *.pyd
+[2023-07-18 11:51:21] INFO root fetch - processPackages [ckanext-query-dois]: executing diffoscope
+[2023-07-18 11:51:21] INFO root fetch - processPackages [ckanext-query-dois]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-query-dois-3.0.5.tar.gz tmp/ckanext-query-dois-4.0.0.tar.gz --markdown 20230718/c/ckanext-query-dois/3.0.5-4.0.0/diff.md --exclude *.pyd
+[2023-07-18 11:51:21] INFO root fetch - processPackages [systembridgebackend]: executing diffoscope
+[2023-07-18 11:51:21] INFO root fetch - processPackages [systembridgebackend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgebackend-3.7.0.dev1.tar.gz tmp/systembridgebackend-3.8.0.dev5.tar.gz --markdown 20230718/s/systembridgebackend/3.7.0.dev1-3.8.0.dev5/diff.md --exclude *.pyd
+[2023-07-18 11:51:22] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/1e/99/2f228a790c6fc15f93482f3f0fa7bbad95d15d6e0aa883c7919fe4a66c95/MeUtils-2023.7.7.15.3.6.tar.gz
+[2023-07-18 11:51:23] INFO root fetch - processPackages [odd-collector-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odd-collector-sdk-0.3.8.tar.gz]
+[2023-07-18 11:51:23] INFO root fetch - processPackages [odd-collector-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odd_collector_sdk-0.3.9.tar.gz]
+[2023-07-18 11:51:23] INFO root fetch - processPackages [odd-collector-sdk]: Start processing: mysqlx
+[2023-07-18 11:51:23] INFO root fetch - main [MainThread]: End processing [odd-collector-sdk]: success
+[2023-07-18 11:51:23] INFO root fetch - processPackages [mysqlx]: New version: [1.5.5] Old Version: [1.5.4]
+[2023-07-18 11:51:23] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-07-18 11:51:23] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.7.6.9.18.40.tar.gz tmp/MeUtils-2023.7.7.15.3.6.tar.gz --markdown 20230718/M/MeUtils/2023.7.6.9.18.40-2023.7.7.15.3.6/diff.md --exclude *.pyd
+[2023-07-18 11:51:23] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-6.2.25576633875.tar.gz]
+[2023-07-18 11:51:23] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-6.3.35585704685.tar.gz]
+[2023-07-18 11:51:23] INFO root fetch - processPackages [kodexa-cli]: Start processing: TextClassification
+[2023-07-18 11:51:23] INFO root fetch - main [MainThread]: End processing [kodexa-cli]: success
+[2023-07-18 11:51:23] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/dd/cb/59ad5edeb58f9795fb2d0f0f74ecb27b96fcb841bf2249f4d67fcc84422a/mysqlx-1.5.4.tar.gz
+[2023-07-18 11:51:23] INFO root fetch - processPackages [TextClassification]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-18 11:51:23] INFO root fetch - processPackages [TextClassification]: Downloading https://files.pythonhosted.org/packages/88/96/d3112d974e2afeafa0039bd47aab416cbe733daf5a10eb06ee48628aeb03/TextClassification-0.2.2-py2.py3-none-any.whl
+[2023-07-18 11:51:23] INFO root fetch - processPackages [systembridgeshared]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeshared-3.8.0.dev3.tar.gz]
+[2023-07-18 11:51:23] INFO root fetch - processPackages [systembridgeshared]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeshared-3.8.0.dev4.tar.gz]
+[2023-07-18 11:51:23] INFO root fetch - processPackages [systembridgeshared]: Start processing: systembridgecli
+[2023-07-18 11:51:23] INFO root fetch - main [MainThread]: End processing [systembridgeshared]: success
+[2023-07-18 11:51:24] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/de/b0/9be10397cb6ea97c246af481b042df3a8ac346b9fd8e425ed14fd09bea79/mysqlx-1.5.5.tar.gz
+[2023-07-18 11:51:24] INFO root fetch - processPackages [pysqream-blue]: Remove: archive file [/home/abi/fetcher/tmp/pysqream-blue-1.0.29.tar.gz]
+[2023-07-18 11:51:24] INFO root fetch - processPackages [pysqream-blue]: Remove: archive file [/home/abi/fetcher/tmp/pysqream-blue-1.0.3.tar.gz]
+[2023-07-18 11:51:24] INFO root fetch - processPackages [pysqream-blue]: Start processing: collision-warning-service
+[2023-07-18 11:51:24] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-3.8.0.dev4.tar.gz]
+[2023-07-18 11:51:24] INFO root fetch - main [MainThread]: End processing [pysqream-blue]: success
+[2023-07-18 11:51:24] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-3.8.0.dev5.tar.gz]
+[2023-07-18 11:51:24] INFO root fetch - processPackages [systembridgeconnector]: Start processing: hyko-sdk
+[2023-07-18 11:51:24] INFO root fetch - main [MainThread]: End processing [systembridgeconnector]: success
+[2023-07-18 11:51:24] INFO root fetch - processPackages [systembridgecli]: New version: [3.8.0.dev5] Old Version: [3.7.0.dev1]
+[2023-07-18 11:51:24] INFO root fetch - processPackages [edu-rdm-integration]: Remove: archive file [/home/abi/fetcher/tmp/edu_rdm_integration-0.0.1.tar.gz]
+[2023-07-18 11:51:24] INFO root fetch - processPackages [edu-rdm-integration]: Remove: archive file [/home/abi/fetcher/tmp/edu_rdm_integration-0.1.0.tar.gz]
+[2023-07-18 11:51:24] INFO root fetch - processPackages [edu-rdm-integration]: Start processing: systembridgefrontend
+[2023-07-18 11:51:24] INFO root fetch - main [MainThread]: End processing [edu-rdm-integration]: success
+[2023-07-18 11:51:24] INFO root fetch - processPackages [hyko-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-18 11:51:24] WARNING root fetch - processPackages [collision-warning-service]: Skipping, unable to determine old version
+[2023-07-18 11:51:24] INFO root fetch - processPackages [collision-warning-service]: Start processing: clickhouse-connect
+[2023-07-18 11:51:24] INFO root fetch - main [MainThread]: End processing [collision-warning-service] error
+[2023-07-18 11:51:24] INFO root fetch - processPackages [mysqlx]: executing diffoscope
+[2023-07-18 11:51:24] INFO root fetch - processPackages [mysqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlx-1.5.4.tar.gz tmp/mysqlx-1.5.5.tar.gz --markdown 20230718/m/mysqlx/1.5.4-1.5.5/diff.md --exclude *.pyd
+[2023-07-18 11:51:24] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/f8/1b/02137db3d93571c0867cacae818eb8136e59f81d7b8eeee650eb74521728/hyko_sdk-0.1.8.tar.gz
+[2023-07-18 11:51:24] INFO root fetch - processPackages [systembridgefrontend]: New version: [3.8.0.dev5] Old Version: [3.7.0.dev1]
+[2023-07-18 11:51:24] INFO root fetch - processPackages [TextClassification]: Downloading https://files.pythonhosted.org/packages/4b/4a/f35a887342677460a2c4a7e4b12e8de05c31a3168dd2bc5d3d14ccae9ce5/TextClassification-0.2.3-py2.py3-none-any.whl
+[2023-07-18 11:51:24] INFO root fetch - processPackages [clickhouse-connect]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-07-18 11:51:24] INFO root fetch - processPackages [systembridgebackend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgebackend-3.7.0.dev1.tar.gz]
+[2023-07-18 11:51:24] INFO root fetch - processPackages [systembridgebackend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgebackend-3.8.0.dev5.tar.gz]
+[2023-07-18 11:51:24] INFO root fetch - processPackages [systembridgebackend]: Start processing: energinet-ml-sdk
+[2023-07-18 11:51:24] INFO root fetch - main [MainThread]: End processing [systembridgebackend]: success
+[2023-07-18 11:51:24] INFO root fetch - processPackages [systembridgecli]: Downloading https://files.pythonhosted.org/packages/97/6b/b594c33b5cc902fdf97d11006034cf48f896262fe5c3389cad1a84a87b9e/systembridgecli-3.7.0.dev1.tar.gz
+[2023-07-18 11:51:24] INFO root fetch - processPackages [ckanext-query-dois]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-query-dois-3.0.5.tar.gz]
+[2023-07-18 11:51:24] INFO root fetch - processPackages [ckanext-query-dois]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-query-dois-4.0.0.tar.gz]
+[2023-07-18 11:51:24] INFO root fetch - processPackages [ckanext-query-dois]: Start processing: grain-scheduler
+[2023-07-18 11:51:24] INFO root fetch - main [MainThread]: End processing [ckanext-query-dois]: success
+[2023-07-18 11:51:24] INFO root fetch - processPackages [TextClassification]: executing diffoscope
+[2023-07-18 11:51:24] INFO root fetch - processPackages [TextClassification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TextClassification-0.2.2-py2.py3-none-any.whl.zip tmp/TextClassification-0.2.3-py2.py3-none-any.whl.zip --markdown 20230718/T/TextClassification/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-18 11:51:24] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/18/dd/0fc13fe8ada91f69ab17997d640fbdeff420217e7e2dc38f5e85178a4187/hyko_sdk-0.1.9.tar.gz
+[2023-07-18 11:51:24] INFO root fetch - processPackages [storey]: Remove: archive file [/home/abi/fetcher/tmp/storey-1.4.4.tar.gz]
+[2023-07-18 11:51:24] INFO root fetch - processPackages [storey]: Remove: archive file [/home/abi/fetcher/tmp/storey-1.5.0.tar.gz]
+[2023-07-18 11:51:24] INFO root fetch - processPackages [storey]: Start processing: crawler-commons
+[2023-07-18 11:51:24] INFO root fetch - main [MainThread]: End processing [storey]: success
+[2023-07-18 11:51:24] INFO root fetch - processPackages [energinet-ml-sdk]: New version: [1.0.1.dev28] Old Version: [1.0.1.dev27]
+[2023-07-18 11:51:24] INFO root fetch - processPackages [grain-scheduler]: New version: [0.17.0b3] Old Version: [0.17.0b2]
+[2023-07-18 11:51:24] INFO root fetch - processPackages [systembridgefrontend]: Downloading https://files.pythonhosted.org/packages/b8/44/944aad46fa3d13a9af1dbe308ffc45f092fa6113d6b8044265695820a80b/systembridgefrontend-3.7.0.dev1.tar.gz
+[2023-07-18 11:51:24] INFO root fetch - processPackages [clickhouse-connect]: Downloading https://files.pythonhosted.org/packages/08/83/dc12ad3f53fef01c7bbf1aa408242996c6924844f57a8444905069f71dd6/clickhouse-connect-0.6.5.tar.gz
+[2023-07-18 11:51:24] INFO root fetch - processPackages [hyko-sdk]: executing diffoscope
+[2023-07-18 11:51:24] INFO root fetch - processPackages [hyko-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyko_sdk-0.1.8.tar.gz tmp/hyko_sdk-0.1.9.tar.gz --markdown 20230718/h/hyko-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-18 11:51:24] INFO root fetch - processPackages [crawler-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 11:51:24] INFO root fetch - processPackages [energinet-ml-sdk]: Downloading https://files.pythonhosted.org/packages/f0/36/7173e955b83c95e048d4cbda40649620d6eb282279149aaa8cd5b6da29ef/energinet-ml-sdk-1.0.1.dev27.tar.gz
+[2023-07-18 11:51:25] INFO root fetch - processPackages [grain-scheduler]: Downloading https://files.pythonhosted.org/packages/2f/f8/d0dc711e80c7b6def65acc9b9dce931028cbf731ffa2db63de3ece0f073a/grain-scheduler-0.17.0b2.tar.gz
+[2023-07-18 11:51:25] INFO root fetch - processPackages [systembridgecli]: Downloading https://files.pythonhosted.org/packages/15/25/4f5aa9826feb8b91c8ebe697fbc43b6ef51a4289c2d98953d7e0dc6c891a/systembridgecli-3.8.0.dev5.tar.gz
+[2023-07-18 11:51:25] INFO root fetch - processPackages [crawler-commons]: Downloading https://files.pythonhosted.org/packages/2d/53/7939e5ae570216f0e01d8177aeb1bdac12c7dfa6ac9c215299c04c86a0b3/crawler_commons-0.0.8.tar.gz
+[2023-07-18 11:51:25] INFO root fetch - processPackages [systembridgecli]: executing diffoscope
+[2023-07-18 11:51:25] INFO root fetch - processPackages [systembridgecli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgecli-3.7.0.dev1.tar.gz tmp/systembridgecli-3.8.0.dev5.tar.gz --markdown 20230718/s/systembridgecli/3.7.0.dev1-3.8.0.dev5/diff.md --exclude *.pyd
+[2023-07-18 11:51:25] INFO root fetch - processPackages [systembridgefrontend]: Downloading https://files.pythonhosted.org/packages/bd/70/fc06c8b6f13e872ea3d4739b6b2357d685182db995b0a49bec10ebd5c7bb/systembridgefrontend-3.8.0.dev5.tar.gz
+[2023-07-18 11:51:25] INFO root fetch - processPackages [clickhouse-connect]: Downloading https://files.pythonhosted.org/packages/f3/32/75bac242cb7501903f6e5b4db674c17ccff0ca8401fa35c8d6acd2f439bb/clickhouse-connect-0.6.6.tar.gz
+[2023-07-18 11:51:25] INFO root fetch - processPackages [energinet-ml-sdk]: Downloading https://files.pythonhosted.org/packages/8a/04/4e1e3bd9550dd3231e82affc8482b0522b0741e58a0a8cbe238996c3a5ae/energinet-ml-sdk-1.0.1.dev28.tar.gz
+[2023-07-18 11:51:25] INFO root fetch - processPackages [clickhouse-connect]: executing diffoscope
+[2023-07-18 11:51:25] INFO root fetch - processPackages [clickhouse-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickhouse-connect-0.6.5.tar.gz tmp/clickhouse-connect-0.6.6.tar.gz --markdown 20230718/c/clickhouse-connect/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-07-18 11:51:25] INFO root fetch - processPackages [systembridgefrontend]: executing diffoscope
+[2023-07-18 11:51:25] INFO root fetch - processPackages [systembridgefrontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgefrontend-3.7.0.dev1.tar.gz tmp/systembridgefrontend-3.8.0.dev5.tar.gz --markdown 20230718/s/systembridgefrontend/3.7.0.dev1-3.8.0.dev5/diff.md --exclude *.pyd
+[2023-07-18 11:51:25] INFO root fetch - processPackages [grain-scheduler]: Downloading https://files.pythonhosted.org/packages/f4/f5/5ca4042ccbdfffed16511daf287cbf6ba6946d08dd6c53435e57801df03e/grain-scheduler-0.17.0b3.tar.gz
+[2023-07-18 11:51:25] INFO root fetch - processPackages [crawler-commons]: Downloading https://files.pythonhosted.org/packages/17/64/0de4dc4cd35a5e4bad7d4eb298d80b0a4c024c3ce105050b75c06d9668d1/crawler_commons-0.0.9.tar.gz
+[2023-07-18 11:51:25] INFO root fetch - processPackages [energinet-ml-sdk]: executing diffoscope
+[2023-07-18 11:51:25] INFO root fetch - processPackages [energinet-ml-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energinet-ml-sdk-1.0.1.dev27.tar.gz tmp/energinet-ml-sdk-1.0.1.dev28.tar.gz --markdown 20230718/e/energinet-ml-sdk/1.0.1.dev27-1.0.1.dev28/diff.md --exclude *.pyd
+[2023-07-18 11:51:25] INFO root fetch - processPackages [crawler-commons]: executing diffoscope
+[2023-07-18 11:51:25] INFO root fetch - processPackages [crawler-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawler_commons-0.0.8.tar.gz tmp/crawler_commons-0.0.9.tar.gz --markdown 20230718/c/crawler-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 11:51:26] INFO root fetch - processPackages [grain-scheduler]: executing diffoscope
+[2023-07-18 11:51:26] INFO root fetch - processPackages [grain-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grain-scheduler-0.17.0b2.tar.gz tmp/grain-scheduler-0.17.0b3.tar.gz --markdown 20230718/g/grain-scheduler/0.17.0b2-0.17.0b3/diff.md --exclude *.pyd
+[2023-07-18 11:51:26] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.5.4.tar.gz]
+[2023-07-18 11:51:26] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.5.5.tar.gz]
+[2023-07-18 11:51:26] INFO root fetch - processPackages [mysqlx]: Start processing: QRcodeTracking
+[2023-07-18 11:51:26] INFO root fetch - main [MainThread]: End processing [mysqlx]: success
+[2023-07-18 11:51:26] INFO root fetch - processPackages [QRcodeTracking]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-18 11:51:26] INFO root fetch - processPackages [TextClassification]: Remove: archive file [/home/abi/fetcher/tmp/TextClassification-0.2.2-py2.py3-none-any.whl.zip]
+[2023-07-18 11:51:26] INFO root fetch - processPackages [TextClassification]: Remove: archive file [/home/abi/fetcher/tmp/TextClassification-0.2.3-py2.py3-none-any.whl.zip]
+[2023-07-18 11:51:26] INFO root fetch - main [MainThread]: End processing [TextClassification]: success
+[2023-07-18 11:51:26] INFO root fetch - processPackages [QRcodeTracking]: Downloading https://files.pythonhosted.org/packages/fc/a3/de6b789f12db8a05b555d439e62a1a11f75d0efd6fc2d9bf8182b301f0dd/QRcodeTracking-0.1.4.tar.gz
+[2023-07-18 11:51:26] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.8.tar.gz]
+[2023-07-18 11:51:26] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.9.tar.gz]
+[2023-07-18 11:51:26] INFO root fetch - main [MainThread]: End processing [hyko-sdk]: success
+[2023-07-18 11:51:26] INFO root fetch - processPackages [QRcodeTracking]: Downloading https://files.pythonhosted.org/packages/a0/be/86425ec50b5b469413178250d678ca4bf3197fbacb683e45838e5ea9b9f6/QRcodeTracking-0.1.5.tar.gz
+[2023-07-18 11:51:26] INFO root fetch - processPackages [QRcodeTracking]: executing diffoscope
+[2023-07-18 11:51:26] INFO root fetch - processPackages [QRcodeTracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QRcodeTracking-0.1.4.tar.gz tmp/QRcodeTracking-0.1.5.tar.gz --markdown 20230718/Q/QRcodeTracking/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-18 11:51:27] INFO root fetch - processPackages [systembridgecli]: Remove: archive file [/home/abi/fetcher/tmp/systembridgecli-3.7.0.dev1.tar.gz]
+[2023-07-18 11:51:27] INFO root fetch - processPackages [systembridgecli]: Remove: archive file [/home/abi/fetcher/tmp/systembridgecli-3.8.0.dev5.tar.gz]
+[2023-07-18 11:51:27] INFO root fetch - main [MainThread]: End processing [systembridgecli]: success
+[2023-07-18 11:51:27] INFO root fetch - processPackages [crawler-commons]: Remove: archive file [/home/abi/fetcher/tmp/crawler_commons-0.0.8.tar.gz]
+[2023-07-18 11:51:27] INFO root fetch - processPackages [crawler-commons]: Remove: archive file [/home/abi/fetcher/tmp/crawler_commons-0.0.9.tar.gz]
+[2023-07-18 11:51:27] INFO root fetch - main [MainThread]: End processing [crawler-commons]: success
+[2023-07-18 11:51:27] INFO root fetch - processPackages [clickhouse-connect]: Remove: archive file [/home/abi/fetcher/tmp/clickhouse-connect-0.6.5.tar.gz]
+[2023-07-18 11:51:27] INFO root fetch - processPackages [clickhouse-connect]: Remove: archive file [/home/abi/fetcher/tmp/clickhouse-connect-0.6.6.tar.gz]
+[2023-07-18 11:51:27] INFO root fetch - main [MainThread]: End processing [clickhouse-connect]: success
+[2023-07-18 11:51:27] INFO root fetch - processPackages [energinet-ml-sdk]: Remove: archive file [/home/abi/fetcher/tmp/energinet-ml-sdk-1.0.1.dev27.tar.gz]
+[2023-07-18 11:51:27] INFO root fetch - processPackages [energinet-ml-sdk]: Remove: archive file [/home/abi/fetcher/tmp/energinet-ml-sdk-1.0.1.dev28.tar.gz]
+[2023-07-18 11:51:28] INFO root fetch - main [MainThread]: End processing [energinet-ml-sdk]: success
+[2023-07-18 11:51:28] INFO root fetch - processPackages [grain-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/grain-scheduler-0.17.0b2.tar.gz]
+[2023-07-18 11:51:28] INFO root fetch - processPackages [grain-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/grain-scheduler-0.17.0b3.tar.gz]
+[2023-07-18 11:51:28] INFO root fetch - main [MainThread]: End processing [grain-scheduler]: success
+[2023-07-18 11:51:28] INFO root fetch - processPackages [QRcodeTracking]: Remove: archive file [/home/abi/fetcher/tmp/QRcodeTracking-0.1.4.tar.gz]
+[2023-07-18 11:51:28] INFO root fetch - processPackages [QRcodeTracking]: Remove: archive file [/home/abi/fetcher/tmp/QRcodeTracking-0.1.5.tar.gz]
+[2023-07-18 11:51:28] INFO root fetch - main [MainThread]: End processing [QRcodeTracking]: success
+[2023-07-18 11:51:29] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.6.9.18.40.tar.gz]
+[2023-07-18 11:51:29] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.7.15.3.6.tar.gz]
+[2023-07-18 11:51:29] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-07-18 11:51:41] INFO root fetch - processPackages [systembridgefrontend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgefrontend-3.7.0.dev1.tar.gz]
+[2023-07-18 11:51:41] INFO root fetch - processPackages [systembridgefrontend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgefrontend-3.8.0.dev5.tar.gz]
+[2023-07-18 11:51:41] INFO root fetch - main [MainThread]: End processing [systembridgefrontend]: success
+[2023-07-18 11:51:41] INFO root fetch - main [MainThread]: Store serial: [18931239]
