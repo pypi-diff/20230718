@@ -16021,3 +16021,102 @@
 [2023-07-18 08:08:53] INFO root fetch - processPackages [festo-edcon]: Remove: archive file [/home/abi/fetcher/tmp/festo_edcon-0.9.0-py3-none-any.whl.zip]
 [2023-07-18 08:08:53] INFO root fetch - main [MainThread]: End processing [festo-edcon]: success
 [2023-07-18 08:08:53] INFO root fetch - main [MainThread]: Store serial: [18928950]
+[2023-07-18 08:13:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18928950]
+[2023-07-18 08:14:02] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-18 08:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: educommon
+[2023-07-18 08:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cudagrad
+[2023-07-18 08:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gs2
+[2023-07-18 08:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: linkedin-messaging
+[2023-07-18 08:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PSIcheck
+[2023-07-18 08:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zhousf-lib
+[2023-07-18 08:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: agsconfig
+[2023-07-18 08:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Akatosh
+[2023-07-18 08:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyg-nightly
+[2023-07-18 08:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: datumaro
+[2023-07-18 08:14:02] INFO root fetch - processPackages [educommon]: New version: [2.20.0] Old Version: [2.19.3]
+[2023-07-18 08:14:02] INFO root fetch - processPackages [agsconfig]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-18 08:14:02] INFO root fetch - processPackages [linkedin-messaging]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-07-18 08:14:02] INFO root fetch - processPackages [cudagrad]: New version: [0.0.2] Old Version: [0.0.18]
+[2023-07-18 08:14:02] WARNING root fetch - processPackages [PSIcheck]: Skipping, unable to determine old version
+[2023-07-18 08:14:02] INFO root fetch - processPackages [gs2]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-18 08:14:02] INFO root fetch - processPackages [PSIcheck]: Start processing: busrt-worker
+[2023-07-18 08:14:02] INFO root fetch - main [MainThread]: End processing [PSIcheck] error
+[2023-07-18 08:14:02] INFO root fetch - processPackages [datumaro]: New version: [1.4.0rc3] Old Version: [1.4.0rc2]
+[2023-07-18 08:14:02] INFO root fetch - processPackages [zhousf-lib]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-07-18 08:14:02] INFO root fetch - processPackages [Akatosh]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-07-18 08:14:03] WARNING root fetch - processPackages [busrt-worker]: Skipping, unable to determine old version
+[2023-07-18 08:14:03] INFO root fetch - processPackages [busrt-worker]: Start processing: pewlib
+[2023-07-18 08:14:03] INFO root fetch - main [MainThread]: End processing [busrt-worker] error
+[2023-07-18 08:14:03] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230718] Old Version: [2.4.0.dev20230717]
+[2023-07-18 08:14:03] INFO root fetch - processPackages [Akatosh]: Downloading https://files.pythonhosted.org/packages/00/a5/894e5fd2d686b1067373635a6c2c35ad52e7e4125f35025111710c2c0342/Akatosh-2.1.4.tar.gz
+[2023-07-18 08:14:03] INFO root fetch - processPackages [pewlib]: New version: [0.8.0] Old Version: [0.7.3]
+[2023-07-18 08:14:03] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/1c/c3/986dcc04576db2c39dcc3704f5f971883c55cdeb8abfef99bba2d963eabf/zhousf-lib-0.8.5.tar.gz
+[2023-07-18 08:14:03] INFO root fetch - processPackages [educommon]: Downloading https://files.pythonhosted.org/packages/2f/e9/195900121b02425854c152b37d45b67f45c65be55ee0ee1f4ae4b9e56c14/educommon-2.19.3.tar.gz
+[2023-07-18 08:14:03] INFO root fetch - processPackages [agsconfig]: Downloading https://files.pythonhosted.org/packages/fe/91/f3fa01e840cacd5b0af913885403418bc6778d687a03c0d224bba4e267a3/agsconfig-0.2.7-py2.py3-none-any.whl
+[2023-07-18 08:14:03] INFO root fetch - processPackages [cudagrad]: Downloading https://files.pythonhosted.org/packages/f8/b8/06beb570414902ab1d5eb05aa8729b209cde484553d8c1f4c9ed09a9b737/cudagrad-0.0.18.tar.gz
+[2023-07-18 08:14:03] INFO root fetch - processPackages [linkedin-messaging]: Downloading https://files.pythonhosted.org/packages/e8/d3/d66909cc38ba25f8194a155db5ef7167c30efe2ba7192f4136351e03b007/linkedin-messaging-0.5.6.tar.gz
+[2023-07-18 08:14:03] INFO root fetch - processPackages [gs2]: Downloading https://files.pythonhosted.org/packages/f4/b1/13ed585befcfa8c69b52af73acb96e39e14f443b95942ebcb9c4e9c2db0e/gs2-1.1.8.tar.gz
+[2023-07-18 08:14:03] INFO root fetch - processPackages [datumaro]: Downloading https://files.pythonhosted.org/packages/6b/29/ab237e978faa1619a5d8a6fe03b34ec11218e555e9b111c38fb64c28cc28/datumaro-1.4.0rc2.tar.gz
+[2023-07-18 08:14:03] INFO root fetch - processPackages [pewlib]: Downloading https://files.pythonhosted.org/packages/3c/48/7b26a4a0333e7d70e2ead7948f94c4991a6189f0003004d5ce6def27e255/pewlib-0.7.3.tar.gz
+[2023-07-18 08:14:03] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/36/bd/1dc0d56d15af90874705a45d0118c6c52a796bbe86f8983f6116b353423d/pyg_nightly-2.4.0.dev20230717.tar.gz
+[2023-07-18 08:14:03] INFO root fetch - processPackages [Akatosh]: Downloading https://files.pythonhosted.org/packages/16/88/12627c0085f6d77b39beb33adb6fc1a39c6311e5d21e30c8b400903d9635/Akatosh-2.1.5.tar.gz
+[2023-07-18 08:14:03] INFO root fetch - processPackages [agsconfig]: Downloading https://files.pythonhosted.org/packages/ef/df/d242efbfc596f528e3cdf514db29a47badbb6d900cda4119668871ae0bbd/agsconfig-0.2.8-py2.py3-none-any.whl
+[2023-07-18 08:14:03] INFO root fetch - processPackages [cudagrad]: Downloading https://files.pythonhosted.org/packages/57/f3/d7e753c2890989b22f26afd14d0fb2833511f9831d32f97b4c5af670bf37/cudagrad-0.0.2.tar.gz
+[2023-07-18 08:14:03] INFO root fetch - processPackages [Akatosh]: executing diffoscope
+[2023-07-18 08:14:03] INFO root fetch - processPackages [Akatosh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Akatosh-2.1.4.tar.gz tmp/Akatosh-2.1.5.tar.gz --markdown 20230718/A/Akatosh/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2023-07-18 08:14:03] INFO root fetch - processPackages [pewlib]: Downloading https://files.pythonhosted.org/packages/d5/66/9b48a196124f925665dd4edfe9caf97fccee8cd461f266c85b6ff8f8b961/pewlib-0.8.0.tar.gz
+[2023-07-18 08:14:03] INFO root fetch - processPackages [datumaro]: Downloading https://files.pythonhosted.org/packages/0e/f0/53640e9c8b55c3fa91048ee888b5c59a20cda67628df1857e829e1a8eb3b/datumaro-1.4.0rc3.tar.gz
+[2023-07-18 08:14:03] INFO root fetch - processPackages [linkedin-messaging]: Downloading https://files.pythonhosted.org/packages/90/83/76635cecb1fea461f4f1a4e3150849c418d6bd1f11ebfcb085f99a47ba5f/linkedin_messaging-0.5.7.tar.gz
+[2023-07-18 08:14:03] INFO root fetch - processPackages [cudagrad]: executing diffoscope
+[2023-07-18 08:14:03] INFO root fetch - processPackages [cudagrad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cudagrad-0.0.18.tar.gz tmp/cudagrad-0.0.2.tar.gz --markdown 20230718/c/cudagrad/0.0.18-0.0.2/diff.md --exclude *.pyd
+[2023-07-18 08:14:03] INFO root fetch - processPackages [agsconfig]: executing diffoscope
+[2023-07-18 08:14:03] INFO root fetch - processPackages [agsconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agsconfig-0.2.7-py2.py3-none-any.whl.zip tmp/agsconfig-0.2.8-py2.py3-none-any.whl.zip --markdown 20230718/a/agsconfig/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-18 08:14:03] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/c1/5e/6250db2e30061578f191664b52364502c8fc665e635589e8013505a94730/zhousf-lib-0.8.6.tar.gz
+[2023-07-18 08:14:03] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/1c/04/ac0dc378548017e96989e753a81ef77c333df8e58310695118e0c1cf72e4/pyg_nightly-2.4.0.dev20230718.tar.gz
+[2023-07-18 08:14:04] INFO root fetch - processPackages [gs2]: Downloading https://files.pythonhosted.org/packages/9e/ad/b84dd85efc1650d47b3308d729fd537f26fee338fdb19a43c7a243d07107/gs2-1.1.9.tar.gz
+[2023-07-18 08:14:04] INFO root fetch - processPackages [educommon]: Downloading https://files.pythonhosted.org/packages/c0/6e/ab1b1576ae1d8ecad39a1bf4819351b018908e7a4734aae9dc175fbdd769/educommon-2.20.0.tar.gz
+[2023-07-18 08:14:04] INFO root fetch - processPackages [pewlib]: executing diffoscope
+[2023-07-18 08:14:04] INFO root fetch - processPackages [pewlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pewlib-0.7.3.tar.gz tmp/pewlib-0.8.0.tar.gz --markdown 20230718/p/pewlib/0.7.3-0.8.0/diff.md --exclude *.pyd
+[2023-07-18 08:14:04] INFO root fetch - processPackages [linkedin-messaging]: executing diffoscope
+[2023-07-18 08:14:04] INFO root fetch - processPackages [linkedin-messaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkedin-messaging-0.5.6.tar.gz tmp/linkedin_messaging-0.5.7.tar.gz --markdown 20230718/l/linkedin-messaging/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-07-18 08:14:04] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-07-18 08:14:04] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230717.tar.gz tmp/pyg_nightly-2.4.0.dev20230718.tar.gz --markdown 20230718/p/pyg-nightly/2.4.0.dev20230717-2.4.0.dev20230718/diff.md --exclude *.pyd
+[2023-07-18 08:14:04] INFO root fetch - processPackages [datumaro]: executing diffoscope
+[2023-07-18 08:14:04] INFO root fetch - processPackages [datumaro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datumaro-1.4.0rc2.tar.gz tmp/datumaro-1.4.0rc3.tar.gz --markdown 20230718/d/datumaro/1.4.0rc2-1.4.0rc3/diff.md --exclude *.pyd
+[2023-07-18 08:14:04] INFO root fetch - processPackages [gs2]: executing diffoscope
+[2023-07-18 08:14:04] INFO root fetch - processPackages [gs2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs2-1.1.8.tar.gz tmp/gs2-1.1.9.tar.gz --markdown 20230718/g/gs2/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-18 08:14:04] INFO root fetch - processPackages [educommon]: executing diffoscope
+[2023-07-18 08:14:04] INFO root fetch - processPackages [educommon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/educommon-2.19.3.tar.gz tmp/educommon-2.20.0.tar.gz --markdown 20230718/e/educommon/2.19.3-2.20.0/diff.md --exclude *.pyd
+[2023-07-18 08:14:04] INFO root fetch - processPackages [zhousf-lib]: executing diffoscope
+[2023-07-18 08:14:04] INFO root fetch - processPackages [zhousf-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhousf-lib-0.8.5.tar.gz tmp/zhousf-lib-0.8.6.tar.gz --markdown 20230718/z/zhousf-lib/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-07-18 08:14:05] INFO root fetch - processPackages [cudagrad]: Remove: archive file [/home/abi/fetcher/tmp/cudagrad-0.0.18.tar.gz]
+[2023-07-18 08:14:05] INFO root fetch - processPackages [cudagrad]: Remove: archive file [/home/abi/fetcher/tmp/cudagrad-0.0.2.tar.gz]
+[2023-07-18 08:14:05] INFO root fetch - main [MainThread]: End processing [cudagrad]: success
+[2023-07-18 08:14:05] INFO root fetch - processPackages [Akatosh]: Remove: archive file [/home/abi/fetcher/tmp/Akatosh-2.1.4.tar.gz]
+[2023-07-18 08:14:05] INFO root fetch - processPackages [Akatosh]: Remove: archive file [/home/abi/fetcher/tmp/Akatosh-2.1.5.tar.gz]
+[2023-07-18 08:14:05] INFO root fetch - main [MainThread]: End processing [Akatosh]: success
+[2023-07-18 08:14:06] INFO root fetch - processPackages [pewlib]: Remove: archive file [/home/abi/fetcher/tmp/pewlib-0.7.3.tar.gz]
+[2023-07-18 08:14:06] INFO root fetch - processPackages [pewlib]: Remove: archive file [/home/abi/fetcher/tmp/pewlib-0.8.0.tar.gz]
+[2023-07-18 08:14:06] INFO root fetch - main [MainThread]: End processing [pewlib]: success
+[2023-07-18 08:14:06] INFO root fetch - processPackages [linkedin-messaging]: Remove: archive file [/home/abi/fetcher/tmp/linkedin-messaging-0.5.6.tar.gz]
+[2023-07-18 08:14:06] INFO root fetch - processPackages [linkedin-messaging]: Remove: archive file [/home/abi/fetcher/tmp/linkedin_messaging-0.5.7.tar.gz]
+[2023-07-18 08:14:06] INFO root fetch - main [MainThread]: End processing [linkedin-messaging]: success
+[2023-07-18 08:14:06] INFO root fetch - processPackages [agsconfig]: Remove: archive file [/home/abi/fetcher/tmp/agsconfig-0.2.7-py2.py3-none-any.whl.zip]
+[2023-07-18 08:14:06] INFO root fetch - processPackages [agsconfig]: Remove: archive file [/home/abi/fetcher/tmp/agsconfig-0.2.8-py2.py3-none-any.whl.zip]
+[2023-07-18 08:14:06] INFO root fetch - main [MainThread]: End processing [agsconfig]: success
+[2023-07-18 08:14:07] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.8.5.tar.gz]
+[2023-07-18 08:14:07] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.8.6.tar.gz]
+[2023-07-18 08:14:07] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
+[2023-07-18 08:14:07] INFO root fetch - processPackages [educommon]: Remove: archive file [/home/abi/fetcher/tmp/educommon-2.19.3.tar.gz]
+[2023-07-18 08:14:07] INFO root fetch - processPackages [educommon]: Remove: archive file [/home/abi/fetcher/tmp/educommon-2.20.0.tar.gz]
+[2023-07-18 08:14:07] INFO root fetch - main [MainThread]: End processing [educommon]: success
+[2023-07-18 08:14:08] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.8.tar.gz]
+[2023-07-18 08:14:08] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.9.tar.gz]
+[2023-07-18 08:14:08] INFO root fetch - main [MainThread]: End processing [gs2]: success
+[2023-07-18 08:14:08] INFO root fetch - processPackages [datumaro]: Remove: archive file [/home/abi/fetcher/tmp/datumaro-1.4.0rc2.tar.gz]
+[2023-07-18 08:14:08] INFO root fetch - processPackages [datumaro]: Remove: archive file [/home/abi/fetcher/tmp/datumaro-1.4.0rc3.tar.gz]
+[2023-07-18 08:14:08] INFO root fetch - main [MainThread]: End processing [datumaro]: success
+[2023-07-18 08:14:08] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230717.tar.gz]
+[2023-07-18 08:14:08] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230718.tar.gz]
+[2023-07-18 08:14:08] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-07-18 08:14:08] INFO root fetch - main [MainThread]: Store serial: [18929009]
