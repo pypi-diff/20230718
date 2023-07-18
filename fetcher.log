@@ -18176,3 +18176,93 @@
 [2023-07-18 10:05:36] INFO root fetch - processPackages [m3-ui]: Remove: archive file [/home/abi/fetcher/tmp/m3-ui-3.0.1.6.tar.gz]
 [2023-07-18 10:05:36] INFO root fetch - main [MainThread]: End processing [m3-ui]: success
 [2023-07-18 10:05:36] INFO root fetch - main [MainThread]: Store serial: [18930075]
+[2023-07-18 10:10:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18930075]
+[2023-07-18 10:10:45] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-18 10:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py3seed
+[2023-07-18 10:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smartdash
+[2023-07-18 10:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: frictionless
+[2023-07-18 10:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: uvicorn
+[2023-07-18 10:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TinetApiRequest
+[2023-07-18 10:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oarepo-ui
+[2023-07-18 10:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyglove
+[2023-07-18 10:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pc-ble-driver-py-com
+[2023-07-18 10:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sysplant
+[2023-07-18 10:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: timedctl
+[2023-07-18 10:10:46] INFO root fetch - processPackages [pyglove]: New version: [0.4.1.dev20230717] Old Version: [0.4.1.dev20230716]
+[2023-07-18 10:10:46] INFO root fetch - processPackages [uvicorn]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-18 10:10:46] INFO root fetch - processPackages [oarepo-ui]: New version: [5.0.9] Old Version: [5.0.8]
+[2023-07-18 10:10:46] WARNING root fetch - processPackages [timedctl]: Skipping, unable to determine old version
+[2023-07-18 10:10:46] INFO root fetch - processPackages [timedctl]: Start processing: miauw-base-service
+[2023-07-18 10:10:46] INFO root fetch - main [MainThread]: End processing [timedctl] error
+[2023-07-18 10:10:46] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/9f/51/e287da74c1d475df916f8fec41ea71c1f8ffb66e2f5e250f59f428de19da/pyglove-0.4.1.dev20230716.tar.gz
+[2023-07-18 10:10:46] INFO root fetch - processPackages [smartdash]: New version: [0.0.1.dev7] Old Version: [0.0.1.dev6]
+[2023-07-18 10:10:46] INFO root fetch - processPackages [miauw-base-service]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-18 10:10:46] WARNING root fetch - processPackages [pc-ble-driver-py-com]: Skipping, unable to determine old version
+[2023-07-18 10:10:46] INFO root fetch - processPackages [pc-ble-driver-py-com]: Start processing: python-rdma-qe
+[2023-07-18 10:10:46] INFO root fetch - main [MainThread]: End processing [pc-ble-driver-py-com] error
+[2023-07-18 10:10:46] INFO root fetch - processPackages [sysplant]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-07-18 10:10:46] WARNING root fetch - processPackages [TinetApiRequest]: Skipping, unable to determine old version
+[2023-07-18 10:10:46] INFO root fetch - main [MainThread]: End processing [TinetApiRequest] error
+[2023-07-18 10:10:46] INFO root fetch - processPackages [py3seed]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-18 10:10:46] INFO root fetch - processPackages [frictionless]: New version: [5.8.3] Old Version: [5.8.2]
+[2023-07-18 10:10:46] INFO root fetch - processPackages [oarepo-ui]: Downloading https://files.pythonhosted.org/packages/49/3c/5d87e2fb479ef282c83cc818b68215fe52a28115915aa8288ecf89dd107c/oarepo-ui-5.0.8.tar.gz
+[2023-07-18 10:10:46] INFO root fetch - processPackages [miauw-base-service]: Downloading https://files.pythonhosted.org/packages/4f/c3/b9b91431008109f78e5abdeee800a1146dbd4a39ae17acbf27b429c85b4f/miauw-base-service-1.9.0.tar.gz
+[2023-07-18 10:10:46] INFO root fetch - processPackages [python-rdma-qe]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 10:10:46] INFO root fetch - processPackages [uvicorn]: Downloading https://files.pythonhosted.org/packages/5a/a9/2ab492155d9b76cf109c2370e201822ba3c7f4aed85f5a1b4d22907e7206/uvicorn-0.9.0.tar.gz
+[2023-07-18 10:10:46] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/a0/c8/dd3781830fbbf785f8026c835335603b722a12b32cf559be4306dc463303/py3seed-0.1.7.tar.gz
+[2023-07-18 10:10:46] INFO root fetch - processPackages [smartdash]: Downloading https://files.pythonhosted.org/packages/2d/47/1de7ce26984fb34ab4b98505e62ea547ccf1a719cc111412a2c212950f82/smartdash-0.0.1.dev6.tar.gz
+[2023-07-18 10:10:46] INFO root fetch - processPackages [sysplant]: Downloading https://files.pythonhosted.org/packages/1d/c1/c8fbfc83b42a32b0d62b903a5979a34825d1bde50627a22c056a8b12ff76/sysplant-0.1.4.tar.gz
+[2023-07-18 10:10:46] INFO root fetch - processPackages [frictionless]: Downloading https://files.pythonhosted.org/packages/64/ee/14733c5b1fcd9a121c750af080aa978bfe1e801a9de882afa8cfe53382a6/frictionless-5.8.2.tar.gz
+[2023-07-18 10:10:46] INFO root fetch - processPackages [miauw-base-service]: Downloading https://files.pythonhosted.org/packages/a6/27/0a078dc32fe889feef14ef5de9cac60772f9a3845acbb47c169462bf06ba/miauw-base-service-1.9.1.tar.gz
+[2023-07-18 10:10:46] INFO root fetch - processPackages [oarepo-ui]: Downloading https://files.pythonhosted.org/packages/3f/5a/7fecedd4e7c29ba8d68233c490b8b3e39ffb36289b9fbb4183058fc02342/oarepo-ui-5.0.9.tar.gz
+[2023-07-18 10:10:46] INFO root fetch - processPackages [miauw-base-service]: executing diffoscope
+[2023-07-18 10:10:46] INFO root fetch - processPackages [miauw-base-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miauw-base-service-1.9.0.tar.gz tmp/miauw-base-service-1.9.1.tar.gz --markdown 20230718/m/miauw-base-service/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-18 10:10:46] INFO root fetch - processPackages [python-rdma-qe]: Downloading https://files.pythonhosted.org/packages/17/f0/097cb8c4d3278466f5d7adca53b6c22246dba9a88c6996b40d70b1594c4b/python_rdma_qe-0.0.8.tar.gz
+[2023-07-18 10:10:46] INFO root fetch - processPackages [uvicorn]: Downloading https://files.pythonhosted.org/packages/37/b6/ceaccbf4af91bb6331ef8818fd845b3370fdca178f29b1d253406a284219/uvicorn-0.9.1.tar.gz
+[2023-07-18 10:10:46] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/b0/6c/50b97e495c98217e4247a2dd6ca4af2d5d8ca0f2c8b796528fd48b2060f3/pyglove-0.4.1.dev20230717.tar.gz
+[2023-07-18 10:10:46] INFO root fetch - processPackages [smartdash]: Downloading https://files.pythonhosted.org/packages/a2/ed/4e3e46fc03d50591ec4fe69a3d77b3845df5ab7964671a750c3bda45c124/smartdash-0.0.1.dev7.tar.gz
+[2023-07-18 10:10:46] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/31/7e/4c554f5e5f72dd899ccdc9191192045cfd5a12713a763ad527bf796d1dc5/py3seed-0.1.8.tar.gz
+[2023-07-18 10:10:46] INFO root fetch - processPackages [sysplant]: Downloading https://files.pythonhosted.org/packages/d2/67/ad8054fc73a97bd1bea9233982286189e82a1e648257bb64a6b5d122430a/sysplant-0.2.0.tar.gz
+[2023-07-18 10:10:47] INFO root fetch - processPackages [oarepo-ui]: executing diffoscope
+[2023-07-18 10:10:47] INFO root fetch - processPackages [oarepo-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-ui-5.0.8.tar.gz tmp/oarepo-ui-5.0.9.tar.gz --markdown 20230718/o/oarepo-ui/5.0.8-5.0.9/diff.md --exclude *.pyd
+[2023-07-18 10:10:47] INFO root fetch - processPackages [smartdash]: executing diffoscope
+[2023-07-18 10:10:47] INFO root fetch - processPackages [smartdash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartdash-0.0.1.dev6.tar.gz tmp/smartdash-0.0.1.dev7.tar.gz --markdown 20230718/s/smartdash/0.0.1.dev6-0.0.1.dev7/diff.md --exclude *.pyd
+[2023-07-18 10:10:47] INFO root fetch - processPackages [uvicorn]: executing diffoscope
+[2023-07-18 10:10:47] INFO root fetch - processPackages [uvicorn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uvicorn-0.9.0.tar.gz tmp/uvicorn-0.9.1.tar.gz --markdown 20230718/u/uvicorn/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-18 10:10:47] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-07-18 10:10:47] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.1.dev20230716.tar.gz tmp/pyglove-0.4.1.dev20230717.tar.gz --markdown 20230718/p/pyglove/0.4.1.dev20230716-0.4.1.dev20230717/diff.md --exclude *.pyd
+[2023-07-18 10:10:47] INFO root fetch - processPackages [py3seed]: executing diffoscope
+[2023-07-18 10:10:47] INFO root fetch - processPackages [py3seed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3seed-0.1.7.tar.gz tmp/py3seed-0.1.8.tar.gz --markdown 20230718/p/py3seed/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-18 10:10:47] INFO root fetch - processPackages [python-rdma-qe]: Downloading https://files.pythonhosted.org/packages/d0/76/8818287b11cd5aa99bcf0fc9ab7ab61b8c717dbd537c792caa59d09826e9/python_rdma_qe-0.0.9.tar.gz
+[2023-07-18 10:10:47] INFO root fetch - processPackages [sysplant]: executing diffoscope
+[2023-07-18 10:10:47] INFO root fetch - processPackages [sysplant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sysplant-0.1.4.tar.gz tmp/sysplant-0.2.0.tar.gz --markdown 20230718/s/sysplant/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-07-18 10:10:47] INFO root fetch - processPackages [frictionless]: Downloading https://files.pythonhosted.org/packages/90/d2/f85c7cedee239a748294362c4c36984bc70e846a057ecc7f4ed136298a34/frictionless-5.8.3.tar.gz
+[2023-07-18 10:10:47] INFO root fetch - processPackages [miauw-base-service]: Remove: archive file [/home/abi/fetcher/tmp/miauw-base-service-1.9.0.tar.gz]
+[2023-07-18 10:10:47] INFO root fetch - processPackages [miauw-base-service]: Remove: archive file [/home/abi/fetcher/tmp/miauw-base-service-1.9.1.tar.gz]
+[2023-07-18 10:10:47] INFO root fetch - main [MainThread]: End processing [miauw-base-service]: success
+[2023-07-18 10:10:47] INFO root fetch - processPackages [frictionless]: executing diffoscope
+[2023-07-18 10:10:47] INFO root fetch - processPackages [frictionless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frictionless-5.8.2.tar.gz tmp/frictionless-5.8.3.tar.gz --markdown 20230718/f/frictionless/5.8.2-5.8.3/diff.md --exclude *.pyd
+[2023-07-18 10:10:47] WARNING root fetch - processPackages [python-rdma-qe]: Skipping package: exceeds size limit 14063526>=10485760
+[2023-07-18 10:10:47] INFO root fetch - main [MainThread]: End processing [python-rdma-qe] error
+[2023-07-18 10:10:48] INFO root fetch - processPackages [smartdash]: Remove: archive file [/home/abi/fetcher/tmp/smartdash-0.0.1.dev6.tar.gz]
+[2023-07-18 10:10:48] INFO root fetch - processPackages [smartdash]: Remove: archive file [/home/abi/fetcher/tmp/smartdash-0.0.1.dev7.tar.gz]
+[2023-07-18 10:10:48] INFO root fetch - main [MainThread]: End processing [smartdash]: success
+[2023-07-18 10:10:48] INFO root fetch - processPackages [oarepo-ui]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-ui-5.0.8.tar.gz]
+[2023-07-18 10:10:48] INFO root fetch - processPackages [oarepo-ui]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-ui-5.0.9.tar.gz]
+[2023-07-18 10:10:48] INFO root fetch - main [MainThread]: End processing [oarepo-ui]: success
+[2023-07-18 10:10:48] INFO root fetch - processPackages [sysplant]: Remove: archive file [/home/abi/fetcher/tmp/sysplant-0.1.4.tar.gz]
+[2023-07-18 10:10:48] INFO root fetch - processPackages [sysplant]: Remove: archive file [/home/abi/fetcher/tmp/sysplant-0.2.0.tar.gz]
+[2023-07-18 10:10:48] INFO root fetch - main [MainThread]: End processing [sysplant]: success
+[2023-07-18 10:10:48] INFO root fetch - processPackages [uvicorn]: Remove: archive file [/home/abi/fetcher/tmp/uvicorn-0.9.0.tar.gz]
+[2023-07-18 10:10:48] INFO root fetch - processPackages [uvicorn]: Remove: archive file [/home/abi/fetcher/tmp/uvicorn-0.9.1.tar.gz]
+[2023-07-18 10:10:48] INFO root fetch - main [MainThread]: End processing [uvicorn]: success
+[2023-07-18 10:10:48] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.1.7.tar.gz]
+[2023-07-18 10:10:48] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.1.8.tar.gz]
+[2023-07-18 10:10:48] INFO root fetch - main [MainThread]: End processing [py3seed]: success
+[2023-07-18 10:10:49] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.1.dev20230716.tar.gz]
+[2023-07-18 10:10:49] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.1.dev20230717.tar.gz]
+[2023-07-18 10:10:49] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-07-18 10:10:50] INFO root fetch - processPackages [frictionless]: Remove: archive file [/home/abi/fetcher/tmp/frictionless-5.8.2.tar.gz]
+[2023-07-18 10:10:50] INFO root fetch - processPackages [frictionless]: Remove: archive file [/home/abi/fetcher/tmp/frictionless-5.8.3.tar.gz]
+[2023-07-18 10:10:50] INFO root fetch - main [MainThread]: End processing [frictionless]: success
+[2023-07-18 10:10:50] INFO root fetch - main [MainThread]: Store serial: [18930119]
