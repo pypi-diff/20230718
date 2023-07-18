@@ -13233,3 +13233,114 @@
 [2023-07-18 06:37:58] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.59.tar.gz]
 [2023-07-18 06:37:58] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2023-07-18 06:37:58] INFO root fetch - main [MainThread]: Store serial: [18928033]
+[2023-07-18 06:43:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18928033]
+[2023-07-18 06:43:08] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-18 06:43:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo10-addon-pos-remove-pos-category
+[2023-07-18 06:43:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: horus-media-client
+[2023-07-18 06:43:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addon-pos-picking-load
+[2023-07-18 06:43:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: m-abac-test
+[2023-07-18 06:43:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: external-user-local
+[2023-07-18 06:43:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addons-oca-pos
+[2023-07-18 06:43:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aiohomekit
+[2023-07-18 06:43:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: documentdataextraction
+[2023-07-18 06:43:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo12-addon-product-secondary-unit
+[2023-07-18 06:43:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sdock
+[2023-07-18 06:43:08] INFO root fetch - processPackages [horus-media-client]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-18 06:43:08] INFO root fetch - processPackages [m-abac-test]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-18 06:43:08] INFO root fetch - processPackages [external-user-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 06:43:08] INFO root fetch - processPackages [odoo12-addon-pos-picking-load]: New version: [12.0.1.0.3.99.dev3] Old Version: [12.0.1.0.3.99.dev2]
+[2023-07-18 06:43:08] INFO root fetch - processPackages [odoo10-addon-pos-remove-pos-category]: New version: [10.0.2.0.1.99.dev2] Old Version: [10.0.2.0.1.99.dev1]
+[2023-07-18 06:43:08] INFO root fetch - processPackages [odoo-addons-oca-pos]: New version: [16.0.20230717.0] Old Version: [16.0.20230627.0]
+[2023-07-18 06:43:08] INFO root fetch - processPackages [sdock]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-18 06:43:08] INFO root fetch - processPackages [odoo12-addon-product-secondary-unit]: New version: [12.0.1.0.0.99.dev9] Old Version: [12.0.1.0.0.99.dev7]
+[2023-07-18 06:43:08] INFO root fetch - processPackages [documentdataextraction]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-18 06:43:08] INFO root fetch - processPackages [aiohomekit]: New version: [2.6.8] Old Version: [2.6.7]
+[2023-07-18 06:43:08] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/09/9a/5bf7c99a4b14d4ee9166517fc845f8ac1538097fb087c74e2055722d9a66/m-abac-test-1.0.8.tar.gz
+[2023-07-18 06:43:08] INFO root fetch - processPackages [sdock]: Downloading https://files.pythonhosted.org/packages/41/ee/21a196c7677db2662eda40c9eec68cc25f925d35f8961226cfbf3ee9a7cb/sdock-0.1.8.tar.gz
+[2023-07-18 06:43:08] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/1a/e4/1e85519ce247c6ed7c20e6c47ef38f5c09cf919ff231bf453cc23a1f0ba0/documentdataextraction-0.0.8-py3-none-any.whl
+[2023-07-18 06:43:08] INFO root fetch - processPackages [horus-media-client]: Downloading https://files.pythonhosted.org/packages/89/cd/2ad0ad6b42b9ce66a559f65b75b2794088d7f62fb877af00d30ad298d2de/horus-media-client-0.9.5.tar.gz
+[2023-07-18 06:43:08] INFO root fetch - processPackages [external-user-local]: Downloading https://files.pythonhosted.org/packages/86/30/b540313993796f3f2d485b43bfe07512777aa124a848f52f01c45115413f/External-User-Local-0.0.8.tar.gz
+[2023-07-18 06:43:08] INFO root fetch - processPackages [odoo-addons-oca-pos]: Downloading https://files.pythonhosted.org/packages/95/44/0419c6f702832e8c10b2fe9323a3e27b858463cb2f3079dba1ce23f212d2/odoo_addons_oca_pos-16.0.20230627.0-py3-none-any.whl
+[2023-07-18 06:43:08] INFO root fetch - processPackages [odoo12-addon-pos-picking-load]: Downloading https://files.pythonhosted.org/packages/41/d7/6b86bd92d5f47fc7a5a962232149d33a61697cb5e2dc30e7d53b07227ccc/odoo12_addon_pos_picking_load-12.0.1.0.3.99.dev2-py3-none-any.whl
+[2023-07-18 06:43:08] INFO root fetch - processPackages [odoo10-addon-pos-remove-pos-category]: Downloading https://files.pythonhosted.org/packages/1f/ff/f5449d86f52c01b7240b176a045778e76902dd77d834493d31a876efbace/odoo10_addon_pos_remove_pos_category-10.0.2.0.1.99.dev1-py2-none-any.whl
+[2023-07-18 06:43:08] INFO root fetch - processPackages [aiohomekit]: Downloading https://files.pythonhosted.org/packages/70/50/17b9749bc4a1ab191a612057ec0a3c2abbcb31f4e48cc63a355db606b619/aiohomekit-2.6.7.tar.gz
+[2023-07-18 06:43:08] INFO root fetch - processPackages [odoo12-addon-product-secondary-unit]: Downloading https://files.pythonhosted.org/packages/24/3a/3483a630d12c6004125cff87d538b640628f0805701a01c530f8ef3f08c1/odoo12_addon_product_secondary_unit-12.0.1.0.0.99.dev7-py3-none-any.whl
+[2023-07-18 06:43:09] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/a9/d3/8329e6fc7756f703d2c923a04aa565e40a644e0fc7782f2737812aa123a6/m-abac-test-1.0.9.tar.gz
+[2023-07-18 06:43:09] INFO root fetch - processPackages [sdock]: Downloading https://files.pythonhosted.org/packages/45/a7/929bd031aeedd6564b477e14caa297078664bb434accb97d098c6ee76c94/sdock-0.1.9.tar.gz
+[2023-07-18 06:43:09] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/b3/ec/eb9901e48d02bee04847cd1afe0c6b8ca7231d1a8b133261a63ae052f777/documentdataextraction-0.0.9-py3-none-any.whl
+[2023-07-18 06:43:09] INFO root fetch - processPackages [m-abac-test]: executing diffoscope
+[2023-07-18 06:43:09] INFO root fetch - processPackages [m-abac-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m-abac-test-1.0.8.tar.gz tmp/m-abac-test-1.0.9.tar.gz --markdown 20230718/m/m-abac-test/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-18 06:43:09] INFO root fetch - processPackages [sdock]: executing diffoscope
+[2023-07-18 06:43:09] INFO root fetch - processPackages [sdock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdock-0.1.8.tar.gz tmp/sdock-0.1.9.tar.gz --markdown 20230718/s/sdock/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-18 06:43:09] INFO root fetch - processPackages [external-user-local]: Downloading https://files.pythonhosted.org/packages/ce/14/fcd112d1522df4a9951f08cb9c7f39637dd2b6ea155db31d46d9df347f21/External-user-local-0.0.9.tar.gz
+[2023-07-18 06:43:09] INFO root fetch - processPackages [odoo-addons-oca-pos]: Downloading https://files.pythonhosted.org/packages/26/ba/827aa856695ea5f3e68397e5d7ef7d4c4fe1984bdad04f7bea332df3056d/odoo_addons_oca_pos-16.0.20230717.0-py3-none-any.whl
+[2023-07-18 06:43:09] INFO root fetch - processPackages [documentdataextraction]: executing diffoscope
+[2023-07-18 06:43:09] INFO root fetch - processPackages [documentdataextraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip --markdown 20230718/d/documentdataextraction/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 06:43:09] INFO root fetch - processPackages [horus-media-client]: Downloading https://files.pythonhosted.org/packages/4c/e8/e66cecca6c548d0642f7fd03afeb05e5f70f96855750dd4015207822bb9f/horus-media-client-0.9.6.tar.gz
+[2023-07-18 06:43:09] INFO root fetch - processPackages [odoo10-addon-pos-remove-pos-category]: Downloading https://files.pythonhosted.org/packages/c2/43/ba7101ced36e6934a9053c304822ea197bd64399a8011cc5fe63cf1b0187/odoo10_addon_pos_remove_pos_category-10.0.2.0.1.99.dev2-py2-none-any.whl
+[2023-07-18 06:43:09] INFO root fetch - processPackages [aiohomekit]: Downloading https://files.pythonhosted.org/packages/65/96/4d8b38121d10fccc163a3a2c9427904ba4acbc687c4ff074ea9d3a046599/aiohomekit-2.6.8.tar.gz
+[2023-07-18 06:43:09] INFO root fetch - processPackages [odoo12-addon-pos-picking-load]: Downloading https://files.pythonhosted.org/packages/e6/12/82eda999936b1ea6d9973cb5f7a92f4592f2e422610453ef8045147a63fa/odoo12_addon_pos_picking_load-12.0.1.0.3.99.dev3-py3-none-any.whl
+[2023-07-18 06:43:09] INFO root fetch - processPackages [external-user-local]: executing diffoscope
+[2023-07-18 06:43:09] INFO root fetch - processPackages [external-user-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/External-User-Local-0.0.8.tar.gz tmp/External-user-local-0.0.9.tar.gz --markdown 20230718/e/external-user-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-18 06:43:09] INFO root fetch - processPackages [odoo-addons-oca-pos]: executing diffoscope
+[2023-07-18 06:43:09] INFO root fetch - processPackages [odoo-addons-oca-pos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_pos-16.0.20230627.0-py3-none-any.whl.zip tmp/odoo_addons_oca_pos-16.0.20230717.0-py3-none-any.whl.zip --markdown 20230718/o/odoo-addons-oca-pos/16.0.20230627.0-16.0.20230717.0/diff.md --exclude *.pyd
+[2023-07-18 06:43:09] INFO root fetch - processPackages [odoo12-addon-product-secondary-unit]: Downloading https://files.pythonhosted.org/packages/0c/c5/08b5bb09eeeeaa9848c1b8c0b17b0d748aff7f8eaae773bd1dd9352fbc3c/odoo12_addon_product_secondary_unit-12.0.1.0.0.99.dev9-py3-none-any.whl
+[2023-07-18 06:43:09] INFO root fetch - processPackages [odoo10-addon-pos-remove-pos-category]: executing diffoscope
+[2023-07-18 06:43:09] INFO root fetch - processPackages [odoo10-addon-pos-remove-pos-category]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_pos_remove_pos_category-10.0.2.0.1.99.dev1-py2-none-any.whl.zip tmp/odoo10_addon_pos_remove_pos_category-10.0.2.0.1.99.dev2-py2-none-any.whl.zip --markdown 20230718/o/odoo10-addon-pos-remove-pos-category/10.0.2.0.1.99.dev1-10.0.2.0.1.99.dev2/diff.md --exclude *.pyd
+[2023-07-18 06:43:09] INFO root fetch - processPackages [horus-media-client]: executing diffoscope
+[2023-07-18 06:43:09] INFO root fetch - processPackages [horus-media-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/horus-media-client-0.9.5.tar.gz tmp/horus-media-client-0.9.6.tar.gz --markdown 20230718/h/horus-media-client/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-18 06:43:09] INFO root fetch - processPackages [aiohomekit]: executing diffoscope
+[2023-07-18 06:43:09] INFO root fetch - processPackages [aiohomekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiohomekit-2.6.7.tar.gz tmp/aiohomekit-2.6.8.tar.gz --markdown 20230718/a/aiohomekit/2.6.7-2.6.8/diff.md --exclude *.pyd
+[2023-07-18 06:43:09] INFO root fetch - processPackages [odoo12-addon-pos-picking-load]: executing diffoscope
+[2023-07-18 06:43:09] INFO root fetch - processPackages [odoo12-addon-pos-picking-load]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_pos_picking_load-12.0.1.0.3.99.dev2-py3-none-any.whl.zip tmp/odoo12_addon_pos_picking_load-12.0.1.0.3.99.dev3-py3-none-any.whl.zip --markdown 20230718/o/odoo12-addon-pos-picking-load/12.0.1.0.3.99.dev2-12.0.1.0.3.99.dev3/diff.md --exclude *.pyd
+[2023-07-18 06:43:09] INFO root fetch - processPackages [odoo12-addon-product-secondary-unit]: executing diffoscope
+[2023-07-18 06:43:09] INFO root fetch - processPackages [odoo12-addon-product-secondary-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_product_secondary_unit-12.0.1.0.0.99.dev7-py3-none-any.whl.zip tmp/odoo12_addon_product_secondary_unit-12.0.1.0.0.99.dev9-py3-none-any.whl.zip --markdown 20230718/o/odoo12-addon-product-secondary-unit/12.0.1.0.0.99.dev7-12.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-07-18 06:43:10] INFO root fetch - processPackages [sdock]: Remove: archive file [/home/abi/fetcher/tmp/sdock-0.1.8.tar.gz]
+[2023-07-18 06:43:10] INFO root fetch - processPackages [sdock]: Remove: archive file [/home/abi/fetcher/tmp/sdock-0.1.9.tar.gz]
+[2023-07-18 06:43:10] INFO root fetch - processPackages [sdock]: Start processing: nonebot-plugin-cave
+[2023-07-18 06:43:10] INFO root fetch - main [MainThread]: End processing [sdock]: success
+[2023-07-18 06:43:10] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip]
+[2023-07-18 06:43:10] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip]
+[2023-07-18 06:43:10] INFO root fetch - processPackages [documentdataextraction]: Start processing: odoo14-addon-product-secondary-unit
+[2023-07-18 06:43:10] INFO root fetch - main [MainThread]: End processing [documentdataextraction]: success
+[2023-07-18 06:43:10] INFO root fetch - processPackages [nonebot-plugin-cave]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-18 06:43:10] INFO root fetch - processPackages [nonebot-plugin-cave]: Downloading https://files.pythonhosted.org/packages/e1/bc/2d0fb2d5e586bec5ae0ad36093fdf5ec423fd3d07bed539a9960343ecb69/nonebot_plugin_cave-1.1.8.tar.gz
+[2023-07-18 06:43:10] INFO root fetch - processPackages [odoo14-addon-product-secondary-unit]: New version: [14.0.1.0.4.dev9] Old Version: [14.0.1.0.4.dev7]
+[2023-07-18 06:43:11] INFO root fetch - processPackages [odoo-addons-oca-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_pos-16.0.20230627.0-py3-none-any.whl.zip]
+[2023-07-18 06:43:11] INFO root fetch - processPackages [odoo-addons-oca-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_pos-16.0.20230717.0-py3-none-any.whl.zip]
+[2023-07-18 06:43:11] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-pos]: success
+[2023-07-18 06:43:11] INFO root fetch - processPackages [external-user-local]: Remove: archive file [/home/abi/fetcher/tmp/External-User-Local-0.0.8.tar.gz]
+[2023-07-18 06:43:11] INFO root fetch - processPackages [external-user-local]: Remove: archive file [/home/abi/fetcher/tmp/External-user-local-0.0.9.tar.gz]
+[2023-07-18 06:43:11] INFO root fetch - main [MainThread]: End processing [external-user-local]: success
+[2023-07-18 06:43:11] INFO root fetch - processPackages [nonebot-plugin-cave]: Downloading https://files.pythonhosted.org/packages/15/ed/af65e818e8c18d4f00c8f5972692c556a2043b9a6ce15e07b56926a16bd5/nonebot_plugin_cave-1.1.9.tar.gz
+[2023-07-18 06:43:11] INFO root fetch - processPackages [odoo14-addon-product-secondary-unit]: Downloading https://files.pythonhosted.org/packages/2f/92/917dd54d8c77a22e37d3d22b0701bee5618303312f5f8df019cf47519e72/odoo14_addon_product_secondary_unit-14.0.1.0.4.dev7-py3-none-any.whl
+[2023-07-18 06:43:11] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.8.tar.gz]
+[2023-07-18 06:43:11] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.9.tar.gz]
+[2023-07-18 06:43:11] INFO root fetch - main [MainThread]: End processing [m-abac-test]: success
+[2023-07-18 06:43:11] INFO root fetch - processPackages [odoo10-addon-pos-remove-pos-category]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_pos_remove_pos_category-10.0.2.0.1.99.dev1-py2-none-any.whl.zip]
+[2023-07-18 06:43:11] INFO root fetch - processPackages [odoo10-addon-pos-remove-pos-category]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_pos_remove_pos_category-10.0.2.0.1.99.dev2-py2-none-any.whl.zip]
+[2023-07-18 06:43:11] INFO root fetch - main [MainThread]: End processing [odoo10-addon-pos-remove-pos-category]: success
+[2023-07-18 06:43:11] INFO root fetch - processPackages [nonebot-plugin-cave]: executing diffoscope
+[2023-07-18 06:43:11] INFO root fetch - processPackages [nonebot-plugin-cave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_cave-1.1.8.tar.gz tmp/nonebot_plugin_cave-1.1.9.tar.gz --markdown 20230718/n/nonebot-plugin-cave/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-18 06:43:11] INFO root fetch - processPackages [horus-media-client]: Remove: archive file [/home/abi/fetcher/tmp/horus-media-client-0.9.5.tar.gz]
+[2023-07-18 06:43:11] INFO root fetch - processPackages [horus-media-client]: Remove: archive file [/home/abi/fetcher/tmp/horus-media-client-0.9.6.tar.gz]
+[2023-07-18 06:43:11] INFO root fetch - main [MainThread]: End processing [horus-media-client]: success
+[2023-07-18 06:43:11] INFO root fetch - processPackages [odoo12-addon-product-secondary-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_product_secondary_unit-12.0.1.0.0.99.dev7-py3-none-any.whl.zip]
+[2023-07-18 06:43:11] INFO root fetch - processPackages [odoo12-addon-product-secondary-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_product_secondary_unit-12.0.1.0.0.99.dev9-py3-none-any.whl.zip]
+[2023-07-18 06:43:11] INFO root fetch - main [MainThread]: End processing [odoo12-addon-product-secondary-unit]: success
+[2023-07-18 06:43:11] INFO root fetch - processPackages [aiohomekit]: Remove: archive file [/home/abi/fetcher/tmp/aiohomekit-2.6.7.tar.gz]
+[2023-07-18 06:43:11] INFO root fetch - processPackages [aiohomekit]: Remove: archive file [/home/abi/fetcher/tmp/aiohomekit-2.6.8.tar.gz]
+[2023-07-18 06:43:11] INFO root fetch - main [MainThread]: End processing [aiohomekit]: success
+[2023-07-18 06:43:11] INFO root fetch - processPackages [odoo14-addon-product-secondary-unit]: Downloading https://files.pythonhosted.org/packages/71/37/f9ea658bd8ee823ba8fb476707eb22946bd3bbfeb39c9504f7cd00088db4/odoo14_addon_product_secondary_unit-14.0.1.0.4.dev9-py3-none-any.whl
+[2023-07-18 06:43:11] INFO root fetch - processPackages [odoo12-addon-pos-picking-load]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_pos_picking_load-12.0.1.0.3.99.dev2-py3-none-any.whl.zip]
+[2023-07-18 06:43:11] INFO root fetch - processPackages [odoo12-addon-pos-picking-load]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_pos_picking_load-12.0.1.0.3.99.dev3-py3-none-any.whl.zip]
+[2023-07-18 06:43:11] INFO root fetch - main [MainThread]: End processing [odoo12-addon-pos-picking-load]: success
+[2023-07-18 06:43:11] INFO root fetch - processPackages [odoo14-addon-product-secondary-unit]: executing diffoscope
+[2023-07-18 06:43:11] INFO root fetch - processPackages [odoo14-addon-product-secondary-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_secondary_unit-14.0.1.0.4.dev7-py3-none-any.whl.zip tmp/odoo14_addon_product_secondary_unit-14.0.1.0.4.dev9-py3-none-any.whl.zip --markdown 20230718/o/odoo14-addon-product-secondary-unit/14.0.1.0.4.dev7-14.0.1.0.4.dev9/diff.md --exclude *.pyd
+[2023-07-18 06:43:12] INFO root fetch - processPackages [nonebot-plugin-cave]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_cave-1.1.8.tar.gz]
+[2023-07-18 06:43:12] INFO root fetch - processPackages [nonebot-plugin-cave]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_cave-1.1.9.tar.gz]
+[2023-07-18 06:43:12] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-cave]: success
+[2023-07-18 06:43:12] INFO root fetch - processPackages [odoo14-addon-product-secondary-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_secondary_unit-14.0.1.0.4.dev7-py3-none-any.whl.zip]
+[2023-07-18 06:43:12] INFO root fetch - processPackages [odoo14-addon-product-secondary-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_secondary_unit-14.0.1.0.4.dev9-py3-none-any.whl.zip]
+[2023-07-18 06:43:12] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-secondary-unit]: success
+[2023-07-18 06:43:12] INFO root fetch - main [MainThread]: Store serial: [18928065]
