@@ -17669,3 +17669,113 @@
 [2023-07-18 09:39:03] INFO root fetch - processPackages [joseki]: Remove: archive file [/home/abi/fetcher/tmp/joseki-2.2.0.tar.gz]
 [2023-07-18 09:39:03] INFO root fetch - main [MainThread]: End processing [joseki]: success
 [2023-07-18 09:39:03] INFO root fetch - main [MainThread]: Store serial: [18929779]
+[2023-07-18 09:44:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18929779]
+[2023-07-18 09:44:13] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-18 09:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BinPackerPro
+[2023-07-18 09:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py3seed
+[2023-07-18 09:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: antchain-ak-743ccb6d20f546bcb851af6ce09cd478
+[2023-07-18 09:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ingenannot
+[2023-07-18 09:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gammarer.aws-ec2-auto-scaling-instance-running-scheduler
+[2023-07-18 09:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tasks-generator
+[2023-07-18 09:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo13-addon-l10n-es-ticketbai-pos
+[2023-07-18 09:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo13-addon-l10n-es-ticketbai-api
+[2023-07-18 09:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aify
+[2023-07-18 09:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: djangocms-aldryn-common
+[2023-07-18 09:44:13] INFO root fetch - processPackages [py3seed]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-18 09:44:13] WARNING root fetch - processPackages [antchain-ak-743ccb6d20f546bcb851af6ce09cd478]: Skipping, unable to determine old version
+[2023-07-18 09:44:13] INFO root fetch - processPackages [antchain-ak-743ccb6d20f546bcb851af6ce09cd478]: Start processing: checkatlas
+[2023-07-18 09:44:13] INFO root fetch - main [MainThread]: End processing [antchain-ak-743ccb6d20f546bcb851af6ce09cd478] error
+[2023-07-18 09:44:13] INFO root fetch - processPackages [odoo13-addon-l10n-es-ticketbai-api]: New version: [13.0.1.5.8] Old Version: [13.0.1.5.6]
+[2023-07-18 09:44:13] WARNING root fetch - processPackages [aify]: Skipping, unable to determine old version
+[2023-07-18 09:44:13] INFO root fetch - processPackages [aify]: Start processing: qontract-reconcile
+[2023-07-18 09:44:13] INFO root fetch - main [MainThread]: End processing [aify] error
+[2023-07-18 09:44:13] WARNING root fetch - processPackages [djangocms-aldryn-common]: Skipping, unable to determine old version
+[2023-07-18 09:44:13] INFO root fetch - processPackages [djangocms-aldryn-common]: Start processing: cenas
+[2023-07-18 09:44:13] INFO root fetch - main [MainThread]: End processing [djangocms-aldryn-common] error
+[2023-07-18 09:44:13] INFO root fetch - processPackages [odoo13-addon-l10n-es-ticketbai-pos]: New version: [13.0.1.0.4] Old Version: [13.0.1.0.3]
+[2023-07-18 09:44:13] WARNING root fetch - processPackages [BinPackerPro]: Skipping, unable to determine old version
+[2023-07-18 09:44:13] INFO root fetch - processPackages [BinPackerPro]: Start processing: learnware
+[2023-07-18 09:44:13] WARNING root fetch - processPackages [tasks-generator]: Skipping, unable to determine old version
+[2023-07-18 09:44:13] INFO root fetch - main [MainThread]: End processing [BinPackerPro] error
+[2023-07-18 09:44:13] INFO root fetch - processPackages [tasks-generator]: Start processing: pynamicui
+[2023-07-18 09:44:13] INFO root fetch - main [MainThread]: End processing [tasks-generator] error
+[2023-07-18 09:44:13] WARNING root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: Skipping, unable to determine old version
+[2023-07-18 09:44:13] INFO root fetch - processPackages [ingenannot]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-18 09:44:13] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: Start processing: ravityemaillib
+[2023-07-18 09:44:13] INFO root fetch - main [MainThread]: End processing [gammarer.aws-ec2-auto-scaling-instance-running-scheduler] error
+[2023-07-18 09:44:13] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-18 09:44:13] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/13/3e/484b3401240b103f6961ba779abbc734e645d6825943f1863c9e7ca8fec7/py3seed-0.1.4.tar.gz
+[2023-07-18 09:44:13] INFO root fetch - processPackages [checkatlas]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-18 09:44:13] INFO root fetch - processPackages [learnware]: New version: [0.1.0.dev0] Old Version: [0.1.0.99]
+[2023-07-18 09:44:13] INFO root fetch - processPackages [pynamicui]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-18 09:44:13] INFO root fetch - processPackages [cenas]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-18 09:44:13] WARNING root fetch - processPackages [ravityemaillib]: Skipping, unable to determine old version
+[2023-07-18 09:44:13] INFO root fetch - processPackages [ravityemaillib]: Start processing: polimedia-client
+[2023-07-18 09:44:13] INFO root fetch - main [MainThread]: End processing [ravityemaillib] error
+[2023-07-18 09:44:13] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-18 09:44:13] INFO root fetch - processPackages [learnware]: Downloading https://files.pythonhosted.org/packages/54/f6/135b67eed18ab7ac61bc07913e987dacedb1209e6ef42e1b0dfaa81f9f73/learnware-0.1.0.99-py3-none-any.whl
+[2023-07-18 09:44:13] INFO root fetch - processPackages [odoo13-addon-l10n-es-ticketbai-api]: Downloading https://files.pythonhosted.org/packages/bb/ed/51c7fc3dbd4b34abe905ccd0f3df859cd4542c949d3768bebbc9a42b280b/odoo13_addon_l10n_es_ticketbai_api-13.0.1.5.6-py3-none-any.whl
+[2023-07-18 09:44:13] INFO root fetch - processPackages [odoo13-addon-l10n-es-ticketbai-pos]: Downloading https://files.pythonhosted.org/packages/2a/3c/b63e5c5da3ab6503434282872a3e3ba27072157da712d2793c6b8b925a64/odoo13_addon_l10n_es_ticketbai_pos-13.0.1.0.3-py3-none-any.whl
+[2023-07-18 09:44:13] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/ad/ad/8e6ac29153c6369e5cbdf21108e60070080d9d4978e3a1a5f20be7b9492b/cenas-1.1.8.tar.gz
+[2023-07-18 09:44:13] INFO root fetch - processPackages [ingenannot]: Downloading https://files.pythonhosted.org/packages/10/14/15d8f6266b646779dcc1aaf2c68f38233594e11bf827d7ad7308f33b43b4/ingenannot-0.0.7.tar.gz
+[2023-07-18 09:44:13] INFO root fetch - processPackages [polimedia-client]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-18 09:44:13] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/83/6f/f4fb1f1f9e9863ad27c4aa0b6a26006ae0200b10e979011f236f4924724b/checkatlas-0.3.3.tar.gz
+[2023-07-18 09:44:13] INFO root fetch - processPackages [pynamicui]: Downloading https://files.pythonhosted.org/packages/67/c5/cd54849af72bd53752ce892b01795291f73b296e0785220f8d26cb8c83f7/pynamicui-0.0.1.tar.gz
+[2023-07-18 09:44:13] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/5e/97/0b0eae5fa209065936cb5bc25a75028453270546a8755adf789d4c01d8c3/py3seed-0.1.5.tar.gz
+[2023-07-18 09:44:14] ERROR root fetch - processPackages [learnware]: Unable to fetch info: No such project/version 'learnware' 0.1.0.dev0
+[2023-07-18 09:44:14] INFO root fetch - main [MainThread]: End processing [learnware] error
+[2023-07-18 09:44:14] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-18 09:44:14] INFO root fetch - processPackages [polimedia-client]: Downloading https://files.pythonhosted.org/packages/76/7d/53d733f61768e3bc1cef58cf51488498c0731578be429b04f9f74526ad2c/polimedia_client-0.0.2.tar.gz
+[2023-07-18 09:44:14] INFO root fetch - processPackages [py3seed]: executing diffoscope
+[2023-07-18 09:44:14] INFO root fetch - processPackages [py3seed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3seed-0.1.4.tar.gz tmp/py3seed-0.1.5.tar.gz --markdown 20230718/p/py3seed/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-18 09:44:14] INFO root fetch - processPackages [ingenannot]: Downloading https://files.pythonhosted.org/packages/ac/9f/539d4f1e629ab10909e2b7210cb536f4cc16a1dbd3700231449748752209/ingenannot-0.0.8.tar.gz
+[2023-07-18 09:44:14] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/37/ba/9662c92e6a20bfb5bcfc4f81bef895566ee63c5d4018c2cae825c1c94e21/cenas-1.1.9.tar.gz
+[2023-07-18 09:44:14] INFO root fetch - processPackages [pynamicui]: Downloading https://files.pythonhosted.org/packages/cf/d0/4f7b768652b04c6edb8a553eb1f134575d386641277740bb7caf3709adff/pynamicui-0.0.2.tar.gz
+[2023-07-18 09:44:14] INFO root fetch - processPackages [odoo13-addon-l10n-es-ticketbai-pos]: Downloading https://files.pythonhosted.org/packages/7b/2f/160eb9eff7b2c11fbae669f551fd80044075e98ef0e8974d38752430690e/odoo13_addon_l10n_es_ticketbai_pos-13.0.1.0.4-py3-none-any.whl
+[2023-07-18 09:44:14] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/06/64/c7ae98e8a47640e1d18750b528ef197b4033f3ab150a0368cbe1e548e213/checkatlas-0.3.4.tar.gz
+[2023-07-18 09:44:14] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-18 09:44:14] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230718/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-18 09:44:14] INFO root fetch - processPackages [cenas]: executing diffoscope
+[2023-07-18 09:44:14] INFO root fetch - processPackages [cenas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cenas-1.1.8.tar.gz tmp/cenas-1.1.9.tar.gz --markdown 20230718/c/cenas/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-18 09:44:14] INFO root fetch - processPackages [pynamicui]: executing diffoscope
+[2023-07-18 09:44:14] INFO root fetch - processPackages [pynamicui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynamicui-0.0.1.tar.gz tmp/pynamicui-0.0.2.tar.gz --markdown 20230718/p/pynamicui/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-18 09:44:14] INFO root fetch - processPackages [polimedia-client]: Downloading https://files.pythonhosted.org/packages/61/b4/d50d6b2aef7de709274a9ef38e456fae66a8a590bfc52071fc1f04f2cf48/polimedia_client-0.0.3.tar.gz
+[2023-07-18 09:44:14] INFO root fetch - processPackages [odoo13-addon-l10n-es-ticketbai-pos]: executing diffoscope
+[2023-07-18 09:44:14] INFO root fetch - processPackages [odoo13-addon-l10n-es-ticketbai-pos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_l10n_es_ticketbai_pos-13.0.1.0.3-py3-none-any.whl.zip tmp/odoo13_addon_l10n_es_ticketbai_pos-13.0.1.0.4-py3-none-any.whl.zip --markdown 20230718/o/odoo13-addon-l10n-es-ticketbai-pos/13.0.1.0.3-13.0.1.0.4/diff.md --exclude *.pyd
+[2023-07-18 09:44:14] INFO root fetch - processPackages [checkatlas]: executing diffoscope
+[2023-07-18 09:44:14] INFO root fetch - processPackages [checkatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkatlas-0.3.3.tar.gz tmp/checkatlas-0.3.4.tar.gz --markdown 20230718/c/checkatlas/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-18 09:44:14] INFO root fetch - processPackages [ingenannot]: executing diffoscope
+[2023-07-18 09:44:14] INFO root fetch - processPackages [ingenannot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ingenannot-0.0.7.tar.gz tmp/ingenannot-0.0.8.tar.gz --markdown 20230718/i/ingenannot/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-18 09:44:14] INFO root fetch - processPackages [odoo13-addon-l10n-es-ticketbai-api]: Downloading https://files.pythonhosted.org/packages/a7/14/0285034755333a6d0ec8ceb3cd948f598c7dd83e84a3336339ef02125f5b/odoo13_addon_l10n_es_ticketbai_api-13.0.1.5.8-py3-none-any.whl
+[2023-07-18 09:44:14] INFO root fetch - processPackages [polimedia-client]: executing diffoscope
+[2023-07-18 09:44:14] INFO root fetch - processPackages [polimedia-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polimedia_client-0.0.2.tar.gz tmp/polimedia_client-0.0.3.tar.gz --markdown 20230718/p/polimedia-client/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-18 09:44:15] INFO root fetch - processPackages [odoo13-addon-l10n-es-ticketbai-api]: executing diffoscope
+[2023-07-18 09:44:15] INFO root fetch - processPackages [odoo13-addon-l10n-es-ticketbai-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230718:/home/abi/fetcher/20230718:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_l10n_es_ticketbai_api-13.0.1.5.6-py3-none-any.whl.zip tmp/odoo13_addon_l10n_es_ticketbai_api-13.0.1.5.8-py3-none-any.whl.zip --markdown 20230718/o/odoo13-addon-l10n-es-ticketbai-api/13.0.1.5.6-13.0.1.5.8/diff.md --exclude *.pyd
+[2023-07-18 09:44:15] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.1.4.tar.gz]
+[2023-07-18 09:44:15] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.1.5.tar.gz]
+[2023-07-18 09:44:15] INFO root fetch - main [MainThread]: End processing [py3seed]: success
+[2023-07-18 09:44:15] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.8.tar.gz]
+[2023-07-18 09:44:15] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.9.tar.gz]
+[2023-07-18 09:44:15] INFO root fetch - main [MainThread]: End processing [cenas]: success
+[2023-07-18 09:44:15] INFO root fetch - processPackages [pynamicui]: Remove: archive file [/home/abi/fetcher/tmp/pynamicui-0.0.1.tar.gz]
+[2023-07-18 09:44:15] INFO root fetch - processPackages [pynamicui]: Remove: archive file [/home/abi/fetcher/tmp/pynamicui-0.0.2.tar.gz]
+[2023-07-18 09:44:15] INFO root fetch - main [MainThread]: End processing [pynamicui]: success
+[2023-07-18 09:44:16] INFO root fetch - processPackages [polimedia-client]: Remove: archive file [/home/abi/fetcher/tmp/polimedia_client-0.0.2.tar.gz]
+[2023-07-18 09:44:16] INFO root fetch - processPackages [polimedia-client]: Remove: archive file [/home/abi/fetcher/tmp/polimedia_client-0.0.3.tar.gz]
+[2023-07-18 09:44:16] INFO root fetch - main [MainThread]: End processing [polimedia-client]: success
+[2023-07-18 09:44:16] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.3.3.tar.gz]
+[2023-07-18 09:44:16] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.3.4.tar.gz]
+[2023-07-18 09:44:16] INFO root fetch - main [MainThread]: End processing [checkatlas]: success
+[2023-07-18 09:44:16] INFO root fetch - processPackages [ingenannot]: Remove: archive file [/home/abi/fetcher/tmp/ingenannot-0.0.7.tar.gz]
+[2023-07-18 09:44:16] INFO root fetch - processPackages [ingenannot]: Remove: archive file [/home/abi/fetcher/tmp/ingenannot-0.0.8.tar.gz]
+[2023-07-18 09:44:16] INFO root fetch - main [MainThread]: End processing [ingenannot]: success
+[2023-07-18 09:44:16] INFO root fetch - processPackages [odoo13-addon-l10n-es-ticketbai-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_l10n_es_ticketbai_pos-13.0.1.0.3-py3-none-any.whl.zip]
+[2023-07-18 09:44:16] INFO root fetch - processPackages [odoo13-addon-l10n-es-ticketbai-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_l10n_es_ticketbai_pos-13.0.1.0.4-py3-none-any.whl.zip]
+[2023-07-18 09:44:16] INFO root fetch - main [MainThread]: End processing [odoo13-addon-l10n-es-ticketbai-pos]: success
+[2023-07-18 09:44:16] INFO root fetch - processPackages [odoo13-addon-l10n-es-ticketbai-api]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_l10n_es_ticketbai_api-13.0.1.5.6-py3-none-any.whl.zip]
+[2023-07-18 09:44:16] INFO root fetch - processPackages [odoo13-addon-l10n-es-ticketbai-api]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_l10n_es_ticketbai_api-13.0.1.5.8-py3-none-any.whl.zip]
+[2023-07-18 09:44:16] INFO root fetch - main [MainThread]: End processing [odoo13-addon-l10n-es-ticketbai-api]: success
+[2023-07-18 09:44:17] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-18 09:44:17] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-18 09:44:17] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-18 09:44:17] INFO root fetch - main [MainThread]: Store serial: [18929842]
