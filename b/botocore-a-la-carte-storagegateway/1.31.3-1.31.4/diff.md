@@ -1,4 +1,4 @@
-# Comparing `tmp/botocore-a-la-carte-storagegateway-1.31.3.tar.gz` & `tmp/botocore_a_la_carte_storagegateway-1.31.4-py3-none-any.whl.zip`
+# Comparing `tmp/botocore-a-la-carte-storagegateway-1.31.3.tar.gz` & `tmp/botocore-a-la-carte-storagegateway-1.31.4.tar.gz`
 
 ## filetype from file(1)
 
